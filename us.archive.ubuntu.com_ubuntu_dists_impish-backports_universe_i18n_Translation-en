@@ -1,0 +1,135 @@
+Package: cockpit
+Description-md5: 24b0aa0c07779dcba10e15ca9244d9e9
+Description-en: Web Console for Linux servers
+ The Cockpit Web Console enables users to administer GNU/Linux servers using a
+ web browser.
+ .
+ It offers network configuration, log inspection, diagnostic reports, SELinux
+ troubleshooting, interactive command-line sessions, and more.
+
+Package: cockpit-bridge
+Description-md5: 34419f40043aa83e9a0fb5968fe56ce7
+Description-en: Cockpit bridge server-side component
+ The Cockpit bridge component installed server side and runs commands on
+ the system on behalf of the web based user interface.
+
+Package: cockpit-doc
+Description-md5: 917dc8f7798407683627da6ebb139a47
+Description-en: Cockpit deployment and developer guide
+ The Cockpit Deployment and Developer Guide shows sysadmins how to deploy
+ Cockpit on their machines as well as helps developers who want to embed
+ or extend Cockpit.
+
+Package: cockpit-machines
+Description-md5: 0eb6768a5275b934fab3627c568646c9
+Description-en: Cockpit user interface for virtual machines
+ The Cockpit Web Console enables users to administer GNU/Linux servers using a
+ web browser.
+ .
+ This package adds an user interface for managing virtual machines.
+ .
+ If the "virtinst" package is installed, you can also create new virtual
+ machines.
+
+Package: cockpit-networkmanager
+Description-md5: 3ec1a60ecda81a24c8267c56cf7a9a3f
+Description-en: Cockpit user interface for networking
+ The Cockpit components for interacting with networking configuration.
+
+Package: cockpit-packagekit
+Description-md5: 01ecbad973ab31bb91eb03019d4352aa
+Description-en: Cockpit user interface for packages
+ The Cockpit component for installing packages, via PackageKit.
+
+Package: cockpit-pcp
+Description-md5: 2bcebebdc8b56e2cd8c2ba8755912a8f
+Description-en: Cockpit PCP integration
+ Cockpit support for reading PCP metrics and loading PCP archives.
+
+Package: cockpit-storaged
+Description-md5: f6107ca2b49a2b554a0abcd9b73419c5
+Description-en: Cockpit user interface for storage
+ The Cockpit components for interacting with storage.
+
+Package: cockpit-system
+Description-md5: 305239ce7fcb5c6043156a1e54c69f73
+Description-en: Cockpit admin interface for a system
+ Cockpit admin interface package for configuring and
+ troubleshooting a system.
+
+Package: cockpit-tests
+Description-md5: 0b4ed46aa862cd96d493b081c605101e
+Description-en: Tests for Cockpit
+ This package contains tests and files used while testing Cockpit.
+ These files are not required for running Cockpit.
+
+Package: cockpit-ws
+Description-md5: f492a869e15f8c92004032f384bce124
+Description-en: Cockpit Web Service
+ The Cockpit Web Service listens on the network, and authenticates
+ users.
+ .
+ Install sssd-dbus for supporting client certificate/smart card authentication
+ via sssd/FreeIPA.
+
+Package: python3-ubuntutools
+Description-md5: 7e13f84ccece24b357aee792b7904beb
+Description-en: useful APIs for Ubuntu developer tools — Python 3 library
+ This package ships a collection of APIs, helpers and wrappers used to
+ develop useful utilities for Ubuntu developers.
+ .
+ This package installs the library for Python 3.
+
+Package: ubuntu-dev-tools
+Description-md5: 0e2f0ec6c44167727c60b2fad97f61de
+Description-en: useful tools for Ubuntu developers
+ This is a collection of useful tools that Ubuntu developers use to make their
+ packaging work a lot easier.
+ .
+ Such tools include:
+ .
+  - backportpackage - helper to test package backports
+  - bitesize - add the 'bitesize' tag to a bug and comment that you are
+    willing to help fix it.
+  - check-mir - check support status of build/binary dependencies
+  - check-symbols - will compare and give you a diff of the exported symbols of
+    all .so files in a binary package.
+  - dch-repeat - used to repeat a change log into an older release.
+  - grab-merge - grabs a merge from merges.ubuntu.com easily.
+  - grep-merges - search for pending merges from Debian.
+  - import-bug-from-debian - copy a bug from the Debian BTS to Launchpad
+  - merge-changelog - manually merges two Debian changelogs with the same base
+    version.
+  - mk-sbuild - script to create LVM snapshot chroots via schroot and
+    sbuild.
+  - pbuilder-dist, cowbuilder-dist - wrapper script for managing several build
+    chroots (for different Ubuntu and Debian releases) on the same system.
+  - pull-debian-debdiff - attempts to find and download a specific version of
+    a Debian package and its immediate parent to generate a debdiff.
+  - pull-debian-source - downloads the latest source package available in
+    Debian of a package.
+  - pull-lp-source - downloads source package from Launchpad.
+  - pull-lp-debs - downloads debs package(s) from Launchpad.
+  - pull-lp-ddebs - downloads dbgsym/ddebs package(s) from Launchpad.
+  - pull-lp-udebs - downloads udebs package(s) from Launchpad.
+  - pull-debian-* - same as pull-lp-* but for Debian packages.
+  - pull-uca-* - same as pull-lp-* but for Ubuntu Cloud Archive packages.
+  - pull-pkg - common script that provides above pull-* functionality.
+  - requestbackport - file a backporting request.
+  - requestsync - files a sync request with Debian changelog and rationale.
+  - reverse-depends - find the reverse dependencies (or build dependencies) of
+    a package.
+  - seeded-in-ubuntu - query if a package is safe to upload during a freeze.
+  - setup-packaging-environment - assistant to get an Ubuntu installation
+    ready for packaging work.
+  - sponsor-patch - Downloads a patch from a Launchpad bug, patches the source
+    package, and uploads it (to Ubuntu or a PPA)
+  - submittodebian - automatically send your changes to Debian as a bug report.
+  - syncpackage - helper to prepare .changes file to upload synced packages
+  - ubuntu-build - give commands to the Launchpad build daemons from the
+    command line.
+  - ubuntu-iso - output information of an Ubuntu ISO image.
+  - ubuntu-upload-permission - query / list the upload permissions for a
+    package.
+  - update-maintainer - script to update maintainer field in ubuntu packages.
+

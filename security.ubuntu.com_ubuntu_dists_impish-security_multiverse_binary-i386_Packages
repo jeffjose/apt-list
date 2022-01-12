@@ -1,0 +1,66 @@
+Package: libnvidia-extra-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.21.10.2
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Depends: libnvidia-extra-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-extra-440-server_450.156.00-0ubuntu0.21.10.2_i386.deb
+Size: 6426
+MD5sum: 45afba1273432086c2bae27b9ef948e6
+SHA1: 6e00e1566a916b4a0e4f0d3528a364262bf20e88
+SHA256: 25ec08fc78f2c475fbb4e200d82543a8c36e7abebfa423b67ea2f9004c48d419
+SHA512: 09c6c83f876fe7bbdfccdcd4f413dd61fb41d474d179f5f0ae6f83f18d2f99086fd89fdc4ee5cda21b6eda673a56a6c18a99cb017241b2f398a9c325393ff852
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-extra-450-server
+Description-md5: 6ac988d902fba392b10a5278636a1d52
+
+Package: libnvidia-extra-460
+Architecture: i386
+Version: 470.86-0ubuntu0.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-470
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Depends: libnvidia-extra-470
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-460_470.86-0ubuntu0.21.10.1_i386.deb
+Size: 7324
+MD5sum: a76d27f41e72ef71b3a5d3d492afab11
+SHA1: d10eb9316ec03973436c59b0baee845f68410103
+SHA256: 27c68940313f89053d90b2a2137e9f0a522badeebab14e99f57204d575f01a17
+SHA512: a6fd27d9a90be5c0f4e768d42aa3a533faa0c339c180c51637c2cd96a19c3a436b46bf56e206c864a2d6e0710a5619ed0c83ff5897ff50891103197ba8a3a5d4
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-extra-470
+Description-md5: b5bdf6ea212199feb2fcaa84e3791b69
+
+Package: libnvidia-extra-465
+Architecture: i386
+Version: 470.86-0ubuntu0.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-470
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 20
+Depends: libnvidia-extra-470
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-465_470.86-0ubuntu0.21.10.1_i386.deb
+Size: 7326
+MD5sum: 0f449b384dc2c63c1db8e5dc7a0b8b0f
+SHA1: 98e3115790747e5a440aa5c4799f316bd0034b7a
+SHA256: 50516a10cc22e673d655b482ff293d58174d3270ec48d40c405bce95b2d9af27
+SHA512: a316abf747553e66f0732fd44133343d3ccb48727872a537b02d95c8d2aa9e701709cb470f3f52d05c8dd195df29f884dcc3ccac5e0fbf72952ee2f8a4577f92
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-extra-470
+Description-md5: b5bdf6ea212199feb2fcaa84e3791b69
+

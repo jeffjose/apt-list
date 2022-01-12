@@ -1,0 +1,273 @@
+suite: impish-security
+component: universe
+arch: amd64
+
+
+name: apport-valgrind
+version: 2.20.11-0ubuntu71
+commands: apport-valgrind
+
+name: bluez-hcidump
+version: 5.60-0ubuntu2.1
+commands: hcidump
+
+name: bluez-meshd
+version: 5.60-0ubuntu2.1
+commands: mesh-cfgclient,meshctl
+
+name: bluez-tests
+version: 5.60-0ubuntu2.1
+commands: b1ee,bnep-tester,btvirt,gap-tester,hci-tester,hfp,l2cap-tester,mgmt-tester,rfcomm-tester,sco-tester,smp-tester,userchan-tester
+
+name: busybox
+version: 1:1.30.1-6ubuntu3.1
+commands: busybox
+
+name: caca-utils
+version: 0.99.beta19-2.2ubuntu2.1
+commands: cacaclock,cacademo,cacafire,cacaplay,cacaserver,cacaview,img2txt
+
+name: cargo
+version: 0.54.0-0ubuntu1~21.10.1
+commands: cargo
+
+name: charon-cmd
+version: 5.9.1-1ubuntu3.1
+commands: charon-cmd
+
+name: charon-systemd
+version: 5.9.1-1ubuntu3.1
+commands: charon-systemd
+
+name: ctdb
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: ctdb,ctdb_diagnostics,ctdb_local_daemons,ctdbd,ctdbd_wrapper,ltdbtool,onnode,ping_pong
+
+name: dh-apport
+version: 2.20.11-0ubuntu71
+commands: dh_apport
+
+name: docker.io
+version: 20.10.7-0ubuntu5.1
+commands: docker,docker-init,docker-proxy,dockerd
+
+name: exiv2
+version: 0.27.3-3ubuntu4.1
+commands: exiv2
+
+name: firefox-geckodriver
+version: 95.0.1+build2-0ubuntu0.21.10.1
+commands: geckodriver
+
+name: flatpak
+version: 1.10.2-3ubuntu0.1
+commands: flatpak
+
+name: freerdp2-shadow-x11
+version: 2.3.0+dfsg1-2ubuntu0.1
+commands: freerdp-shadow-cli
+
+name: freerdp2-wayland
+version: 2.3.0+dfsg1-2ubuntu0.1
+commands: wlfreerdp
+
+name: freerdp2-x11
+version: 2.3.0+dfsg1-2ubuntu0.1
+commands: xfreerdp
+
+name: ldb-tools
+version: 2:2.2.3-0ubuntu0.21.10.2
+commands: ldbadd,ldbdel,ldbedit,ldbmodify,ldbrename,ldbsearch
+
+name: libcharon-extra-plugins
+version: 5.9.1-1ubuntu3.1
+commands: pt-tls-client
+
+name: libflatpak-dev
+version: 1.10.2-3ubuntu0.1
+commands: flatpak-bisect,flatpak-coredumpctl
+
+name: libhivex-bin
+version: 1.3.19-1ubuntu3.21.10.1
+commands: hivexget,hivexml,hivexsh
+
+name: libjavascriptcoregtk-4.0-bin
+version: 2.34.3-0ubuntu0.21.10.1
+commands: jsc
+
+name: libmariadb-dev
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: mariadb-config,mariadb_config
+
+name: libmariadb-dev-compat
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: mysql_config
+
+name: libnss3-tools
+version: 2:3.68-1ubuntu1.1
+commands: certutil,chktest,cmsutil,crlutil,derdump,httpserv,modutil,nss-addbuiltin,nss-dbtest,nss-pp,ocspclnt,p7content,p7env,p7sign,p7verify,pk12util,pk1sign,pwdecrypt,rsaperf,selfserv,shlibsign,signtool,signver,ssltap,strsclnt,symkeyutil,tstclnt,vfychain,vfyserv
+
+name: libstrongswan-extra-plugins
+version: 5.9.1-1ubuntu3.1
+commands: tpm_extendpcr
+
+name: libwin-hivex-perl
+version: 1.3.19-1ubuntu3.21.10.1
+commands: hivexregedit
+
+name: mariadb-backup
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: mariabackup,mariadb-backup,mbstream
+
+name: mariadb-client-10.5
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: innotop,mariadb-access,mariadb-admin,mariadb-analyze,mariadb-conv,mariadb-dump,mariadb-dumpslow,mariadb-find-rows,mariadb-fix-extensions,mariadb-import,mariadb-optimize,mariadb-repair,mariadb-report,mariadb-show,mariadb-slap,mariadb-waitpid,mariadbcheck,mysql_find_rows,mysql_fix_extensions,mysql_waitpid,mysqlaccess,mysqladmin,mysqlanalyze,mysqlcheck,mysqldump,mysqldumpslow,mysqlimport,mysqloptimize,mysqlrepair,mysqlreport,mysqlshow,mysqlslap,mytop
+
+name: mariadb-client-core-10.5
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: mariadb,mariadb-check,mysql
+
+name: mariadb-plugin-rocksdb
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: mariadb-ldb,myrocks_hotbackup,mysql_ldb
+
+name: mariadb-plugin-s3
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: aria_s3_copy
+
+name: mariadb-server-10.5
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: aria_chk,aria_dump_log,aria_ftdump,aria_pack,aria_read_log,galera_new_cluster,galera_recovery,mariadb-binlog,mariadb-convert-table-format,mariadb-hotcopy,mariadb-plugin,mariadb-secure-installation,mariadb-service-convert,mariadb-setpermission,mariadb-tzinfo-to-sql,mariadbd-multi,mariadbd-safe,mariadbd-safe-helper,msql2mysql,myisam_ftdump,myisamchk,myisamlog,myisampack,mysql_convert_table_format,mysql_plugin,mysql_secure_installation,mysql_setpermission,mysql_tzinfo_to_sql,mysqlbinlog,mysqld_multi,mysqld_safe,mysqld_safe_helper,mysqlhotcopy,perror,replace,resolve_stack_dump,wsrep_sst_common,wsrep_sst_mariabackup,wsrep_sst_mysqldump,wsrep_sst_rsync,wsrep_sst_rsync_wan
+
+name: mariadb-server-core-10.5
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: innochecksum,mariadb-install-db,mariadb-upgrade,mariadbd,my_print_defaults,mysql_install_db,mysql_upgrade,mysqld,resolveip
+
+name: mariadb-test
+version: 1:10.5.13-0ubuntu0.21.10.1
+commands: mariadb-client-test,mariadb-client-test-embedded,mariadb-test,mariadb-test-embedded,mysql_client_test,mysql_client_test_embedded,mysqltest,mysqltest_embedded
+
+name: mysql-router
+version: 8.0.27-0ubuntu0.21.10.1
+commands: mysqlrouter,mysqlrouter_keyring,mysqlrouter_passwd,mysqlrouter_plugin_info
+
+name: openjdk-17-jdk
+version: 17.0.1+12-1~21.10
+commands: jconsole
+
+name: openjdk-17-jdk-headless
+version: 17.0.1+12-1~21.10
+commands: jar,jarsigner,javac,javadoc,javap,jcmd,jdb,jdeprscan,jdeps,jfr,jhsdb,jimage,jinfo,jlink,jmap,jmod,jps,jrunscript,jshell,jstack,jstat,jstatd,serialver
+
+name: openjdk-17-jre-headless
+version: 17.0.1+12-1~21.10
+commands: java,jexec,jpackage,keytool,rmiregistry
+
+name: openjdk-8-jdk
+version: 8u312-b07-0ubuntu1~21.10
+commands: appletviewer,jconsole
+
+name: openjdk-8-jdk-headless
+version: 8u312-b07-0ubuntu1~21.10
+commands: clhsdb,extcheck,hsdb,idlj,jar,jarsigner,javac,javadoc,javah,javap,jcmd,jdb,jdeps,jfr,jhat,jinfo,jmap,jps,jrunscript,jsadebugd,jstack,jstat,jstatd,native2ascii,rmic,schemagen,serialver,wsgen,wsimport,xjc
+
+name: openjdk-8-jre
+version: 8u312-b07-0ubuntu1~21.10
+commands: policytool
+
+name: openjdk-8-jre-headless
+version: 8u312-b07-0ubuntu1~21.10
+commands: java,jexec,jjs,keytool,orbd,pack200,rmid,rmiregistry,servertool,tnameserv,unpack200
+
+name: php8.0-fpm
+version: 8.0.8-1ubuntu0.1
+commands: php-fpm8.0
+
+name: php8.0-phpdbg
+version: 8.0.8-1ubuntu0.1
+commands: phpdbg,phpdbg8.0
+
+name: qt5-qmake
+version: 5.15.2+dfsg-12ubuntu1.1
+commands: x86_64-linux-gnu-qmake
+
+name: registry-tools
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: regdiff,regpatch,regshell,regtree
+
+name: rust-clippy
+version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+commands: cargo-clippy,clippy-driver
+
+name: rust-gdb
+version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+commands: rust-gdb,rust-gdbgui
+
+name: rust-lldb
+version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+commands: rust-lldb
+
+name: rustc
+version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+commands: rust-clang,rust-lld,rust-llvm-dwp,rustc,rustdoc
+
+name: rustfmt
+version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+commands: cargo-fmt,rustfmt
+
+name: samba-testsuite
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: gentest,locktest,masktest,ndrdump,smbtorture
+
+name: strongswan-pki
+version: 5.9.1-1ubuntu3.1
+commands: pki
+
+name: strongswan-swanctl
+version: 5.9.1-1ubuntu3.1
+commands: swanctl
+
+name: udhcpc
+version: 1:1.30.1-6ubuntu3.1
+commands: udhcpc
+
+name: udhcpd
+version: 1:1.30.1-6ubuntu3.1
+commands: dumpleases,udhcpd
+
+name: vim-athena
+version: 2:8.2.2434-3ubuntu3.1
+commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.athena,vimdiff
+
+name: vim-gtk3
+version: 2:8.2.2434-3ubuntu3.1
+commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.gtk3,vimdiff
+
+name: vim-gui-common
+version: 2:8.2.2434-3ubuntu3.1
+commands: gvimtutor
+
+name: vim-nox
+version: 2:8.2.2434-3ubuntu3.1
+commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.nox,vimdiff
+
+name: webkit2gtk-driver
+version: 2.34.3-0ubuntu0.21.10.1
+commands: WebKitWebDriver
+
+name: xdmx
+version: 2:1.20.13-1ubuntu1.1
+commands: Xdmx
+
+name: xdmx-tools
+version: 2:1.20.13-1ubuntu1.1
+commands: dmxaddinput,dmxaddscreen,dmxinfo,dmxreconfig,dmxresize,dmxrminput,dmxrmscreen,dmxtodmx,dmxwininfo,vdltodmx,xdmxconfig
+
+name: xnest
+version: 2:1.20.13-1ubuntu1.1
+commands: Xnest
+
+name: xvfb
+version: 2:1.20.13-1ubuntu1.1
+commands: Xvfb,xvfb-run
+

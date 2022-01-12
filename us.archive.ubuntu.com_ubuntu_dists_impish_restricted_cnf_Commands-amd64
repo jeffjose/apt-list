@@ -1,0 +1,89 @@
+suite: impish
+component: restricted
+arch: amd64
+
+
+name: libnvidia-gl-460
+version: 460.80-0ubuntu3
+commands: nvidia-ngx-updater
+
+name: libnvidia-gl-460-server
+version: 460.73.01-0ubuntu2
+commands: nvidia-ngx-updater
+
+name: libnvidia-gl-465
+version: 465.27-0ubuntu3
+commands: nvidia-ngx-updater
+
+name: nvidia-compute-utils-390
+version: 390.143-0ubuntu2
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-418-server
+version: 418.197.02-0ubuntu2
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-450-server
+version: 450.119.04-0ubuntu3
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-460
+version: 460.80-0ubuntu3
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-460-server
+version: 460.73.01-0ubuntu2
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-465
+version: 465.27-0ubuntu3
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-kernel-common-390
+version: 390.143-0ubuntu2
+commands: create-uvm-dev-node
+
+name: nvidia-kernel-common-418-server
+version: 418.197.02-0ubuntu2
+commands: ub-device-create
+
+name: nvidia-kernel-common-450-server
+version: 450.119.04-0ubuntu3
+commands: ub-device-create
+
+name: nvidia-kernel-common-460
+version: 460.80-0ubuntu3
+commands: ub-device-create
+
+name: nvidia-kernel-common-460-server
+version: 460.73.01-0ubuntu2
+commands: ub-device-create
+
+name: nvidia-kernel-common-465
+version: 465.27-0ubuntu3
+commands: nvidia-sleep.sh,ub-device-create
+
+name: nvidia-utils-390
+version: 390.143-0ubuntu2
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-uninstall,nvidia-xconfig
+
+name: nvidia-utils-418-server
+version: 418.197.02-0ubuntu2
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-450-server
+version: 450.119.04-0ubuntu3
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-460
+version: 460.80-0ubuntu3
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-460-server
+version: 460.73.01-0ubuntu2
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-465
+version: 465.27-0ubuntu3
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+

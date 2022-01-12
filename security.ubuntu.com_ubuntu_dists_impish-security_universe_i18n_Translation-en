@@ -1,0 +1,2041 @@
+Package: apache2-suexec-custom
+Description-md5: 116f52596e88b0c7717e1f4973ada661
+Description-en: Apache HTTP Server configurable suexec program for mod_suexec
+ Provides a customizable version of the suexec helper program for mod_suexec.
+ This is not the version from upstream, but can be configured with a
+ configuration file.
+ .
+ If you do not need non-standard document root or userdir settings, it is
+ recommended that you use the standard suexec helper program from the
+ apache2-suexec-pristine package instead.
+
+Package: apache2-suexec-pristine
+Description-md5: 86a22eab8bdd72ac81f3d8aab53bf001
+Description-en: Apache HTTP Server standard suexec program for mod_suexec
+ Provides the standard suexec helper program for mod_suexec. This version is
+ compiled with document root /var/www and userdir suffix public_html. If you
+ need different settings, use the package apache2-suexec-custom.
+
+Package: apport-kde
+Description-md5: c8fd570a74a013e8fc3c502dd64152ce
+Description-en: KDE frontend for the apport crash report system
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ This package provides a KDE frontend for browsing and handling the
+ crash reports.
+
+Package: apport-noui
+Description-md5: 5cfad9aa6d06a624d5f60c2375d26631
+Description-en: tools for automatically reporting Apport crash reports
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ Installing this package will configure your system to automatically submit
+ all new Apport crash reports.
+
+Package: apport-valgrind
+Description-md5: 21b17902929fcb9d5f6a9bcc53f2af83
+Description-en: valgrind wrapper that first downloads debug symbols
+ apport-valgrind is a valgrind wrapper that automatically downloads related
+ available debug symbols and provides them to valgrind's memcheck tool, which
+ is executed. The output is a valgrind log file ("valgrind.log") that contains
+ stack traces (with as many symbols resolved as available) and that shows
+ memory leaks.
+
+Package: bind9utils
+Description-md5: 8681b0dabeb2a3fde42fdbb1f21451d2
+Description-en: Transitional package for bind9-utils
+ This is a transitional package. It can safely be removed.
+
+Package: bluetooth
+Description-md5: 9e39e616b43759f27940df27b76d2e46
+Description-en: Bluetooth support (metapackage)
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+
+Package: bluez-hcidump
+Description-md5: 4ebfd05a0b1b606a60e737cc590e2325
+Description-en: Analyses Bluetooth HCI packets
+ The hcidump utility allows the monitoring of Bluetooth activity.
+ It provides a disassembly of the Bluetooth traffic and can display
+ packets from higher level protocols such as RFCOMM, SDP and BNEP.
+ .
+ This was the software that is independent as bluez-hcidump, but this has been
+ integrated into BlueZ from BlueZ 5.0.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-meshd
+Description-md5: ca06bc66a9b979e71d30c46198c95ca7
+Description-en: bluetooth mesh daemon
+ The Bluetooth Mesh network is a new Bluetooth feature that extends "Bluetooth
+ Low Energy (BLE)".
+ .
+ This package provides daemon (meshd) and tools that provide Bluetooth mesh
+ functionality.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-tests
+Description-md5: 70d0f4a675d48599e09b3248e2e1adfe
+Description-en: BlueZ test tools and scripts
+ This package contains test tools and scripts used for testing BlueZ.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: busybox
+Description-md5: b7707908219c331294f3f9e8d926a9dc
+Description-en: Tiny utilities for small and embedded systems
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ This package installs the BusyBox binary but does not install
+ symlinks for any of the supported utilities. Some of the utilities
+ can be used in the system by installing the busybox-syslogd,
+ busybox-udhcpc or busybox-udhcpd packages.
+
+Package: caca-utils
+Description-md5: 44b5211535e8c3f0c83253e20bd8fb3e
+Description-en: text mode graphics utilities
+ This package contains utilities and demonstration programs for libcaca, the
+ Colour AsCii Art library.
+ .
+ cacaview is a simple image viewer for the terminal. It opens most image
+ formats such as JPEG, PNG, GIF etc. and renders them on the terminal using
+ ASCII art. The user can zoom and scroll the image, set the dithering method
+ or enable anti-aliasing.
+ .
+ cacafire is a port of AALib's aafire and displays burning ASCII art flames.
+ .
+ cacademo is a tiny graphic program that renders animated ASCII metaballs,
+ matrix effects, colourful moiré circles and old school plasma effects.
+
+Package: cargo
+Description-md5: f894562a11fc2421647ac771e1f6c13a
+Description-en: Rust package manager
+ Cargo is a tool that allows Rust projects to declare their various
+ dependencies, and ensure that you'll always get a repeatable build.
+ .
+ To accomplish this goal, Cargo does four things:
+  * Introduces two metadata files with various bits of project information.
+  * Fetches and builds your project's dependencies.
+  * Invokes rustc or another build tool with the correct parameters to build
+    your project.
+  * Introduces conventions, making working with Rust projects easier.
+ .
+ Cargo downloads your Rust project’s dependencies and compiles your
+ project.
+
+Package: cargo-doc
+Description-md5: f27438963e0fd905872c0e1656b9d40c
+Description-en: Rust package manager, documentation
+ Cargo is a tool that allows Rust projects to declare their various
+ dependencies, and ensure that you'll always get a repeatable build.
+ .
+ To accomplish this goal, Cargo does four things:
+  * Introduces two metadata files with various bits of project information.
+  * Fetches and builds your project's dependencies.
+  * Invokes rustc or another build tool with the correct parameters to build
+    your project.
+  * Introduces conventions, making working with Rust projects easier.
+ .
+ Cargo downloads your Rust project’s dependencies and compiles your
+ project.
+ .
+ This package contains the documentation.
+
+Package: charon-cmd
+Description-md5: 80fd42eb6fb38dab592c2f0b87243623
+Description-en: standalone IPsec client
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package contains the charon-cmd command, which can be used as a client to
+ connect to a remote IKE daemon.
+
+Package: charon-systemd
+Description-md5: aa65f07fc27272b7f25aed8a94e96770
+Description-en: strongSwan IPsec client, systemd support
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package contains the charon-systemd files.
+
+Package: ctdb
+Description-md5: 83dff66615250b53a0cd3df6fb3b9ea7
+Description-en: clustered database to store temporary data
+ CTDB is a cluster implementation of the TDB database used by Samba and other
+ projects to store temporary data. If an application is already using TDB for
+ temporary data it is very easy to convert that application to be cluster aware
+ and use CTDB instead.
+ .
+ CTDB provides the same types of functions as TDB but in a clustered fashion,
+ providing a TDB-style database that spans multiple physical hosts in a cluster.
+ .
+ Features include:
+  * CTDB provides a TDB that has consistent data and consistent locking across
+    all nodes in a cluster.
+  * CTDB is very fast.
+  * In case of node failures, CTDB will automatically recover and repair all TDB
+    databases that it manages.
+  * CTDB is the core component that provides pCIFS ("parallel CIFS") with
+    Samba3/4.
+  * CTDB provides HA features such as node monitoring, node failover, and IP
+    takeover.
+  * CTDB provides a reliable messaging transport to allow applications linked
+    with CTDB to communicate to other instances of the application running on
+    different nodes in the cluster.
+  * CTDB has pluggable transport backends. Currently implemented backends are
+    TCP and Infiniband.
+  * CTDB supports a system of application specific management scripts, allowing
+    applications that depend on network or filesystem resources to be managed in
+    a highly available manner on a cluster.
+
+Package: dh-apport
+Description-md5: a5c779df9e0b356100c76151d7cef527
+Description-en: debhelper extension for the apport crash report system
+ apport automatically collects data from crashed processes and
+ compiles a problem report in /var/crash/. This utilizes the crashdump
+ helper hook provided by the Ubuntu kernel.
+ .
+ This package provides a debhelper extension to make it easier for other
+ packages to include apport hooks.
+
+Package: dnsutils
+Description-md5: 021458b353ece6dd7b5cbef232419073
+Description-en: Transitional package for bind9-dnsutils
+ This is a transitional package. It can safely be removed.
+
+Package: docker-doc
+Description-md5: 4f86326741c09d05fe80222b21fce476
+Description-en: Linux container runtime -- documentation
+ Docker complements kernel namespacing with a high-level API which operates at
+ the process level. It runs unix processes with strong guarantees of isolation
+ and repeatability across servers.
+ .
+ Docker is a great building block for automating distributed systems:
+ large-scale web deployments, database clusters, continuous deployment systems,
+ private PaaS, service-oriented architectures, etc.
+ .
+ This package contains the daemon and client. Using docker.io on non-amd64 hosts
+ is not supported at this time. Please be careful when using it on anything
+ besides amd64.
+ .
+ Also, note that kernel version 3.8 or above is required for proper operation of
+ the daemon process, and that any lower versions may have subtle and/or glaring
+ issues.
+ .
+ This package provides documentation for Docker.
+
+Package: docker.io
+Description-md5: 05dc9eba68f3bf418e6a0cf29d555878
+Description-en: Linux container runtime
+ Docker complements kernel namespacing with a high-level API which operates at
+ the process level. It runs unix processes with strong guarantees of isolation
+ and repeatability across servers.
+ .
+ Docker is a great building block for automating distributed systems:
+ large-scale web deployments, database clusters, continuous deployment systems,
+ private PaaS, service-oriented architectures, etc.
+ .
+ This package contains the daemon and client. Using docker.io on non-amd64 hosts
+ is not supported at this time. Please be careful when using it on anything
+ besides amd64.
+ .
+ Also, note that kernel version 3.8 or above is required for proper operation of
+ the daemon process, and that any lower versions may have subtle and/or glaring
+ issues.
+
+Package: exiv2
+Description-md5: aeba4b7189f937a626d0f2ef05b13cbb
+Description-en: EXIF/IPTC/XMP metadata manipulation tool
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ Exiv2 command line utility to:
+ .
+  * print Exif, IPTC and XMP image metadata in different formats:
+    - Exif summary info, interpreted values, or the plain data for each tag
+  * set, add and delete Exif, IPTC and XMP image metadata from command line
+    modify commands or command scripts
+  * adjust the Exif timestamp (that's how it all started...)
+  * rename Exif image files according to the Exif timestamp
+  * extract, insert and delete Exif, IPTC and XMP metadata and JPEG comments
+  * extract previews from RAW images and thumbnails from the Exif metadata
+  * insert and delete the thumbnail image embedded in the Exif metadata
+  * print, set and delete the JPEG comment of JPEG images
+  * fix the Exif ISO setting of picture taken with Canon and Nikon cameras
+
+Package: firefox-geckodriver
+Description-md5: f720f625e9a0770cb777ddb0c62c22e3
+Description-en: Safe and easy web browser from Mozilla - geckodriver
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains geckodriver, a proxy for using W3C WebDriver-compatible
+ clients (such as selenium) to interact with Gecko-based browsers. See
+ https://firefox-source-docs.mozilla.org/testing/geckodriver/ for details.
+
+Package: firefox-mozsymbols
+Description-md5: 1398643ad4fb0f820933502f6bba9816
+Description-en: Safe and easy web browser from Mozilla - Breakpad symbols
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: flatpak
+Description-md5: f91acb1d2880527b2759bc5e2d99fbff
+Description-en: Application deployment framework for desktop apps
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ Application bundles run partially isolated from the wider system, using
+ containerization techniques such as namespaces to prevent direct access
+ to system resources. Resources from outside the sandbox can be accessed
+ via "portal" services, which are responsible for access control; for
+ example, the Documents portal displays an "Open" dialog outside the
+ sandbox, then allows the application to access only the selected file.
+ .
+ Each application uses a specified "runtime", or set of libraries, which is
+ available as /usr inside its sandbox. This can be used to run application
+ bundles with multiple, potentially incompatible sets of dependencies within
+ the same desktop environment.
+ .
+ This package contains the services and executables needed to install and
+ launch sandboxed applications, and the portal services needed to provide
+ limited access to resources outside the sandbox.
+
+Package: flatpak-tests
+Description-md5: 8c55ee927d2b9992e22292e7b2c097aa
+Description-en: Application deployment framework for desktop apps (tests)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains automated tests.
+
+Package: freerdp2-shadow-x11
+Description-md5: 5e8fef249679625146e6e6f483c3b488
+Description-en: FreeRDP x11 shadowing server
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ This package contains a "shadowing" server that can be used to
+ share an already started X11 DISPLAY.
+
+Package: freerdp2-wayland
+Description-md5: a5e739176253fe4f397467dba68645a0
+Description-en: RDP client for Windows Terminal Services (wayland client)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ Currently, the FreeRDP clients supports the following Windows Versions:
+ .
+  * Windows NT Server
+  * Windows 2000 Terminal Server
+  * Windows XP
+  * Windows 2003 Server
+  * Windows Vista
+  * Windows 2008/2008r2/2011SBS Server
+  * Windows 7
+  * Windows 2012/2012r2 Server
+  * Windows 8
+  * Windows 10
+ .
+ This package contains the wayland based client.
+
+Package: freerdp2-x11
+Description-md5: c4929c6614bb3d2257a1f67d82098bd3
+Description-en: RDP client for Windows Terminal Services (X11 client)
+ FreeRDP is a libre client/server implementation of the Remote
+ Desktop Protocol (RDP).
+ .
+ Currently, the FreeRDP client supports the following Windows Versions:
+ .
+  * Windows NT Server
+  * Windows 2000 Terminal Server
+  * Windows XP
+  * Windows 2003 Server
+  * Windows Vista
+  * Windows 2008/2008r2/2011SBS Server
+  * Windows 7
+  * Windows 2012/2012r2 Server
+  * Windows 8
+  * Windows 10
+ .
+ This package contains the X11 based client.
+
+Package: gir1.2-flatpak-1.0
+Description-md5: d56a77ab2a71ace5e8bdb87dcec05c28
+Description-en: Application deployment framework for desktop apps (introspection)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings for libflatpak0.
+
+Package: golang-docker-dev
+Description-md5: d8f9334d5a9c76803c31ea534993299a
+Description-en: Transitional package for golang-github-docker-docker-dev
+ This is a transitional package to ease upgrades to the
+ golang-github-docker-docker-dev package. It can safely be removed.
+
+Package: golang-github-docker-docker-dev
+Description-md5: 6265ea5dccb7d86a2aa69e4e5d1c8598
+Description-en: Externally reusable Go packages included with Docker
+ These packages are intentionally developed by upstream in such a way that they
+ are reusable to projects outside Docker and only rely on each other or other
+ external dependencies to be built.
+
+Package: ldb-tools
+Description-md5: 27e8c15a8859e3368f9f6a0853f05226
+Description-en: LDAP-like embedded database - tools
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ What ldb does is provide a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains bundled test and utility binaries
+
+Package: libapache2-mod-md
+Description-md5: c2abd3d451fbe9f8b62453ebd20f7096
+Description-en: transitional package
+ This is a transitional package to apache2 for users of libapache2-mod-md.
+ It can be safely removed after the installation is complete.
+
+Package: libapache2-mod-proxy-uwsgi
+Description-md5: d2fa4db85203c7bfc8bfdc64d863cf45
+Description-en: transitional package
+ This is a transitional package to apache2 for users of
+ libapache2-mod-proxy-uwsgi.
+ It can be safely removed after the installation is complete.
+
+Package: libcharon-extra-plugins
+Description-md5: bccb4bd4f58c0758c840939e56665a2b
+Description-en: strongSwan charon library (extra plugins)
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package provides extra plugins for the charon library:
+  - addrblock (Narrow traffic selectors to RFC 3779 address blocks in X.509
+    certificates)
+  - certexpire (Export expiration dates of used certificates)
+  - eap-aka (Generic EAP-AKA protocol handler using different backends)
+  - eap-gtc (EAP-GTC protocol handler authenticating with XAuth backends)
+  - eap-identity (EAP-Identity identity exchange algorithm, to use with other
+    EAP protocols)
+  - eap-md5 (EAP-MD5 protocol handler using passwords)
+  - eap-radius (EAP server proxy plugin forwarding EAP conversations to a
+    RADIUS server)
+  - eap-tls (EAP-TLS protocol handler, to authenticate with certificates in
+    EAP)
+  - eap-tnc (EAP-TNC protocol handler, Trusted Network Connect in a TLS tunnel)
+  - eap-ttls (EAP-TTLS protocol handler, wraps other EAP methods securely)
+  - error-notify (Notification about errors via UNIX socket)
+  - ha (High-Availability clustering)
+  - kernel-libipsec (Userspace IPsec Backend with TUN devices)
+  - led (Let Linux LED subsystem LEDs blink on IKE activity)
+  - lookip (Virtual IP lookup facility using a UNIX socket)
+  - tnc (Trusted Network Connect)
+  - unity (Cisco Unity extensions for IKEv1)
+  - xauth-eap (XAuth backend that uses EAP methods to verify passwords)
+  - xauth-pam (XAuth backend that uses PAM modules to verify passwords)
+  - eap-dynamic (EAP proxy plugin that dynamically selects an EAP method
+    requested/supported by the client (since 5.0.1))
+  - eap-peap (EAP-PEAP protocol handler, wraps other EAP methods securely)
+
+Package: libflatpak-dev
+Description-md5: 4fcaa1347e5652b1c831098f39239f04
+Description-en: Application deployment framework for desktop apps (development)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains development headers and pkg-config metadata
+ for libflatpak0, and the flatpak-coredump and flatpak-bisect scripts used
+ to debug Flatpak applications.
+
+Package: libflatpak-doc
+Description-md5: c7d59a541c5d9998f886d74daf4ac8d6
+Description-en: Application deployment framework for desktop apps (documentation)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains reference documentation for libflatpak0.
+
+Package: libflatpak0
+Description-md5: 0e4073ffd5dff85f7c3cfe70f89906ed
+Description-en: Application deployment framework for desktop apps (library)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains the flatpak shared library, used by higher level
+ package management tools like gnome-software.
+
+Package: libhivex-bin
+Description-md5: 89fa267ea5ad3e7afa9180854b40559f
+Description-en: utilities for reading and writing Windows Registry hives
+ libhivex is a self-contained library for reading and writing Windows
+ Registry "hive" binary files.
+ .
+ This package contains a few command line programs that utilize libhivex.
+
+Package: libhivex-dev
+Description-md5: a35a894e56b30e590b859ae01c6cf84e
+Description-en: library for reading and writing Windows Registry hives
+ libhivex is a self-contained library for reading and writing Windows
+ Registry "hive" binary files.
+ .
+ This package provides static libraries and header files.
+
+Package: libhivex-ocaml
+Description-md5: 1623b0e7530f23ef553e4a918e9d5528
+Description-en: OCaml bindings for hivex -- runtime files
+ OCaml bindings for libhivex, a library for reading and writing
+ Windows Registry "hive" binary files.
+ .
+ This package include only the shared runtime stub libraries.
+
+Package: libhivex-ocaml-dev
+Description-md5: 9ddfa7e26a1aeab261f075cfd0a8a0c0
+Description-en: OCaml bindings for hivex -- development files
+ OCaml bindings for libhivex, a library for reading and writing
+ Windows Registry "hive" binary files.
+ .
+ This package contains all the files needed to develop OCaml programs
+ which use OCaml bindings to libhivex.
+
+Package: libhivex0
+Description-md5: 3d0eb54ce30942f3cfec8dcf94168cd1
+Description-en: library for reading and writing Windows Registry hives
+ libhivex is a self-contained library for reading and writing Windows
+ Registry "hive" binary files.
+ .
+ Unlike many other tools in this area, it doesn't use the textual .REG
+ format for output, because parsing that is as much trouble as parsing
+ the original binary format. Instead it makes the file available
+ through a C API, or there is a separate program to export the hive as
+ XML.
+
+Package: libjavascriptcoregtk-4.0-bin
+Description-md5: d63d3c5b674d87705002872786bc6cce
+Description-en: JavaScript engine library from WebKitGTK - command-line interpreter
+ JavaScriptCore is the JavaScript engine used in WebKit. It consists
+ of the following building blocks: lexer, parser, start-up interpreter
+ (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
+ high-throughput optimizing JIT (FTL).
+ .
+ This build comes from the GTK port of WebKit (API version 4.0).
+ .
+ This package provides jsc, a command-line JavaScript interpreter.
+
+Package: liblog4j1.2-java
+Description-md5: 6852e874e3a0a408361775c4958b1233
+Description-en: Logging library for java
+ log4j is a tool to help the programmer output log statements to a variety of
+ output targets.
+ .
+ It is possible to enable logging at runtime without modifying the application
+ binary. The log4j package is designed so that log statements can remain in
+ shipped code without incurring a high performance cost.
+ .
+ One of the distinctive features of log4j is the notion of hierarchical
+ loggers. Using loggers it is possible to selectively control which log
+ statements are output at arbitrary granularity.
+ .
+ Log4j can output to: a file, a rolling file, a database with a JDBC driver,
+ many output  asynchronously, a JMS Topic, a swing based logging console,
+ the NT event log, /dev/null, a SMTP server (using javamail), a socket server,
+ syslog, telnet daemon and stdout.
+ .
+ The format of the output can be defined using one of the various layout
+ (or user defined layout) like: simple text, html, date, pattern defined and
+ XML.
+
+Package: liblog4j1.2-java-doc
+Description-md5: 4de3d2b07bbd8d616f084238c912527a
+Description-en: Documentation for liblog4j1.2-java
+ The javadoc API documentation for the logging library
+ from the Apache Jakarta project. The documentation is
+ for the version 1.2 of the log4j API.
+
+Package: liblog4j2-java
+Description-md5: 45f804957a9794c4f807c12a4e0985f7
+Description-en: Apache Log4j - Logging Framework for Java
+ Apache Log4j 2 is an upgrade to Log4j that provides significant improvements
+ over its predecessor, Log4j 1.x:
+ .
+ API Separation: The API for Log4j is separate from the implementation making
+ it clear for application developers which classes and methods they can use
+ while ensuring forward compatibility.
+ .
+ Improved Performance: Log4j 2 contains next-generation Asynchronous Loggers
+ based on the LMAX Disruptor library. In multi-threaded scenarios Asynchronous
+ Loggers have 10 times higher throughput and orders of magnitude lower latency
+ than Log4j 1.x.
+ .
+ Support for multiple APIs: While the Log4j 2 API will provide the best
+ performance, Log4j 2 provides support for the SLF4J and Commons Logging APIs.
+ .
+ Automatic Reloading of Configurations: Log4j 2 can automatically reload its
+ configuration upon modification. It will do so without losing log events
+ while reconfiguration is taking place.
+ .
+ Advanced Filtering: Log4j 2 supports filtering based on context
+ data, markers, regular expressions, and other components in the Log event.
+ Filtering can be specified to apply to all events before being passed to
+ Loggers or as they pass through Appenders.
+ .
+ Plugin Architecture: Log4j uses the plugin pattern to configure components.
+ As such, no code is needed to create and configure an Appender, Layout,
+ Pattern Converter, and so on. Log4j automatically recognizes plugins
+ and uses them when a configuration references them.
+ .
+ Property Support: Properties can be referenced in a configuration, Log4j will
+ directly replace them, or Log4j will pass them to an underlying component that
+ will dynamically resolve them. Properties come from values defined in the
+ configuration file, system properties, environment variables, the
+ ThreadContext Map, and data present in the event.
+
+Package: libmariadb-dev
+Description-md5: 5147f292c112a0def76ef58780903826
+Description-en: MariaDB database development files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes development libraries and header files. To allow sources
+ expecting the MariaDB Connector/C to build. Sources that expect the MySQL
+ Client libraries should use files from the libmariadb-dev-compat package.
+
+Package: libmariadb-dev-compat
+Description-md5: 4e4bcacf382bb1ad738f392fb886a606
+Description-en: MariaDB Connector/C, compatibility symlinks
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes compatibility symlinks to allow sources expecting the
+ MySQL client libraries to be built against MariaDB Connector/C.
+
+Package: libmariadb3
+Description-md5: c48685b906f3842ee48fd71db5681868
+Description-en: MariaDB database client library
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the client library.
+
+Package: libmariadbd-dev
+Description-md5: f1579889611a2ce406c3c321e37d32d9
+Description-en: MariaDB embedded database, development files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the embedded server library development and header files.
+
+Package: libmariadbd19
+Description-md5: a85241d1aa0dccaa3ede8bda094b9117
+Description-en: MariaDB embedded database, shared library
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes a shared library for embedded MariaDB applications.
+
+Package: libnss3-tools
+Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
+Description-en: Network Security Service tools
+ This is a set of tools on top of the Network Security Service libraries.
+ This package includes:
+  * certutil: manages certificate and key databases (cert7.db and key3.db)
+  * modutil: manages the database of PKCS11 modules (secmod.db)
+  * pk12util: imports/exports keys and certificates between the cert/key
+    databases and files in PKCS12 format.
+  * shlibsign: creates .chk files for use in FIPS mode.
+  * signtool: creates digitally-signed jar archives containing files and/or
+    code.
+  * ssltap: proxy requests for an SSL server and display the contents of
+    the messages exchanged between the client and server.
+
+Package: libphp8.0-embed
+Description-md5: cc95dcfc74a76b1f62f51bb5910771f1
+Description-en: HTML-embedded scripting language (Embedded SAPI library)
+ This package provides the library /usr/lib/libphp8.0.so which can
+ be used by application developers to embed PHP scripting functionality.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcntl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ WARNING: The embed SAPI is experimental and there's no guarantee that
+ the API/ABI will be kept compatible even between minor releases.  You
+ have been warned.
+
+Package: libqt5concurrent5
+Description-md5: e0df68f337531f2bfba6d9963eebfc16
+Description-en: Qt 5 concurrent module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtConcurrent module contains functionality to support concurrent execution
+ of program code.
+
+Package: libqt5core5a
+Description-md5: 75c9109eafc0c1da6d6b6ca7b292f133
+Description-en: Qt 5 core module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtCore module contains core non-GUI functionality.
+
+Package: libqt5dbus5
+Description-md5: 66ed2fe869611cd7a269446bd63f9400
+Description-en: Qt 5 D-Bus module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDBus module is a Unix-only library that you can use to make Inter-Process
+ Communication using the D-Bus protocol.
+ .
+ Applications using the QtDBus module can provide services to other, remote
+ applications by exporting objects, as well as use services exported by those
+ applications by placing calls and accessing properties.
+
+Package: libqt5gui5
+Description-md5: 9dadc5c1f0624a1be05b1ff4f1c6cd6d
+Description-en: Qt 5 GUI module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtGui module extends QtCore with GUI functionality.
+
+Package: libqt5network5
+Description-md5: 267676193dcb13e33a5c3f9c219b1838
+Description-en: Qt 5 network module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtNetwork module offers classes that allow you to write TCP/IP clients and
+ servers. It provides classes to make network programming easier and portable.
+
+Package: libqt5opengl5
+Description-md5: 0966e72b3545e5c76ba7176064c64965
+Description-en: Qt 5 OpenGL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtOpenGL module offers classes that make it easy to use OpenGL in Qt
+ applications.
+ .
+ OpenGL is a standard API for rendering 3D graphics. OpenGL only deals with 3D
+ rendering and provides little or no support for GUI programming issues.
+
+Package: libqt5opengl5-dev
+Description-md5: 76f1fd5b0a241ef67384ff7dfbd93542
+Description-en: Qt 5 OpenGL library development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using QtOpenGL library.
+
+Package: libqt5printsupport5
+Description-md5: ad2a0dcae2a6addab1c4c4b7c64b6a4e
+Description-en: Qt 5 print support module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtPrintSupport module provides classes to make printing easier and
+ portable.
+
+Package: libqt5sql5
+Description-md5: 0713fa3e9592ca24526ad333118f8889
+Description-en: Qt 5 SQL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSql module helps you provide seamless database integration to your Qt
+ applications.
+
+Package: libqt5sql5-ibase
+Description-md5: 795132c8ae8170c30afb981caa53c8cf
+Description-en: Qt 5 Firebird database driver
+ This package contains the Firebird plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ Firebird/InterBase DB.
+
+Package: libqt5sql5-mysql
+Description-md5: ef00502b07fd416665becb7a946fa058
+Description-en: Qt 5 MySQL database driver
+ This package contains the MySQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MySQL DB.
+
+Package: libqt5sql5-odbc
+Description-md5: 307a8af530b7222b52853293e564167c
+Description-en: Qt 5 ODBC database driver
+ This package contains the ODBC plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ ODBC DB.
+
+Package: libqt5sql5-psql
+Description-md5: 26b8a37b36abcc581802bb9591e003d6
+Description-en: Qt 5 PostgreSQL database driver
+ This package contains the PostgreSQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ PostgreSQL DB.
+
+Package: libqt5sql5-sqlite
+Description-md5: f74ea3b242033484777e5a5e9fb468bc
+Description-en: Qt 5 SQLite 3 database driver
+ This package contains the SQLite 3 plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ SQLite 3 DB.
+
+Package: libqt5sql5-tds
+Description-md5: 98049901ac7df77f69890567ec4a2170
+Description-en: Qt 5 FreeTDS database driver
+ This package contains the FreeTDS plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MS SQL or Sybase SQL server.
+
+Package: libqt5test5
+Description-md5: 439bbed1193cb169575d82d618b4c6c1
+Description-en: Qt 5 test module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtTest module provides classes for unit testing Qt applications and
+ libraries.
+
+Package: libqt5widgets5
+Description-md5: d3e73eff3b63455d65d61db3b685f693
+Description-en: Qt 5 widgets module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtWidgets module extends QtGui with C++ widget functionality.
+
+Package: libqt5xml5
+Description-md5: c3b1596533c67529df54c353807c6cae
+Description-en: Qt 5 XML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtXml module provides a stream reader and writer for XML documents,
+ and C++ implementations of SAX and DOM.
+
+Package: libstd-rust-1.53
+Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
+Description-en: Rust standard libraries
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains the standard Rust libraries, built as dylibs,
+ needed to run dynamically-linked Rust programs (-C prefer-dynamic).
+
+Package: libstd-rust-dev
+Description-md5: d179f786c5d3afccd5d86929b4043021
+Description-en: Rust standard libraries - development files
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains development files for the standard Rust libraries,
+ needed to compile Rust programs. It may also be installed on a system
+ of another host architecture, for cross-compiling to this architecture.
+
+Package: libstrongswan-extra-plugins
+Description-md5: aadcee3bdfdcf3b5bfb74ef3a8d7c233
+Description-en: strongSwan utility and crypto library (extra plugins)
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package provides extra plugins for the strongSwan utility and
+ cryptographic library.
+ .
+ Included plugins are:
+  - af-alg [linux] (AF_ALG Linux crypto API interface, provides
+    ciphers/hashers/hmac/xcbc)
+  - ccm (CCM cipher mode wrapper)
+  - cmac (CMAC cipher mode wrapper)
+  - ctr (CTR cipher mode wrapper)
+  - curl (libcurl based HTTP/FTP fetcher)
+  - curve25519 (support for Diffie-Hellman group 31 using Curve25519 and
+    support for the Ed25519 digital signature algorithm for IKEv2)
+  - gcrypt (Crypto backend based on libgcrypt, provides
+    RSA/DH/ciphers/hashers/rng)
+  - ldap (LDAP fetching plugin based on libldap)
+  - ntru (key exchanged based on post-quantum computer NTRU)
+  - padlock (VIA padlock crypto backend, provides AES128/SHA1)
+  - pkcs11 (PKCS#11 smartcard backend)
+  - rdrand (High quality / high performance random source using the Intel
+    rdrand instruction found on Ivy Bridge processors)
+  - test-vectors (Set of test vectors for various algorithms)
+ .
+ Also included is the libtpmtss library adding support for TPM plugin
+ (https://wiki.strongswan.org/projects/strongswan/wiki/TpmPlugin)
+
+Package: libwin-hivex-perl
+Description-md5: 3e474899bbf5728b3679672f4e5830c6
+Description-en: Perl bindings to hivex
+ Perl bindings for libhivex, a library for reading and writing
+ Windows Registry "hive" binary files.
+ .
+ This package also contains hivexregedit, a low-level command-line
+ tool for manipulating and dumping registry hives.
+
+Package: mariadb-backup
+Description-md5: 5e80c3dd009aded10c0cfe25bd682155
+Description-en: Backup tool for MariaDB server
+ This backup tool is guaranteed to be compatible with MariaDB.
+ Based on Xtrabackup, but improved to work with MariaDB.
+ .
+ Please refer to the MariaDB Knowledge Base on more information on
+ how to use this tool.
+
+Package: mariadb-client
+Description-md5: 6501fd3178a212adaa785da108f5aaad
+Description-en: MariaDB database client (metapackage depending on the latest version)
+ This is an empty package that depends on the current "best" version of
+ mariadb-client (currently mariadb-client-10.5), as determined by the MariaDB
+ maintainers.  Install this package if in doubt about which MariaDB version
+ you want, as this is the one considered to be in the best shape.
+
+Package: mariadb-client-10.5
+Description-md5: 82697f9416e5e5d0a4e7331c2c735591
+Description-en: MariaDB database client binaries
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the client binaries and the additional tools
+ innotop and mariadb-report (mysqlreport).
+
+Package: mariadb-client-core-10.5
+Description-md5: 2862a38a5ead2e1df7366bf661e03278
+Description-en: MariaDB database core client binaries
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the core client files, as used by Akonadi.
+
+Package: mariadb-common
+Description-md5: b0c32a0541f8699ec53307dabf7f987b
+Description-en: MariaDB common configuration files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes configuration files common to all MariaDB programs.
+
+Package: mariadb-plugin-connect
+Description-md5: a80bd9647c2961ca648b4365a4644855
+Description-en: Connect storage engine for MariaDB
+ Connect engine supports a number of file formats (dbf, xml, txt, bin, etc),
+ connections to ODBC tables and remote MySQL tables, as well as a number of
+ other interesting features.
+ This package contains the Connect plugin for MariaDB.
+
+Package: mariadb-plugin-cracklib-password-check
+Description-md5: e7c0c56f3b8c4b41bfb5462cd78a61a0
+Description-en: CrackLib Password Validation Plugin for MariaDB
+ This password validation plugin uses cracklib to allow only
+ sufficiently secure (as defined by cracklib) user passwords in MariaDB.
+ .
+ Install and configure this to enforce stronger passwords for MariaDB users.
+
+Package: mariadb-plugin-gssapi-client
+Description-md5: ece7660a1e2293e316a2fa35c35f8b25
+Description-en: GSSAPI authentication plugin for MariaDB client
+ This plugin includes support for Kerberos on Unix, but can also be used for
+ Windows authentication with or without domain environment.
+ .
+ This package contains the client parts.
+
+Package: mariadb-plugin-gssapi-server
+Description-md5: 15f0c8ec89caa84121f658521f1d6501
+Description-en: GSSAPI authentication plugin for MariaDB server
+ This plugin includes support for Kerberos on Unix, but can also be used for
+ Windows authentication with or without domain environment.
+ .
+ This package contains the server parts.
+
+Package: mariadb-plugin-mroonga
+Description-md5: 38f273fa8679ace3c47de32b8f1ad726
+Description-en: Mroonga storage engine for MariaDB
+ Mroonga (formerly named Groonga Storage Engine) is a storage engine that
+ provides fast CJK-ready full text searching using column store.
+ This package contains the Mroonga plugin for MariaDB.
+
+Package: mariadb-plugin-oqgraph
+Description-md5: 1fb0e876d57cfdc1cff69872c8dc754b
+Description-en: OQGraph storage engine for MariaDB
+ The OQGraph engine is a computation engine plugin for handling hierarchies
+ (trees) and graphs (friend-of-a-friend, etc) cleanly through standard SQL.
+ This package contains the OQGraph plugin for MariaDB.
+
+Package: mariadb-plugin-rocksdb
+Description-md5: 62060ced380e290f5317ab8409c6fd1a
+Description-en: RocksDB storage engine for MariaDB
+ The RocksDB storage engine is a high performance storage engine, aimed
+ at maximizing storage efficiency while maintaining InnoDB-like performance.
+ This package contains the RocksDB plugin for MariaDB.
+
+Package: mariadb-plugin-s3
+Description-md5: d88f880c6bea545db8b310745f58eaae
+Description-en: Amazon S3 archival storage engine for MariaDB
+ The S3 storage engine allows one to archive MariaDB tables in Amazon S3 (or any
+ third-party public or private cloud that implements S3 API), but still have
+ them accessible in MariaDB in read-only mode.
+
+Package: mariadb-plugin-spider
+Description-md5: 0834409e7a3afca41f173143a638f5ab
+Description-en: Spider storage engine for MariaDB
+ The Spider storage engine with built-in sharding features. It supports
+ partitioning and xa transactions, and allows tables of different MariaDB
+ instances to be handled as if they were on the same instance. It refers to one
+ possible implementation of ISO/IEC 9075-9:2008 SQL/MED.
+
+Package: mariadb-server
+Description-md5: a887647d25d472f89e220ceda2b6e041
+Description-en: MariaDB database server (metapackage depending on the latest version)
+ This is an empty package that depends on the current "best" version of
+ mariadb-server (currently mariadb-server-10.5), as determined by the MariaDB
+ maintainers. Install this package if in doubt about which MariaDB
+ version you need. That will install the version recommended by the
+ package maintainers.
+ .
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+
+Package: mariadb-server-10.5
+Description-md5: ae76dbcde4bf3e79b8228e6dad967834
+Description-en: MariaDB database server binaries
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the server binaries.
+
+Package: mariadb-server-core-10.5
+Description-md5: a01f76260dfbedfdfbfcd8ff440b8a4c
+Description-en: MariaDB database core server files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the core server files, as used by Akonadi.
+
+Package: mariadb-test
+Description-md5: 88232ad1a9463948e9a1f1d33923b547
+Description-en: MariaDB database regression test suite
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the regression test suite.
+
+Package: mariadb-test-data
+Description-md5: 4e2584329df41bfe2241de957d88c44a
+Description-en: MariaDB database regression test suite - data files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package has the architecture independent data files for the test suite.
+
+Package: mysql-router
+Description-md5: 68df088e13493c106d4f76a2eb4efc60
+Description-en: route connections from MySQL clients to MySQL servers
+ MySQL Router is part of InnoDB cluster, and is lightweight middleware that
+ provides transparent routing between your application and back-end MySQL
+ servers. It can be used for a wide variety of use cases, such as providing
+ high availability and scalability by effectively routing database traffic to
+ appropriate back-end MySQL servers. The pluggable architecture also enables
+ developers to extend MySQL Router for custom use cases.
+ .
+ Since MySQL Router is clustering software and needs to be configured and
+ managed across an entire cluster, packaging cannot manage it for you. This
+ package supplies the binary build only, ready for manual configuration.
+
+Package: mysql-source-8.0
+Description-md5: 88f58941059fab032315a68e3122ac60
+Description-en: MySQL source
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL source code as configured before building
+ - but after the arch specific configuration. This is currently required for
+ building plugins.
+
+Package: mysql-testsuite
+Description-md5: a37f36627bd4d1ec3a167a2eae840534
+Description-en: MySQL regression tests
+ This is an empty package that depends on the current "best" version of
+ mysql-testsuite (currently mysql-testsuite-8.0), as determined by the
+ MySQL maintainers.  Install this package if in doubt about which MySQL
+ version you want, as this is the one we consider to be in the best shape.
+
+Package: mysql-testsuite-8.0
+Description-md5: ccc32250aefb33a80993be5dab467ee4
+Description-en: MySQL 8.0 testsuite
+ MySQL is a fast, stable, and true multi-user, multi-threaded SQL database
+ server.  SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the MySQL testsuite.
+
+Package: openjdk-11-demo
+Description-md5: 8c587e17f25fb354ef51e27e56507756
+Description-en: Java runtime based on OpenJDK (demos and examples)
+ OpenJDK Java runtime
+
+Package: openjdk-11-jre-zero
+Description-md5: c714861c802c9808def07d5329c6ed78
+Description-en: Alternative JVM for OpenJDK, using Zero
+ The package provides an alternative runtime using the Zero VM. Built on
+ architectures in addition to the Hotspot VM as a debugging aid for those
+ architectures which don't have a Hotspot VM.
+ .
+ The VM is started with the option `-zero'. See the README.Debian for details.
+
+Package: openjdk-17-dbg
+Description-md5: d73cb0a41450fd194ce774f2b26510b8
+Description-en: Java runtime based on OpenJDK (debugging symbols)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the debugging symbols.
+
+Package: openjdk-17-demo
+Description-md5: 8c587e17f25fb354ef51e27e56507756
+Description-en: Java runtime based on OpenJDK (demos and examples)
+ OpenJDK Java runtime
+
+Package: openjdk-17-doc
+Description-md5: 4689d9c1e14d405d15f0710639599643
+Description-en: OpenJDK Development Kit (JDK) documentation
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the API documentation.
+
+Package: openjdk-17-jdk
+Description-md5: b9e7f4837238c34971e4a8b72ab7d045
+Description-en: OpenJDK Development Kit (JDK)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+
+Package: openjdk-17-jdk-headless
+Description-md5: 494a52f34d707a832270d6d51a78f511
+Description-en: OpenJDK Development Kit (JDK) (headless)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+
+Package: openjdk-17-jre
+Description-md5: 13097853553de1ab39cc189225a9cbaa
+Description-en: OpenJDK Java runtime, using Hotspot JIT
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs, using Hotspot JIT.
+
+Package: openjdk-17-jre-headless
+Description-md5: 62c2c9689e617c48cc4480926d2ca785
+Description-en: OpenJDK Java runtime, using Hotspot JIT (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs,
+ using Hotspot JIT.
+
+Package: openjdk-17-jre-zero
+Description-md5: c714861c802c9808def07d5329c6ed78
+Description-en: Alternative JVM for OpenJDK, using Zero
+ The package provides an alternative runtime using the Zero VM. Built on
+ architectures in addition to the Hotspot VM as a debugging aid for those
+ architectures which don't have a Hotspot VM.
+ .
+ The VM is started with the option `-zero'. See the README.Debian for details.
+
+Package: openjdk-17-source
+Description-md5: 5e4d8bbb398daa24b05478a4a3be42bf
+Description-en: OpenJDK Development Kit (JDK) source files
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source files
+ (src.zip) for all classes that make up the Java core API.
+
+Package: openjdk-8-dbg
+Description-md5: 62cbbd2d3e6bc94279f18db4f735142b
+Description-en: Java runtime based on OpenJDK (debugging symbols)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the debugging symbols.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-demo
+Description-md5: c2a5624aa60e4de3025a249886fa82d7
+Description-en: Java runtime based on OpenJDK (demos and examples)
+ OpenJDK Java runtime
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-doc
+Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
+Description-en: OpenJDK Development Kit (JDK) documentation
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the API documentation.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-jdk
+Description-md5: eaff50443f15582a8beb0901034b62cf
+Description-en: OpenJDK Development Kit (JDK)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-jdk-headless
+Description-md5: d1221d55e35c3f9b061c79f97661bd96
+Description-en: OpenJDK Development Kit (JDK) (headless)
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-jre
+Description-md5: adca808a02a80aed4051cc95b7fe5f37
+Description-en: OpenJDK Java runtime, using Hotspot JIT
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs, using Hotspot JIT.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-jre-headless
+Description-md5: 20eb08d56f9496cba7ae5bc1fc762f93
+Description-en: OpenJDK Java runtime, using Hotspot JIT (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs,
+ using Hotspot JIT.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-jre-zero
+Description-md5: ca0db1fb38a237b982a1de5e6d632720
+Description-en: Alternative JVM for OpenJDK, using Zero/Shark
+ The package provides an alternative runtime using the Zero VM and the
+ Shark Just In Time Compiler (JIT).  Built on architectures in addition
+ to the Hotspot VM as a debugging aid for those architectures which don't
+ have a Hotspot VM.
+ .
+ The VM is started with the option `-zero'. See the README.Debian for details.
+
+Package: openjdk-8-source
+Description-md5: 328263bb6fbf81f04f5d459d67244ea0
+Description-en: OpenJDK Development Kit (JDK) source files
+ OpenJDK is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source files
+ (src.zip) for all classes that make up the Java core API.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: php8.0-bcmath
+Description-md5: 8f9f425714b203a9b7d1f3678f64c107
+Description-en: Bcmath module for PHP
+ This package provides the Bcmath module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-bz2
+Description-md5: 6221ff838ed81a370f3420140a1ccf42
+Description-en: bzip2 module for PHP
+ This package provides the bzip2 module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-dba
+Description-md5: a1c9cd8c67d752f4aaf0ba88ecb360df
+Description-en: DBA module for PHP
+ This package provides the DBA module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-enchant
+Description-md5: 687582edca33aa141d3f62c1294fcb07
+Description-en: Enchant module for PHP
+ This package provides the Enchant module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-fpm
+Description-md5: 612a17f0aace2c500fdf3741c6caa0cb
+Description-en: server-side, HTML-embedded scripting language (FPM-CGI binary)
+ This package provides the Fast Process Manager interpreter that runs
+ as a daemon and receives Fast/CGI requests.  Note that MOST Apache users
+ probably want the libapache2-mod-php8.0 package.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-imap
+Description-md5: 73ce2e5dbb1377bc41524b600892883b
+Description-en: IMAP module for PHP
+ This package provides the IMAP module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-interbase
+Description-md5: 40c18d15eeba50ef5700d72e1e45d586
+Description-en: Interbase module for PHP
+ This package provides the Interbase module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-intl
+Description-md5: 576352b0c1559ceb07b3161367c69f39
+Description-en: Internationalisation module for PHP
+ This package provides the Internationalisation module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-phpdbg
+Description-md5: 2c5b457041329aa8ba2720447cd9600b
+Description-en: server-side, HTML-embedded scripting language (PHPDBG binary)
+ This package provides the /usr/bin/phpdbg command interpreter, useful for
+ stepthrough debugging of PHP code.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcntl pcre Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-soap
+Description-md5: 8ca6ca2ae4fbc6127f6522e73f05005a
+Description-en: SOAP module for PHP
+ This package provides the SOAP module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-sybase
+Description-md5: c5f3c0b4521b40ee671df4ab3452df1d
+Description-en: Sybase module for PHP
+ This package provides the Sybase module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: php8.0-xsl
+Description-md5: 93c8fc5e2935346a001f328e898c3cff
+Description-en: XSL module for PHP (dummy)
+ This package is a transitional dummy package and can be safely
+ removed.
+
+Package: php8.0-zip
+Description-md5: e148c478613188b645a0ec42c87f0518
+Description-en: Zip module for PHP
+ This package provides the Zip module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: postgresql-server-dev-13
+Description-md5: ea24835aaae1d62503279845336c6a0b
+Description-en: development files for PostgreSQL 13 server-side programming
+ Header files for compiling SSI code to link into PostgreSQL's backend; for
+ example, for C functions to be called from SQL.
+ .
+ This package also contains the Makefiles necessary for building add-on
+ modules of PostgreSQL, which would otherwise have to be built in the
+ PostgreSQL source-code tree.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: python3-django-postorius
+Description-md5: 016171c4fe953e390f5bf45b1ec10ef6
+Description-en: Web user interface to access GNU Mailman3
+ The Postorius Django app provides a web user interface
+ to access GNU Mailman3, and manage it. This interface
+ uses django, and requires some configuration.
+
+Package: python3-hivex
+Description-md5: 802f69909ae8a4552451fc8cbfcc2949
+Description-en: Python 3 bindings for hivex
+ Python 3 bindings for libhivex, a library for reading and writing
+ Windows Registry "hive" binary files.
+
+Package: qt5-flatpak-platformtheme
+Description-md5: c5afb80c1f79f97f0ac8a0d6b5fd1f84
+Description-en: Qt 5 Flatpak platform theme (transitional package)
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional package which can safely be removed.
+
+Package: qt5-gtk-platformtheme
+Description-md5: 39eaf682438c89ae84a301289473e806
+Description-en: Qt 5 GTK+ 3 platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides the GTK+ 3 platform theme, which makes Qt use
+ native icon themes, fonts, and dialogs on GTK-based environments.
+
+Package: qt5-qmake
+Description-md5: d22e820ccda7e109fc6cf2c171df093e
+Description-en: Qt 5 qmake Makefile generator tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 5 qmake, a tool that helps simplify
+ the build process for development project across different platforms.
+ qmake automates the generation of Makefiles so that only a few lines of
+ information are needed to create each Makefile. qmake can be used for any
+ software project, whether it is written using Qt or not.
+ .
+ Qt 5 qmake requires a platform and compiler description file which contains
+ many default values used to generate appropriate Makefiles.
+ .
+ This package contains also these platform specifications.
+
+Package: qt5-qmake-bin
+Description-md5: 86cdde8a3c4de9597f2460df4811e75d
+Description-en: Qt 5 qmake Makefile generator tool — binary file
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the binary file for qmake buildsystem. Do not
+ install this package directly, use qt5-qmake instead.
+
+Package: qt5-xdgdesktopportal-platformtheme
+Description-md5: 0a5ddb5371f4cf42243bc780d020c01f
+Description-en: Qt 5 XDG Desktop Portal platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides the XDG Desktop portal platform theme, which makes
+ Qt use native file dialogs on Flatpak/Snap based environments.
+
+Package: qtbase5-dev
+Description-md5: eb1a5e244bfc7327cfdf56f6aff9cab9
+Description-en: Qt 5 base development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+ .
+ If you are interested in packaging Qt 5 stuff please take a look at
+ https://qt-kde-team.pages.debian.net/packagingqtbasedstuff.html
+
+Package: qtbase5-dev-tools
+Description-md5: 389ab33cc35e6afecee8a8240f83313f
+Description-en: Qt 5 base development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 5
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc,
+ syncqt and uic.
+ .
+ We do not recommend depending on this package directly. Please depend
+ on qtbase5-dev instead.
+
+Package: qtbase5-doc
+Description-md5: ca14ee36d3a7fc0206bfcbb35e2be024
+Description-en: Qt 5 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-dev
+Description-md5: 5f103459e351d7b7e73520be6c3de13a
+Description-en: Qt 5 base tags files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the doxygen tags files for the qtbase documentation.
+
+Package: qtbase5-doc-html
+Description-md5: 2e4adf9de7ccece9e0fe9efb81d70fe6
+Description-en: Qt 5 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.
+
+Package: qtbase5-examples
+Description-md5: ac043eae380c0dcd4bce5d40a835f3e4
+Description-en: Qt 5 base examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt base 5 examples.
+
+Package: qtbase5-private-dev
+Description-md5: b388fd86350adaeeb21580f32ba12fcc
+Description-en: Qt 5 base private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications like Qt Creator QML Designer plugin.
+ .
+ Use at your own risk.
+
+Package: registry-tools
+Description-md5: 7266dad7d5ee9360537ffc04ec7157f3
+Description-en: tools for viewing and manipulating the Windows registry
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains tools for viewing and manipulating the binary
+ "registry" found on Windows machines, both locally and remote.
+
+Package: ruby-hivex
+Description-md5: 851061fd0f4952c64a5a5e540c294fe2
+Description-en: Ruby bindings for hivex
+ Ruby bindings for libhivex, a library for reading and writing
+ Windows Registry "hive" binary files.
+
+Package: rust-all
+Description-md5: 90140e39ec4bd9741a36b3f6d4c6d053
+Description-en: Rust systems programming language - all developer tools
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package is an empty metapackage that depends on all developer tools
+ in the standard rustc distribution that have been packaged for Debian.
+
+Package: rust-clippy
+Description-md5: bb70ecb7b097f53232194f2241ad606e
+Description-en: Rust linter
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains 'clippy', a linter to catch common mistakes and improve
+ your Rust code as well a collection of over 400 compatible lints.
+ .
+ Lints are divided into categories, each with a default lint level. You can
+ choose how much Clippy is supposed to annoy help you by changing the lint
+ level by category.
+ .
+ Clippy is integrated into the 'cargo' build tool, available via 'cargo clippy'.
+
+Package: rust-doc
+Description-md5: c9fc696f11bdef73526bdf4340964294
+Description-en: Rust systems programming language - Documentation
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains the Rust tutorial, language reference and
+ standard library documentation.
+
+Package: rust-gdb
+Description-md5: 1afbf06d9ee3b7b85a98c81c15ed3109
+Description-en: Rust debugger (gdb)
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains pretty printers and a wrapper script for
+ invoking gdb on rust binaries.
+
+Package: rust-lldb
+Description-md5: 4da7dd4330a7b317624f536076fd1b69
+Description-en: Rust debugger (lldb)
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains pretty printers and a wrapper script for
+ invoking lldb on rust binaries.
+
+Package: rust-src
+Description-md5: 7c8d03ba583d96a9cc7a0dc63f208a52
+Description-en: Rust systems programming language - source code
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains sources of the Rust compiler and standard
+ libraries, useful for IDEs and code analysis tools such as Racer.
+
+Package: rustc
+Description-md5: 67ca6080eea53dc7f3cdf73bc6b8521e
+Description-en: Rust systems programming language
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+
+Package: rustfmt
+Description-md5: 3ad3031d946444f1737bc02666f33a91
+Description-en: Rust formatting helper
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains 'rustfmt', a tool for formatting Rust code according to
+ style guidelines, as well as 'cargo-fmt', a helper enabling running rustfmt
+ directly with 'cargo fmt'.
+
+Package: samba-testsuite
+Description-md5: 9909252a54b8d1689d0ad0af3791b792
+Description-en: test suite from Samba
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains programs for testing the reliability and speed
+ of SMB servers, Samba in particular.
+
+Package: strongswan-nm
+Description-md5: fe4e82468fec86f66c41601086865ec7
+Description-en: strongSwan plugin to interact with NetworkManager
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This plugin provides an interface which allows NetworkManager to configure
+ and control the IKEv2 daemon directly through D-Bus. It is designed to work
+ in conjunction with the network-manager-strongswan package, providing
+ a simple graphical frontend to configure IPsec based VPNs.
+
+Package: strongswan-pki
+Description-md5: e39ead8c35dce81cd768bc453bc29db7
+Description-en: strongSwan IPsec client, pki command
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package contains the pki tool which allows on to run a simple public key
+ infrastructure.
+
+Package: strongswan-scepclient
+Description-md5: fbc3cadf8a28f7b05798f7dbda6309c2
+Description-en: strongSwan IPsec client, SCEP client
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package contains the SCEP client, an implementation of the Cisco System's
+ Simple Certificate Enrollment Protocol (SCEP).
+
+Package: strongswan-swanctl
+Description-md5: 0da8661efd13d913c22e863856990337
+Description-en: strongSwan IPsec client, swanctl command
+ The strongSwan VPN suite uses the native IPsec stack in the standard
+ Linux kernel. It supports both the IKEv1 and IKEv2 protocols.
+ .
+ This package contains the swanctl interface, used to configure a running
+ charon daemon
+
+Package: thunderbird-gnome-support-dbg
+Description-md5: 8fa21aaf02af881ccc7c33f8559e6531
+Description-en: Email, RSS and newsgroup client - transitional package
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: thunderbird-mozsymbols
+Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
+Description-en: Email, RSS and newsgroup client - Breakpad symbols
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different mail
+ accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, one-
+ click address book, tabbed interface, an integrated learning spam filter,
+ advanced search and indexing capabilities, and offers easy organization
+ of mails with tagging and virtual folders. It also features unrivalled
+ extensibility.
+ .
+ This package contains the Firefox symbols in a format expected by Mozilla's
+ Breakpad. Eventually this package should go away and the symbol upload be
+ implemented in soyuz (or other builders that build this package)
+
+Package: udhcpc
+Description-md5: e2345d2807e5393b509c38303e4ee886
+Description-en: Provides the busybox DHCP client implementation
+ Busybox contains a very small yet fully functional RFC compliant DHCP
+ client formerly known as udhcpc.
+ .
+ This package contains the glue to use the busybox udhcpc as DHCP
+ client in the system by providing the appropriate symbolic links and
+ scripts.
+
+Package: udhcpd
+Description-md5: c737b2b2b9534ba766d99f6de6c31668
+Description-en: Provides the busybox DHCP server implementation
+ Busybox contains a very small yet fully function RFC compliant DHCP
+ server formerly known as udhcpd.
+ .
+ This package contains the glue to use the busybox udhcpd as DHCP
+ server in the system by providing the appropriate symbolic links and
+ scripts.
+
+Package: vim-athena
+Description-md5: 5e32df39fe43df51571314f93f38a67b
+Description-en: Vi IMproved - enhanced vi editor - with Athena GUI
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ Many new features have been added: multi level undo, syntax
+ highlighting, command line history, on-line help, filename
+ completion, block operations, folding, Unicode support, etc.
+ .
+ This package contains a version of vim compiled with a Athena GUI
+ and support for scripting with Lua, Perl, Python 3, and Tcl.
+
+Package: vim-gtk
+Description-md5: 86dc6422648bf19178561819a13be252
+Description-en: Vi IMproved - enhanced vi editor (dummy package)
+ This is a transitional package to install the vim-gtk3 package.  You may
+ remove this package if nothing depends on it.
+
+Package: vim-gtk3
+Description-md5: 55a9161bf3dec9e8a999586c8e73467a
+Description-en: Vi IMproved - enhanced vi editor - with GTK3 GUI
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ Many new features have been added: multi level undo, syntax
+ highlighting, command line history, on-line help, filename
+ completion, block operations, folding, Unicode support, etc.
+ .
+ This package contains a version of vim compiled with a GTK3 GUI
+ and support for scripting with Lua, Perl, Python 3, Ruby, and Tcl.
+
+Package: vim-gui-common
+Description-md5: f51060aa71b1aeaa83cfde145ca640c3
+Description-en: Vi IMproved - Common GUI files
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ This package contains files shared by all GUI-enabled vim
+ variants available in Debian.  Examples of such shared files are:
+ gvimtutor, icons, and desktop environments settings.
+
+Package: vim-nox
+Description-md5: f840d0104436408f409898adc9a43d8c
+Description-en: Vi IMproved - enhanced vi editor - with scripting languages support
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ Many new features have been added: multi level undo, syntax
+ highlighting, command line history, on-line help, filename
+ completion, block operations, folding, Unicode support, etc.
+ .
+ This package contains a version of vim compiled with support for
+ scripting with Lua, Perl, Python 3, Ruby, and Tcl but no GUI.
+
+Package: vim-syntax-docker
+Description-md5: fcdf3cc569fec99526c4f1c044063f82
+Description-en: Docker container engine - Vim highlighting syntax files
+ This package provides syntax files for the Vim editor for editing Dockerfiles
+ from the Docker container engine.
+
+Package: webkit2gtk-driver
+Description-md5: b1b90b3877648e44017be43c33ecc59b
+Description-en: WebKitGTK WebDriver support
+ WebKit is a web content engine, derived from KHTML and KJS from KDE, and
+ used primarily in Apple's Safari browser.  It is made to be embedded in
+ other applications, such as mail readers, or web browsers.
+ .
+ It is able to display content such as HTML, SVG, XML, and others. It also
+ supports DOM, XMLHttpRequest, XSLT, CSS, JavaScript/ECMAScript and more.
+ .
+ WebKit2 is an API layer for WebKit designed from the ground up to
+ support a split process model, where the web content lives in a
+ separate process from the application UI.
+ .
+ This build comes from the GTK port of WebKit (API version 4.0).
+ .
+ This package provides the WebDriver service implementation for
+ WebKitGTK.
+
+Package: xdmx
+Description-md5: 9e6fe3aa398121b6dd37b516ff31f0fc
+Description-en: distributed multihead X server
+ Xdmx is a proxy X server that uses one or more other X servers as its
+ display device(s). It provides multi-head X functionality for displays that
+ might be located on different machines. Xdmx functions as a front-end X server
+ that acts as a proxy to a set of back-end X servers. All of the visible
+ rendering is passed to the back-end X servers. Clients connect to the Xdmx
+ front-end, and everything appears as it would in a regular multi-head
+ configuration. If Xinerama is enabled (e.g., with +xinerama on the command
+ line), the clients see a single large screen.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xdmx-tools
+Description-md5: 7c73525ee7871b6febd440ea9a0a08b9
+Description-en: Distributed Multihead X tools
+ This package provides a collection of tools used for administration of
+ the Xdmx server; see the xdmx package for more information.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xnest
+Description-md5: 8fb9e95ed5f9c018992a8cdc83935474
+Description-en: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xorg-server-source
+Description-md5: 6be9dae6db2bfd4321ce1a5c689cbeb4
+Description-en: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+
+Package: xul-ext-calendar-timezones
+Description-md5: aa51586667f70f4444de07214c475b6d
+Description-en: Calendar Extension for Thunderbird (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: xul-ext-gdata-provider
+Description-md5: aa51586667f70f4444de07214c475b6d
+Description-en: Calendar Extension for Thunderbird (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: xul-ext-lightning
+Description-md5: aa51586667f70f4444de07214c475b6d
+Description-en: Calendar Extension for Thunderbird (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: xvfb
+Description-md5: 1cd5b85acd06c23d376b7b5a7f30a0b8
+Description-en: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: openjdk-17-jre
+Description-md5: 5bad8f597e182fdf0635f3b9fccbce1a
+Description-en: OpenJDK Java runtime, using Hotspot Zero
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs, using Hotspot Zero.
+
+Package: openjdk-17-jre-headless
+Description-md5: 125494d786a73a442968635c3a21c714
+Description-en: OpenJDK Java runtime, using Hotspot Zero (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs,
+ using Hotspot Zero.
+
+Package: openjdk-8-jre
+Description-md5: d8844993602e4875dfbd87983091c18c
+Description-en: OpenJDK Java runtime, using Hotspot Zero
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs, using Hotspot Zero.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+
+Package: openjdk-8-jre-headless
+Description-md5: 501cffbd670429c46b6c73ca3974ed93
+Description-en: OpenJDK Java runtime, using Hotspot Zero (headless)
+ Minimal Java runtime - needed for executing non GUI Java programs,
+ using Hotspot Zero.
+ .
+ The packages are built using the IcedTea build support and patches
+ from the IcedTea project.
+

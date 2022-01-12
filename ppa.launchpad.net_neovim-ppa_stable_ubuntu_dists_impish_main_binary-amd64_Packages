@@ -1,0 +1,72 @@
+Package: libtree-sitter-dev
+Source: tree-sitter
+Priority: optional
+Section: libdevel
+Installed-Size: 293
+Maintainer: Tree-sitter Maintainers <team+tree-sitter@tracker.debian.org>
+Architecture: amd64
+Version: 0.20.0-1~ubuntu21.10.1~ppa1
+Depends: libtree-sitter0 (= 0.20.0-1~ubuntu21.10.1~ppa1)
+Filename: pool/main/t/tree-sitter/libtree-sitter-dev_0.20.0-1~ubuntu21.10.1~ppa1_amd64.deb
+Size: 98546
+MD5sum: 2794f701c878347a023fd235208f0cf0
+SHA1: 4314f0a7195b33148de09f1b419fb44c0aa19b82
+SHA256: a57aa3dbad348552df666071643d2491927c1852831feefc7e78ae189d9c72fe
+Description: incremental parsing system for programming tools (development files)
+Description-md5: bf3d6e6f9c3e81596198cc417600a9d0
+Multi-Arch: same
+
+Package: libtree-sitter0
+Source: tree-sitter
+Priority: optional
+Section: libs
+Installed-Size: 201
+Maintainer: Tree-sitter Maintainers <team+tree-sitter@tracker.debian.org>
+Architecture: amd64
+Version: 0.20.0-1~ubuntu21.10.1~ppa1
+Depends: libc6 (>= 2.17)
+Filename: pool/main/t/tree-sitter/libtree-sitter0_0.20.0-1~ubuntu21.10.1~ppa1_amd64.deb
+Size: 87880
+MD5sum: ac1062034fa0bc52be0d5855e2179de6
+SHA1: 72d1bb27d1717d314344c2c74e079845c29bfc39
+SHA256: c125436b45c62ff8497e7d45485f5e3c63796df05df7dab2a5c9e3b675fca580
+Description: incremental parsing system for programming tools
+Description-md5: 7088503d263961758af6db1536960e78
+Multi-Arch: same
+
+Package: neovim
+Priority: optional
+Section: editors
+Installed-Size: 4450
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Architecture: amd64
+Version: 0.6.1-3~bpo21.10.1~ppa1
+Recommends: python3-neovim, xclip | xsel, xxd
+Suggests: ctags, vim-scripts
+Provides: editor
+Depends: neovim-runtime (= 0.6.1-3~bpo21.10.1~ppa1), libc6 (>= 2.34), libluajit-5.1-2 (>= 2.0.4+dfsg), libmsgpackc2 (>= 2.1.0), libtermkey1 (>= 0.19), libtree-sitter0 (>= 0.20.0), libunibilium4 (>= 2.0), libuv1 (>= 1.30.1), libvterm0 (>= 0.1), lua-luv (>= 1.36.0-0)
+Filename: pool/main/n/neovim/neovim_0.6.1-3~bpo21.10.1~ppa1_amd64.deb
+Size: 1817574
+MD5sum: a2b36a6256829c117c1f4ae05a73fe7f
+SHA1: 7a9b294b697572a178a937798661efa970b2ec6e
+SHA256: 178f44f8315390129bbe8ae7e9c916d5090fb9aec7843c841549a4628006676c
+Description: heavily refactored vim fork
+Description-md5: cc27d693d853e57070e8edb4f6132d4c
+
+Package: neovim-runtime
+Source: neovim
+Priority: optional
+Section: editors
+Installed-Size: 19859
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Architecture: all
+Version: 0.6.1-3~bpo21.10.1~ppa1
+Filename: pool/main/n/neovim/neovim-runtime_0.6.1-3~bpo21.10.1~ppa1_all.deb
+Size: 4120970
+MD5sum: 257e3b9445984243aee06807c1dc3ca7
+SHA1: 1a558b046fe5e5107a77de6d70ee2e970b94ea8e
+SHA256: 40067fe5f2ab17a08894c19407aa24eaa049547c469932312a4cd4aca7814b4c
+Description: heavily refactored vim fork (runtime files)
+Description-md5: 04bdb26e78477e39ebd3562d0d7ee8f2
+Multi-Arch: foreign
+

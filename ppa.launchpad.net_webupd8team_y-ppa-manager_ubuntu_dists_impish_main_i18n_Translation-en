@@ -1,0 +1,22 @@
+Package: launchpad-getkeys
+Description-md5: 325f3a753d0fb7103c43db40ddd82746
+Description-en: Import missing GPG keys automatically
+ .
+ This package provides a script capable of automatically
+ downloading the missing GPG keys for all your PPAs, even if you are
+ behind a firewall that blocks port 11371.
+ .
+ The tool does not fix broken keys!
+ .
+ To use it, run: sudo launchpad-getkeys
+
+Package: y-ppa-manager
+Description-md5: dbb1ea1960969ff764a66626707a24fb
+Description-en: Y PPA Manager
+ .
+ Easily manage PPAs: add, remove, purge and search in
+ all Launchpad PPAs using a graphical interface. The
+ search feature allows you to add the found PPAs, list
+ the packages and their versions in a PPA or download
+ some packages from the PPA.
+

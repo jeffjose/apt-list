@@ -1,0 +1,58 @@
+Package: libtree-sitter-dev
+Description-md5: bf3d6e6f9c3e81596198cc417600a9d0
+Description-en: incremental parsing system for programming tools (development files)
+ Tree-sitter is a parser generator tool and an incremental parsing library. It
+ can build a concrete syntax tree for a source file and efficiently update the
+ syntax tree as the source file is edited.
+ .
+ Tree-sitter aims to be:
+ .
+ * General enough to parse any programming language
+ * Fast enough to parse on every keystroke in a text editor
+ * Robust enough to provide useful results even in the presence of
+ syntax errors
+ * Dependency-free so that the runtime library (which is written in pure
+ C) can be embedded in any application
+ .
+ This package contains the header files and libraries needed for developing
+ with tree-sitter.
+
+Package: libtree-sitter0
+Description-md5: 7088503d263961758af6db1536960e78
+Description-en: incremental parsing system for programming tools
+ Tree-sitter is a parser generator tool and an incremental parsing library. It
+ can build a concrete syntax tree for a source file and efficiently update the
+ syntax tree as the source file is edited.
+
+Package: libtree-sitter0-dbgsym
+Description-md5: bbb2399045f438a1b8c0859de53d847e
+Description-en: debug symbols for libtree-sitter0
+
+Package: neovim
+Description-md5: cc27d693d853e57070e8edb4f6132d4c
+Description-en: heavily refactored vim fork
+ Neovim is a fork of Vim focused on modern code and features, rather than
+ running in legacy environments.
+ .
+ msgpack API enables structured communication to/from any programming language.
+ Remote plugins run as co-processes that communicate with Neovim safely and
+ asynchronously.
+ .
+ GUIs (or TUIs) can easily embed Neovim or communicate via TCP sockets using
+ the discoverable msgpack API.
+
+Package: neovim-dbgsym
+Description-md5: cc5396d9cabff99ef5a2a018fec90535
+Description-en: debug symbols for neovim
+
+Package: neovim-runtime
+Description-md5: 04bdb26e78477e39ebd3562d0d7ee8f2
+Description-en: heavily refactored vim fork (runtime files)
+ Neovim is a fork of Vim focused on modern code and features, rather than
+ running in legacy environments.
+ .
+ This package contains the architecture independent runtime files used by
+ neovim.  Examples of such files are: documentation, rules for
+ language-specific highlighting and indentation, color schemes, and standard
+ plugins.
+

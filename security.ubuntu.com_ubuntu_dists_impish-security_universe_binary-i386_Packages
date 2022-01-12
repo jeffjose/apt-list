@@ -1,0 +1,3027 @@
+Package: apache2-suexec-custom
+Architecture: i386
+Version: 2.4.48-3.1ubuntu3.2
+Priority: extra
+Section: universe/web
+Source: apache2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 139
+Provides: apache2-suexec
+Depends: apache2-bin, libc6 (>= 2.34)
+Filename: pool/universe/a/apache2/apache2-suexec-custom_2.4.48-3.1ubuntu3.2_i386.deb
+Size: 16352
+MD5sum: 9caae6743bf6fa4a74a5201b3a96b81c
+SHA1: 85afff716990af75848839e53912933df87c7944
+SHA256: 0f5ca6f9faf6390e4189e1ed5037f652bf10a7616bd37e199b4393338dcc8a17
+SHA512: 75d3bb3721631720c37689fe5ea42b611056ed99d73163666a758da7304212bcba635d8b391176729104bc31689e85770b4d467add6470688f5893f8534b8367
+Homepage: https://httpd.apache.org/
+Description: Apache HTTP Server configurable suexec program for mod_suexec
+Description-md5: 116f52596e88b0c7717e1f4973ada661
+
+Package: apache2-suexec-pristine
+Architecture: i386
+Version: 2.4.48-3.1ubuntu3.2
+Priority: optional
+Section: universe/httpd
+Source: apache2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 133
+Provides: apache2-suexec
+Depends: apache2-bin, libc6 (>= 2.34)
+Filename: pool/universe/a/apache2/apache2-suexec-pristine_2.4.48-3.1ubuntu3.2_i386.deb
+Size: 14718
+MD5sum: bf9529e46d7023371c289b588e593b3e
+SHA1: d34f84994e160b8ec53fede2f19c484825942f89
+SHA256: ed3e8982ea2f4e6a89f34f2ebcd3440141e5ee0b8484c6d224481afb6977e887
+SHA512: 33e22e1d44f8cee3cc6b59b23a8e48282f00e360a29247b7883f988d6fb69f648c577894e457c6a2a5833efa08396ae64a3e355a2dea76db09c09f3a2aba5059
+Homepage: https://httpd.apache.org/
+Description: Apache HTTP Server standard suexec program for mod_suexec
+Description-md5: 86a22eab8bdd72ac81f3d8aab53bf001
+
+Package: apport-kde
+Architecture: all
+Version: 2.20.11-0ubuntu71
+Priority: optional
+Section: universe/kde
+Source: apport
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 204
+Depends: python3, python3-apport (>= 2.20.11-0ubuntu71), python3-pyqt5, apport (>= 0.41), procps, konsole | x-terminal-emulator
+Recommends: kubuntu-notification-helper | lxqt-notificationd, gdb-minimal | gdb
+Filename: pool/universe/a/apport/apport-kde_2.20.11-0ubuntu71_all.deb
+Size: 18692
+MD5sum: 29c86818b4bcba4755f6b8dbfb76869f
+SHA1: 4ad8180cdb337edcb172d942366cc8c5373fc9ae
+SHA256: 2a60a5f757701e93a9918f568c00a41624758287c9ccb3bacce13fe409225253
+SHA512: aca1d6d0a096eae9cb720883adc94fcba7058b4a2fd51b8cc9b76c9dd1420c758297ec0018c1c0a4e0623016ce6264ba8a2e57b07f418830369a946b7707a108
+Homepage: https://wiki.ubuntu.com/Apport
+Description: KDE frontend for the apport crash report system
+Task: kubuntu-desktop, kubuntu-full, ubuntustudio-desktop
+Description-md5: c8fd570a74a013e8fc3c502dd64152ce
+
+Package: apport-noui
+Architecture: all
+Version: 2.20.11-0ubuntu71
+Priority: optional
+Section: universe/utils
+Source: apport
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 152
+Depends: python3, python3-apport (>= 2.20.11-0ubuntu71), apport (>= 2.20.10-0ubuntu4), procps, gdb-minimal | gdb, whoopsie
+Filename: pool/universe/a/apport/apport-noui_2.20.11-0ubuntu71_all.deb
+Size: 1750
+MD5sum: 6b069de088abc53f407ff5431712a6e1
+SHA1: d7e1a68cc7b88bf9370a8ea8d47af020702d92f4
+SHA256: 19c5056506e61af1be028238fd7e87b1a654d9c4051410266e144560d9425322
+SHA512: ea3f9dd013bb5b9fa8be936e648f97b09dedd2e76cb3825aa46e3ac93bb0e238bb5bb1b64258a80707f35325321188cc83549422835a7929b6637522d6542ddb
+Homepage: https://wiki.ubuntu.com/Apport
+Description: tools for automatically reporting Apport crash reports
+Description-md5: 5cfad9aa6d06a624d5f60c2375d26631
+
+Package: apport-valgrind
+Architecture: all
+Version: 2.20.11-0ubuntu71
+Priority: optional
+Section: universe/devel
+Source: apport
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 158
+Depends: python3, python3-apport (>= 2.20.11-0ubuntu71), apt, binutils, valgrind (>= 3.8.1-1ubuntu1~), dpkg-dev, libc6-dbg | libc6-dbgsym | libc-dbg
+Filename: pool/universe/a/apport/apport-valgrind_2.20.11-0ubuntu71_all.deb
+Size: 5162
+MD5sum: f41d61ca9c8a8dc3776f36b9f3c1c9c2
+SHA1: dc9e73551bfc4422909f1c71a5cb5dd3b73cd70b
+SHA256: fa83e8ef4b341dab4a5c73fab6561c2c8dd54e5fd567446b498b95df8d6a9bf9
+SHA512: 1bf9eecddbf4c2c45dd0ee05082f797e96beb7a0955a752442c6f37bd83181f50ee14254969f3ab8d21ee16c877fa9a434488473eb7830ee56a13145fbe1c84b
+Homepage: https://wiki.ubuntu.com/Apport
+Description: valgrind wrapper that first downloads debug symbols
+Description-md5: 21b17902929fcb9d5f6a9bcc53f2af83
+
+Package: bind9utils
+Architecture: all
+Version: 1:9.16.15-1ubuntu1.1
+Priority: optional
+Section: universe/net
+Source: bind9
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 51
+Depends: bind9-utils
+Filename: pool/universe/b/bind9/bind9utils_9.16.15-1ubuntu1.1_all.deb
+Size: 3926
+MD5sum: 0b75f9a188d3878c9b29fb49cd00a568
+SHA1: 61abd96c634c7600adfc8d63ac1d6e1c1ee292cf
+SHA256: 80343fbfa5ead84c62bca403f73817580dbc4059818352fdca420aa79de3ddab
+SHA512: d62323b4d3ff72e419d3ca4d022cd378a07d8f90fbfe7bab28f495d6f93c70c6d2055d362a2c1d83dbddadb95a6cbb4377b54003431e3ed59fdb7f4f06bf9e34
+Homepage: https://www.isc.org/downloads/bind/
+Description: Transitional package for bind9-utils
+Description-md5: 8681b0dabeb2a3fde42fdbb1f21451d2
+
+Package: bluetooth
+Architecture: all
+Version: 5.60-0ubuntu2.1
+Priority: optional
+Section: universe/admin
+Source: bluez
+Origin: Ubuntu
+Maintainer: Ubuntu Bluetooth team <ubuntu-bluetooth@lists.ubuntu.com>
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 36
+Depends: bluez
+Suggests: bluez-cups, bluez-obexd, bluez-meshd
+Filename: pool/universe/b/bluez/bluetooth_5.60-0ubuntu2.1_all.deb
+Size: 2994
+MD5sum: 08110a05060060aa79ad2a93ae6624cb
+SHA1: 91396314cbf4d981503cebb870fa893a2ee8f025
+SHA256: 73af341fe4f487be67ef5abfbc72019dd651ddc581a5b0ea91adda8d4967e0fd
+SHA512: 317600e52a6b9651e360600efe5ee533bdb98ffaf3bbff2ffcd56f68ea719c39380d38d993d0cf5d8285f121daf14772f67736d3e3db2261ebd82702c7eae925
+Homepage: http://www.bluez.org
+Description: Bluetooth support (metapackage)
+Description-md5: 9e39e616b43759f27940df27b76d2e46
+
+Package: bluez-hcidump
+Architecture: i386
+Version: 5.60-0ubuntu2.1
+Priority: optional
+Section: universe/admin
+Source: bluez
+Origin: Ubuntu
+Maintainer: Ubuntu Bluetooth team <ubuntu-bluetooth@lists.ubuntu.com>
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 599
+Depends: libc6 (>= 2.34)
+Filename: pool/universe/b/bluez/bluez-hcidump_5.60-0ubuntu2.1_i386.deb
+Size: 181752
+MD5sum: bd543e6b7cf3477a0a1fadb9b649f30a
+SHA1: 383f1bd18bd666e4899f952619e183e1e448a80d
+SHA256: 0375d8c38d255364aeda57c9d937bb8151edcfb70eb32c076559a5f274b85cb8
+SHA512: 8350a45b639daa6c68b8ae4794df81adc71612bd9cf98916a5af3c24b85fe47ac72d520b9fde20e69d29e8076cea32c673e23a50d3712cc64f029ff49cbec753
+Homepage: http://www.bluez.org
+Description: Analyses Bluetooth HCI packets
+Description-md5: 4ebfd05a0b1b606a60e737cc590e2325
+
+Package: bluez-meshd
+Architecture: i386
+Version: 5.60-0ubuntu2.1
+Priority: optional
+Section: universe/admin
+Source: bluez
+Origin: Ubuntu
+Maintainer: Ubuntu Bluetooth team <ubuntu-bluetooth@lists.ubuntu.com>
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1357
+Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0), libjson-c5 (>= 0.15), libreadline8 (>= 6.0)
+Filename: pool/universe/b/bluez/bluez-meshd_5.60-0ubuntu2.1_i386.deb
+Size: 453084
+MD5sum: 857f780d89b1baf8a1b4117b71e97b5f
+SHA1: 0e606241f3926ebea53d5662b5e11a6db94206f8
+SHA256: c8fdd0821d189b4bb22fd1e443ed17cc2321fa3b10319555ba04ee212deb710f
+SHA512: aa4479abc8a497f7942087cb9fdea747eaf98d2ccf5769a1662d701b3046c706ec4feb9067218e72be87105fe063465eacf50dcc7471822aa215e557e3dc699f
+Homepage: http://www.bluez.org
+Description: bluetooth mesh daemon
+Description-md5: ca06bc66a9b979e71d30c46198c95ca7
+
+Package: bluez-tests
+Architecture: i386
+Version: 5.60-0ubuntu2.1
+Priority: optional
+Section: universe/admin
+Source: bluez
+Origin: Ubuntu
+Maintainer: Ubuntu Bluetooth team <ubuntu-bluetooth@lists.ubuntu.com>
+Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3271
+Provides: bluez-test-scripts
+Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0)
+Conflicts: bluez-test-scripts
+Replaces: bluez-test-scripts
+Filename: pool/universe/b/bluez/bluez-tests_5.60-0ubuntu2.1_i386.deb
+Size: 497576
+MD5sum: e4b6f77cd27f4f0b585e13c26952bd48
+SHA1: f9bfa575c4ccb2ee26036710cb9541f9df5c2f60
+SHA256: 641339fc56d15cdd47695d98f8456e51fbca94208424375c057d3df900dac9f2
+SHA512: 74a03e3c33810b984d8a4b0902af7e8e4cdc5c72c5dcfa4b905270cba09ea21eb87fe8cf081788044330cdd5038eb0962959ad64526fd2de322c76648ebd5eed
+Homepage: http://www.bluez.org
+Description: BlueZ test tools and scripts
+Description-md5: 70d0f4a675d48599e09b3248e2e1adfe
+
+Package: busybox
+Architecture: i386
+Version: 1:1.30.1-6ubuntu3.1
+Priority: optional
+Section: universe/utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 766
+Depends: libc6 (>= 2.34)
+Conflicts: busybox-static
+Breaks: initramfs-tools (<< 0.99)
+Replaces: busybox-static
+Filename: pool/universe/b/busybox/busybox_1.30.1-6ubuntu3.1_i386.deb
+Size: 436998
+MD5sum: 2889418c7365653031e9ab5f8fb38f7f
+SHA1: f8412cebb182260c913653081da0069e03cbd8a6
+SHA256: c34c11deeee3c0e45f5ad6601716f1379c1eec11b615ed385c5e785130e1be85
+SHA512: b51eaf62d0476da4848f6c72a247555aaff2da2906ac63cd12318be3fb8e555f20aedf746d1895bd384080ebed734d60d027debe0d0fd0260ac1cd6642039704
+Homepage: http://www.busybox.net
+Description: Tiny utilities for small and embedded systems
+Description-md5: b7707908219c331294f3f9e8d926a9dc
+
+Package: caca-utils
+Architecture: i386
+Version: 0.99.beta19-2.2ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/utils
+Source: libcaca
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sam Hocevar <sho@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 552
+Depends: libc6 (>= 2.34), libcaca0 (>= 0.99.beta17-1), libimlib2 (>= 1.4.5)
+Recommends: toilet
+Conflicts: libcaca-dev (<= 0.3-1)
+Replaces: libcaca-dev (<= 0.3-1)
+Filename: pool/universe/libc/libcaca/caca-utils_0.99.beta19-2.2ubuntu2.1_i386.deb
+Size: 56542
+MD5sum: d5700ec7d0c5cefb8cfec3fc4347314e
+SHA1: 68d7bb17b91f17029417117b6b9587f7f7ad25a5
+SHA256: e6f48d62cd2138077fb6ac0261390c1d0746c7a6f92a8746f2a77fe40931728c
+SHA512: e0850ae7c486034d5678a9c61722e31527d505a360179893adc45ad789486202cb8cebc64665acdccdfca95bd95e03e109bb93dab64541f7ed1236bbe2b93cdd
+Homepage: http://caca.zoy.org/wiki/libcaca
+Description: text mode graphics utilities
+Task: lubuntu-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 44b5211535e8c3f0c83253e20bd8fb3e
+
+Package: cargo
+Architecture: i386
+Version: 0.54.0-0ubuntu1~21.10.1
+Multi-Arch: allowed
+Priority: extra
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 12773
+Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.28.0), libgcc-s1 (>= 4.2), libssh2-1 (>= 1.7.0), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4), rustc (>= 1.24), binutils, gcc | clang | c-compiler
+Suggests: cargo-doc, python3
+Filename: pool/universe/c/cargo/cargo_0.54.0-0ubuntu1~21.10.1_i386.deb
+Size: 3924104
+MD5sum: c38b6c9d0253a9ccfff9737f61efeedc
+SHA1: 85ba0816ab878c2a25d5e7e7208a0edbf0c883a9
+SHA256: 14735af24c0edcea99cffc0521f3032920e04719a3b27905f25a24d3dd2d304d
+SHA512: 73eddf89efabf80ae4cbd9d7c1b0bea2dc30feb90a799cbfe6607ec9366fb033e9d7d1fb521e117bbcd9bda23b410379506e08d3e36360fa9b66d560636fd416
+Homepage: https://crates.io/
+Description: Rust package manager
+Description-md5: f894562a11fc2421647ac771e1f6c13a
+
+Package: cargo-doc
+Architecture: all
+Version: 0.54.0-0ubuntu1~21.10.1
+Priority: extra
+Section: universe/doc
+Source: cargo
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 17431
+Filename: pool/universe/c/cargo/cargo-doc_0.54.0-0ubuntu1~21.10.1_all.deb
+Size: 1568428
+MD5sum: a08a7fe9c650935a3519a8cfe92b9fb4
+SHA1: d3e2beffb9ddad77ab12bc9d5a0eb2d1810232dd
+SHA256: 335038fe8cf3a5f83ac043a942a209f314c9b3a60b65a6d70771d2f405f35932
+SHA512: e9c1fcad4221dd259880da75c56425607a7457e8979a6b305d8221c91376ee527cab3de8f2e8a732c3aa0a8b9a35286c981efab9850db52dafda42b71b2b4441
+Homepage: https://crates.io/
+Description: Rust package manager, documentation
+Description-md5: f27438963e0fd905872c0e1656b9d40c
+
+Package: dh-apport
+Architecture: all
+Version: 2.20.11-0ubuntu71
+Multi-Arch: foreign
+Priority: optional
+Section: universe/devel
+Source: apport
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 160
+Depends: perl:any
+Filename: pool/universe/a/apport/dh-apport_2.20.11-0ubuntu71_all.deb
+Size: 6782
+MD5sum: 141df6b536520df95fc2854df42bd724
+SHA1: 145635e3ca15c4d1b7996053fdd305f736331123
+SHA256: a453d34693c38439c513f9251f4c918f6498def20c71952239f4f22afccf0ac4
+SHA512: f44cf702c9540479d30b8fa02ed01da0a04b0499b7948635ca2f3d8d071797cdf86a67d80696d0f453e5190a530e47c82a7f877a9d026eca6c2145c82311dde1
+Homepage: https://wiki.ubuntu.com/Apport
+Description: debhelper extension for the apport crash report system
+Description-md5: a5c779df9e0b356100c76151d7cef527
+
+Package: dnsutils
+Architecture: all
+Version: 1:9.16.15-1ubuntu1.1
+Priority: optional
+Section: universe/net
+Source: bind9
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 51
+Depends: bind9-dnsutils
+Filename: pool/universe/b/bind9/dnsutils_9.16.15-1ubuntu1.1_all.deb
+Size: 3920
+MD5sum: ebee0a555631c177150a4781d39bfdbd
+SHA1: 269e8f09a7d6cdbff8f15e853be0e265d2eabdf4
+SHA256: 345fa169998f7ac57f1dccbca429667d48e6bb97707edaa7bc52119fd059227f
+SHA512: 136f9c9c292a4ee79d8e5060c774507aa6f2790f191d2f1aca65d6968d2ff2d4f22dd4e833a4aa22db5353e15932fe08d381647b823ae67cf527e2ba1e70feba
+Homepage: https://www.isc.org/downloads/bind/
+Description: Transitional package for bind9-dnsutils
+Description-md5: 021458b353ece6dd7b5cbef232419073
+
+Package: docker-doc
+Architecture: all
+Version: 20.10.7-0ubuntu5.1
+Priority: optional
+Section: universe/doc
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2186
+Provides: docker.io-doc
+Filename: pool/universe/d/docker.io/docker-doc_20.10.7-0ubuntu5.1_all.deb
+Size: 1886430
+MD5sum: 9977c7ffbfa83fbe9e98d7dd89d9a0bb
+SHA1: ac9e2ad9c2f9356787e6d68de5c67684aa9b952f
+SHA256: 4fd33b782485884c72d1766a57f7cc4634badaa8900f2a6faa163089e10e1fae
+SHA512: 650da93dd274517ea8bcd593606a523e8aebf901e9f26fe242c3f3ef17f4ee766821783421b2d120c6c26c7b5ab9ce464bdeede3e0de6823b7cbccb182de2b77
+Homepage: https://www.docker.com/community-edition
+Description: Linux container runtime -- documentation
+Description-md5: 4f86326741c09d05fe80222b21fce476
+
+Package: freerdp2-shadow-x11
+Architecture: i386
+Version: 2.3.0+dfsg1-2ubuntu0.1
+Priority: optional
+Section: universe/x11
+Source: freerdp2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 144
+Provides: freerdp
+Depends: libc6 (>= 2.34), libfreerdp-shadow-subsystem2-2 (= 2.3.0+dfsg1-2ubuntu0.1), libfreerdp-shadow2-2 (>= 2.0.0~git20160317.1.75ae3f5+dfsg1), libwinpr2-2 (>= 2.1.0+dfsg1)
+Filename: pool/universe/f/freerdp2/freerdp2-shadow-x11_2.3.0+dfsg1-2ubuntu0.1_i386.deb
+Size: 22214
+MD5sum: 7201a6cbbb3415aaeb08ede9eb97180b
+SHA1: e76036857e0ef354308dc9531f02bd2bade6ce86
+SHA256: 884f2bc10d3ebf4cc1d3e8e4c28eb3e3a375a9725ddb6ba733810e5d5060ff79
+SHA512: 1596f4a4a2b87be3e2e81a28edf663dc5ea5bbd02209e4aa7629984ce9157fed10aae72e1c480fcbecd64aad90929f19b64323dcadc966d252e9091c7f4ed121
+Homepage: https://www.freerdp.com/
+Description: FreeRDP x11 shadowing server
+Description-md5: 5e8fef249679625146e6e6f483c3b488
+
+Package: freerdp2-wayland
+Architecture: i386
+Version: 2.3.0+dfsg1-2ubuntu0.1
+Priority: optional
+Section: universe/x11
+Source: freerdp2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 171
+Depends: libc6 (>= 2.34), libfreerdp-client2-2 (= 2.3.0+dfsg1-2ubuntu0.1), libfreerdp2-2 (>= 2.3.0+dfsg1), libuwac0-0 (= 2.3.0+dfsg1-2ubuntu0.1), libwinpr2-2 (>= 2.1.0+dfsg1)
+Filename: pool/universe/f/freerdp2/freerdp2-wayland_2.3.0+dfsg1-2ubuntu0.1_i386.deb
+Size: 35684
+MD5sum: c6ddb9820a4c27f1f858ddcbe1d6614d
+SHA1: b53d1ac8b6486a128b596eb16d5f378de1d2780f
+SHA256: fb4d6bdb8f3f48e27a64de512c008a288239e2a3a30f7a332710265b2a1fc7ea
+SHA512: 17f3d3d7e0f475bb0a3d61df6a48a00a3b8feed98c894316ae006efc4eb794d247da779ec8fbfcb5a24a9a0b41df307b5ca197c85134388e8d15c1e4e794fbda
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (wayland client)
+Description-md5: a5e739176253fe4f397467dba68645a0
+
+Package: freerdp2-x11
+Architecture: i386
+Version: 2.3.0+dfsg1-2ubuntu0.1
+Priority: optional
+Section: universe/x11
+Source: freerdp2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 566
+Provides: freerdp
+Depends: libc6 (>= 2.34), libfreerdp-client2-2 (= 2.3.0+dfsg1-2ubuntu0.1), libfreerdp2-2 (>= 2.3.0+dfsg1), libwinpr2-2 (>= 2.1.0+dfsg1), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2 (>= 2:1.5.0), libxrender1
+Conflicts: freerdp-x11
+Replaces: freerdp-x11
+Filename: pool/universe/f/freerdp2/freerdp2-x11_2.3.0+dfsg1-2ubuntu0.1_i386.deb
+Size: 100828
+MD5sum: d2654bf7e6ab49912f279435c485ae9e
+SHA1: 0cfd6944b3cc67c8b85ab19b39caf2cb626eb327
+SHA256: 7a26fe4562f7211fbf8fa818541df4315b7880932c5c98dd96107ee74a88643d
+SHA512: ba8052f08a0c768eee30b5a9ab9579fce4513ca180d4842460485043046a9ff1deb62528c0903a67d74410c0006fdc4d5db383f98cee9ecbb6a6f1533a92fdb5
+Homepage: https://www.freerdp.com/
+Description: RDP client for Windows Terminal Services (X11 client)
+Description-md5: c4929c6614bb3d2257a1f67d82098bd3
+
+Package: golang-docker-dev
+Architecture: all
+Version: 20.10.7-0ubuntu5.1
+Priority: optional
+Section: universe/admin
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 66
+Depends: golang-github-docker-docker-dev
+Filename: pool/universe/d/docker.io/golang-docker-dev_20.10.7-0ubuntu5.1_all.deb
+Size: 11764
+MD5sum: f7d8a33671eb80bc7f4f1eb5886526d1
+SHA1: d6840b4f3dcfec0d698e2d8aab715c2068492836
+SHA256: 0e5d9e4eb460b002e46eec908f123935447157a3305351072ca6a0496ca80c9c
+SHA512: 9b0f64289550d27cb6d54fa1a23d1d159c3967cb50bb32224e60df5a2b4bfd998bced1cbe4c885f8a98e557e44f655d36daebce95ef7e7e473b4c7eca90bbe95
+Homepage: https://www.docker.com/community-edition
+Description: Transitional package for golang-github-docker-docker-dev
+Description-md5: d8f9334d5a9c76803c31ea534993299a
+
+Package: golang-github-docker-docker-dev
+Architecture: all
+Version: 20.10.7-0ubuntu5.1
+Priority: optional
+Section: universe/admin
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 45722
+Provides: golang-docker-dev
+Depends: golang-github-ishidawataru-sctp-dev, golang-github-docker-docker-credential-helpers-dev, golang-github-seccomp-libseccomp-golang-dev
+Breaks: golang-docker-dev (<< 1.8.2~ds1-1~)
+Replaces: golang-docker-dev (<< 1.8.2~ds1-1~)
+Filename: pool/universe/d/docker.io/golang-github-docker-docker-dev_20.10.7-0ubuntu5.1_all.deb
+Size: 5632562
+MD5sum: eee4705ad2db251578625bbe17725bda
+SHA1: f2a0d80cdaeae2cbdbe617e808ef45587eb1c048
+SHA256: 01358973a16bbb4f3e2d8f3b7dd5c12f0f797da8d7db5f8307c84a64ad0d4f4f
+SHA512: 934d8476923d721ab32f3a353987dc5da8f35943f67383b2f9b209796205defa7fc784b2ea121379850c76b726d8ce87e818c8a64ad3bc261c4c3bcf5d31d4bd
+Homepage: https://www.docker.com/community-edition
+Description: Externally reusable Go packages included with Docker
+Description-md5: 6265ea5dccb7d86a2aa69e4e5d1c8598
+
+Package: ldb-tools
+Architecture: i386
+Version: 2:2.2.3-0ubuntu0.21.10.2
+Priority: optional
+Section: universe/utils
+Source: ldb
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 169
+Depends: libc6 (>= 2.34), libldb2 (>= 1.1.5), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~)
+Filename: pool/universe/l/ldb/ldb-tools_2.2.3-0ubuntu0.21.10.2_i386.deb
+Size: 34608
+MD5sum: 9c33236cbace691c86d5cb717c83b869
+SHA1: 8b056712bb447b4014d38da346e0ee77da219d69
+SHA256: 24d374c50b51ac4b2f03add7ab029417c4b8a229b6fb4fcdadfccfab233fea2f
+SHA512: dc04db3bfe1d7154e3a40e573734d55fc124dbb12d268eb74cfabc6d058afe9725bd071a65e1b20f27273b0cccfb8a16fec2f4c8f4efc4ff0fab5cf104c6d82e
+Homepage: https://ldb.samba.org/
+Description: LDAP-like embedded database - tools
+Description-md5: 27e8c15a8859e3368f9f6a0853f05226
+
+Package: libapache2-mod-md
+Architecture: i386
+Version: 2.4.48-3.1ubuntu3.2
+Multi-Arch: same
+Priority: optional
+Section: universe/oldlibs
+Source: apache2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6
+Depends: apache2 (= 2.4.48-3.1ubuntu3.2)
+Filename: pool/universe/a/apache2/libapache2-mod-md_2.4.48-3.1ubuntu3.2_i386.deb
+Size: 804
+MD5sum: 08c39434a5187c692e3ec9ceb5e01fd5
+SHA1: 1bd5af09897068be35be92efbe220b885b0baad7
+SHA256: 7420cde9eb3f573243686ab62ca79164636b10c03a1381443afc2ec6be093140
+SHA512: 21679f6d32bfd6b78c7b6b77f4d4b9717bffaba3010e4be9f594fb3df94d85e1168057653b8a98cc5d4e52a3e0cc7dc04424521095b57fee99cc8bccc429fd98
+Homepage: https://httpd.apache.org/
+Description: transitional package
+Description-md5: c2abd3d451fbe9f8b62453ebd20f7096
+
+Package: libapache2-mod-proxy-uwsgi
+Architecture: i386
+Version: 2.4.48-3.1ubuntu3.2
+Priority: extra
+Section: universe/web
+Source: apache2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 10
+Depends: apache2 (= 2.4.48-3.1ubuntu3.2)
+Filename: pool/universe/a/apache2/libapache2-mod-proxy-uwsgi_2.4.48-3.1ubuntu3.2_i386.deb
+Size: 990
+MD5sum: 4f0bbb19c7513dc9d891d6881a4b319c
+SHA1: d4d9653010f170d51af46e48beb1b4c16c7f7afe
+SHA256: 3235bbacdbd5a234d56196d2f2b9d9053efedccdf51097fc302a93a80399a2e5
+SHA512: d386a1bbbed11e4d772b7f5db8e7b062cfda2181df44f5c420e3e0e3c1f4578ef32bb655c7ee585a4f3b4bcf1a049c34a51cb5f552ec6f1ae37a490c44ae2f65
+Homepage: https://httpd.apache.org/
+Description: transitional package
+Description-md5: d2fa4db85203c7bfc8bfdc64d863cf45
+
+Package: libflatpak-doc
+Architecture: all
+Version: 1.10.2-3ubuntu0.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/doc
+Source: flatpak
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1124
+Suggests: devhelp
+Filename: pool/universe/f/flatpak/libflatpak-doc_1.10.2-3ubuntu0.1_all.deb
+Size: 111228
+MD5sum: 82d2d0f1417a1f34105b7262f95646d7
+SHA1: 0235e3725706e5889812ab53f2da157a0bfeff86
+SHA256: cfac50cc41fcec6d754d93eaa7cc9c3cb59f94a054c7db19b0821e93a2a191d6
+SHA512: 85e01117853df176f4c89975fba8323ef8a3377c19c7bb16fb1c311e12348947b0112918dca615b932e2d6c2322fdfa204c57bac1955d9e9f5fa18ab5d64580e
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (documentation)
+Description-md5: c7d59a541c5d9998f886d74daf4ac8d6
+
+Package: libjavascriptcoregtk-4.0-bin
+Architecture: i386
+Version: 2.34.3-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/interpreters
+Source: webkit2gtk
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1158
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.65.1), libicu67 (>= 67.1-1~), libjavascriptcoregtk-4.0-18, libstdc++6 (>= 9), libsystemd0
+Conflicts: libjavascriptcoregtk-3.0-bin
+Filename: pool/universe/w/webkit2gtk/libjavascriptcoregtk-4.0-bin_2.34.3-0ubuntu0.21.10.1_i386.deb
+Size: 383402
+MD5sum: ae281e792680235335588bebb34796e0
+SHA1: 13b67fc695a837e9b9561da3a8a2143a6053125f
+SHA256: 9f14edc4852f78013bbe780d4fc357d2bcc26686712ed6a664c66e8925a50be8
+SHA512: 211ad5cfdad3c9a2aa2ff39d2cad314f036db1d735b90f212b4169ef5bbc0e919ccf5ed6de23d2b03086f25e3e50bd70e438288654e72667eb44935151dd7eab
+Homepage: https://webkitgtk.org/
+Description: JavaScript engine library from WebKitGTK - command-line interpreter
+Description-md5: d63d3c5b674d87705002872786bc6cce
+
+Package: liblog4j1.2-java
+Architecture: all
+Version: 1.2.17-10ubuntu0.21.10.1
+Priority: optional
+Section: universe/libs
+Source: apache-log4j1.2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 501
+Suggests: liblog4j1.2-java-doc, libmail-java
+Filename: pool/universe/a/apache-log4j1.2/liblog4j1.2-java_1.2.17-10ubuntu0.21.10.1_all.deb
+Size: 432938
+MD5sum: 4f33647bd6829a9efd7c2ba33b1e772c
+SHA1: deb78edbb8359a231bc5ba5b755f7c18e665e406
+SHA256: 4cc1fdcc9d89ada22276d3e1b7e4068e03ec210b993a549795bfc0adbfd67610
+SHA512: e8529d9b7af77cd82f48a227de2c38a7b870d2f3885a4bd1cb7e3ab67c022ab233f86011d7db530842bf8542a82bc45cad0e937ee3a50f8d57c23e05f3698c55
+Homepage: http://logging.apache.org/log4j/1.2/
+Description: Logging library for java
+Description-md5: 6852e874e3a0a408361775c4958b1233
+
+Package: liblog4j1.2-java-doc
+Architecture: all
+Version: 1.2.17-10ubuntu0.21.10.1
+Priority: optional
+Section: universe/doc
+Source: apache-log4j1.2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7409
+Depends: default-jdk-doc
+Filename: pool/universe/a/apache-log4j1.2/liblog4j1.2-java-doc_1.2.17-10ubuntu0.21.10.1_all.deb
+Size: 483310
+MD5sum: 0c4de6cd72b771cc806ae5ac2ac67c56
+SHA1: 0098dabfa05676ced261725c805435df5dae1873
+SHA256: c6d0fa001f06dc09f5204df2e89945a94c2385a0f82f90e5ea74e51a1c1c5fe7
+SHA512: 0e321a813a00660f5235a99d49c5014d0ea48b4deca1d6eac51135791e3acc43946fea4af72c39ec50e54a8287cdfaaf7a21cb181e128e3da0649f38d6e0c8e8
+Homepage: http://logging.apache.org/log4j/1.2/
+Description: Documentation for liblog4j1.2-java
+Description-md5: 4de3d2b07bbd8d616f084238c912527a
+
+Package: liblog4j2-java
+Architecture: all
+Version: 2.17.1-0.21.10.1
+Priority: optional
+Section: universe/java
+Source: apache-log4j2
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2504
+Depends: liblightcouch-java (>= 0.0.6), libmongodb-java, libslf4j-java (>= 1.7.30)
+Suggests: libcommons-compress-java (>= 1.20), libcommons-csv-java (>= 1.8), libconversant-disruptor-java (>= 1.2.15), libdisruptor-java (>= 3.4.2), libgeronimo-jms-1.1-spec-java, libjackson2-dataformat-xml-java, libjackson2-dataformat-yaml (>= 2.8.11), libjansi-java (>= 1.18), libjctools-java, libjeromq-java (>= 0.3.6), libmail-java (>= 1.6.5), libwoodstox-java
+Filename: pool/universe/a/apache-log4j2/liblog4j2-java_2.17.1-0.21.10.1_all.deb
+Size: 2064584
+MD5sum: a7f1fcbf625aa5006be91c83889dd5d2
+SHA1: f1d5b5d4b2de8f6a93373f9e8176f29e367b275c
+SHA256: 63a998a9c809ae5c91ece75114aa9558dcceb9ddbf50580c4d56461e591971d5
+SHA512: d6fe3da9361454a6dcbdcb47eee6df2a24ae8e24ce7609325ef1642736a67dcd004d8e492461bdbc3f1fdd5794dacca4543f096b886ed87d74350cf1b0faac91
+Homepage: https://logging.apache.org/log4j/2.x/
+Description: Apache Log4j - Logging Framework for Java
+Description-md5: 45f804957a9794c4f807c12a4e0985f7
+
+Package: libnss3-tools
+Architecture: i386
+Version: 2:3.68-1ubuntu1.1
+Priority: optional
+Section: universe/admin
+Source: nss
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5679
+Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.12), libnss3 (>= 2:3.59), zlib1g (>= 1:1.1.4)
+Filename: pool/universe/n/nss/libnss3-tools_3.68-1ubuntu1.1_i386.deb
+Size: 1130752
+MD5sum: 4dc68992c25ffcde99729853735ea95f
+SHA1: 385ebf82edc9e1b11c6ada14116a5313894aa244
+SHA256: 3ccc00acba93fd798494a8b537f028021d4f2d381b8597df7b377f1db18c2cc7
+SHA512: 506dbdce837e80a6dcf058066b8e8c1090f9de48020fc18642f66e6fcfbaac1f6606007fd76d0be994c74f76d93c89d0fd54f05e13763b3e3a37729eb45051cc
+Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
+Description: Network Security Service tools
+Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
+
+Package: libphp8.0-embed
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4312
+Provides: libphp-embed, php8.0-json, phpapi-20200930
+Depends: libmagic1, mime-support, php8.0-cli, php8.0-common (= 8.0.8-1ubuntu0.1), php8.0-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.34), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.14), libssl1.1 (>= 1.1.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.2.3.4)
+Suggests: php-pear
+Filename: pool/universe/p/php8.0/libphp8.0-embed_8.0.8-1ubuntu0.1_i386.deb
+Size: 1591156
+MD5sum: 1ea982336afcb5748e8d9c7d309846f2
+SHA1: 3d3caf80589a166fb3ad52b6f54edcdd9683bd15
+SHA256: f2aa3fe74c68acf0ccdc73ac3093d67d6d41d32c9c74aeb4e954cc6353f9dfbe
+SHA512: 0cddc02df610319d1b17c105834e16af0a7f5115494131c424ab568b826ed0d38c012c7e4e5d558d84585848f74b5ef9dfcdd8e23625312b9667faedd7cea3f4
+Homepage: http://www.php.net/
+Description: HTML-embedded scripting language (Embedded SAPI library)
+Description-md5: cc95dcfc74a76b1f62f51bb5910771f1
+
+Package: libqt5concurrent5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 214
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5)
+Filename: pool/universe/q/qtbase-opensource-src/libqt5concurrent5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 37224
+MD5sum: 682bcc8ad1d9490fa5a9dc1dd658e47e
+SHA1: 6bef1c28b8f79b885aa83c7397b0a01e4a37e867
+SHA256: 3e19b9d880e1879c8fa4817717cd3fda87c5835fd94a62c095e32981895ddb2e
+SHA512: c918195832b998c9fe6ea2b5a22a6907646bc17c0b9910e2859ce322d622bd2572505e3e7bd2af65e845588335a4294d09ebe7e1b1be753ed5eb477c2f64ff18
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 concurrent module
+Description-md5: e0df68f337531f2bfba6d9963eebfc16
+
+Package: libqt5core5a
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 11823
+Provides: qtbase-abi-5-15-2
+Depends: shared-mime-info, libc6 (>= 2.34), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 7), libglib2.0-0 (>= 2.22.0), libicu67 (>= 67.1-1~), libpcre2-16-0 (>= 10.22), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Recommends: qttranslations5-l10n
+Suggests: libthai0
+Breaks: libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~), libqtcore4 (<< 4:4.8.7+dfsg-20~)
+Replaces: libqtcore4 (<< 4:4.8.7+dfsg-20~)
+Filename: pool/universe/q/qtbase-opensource-src/libqt5core5a_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 2917086
+MD5sum: f34b69f17551400eb443f617323bc20c
+SHA1: 512cedeff7fd7b65f41c1adc8940aad65449f748
+SHA256: 0e017bcc9a1b77e3bbe6970f8c79f4d252bc1f5698b756151a7312b54618296a
+SHA512: af2759d5c2f88d8e6c9327ffd4c7c2add065d09a630751f168dce1332525b25774ea8af7a43e9f2189945b31008fe67c09de857798b7d39cc69a9b9f6266e7f5
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 core module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 75c9109eafc0c1da6d6b6ca7b292f133
+
+Package: libqt5dbus5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 897
+Depends: libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5dbus5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 249952
+MD5sum: a4d86107002562dfe1bea7b0c30cefe8
+SHA1: a0ba158355c41c8e42409d249713ca066242753d
+SHA256: d2671ef597f81e81c31cc040a1d7add810f40b3aa26e270fac1475d9c247835c
+SHA512: 59fa5f9e2660b85d1b944adb4acd21c4117f901024b2063ffa663fcfb373e0ef71f89cacc9ed3fb72848166c7a9b49a3c255a19db2696d4121f3245f270a7074
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 D-Bus module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 66ed2fe869611cd7a269446bd63f9400
+
+Package: libqt5gui5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 21399
+Depends: fontconfig, libc6 (>= 2.34), libdrm2 (>= 2.4.62), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgbm1 (>= 8.1~0), libgcc-s1 (>= 7), libgl1, libglib2.0-0 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libinput10 (>= 0.15.0), libjpeg8 (>= 8c), libmd4c0 (>= 0.2.7), libmtdev1 (>= 1.0.8), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsm6, libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libx11-xcb1 (>= 2:1.7.2), libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb-xinerama0, libxcb-xinput0 (>= 1.14), libxcb-xkb1, libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libxrender1, qtbase-abi-5-15-2, zlib1g (>= 1:1.1.4)
+Recommends: libqt5svg5, qt5-gtk-platformtheme
+Suggests: qt5-image-formats-plugins, qtwayland5
+Conflicts: libqt5gui5-gles
+Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
+Replaces: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~), libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
+Filename: pool/universe/q/qtbase-opensource-src/libqt5gui5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 6417894
+MD5sum: 8219de66d507ac3d919a5f9e6893a617
+SHA1: 5d134345d376709f99e6864909bf270b43a26b07
+SHA256: f15c3cab471b2bb1c53f172280aa6da3d450cab4afcdb02a6d05c4cb4c6dfa6b
+SHA512: e1804f509f5db163dd73947313bb9837d52bd7b38551277f440b9f67a9cacb32d6ef63876a4c9eb259a1b5e13b1580949e5b85501d947f97d50f58b4a01d0f00
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 GUI module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 9dadc5c1f0624a1be05b1ff4f1c6cd6d
+
+Package: libqt5network5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2899
+Depends: libssl1.1, libc6 (>= 2.34), libgssapi-krb5-2 (>= 1.17), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 11), qtbase-abi-5-15-2, zlib1g (>= 1:1.1.4)
+Filename: pool/universe/q/qtbase-opensource-src/libqt5network5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 830418
+MD5sum: 7f20a8d06f9484ea38f0c7c01a2cecef
+SHA1: 7550d8831fd360de4f8ba2b14bc5856d51cbd6f4
+SHA256: 3403b0ca6dc91e91a77a1678ee10e2743d931dea64746b74a15f0e67ac6494b4
+SHA512: fec75ff68971d34269b298716ec82e206886651143f0fc86817f9bfb3e72a151458154da5ad2f26a89757926bb95c94d69cb59b1dc266735b44af3230d4bb328
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 network module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 267676193dcb13e33a5c3f9c219b1838
+
+Package: libqt5opengl5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 616
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.1.0), libqt5gui5 (>= 5.12.5) | libqt5gui5-gles (>= 5.12.5), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5opengl5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 168894
+MD5sum: 24394f17dfacacc4a4ca082b821aa407
+SHA1: 2bd4f98790904a971d6c2786b5b029d5475baaf2
+SHA256: 2f58f806bf723b9f14ddab492b49a8d06357d46449258d40217358314d42e680
+SHA512: a5ca978ca2a511c375f2a7e8ad84d1296bba0664835c715b83608e3ecdff8cb2866ce49ff603a144a07bf43ed219ca52e042142bfe51ba15471aa10aeb8f5852
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 OpenGL module
+Description-md5: 0966e72b3545e5c76ba7176064c64965
+
+Package: libqt5opengl5-dev
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 319
+Provides: libqt5opengl5-desktop-dev (= 5.15.2+dfsg-12ubuntu1.1)
+Depends: libqt5opengl5 (= 5.15.2+dfsg-12ubuntu1.1), qtbase5-dev (= 5.15.2+dfsg-12ubuntu1.1)
+Breaks: qtbase5-dev (<< 5.11.3+dfsg-4~)
+Replaces: qtbase5-dev (<< 5.11.3+dfsg-4~)
+Filename: pool/universe/q/qtbase-opensource-src/libqt5opengl5-dev_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 42182
+MD5sum: 6eaaf037477c9f88b8df9b300c04b042
+SHA1: deb23dc3fc895b50451a4ebd280164c4d02632f1
+SHA256: 91c9a8019d42391b1dcd6c4b17b5b45825da28d264a9363d7fc3f2ee6f717d90
+SHA512: ff5f4cb41889a42a94ec980f9594e397aa296666843e9304ea478ac298d7eeaff8b866e92182d93cdbc8eee7b9ccb83333a0144989704d20775b3c70783ac6c6
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 OpenGL library development files
+Description-md5: 76f1fd5b0a241ef67384ff7dfbd93542
+
+Package: libqt5printsupport5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 817
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5printsupport5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 231862
+MD5sum: 70e3169359dff5c97e1d1a50b8ce5374
+SHA1: 058ca05319143d8d7329446e4a7a9fe5b966eddb
+SHA256: ccc8358abe3176ff239c7676e8d624139f65c981db8f04ab76c2e136ed52b3cc
+SHA512: ff9642d9fd6cfc3c126df8ee3d3089697aee078f5a3928b0e5e0efbe5a3383520758f72c6fc2fd5a7bd85720ec9b8ef6eeb2e00b6d5699ce181316df29f48ac7
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 print support module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop
+Description-md5: ad2a0dcae2a6addab1c4c4b7c64b6a4e
+
+Package: libqt5sql5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 501
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-tds | libqt5sql5-ibase
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 136900
+MD5sum: 3b10f1d1d667d9dbef385cff1e6ed894
+SHA1: 19b5c0ec8c62e58880bf40c51922d0766a8b56b9
+SHA256: b23229dd759ba8e837a0f73c6e623746bd6546ba6466f2e5ed3b6769da590c8b
+SHA512: 22bca590828c6d9eadb68989f68506f79550d3e036614141ccd97c1e69e8cf24afe562fe68145f61c8f40b0ac7f0feb6cf38c02dac9648eaf0ac76470b314efd
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 SQL module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop
+Description-md5: 0713fa3e9592ca24526ad333118f8889
+
+Package: libqt5sql5-ibase
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 296
+Depends: libc6 (>= 2.29), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5-ibase_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 67474
+MD5sum: 6ba6587efa17f3e22c474befdfb94dc5
+SHA1: b65c90a0b10c694f488392b14088a3226bc678c7
+SHA256: 7666631c84256217cab12215020b435a43e0b749e6a6b0077f609a89c11f787b
+SHA512: 6fecdeb58306ee8e2a210fc648920adaa335b3bbb08ddc317c32cf1c3cab2e65c65740fe045a4ef5bafba059191dd2afa16abe6c85ecd81ae944aec88b4595c1
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 Firebird database driver
+Description-md5: 795132c8ae8170c30afb981caa53c8cf
+
+Package: libqt5sql5-mysql
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 260
+Depends: libc6 (>= 2.4), libmysqlclient21 (>= 8.0.11), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5-mysql_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 56218
+MD5sum: 857d1bdb3830657253737d31e66e57ac
+SHA1: 53008978f1b76787e1f94b367c566195c509095b
+SHA256: 9c8628d72b338b190a2cdabe64597cad1c8ad10ab27e57fde544daeadd378cf5
+SHA512: 4df82d412d87c262078c60c9f4bb0e2342ebf690d090b4632c02159d68159c635a0d8d9cfd4a45651e5e6f23af71c96bea8919acabb7cf3920183fdda149085f
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 MySQL database driver
+Description-md5: ef00502b07fd416665becb7a946fa058
+
+Package: libqt5sql5-odbc
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 296
+Depends: libc6 (>= 2.29), libodbc1 (>= 2.3.1), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5-odbc_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 68956
+MD5sum: e0254e1d0296c2767effa9eff3170368
+SHA1: c06ff2b13b2552c7411611d8f354bf54e288fb9f
+SHA256: c1d4659653ba9fc4ce61ad00bb499a6d10f6fd78386baebc13aa1378cd633347
+SHA512: 962a533a51e2be5abf7c26648252a3f601358cec1984fd028154cbd5c3b76d0f919119abec58cf54e52683a1fbfb4c9de06fc9e63552db29fb853144649b8779
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 ODBC database driver
+Description-md5: 307a8af530b7222b52853293e564167c
+
+Package: libqt5sql5-psql
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 276
+Depends: libc6 (>= 2.4), libpq5 (>= 9.2~beta3), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 11), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5-psql_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 61014
+MD5sum: 9e4b1bb72d918d87bb57604b573cf08f
+SHA1: 0560c2c55b68714f6aeb41b58a448bda8564b252
+SHA256: c90e179d3f0c52445fde2aef846e2eeeba50a623338b47818a84ff6f5c0bfc49
+SHA512: d2a9ddfc612d150e2b37d133e424340230aa96ff71e3677fdbd1edae9ee78d14511a553457827d929b41650c799513e4a3a28c973be7c06d798569c6f8325cf1
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 PostgreSQL database driver
+Description-md5: 26b8a37b36abcc581802bb9591e003d6
+
+Package: libqt5sql5-sqlite
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 260
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.10.0), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5-sqlite_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 55866
+MD5sum: 7ffec11c2de725200dc672f5de154fcb
+SHA1: 8b3ac252a5379fe207b8a937d57b92e2ca7cef9d
+SHA256: 832c80f3424c56f001f15cf2013ab543c067132fa3b271e5b406db0e7610b5c6
+SHA512: 47959b6fb2ee395daea86eca4a2415f90629f315b312c328279e6840a7b47785b6548005f2ad12ab822f4d203c8c6186aeae96a896e7d78e6f17d3b4ecf325dd
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 SQLite 3 database driver
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop
+Description-md5: f74ea3b242033484777e5a5e9fb468bc
+
+Package: libqt5sql5-tds
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 244
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.15.1), libqt5sql5 (>= 5.10.0), libstdc++6 (>= 5), libsybdb5 (>= 0.63), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5sql5-tds_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 48668
+MD5sum: 2dcc7b75cca547e7e992c28a93e4b744
+SHA1: 891e822d3a350c1112a11d9114f5da6000fcd2b1
+SHA256: 0246545f069efc4679ac86c4ef428f93c02645d99f151b618cf871e465360275
+SHA512: e125616b7ab15e7704f2c3023a1c2caa4eef1c08e9f8370f15c4689f225a8ff140dbbc5570f794a7a70f5f4983febd8ffed77976223f392fa9535e1861d60dea
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 FreeTDS database driver
+Description-md5: 98049901ac7df77f69890567ec4a2170
+
+Package: libqt5test5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 535
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 7), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5test5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 157682
+MD5sum: 1853e64980484291037c3d4ae83064b4
+SHA1: 6159e493bf4755e21c1ec5f1e9e6120d6288e3e5
+SHA256: 19a592ae4a33b416a3d62f7aba009fb9426a29cae2d80c91d54ff084e8953268
+SHA512: 1f27fcdac8cf3e2f8031ec9dfa71a839dbb3310387ff474a089fac66a582c526b262e4d0297718699659d8ea04c561ee07fe65496e14d413b3f1abd8ac5c83c9
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 test module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop
+Description-md5: 439bbed1193cb169575d82d618b4c6c1
+
+Package: libqt5widgets5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8360
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.2), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5widgets5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 2862456
+MD5sum: a897dfa31659bf9b966a23c0602edf08
+SHA1: fbdaccdcdc3bad8ddce0eb199038b8848584ceea
+SHA256: f73ed468fc2905a22b6aaa08a21cb9bf70f5e8b2ac65182a2fe2b797a7da0330
+SHA512: 52bd73954a94684cc7bf012737238561b0c0d5a7861f90485529d9dd224356f305cc4edb4984dd5e724bccf919553de520bf27645f4eb8710dd64485d3cd87ab
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 widgets module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: d3e73eff3b63455d65d61db3b685f693
+
+Package: libqt5xml5
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 521
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/libqt5xml5_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 140412
+MD5sum: 45c729242fa967f135ef5a6ea39cd08c
+SHA1: e3e8622e1c2fa5d403fc1d45fa9e60638d5b88ee
+SHA256: d64caa8ceba47f3edfcc29aaf11122bd06f0c0bf677f732449cf223cc7ce29d2
+SHA512: 393570854e0d69092514748100d86b01342f3b2d20d5d108ba415f4921606d0b817034e017d12ec15d46334a8042b330d22af63793b61021623d6cceff5821fe
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 XML module
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop
+Description-md5: c3b1596533c67529df54c353807c6cae
+
+Package: libstd-rust-1.53
+Architecture: i386
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 155200
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), zlib1g (>= 1:1.2.0)
+Filename: pool/universe/r/rustc/libstd-rust-1.53_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_i386.deb
+Size: 42846418
+MD5sum: 6d06baab804768908490b2cb78649874
+SHA1: 614ca86879beb8e883ea85906a201fa4239ac673
+SHA256: b5c982cec99deb02fa02f4b2a1a33b068e662d2229b4c45d2d412cd2574d1f91
+SHA512: cf401079bf85f81ff51faa7c4cca6cc83994379e13c3b51e4127edcefcb26bc93cf64f0556e72db573d62f0e4f796ea5a55142af4f42e486477c3c4305572401
+Homepage: http://www.rust-lang.org/
+Description: Rust standard libraries
+Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
+
+Package: libstd-rust-dev
+Architecture: i386
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Multi-Arch: same
+Priority: extra
+Section: universe/libdevel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 177917
+Depends: libstd-rust-1.53 (= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1)
+Filename: pool/universe/r/rustc/libstd-rust-dev_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_i386.deb
+Size: 37925568
+MD5sum: ab4ee39fdabd3ab725a8b299bd00379a
+SHA1: 256bf532aa79d0916b73de6cd50e4054bdb6c7e3
+SHA256: 13e903ff019cc25c60747d788695b1f31144b17d5bf2f23d742601f86dddb4d7
+SHA512: b7bd11f07621676f0c46e222e65e45b82ed789200c25350e340f6a621279c9e32c987c512479bc162e84d89ad1875974a9a9fb151a9cea10d2395e54810bdb7d
+Homepage: http://www.rust-lang.org/
+Description: Rust standard libraries - development files
+Description-md5: d179f786c5d3afccd5d86929b4043021
+
+Package: mariadb-client
+Architecture: all
+Version: 1:10.5.13-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/database
+Source: mariadb-10.5
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 71
+Depends: mariadb-client-10.5 (>= 1:10.5.13-0ubuntu0.21.10.1)
+Filename: pool/universe/m/mariadb-10.5/mariadb-client_10.5.13-0ubuntu0.21.10.1_all.deb
+Size: 12622
+MD5sum: 8811ea9b04abba30be48867f29ce0a0b
+SHA1: fd30522ec15c43d1229287ff48032f2e0254ae32
+SHA256: 55ca78c25f4716f073ebc1967eeb95319617ea8a7f2590405c571f0fa1806426
+SHA512: c6f6354b4dcdb43a4e4ad3d23433699e9fe7880875780f51e0e3ff0c1f7005100d8261dedb2d52fdcfa3cb0b3d5803a98fcee1461ca723e93d2412eb69eb309e
+Homepage: https://mariadb.org/
+Description: MariaDB database client (metapackage depending on the latest version)
+Description-md5: 6501fd3178a212adaa785da108f5aaad
+
+Package: mariadb-common
+Architecture: all
+Version: 1:10.5.13-0ubuntu0.21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/database
+Source: mariadb-10.5
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 81
+Depends: mysql-common (>= 5.6.25)
+Filename: pool/universe/m/mariadb-10.5/mariadb-common_10.5.13-0ubuntu0.21.10.1_all.deb
+Size: 16562
+MD5sum: 6a6ec7f73d6dbb2a7183c2353734929d
+SHA1: 61c9cb5a2c1d7da4f70c2885096db91305bc6b23
+SHA256: bf57fa61f1da26eaa36bf9e26dd48722c094ce4047bb2936523f0059cd876b45
+SHA512: 07ed8d6cf107539e39bf85cfb0e3726b3cc45f5fa17e75f522ff50ee61b0ce92387051db2598103d4a8eb34bf05671ec753002bd220126953c9c66541171efce
+Homepage: https://mariadb.org/
+Description: MariaDB common configuration files
+Description-md5: b0c32a0541f8699ec53307dabf7f987b
+
+Package: mariadb-server
+Architecture: all
+Version: 1:10.5.13-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/database
+Source: mariadb-10.5
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 71
+Depends: mariadb-server-10.5 (>= 1:10.5.13-0ubuntu0.21.10.1)
+Filename: pool/universe/m/mariadb-10.5/mariadb-server_10.5.13-0ubuntu0.21.10.1_all.deb
+Size: 12748
+MD5sum: 3dc4e4cfb2f6b253bfe8ab299745f269
+SHA1: 3ab9f0841db51c74117319b07432ab1e9da4dc67
+SHA256: 64da3df8d5c10ad8e2c369451aad645dc31d3c2ee99b84f0edb20c725697e46b
+SHA512: be79283a006ff46a174bde91f4c6e804a98dbf3cbfa3a9cb617b098b92d85db4d9b1c9800ee2c08edfc74ebca61b1f629400414935a317748a071fc93b8d8453
+Homepage: https://mariadb.org/
+Description: MariaDB database server (metapackage depending on the latest version)
+Description-md5: a887647d25d472f89e220ceda2b6e041
+
+Package: mariadb-test-data
+Architecture: all
+Version: 1:10.5.13-0ubuntu0.21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/database
+Source: mariadb-10.5
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 343387
+Depends: perl:any, libc6 (>= 2.2.5), libpam0g (>= 0.99.7.1)
+Breaks: mariadb-test-10.0, mariadb-test-10.1, mariadb-test-5.5, mariadb-test-data-10.0, mysql-testsuite, mysql-testsuite-5.5, mysql-testsuite-5.6, mysql-testsuite-5.7, mysql-testsuite-8.0
+Replaces: mariadb-test-10.0, mariadb-test-10.1, mariadb-test-5.5, mariadb-test-data-10.0, mysql-testsuite, mysql-testsuite-5.5, mysql-testsuite-5.6, mysql-testsuite-5.7, mysql-testsuite-8.0
+Filename: pool/universe/m/mariadb-10.5/mariadb-test-data_10.5.13-0ubuntu0.21.10.1_all.deb
+Size: 25775400
+MD5sum: 795b52e375d4c3f7118a2a24ecb94663
+SHA1: b8b3f925328dbaec6703debf9ee8399bef7a8ed5
+SHA256: 63b2b0c04da320ea1c5543352c77a4fc5c2903ef15ab98ae5627e74af511d720
+SHA512: 6338db4bc6e09a78ca9cdca86f42a21225c41bcfe4884dfdf585b7cc8a9c33aca99c416dc8cfc8e7073230bbb1b90b559cc22179ec8e5372fc73ca4fc4ff17be
+Homepage: https://mariadb.org/
+Description: MariaDB database regression test suite - data files
+Description-md5: 4e2584329df41bfe2241de957d88c44a
+
+Package: mysql-router
+Architecture: i386
+Version: 8.0.27-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/database
+Source: mysql-8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 17808
+Depends: libc6 (>= 2.34), libevent-core-2.1-7 (>= 2.1.8-stable), libevent-extra-2.1-7 (>= 2.1.8-stable), libevent-openssl-2.1-7 (>= 2.1.8-stable), libevent-pthreads-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 7), liblz4-1 (>= 0.0~r127), libprotobuf-lite23 (>= 3.12.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Filename: pool/universe/m/mysql-8.0/mysql-router_8.0.27-0ubuntu0.21.10.1_i386.deb
+Size: 3707170
+MD5sum: 2619911a753203145c0317967b2d17d6
+SHA1: 69a54b670195d638c53e9a2ab1472921b7016802
+SHA256: 4dc1ec57325c7afb9e8069974cfbf045ab6aedfc093fff0d3f1feb32822495a2
+SHA512: 0fae584a29a713b7cf3d8c3986cda7aa882685d5cbefeee68498046a06712e898954a4f47ff8ec1653fb2c3c6483a8ec855df819d26879388bc8a07efd38050a
+Homepage: https://dev.mysql.com/doc/mysql-router/8.0/en/
+Description: route connections from MySQL clients to MySQL servers
+Description-md5: 68df088e13493c106d4f76a2eb4efc60
+
+Package: mysql-source-8.0
+Architecture: i386
+Version: 8.0.27-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/database
+Source: mysql-8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 290928
+Filename: pool/universe/m/mysql-8.0/mysql-source-8.0_8.0.27-0ubuntu0.21.10.1_i386.deb
+Size: 293558544
+MD5sum: 5cde330af0e2389bf91c08c351bc0f1e
+SHA1: b5c2e5e2bb391f60d34f5ac7db9f5d18c179c467
+SHA256: b9eb59ae772a33a4b1f2a617801b39e18831d3d872edeb8143b70d61f90880ff
+SHA512: df71f4d6680fdb0f5b6d709f9276ef3aebc3e5ba41e1238b211f1e264d7f49710e15faee38113b3d496a8bdd1281ebc258c42082f866b6a47d01bef4b6020dad
+Homepage: http://dev.mysql.com/
+Description: MySQL source
+Description-md5: 88f58941059fab032315a68e3122ac60
+
+Package: mysql-testsuite
+Architecture: all
+Version: 8.0.27-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/database
+Source: mysql-8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 107
+Depends: mysql-testsuite-8.0
+Filename: pool/universe/m/mysql-8.0/mysql-testsuite_8.0.27-0ubuntu0.21.10.1_all.deb
+Size: 9394
+MD5sum: 8a24a873ee1cc8c5bd286788c1eff60f
+SHA1: edf8aed6d374497987f19b5d52797039d022f33f
+SHA256: 93cea3b287571fa8852dbfe56ca9dea5b77a8a06b8843ff8604e7ac893051964
+SHA512: 49fe961e4f3060c3cb29d76c29c27703c21ff5c6e1a25b6cf1016e2d06185f6364baf8114e14afca29d0100f30898568d43d112ebe0c4fe88abcd591a596267d
+Homepage: http://dev.mysql.com/
+Description: MySQL regression tests
+Description-md5: a37f36627bd4d1ec3a167a2eae840534
+
+Package: mysql-testsuite-8.0
+Architecture: i386
+Version: 8.0.27-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/database
+Source: mysql-8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 588999
+Provides: virtual-mysql-testsuite
+Depends: libjson-perl, lz4, mysql-client-8.0 (= 8.0.27-0ubuntu0.21.10.1), mysql-server-8.0 (= 8.0.27-0ubuntu0.21.10.1), unzip, libc6 (>= 2.34), libgcc-s1 (>= 7), liblz4-1 (>= 0.0~r127), libprotobuf23 (>= 3.12.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.11)
+Conflicts: mariadb-testsuite-10.1, mariadb-testsuite-10.3, mysql-testsuite-5.7, virtual-mysql-testsuite
+Filename: pool/universe/m/mysql-8.0/mysql-testsuite-8.0_8.0.27-0ubuntu0.21.10.1_i386.deb
+Size: 226368902
+MD5sum: 17f8b15d7b00f30c87efbaf137d5758a
+SHA1: 4614c3e3ce37a30ada7246e2518d306f5400675a
+SHA256: 6b8927518a21f53ababc59a14059485510cc431854e0e13db2dd9f20280ac7d4
+SHA512: d7414ab466821abec60211cc5bd791f5bfeabefac07e00c157a17af18241d715a4a13e3f2b9aea39ba86410a9d873555cfccfca0fdc93caf81ea40506891bdda
+Homepage: http://dev.mysql.com/
+Description: MySQL 8.0 testsuite
+Description-md5: ccc32250aefb33a80993be5dab467ee4
+
+Package: openjdk-11-demo
+Architecture: i386
+Version: 11.0.13+8-0ubuntu1~21.10
+Priority: optional
+Section: universe/java
+Source: openjdk-lts
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5838
+Depends: openjdk-11-jre (= 11.0.13+8-0ubuntu1~21.10)
+Filename: pool/universe/o/openjdk-lts/openjdk-11-demo_11.0.13+8-0ubuntu1~21.10_i386.deb
+Size: 4088830
+MD5sum: 741158c7eafd1ecbcd5947877f48df28
+SHA1: b26928ec866c90677f1ced03898fe7903c4835aa
+SHA256: f7dfc533c49e6f5cfc8615e8e79b1bd7bcec0e6996212583d7da5d81a05a5a48
+SHA512: 842ffbd379b34e8d79d658995b730145a23664d79d1a990befb9ac9a788077ded227aba4ba0316200a23bd96ffd0616c3333fd5682b840eb789f2b8d601fc486
+Homepage: https://openjdk.java.net/
+Description: Java runtime based on OpenJDK (demos and examples)
+Description-md5: 8c587e17f25fb354ef51e27e56507756
+
+Package: openjdk-11-jre-zero
+Architecture: i386
+Version: 11.0.13+8-0ubuntu1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-lts
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6118
+Depends: openjdk-11-jre-headless (= 11.0.13+8-0ubuntu1~21.10), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-lts/openjdk-11-jre-zero_11.0.13+8-0ubuntu1~21.10_i386.deb
+Size: 2045380
+MD5sum: 6ab19c3cd538b2107dc5a1552ebe706e
+SHA1: d7d8ef0beacdb4837e875eef62e7261342ca8af7
+SHA256: 4ea7da2213214bca469e5bdd9c8647b63179cc0275371ab0578b6f635c42c6e3
+SHA512: 95a5a25b8492177bf482fdbe2b558a2b7224cae38bf52d75bf788d2caeea9879f3ed2f8356069b5b3e655b4caafe0e4c1537de96df27d12ed4fe74b1b9169b8c
+Homepage: https://openjdk.java.net/
+Description: Alternative JVM for OpenJDK, using Zero
+Description-md5: c714861c802c9808def07d5329c6ed78
+
+Package: openjdk-17-dbg
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/debug
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 317965
+Depends: openjdk-17-jre-headless (= 17.0.1+12-1~21.10)
+Recommends: openjdk-17-jre (= 17.0.1+12-1~21.10)
+Suggests: openjdk-17-jdk (= 17.0.1+12-1~21.10)
+Filename: pool/universe/o/openjdk-17/openjdk-17-dbg_17.0.1+12-1~21.10_i386.deb
+Size: 317372818
+MD5sum: e05f3d80b29eadcce3096b4e0ec1ed11
+SHA1: b162ffa8c00cd7f40d31fba36676b1177c8add95
+SHA256: 339dc344c067260d3afa06a5b6807edf384aa6e269e9b217e100574db89e24be
+SHA512: 8a8714e9c607ac03445cd3fbfb36479842d375f2fe99baf267d685fd1b83a5a5aeb4508d951f660ab7ef700da22218288397edd6f89f953ebdd73b9cd8e3d9f2
+Homepage: https://openjdk.java.net/
+Description: Java runtime based on OpenJDK (debugging symbols)
+Build-Ids: 00c3a3ddcba702010355f573a51045ac12328d48 00e0cebff7d8ab675c016621ba8591dcbef587eb 05598db9af3d677d967a8b134eb6ab8262fd37af 100346f2bd9e033ca5b93ee9600552b5bf75e7c6 11a49a3260a19ac2db18aaeaedf01e183570eeec 157e9ff98a046ce46c308d48f0e35ee65c1c11fc 18d713e3e9efd2303949259ec5e09cfc4f54978c 1e9b10bc814d2a7caca6e3d33b5c3d6c9c3e317b 2765fb417388cbe56d7bb067258a451c0dbddd0a 30160d96d325175362f2ad39491517ec4533e9e6 301e4b4309137ddcbafcc2db76f07672c70ca773 348b47f648df01c57d794f79f799922da69ce1b3 3affb8bc90e4d63de2fbb543fe051c5f447aaa00 3b3b63a33c4ee923a399b1242a75e923606744f3 3ca17cc23e87e9847ead341ada0f8f3b78400aa9 3ceae9744f439a0ee2458e6f0e309ff589fa3dca 445c66f1f995ace84c92f4b1dcb92ed29bbcde07 44671ed4b33c1bdfcd9a4bd2dfbbcb05f3e497e7 473934cc610d6998eb17b2c7fd9baa66e1e9125f 4b7e0124df577e47407cfa86bb189e8990630159 4f6c5911269116e0c4bb15be94fb5ad31119b7f9 51f3639c1905a9d7868b6115c97fb75c4178eafb 52aaba8f675a3866162401711e97b99b70e12807 571d19372cfb56b47f97a270957ed8517b159294 5ab3b9f324f5bcb3a2fd937ab6e3e1c8a5ab683d 5fb76febc45fb1ebc392a8cf6053cf50a22b0fa1 639f5e1dfa04f96558da087533ba1a5dd484ace9 6436cc65cb006b4428afa890f33056ee36a9cab6 644b8464b08109c1b4dace4f88c53ea5633f85b7 6f368f375f9ad1f0d6e83dba145b2b6ca5858cdf 75c35defe5ad6f9ac863b22fc01234f04ec40b00 7cfe33e87d442b97d8b8ff8c2c9d03abc4b95715 804975a5c80d12090aa9c00b1bbbf06936ec1d88 82bf2efccb6c5c2267f6437248d2bee4c05a650e 89b87cc5a2bf707e69da9482ce90814ccb730242 8cc36d28374504f92bbc15f1bb0d7a584701bf51 940e81bb9c996d707b70a05e9bc8c3d97c2a2e57 945c992dede3cb1f8e5d02b9b81b6357828d91a6 9850e671f77bd6812998aa2ca1bd1b28cb723e3f 9ef423bc51da903eb2bbacf0ed7d30c54c556f23 a05d01b844238463cf5cf04d226a5e1e523d3de9 ad19c8cd5313f4e402e33ade1c67b90933624029 aeca2be6ebae82bef517a4de7e9b4d09d8ab1c71 b0fa2b09c3ca945f13aa2de9201ec538b92f9f8e b3423afad318f8793c5ccc269ba2f13bd743f3c1 b415b5d8db56419e788ba3f2b3e5f178e3526b78 b5a51113aa6681344439f00bccc7c675fd803273 b699068f8d6e76db9e8ceeed9003430464f4bbfd b7a07f26dbee00155699c41bf6c8bb227f633ec9 c00ea4de3a8522b00d52a46ff27ed38b96a89d49 c35c0aabe94dc84791320d612ee90522ec479f4f cd0f59172b807b5dc25e11a395fd566d285073c0 d0cdccc263b984b86f40adf41152a5c8c021e0bc d63382cac0a3571c90c57881cf5943caf8894368 d8354e9fd4f590ba715c236d21dda0cd05ae49d7 df4d1859f7ac8b7ae70bdb1cba3a349f3dee8a26 e09380781c28e836d045ad104cb6b4b145737bdf e0a4f5382761a7ce0f3262569c7fc9045653f8c8 e9f26a95344df9de75c04d4a1c46c4b2a9bed9bb edfe80b649117491e798b72043dde16ebe55b03a f0218c46abe6c7ad237fe4ddb68817eae7f2bec5 f15a4ef4702480aaec6fd8e085c9db77b0b1edd9 f5bc684989e9fb438265de78f2e1ee16097521f1 f71daf1cb0e9a519b163fe51cb4f432167235aa1 f9bdf64d58c105ceb6566b66f4e587c4c285abff fbe894056b1eb7921f7581b164662d73041c0047
+Description-md5: d73cb0a41450fd194ce774f2b26510b8
+
+Package: openjdk-17-demo
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5871
+Depends: openjdk-17-jre (= 17.0.1+12-1~21.10)
+Filename: pool/universe/o/openjdk-17/openjdk-17-demo_17.0.1+12-1~21.10_i386.deb
+Size: 4106182
+MD5sum: 451904423350a94b43390317f28e6041
+SHA1: 9000fd73a072b1389a115151ab8d043bce4bef6e
+SHA256: 58f2533871736e3574e213901e8115c81e01294e3b889af6b176951d00e2d8a2
+SHA512: bf0543e98a95e8151642f136aff1ccfe4619bba7dc6af36f38920c7bb2e61f76685e4535b9cfbf83c15086fea4924c47af21646fa475982d1ade5fc04526266e
+Homepage: https://openjdk.java.net/
+Description: Java runtime based on OpenJDK (demos and examples)
+Description-md5: 8c587e17f25fb354ef51e27e56507756
+
+Package: openjdk-17-doc
+Architecture: all
+Version: 17.0.1+12-1~21.10
+Multi-Arch: foreign
+Priority: optional
+Section: universe/doc
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 275460
+Depends: libjs-jquery, libjs-jquery-ui, libjs-jquery-ui-theme-base
+Suggests: openjdk-17-jdk
+Filename: pool/universe/o/openjdk-17/openjdk-17-doc_17.0.1+12-1~21.10_all.deb
+Size: 11816368
+MD5sum: 53b261d981fafbaef76ec88e07ff4861
+SHA1: fd7c00c05c754b43b9c500e1b5a1e92a978e070f
+SHA256: 847af04f94e91a0f316e934b54b1472f8b786af7a1442072b890a2fb8ab16bdc
+SHA512: 4dd97423b6abcc329589357775ff280aa006b30d3452ea7a3adfc7f33c8f754bdcd4e2b2c248869cea71ff883c99fa17f2c0eadd51f4a31f0ef5fc53168e92d0
+Homepage: https://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK) documentation
+Description-md5: 4689d9c1e14d405d15f0710639599643
+
+Package: openjdk-17-jdk
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 53
+Provides: java-compiler, java-sdk, java10-sdk, java11-sdk, java12-sdk, java13-sdk, java14-sdk, java15-sdk, java16-sdk, java17-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk, java9-sdk
+Depends: openjdk-17-jre (= 17.0.1+12-1~21.10), openjdk-17-jdk-headless (= 17.0.1+12-1~21.10), libc6 (>= 2.34)
+Recommends: libxt-dev
+Suggests: openjdk-17-demo, openjdk-17-source, visualvm
+Filename: pool/universe/o/openjdk-17/openjdk-17-jdk_17.0.1+12-1~21.10_i386.deb
+Size: 10744
+MD5sum: 281bb894f1ff0158cc43b7848345cdcf
+SHA1: cad44fbbb5354e4c3ed5fb24e6608240cdf64df9
+SHA256: 47de8fc15812751967c0679d6c5ade1c353241070c3c8ec8f818e4f633354493
+SHA512: 468597f7e5fd38519e0659f63a42c73725c30c52c308dc5e3eb64075ba7c572902a85715d8ffb7c069bb09a180fcfe991b6451fd1e4e450c117ae1385b366d7a
+Homepage: https://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK)
+Description-md5: b9e7f4837238c34971e4a8b72ab7d045
+
+Package: openjdk-17-jdk-headless
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 311837
+Provides: java-compiler, java-sdk-headless, java10-sdk-headless, java11-sdk-headless, java12-sdk-headless, java13-sdk-headless, java14-sdk-headless, java15-sdk-headless, java16-sdk-headless, java17-sdk-headless, java2-sdk-headless, java5-sdk-headless, java6-sdk-headless, java7-sdk-headless, java8-sdk-headless, java9-sdk-headless
+Depends: openjdk-17-jre-headless (= 17.0.1+12-1~21.10), libc6 (>= 2.34)
+Suggests: openjdk-17-demo, openjdk-17-source
+Breaks: openjdk-17-jre-headless (<< 17~10)
+Replaces: openjdk-17-jre-headless (<< 17~10)
+Filename: pool/universe/o/openjdk-17/openjdk-17-jdk-headless_17.0.1+12-1~21.10_i386.deb
+Size: 310327986
+MD5sum: 59856a9cd6e5e9b4ecf11ac4a03b8387
+SHA1: 1097756e124f66104eee3907391f634e5dfc46b9
+SHA256: 51b0c5c44464b852ee7f64455a8117460efd65805a22479795ba35277fb95c03
+SHA512: 177503f6e65eabe1a8776ab449e06e7c64269aad9236e34481e3b6b8956aea915e191906b65b03c76a2761b6a322ea5ccda02d12dbab8074931a0bd620a6d326
+Homepage: https://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK) (headless)
+Description-md5: 494a52f34d707a832270d6d51a78f511
+
+Package: openjdk-17-jre
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 491
+Provides: java-runtime, java10-runtime, java11-runtime, java12-runtime, java13-runtime, java14-runtime, java15-runtime, java16-runtime, java17-runtime, java2-runtime, java5-runtime, java6-runtime, java7-runtime, java8-runtime, java9-runtime
+Depends: openjdk-17-jre-headless (= 17.0.1+12-1~21.10), libglib2.0-0 (>= 2.24), libgtk2.0-0 | libgtk-3-0, libxrandr2, libxinerama1, libgl1, libharfbuzz0b, libc6 (>= 2.34), libgif7 (>= 5.1), libjpeg8 (>= 8c), libpng16-16 (>= 1.6.2-1), libx11-6, libxext6, libxi6, libxrender1, libxtst6
+Recommends: libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2), fonts-dejavu-extra
+Breaks: openjdk-17-jre-headless (<< 17~10)
+Replaces: openjdk-17-jre-headless (<< 17~10)
+Filename: pool/universe/o/openjdk-17/openjdk-17-jre_17.0.1+12-1~21.10_i386.deb
+Size: 184206
+MD5sum: 5aaac91a1f9aae5db4cdc158afe7892a
+SHA1: cf65f6fd2e96b4c7d621c6284011f840dfbb334a
+SHA256: 58a8465ec6a3e471a17f3a0f34d43c9e04bcf9d495fe04f58476d975c144eceb
+SHA512: 527208929f94143b70de91170e468fa924112eed303895d393109381e71f6eddb3a39a3a05d9bac65b2c0a7c35f36125c42a4798e5319364da225cf5b1af0177
+Homepage: https://openjdk.java.net/
+Description: OpenJDK Java runtime, using Hotspot JIT
+Description-md5: 13097853553de1ab39cc189225a9cbaa
+
+Package: openjdk-17-jre-headless
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 173916
+Provides: java-runtime-headless, java10-runtime-headless, java11-runtime-headless, java12-runtime-headless, java13-runtime-headless, java14-runtime-headless, java15-runtime-headless, java16-runtime-headless, java17-runtime-headless, java2-runtime-headless, java5-runtime-headless, java6-runtime-headless, java7-runtime-headless, java8-runtime-headless, java9-runtime-headless
+Depends: ca-certificates-java (>= 20190405~), java-common (>= 0.28), libcups2, liblcms2-2 (>= 2.2+git20110628), libjpeg8 (>= 8c), libfontconfig1, libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libasound2 (>= 1.0.16), libc6 (>= 2.34), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 7), libharfbuzz0b (>= 1.2.6), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 5), zlib1g (>= 1:1.2.2)
+Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei | fonts-wqy-zenhei, fonts-indic
+Conflicts: openjdk-11-jdk-headless (<< 11~18-2), oracle-java11-installer
+Breaks: clojure1.8 (<= 1.8.0-7ubuntu1~)
+Replaces: openjdk-11-jdk-headless (<< 11~18-2)
+Filename: pool/universe/o/openjdk-17/openjdk-17-jre-headless_17.0.1+12-1~21.10_i386.deb
+Size: 46747680
+MD5sum: e1add8be4816f5ff57e603c8b67a01bc
+SHA1: 236218592e748ff91928825b635a7552082cf02a
+SHA256: 5df1a1c4c3df9b2e8c646ac0d6ad2299f04a298be2327a608ca5762e474422e2
+SHA512: 4ff1d6ed2acdd8c0716e898f6927b4986f391ab90fd5e88e6749d83a9623faecfd2527aee2fd10f285267dadd357740e4c6d1beee2c83587fe70a56e844009c5
+Homepage: https://openjdk.java.net/
+Description: OpenJDK Java runtime, using Hotspot JIT (headless)
+Description-md5: 62c2c9689e617c48cc4480926d2ca785
+
+Package: openjdk-17-jre-zero
+Architecture: i386
+Version: 17.0.1+12-1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6916
+Depends: openjdk-17-jre-headless (= 17.0.1+12-1~21.10), libc6 (>= 2.34), libgcc-s1 (>= 7), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-17/openjdk-17-jre-zero_17.0.1+12-1~21.10_i386.deb
+Size: 2324468
+MD5sum: 8bec59f17b98bba1bbd3698f3b1e5234
+SHA1: 9b6800469bae1a1669f1a0bb6d07ad6451fb8f2e
+SHA256: 499e545ceb8caa7166a4cd350e81fa46d00a55652947e743c16e318b385b023f
+SHA512: 1fa6b51bea3cbfd9af0193ece239ee1a2ef4c9d750a590eb856d4399b7a93befe6188307a420002aead58999888da64c28234aced31b510586209b822b51b308
+Homepage: https://openjdk.java.net/
+Description: Alternative JVM for OpenJDK, using Zero
+Description-md5: c714861c802c9808def07d5329c6ed78
+
+Package: openjdk-17-source
+Architecture: all
+Version: 17.0.1+12-1~21.10
+Multi-Arch: foreign
+Priority: optional
+Section: universe/java
+Source: openjdk-17
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk-17@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 50483
+Depends: openjdk-17-jdk (>= 17.0.1+12-1~21.10)
+Filename: pool/universe/o/openjdk-17/openjdk-17-source_17.0.1+12-1~21.10_all.deb
+Size: 46623210
+MD5sum: f4b84ffc29dce419a237b9f7186b0caa
+SHA1: 4af0210a2df5e5e767173489afa76f89ebd52a1d
+SHA256: 1360e80b84b758b09158f7b48117504ffcc2987d23a54ba2ab8ccb9b0d7ad52f
+SHA512: c6eeaee216aacdf447c5bd31247ca0c218d8a5e1b4f2ce0a07ee3f580e2951643f430d4cc1bd746e413420d0518af688782481e81f306776a492103f405d45ca
+Homepage: https://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK) source files
+Description-md5: 5e4d8bbb398daa24b05478a4a3be42bf
+
+Package: openjdk-8-dbg
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Multi-Arch: same
+Priority: extra
+Section: universe/debug
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5741
+Depends: openjdk-8-jre-headless (= 8u312-b07-0ubuntu1~21.10)
+Recommends: openjdk-8-jre (= 8u312-b07-0ubuntu1~21.10)
+Suggests: openjdk-8-jdk (= 8u312-b07-0ubuntu1~21.10)
+Filename: pool/universe/o/openjdk-8/openjdk-8-dbg_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 2132716
+MD5sum: f1c74d287cc5952d2fd994528d0eafe7
+SHA1: 1e3e8c64227bf3e07b546b6f4318172f607b85fc
+SHA256: 64e196a0cba542990da5c70783a3d9e23529e20660a4afe39a356c8572dff6b0
+SHA512: e66e7896bd8366df714e9ee65c826f0a91dfc7e97fecc9474884bdb8b3087bba831008e2ebf2575cc42fdc5bba4135382f482277868d25cdaf7e5d86c61030f0
+Homepage: http://openjdk.java.net/
+Description: Java runtime based on OpenJDK (debugging symbols)
+Build-Ids: 0084d389e4a09e28d569ac23ca7b82ca80008ebf 0348b243cfc795e646fa74895c2947936233e21e 06710a9e3df6ebec74ecf843ba744212b0ed5551 0a3790f12ac1e7349222cef7c7db0772df673900 0c5c8c6dd353f20136e31910b0cb109c4f5b87c9 0f055822b6aa4716459a31fd948603a7a60b380d 0f26f84061f55392a705607378e345975ef75836 11a9e682c738df427f31a6199b3f52e825a1c119 131db85e9ddd1c763d4f2ca24f58eeb020e37d52 15f0e07ff51bbd0533fce8816ca52c8997b3dfdc 1c3770c20c1b5f08f164030a72c4b559c18bb9a0 1cd3ffb7e74b2e02cdc9490cea03898a8d3abfaf 1e58791ae1a0a5836d4b5ef2adf113bd4a40052c 23ed1f5cb288963f3666e3b409865754ec5a7a80 2401945e3e8de998c520ead59f3cde308815c7c8 2d3beecc25ea1b68ef7b5af8e02bdaaf530fec81 2df767524f02d67a5644062f80a7e3b50f01f2a4 2eea7243cfdd569e60811eba0323c5c346e53ffe 2ef7828671f6e14fad2835f085d2061deff912c5 2fdf5e41aef5e74a0b957ec94683c1313e835a2d 32404d01b09e98db4bde6e11b43df2592edb7895 32474151c7b250910ba318018df5a08f60c69304 35669a64ec5b9132f11e821f78b49a68b1b1d1a5 39b993857bd5e6252e76be46550871ed1355876c 3a0f0a6287ef18add59f55a1358989d16d4fd876 3e153ef4828919702e9169f4ea053be3446663ed 4151fbb0f08a1f466bc1585734cb17232d4b49ac 41b1e2b92dc1deb13324bf31a9173af82b3cc35b 46ddf77f16be6e20bb3f31ddd61a35e745e64528 4b23de63516515a97cb115756860a43984ca3252 505f6f92baa89ca48dd4bec22fc72f18a288da84 51dce8dbb4592d4ac19d610bcc92027914687f9f 529a4d5cd13bd9016cda1fc8958352c3de1a2a4c 54ff20b05845c273551794cd4a6a956c718b8b70 556d61d3518686d520c7a3d31b5526ccf5ede621 55a670cfb0cf71221f21417486f0208ef693110e 573947cc28c908a8d7d398efaebd9d77b3d595d5 588f647c270fda87cb8e86eb1b26b93614256e87 5aa8e5d77ca8db293bc78f5fce468ba84fac0226 5dffb30cdd6e52cce10e8daa85914416aaca0462 5fc4005e3337e8f9685f7e410ac93b3278e8cb3e 6013ed0294455a67d25f3888167387959e0b15e8 68dff84dcb7fb129fd7d00abfff75ca52d4f947c 6cabc5b71ccb5ddfd65dfbd72f0a21cffd73a49d 6ec50f8fd1324b5431e9f3229867585b70b1d076 6f314d34fbbfc8d80f194633d61ee940aff8dea8 733bf8d0aaaf4555aa6852f3526f2f82b0e99f70 7586196a68468bc0ba71ad76172e82bcd7e70773 77a1d8d079da0c58be29fda8f638197ceae7e0f3 7b27272b97eb7d0dfda631739c41579a8ab2c22b 803df963b4f5296b528905d7aaa6c8e23a136ee4 808df7454bbf84f108fa17d0ae701bd70d7bdd08 82a7138060867516e2655f552e3978ba5b888054 8376cc0cbc047b54aa2d9bc81029ac319f361055 867e6af1fc7cde6456785530c8aae29679fcabdf 88510953bc39f8f4fc0d065366790590841aa0cf 8925baa3b4f714afe51535c76ec2b5a78bf1baf6 95b288f64a5a22d4dda4169f33251737fdf24d00 9a9d4cab48f3c31c232c7568dce12ca3f8afad04 9b19f28f227c29bab7f36ef6e829b2a63b7e34f1 9e115604c166af5283f38c76d3f038582b199828 9eae38a6bc0e72b20c6f7971590cdd5874a42c30 a38623bf7b7e8af0c751b9d75ea863cda36c0cf7 a725935598e50f50a38329712707a2b4cbef8c35 a74f517270a0de4348f40c053c8c56ce0c8ddd51 a788c818dbaa18f5adf9f516b98a78f6cde93a37 b271df80f20398a9d9e453a1c6354faa88e02c0d b78d9f9fc04e56a5d8ce8a627dbc5391bebfbdbe bdb58d0d47bd97d6ba70ddd4cb51e87368305e88 bdc692a9b48c024b83e9beb7a56083efe5a664ba be0c30d20b4b65d47daad6947ab2f4edd6464fbd bf2beed116de37d6967a8e858e23ea28cbaec137 bf93126cfb781bdf1e2db184b073cb7fd199b3bb c4c71a2d2f69637b38750994f8426d44d3613682 c5d9467e28e50995cc6f3b2a4528e55b2f877558 c76f9ae86a9648101c982f76909c20c17580b8a8 c7c1250957d02bc0cd16c3a1d5ecd662ed03a57c ca4173462bc4733b5e9f6c961f53f0c93a81f8c5 ccc1c96217d33cf3780178b2eb8070e6cb9f72df ce1b5bd88eea3696455a869f626b80dced0a415d dc14584086df6a9f1d94c71a0bf10077b2762ef0 dc2ff249cfa5cf72d1dabfdf51435fd3450cc53f de41f90251dd671b3405600711968b6bcfd8f8c7 e305be2198bae0b310be3b63387ee32168fbe061 e8c5dd953e409462748f408ca8c624758f02c3c3 ee9bd13a0def9247fc3f6e09ac6b529842b124fb f2ea3453b23269f1dceffec0c005b24e9218d7d6 f3597a21bf8d493388a8617c1a08c31102f1e63c ff68f850ec272881fdba4dfdbf498321c4dd1972
+Description-md5: 62cbbd2d3e6bc94279f18db4f735142b
+
+Package: openjdk-8-demo
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Priority: extra
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4546
+Depends: openjdk-8-jre (= 8u312-b07-0ubuntu1~21.10), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-8/openjdk-8-demo_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 1845882
+MD5sum: 2108172c495063a1884ebc77bffb7da8
+SHA1: 2893206638a51b28c6731d46e2008ba6082ec3f4
+SHA256: a3ccc7b15d6677876aa3adf582fa09a3ce2b15e840ba3520fc9413b404d3ea34
+SHA512: 7b57f44cf595110e1a4f4fd6301a56fc7ee8dd5e7600906c260df305032923c6802756c09460a7f880f2383f1c0fcf0ca0946177b5aa8cd4c5d62f9ae027472f
+Homepage: http://openjdk.java.net/
+Description: Java runtime based on OpenJDK (demos and examples)
+Description-md5: c2a5624aa60e4de3025a249886fa82d7
+
+Package: openjdk-8-doc
+Architecture: all
+Version: 8u312-b07-0ubuntu1~21.10
+Priority: extra
+Section: universe/doc
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 282982
+Suggests: openjdk-8-jdk
+Filename: pool/universe/o/openjdk-8/openjdk-8-doc_8u312-b07-0ubuntu1~21.10_all.deb
+Size: 11013134
+MD5sum: b40c4e47c3347e626b9e6b19ac9c7de0
+SHA1: da7098d0edecf6c8c46f98b3e4939c354d4a07e8
+SHA256: 6e05ead42a4645f4c3c89b781de6b787ec820eba44ff5b228270d918b1fca9cb
+SHA512: b54f044fcfaeea6404b1104b0607d15beebddf8a0c6a7b810985bb7ecd3218cc33de20aa630c2e25bec3ec9f397ff2396e6af0a0fa71bd31b01eb001a45a0c98
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK) documentation
+Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
+
+Package: openjdk-8-jdk
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4242
+Provides: java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk
+Depends: openjdk-8-jre (= 8u312-b07-0ubuntu1~21.10), openjdk-8-jdk-headless (= 8u312-b07-0ubuntu1~21.10), libc6 (>= 2.34)
+Recommends: libxt-dev
+Suggests: openjdk-8-demo, openjdk-8-source, visualvm
+Filename: pool/universe/o/openjdk-8/openjdk-8-jdk_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 4034932
+MD5sum: 0aec1017ebe3c2bbde20e3e1764175e9
+SHA1: 1521383eee3ec0b7e6ea246276d7a6831569cc58
+SHA256: b480506569159f9ef22ce3e0f2c543d24857705d23086eca5cd26bc8de9b2c39
+SHA512: 616574079cd14f320c1113e5d5900b82193312561c9d6cf478d34073e884ad99802be28602c6c6e04bf2049871e6595fa4fd4ed282c795bfa73a30223078fe17
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK)
+Description-md5: eaff50443f15582a8beb0901034b62cf
+
+Package: openjdk-8-jdk-headless
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 38770
+Provides: java-sdk-headless, java2-sdk-headless, java5-sdk-headless, java6-sdk-headless, java7-sdk-headless, java8-sdk-headless
+Depends: openjdk-8-jre-headless (= 8u312-b07-0ubuntu1~21.10), libc6 (>= 2.34)
+Suggests: openjdk-8-demo, openjdk-8-source
+Breaks: openjdk-8-jre-headless (<< 8u232-b07-1)
+Replaces: openjdk-8-jdk (<< 8u72-b15-4), openjdk-8-jre-headless (<< 8u232-b07-1)
+Filename: pool/universe/o/openjdk-8/openjdk-8-jdk-headless_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 8867194
+MD5sum: b46a421940538bc673ebddb058e4904e
+SHA1: d7455f4624e0045f66c13401ad4f51e0289fbfa2
+SHA256: 003a459c29795a08e6cd0f4f2c888af5cc182b865f73fff6214f35aa498f1a54
+SHA512: 3c762a02eb9f942d7b58b6f9217be3d08e8abc700f5410cdd38f04f9404e45dca232e231dab44e4b3eb45da8781deb7c8e43d03cd72c1b72f720abe160c559b6
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK) (headless)
+Description-md5: d1221d55e35c3f9b061c79f97661bd96
+
+Package: openjdk-8-jre
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 280
+Provides: java2-runtime, java5-runtime, java6-runtime, java7-runtime, java8-runtime
+Depends: openjdk-8-jre-headless (= 8u312-b07-0ubuntu1~21.10), libglib2.0-0 (>= 2.24), libxrandr2, libxinerama1, libgl1-mesa-glx | libgl1, libgtk2.0-0 (>= 2.14), libasound2 (>= 1.0.16), libc6 (>= 2.34), libgif7 (>= 5.1), libjpeg8 (>= 8c), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libx11-6, libxext6
+Recommends: fonts-dejavu-extra
+Suggests: icedtea-8-plugin
+Replaces: openjdk-8-jre-headless (<< 8u20~b20-3)
+Filename: pool/universe/o/openjdk-8/openjdk-8-jre_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 76572
+MD5sum: 017c6e732718f9494381c1c97200dc23
+SHA1: 395d6f9eb3270197c58a4d32e674e77af31bd9c4
+SHA256: f4cec1c40047ee339fb4972c1764d694635223f05d98cfb28a0c9aabfc90474e
+SHA512: 08d1194954137d96fafc0d5c3b21e1e915f6c7307e009a8ada0fc238f613e68f62c9aea98780b05966c9f08e0ca53527161b8ca4d06b31113e35c4b5e97cd50d
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Java runtime, using Hotspot JIT
+Description-md5: adca808a02a80aed4051cc95b7fe5f37
+
+Package: openjdk-8-jre-headless
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Multi-Arch: same
+Priority: optional
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 98922
+Provides: java2-runtime-headless, java5-runtime-headless, java6-runtime-headless, java7-runtime-headless, java8-runtime-headless
+Depends: ca-certificates-java, java-common (>= 0.28), libcups2, liblcms2-2 (>= 2.2+git20110628), libjpeg8 (>= 8c), libfontconfig1, libnss3 (>= 2:3.17.1), util-linux (>= 2.26.2-4), libc6 (>= 2.34), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libpcsclite1 (>= 1.3.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4)
+Suggests: libnss-mdns, fonts-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, fonts-wqy-microhei, fonts-wqy-zenhei, fonts-indic
+Breaks: ca-certificates-java (<< 20160321~), oracle-java8-installer (<< 8u77+8u77arm-1), tzdata-java
+Filename: pool/universe/o/openjdk-8/openjdk-8-jre-headless_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 30386514
+MD5sum: 07fda9b7ba18839f6b787d212f0d96c1
+SHA1: 7de97fd513dbc4684db538a429a5565f523993d4
+SHA256: 60adc67fd8adcd6316388c271eb5150dd2ff9cbcc6acd02a0c4dd734104be8cc
+SHA512: cdd8474ead3eba8426b145adcff3e507cc128b30265d695a7c55da37921acdef1d08fa9d89c838d236645b26a10a8e70c9a98cef003bd4090294ac6b916719a4
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Java runtime, using Hotspot JIT (headless)
+Description-md5: 20eb08d56f9496cba7ae5bc1fc762f93
+
+Package: openjdk-8-jre-zero
+Architecture: i386
+Version: 8u312-b07-0ubuntu1~21.10
+Multi-Arch: same
+Priority: extra
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6081
+Depends: openjdk-8-jre-headless (= 8u312-b07-0ubuntu1~21.10), libc6 (>= 2.34), libstdc++6 (>= 4.1.1)
+Filename: pool/universe/o/openjdk-8/openjdk-8-jre-zero_8u312-b07-0ubuntu1~21.10_i386.deb
+Size: 2038430
+MD5sum: 2f3ae0d47510a2e1f08e336dfa473ae4
+SHA1: 7abf0b3b4151b05ebfcd6a3671eba8b398ebf570
+SHA256: 1140525cecaf6c7ce3ad701c9b643fa913c9f25a9feb744cad2d69aa42a27728
+SHA512: 944adad51ade2b26780e68997e926abc04db46c22ebdd4a4f8753b6962d27cff19194a1aedf651ef427d37b1d1a14d85c8c1ac1b7f8f94b2a91fc7894195d606
+Homepage: http://openjdk.java.net/
+Description: Alternative JVM for OpenJDK, using Zero/Shark
+Description-md5: ca0db1fb38a237b982a1de5e6d632720
+
+Package: openjdk-8-source
+Architecture: all
+Version: 8u312-b07-0ubuntu1~21.10
+Priority: extra
+Section: universe/java
+Source: openjdk-8
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 51531
+Depends: openjdk-8-jre (>= 8u312-b07-0ubuntu1~21.10), openjdk-8-jdk (>= 8u312-b07-0ubuntu1~21.10)
+Replaces: openjdk-8-jdk (<< 8u20~b26-1~)
+Filename: pool/universe/o/openjdk-8/openjdk-8-source_8u312-b07-0ubuntu1~21.10_all.deb
+Size: 46884870
+MD5sum: af542ebb4466dcb915000de0ae138ac8
+SHA1: c4becb34f76cc09a6bf5aa13b4acc2fbea83f646
+SHA256: 1c7342ba9fd3d62e0bba91d38253868b612bba33661c6d027f57e258227f2629
+SHA512: e79872c6a1643d8adffce1745090847e18faba852691d972d66fb37660ce9136364b7a13b3c2ffd2c353f5cbabaa62ffe804a21a98352a22f119864b0ee0fb94
+Homepage: http://openjdk.java.net/
+Description: OpenJDK Development Kit (JDK) source files
+Description-md5: 328263bb6fbf81f04f5d459d67244ea0
+
+Package: php8.0-bcmath
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 67
+Provides: php-bcmath
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.4)
+Filename: pool/universe/p/php8.0/php8.0-bcmath_8.0.8-1ubuntu0.1_i386.deb
+Size: 17850
+MD5sum: f29d2040a8c87af16d56583b5fdc87ab
+SHA1: 858a372063a0334a9604a5e460399e2978d98a2e
+SHA256: 407e45ece38bc1efb362afca80bafb34da276d7c24ec5a45c177a1242ff9597c
+SHA512: 976d527717562e49a4fe4c7e143c615a25658b442921a18e05e89097740d521f026ee69b3989fb01bf6aa68cc11ec75e3f3cc5a8219532ebd7f3823afb18435a
+Homepage: http://www.php.net/
+Description: Bcmath module for PHP
+Description-md5: 8f9f425714b203a9b7d1f3678f64c107
+
+Package: php8.0-bz2
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 59
+Provides: php-bz2
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libbz2-1.0, libc6 (>= 2.4)
+Filename: pool/universe/p/php8.0/php8.0-bz2_8.0.8-1ubuntu0.1_i386.deb
+Size: 11888
+MD5sum: 179ffe9848f02dc19353cdd8c66fcd24
+SHA1: 05f2a6fb3c5d1517fcd10201c4549d71da074f36
+SHA256: 1064df14b86319492f703685a6f4eac186629f22e48071a7940fb92fe157acbb
+SHA512: 8dabab79fcbb37dcf67402ab3fcd1599989cbdbdcf8e7a8dae9379e95665a3ef623f9c986b6641deda400ddc493effbc4b4fb40448f9254861cf936ee420c71d
+Homepage: http://www.php.net/
+Description: bzip2 module for PHP
+Description-md5: 6221ff838ed81a370f3420140a1ccf42
+
+Package: php8.0-dba
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 95
+Provides: php-dba
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.33), libdb5.3, liblmdb0 (>= 0.9.7), libqdbm14 (>= 1.8.74)
+Filename: pool/universe/p/php8.0/php8.0-dba_8.0.8-1ubuntu0.1_i386.deb
+Size: 28676
+MD5sum: 0c383a4bef7b0a611b57ea01149807a8
+SHA1: 1cdda5a057b8a857fda72079355e77f524d9466a
+SHA256: 940528ba7b841eac8c85b5f4d0523afe1e8b31ad9c4126ade61b6386685dd91f
+SHA512: cd6ec48107d5795a00e8c47c9520c9eee415fa38081033a6d14863fc26bf58865659f37c629b3ec8745dfe17206b3c7e48d55ecc0d79fdae8bb221ad71b4137a
+Homepage: http://www.php.net/
+Description: DBA module for PHP
+Description-md5: a1c9cd8c67d752f4aaf0ba88ecb360df
+
+Package: php8.0-enchant
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 55
+Provides: php-enchant
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.4), libenchant-2-2 (>= 2.2.3)
+Filename: pool/universe/p/php8.0/php8.0-enchant_8.0.8-1ubuntu0.1_i386.deb
+Size: 10292
+MD5sum: 68cfb4a9c3094fa697a0d800abcfd58d
+SHA1: ad6a5d89bff0ecf4ac64f95e11edc70c7b2b33e1
+SHA256: 6b253680e6188d278a7a091c1c77be76414f400597b0c023155b92695aa9554a
+SHA512: 193a1c1544a36229ba5c17589b5009251820a82bcde600103c513af0e49f9ed994affaf715d9742598f5db04bee45a775fdeafda5c5f6fe340a27548dfa7ab00
+Homepage: http://www.php.net/
+Description: Enchant module for PHP
+Description-md5: 687582edca33aa141d3f62c1294fcb07
+
+Package: php8.0-fpm
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4536
+Provides: php-fpm, php8.0-json, phpapi-20200930
+Depends: libmagic1, mime-support, php8.0-cli, php8.0-common (= 8.0.8-1ubuntu0.1), php8.0-opcache, procps, systemd | systemd-tmpfiles, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.34), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.14), libssl1.1 (>= 1.1.0), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.2.3.4)
+Suggests: php-pear
+Filename: pool/universe/p/php8.0/php8.0-fpm_8.0.8-1ubuntu0.1_i386.deb
+Size: 1672080
+MD5sum: 7fc840d6ac4526944ac2606e9c829482
+SHA1: 58aed88045886fe4edffeaea81f314b2b84fab18
+SHA256: 4d2955698e8225f12f16738bd6ee774326ec6bbb68981e1c11397bd36f75b66a
+SHA512: 833790b53b2fe90d945c2162929356e7eef60c99e7786218f5a9e36c9cd6d0d31e2d00746174eeabc6b9b810dbbfd26e2ca775becbf9a383ce25b4a1a2639b1d
+Homepage: http://www.php.net/
+Description: server-side, HTML-embedded scripting language (FPM-CGI binary)
+Description-md5: 612a17f0aace2c500fdf3741c6caa0cb
+
+Package: php8.0-imap
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 127
+Provides: php-imap
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc-client2007e, libc6 (>= 2.4)
+Filename: pool/universe/p/php8.0/php8.0-imap_8.0.8-1ubuntu0.1_i386.deb
+Size: 36502
+MD5sum: 992d43e65bb0b35349d24012f3f6e8aa
+SHA1: b54aee151ffff1f1709a1ca31cf43320433aba76
+SHA256: d9bf41c3ac235dd24b77628e045906a47d9be2612961bda184341a053d8eb15e
+SHA512: 1f307fb07f07b9c174eceab5d3ed0372697dfe60b55715bc884819464165759afcbefe127fca55b457012ec70f5420ada9ae48f0b183f7d05ae8c07c142181b2
+Homepage: http://www.php.net/
+Description: IMAP module for PHP
+Description-md5: 73ce2e5dbb1377bc41524b600892883b
+
+Package: php8.0-interbase
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 67
+Provides: php-pdo-firebird, php8.0-pdo-firebird
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.34), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2)
+Filename: pool/universe/p/php8.0/php8.0-interbase_8.0.8-1ubuntu0.1_i386.deb
+Size: 18418
+MD5sum: 31952d0ab249c65ef4d1125da1d3b8d7
+SHA1: 16be8e59979e17c2fa651047392b4ba0992aa36b
+SHA256: 043274ea1d40610421a3773484e9f65cc7a7ce81e4137ad5d4a3fe12344b0042
+SHA512: 8e78269e34f2b56b6875c9d08e458d4c4b0a57d02a4b9dc9a0fc0a9346d79802f9d56b8a66e6d1fa1601af0cb35a99616003b9abc0730fbd9d2820c6ae2247a9
+Homepage: http://www.php.net/
+Description: Interbase module for PHP
+Description-md5: 40c18d15eeba50ef5700d72e1e45d586
+
+Package: php8.0-intl
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 471
+Provides: php-intl
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.4), libgcc-s1 (>= 4.2), libicu67 (>= 67.1-1~), libstdc++6 (>= 4.3)
+Filename: pool/universe/p/php8.0/php8.0-intl_8.0.8-1ubuntu0.1_i386.deb
+Size: 147966
+MD5sum: a40d3de36a97d2e92ee9ad15dab2b257
+SHA1: 5c04443ed9e2e95892ab640dbbc9e39305c64d99
+SHA256: 58ef4ea210852235ce10a5997bde06e46a155e22a05b31ed1eea55aa598c3e5e
+SHA512: d47a72d910bc3d5eb6ae3cc21fb1894b30fa4c4edba2eb2501851e14244677a41d0a50e8b24c0665e05bd635b02db3d4a4beada3462e3b8da8c4dc2de97fd506
+Homepage: http://www.php.net/
+Description: Internationalisation module for PHP
+Description-md5: 576352b0c1559ceb07b3161367c69f39
+
+Package: php8.0-phpdbg
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4598
+Provides: php-phpdbg, php8.0-json, phpapi-20200930
+Depends: libmagic1, mime-support, php8.0-cli, php8.0-common (= 8.0.8-1ubuntu0.1), php8.0-opcache, tzdata, ucf, libargon2-1 (>= 0~20171227), libc6 (>= 2.34), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.14), libssl1.1 (>= 1.1.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.2.3.4)
+Recommends: php-readline
+Filename: pool/universe/p/php8.0/php8.0-phpdbg_8.0.8-1ubuntu0.1_i386.deb
+Size: 1706050
+MD5sum: 5ae07ae51f9774593a73fe086a7c548d
+SHA1: 74aba6d32764359a9f0ed574337224b84afb533e
+SHA256: 934d2530b2d74108c1e54e06532fb5b95106ddb6ee0d1df6f0ea1b4f7675ce3d
+SHA512: d9ba3af2bea1b84f0feda46196d212be6835ea53f1b05f046317c18a2ed15ab036d310da20732a64eb14d3745a831769923d2f0b6e416faa48ec51591169b4b3
+Homepage: http://www.php.net/
+Description: server-side, HTML-embedded scripting language (PHPDBG binary)
+Description-md5: 2c5b457041329aa8ba2720447cd9600b
+
+Package: php8.0-soap
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 371
+Provides: php-soap
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.33), libxml2 (>= 2.7.4)
+Filename: pool/universe/p/php8.0/php8.0-soap_8.0.8-1ubuntu0.1_i386.deb
+Size: 137226
+MD5sum: 25a54210e9761a632d74b09f406459f5
+SHA1: a95964d936cbf65c8076cf37dfa034cfb907e053
+SHA256: ae9f943093199830b990c6fdc80f1af795e8160969eea0c8f6ffad09850bfca1
+SHA512: eb2c5f5fa7adcc208b08025013a21ad1fb63fcf9f7b26eb6c6893f17363d489ffe5697d10ea3210c91f638d251db0a5593a149bd20b5836a2e4c02df5d1b366a
+Homepage: http://www.php.net/
+Description: SOAP module for PHP
+Description-md5: 8ca6ca2ae4fbc6127f6522e73f05005a
+
+Package: php8.0-sybase
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 63
+Provides: php-pdo-dblib, php8.0-pdo-dblib
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.4), libsybdb5 (>= 0.63)
+Filename: pool/universe/p/php8.0/php8.0-sybase_8.0.8-1ubuntu0.1_i386.deb
+Size: 13764
+MD5sum: d8a2077350c537f91a00becd372e9f96
+SHA1: 94ae2c1f36f08b43d634d3e8d1d4b68c88fc98e3
+SHA256: 88b205efd7259a77a2aeb160620977b973dc34b2a2b77eaff867640f1df3e4e1
+SHA512: b38fbabfd29186db06baed2225869194e8df258a6e245b16ce45bb4284d056cf751b18708d006d77dc3738d88b69bd43b945e7473a65ed0760846291315a366d
+Homepage: http://www.php.net/
+Description: Sybase module for PHP
+Description-md5: c5f3c0b4521b40ee671df4ab3452df1d
+
+Package: php8.0-xsl
+Architecture: all
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 59
+Depends: php8.0-common, php8.0-xml
+Filename: pool/universe/p/php8.0/php8.0-xsl_8.0.8-1ubuntu0.1_all.deb
+Size: 8836
+MD5sum: 22826ad6d18c7b2dd8db36b8f5b7668a
+SHA1: aa8e4f1e9af4c7a3a511fd573b17ee6b3776a72f
+SHA256: db9f651b60e757235d4772fbfdb3cb07741d7cf382d29c8be9de63389554ec9a
+SHA512: f5c42bb049a11c571907fe7400d4b670888dd1485672024b01192a70b8b4db03b6a1555d8532f1ccec26809d10d0d44161c6b172ad4712d3ea88ead8c1ceba22
+Homepage: http://www.php.net/
+Description: XSL module for PHP (dummy)
+Description-md5: 93c8fc5e2935346a001f328e898c3cff
+
+Package: php8.0-zip
+Architecture: i386
+Version: 8.0.8-1ubuntu0.1
+Priority: optional
+Section: universe/php
+Source: php8.0
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 107
+Provides: php-zip
+Depends: php-common (>= 1:81~), ucf, php8.0-common (= 8.0.8-1ubuntu0.1), libc6 (>= 2.33), libzip4 (>= 1.7.0)
+Filename: pool/universe/p/php8.0/php8.0-zip_8.0.8-1ubuntu0.1_i386.deb
+Size: 28482
+MD5sum: 8fd3216b8b91da87b6b08316a051557e
+SHA1: f30e3eac13c89baed3b21d6b4e493cd12d28ee9f
+SHA256: 5d1b549c3516a6572c103d28c757febd5f220a4332f0ebcae12d1e5ab1c4f264
+SHA512: 78782bc23c2f81d070d0180aa3d65bb48c5a930804d65216128d418d9a72c975e7555091a4c5d7e6df97782278e204f2ed3992e76ef610343eb0131bc6b07dc8
+Homepage: http://www.php.net/
+Description: Zip module for PHP
+Description-md5: e148c478613188b645a0ec42c87f0518
+
+Package: postgresql-server-dev-13
+Architecture: i386
+Version: 13.5-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/libdevel
+Source: postgresql-13
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5644
+Depends: clang-11, libpq-dev (>= 13~~), llvm-11-dev, postgresql-client-13, postgresql-common (>= 142~)
+Breaks: postgresql-server-dev-all (<< 181~)
+Filename: pool/universe/p/postgresql-13/postgresql-server-dev-13_13.5-0ubuntu0.21.10.1_i386.deb
+Size: 1035368
+MD5sum: aa4f7956a56ae2ee67a0c939cf993bae
+SHA1: c26186e4c81c2e350fb0421e6f249abe596f1e61
+SHA256: 4362dd6e57701ead43fc8ab756ac0cd90053f9799f9e5a167fb241f12d6969f6
+SHA512: 93e6f6d24f5a9f6b0210f4b26c83700011bcfe418918babc118e655e80228e58d8aee64d009cf40de4f72bef44e165d64b17a7da21a6d87be216157df18aa3d3
+Homepage: http://www.postgresql.org/
+Description: development files for PostgreSQL 13 server-side programming
+Description-md5: ea24835aaae1d62503279845336c6a0b
+
+Package: python3-django-postorius
+Architecture: all
+Version: 1.3.4-2ubuntu0.1
+Priority: optional
+Section: universe/python
+Source: postorius
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Mailman Team <pkg-mailman-hackers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 12118
+Depends: libjs-jquery, libjs-bootstrap4, fonts-glyphicons-halflings, node-html5shiv, python3-cmarkgfm, python3-django, python3-django-mailman3 (>= 1.3.5), python3-mailmanclient (>= 3.3.2), python3-readme-renderer, python3:any, libjs-sphinxdoc (>= 2.4.3-5~), sphinx-rtd-theme-common (>= 0.5.1+dfsg)
+Recommends: mailman3-web
+Conflicts: python-django-postorius
+Replaces: python-django-postorius
+Filename: pool/universe/p/postorius/python3-django-postorius_1.3.4-2ubuntu0.1_all.deb
+Size: 1043702
+MD5sum: d7f3536f8d081a4e4328ab58b7b7868d
+SHA1: 8da3d0b59ed56c977e9fe74c528420bb30f6f441
+SHA256: 3d73c32159ec88019b96f6ff2928040be86979ddae4e93fe61b637d371a8f8b4
+SHA512: 3197590a444e9c73cd56d4d92da82bb2920ae26d3c46b73ec8f9bb745cb265794661de412e278c8858a7ae6ab9992e6217c8e4502f5c8706d55e29910a0b1290
+Homepage: https://gitlab.com/mailman/postorius
+Description: Web user interface to access GNU Mailman3
+Description-md5: 016171c4fe953e390f5bf45b1ec10ef6
+
+Package: qt5-flatpak-platformtheme
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 172
+Depends: qt5-xdgdesktopportal-platformtheme (= 5.15.2+dfsg-12ubuntu1.1)
+Filename: pool/universe/q/qtbase-opensource-src/qt5-flatpak-platformtheme_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 25174
+MD5sum: 03a8f39b77f74b85f7d7a8804d63b1e1
+SHA1: 2a9942a186a164bdf1a37fd8f12bb85d97d6fe19
+SHA256: f7230abdc4b67d902600e385546b0f4ea4252565a21c2b61f31dd5aae2300f1c
+SHA512: f92f7921dadf25271728a40c4fa213171d2bee47e5dc8930bfb455e028527a1d635f7db9544823a7a71fe37b35dd5218336e042f4db8ffe8a64a6ef66f5617a8
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 Flatpak platform theme (transitional package)
+Description-md5: c5afb80c1f79f97f0ac8a0d6b5fd1f84
+
+Package: qt5-gtk-platformtheme
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 545
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.33.14), libgtk-3-0 (>= 3.9.10), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/qt5-gtk-platformtheme_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 142292
+MD5sum: b9634c50dcc9d0858b2198a5f0df553a
+SHA1: 3968962be6dd890583a9ba5b9dc9be5978447e4d
+SHA256: 9dcc4a3aa8a923e4e8dbe8f3ad1431bb7eb234ec78aeec102e654cc240cb0ca3
+SHA512: a204217e0e0608866ef11fec39de1d2349840f0b6a3fbeab37ba95c4d55eafc069c55cab0471711d851e4e19e104300554d6460cad5670788c9e135682648d4c
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 GTK+ 3 platform theme
+Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 39eaf682438c89ae84a301289473e806
+
+Package: qt5-qmake
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/devel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1628
+Depends: qt5-qmake-bin (= 5.15.2+dfsg-12ubuntu1.1), qtchooser (>= 55-gc9562a1-1~)
+Replaces: qt5-qmake-bin (<< 5.11.2+dfsg-3~)
+Filename: pool/universe/q/qtbase-opensource-src/qt5-qmake_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 208004
+MD5sum: 03a363e8142ed4d7903883647107198e
+SHA1: 9bd72ae5763a6bc8f12f11f69863d0bcb903febc
+SHA256: ce1d7ce76bf218fdcd47599916b14585fbc4357da115b8b3378a7f668a8e4725
+SHA512: 0d739338b70e74f461d12825749bb23279db7c2faa3c137a31d77b0edf0a0cdf6fe8eaa8edbecc4e994e05fb41bfd7350a3e4a99b640709e307e5a1412258e93
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qmake Makefile generator tool
+Description-md5: d22e820ccda7e109fc6cf2c171df093e
+
+Package: qt5-qmake-bin
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/devel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3361
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 7), libstdc++6 (>= 4.6)
+Breaks: qt5-qmake (<< 5.9.1+dfsg-12~)
+Replaces: qt5-qmake (<< 5.9.1+dfsg-12~)
+Filename: pool/universe/q/qtbase-opensource-src/qt5-qmake-bin_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 1216870
+MD5sum: a6849295b8e2144dc0080e0f00f0ce09
+SHA1: 6bfd9dc812d69bd73274913d4c891cddde9a6b6f
+SHA256: 8ad6bb1309204a80d350be9b3e8b049bd7b44372ab3fc75d5df2140de9249b6c
+SHA512: 681063c5a4276050978a34b567b600ca85269856a1d8f7d887d73428917d105225703bea895c7d14c90d7747a5e2c5669a0c2d4f2b870d09e1df4985efda3f1d
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qmake Makefile generator tool — binary file
+Description-md5: 86cdde8a3c4de9597f2460df4811e75d
+
+Package: qt5-xdgdesktopportal-platformtheme
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 268
+Depends: libc6 (>= 2.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.9.0) | libqt5gui5-gles (>= 5.9.0), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/qt5-xdgdesktopportal-platformtheme_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 55964
+MD5sum: 0562fbd4dad088ab4eee2afcbb8fefa4
+SHA1: 6023c2cc1880181475d48635eaedb379e796dbb7
+SHA256: 91f086f23a43dc28b6c75fb83bfd6f26d887133bfc0b8df40f933594bd7d88fe
+SHA512: 143d198fad908e121f62d980ebc324d041fb624331eb743f2955b90bdce4430a0928147d1374f54b44a93b81e8d213e1f59e6f2055b5bd41e86e7383d19e9969
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 XDG Desktop Portal platform theme
+Task: ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 0a5ddb5371f4cf42243bc780d020c01f
+
+Package: qtbase5-dev
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 15182
+Depends: libegl-dev, libgl-dev, libglu1-mesa-dev | libglu-dev, libqt5concurrent5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5core5a (= 5.15.2+dfsg-12ubuntu1.1), libqt5dbus5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5gui5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5network5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5printsupport5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5sql5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5test5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5widgets5 (= 5.15.2+dfsg-12ubuntu1.1), libqt5xml5 (= 5.15.2+dfsg-12ubuntu1.1), libvulkan-dev, libxext-dev, qt5-qmake (= 5.15.2+dfsg-12ubuntu1.1), qtbase5-dev-tools (= 5.15.2+dfsg-12ubuntu1.1), qtchooser
+Recommends: libqt5opengl5-dev (= 5.15.2+dfsg-12ubuntu1.1)
+Suggests: default-libmysqlclient-dev, firebird-dev, libpq-dev, libsqlite3-dev, unixodbc-dev
+Conflicts: qtbase5-gles-dev
+Breaks: qt5-default (<< 5.15.1+dfsg-2~), qt5-qmake (<< 5.11.3+dfsg-3~), qtbase5-dev-tools (<< 5.12.5+dfsg-3~), qtbase5-private-dev (<< 5.11.3+dfsg-5~)
+Replaces: qt5-qmake (<< 5.11.3+dfsg-3~), qtbase5-dev-tools (<< 5.12.5+dfsg-3~), qtbase5-private-dev (<< 5.11.3+dfsg-5~)
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-dev_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 1143240
+MD5sum: 6268eac4b3012436e1cfbc84bae79385
+SHA1: c6a280e5663fb8869bd35cc28c5344d381da1628
+SHA256: e7d0026e0f110ee872b0aa6a29f9ca7665534bde1f2226fda1eb52c2a6e3ae3e
+SHA512: 37c711224d77289d985f841dd94584738165cc47ef815a8126edbf501f99a939700ed1e00a4da2a1f366f61f99bc98d3882a2d6f7fb66134a96c28e3c92b7899
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base development files
+Description-md5: eb1a5e244bfc7327cfdf56f6aff9cab9
+
+Package: qtbase5-dev-tools
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/devel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4084
+Depends: qtchooser (>= 55-gc9562a1-1~), perl:any, libc6 (>= 2.34), libgcc-s1 (>= 7), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.2.0~alpha1), libstdc++6 (>= 5), libzstd1 (>= 1.4.0), qtbase-abi-5-15-2, zlib1g (>= 1:1.1.4)
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-dev-tools_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 924400
+MD5sum: 8171717a9f30ad74944c0b395d54c102
+SHA1: 6c0a0a7dabe9f5b523f513c73ff6c9006b318902
+SHA256: 79444715884bf9e853099afb8055c5aed2a35259c998e81ea0dfb7a7d8a0384c
+SHA512: ca4173de320ab78f4a94bd960ba8d97bfd231aea9f789b0e25b59e70a5816174980f2bae0ec87639faf6e6b117dc121209f26deeb6168d4d1f4fcf8620efd0c6
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base development programs
+Description-md5: 389ab33cc35e6afecee8a8240f83313f
+
+Package: qtbase5-doc
+Architecture: all
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: foreign
+Priority: extra
+Section: universe/doc
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 29890
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-doc_5.15.2+dfsg-12ubuntu1.1_all.deb
+Size: 24153120
+MD5sum: 5216317f5cefb37571caeecf04473b80
+SHA1: 5b632bd1e572cd17a4a682b92d51092b607a7318
+SHA256: 47bbc8ac81bb842a69458fd6948b003100cb4486dcf128a5628255b32b64965b
+SHA512: dc89ee88a59038468280fe17764671d373052d2d2b2e865ae084eeecc50666eefd836edb12fd5569aa1fae92027856dc41b8731cf6509d95defa0ed85344f3fb
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base documentation
+Description-md5: ca14ee36d3a7fc0206bfcbb35e2be024
+
+Package: qtbase5-doc-dev
+Architecture: all
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/libdevel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9273
+Breaks: qtbase5-doc-html (<< 5.12.5+dfsg-5~)
+Replaces: qtbase5-doc-html (<< 5.12.5+dfsg-5~)
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-doc-dev_5.15.2+dfsg-12ubuntu1.1_all.deb
+Size: 349806
+MD5sum: a283d3a68798ecaefaaf3b9bebfbd9b1
+SHA1: 47eb29e4234e2e8e7dd8056950b9aeaeb46e80d6
+SHA256: c1d31c4f7c0a0ec84e3f08c08cc2fc2316fc6cfa5011111d70568816e3005486
+SHA512: 5daf2a7ec19d26034d088202dafbeb10bfdef3d71a510bb7e8ebd5bc3e600bf00ac9a5c0fce770993f7e92f52e27c9bbc8c9406ba7215ccee967a475b8227315
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base tags files
+Description-md5: 5f103459e351d7b7e73520be6c3de13a
+
+Package: qtbase5-doc-html
+Architecture: all
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: foreign
+Priority: extra
+Section: universe/doc
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 125052
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-doc-html_5.15.2+dfsg-12ubuntu1.1_all.deb
+Size: 19415704
+MD5sum: 7e7b7a1f3d8e8aa99e5731f8ba53853e
+SHA1: eaf93f681923bc123eee4b191a391306c2aa7054
+SHA256: ec14e21602418a62503cd115f618739b559e4a378893809670b32a0a34ac8e98
+SHA512: 6895729a8852ed7ab52f39d864f2ce2965574269d5eaaa2cab1f99d20694692fa7a52d8175593bf1731864d4117b650407f72bc6610d6ef83501a2df655768d7
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base HTML documentation
+Description-md5: 2e4adf9de7ccece9e0fe9efb81d70fe6
+
+Package: qtbase5-examples
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/x11
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22862
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libgl1, libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.15.1), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.10.0), libqt5test5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-examples_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 5638108
+MD5sum: dd2512a1137be982d76ac63f0590d4e9
+SHA1: 8f249a71de90411f28d48a92349e8a8f59f38d9a
+SHA256: 983b3345f17a764f2531db26bf4fea7ecd72031a0d0d43ebab81281faf90c316
+SHA512: 37fbb4c1ed98db00897498b289ad7037f474ea505e1bca9e879cf1b185d7d13275ac80a0d5376d179c1dd087cf6945aa66f1f2ddbb967923f1b7ab9ee0efbc21
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base examples
+Description-md5: ac043eae380c0dcd4bce5d40a835f3e4
+
+Package: qtbase5-private-dev
+Architecture: i386
+Version: 5.15.2+dfsg-12ubuntu1.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libdevel
+Source: qtbase-opensource-src
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 10759
+Depends: libfontconfig1-dev, libinput-dev, libxkbcommon-dev, qtbase5-dev (= 5.15.2+dfsg-12ubuntu1.1)
+Conflicts: qtbase5-private-gles-dev
+Breaks: qt5-qmake (<< 5.11.3+dfsg-3~), qtbase5-dev (<< 5.11.2+dfsg-4~)
+Replaces: qt5-qmake (<< 5.11.3+dfsg-3~), qtbase5-dev (<< 5.11.2+dfsg-4~)
+Filename: pool/universe/q/qtbase-opensource-src/qtbase5-private-dev_5.15.2+dfsg-12ubuntu1.1_i386.deb
+Size: 1418812
+MD5sum: d8e6baf2754957e71594bc8861296357
+SHA1: 8ed626e3ae13879cf00393d9a6a876f2fd9dadb2
+SHA256: 482e1a04f7b233e3fe53af5111aa323cf5a85adf55d32088a94e0ff48b0caf8d
+SHA512: 1ad547c81ae42a99b6c12e723359a804feef1fa894c3e301daf65f4dc51abc35f61266cdc81098a3996ddf999fac258f9cb1f8685c7db43a37a7298301cac815
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 base private development files
+Description-md5: b388fd86350adaeeb21580f32ba12fcc
+
+Package: registry-tools
+Architecture: i386
+Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Priority: optional
+Section: universe/net
+Source: samba
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 281
+Depends: samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libc6 (>= 2.34), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libtalloc2 (>= 2.3.1~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Filename: pool/universe/s/samba/registry-tools_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
+Size: 35752
+MD5sum: 5ec44eb7eb45855d3bd0d894f1e63105
+SHA1: 3c1effe0fca64e5e66acce325653db3d6da14b92
+SHA256: cce807af8b549e40e99b1d1e1f1c854868709601f6c5baf252ae8f596b3040d2
+SHA512: 32b91cbe67da90dedf3c7d32619c571d848128198ae78d5793b5a5bf7151ac23b5c1b0f535e6b2c095fce36167238b22f1bf207f3975afbb8b408424278205c9
+Homepage: http://www.samba.org
+Description: tools for viewing and manipulating the Windows registry
+Description-md5: 7266dad7d5ee9360537ffc04ec7157f3
+
+Package: rust-all
+Architecture: all
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Priority: optional
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 245
+Depends: rustc (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), rustfmt (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), rust-clippy (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), rust-gdb (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1) | rust-lldb (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), cargo
+Recommends: cargo (>= 0.54.0~~), cargo (<< 0.55.0~~)
+Suggests: rust-doc (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), rust-src (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), libstd-rust-dev-wasm32 (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), libstd-rust-dev-windows (>= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1)
+Filename: pool/universe/r/rustc/rust-all_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_all.deb
+Size: 22858
+MD5sum: 0e905439d02d51e9556c884bceeb87c3
+SHA1: 5566336c389961cc0c0143f8a22d1dbcd8367bc7
+SHA256: 2760dcf3681eef5678896ff75330eaa677bd5c6f30c4df5bbcc0ffdd78acd008
+SHA512: 6b09b31621e282ff1f31266b4a25a816ed9d034ca3a30ea4ae0468180958fece4c10edece3507eddfd721913c246c3525b3bba84fef9907b2dae067d087eaa00
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language - all developer tools
+Description-md5: 90140e39ec4bd9741a36b3f6d4c6d053
+
+Package: rust-clippy
+Architecture: i386
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6990
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstd-rust-1.53 (= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1)
+Recommends: cargo
+Filename: pool/universe/r/rustc/rust-clippy_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_i386.deb
+Size: 2011076
+MD5sum: 974dff31d31e5d86b25546f0ebfe1497
+SHA1: 7a096d033dbdddf423a6d83f4a03a9a3687b5883
+SHA256: 2d814ae6e20c912a942ff85cd5751208ad8ae12535fa5ca6f1eb41d2ba75c672
+SHA512: b6cb891d6ebe7e9dc4a0bcac3baf7b2b353d8898259e9d48f3d4c900b06132a15f3f9a6360d4895b531aaa081b719ab005f7b5073f651693e94310d788617981
+Homepage: http://www.rust-lang.org/
+Description: Rust linter
+Description-md5: bb70ecb7b097f53232194f2241ad606e
+
+Package: rust-doc
+Architecture: all
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Priority: extra
+Section: universe/doc
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 371111
+Depends: libjs-jquery, libjs-highlight.js, libjs-mathjax, fonts-open-sans, fonts-font-awesome
+Recommends: cargo-doc
+Filename: pool/universe/r/rustc/rust-doc_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_all.deb
+Size: 14236506
+MD5sum: e7c089bad8c38c70102ac675cb4cefdd
+SHA1: 17646f0ce3133f6ba302c052e74e77ef524376cc
+SHA256: 828aea1b3c93cd6032f9c84410ca0aafd9b06479ef9989dbeaabc27fd0ce11ed
+SHA512: 35c28cd74f01246ef1a05f179b1e461cbea6476b5014d8bf72ee78ddecc7618b8fd9208c55b26aa8722cc0545e62f510e9c7b88f2188071bf5bc4f79e1103e6e
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language - Documentation
+Description-md5: c9fc696f11bdef73526bdf4340964294
+
+Package: rust-gdb
+Architecture: all
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Priority: extra
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 273
+Depends: gdb
+Suggests: gdb-doc
+Replaces: rustc (<< 1.1.0+dfsg1-1)
+Filename: pool/universe/r/rustc/rust-gdb_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_all.deb
+Size: 30400
+MD5sum: 19a64e9d8ec80fbcc8d9eb6af641c56b
+SHA1: 3543722bce2a1f2e1bc337f972b07a9941ac5f43
+SHA256: f76c1975beee6a76d8d1d54bb496c95b15b89d3b0963e7c926f6b1f7d52ccedf
+SHA512: ad3f86411c66409c1fe54231f023a8e018546f51848a73960c034b174d22ce097d133223c2e028ff901abc932ad7988de9ed61319b725ebe63306bf279060431
+Homepage: http://www.rust-lang.org/
+Description: Rust debugger (gdb)
+Description-md5: 1afbf06d9ee3b7b85a98c81c15ed3109
+
+Package: rust-lldb
+Architecture: all
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Priority: extra
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 286
+Depends: lldb-12, python3-lldb-12
+Replaces: rustc (<< 1.1.0+dfsg1-1)
+Filename: pool/universe/r/rustc/rust-lldb_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_all.deb
+Size: 31338
+MD5sum: 276b8473904145b20fa73624e6846e92
+SHA1: 0792f822b941cb4e0e16eb8b24a522fb0a495622
+SHA256: 68e54d292ea3438ee6df41871e989525d1f20bfa7f0b3444e8684e8dbf754fdd
+SHA512: dec3af6e984617c20618923eb37df7158f196bebb73536658095924fa6363e8100d1532b83af9896c2d8ab46d1d7f40d04ef21f05ea77e7409b410140839d4ce
+Homepage: http://www.rust-lang.org/
+Description: Rust debugger (lldb)
+Description-md5: 4da7dd4330a7b317624f536076fd1b69
+
+Package: rust-src
+Architecture: all
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Priority: extra
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 137378
+Filename: pool/universe/r/rustc/rust-src_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_all.deb
+Size: 15612122
+MD5sum: 0f00dde6e41cae84766d33d7604f223e
+SHA1: 4d0cd1a0ddc9544179a66118dbc17997c07597f2
+SHA256: 6d13b0e66a54caa9265da5165371fb7b9ea0796640aa5c31914bb04b238136bf
+SHA512: 099b4c737060684424df3d0c14a1244e54e9a3ea28c8ed631428fe239ad4656527658588aa1e71597e7286c05a4116e1eef334f008dbe4d33b4600ac412b137e
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language - source code
+Description-md5: 7c8d03ba583d96a9cc7a0dc63f208a52
+
+Package: rustc
+Architecture: i386
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Multi-Arch: allowed
+Priority: extra
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7691
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstd-rust-dev (= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), gcc, libc-dev, binutils (>= 2.26)
+Recommends: cargo (>= 0.54.0~~), cargo (<< 0.55.0~~), llvm-12
+Suggests: lld-12, clang-12
+Breaks: libstd-rust-dev (<< 1.26.2+dfsg1+llvm-0ubuntu1~~)
+Replaces: libstd-rust-dev (<< 1.26.2+dfsg1+llvm-0ubuntu1~~)
+Filename: pool/universe/r/rustc/rustc_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_i386.deb
+Size: 2929826
+MD5sum: 3d71411c83edfa56c5d3bfba525c37bb
+SHA1: fe60ad9e0af2882ee3871e261f74659553fae8c1
+SHA256: 8e25e4fa755024bcb8da278615a4598d25b61d3b1f3b5e9aee22a85a503fe634
+SHA512: a14736c71f17232adca891a08e12e2b6f2722b2123f782565af36a42df1d5fa3c9987ffe6dfb5d0547b5977553684c13cb9686b36e2efefd6d100d7ede302e96
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language
+Description-md5: 67ca6080eea53dc7f3cdf73bc6b8521e
+
+Package: rustfmt
+Architecture: i386
+Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Multi-Arch: allowed
+Priority: optional
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9686
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Recommends: cargo
+Filename: pool/universe/r/rustc/rustfmt_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_i386.deb
+Size: 2672220
+MD5sum: fb85260372a17865e7ae491943ba24db
+SHA1: c93587795041f23ccd17652d2d9d505ba4a0f07a
+SHA256: dabcad859e03391a86231aed9f2af61fbf16c2f25350abee818f47acabddb3a2
+SHA512: 680898a2cc35cbcee2386038f1a0e07ef7f99e6e7648cac57b459d8ad2d19e3e6cdcd68faaa5179ef56ebd1761217fc083bcc336723fdac49c79eb9340306985
+Homepage: http://www.rust-lang.org/
+Description: Rust formatting helper
+Description-md5: 3ad3031d946444f1737bc02666f33a91
+
+Package: udhcpc
+Architecture: i386
+Version: 1:1.30.1-6ubuntu3.1
+Priority: optional
+Section: universe/net
+Source: busybox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 50
+Depends: busybox (>> 1:1.30.1) | busybox-static (>> 1:1.30.1)
+Filename: pool/universe/b/busybox/udhcpc_1.30.1-6ubuntu3.1_i386.deb
+Size: 2738
+MD5sum: 1f2db6f572b740174d8a81501a3acb70
+SHA1: c6c7f80ad934a78096a0e3c7b395f30fc08b7152
+SHA256: 00942bceb1cd94069db8c8248b86f0e8a25ca548298137f19f7853b0a48da775
+SHA512: 8e57576ad95d4b77ab9fe899df128f25dcef7b0c1d0f41b2631bc83184be1adee1917444bfadfccd44fc279a326b79ce558ca74c84f19d605dd86dfe8044be60
+Homepage: http://www.busybox.net
+Description: Provides the busybox DHCP client implementation
+Description-md5: e2345d2807e5393b509c38303e4ee886
+
+Package: udhcpd
+Architecture: i386
+Version: 1:1.30.1-6ubuntu3.1
+Priority: optional
+Section: universe/net
+Source: busybox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 65
+Provides: dhcpd
+Depends: busybox (>> 1:1.30.1) | busybox-static (>> 1:1.30.1), lsb-base
+Filename: pool/universe/b/busybox/udhcpd_1.30.1-6ubuntu3.1_i386.deb
+Size: 5692
+MD5sum: cebf44ed47b81e6e0d894647d8e5dda4
+SHA1: 323f5f1b6fb9e578d017d1bc5f83c67793e90d3d
+SHA256: dafb2b99037b142a57c40cc6d657841c4a444191dd1c77d372e26067c2007243
+SHA512: a2a414ba6924a119a13449c39c62139e01055fc1fc5abc58d41c96b7b3a74e70b271c6f02be4a4859205c18c85bae69e5bd26ada498f60f32a832a34761bf611
+Homepage: http://www.busybox.net
+Description: Provides the busybox DHCP server implementation
+Description-md5: c737b2b2b9534ba766d99f6de6c31668
+
+Package: vim-athena
+Architecture: i386
+Version: 2:8.2.2434-3ubuntu3.1
+Priority: extra
+Section: universe/editors
+Source: vim
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4401
+Provides: editor, gvim (= 2:8.2.2434-3ubuntu3.1), vim (= 2:8.2.2434-3ubuntu3.1), vim-lua (= 2:8.2.2434-3ubuntu3.1), vim-perl (= 2:8.2.2434-3ubuntu3.1), vim-python3 (= 2:8.2.2434-3ubuntu3.1), vim-ruby (= 2:8.2.2434-3ubuntu3.1), vim-tcl (= 2:8.2.2434-3ubuntu3.1)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-gui-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libcanberra0 (>= 0.2), libgpm2 (>= 1.20.7), libice6 (>= 1:1.0.0), liblua5.2-0, libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libsm6, libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6), libx11-6, libxaw7, libxmu6, libxpm4, libxt6
+Suggests: cscope, vim-doc
+Filename: pool/universe/v/vim/vim-athena_8.2.2434-3ubuntu3.1_i386.deb
+Size: 1844420
+MD5sum: 44f994bd49c5f4546229b73ffa955d60
+SHA1: 8b6f2b49ac4680a3955ecdabb6f2fdd72ba304f5
+SHA256: aecbe1d01baccf15898b8b5e7151e2ccd87c661e0ead19d026f895f085e8d253
+SHA512: 9b0fc9971564dc3232aeddb71727c4d14cfc46024c12bcd543c817160709e8e01f98d63b01720d55b3d81d3bf6edeb7b74761aae4172c10f9699f18c24512f09
+Homepage: https://www.vim.org/
+Description: Vi IMproved - enhanced vi editor - with Athena GUI
+Description-md5: 5e32df39fe43df51571314f93f38a67b
+
+Package: vim-gtk
+Architecture: all
+Version: 2:8.2.2434-3ubuntu3.1
+Priority: extra
+Section: universe/editors
+Source: vim
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 190
+Depends: vim-gtk3
+Filename: pool/universe/v/vim/vim-gtk_8.2.2434-3ubuntu3.1_all.deb
+Size: 9064
+MD5sum: cbd95230da97672c5f8884353e989bb8
+SHA1: 437052e2275136a708e355888abce1dbe540c4e0
+SHA256: dc2a356c952073ab5f166aee5f67632b1c384b934793e38f0f250f2d7a40d49f
+SHA512: a3040d52dc49227330132a1d806653cfae11486624c9562c80704226dc6c5af0d3387801450003d1a5a9fecb229ac6e659cab34023bf753b53f89cc305165975
+Homepage: https://www.vim.org/
+Description: Vi IMproved - enhanced vi editor (dummy package)
+Description-md5: 86dc6422648bf19178561819a13be252
+
+Package: vim-gtk3
+Architecture: i386
+Version: 2:8.2.2434-3ubuntu3.1
+Priority: extra
+Section: universe/editors
+Source: vim
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4438
+Provides: editor, gvim (= 2:8.2.2434-3ubuntu3.1), vim (= 2:8.2.2434-3ubuntu3.1), vim-lua (= 2:8.2.2434-3ubuntu3.1), vim-perl (= 2:8.2.2434-3ubuntu3.1), vim-python3 (= 2:8.2.2434-3ubuntu3.1), vim-ruby (= 2:8.2.2434-3ubuntu3.1), vim-tcl (= 2:8.2.2434-3ubuntu3.1)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-gui-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libcairo2 (>= 1.4.10), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgpm2 (>= 1.20.7), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), liblua5.2-0, libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libsm6, libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6), libx11-6, libxt6
+Suggests: cscope, fonts-dejavu, gnome-icon-theme, vim-doc
+Filename: pool/universe/v/vim/vim-gtk3_8.2.2434-3ubuntu3.1_i386.deb
+Size: 1865002
+MD5sum: fb0bacddad9b176edcb2d9138e10f254
+SHA1: 8af3c43467145a7cc7ba6e54bba7a6d6d41e376e
+SHA256: 61bd1e7af33efa8cffb2d18df6f3a7bc6d87eff1f0d559a1ef8b21ec416814c2
+SHA512: 2d9f64622728b45e8d9c230bdc744264f5f920d2f83d034e6710d606000382ab19b86569a296d39831de4cb469162d867ce13df9a5ffd3bf022635646d2ccd1a
+Homepage: https://www.vim.org/
+Description: Vi IMproved - enhanced vi editor - with GTK3 GUI
+Description-md5: 55a9161bf3dec9e8a999586c8e73467a
+
+Package: vim-gui-common
+Architecture: all
+Version: 2:8.2.2434-3ubuntu3.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/editors
+Source: vim
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 333
+Recommends: vim-gtk3 | vim-athena
+Filename: pool/universe/v/vim/vim-gui-common_8.2.2434-3ubuntu3.1_all.deb
+Size: 86876
+MD5sum: 212136fb09058936f783b534fcaa15ec
+SHA1: aa98eda290403d7277048709eab21b85cec00015
+SHA256: c400203109f560e035f3ba35efadfb3247e571c4b8769949dc3fd74ee7c7cd20
+SHA512: 41c06076a1905857551f70f96fe58e7026f6e33c5c26a45588483848d4b73034aaeb57d26171f3f10404525b021302d0e01a42300366f5596f68a6faced2c3ae
+Homepage: https://www.vim.org/
+Description: Vi IMproved - Common GUI files
+Description-md5: f51060aa71b1aeaa83cfde145ca640c3
+
+Package: vim-nox
+Architecture: i386
+Version: 2:8.2.2434-3ubuntu3.1
+Priority: extra
+Section: universe/editors
+Source: vim
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4089
+Provides: editor, vim (= 2:8.2.2434-3ubuntu3.1), vim-lua (= 2:8.2.2434-3ubuntu3.1), vim-perl (= 2:8.2.2434-3ubuntu3.1), vim-python3 (= 2:8.2.2434-3ubuntu3.1), vim-ruby (= 2:8.2.2434-3ubuntu3.1), vim-tcl (= 2:8.2.2434-3ubuntu3.1)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), liblua5.2-0, libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6)
+Suggests: cscope, vim-doc
+Filename: pool/universe/v/vim/vim-nox_8.2.2434-3ubuntu3.1_i386.deb
+Size: 1718786
+MD5sum: 04878abfec95391e97d62801c25f0716
+SHA1: ad8bbb543e80c8400d0730ff82844d078444c40c
+SHA256: 291c0b2d7d83c257406727f441737e04fa306a826e3397eea315232d3aba305a
+SHA512: 9e4e28fcd022d60c341124c41e528d73600cd944ec0bca5c7229ff020ae1d99db4299ac94db698089aafa3ecffd333c1d89ed92acd61b125bbb58ec7ec18fe86
+Homepage: https://www.vim.org/
+Description: Vi IMproved - enhanced vi editor - with scripting languages support
+Description-md5: f840d0104436408f409898adc9a43d8c
+
+Package: vim-syntax-docker
+Architecture: all
+Version: 20.10.7-0ubuntu5.1
+Priority: optional
+Section: universe/admin
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69
+Depends: vim
+Recommends: vim-addon-manager
+Suggests: docker.io
+Filename: pool/universe/d/docker.io/vim-syntax-docker_20.10.7-0ubuntu5.1_all.deb
+Size: 16378
+MD5sum: 04d9cf61bdcc9fcc3a57b3e57a5084e6
+SHA1: e7dd742502c66b2525aedc16d89e4f48249a436e
+SHA256: 02abd2b133f4959942d42c208c3dfa5d9e194c6031397a551c5cfa159aca57e3
+SHA512: f13a1e05bb55a81181bb874b458b03e340e749c8a79266d222a01caf103d2653a1c093ce3e945b4b219dd116f681282d2244f90a7caea0462b4b66b0c601f4ef
+Homepage: https://www.docker.com/community-edition
+Description: Docker container engine - Vim highlighting syntax files
+Description-md5: fcdf3cc569fec99526c4f1c044063f82
+
+Package: webkit2gtk-driver
+Architecture: i386
+Version: 2.34.3-0ubuntu0.21.10.1
+Priority: optional
+Section: universe/web
+Source: webkit2gtk
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1261
+Depends: libwebkit2gtk-4.0-37 (= 2.34.3-0ubuntu0.21.10.1), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.65.1), libicu67 (>= 67.1-1~), libsoup2.4-1 (>= 2.54.0), libstdc++6 (>= 9), libsystemd0
+Filename: pool/universe/w/webkit2gtk/webkit2gtk-driver_2.34.3-0ubuntu0.21.10.1_i386.deb
+Size: 394438
+MD5sum: 86c51d3e2239f3e8aa216df8278b8306
+SHA1: 92584de35da70add4a3b0805943d07c9bdc15c7a
+SHA256: 4141484ba1b99110bac34be70a7717bddccf637ccf9db6061e498bab0f802a0b
+SHA512: 6225b1842a1375be53791c3440c5863f66cca571db8d0b852a18924c14de6dc249ada4b5fd36b39699c36c9dcfb0cb6f09a5bba8ce7cb68fd584c9cf2554028f
+Homepage: https://webkitgtk.org/
+Description: WebKitGTK WebDriver support
+Description-md5: b1b90b3877648e44017be43c33ecc59b
+
+Package: xdmx
+Architecture: i386
+Version: 2:1.20.13-1ubuntu1.1
+Priority: optional
+Section: universe/x11
+Source: xorg-server
+Origin: Ubuntu
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2372
+Depends: xserver-common (>= 2:1.20.13-1ubuntu1.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.34), libgcrypt20 (>= 1.8.0), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libx11-6 (>= 2:1.6.0), libxau6 (>= 1:1.0.9), libxdmcp6, libxext6, libxfixes3, libxfont2 (>= 1:2.0.1), libxi6, libxmuu1, libxrender1
+Filename: pool/universe/x/xorg-server/xdmx_1.20.13-1ubuntu1.1_i386.deb
+Size: 938840
+MD5sum: 57268cc28a180fe1d70d25acf37cfd24
+SHA1: e22f0875d00d3c950a3b45cee0174e0f80241632
+SHA256: 557e3733919d8a95a18037a540af60cdfe26f75871af1818a989cff70a7f8054
+SHA512: adf744a09ebd9eaf169c58527d9d44def31eb69227932d22b5c13339b432ab51334539019fc1c5df5519923276a072d526d126a16721f589c6e2720f9f9d51bd
+Homepage: https://www.x.org/
+Description: distributed multihead X server
+Description-md5: 9e6fe3aa398121b6dd37b516ff31f0fc
+
+Package: xnest
+Architecture: i386
+Version: 2:1.20.13-1ubuntu1.1
+Priority: optional
+Section: universe/x11
+Source: xorg-server
+Origin: Ubuntu
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1955
+Provides: xserver
+Depends: xserver-common (>= 2:1.20.13-1ubuntu1.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.34), libgcrypt20 (>= 1.8.0), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libx11-6, libxau6 (>= 1:1.0.9), libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Filename: pool/universe/x/xorg-server/xnest_1.20.13-1ubuntu1.1_i386.deb
+Size: 765944
+MD5sum: dce247b2152ff634d0031f684c923e4d
+SHA1: df00844a939b63c3882bc9873016acfd7478b618
+SHA256: cf88030bd459a0a3490aee828831979db45aabd9cd5ce21e92b739a7f30e81ef
+SHA512: 58ed2880c6924e3120f22c78094d83597a416af7047ea872ecc175ca64a976ffc1e5fcddacd9be688b1d70e19df1067c04e3c12e8c416dfd6ff300e228353116
+Homepage: https://www.x.org/
+Description: Nested X server
+Description-md5: 8fb9e95ed5f9c018992a8cdc83935474
+
+Package: xorg-server-source
+Architecture: all
+Version: 2:1.20.13-1ubuntu1.1
+Priority: optional
+Section: universe/x11
+Source: xorg-server
+Origin: Ubuntu
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5297
+Filename: pool/universe/x/xorg-server/xorg-server-source_1.20.13-1ubuntu1.1_all.deb
+Size: 5233270
+MD5sum: 99421362c59364e79b2087ec1e071456
+SHA1: 50e00614f77abec2fe3ac4c99c298f69e0813385
+SHA256: dec68a5d68149e330903e1f10e741d1586d4043d76957894797df7f7443ae2fc
+SHA512: 9293da8900bfce59fc75e5b07c8f3070f07fb8593e1fda851555167fbad97f96fbdc59d2f864b4553e9f70b0887ad9f4cd75beec46b7da6178bc507caf741cc7
+Homepage: https://www.x.org/
+Description: Xorg X server - source files
+Description-md5: 6be9dae6db2bfd4321ce1a5c689cbeb4
+
+Package: xvfb
+Architecture: i386
+Version: 2:1.20.13-1ubuntu1.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/x11
+Source: xorg-server
+Origin: Ubuntu
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2419
+Provides: xserver
+Depends: xserver-common (>= 2:1.20.13-1ubuntu1.1), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.34), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1), xauth, x11-xkb-utils
+Recommends: libgl1-mesa-dri
+Filename: pool/universe/x/xorg-server/xvfb_1.20.13-1ubuntu1.1_i386.deb
+Size: 927522
+MD5sum: 96f1903ee1ef30e379f184a80f70e519
+SHA1: 52f9f429b3312f01bce089d096239fe6198a8d42
+SHA256: eb6bf06ee687e97efe1902baf42e8223e5e740b0abe1354e137156c4a9f4f5c1
+SHA512: 67f6faf1fd2550de2c0a0daaf1f0918f1505d72d936f3280c90312265abb1e813926d2fc8d8c730554a9ed9ec44019837ebcd517b046b7f7809cc7c9d2a8c8f1
+Homepage: https://www.x.org/
+Description: Virtual Framebuffer 'fake' X server
+Description-md5: 1cd5b85acd06c23d376b7b5a7f30a0b8
+

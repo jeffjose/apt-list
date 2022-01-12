@@ -1,0 +1,417 @@
+suite: impish-updates
+component: main
+arch: amd64
+
+
+name: apache2
+version: 2.4.48-3.1ubuntu3.2
+commands: a2disconf,a2dismod,a2dissite,a2enconf,a2enmod,a2ensite,a2query,apache2ctl,apachectl
+
+name: apache2-bin
+version: 2.4.48-3.1ubuntu3.2
+commands: apache2
+
+name: apache2-dev
+version: 2.4.48-3.1ubuntu3.2
+commands: apxs,apxs2,dh_apache2
+
+name: apache2-utils
+version: 2.4.48-3.1ubuntu3.2
+commands: ab,check_forensic,checkgid,fcgistarter,htcacheclean,htdbm,htdigest,htpasswd,httxt2dbm,logresolve,rotatelogs,split-logfile
+
+name: apport
+version: 2.20.11-0ubuntu71
+commands: apport-bug,apport-cli,apport-collect,apport-unpack,oem-getlogs,ubuntu-bug
+
+name: apport-retrace
+version: 2.20.11-0ubuntu71
+commands: apport-retrace,crash-digger,dupdb-admin
+
+name: autopkgtest
+version: 5.16ubuntu2
+commands: autopkgtest,autopkgtest-build-lxc,autopkgtest-build-lxd,autopkgtest-build-qemu,autopkgtest-buildvm-ubuntu-cloud,autopkgtest-virt-chroot,autopkgtest-virt-lxc,autopkgtest-virt-lxd,autopkgtest-virt-null,autopkgtest-virt-qemu,autopkgtest-virt-schroot,autopkgtest-virt-ssh
+
+name: bind9
+version: 1:9.16.15-1ubuntu1.1
+commands: arpaname,ddns-confgen,dnssec-importkey,named,named-journalprint,named-nzd2nzf,named-rrchecker,nsec3hash,tsig-keygen
+
+name: bind9-dnsutils
+version: 1:9.16.15-1ubuntu1.1
+commands: delv,dig,mdig,nslookup,nsupdate
+
+name: bind9-host
+version: 1:9.16.15-1ubuntu1.1
+commands: host
+
+name: bind9-utils
+version: 1:9.16.15-1ubuntu1.1
+commands: dnssec-cds,dnssec-checkds,dnssec-coverage,dnssec-dsfromkey,dnssec-keyfromlabel,dnssec-keygen,dnssec-keymgr,dnssec-revoke,dnssec-settime,dnssec-signzone,dnssec-verify,named-checkconf,named-checkzone,named-compilezone,rndc,rndc-confgen
+
+name: bluez
+version: 5.60-0ubuntu2.1
+commands: avinfo,bluemoon,bluetoothctl,bluetoothd,btattach,btmgmt,btmon,ciptool,gatttool,hciattach,hciconfig,hcitool,hex2hcd,l2ping,l2test,obexctl,rctest,rfcomm,sdptool
+
+name: bsdextrautils
+version: 2.36.1-8ubuntu2
+commands: col,colcrt,colrm,column,hd,hexdump,look,ul,write,write.ul
+
+name: bsdutils
+version: 1:2.36.1-8ubuntu2
+commands: logger,renice,script,scriptlive,scriptreplay,wall
+
+name: busybox-static
+version: 1:1.30.1-6ubuntu3.1
+commands: busybox,static-sh
+
+name: busybox-syslogd
+version: 1:1.30.1-6ubuntu3.1
+commands: klogd,logread,syslogd
+
+name: cloud-init
+version: 21.4-0ubuntu1~21.10.1
+commands: cloud-id,cloud-init,cloud-init-per
+
+name: debootstrap
+version: 1.0.124ubuntu0.1
+commands: debootstrap
+
+name: eject
+version: 2.36.1-8ubuntu2
+commands: eject
+
+name: fdisk
+version: 2.36.1-8ubuntu2
+commands: cfdisk,fdisk,sfdisk
+
+name: firefox
+version: 95.0.1+build2-0ubuntu0.21.10.1
+commands: firefox,gnome-www-browser,x-www-browser
+
+name: ipset
+version: 7.10-1ubuntu0.21.10.1
+commands: ipset
+
+name: keepalived
+version: 1:2.1.5-0.2ubuntu1.1
+commands: genhash,keepalived
+
+name: libcaca-dev
+version: 0.99.beta19-2.2ubuntu2.1
+commands: caca-config
+
+name: libecpg-dev
+version: 13.5-0ubuntu0.21.10.1
+commands: ecpg
+
+name: libmysqlclient-dev
+version: 8.0.27-0ubuntu0.21.10.1
+commands: mysql_config
+
+name: libnss3-dev
+version: 2:3.68-1ubuntu1.1
+commands: nss-config
+
+name: libpq-dev
+version: 13.5-0ubuntu0.21.10.1
+commands: pg_config
+
+name: libreoffice-calc
+version: 1:7.2.3-0ubuntu0.21.10.1
+commands: localc
+
+name: libreoffice-common
+version: 1:7.2.3-0ubuntu0.21.10.1
+commands: libreoffice,loffice,lofromtemplate,soffice,unopkg
+
+name: libreoffice-draw
+version: 1:7.2.3-0ubuntu0.21.10.1
+commands: lodraw
+
+name: libreoffice-impress
+version: 1:7.2.3-0ubuntu0.21.10.1
+commands: loimpress
+
+name: libreoffice-math
+version: 1:7.2.3-0ubuntu0.21.10.1
+commands: lomath
+
+name: libreoffice-writer
+version: 1:7.2.3-0ubuntu0.21.10.1
+commands: loweb,lowriter
+
+name: libvirt-clients
+version: 7.6.0-0ubuntu1.1
+commands: virsh,virt-admin,virt-host-validate,virt-pki-validate,virt-xml-validate
+
+name: libvirt-daemon
+version: 7.6.0-0ubuntu1.1
+commands: libvirtd,virt-ssh-helper,virtlockd,virtlogd
+
+name: libvirt-daemon-driver-qemu
+version: 7.6.0-0ubuntu1.1
+commands: virt-qemu-run
+
+name: lintian
+version: 2.104.0ubuntu3.1
+commands: lintian,lintian-annotate-hints,lintian-explain-tags,lintian-info,spellintian
+
+name: linux-cloud-tools-common
+version: 5.13.0-25.26
+commands: hv_fcopy_daemon,hv_get_dhcp_info,hv_get_dns_info,hv_kvp_daemon,hv_set_ifconfig,hv_vss_daemon,lsvmbus
+
+name: linux-tools-common
+version: 5.13.0-25.26
+commands: acpidbg,bpftool,cpupower,perf,turbostat,usbip,usbipd,x86_energy_perf_policy
+
+name: linux-tools-host
+version: 5.13.0-25.26
+commands: kvm_stat
+
+name: mount
+version: 2.36.1-8ubuntu2
+commands: losetup,mount,swapoff,swapon,umount
+
+name: mysql-client-8.0
+version: 8.0.27-0ubuntu0.21.10.1
+commands: mysqlanalyze,mysqloptimize,mysqlrepair,mysqlreport
+
+name: mysql-client-core-8.0
+version: 8.0.27-0ubuntu0.21.10.1
+commands: myisam_ftdump,mysql,mysql_config_editor,mysqladmin,mysqlcheck,mysqldump,mysqldumpslow,mysqlimport,mysqlpump,mysqlshow,mysqlslap
+
+name: mysql-server-core-8.0
+version: 8.0.27-0ubuntu0.21.10.1
+commands: ibd2sdi,innochecksum,my_print_defaults,myisamchk,myisamlog,myisampack,mysql_migrate_keyring,mysql_secure_installation,mysql_ssl_rsa_setup,mysql_tzinfo_to_sql,mysql_upgrade,mysqlbinlog,mysqld,mysqld_multi,mysqld_safe,perror
+
+name: netplan.io
+version: 0.103-0ubuntu7.2
+commands: netplan
+
+name: openjdk-11-jdk
+version: 11.0.13+8-0ubuntu1~21.10
+commands: jconsole
+
+name: openjdk-11-jdk-headless
+version: 11.0.13+8-0ubuntu1~21.10
+commands: jaotc,jar,jarsigner,javac,javadoc,javap,jcmd,jdb,jdeprscan,jdeps,jfr,jhsdb,jimage,jinfo,jlink,jmap,jmod,jps,jrunscript,jshell,jstack,jstat,jstatd,rmic,serialver
+
+name: openjdk-11-jre-headless
+version: 11.0.13+8-0ubuntu1~21.10
+commands: java,jexec,jjs,keytool,pack200,rmid,rmiregistry,unpack200
+
+name: openssh-client
+version: 1:8.4p1-6ubuntu2.1
+commands: scp,sftp,slogin,ssh,ssh-add,ssh-agent,ssh-argv0,ssh-copy-id,ssh-keygen,ssh-keyscan
+
+name: openssh-server
+version: 1:8.4p1-6ubuntu2.1
+commands: sshd
+
+name: openssl
+version: 1.1.1l-1ubuntu1.1
+commands: c_rehash,openssl
+
+name: ovn-central
+version: 21.09.0-0ubuntu1
+commands: ovn-northd
+
+name: ovn-common
+version: 21.09.0-0ubuntu1
+commands: ovn-appctl,ovn-detrace,ovn-nbctl,ovn-sbctl,ovn-trace
+
+name: ovn-host
+version: 21.09.0-0ubuntu1
+commands: ovn-controller
+
+name: php8.0-cgi
+version: 8.0.8-1ubuntu0.1
+commands: php-cgi,php-cgi8.0
+
+name: php8.0-cli
+version: 8.0.8-1ubuntu0.1
+commands: phar,phar.phar,phar.phar8.0,phar8.0,phar8.0.phar,php,php8.0
+
+name: php8.0-dev
+version: 8.0.8-1ubuntu0.1
+commands: php-config,php-config8.0,phpize,phpize8.0
+
+name: pulseaudio
+version: 1:15.0+dfsg1-1ubuntu2.2
+commands: pulseaudio,start-pulseaudio-x11
+
+name: pulseaudio-utils
+version: 1:15.0+dfsg1-1ubuntu2.2
+commands: pa-info,pacat,pacmd,pactl,padsp,pamon,paplay,parec,parecord,pasuspender,pax11publish
+
+name: python3-django
+version: 2:2.2.24-1ubuntu1.2
+commands: django-admin
+
+name: qemu-system-arm
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-system-aarch64,qemu-system-arm
+
+name: qemu-system-common
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-pr-helper,qemu-storage-daemon
+
+name: qemu-system-mips
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-system-mips,qemu-system-mips64,qemu-system-mips64el,qemu-system-mipsel
+
+name: qemu-system-misc
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-system-alpha,qemu-system-avr,qemu-system-cris,qemu-system-hppa,qemu-system-m68k,qemu-system-microblaze,qemu-system-microblazeel,qemu-system-moxie,qemu-system-nios2,qemu-system-or1k,qemu-system-riscv32,qemu-system-riscv64,qemu-system-rx,qemu-system-sh4,qemu-system-sh4eb,qemu-system-tricore,qemu-system-xtensa,qemu-system-xtensaeb
+
+name: qemu-system-ppc
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-system-ppc,qemu-system-ppc64,qemu-system-ppc64le
+
+name: qemu-system-s390x
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-system-s390x
+
+name: qemu-system-sparc
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-system-sparc,qemu-system-sparc64
+
+name: qemu-system-x86
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: kvm,kvm-spice,qemu-system-i386,qemu-system-x86_64,qemu-system-x86_64-microvm,qemu-system-x86_64-spice
+
+name: qemu-utils
+version: 1:6.0+dfsg-2expubuntu1.1
+commands: qemu-img,qemu-io,qemu-make-debian-root,qemu-nbd
+
+name: rfkill
+version: 2.36.1-8ubuntu2
+commands: rfkill
+
+name: samba
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: dumpmscat,eventlogadm,mksmbpasswd,mvxattr,nmbd,oLschema2ldif,pdbedit,profiles,samba,samba-gpupdate,samba_dnsupdate,samba_downgrade_db,samba_spnupdate,samba_upgradedns,sharesec,smbcontrol,smbd,smbstatus
+
+name: samba-common-bin
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: dbwrap_tool,net,nmblookup,samba-regedit,samba-tool,samba_kcc,smbpasswd,testparm
+
+name: smbclient
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: cifsdd,findsmb,mdsearch,rpcclient,smbcacls,smbclient,smbcquotas,smbget,smbspool,smbtar,smbtree
+
+name: software-properties-common
+version: 0.99.13.1
+commands: add-apt-repository,apt-add-repository
+
+name: software-properties-gtk
+version: 0.99.13.1
+commands: software-properties-gtk
+
+name: sosreport
+version: 4.2-1ubuntu0.21.10.1
+commands: sos,sos-collector,sosreport
+
+name: strongswan-starter
+version: 5.9.1-1ubuntu3.1
+commands: ipsec
+
+name: systemd
+version: 248.3-1ubuntu8.1
+commands: bootctl,busctl,hostnamectl,journalctl,kernel-install,localectl,loginctl,networkctl,resolvectl,systemctl,systemd,systemd-analyze,systemd-ask-password,systemd-cat,systemd-cgls,systemd-cgtop,systemd-cryptenroll,systemd-delta,systemd-detect-virt,systemd-escape,systemd-id128,systemd-inhibit,systemd-machine-id-setup,systemd-mount,systemd-notify,systemd-path,systemd-resolve,systemd-run,systemd-socket-activate,systemd-stdio-bridge,systemd-sysext,systemd-sysusers,systemd-tmpfiles,systemd-tty-ask-password-agent,systemd-umount,timedatectl
+
+name: systemd-container
+version: 248.3-1ubuntu8.1
+commands: machinectl,portablectl,systemd-dissect,systemd-nspawn
+
+name: systemd-sysv
+version: 248.3-1ubuntu8.1
+commands: halt,init,poweroff,reboot,runlevel,shutdown,telinit
+
+name: thunderbird
+version: 1:91.3.1+build1-0ubuntu0.21.10.2
+commands: thunderbird
+
+name: tzdata
+version: 2021e-0ubuntu0.21.10
+commands: tzconfig
+
+name: ubuntu-advantage-tools
+version: 27.4.2~21.10.1
+commands: ua,ubuntu-advantage
+
+name: udev
+version: 248.3-1ubuntu8.1
+commands: systemd-hwdb,udevadm
+
+name: ufw
+version: 0.36.1-1ubuntu1
+commands: ufw
+
+name: update-manager
+version: 1:21.10.5
+commands: update-manager
+
+name: update-manager-core
+version: 1:21.10.5
+commands: hwe-support-status,ubuntu-security-status
+
+name: update-notifier
+version: 3.192.45.1
+commands: update-notifier
+
+name: util-linux
+version: 2.36.1-8ubuntu2
+commands: addpart,agetty,blkdiscard,blkid,blkzone,blockdev,chcpu,chmem,choom,chrt,ctrlaltdel,delpart,dmesg,fallocate,fdformat,fincore,findfs,findmnt,flock,fsck,fsck.cramfs,fsck.minix,fsfreeze,fstrim,getopt,getty,hwclock,i386,ionice,ipcmk,ipcrm,ipcs,isosize,last,lastb,ldattach,linux32,linux64,lsblk,lscpu,lsipc,lslocks,lslogins,lsmem,lsns,mcookie,mesg,mkfs,mkfs.bfs,mkfs.cramfs,mkfs.minix,mkswap,more,mountpoint,namei,nsenter,pager,partx,pivot_root,prlimit,raw,readprofile,resizepart,rev,rtcwake,runuser,setarch,setpriv,setsid,setterm,su,sulogin,swaplabel,switch_root,taskset,unshare,utmpdump,wdctl,whereis,wipefs,x86_64,zramctl
+
+name: uuid-runtime
+version: 2.36.1-8ubuntu2
+commands: uuidd,uuidgen,uuidparse
+
+name: vim
+version: 2:8.2.2434-3ubuntu3.1
+commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.basic,vimdiff
+
+name: vim-common
+version: 2:8.2.2434-3ubuntu3.1
+commands: helpztags
+
+name: vim-runtime
+version: 2:8.2.2434-3ubuntu3.1
+commands: vimtutor
+
+name: vim-tiny
+version: 2:8.2.2434-3ubuntu3.1
+commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.tiny,vimdiff
+
+name: walinuxagent
+version: 2.2.46-0ubuntu3.1
+commands: ephemeral-disk-warning,waagent,waagent2.0
+
+name: winbind
+version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+commands: ntlm_auth,wbinfo,winbindd
+
+name: winpr-utils
+version: 2.3.0+dfsg1-2ubuntu0.1
+commands: winpr-hash,winpr-makecert
+
+name: xserver-xephyr
+version: 2:1.20.13-1ubuntu1.1
+commands: Xephyr
+
+name: xserver-xorg-core
+version: 2:1.20.13-1ubuntu1.1
+commands: X,Xorg,cvt,gtf
+
+name: xserver-xorg-dev
+version: 2:1.20.13-1ubuntu1.1
+commands: dh_xsf_substvars
+
+name: xwayland
+version: 2:21.1.2-0ubuntu1.1
+commands: Xwayland
+
+name: xxd
+version: 2:8.2.2434-3ubuntu3.1
+commands: xxd
+

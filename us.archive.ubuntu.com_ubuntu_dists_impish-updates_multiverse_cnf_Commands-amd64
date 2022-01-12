@@ -1,0 +1,17 @@
+suite: impish-updates
+component: multiverse
+arch: amd64
+
+
+name: nvidia-fabricmanager-450
+version: 450.156.00-0ubuntu0.21.10.1
+commands: nv-fabricmanager,nvswitch-audit
+
+name: nvidia-fabricmanager-460
+version: 460.106.00-0ubuntu0.21.10.1
+commands: nv-fabricmanager,nvswitch-audit
+
+name: nvidia-fabricmanager-470
+version: 470.82.01-0ubuntu0.21.10.1
+commands: nv-fabricmanager,nvswitch-audit
+

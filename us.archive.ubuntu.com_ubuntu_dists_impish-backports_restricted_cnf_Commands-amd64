@@ -1,0 +1,5 @@
+suite: impish-backports
+component: restricted
+arch: amd64
+
+

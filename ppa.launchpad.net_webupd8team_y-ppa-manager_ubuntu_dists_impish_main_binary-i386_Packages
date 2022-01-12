@@ -1,0 +1,32 @@
+Package: launchpad-getkeys
+Priority: extra
+Section: admin
+Installed-Size: 13
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 0.3.4-1~webupd8~yakkety2
+Filename: pool/main/l/launchpad-getkeys/launchpad-getkeys_0.3.4-1~webupd8~yakkety2_all.deb
+Size: 3742
+MD5sum: 1a5af15918865bfbd84a2b17e6d3b571
+SHA1: 4baf19a47c1e7bcafcad44e1e1f3d26384e6f0d2
+SHA256: 753d724c85e108e23b081e76591bf5bec300e10c91b2820a5f64eccbb6dc9316
+Description: Import missing GPG keys automatically
+Description-md5: 325f3a753d0fb7103c43db40ddd82746
+
+Package: y-ppa-manager
+Priority: extra
+Section: misc
+Installed-Size: 243
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Architecture: all
+Version: 2021.07.15-1~webupd8~0
+Recommends: gksu | kdesudo
+Depends: yad (>= 0.36.0), libnotify-bin, ppa-purge, python3-software-properties, wget, xterm, launchpad-getkeys (>= 0.3.2), xclip, policykit-1, gzip, gtk-update-icon-cache | libgtk2.0-bin
+Filename: pool/main/y/y-ppa-manager/y-ppa-manager_2021.07.15-1~webupd8~0_all.deb
+Size: 62896
+MD5sum: f69bda5513e2071d20219c55876ac585
+SHA1: 3bfb94f189a2a66b64386c20e24a6b5db4e8954e
+SHA256: 542bcaf3ba4b2c6e5508626b49021b4d70beac39fc2fbe996fb8e8abe80c6a28
+Description: Y PPA Manager
+Description-md5: dbb1ea1960969ff764a66626707a24fb
+
