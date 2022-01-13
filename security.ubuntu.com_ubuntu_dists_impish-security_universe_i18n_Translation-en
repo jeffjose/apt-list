@@ -665,6 +665,30 @@ Description-en: MariaDB embedded database, shared library
  .
  This package includes a shared library for embedded MariaDB applications.
 
+Package: libnss-myhostname
+Description-md5: 0bec93cc0b56ef90c11c1a7842dd8f8a
+Description-en: nss module providing fallback resolution for the current hostname
+ This package contains a plugin for the Name Service Switch, providing host
+ name resolution for the locally configured system hostname as returned by
+ gethostname(2). It returns all locally configured public IP addresses or -- if
+ none are configured, the IPv4 address 127.0.1.1 (which is on the local
+ loopback) and the IPv6 address ::1 (which is the local host).
+ .
+ A lot of software relies on that the local host name is resolvable. This
+ package provides an alternative to the fragile and error-prone manual editing
+ of /etc/hosts.
+ .
+ Installing this package automatically adds myhostname to /etc/nsswitch.conf.
+
+Package: libnss-resolve
+Description-md5: fa2bc74d218dfae9ad286df8f31fa19f
+Description-en: nss module to resolve names via systemd-resolved
+ nss-resolve is a plugin for the GNU Name Service Switch (NSS) functionality
+ of the GNU C Library (glibc) providing DNS and LLMNR resolution to programs via
+ the systemd-resolved daemon (provided in the systemd package).
+ .
+ Installing this package automatically adds resolve to /etc/nsswitch.conf.
+
 Package: libnss3-tools
 Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
 Description-en: Network Security Service tools
@@ -1448,6 +1472,14 @@ Description-en: development files for PostgreSQL 13 server-side programming
  .
  PostgreSQL is an object-relational SQL database management system.
 
+Package: python-lxml-doc
+Description-md5: 86c3002728b00f49dc1d8a0e4e843699
+Description-en: pythonic binding for the libxml2 and libxslt libraries (documentation)
+ lxml is a new Python binding for libxml2 and libxslt, completely
+ independent from these existing Python bindings.
+ .
+ This package contains the html documentation.
+
 Package: python3-django-postorius
 Description-md5: 016171c4fe953e390f5bf45b1ec10ef6
 Description-en: Web user interface to access GNU Mailman3
@@ -1795,6 +1827,27 @@ Description-en: strongSwan IPsec client, swanctl command
  .
  This package contains the swanctl interface, used to configure a running
  charon daemon
+
+Package: systemd-coredump
+Description-md5: 149b22bdf2366b7d731957d1b710e54f
+Description-en: tools for storing and retrieving coredumps
+ This package provides systemd tools for storing and retrieving coredumps:
+  * systemd-coredump
+  * coredumpctl
+
+Package: systemd-journal-remote
+Description-md5: 6bd80842a0c96acb169877c7a6a25ff6
+Description-en: tools for sending and receiving remote journal logs
+ This package provides tools for sending and receiving remote journal logs:
+  * systemd-journal-remote
+  * systemd-journal-upload
+  * systemd-journal-gatewayd
+
+Package: systemd-tests
+Description-md5: ece07db851f8a2e9731975ec11eedb8d
+Description-en: tests for systemd
+ This package contains the test binaries. Those binaries are primarily used
+ for autopkgtest and not meant to be installed on regular user systems.
 
 Package: thunderbird-gnome-support-dbg
 Description-md5: 8fa21aaf02af881ccc7c33f8559e6531

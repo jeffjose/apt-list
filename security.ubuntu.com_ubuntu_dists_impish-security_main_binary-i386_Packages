@@ -590,6 +590,78 @@ Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (development files)
 Description-md5: 87d789b26f2354d9180f00d23a677478
 
+Package: ghostscript
+Architecture: i386
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: text
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 233
+Provides: postscript-viewer
+Depends: libgs9 (= 9.54.0~dfsg1-0ubuntu2.1), libc6 (>= 2.34)
+Suggests: ghostscript-x
+Filename: pool/main/g/ghostscript/ghostscript_9.54.0~dfsg1-0ubuntu2.1_i386.deb
+Size: 49746
+MD5sum: 03a751322760378c520d02f21109b72f
+SHA1: b0e5008a3e9e41585fc176878aba09c35a41f443
+SHA256: ab2358ce361bd2d361ee58c96f89a847ed7c43fe2be69a0219b1ea6b6e998a9a
+SHA512: b9742bed7efea523cfcd03fa74edf0f2e9676d1cd5d6ce0c4d5ef2b4b6cb1c665a7235f957d8c5e066b2d304bf6170a0abde5c2c4fc5e51b2aed101b791f3992
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 3b69f5ec8191e8f0d88dd3e30e7b1b69
+
+Package: ghostscript-doc
+Architecture: all
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: text
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16472
+Depends: libjs-jquery
+Suggests: ghostscript
+Filename: pool/main/g/ghostscript/ghostscript-doc_9.54.0~dfsg1-0ubuntu2.1_all.deb
+Size: 8221000
+MD5sum: e512072f43bfae0e5d6fa6d2bfbded4c
+SHA1: 431c8df75760733e530323c85fff7352a32ac139
+SHA256: 409ea2765e803935520104964f3b73d787e9b254bcc8ae32db74dc7eaca9b377
+SHA512: 3101a69195a093d07ad5aaf8b575cf24e3051d1bf7787fe6431189f45a65eacb659b3918e581d377538840de5e53bbeaddb0e07f394ea6ca9222188985a0223c
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - Documentation
+Description-md5: 772951004a1a824bee59da206fba24e2
+
+Package: ghostscript-x
+Architecture: i386
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Priority: optional
+Section: text
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 221
+Depends: ghostscript (= 9.54.0~dfsg1-0ubuntu2.1), libc6 (>= 2.7), libx11-6, libxt6
+Filename: pool/main/g/ghostscript/ghostscript-x_9.54.0~dfsg1-0ubuntu2.1_i386.deb
+Size: 50730
+MD5sum: c6f53fb3d27e1053c1aae8be3b70462c
+SHA1: 57ca7d272cde6e777635eabb158802236ed6770a
+SHA256: fd4e204d7c94e5b6c41ebefa97b342db1d251cd5b51156eb1f1e456e5bdfa373
+SHA512: d6c556339f3e88b7ae54a38c3152417bf5f83ce8b032a8a939d2b9454ca7b8894465e4f27497df948350cb469657b4fbc4c07b742f8002ff239f4066df0e0f27
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - X11 support
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 5f6f4265cecdf5f91c519e5f197328b3
+
 Package: gir1.2-javascriptcoregtk-4.0
 Architecture: i386
 Version: 2.34.3-0ubuntu0.21.10.1
@@ -1002,6 +1074,78 @@ Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (core library)
 Description-md5: 43b828fff16d4902fa6931b59f78fe32
 
+Package: libgs-dev
+Architecture: i386
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: same
+Priority: optional
+Section: text
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 187
+Depends: libgs9 (= 9.54.0~dfsg1-0ubuntu2.1)
+Filename: pool/main/g/ghostscript/libgs-dev_9.54.0~dfsg1-0ubuntu2.1_i386.deb
+Size: 31782
+MD5sum: 07dfb9cc2cc7d6aaeadf357d1f52332f
+SHA1: 8900d17172f62cdae7644f6743276136bac202bd
+SHA256: 7bce3be20b0f5d405c14f38a778a675e281087bd6dbe3fcb184988e5b4d4c33b
+SHA512: 8a73ac2722c251000092238b927fa16b262ec2b3ddb170df71ee55061f8b1b5923344258a93780d6824d7c9da83e0e65e3aa69195549ebb4fa83a9d71a1b5f31
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - Development Files
+Description-md5: f4c1713297a6c688a87d0b2876caf1fa
+
+Package: libgs9
+Architecture: i386
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22528
+Depends: libgs9-common (= 9.54.0~dfsg1-0ubuntu2.1), poppler-data, libc6 (>= 2.34), libcups2 (>= 2.3~b6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgcc-s1 (>= 3.0), libidn11 (>= 1.13), libijs-0.35 (>= 0.35), libjbig2dec0 (>= 0.16+20190905), libjpeg8 (>= 8c), libopenjp2-7 (>= 2.0.0), libpaper1, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libtiff5 (>= 4.0.3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/g/ghostscript/libgs9_9.54.0~dfsg1-0ubuntu2.1_i386.deb
+Size: 4986414
+MD5sum: baef339c6648831c389f1d148b5de916
+SHA1: 83c893ca7bb5448d137e1c01ef691c7535ededaf
+SHA256: 806a43bc5b32ccfae52f3b335a7cfa156624656c606406ec7c12eb7cc6621074
+SHA512: 869dbc7b36b0cb365da25c1babe5778ab23f2126d08ec23f9658931fa73a77c06088416d3c8e07261e068822f46e7522bd76376b3cd5fb64642e6e22f2a71a58
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - Library
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 77d0d233cd004663a71b1ef44e87d3f1
+
+Package: libgs9-common
+Architecture: all
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3064
+Depends: fonts-urw-base35 (>= 20200910)
+Recommends: fonts-droid-fallback
+Filename: pool/main/g/ghostscript/libgs9-common_9.54.0~dfsg1-0ubuntu2.1_all.deb
+Size: 747634
+MD5sum: 6e0c73b564ab0d005a510c4b354443eb
+SHA1: 85022fc5d6bb642d9f00b38e5dd2be52a614b68c
+SHA256: 4ff9962b188fd32bbd15e1c5abbd971b16266662840fbf09fea39a69a1a40fd7
+SHA512: d94fce465eb4f54bc79c7d88b2d44aecd32e225719215e4166600d21808c87f1c5b86c30c59267a0554f4c73ab4b0595e54ada7dac679e494ffd667ef698f72a
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - common files
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: f08f64f97de70ffa2ec3f07307565bf1
+
 Package: libjavascriptcoregtk-4.0-18
 Architecture: i386
 Version: 2.34.3-0ubuntu0.21.10.1
@@ -1145,6 +1289,53 @@ Homepage: http://dev.mysql.com/
 Description: MySQL database client library
 Description-md5: 49de807663510f5f2afd3e71efe199f1
 
+Package: libnss-mymachines
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: extra
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 517
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), systemd-container (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libnss-mymachines_248.3-1ubuntu8.2_i386.deb
+Size: 155918
+MD5sum: 5e81dd01c2a0b0ae85256c347b412e0b
+SHA1: d19274926ce7e85ea64bf0d6f005ea7619521996
+SHA256: a348224a80a5d42ab41809959154252b2a3a9a3dc2164ac77305fc9266a48efb
+SHA512: 9a6594bc708e96340527819d095af28254c233f8a950a27b5a7855c737f4fe99ce4d6d9e5050f044497f268a6f1adb2ddd887c2b0054f75b95f2ce8a260ad17f
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module to resolve hostnames for local container instances
+Description-md5: 588342105e1fdd6ff74c093651cb80cc
+
+Package: libnss-systemd
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: important
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 464
+Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libnss-systemd_248.3-1ubuntu8.2_i386.deb
+Size: 128406
+MD5sum: 84c4373cdbdbf253b039f1f454cc5696
+SHA1: addd11192c1430340e9160a173fce21889109206
+SHA256: 089bcfc967f269461db353d0c115f852f6cd189fd8660d2e7554c1d14d6f5d55
+SHA512: 3a368404e187e48f527941033cc951387bce496dbeb4edd615d9e3ddfcf17c78dea480e0da76661725fd09a516af094fa78929915cd01d7919a2ba865e558782
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module providing dynamic user and group name resolution
+Task: minimal
+Description-md5: f5bdd7572f97a2162876ec5b0a11a2ca
+
 Package: libnss-winbind
 Architecture: i386
 Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
@@ -1218,6 +1409,31 @@ SHA512: ec47cd5ce58db73d10708f5933f257b2d8e6400338143647a31091e696db0f3f063e542a
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description: Development files for the Network Security Service libraries
 Description-md5: 04c0a8f989d299406710231d2a99043d
+
+Package: libpam-systemd
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: important
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 639
+Provides: default-logind (= 248.3-1ubuntu8.2), logind (= 248.3-1ubuntu8.2)
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libpam0g (>= 0.99.7.1), systemd (= 248.3-1ubuntu8.2), libpam-runtime (>= 1.0.1-6), dbus, systemd-sysv
+Filename: pool/main/s/systemd/libpam-systemd_248.3-1ubuntu8.2_i386.deb
+Size: 209470
+MD5sum: 78b38190310ef8bc4d000d326b0f1b9c
+SHA1: 8063d8f2e57d48d9bfaf23d2303fea75ba6b8806
+SHA256: c27e57a85c7af1800c85ba4631008210116e880c58bcdd0eb3498e8949d3702e
+SHA512: 0d08552fafd77b1aa6054aebb76f301fbd74c85d6f52646c2fe3552a5dcdd648a00d1a7036a049cbf5646b41ae72579673df353c8d23a0fdb91cc1cd0fbad31b
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager - PAM module
+Task: minimal
+Description-md5: 7acf141cc9da21b0ad349b6cecc40e46
 
 Package: libpgtypes3
 Architecture: i386
@@ -1337,6 +1553,100 @@ SHA512: a483958948b8d35a2158e19755bfe4672f78bfa1a963bda393c93fc13452574437b69733
 Homepage: http://www.samba.org
 Description: development files for libsmbclient
 Description-md5: d6338d0aed68408023b999dd547aaecf
+
+Package: libsystemd-dev
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1143
+Depends: libsystemd0 (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libsystemd-dev_248.3-1ubuntu8.2_i386.deb
+Size: 303394
+MD5sum: b52b4389a28dc807611c06d1ef4027bd
+SHA1: 8aa71fe60b4962591fb6423e871e1652800b370b
+SHA256: c753dd3dfd6aac2129cece37967c5319b6a5b4aaeabb844454de0f3fffc82098
+SHA512: db042b6562398c17d7baa41ea7e22db1ce3856d89d99190b3a2209744189d13fe98d97181412a886f4c4fcf3124da657bd633f12c4ec6a375af3eb9334d50013
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: systemd utility library - development files
+Description-md5: 7122bf9ab5ca8703093117a2cda0fe22
+
+Package: libsystemd0
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 983
+Pre-Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)
+Filename: pool/main/s/systemd/libsystemd0_248.3-1ubuntu8.2_i386.deb
+Size: 329918
+MD5sum: ab38d45554a5e5e2199d1b1d7ddeaa25
+SHA1: e23eb0c6778f2d5a4beb4ef1280f9fbbda51e141
+SHA256: 28acbbe5add1063e45355b3d0ecff5591857425bd5ae9034e939c91348b1f862
+SHA512: 23e1c8c58c5a6e9fa1af6f954a51a62889a229a9557b0c9363ecf9ded6ec6db24f5fc209357808c7959c675a1a12b02f637439e7a76d180ee3b36bbe95ef4815
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: systemd utility library
+Task: minimal, server-minimal
+Description-md5: 92180a6b506aa0eff52136aeb8212dc6
+
+Package: libudev-dev
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: optional
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 254
+Depends: libudev1 (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libudev-dev_248.3-1ubuntu8.2_i386.deb
+Size: 20684
+MD5sum: 1c1745db8522672f2d25cb2442dc451e
+SHA1: 3924a8271ffb665aa354547a3e6f927e7f9d52a8
+SHA256: 4dc14f714a1b4cc3a09c8631d4513edc6f38304ac7685b1fd7907c77f04f121b
+SHA512: d3e35ffcbd4733ebe21bcdac0ceb5c2f3a3a743abec60397ec4fc68bbf8436d6fc21c869100073007eadba648aabfd62623013fb7179fb058659692ded42363a
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: libudev development files
+Description-md5: 4085049214953c1e2cf5d9aee1c32173
+
+Package: libudev1
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 339
+Depends: libc6 (>= 2.34)
+Filename: pool/main/s/systemd/libudev1_248.3-1ubuntu8.2_i386.deb
+Size: 80126
+MD5sum: 41c75d56a5c224fbb54be0a3cb55cf55
+SHA1: e149d89524cf0cf0b2ebbecaf20f5ebf18836446
+SHA256: e887728160193b3cf871188c54d799a96858897b922227c9c10fe182fc062374
+SHA512: fd2bffdd1e0d368577fe6c7e4828ed4046dfb8d674e6ffca43e2296b06dd0a486495b18cf5ebef0820367f855faadfef6e123043720c882ca1e357807b170855
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: libudev shared library
+Task: minimal, server-minimal
+Description-md5: ace5b83d7b48187416c90173a93255b6
 
 Package: libuwac0-0
 Architecture: i386
@@ -3623,6 +3933,58 @@ Homepage: https://ldb.samba.org/
 Description: LDB Python 3 bindings - development files
 Description-md5: be4c40ca865d11fda345266b7a5d70fb
 
+Package: python3-lxml
+Architecture: i386
+Version: 4.6.3+dfsg-0.1ubuntu0.2
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: lxml
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4071
+Provides: python3.9-lxml
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.26)
+Recommends: python3-bs4, python3-html5lib
+Suggests: python3-lxml-dbg, python-lxml-doc
+Filename: pool/main/l/lxml/python3-lxml_4.6.3+dfsg-0.1ubuntu0.2_i386.deb
+Size: 1137654
+MD5sum: 65a96775053b48e5f7a3df6056e34998
+SHA1: 8a410cee047bf6b75c5180a5c1793a62dbdc2b38
+SHA256: 35cc25e1d96e607ddea3e39f3d768995032b32fcb804074bcec91d7d38788fa5
+SHA512: e05f31549907755ccace8ff8710d1049d96405846e5e757e483ba4704da3faca4482fba46e59f29df052c06edd00aabab68eb1dd6cb79b8ad1bd3bf4aa2f1e98
+Homepage: http://lxml.de/
+Description: pythonic binding for the libxml2 and libxslt libraries
+Task: ubuntustudio-video, ubuntustudio-publishing, ubuntustudio-graphics, ubuntustudio-audio
+Description-md5: e8e2f787207511401ce91418255455e6
+
+Package: python3-lxml-dbg
+Architecture: i386
+Version: 4.6.3+dfsg-0.1ubuntu0.2
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: lxml
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22102
+Provides: python3.9-lxml-dbg
+Depends: python3-lxml (= 4.6.3+dfsg-0.1ubuntu0.2), python3-dbg, libc6 (>= 2.4), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.26)
+Filename: pool/main/l/lxml/python3-lxml-dbg_4.6.3+dfsg-0.1ubuntu0.2_i386.deb
+Size: 9937612
+MD5sum: 25c191cb79cbbf1dfa48fd5e24bcc273
+SHA1: 1988c159777b2a27a09e99cdc9f5a261c5c3c23b
+SHA256: 82d524261b448a10160bdecff56700af7f76d76cfabfddca4d93dfd5e5538350
+SHA512: 95c25b8c61686ab9a9b9005b46756a44d6f5bf5e8b47db16904c29f6a02d66134e84c677eda45f5eb68d07c1743561932071ede86ad51aa2e1ef50a535731c32
+Homepage: http://lxml.de/
+Description: pythonic binding for the libxml2 and libxslt libraries (debug extension)
+Build-Ids: 27747b8c78dd276eddcfc442cd07640ac083df7f 4600ed5d232eae4b69ff376595681895c59d29eb 5685f75dd08413286c8eee55f44b52f2847d6ebf 6a67c19316411d86d4a734e49daa07e34541d432 a63a7d50307ee015507b73699cf4669e5c69481a ad77feb6b8e0a1bd676329e26db2a00ea7648ff2 d0e12c1395f42e8c13824081e2fdeace2bfb6850
+Description-md5: dc60d3e32c93635f03d6f9f774d9845a
+
 Package: python3-problem-report
 Architecture: all
 Version: 2.20.11-0ubuntu71
@@ -3868,6 +4230,114 @@ SHA512: f64f77b12f3c341cbcb61402285e0a8275c2b2638c815d23c2064db35fa838a44ee4d97b
 Homepage: http://www.strongswan.org
 Description: IPsec VPN solution metapackage
 Description-md5: 60d8ad9f14179591b0cca394e94e3d4b
+
+Package: systemd
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 15624
+Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 3.1~), libzstd1 (>= 1.4.0)
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libcrypt1 (>= 1:4.4.0), libcryptsetup12 (>= 2:2.3), libgnutls30 (>= 3.7.0), libgpg-error0 (>= 1.14), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libsystemd0 (= 248.3-1ubuntu8.2), systemd-timesyncd | time-daemon, util-linux (>= 2.27.1), mount (>= 2.26), adduser
+Recommends: dbus, networkd-dispatcher
+Suggests: systemd-container, policykit-1
+Conflicts: consolekit, libpam-ck-connector, systemd-shim, upstart
+Breaks: isc-dhcp-client (<< 4.4.1-2.1ubuntu7), python-dbusmock (<< 0.18), python3-dbusmock (<< 0.18), resolvconf (<< 1.83~), systemd-shim (<< 10-4~), udev (<< 247~)
+Filename: pool/main/s/systemd/systemd_248.3-1ubuntu8.2_i386.deb
+Size: 4480144
+MD5sum: 3efdfef60a40b93ae0137e8ad79b07bb
+SHA1: 753f0677f4ba5a2641ab94fde1ed3667adc54c88
+SHA256: 16e809319b619349415706d03cd568c12f8e2bc114fdf54c761e2688526723f5
+SHA512: 3e44f7ce53c182cc2a66277d0ebde706669f548ca4034c46eb439a816cbfb1ebace32a165e5d20a03c035cf15dcc5b2532dc9aff79c4ce28b8664596702188d1
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager
+Task: minimal, server-minimal
+Description-md5: 19399579cbc0c47a303288bf15eadcd4
+
+Package: systemd-container
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1286
+Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), systemd (= 248.3-1ubuntu8.2), zlib1g (>= 1:1.1.4), dbus
+Recommends: libnss-mymachines
+Filename: pool/main/s/systemd/systemd-container_248.3-1ubuntu8.2_i386.deb
+Size: 371816
+MD5sum: 474c87fc616ed76cdddfc495c4b9421d
+SHA1: 027130b090badc5a491df1728dfa05d41679a31c
+SHA256: 48e220a4a77508e5fff49431c0db1dae3cc9bd5df85b085113b9eb68fc7cdd3a
+SHA512: 613b74b389c16fb6e9267dbc65a5531c21015e6b4f088ca4d80d65156c29e111469ab5462cf8213d2bd83a0eb945bde51f58d79b76987714d4cd713ea8744fcb
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: systemd container/nspawn tools
+Description-md5: 06057fffc2ba14e4be80360a092a18b4
+
+Package: systemd-sysv
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 186
+Pre-Depends: systemd
+Depends: systemd (= 248.3-1ubuntu8.2)
+Recommends: libpam-systemd, libnss-systemd
+Conflicts: file-rc, systemd-shim, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Replaces: sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Filename: pool/main/s/systemd/systemd-sysv_248.3-1ubuntu8.2_i386.deb
+Size: 10478
+MD5sum: 89fa226c3e60ed8d2d4f43d3f4ca4c9c
+SHA1: 99a4906240605903b444b74a9efeb0f98b749ada
+SHA256: 146684baffc69968d9934ec76aebd2baa97cb0824b2de204f1c01413f9981bbd
+SHA512: 65e85093830ca5286baad33366764b7e1774974c687413768a3d6398e2e826e998719e4ff8cb1ce095eb7cbe1ef3de2d55bc55c2f6738d4605265bc68dbb9473
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager - SysV links
+Task: minimal, server-minimal
+Description-md5: b0c2db4da8d807aa3f83a2977e491907
+
+Package: systemd-timesyncd
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 249
+Provides: time-daemon
+Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.2), adduser
+Conflicts: time-daemon
+Breaks: systemd (<< 245.4-2~)
+Replaces: systemd (<< 245.4-2~), time-daemon
+Filename: pool/main/s/systemd/systemd-timesyncd_248.3-1ubuntu8.2_i386.deb
+Size: 31914
+MD5sum: 841fd83d998d1ed4b4a4c48b503c00a4
+SHA1: 11b21e62241d769b09d452d5515d572fb55e79e2
+SHA256: f61d068afe8c6543512dc14facb8b3170a479ac57ee8d6e0422b449dc218a199
+SHA512: 97ffc6377ec82ae6c8f3f0c6c7160558c2ee6880d77aa6cff0c8bfd1d3e58aae6ccbda4e80f4efc6e2f08225006329d81a8d9777aea16527b0356f682f466b0b
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: minimalistic service to synchronize local time with NTP servers
+Task: minimal, server-minimal
+Description-md5: cc67d85c248836d96a6310e58a659de0
 
 Package: thunderbird-locale-bn-bd
 Architecture: all
@@ -4220,6 +4690,33 @@ Homepage: https://www.iana.org/time-zones
 Description: time zone and daylight-saving time data
 Task: minimal, server-minimal
 Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+
+Package: udev
+Architecture: i386
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: important
+Section: admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9249
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libkmod2 (>= 5~), libselinux1 (>= 3.1~), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 248.3-1ubuntu8.2), util-linux (>= 2.27.1)
+Conflicts: hal
+Breaks: systemd (<< 248.3-1ubuntu8.2)
+Replaces: systemd (<< 233-4)
+Filename: pool/main/s/systemd/udev_248.3-1ubuntu8.2_i386.deb
+Size: 1525614
+MD5sum: ba112b922049700119843ea267f82e98
+SHA1: 3e10b8f8f369cbb86776aef073bc11de1c9cd22d
+SHA256: 32158a0a069bc3baf1101e69eaaa28d30a4b73dfabd519e7e6b04c123e90719c
+SHA512: e5c430187afd6462ea23236cedcdfd3765d9e92e7cc430be8c5935241694dc50026656638292628dc8d9d838648d55e15f3b09991b97f0e151f95d34ee34bd97
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: /dev/ and hotplug management daemon
+Task: minimal, server-minimal
+Description-md5: e875ddb09f46f1f7672af537f0c875ca
 
 Package: vim
 Architecture: i386

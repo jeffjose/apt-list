@@ -1219,6 +1219,52 @@ Homepage: https://mariadb.org/
 Description: MariaDB embedded database, shared library
 Description-md5: a85241d1aa0dccaa3ede8bda094b9117
 
+Package: libnss-myhostname
+Architecture: amd64
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: extra
+Section: universe/admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 305
+Depends: libc6 (>= 2.34)
+Filename: pool/universe/s/systemd/libnss-myhostname_248.3-1ubuntu8.2_amd64.deb
+Size: 52938
+MD5sum: 8c70a509ee0dbaff53340c32e9a80da0
+SHA1: 1b149f3bd2475853d4548a9ccf2ddc73a2e78f92
+SHA256: 8f585610e7690e845513c9f0259827d73a47744ab9cb2644d1e9f186fb9ab3db
+SHA512: d6a69a3d03320da5c6b9e732733dee04f1cee43d4e92bb589a3075e864dfeff67ec0d7d615bbef100b738392e42334c7a613f1c9bc2e515ff3f6816f44e33c3f
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module providing fallback resolution for the current hostname
+Description-md5: 0bec93cc0b56ef90c11c1a7842dd8f8a
+
+Package: libnss-resolve
+Architecture: amd64
+Version: 248.3-1ubuntu8.2
+Multi-Arch: same
+Priority: optional
+Section: universe/admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 325
+Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.2)
+Filename: pool/universe/s/systemd/libnss-resolve_248.3-1ubuntu8.2_amd64.deb
+Size: 72256
+MD5sum: fc38969e14bf94321b2b8a670c6c4aa5
+SHA1: 7a22a756522594a3020ba365c14c05ee2d723cfb
+SHA256: 32f3d9cf69818dd58e5f852df59351352556e8cd965608cc85c146e3392f3a72
+SHA512: a023232209534eef701d0409f60fcae3928ded2549ddc895f2c7318bf79986b3e3a64ce4f1f81e44c0fde180f92c217d9648bd3bb2fad14d68d2ca8b6413554a
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module to resolve names via systemd-resolved
+Description-md5: fa2bc74d218dfae9ad286df8f31fa19f
+
 Package: libnss3-tools
 Architecture: amd64
 Version: 2:3.68-1ubuntu1.1
@@ -3162,6 +3208,29 @@ Homepage: http://www.postgresql.org/
 Description: development files for PostgreSQL 13 server-side programming
 Description-md5: ea24835aaae1d62503279845336c6a0b
 
+Package: python-lxml-doc
+Architecture: all
+Version: 4.6.3+dfsg-0.1ubuntu0.2
+Multi-Arch: foreign
+Priority: extra
+Section: universe/doc
+Source: lxml
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1697
+Recommends: python3-lxml
+Filename: pool/universe/l/lxml/python-lxml-doc_4.6.3+dfsg-0.1ubuntu0.2_all.deb
+Size: 267670
+MD5sum: 0bbdc096b06bc4caca16262806512901
+SHA1: 5c5dfd0608834480ce8d7235821b587eb5144beb
+SHA256: 74baa818f8abbd9fbe2d2adce7d39cafcce9d0793e0882d18ca02922cc35581b
+SHA512: 68e13baeaf38b63279a5b98dc5d6ec21e52f5d78700ddac2d08cd9ce0b930feef606c71fa91dbf366327d894c80248944a45a88e406a08ea361c4e9631644205
+Homepage: http://lxml.de/
+Description: pythonic binding for the libxml2 and libxslt libraries (documentation)
+Description-md5: 86c3002728b00f49dc1d8a0e4e843699
+
 Package: python3-django-postorius
 Architecture: all
 Version: 1.3.4-2ubuntu0.1
@@ -3846,6 +3915,79 @@ SHA512: 8c8438675c20b7e30317a5c2715a8dacbf77b181b6f83320d50a8acfa7d9dfadbec48a99
 Homepage: http://www.strongswan.org
 Description: strongSwan IPsec client, swanctl command
 Description-md5: 0da8661efd13d913c22e863856990337
+
+Package: systemd-coredump
+Architecture: amd64
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 317
+Provides: core-dump-handler
+Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libelf1 (>= 0.131), systemd (= 248.3-1ubuntu8.2), adduser
+Conflicts: core-dump-handler
+Replaces: core-dump-handler
+Filename: pool/universe/s/systemd/systemd-coredump_248.3-1ubuntu8.2_amd64.deb
+Size: 52902
+MD5sum: ae7e0bc0601268e2e5aaf065321885cb
+SHA1: 044de992e2bd676716bdf47b70247ba284787f5d
+SHA256: d625881b7b80184a1ab113c44a4333308f2b68685663a478e4dc186cdc26f722
+SHA512: 9cfc9d0246bb7e37d6320a32fd7ec015adca7a15256898d6b523a01967645c3878f9b0c3f1721042f713bf34cb4ede81687568e0ebd92cd86015a08ebc6911a0
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: tools for storing and retrieving coredumps
+Description-md5: 149b22bdf2366b7d731957d1b710e54f
+
+Package: systemd-journal-remote
+Architecture: amd64
+Version: 248.3-1ubuntu8.2
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 389
+Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libgnutls30 (>= 3.7.0), libmicrohttpd12 (>= 0.9.50), systemd (= 248.3-1ubuntu8.2), adduser
+Breaks: systemd (<< 239-6)
+Replaces: systemd (<< 239-6)
+Filename: pool/universe/s/systemd/systemd-journal-remote_248.3-1ubuntu8.2_amd64.deb
+Size: 67400
+MD5sum: 58581f9761af9c8aac8a4b0402e56005
+SHA1: 64424b03badd819e12d80a7bf85fe4019719896a
+SHA256: e5880a85bba1ded514d3f82bbbded556a1a57e14bcd03c088608c73c947b7040
+SHA512: d6b72bbc59cec7eb5695aca36a8101f2ce51cc2222f5b9a77b7b4ee7dcca9e95c492a04180e16aed67a19aa200fcac8b5e5aa1ffa1b63077ca5834ab4f3574da
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: tools for sending and receiving remote journal logs
+Description-md5: 6bd80842a0c96acb169877c7a6a25ff6
+
+Package: systemd-tests
+Architecture: amd64
+Version: 248.3-1ubuntu8.2
+Priority: optional
+Section: universe/admin
+Source: systemd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 36790
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libdbus-1-3 (>= 1.9.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.26.0), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libselinux1 (>= 3.1~), libsystemd0 (= 248.3-1ubuntu8.2), libudev1 (>= 247), libzstd1 (>= 1.4.0), systemd (= 248.3-1ubuntu8.2), zlib1g (>= 1:1.1.4), python3
+Filename: pool/universe/s/systemd/systemd-tests_248.3-1ubuntu8.2_amd64.deb
+Size: 6294082
+MD5sum: 4b08b1122d9cd22d4699d7f19e6ec9b8
+SHA1: 6a9bd5183a97596335d28386545c72ce7dd633be
+SHA256: 5b276f12a4361341f0c54b05e1e6f0c362fa5e7ca43b400dfeca22fb76cad815
+SHA512: 78d6a39c5db497f37f11b6e00a679413f7ef07aca8bee99ba27b899de1c3ad65ed80faa64bd984a7ba20b88939e36d5cf85be22fd011ea33404a703adb045ce1
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: tests for systemd
+Description-md5: ece07db851f8a2e9731975ec11eedb8d
 
 Package: thunderbird-gnome-support-dbg
 Architecture: amd64

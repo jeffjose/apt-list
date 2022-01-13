@@ -2776,6 +2776,78 @@ Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (development files)
 Description-md5: 87d789b26f2354d9180f00d23a677478
 
+Package: ghostscript
+Architecture: amd64
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: text
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 234
+Provides: postscript-viewer
+Depends: libgs9 (= 9.54.0~dfsg1-0ubuntu2.1), libc6 (>= 2.34)
+Suggests: ghostscript-x
+Filename: pool/main/g/ghostscript/ghostscript_9.54.0~dfsg1-0ubuntu2.1_amd64.deb
+Size: 49508
+MD5sum: 8ff567e5b220546b7be770c871ea36e0
+SHA1: 1a7561cd7220a793b5772be100f47d45b434251e
+SHA256: 9eb5fa5c5763776a4dad75781c43b6f2073c9efd1ba3fab8f17182d5196da4b5
+SHA512: 164c289384eca8592d8079cc2c3f74c759bb9f40c1e2245d3c992af55623e1f7e603b2edc7fe0261ad2dcf194257fe7acf681784f96f3047d3694b169bd777df
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 3b69f5ec8191e8f0d88dd3e30e7b1b69
+
+Package: ghostscript-doc
+Architecture: all
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: text
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16472
+Depends: libjs-jquery
+Suggests: ghostscript
+Filename: pool/main/g/ghostscript/ghostscript-doc_9.54.0~dfsg1-0ubuntu2.1_all.deb
+Size: 8221000
+MD5sum: e512072f43bfae0e5d6fa6d2bfbded4c
+SHA1: 431c8df75760733e530323c85fff7352a32ac139
+SHA256: 409ea2765e803935520104964f3b73d787e9b254bcc8ae32db74dc7eaca9b377
+SHA512: 3101a69195a093d07ad5aaf8b575cf24e3051d1bf7787fe6431189f45a65eacb659b3918e581d377538840de5e53bbeaddb0e07f394ea6ca9222188985a0223c
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - Documentation
+Description-md5: 772951004a1a824bee59da206fba24e2
+
+Package: ghostscript-x
+Architecture: amd64
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Priority: optional
+Section: text
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 234
+Depends: ghostscript (= 9.54.0~dfsg1-0ubuntu2.1), libc6 (>= 2.14), libx11-6, libxt6
+Filename: pool/main/g/ghostscript/ghostscript-x_9.54.0~dfsg1-0ubuntu2.1_amd64.deb
+Size: 48620
+MD5sum: e5c3dc116b0c9179779615761ffc5a05
+SHA1: cb041cedee86a364557491756f1951ef403a6bc8
+SHA256: fee0e5f9f25a0b07ef459c84f625d14d70c46a5c0ee5712b06918e1b8fd8ccf2
+SHA512: d42e7e0f6d656d166d63eb053b052eac34d0badee152e500808135fa5c35c699adf33ca09e86a0716c9f8856ad8fe5ba296fea4b2ad348033e77589f9cda1815
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - X11 support
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 5f6f4265cecdf5f91c519e5f197328b3
+
 Package: gir1.2-accountsservice-1.0
 Architecture: amd64
 Version: 0.6.55-0ubuntu14.1
@@ -3956,6 +4028,78 @@ Homepage: https://www.freerdp.com/
 Description: Free Remote Desktop Protocol library (core library)
 Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, kubuntu-full, ubuntukylin-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: 43b828fff16d4902fa6931b59f78fe32
+
+Package: libgs-dev
+Architecture: amd64
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: same
+Priority: optional
+Section: text
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 187
+Depends: libgs9 (= 9.54.0~dfsg1-0ubuntu2.1)
+Filename: pool/main/g/ghostscript/libgs-dev_9.54.0~dfsg1-0ubuntu2.1_amd64.deb
+Size: 31786
+MD5sum: 4d67a12f2232a09aa73fd7b9e9078d0c
+SHA1: 38229f367b709132851e238fdfcc59f414f17bac
+SHA256: 576f94ec63bf87780974b55fca6acccf6edb9463466f3621ad50d2fbcb51282d
+SHA512: cbefd8c0bd2461c73e163e737e3a890ebe62c39c1786dd7294de890d05573578271900aae16ab11eca48b263611bf6d6f37d87dc49aea00f350668a60681ab00
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - Development Files
+Description-md5: f4c1713297a6c688a87d0b2876caf1fa
+
+Package: libgs9
+Architecture: amd64
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22483
+Depends: libgs9-common (= 9.54.0~dfsg1-0ubuntu2.1), poppler-data, libc6 (>= 2.34), libcups2 (>= 2.3~b6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.10.1), libgcc-s1 (>= 3.3.1), libidn11 (>= 1.13), libijs-0.35 (>= 0.35), libjbig2dec0 (>= 0.16+20190905), libjpeg8 (>= 8c), libopenjp2-7 (>= 2.0.0), libpaper1, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libtiff5 (>= 4.0.3), zlib1g (>= 1:1.2.0)
+Filename: pool/main/g/ghostscript/libgs9_9.54.0~dfsg1-0ubuntu2.1_amd64.deb
+Size: 4688898
+MD5sum: 6f62a1ae554edacb45b742fbbcb566cd
+SHA1: 0ac939e00e4236fdf9b4acd7d9b604074e9cf221
+SHA256: ee0111fefcd142a289bc5f9fa7b40f3a5e65ce0bd19538bc3c07a89605656d48
+SHA512: bdebb96df3ebfa3d0a147938e98c507bdc590759130427a882ff1236aacdb72ed7aabf963c36a9be5a72c59b114e66dfb4f58f2d21eb3650ca21cb65166d2add
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - Library
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 77d0d233cd004663a71b1ef44e87d3f1
+
+Package: libgs9-common
+Architecture: all
+Version: 9.54.0~dfsg1-0ubuntu2.1
+Multi-Arch: foreign
+Priority: optional
+Section: libs
+Source: ghostscript
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3064
+Depends: fonts-urw-base35 (>= 20200910)
+Recommends: fonts-droid-fallback
+Filename: pool/main/g/ghostscript/libgs9-common_9.54.0~dfsg1-0ubuntu2.1_all.deb
+Size: 747634
+MD5sum: 6e0c73b564ab0d005a510c4b354443eb
+SHA1: 85022fc5d6bb642d9f00b38e5dd2be52a614b68c
+SHA256: 4ff9962b188fd32bbd15e1c5abbd971b16266662840fbf09fea39a69a1a40fd7
+SHA512: d94fce465eb4f54bc79c7d88b2d44aecd32e225719215e4166600d21808c87f1c5b86c30c59267a0554f4c73ab4b0595e54ada7dac679e494ffd667ef698f72a
+Homepage: https://www.ghostscript.com/
+Description: interpreter for the PostScript language and for PDF - common files
+Task: print-server, ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: f08f64f97de70ffa2ec3f07307565bf1
 
 Package: libipset-dev
 Architecture: amd64
@@ -19211,6 +19355,58 @@ SHA512: f2e02876b04ff86c40be09168c51508ea198adb6d60453c3abad135605e67daa007ebfa8
 Homepage: https://ldb.samba.org/
 Description: LDB Python 3 bindings - development files
 Description-md5: be4c40ca865d11fda345266b7a5d70fb
+
+Package: python3-lxml
+Architecture: amd64
+Version: 4.6.3+dfsg-0.1ubuntu0.2
+Multi-Arch: same
+Priority: optional
+Section: python
+Source: lxml
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3991
+Provides: python3.9-lxml
+Depends: python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.26)
+Recommends: python3-bs4, python3-html5lib
+Suggests: python3-lxml-dbg, python-lxml-doc
+Filename: pool/main/l/lxml/python3-lxml_4.6.3+dfsg-0.1ubuntu0.2_amd64.deb
+Size: 1141672
+MD5sum: 9796ae929917952d5dd2776e6530a46c
+SHA1: ec13e9ef9273f132103a27aa76c3a83b16579738
+SHA256: c90ca9c230103617277540835cdafb9dc7c6b698a3f5129d2e65024f98171215
+SHA512: de378ffbfb49cc18ff46a8388f67c7cea7d2a7fcba320a55b2b01a03b71ac5b8c0d006a87d079917aa87a9064454c856f983f7b137354f930a87e59930465953
+Homepage: http://lxml.de/
+Description: pythonic binding for the libxml2 and libxslt libraries
+Task: ubuntustudio-video, ubuntustudio-publishing, ubuntustudio-graphics, ubuntustudio-audio, ubuntukylin-desktop
+Description-md5: e8e2f787207511401ce91418255455e6
+
+Package: python3-lxml-dbg
+Architecture: amd64
+Version: 4.6.3+dfsg-0.1ubuntu0.2
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: lxml
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 24372
+Provides: python3.9-lxml-dbg
+Depends: python3-lxml (= 4.6.3+dfsg-0.1ubuntu0.2), python3-dbg, libc6 (>= 2.14), libxml2 (>= 2.9.0), libxslt1.1 (>= 1.1.26)
+Filename: pool/main/l/lxml/python3-lxml-dbg_4.6.3+dfsg-0.1ubuntu0.2_amd64.deb
+Size: 10627488
+MD5sum: 9aaf04cb5bbf4cb56cb492cbf3e9f665
+SHA1: f0e60271595e0e9dd7c96e0076879836fc7295e8
+SHA256: a447ebf8939050cd398ab4e4d55323f3780f0131f39a0e3be3836e2122808890
+SHA512: a657b1d0362e63282e7b6619a0ce1215b36203f7337c5c0f0ac83632b95c51a5aaa227ac534fc25be29a99d2d0e911358332edf7fd278a4093b28f2894421766
+Homepage: http://lxml.de/
+Description: pythonic binding for the libxml2 and libxslt libraries (debug extension)
+Build-Ids: 623af0290f26dfe88556d769ce8f14fd37d06ce4 8d1d6d4a83b776364515941a9e4157b8db24d29e a08ace4fa9cd263a5c4023bbb2a5bb97be2efeb5 cf10549c4d8716368c3bbc2345a845691d22f178 d40bb0fad1446223c47b16e42269431cc57a604c ece88984145c23aa48fb68d4c38d5ad3d0c33a8d f5e76f74ddf162c322830d24a4094e34cfebc262
+Description-md5: dc60d3e32c93635f03d6f9f774d9845a
 
 Package: python3-problem-report
 Architecture: all

@@ -894,6 +894,36 @@ Description-en: Free Remote Desktop Protocol library (development files)
  .
  This package contains the FreeRDP development files.
 
+Package: ghostscript
+Description-md5: 3b69f5ec8191e8f0d88dd3e30e7b1b69
+Description-en: interpreter for the PostScript language and for PDF
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ Furthermore, it can render PostScript and PDF files as graphics to be
+ printed on non-PostScript printers. Supported printers include common
+ dot-matrix, inkjet and laser models.
+
+Package: ghostscript-doc
+Description-md5: 772951004a1a824bee59da206fba24e2
+Description-en: interpreter for the PostScript language and for PDF - Documentation
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package contains documentation for GPL Ghostscript, mainly
+ targeted developers and advanced users.
+
+Package: ghostscript-x
+Description-md5: 5f6f4265cecdf5f91c519e5f197328b3
+Description-en: interpreter for the PostScript language and for PDF - X11 support
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package contains the GPL Ghostscript output device for X11.
+
 Package: gir1.2-accountsservice-1.0
 Description-md5: 3e307108d5acfea1c79fd66a238baaf2
 Description-en: GObject introspection data for AccountService
@@ -1160,6 +1190,42 @@ Description-en: Free Remote Desktop Protocol library (core library)
  .
  This package contains the shared library with all core functionality.
 
+Package: libgs-dev
+Description-md5: f4c1713297a6c688a87d0b2876caf1fa
+Description-en: interpreter for the PostScript language and for PDF - Development Files
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides the development files for the GPL Ghostscript
+ library which makes the facilities of GPL Ghostscript available to
+ applications.
+
+Package: libgs9
+Description-md5: 77d0d233cd004663a71b1ef44e87d3f1
+Description-en: interpreter for the PostScript language and for PDF - Library
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides the Ghostscript library which makes the
+ facilities of GPL Ghostscript available to applications.
+
+Package: libgs9-common
+Description-md5: f08f64f97de70ffa2ec3f07307565bf1
+Description-en: interpreter for the PostScript language and for PDF - common files
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides common architecture-independent files needed by
+ the GPL Ghostscript library.
+ .
+ By default, GPL Ghostscript uses a font from the fonts-droid package to
+ approximate glyphs in PDFs for which the requested CJK TrueType font
+ is missing.  If the fonts-droid package is not installed, these glyphs
+ will be rendered as bullets.
+
 Package: libjavascriptcoregtk-4.0-18
 Description-md5: 530afdab7b5d77de15b97dd5c98157d9
 Description-en: JavaScript engine library from WebKitGTK
@@ -1228,6 +1294,27 @@ Description-en: MySQL database client library
  .
  This package includes the client library.
 
+Package: libnss-mymachines
+Description-md5: 588342105e1fdd6ff74c093651cb80cc
+Description-en: nss module to resolve hostnames for local container instances
+ nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
+ of the GNU C Library (glibc) providing hostname resolution for local containers
+ that are registered with systemd-machined.service(8). The container names are
+ resolved to IP addresses of the specific container, ordered by their scope.
+ .
+ Installing this package automatically adds mymachines to /etc/nsswitch.conf.
+
+Package: libnss-systemd
+Description-md5: f5bdd7572f97a2162876ec5b0a11a2ca
+Description-en: nss module providing dynamic user and group name resolution
+ nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
+ functionality of the GNU C Library (glibc), providing UNIX user and group name
+ resolution for dynamic users and groups allocated through the DynamicUser=
+ option in systemd unit files. See systemd.exec(5) for details on this
+ option.
+ .
+ Installing this package automatically adds the module to /etc/nsswitch.conf.
+
 Package: libnss-winbind
 Description-md5: 223d38d764a9bb35ad3be4c8d048957d
 Description-en: Samba nameservice integration plugins
@@ -1260,6 +1347,16 @@ Description-en: Development files for the Network Security Service libraries
  .
  Install this package if you wish to develop your own programs using the
  Network Security Service Libraries.
+
+Package: libpam-systemd
+Description-md5: 7acf141cc9da21b0ad349b6cecc40e46
+Description-en: system and service manager - PAM module
+ This package contains the PAM module which registers user sessions in
+ the systemd control group hierarchy for logind.
+ .
+ If in doubt, do install this package.
+ .
+ Packages that depend on logind functionality need to depend on libpam-systemd.
 
 Package: libpam-winbind
 Description-md5: fba9076429d270720a91324cff071fed
@@ -1394,6 +1491,29 @@ Description-en: strongSwan utility and crypto library (standard plugins)
   - gcm (GCM cipher mode wrapper)
   - openssl (Crypto backend based on OpenSSL, provides
     RSA/ECDSA/DH/ECDH/ciphers/hashers/HMAC/X.509/CRL/RNG)
+
+Package: libsystemd-dev
+Description-md5: 7122bf9ab5ca8703093117a2cda0fe22
+Description-en: systemd utility library - development files
+ The libsystemd0 library provides interfaces to various systemd components.
+ .
+ This package contains the development files.
+
+Package: libsystemd0
+Description-md5: 92180a6b506aa0eff52136aeb8212dc6
+Description-en: systemd utility library
+ The libsystemd0 library provides interfaces to various systemd components.
+
+Package: libudev-dev
+Description-md5: 4085049214953c1e2cf5d9aee1c32173
+Description-en: libudev development files
+ This package contains the files needed for developing applications that
+ use libudev.
+
+Package: libudev1
+Description-md5: ace5b83d7b48187416c90173a93255b6
+Description-en: libudev shared library
+ This library provides access to udev device information.
 
 Package: libuwac0-0
 Description-md5: d2612800bc2de77664aac0c37914b9a6
@@ -5070,6 +5190,30 @@ Description-en: LDB Python 3 bindings - development files
  .
  This package contains the development files for the Python 3 bindings.
 
+Package: python3-lxml
+Description-md5: e8e2f787207511401ce91418255455e6
+Description-en: pythonic binding for the libxml2 and libxslt libraries
+ lxml is a new Python binding for libxml2 and libxslt, completely
+ independent from existing Python bindings. Its aim:
+ .
+   * Pythonic API.
+   * Documented.
+   * Use Python unicode strings in API.
+   * Safe (no segfaults).
+   * No manual memory management!
+ .
+ lxml aims to provide a Pythonic API by following as much as possible
+ the ElementTree API, trying to avoid inventing too many new APIs,
+ or the user's having to learn new things -- XML is complicated enough.
+
+Package: python3-lxml-dbg
+Description-md5: dc60d3e32c93635f03d6f9f774d9845a
+Description-en: pythonic binding for the libxml2 and libxslt libraries (debug extension)
+ lxml is a new Python binding for libxml2 and libxslt, completely
+ independent from existing Python bindings.
+ .
+ This package contains the extension built for the Python3 debug interpreter.
+
 Package: python3-problem-report
 Description-md5: 9c38d91ac205b1680832021377d9156d
 Description-en: Python 3 library to handle problem reports
@@ -5237,6 +5381,52 @@ Description-en: strongSwan daemon starter and configuration file parser
  The starter and the associated "ipsec" script control the charon daemon from
  the command line. It parses ipsec.conf and loads the configurations to the
  daemon.
+
+Package: systemd
+Description-md5: 19399579cbc0c47a303288bf15eadcd4
+Description-en: system and service manager
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for starting
+ services, offers on-demand starting of daemons, keeps track of processes using
+ Linux control groups, maintains mount and automount points and implements an
+ elaborate transactional dependency-based service control logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ Installing the systemd package will not switch your init system unless you
+ boot with init=/lib/systemd/systemd or install systemd-sysv in addition.
+
+Package: systemd-container
+Description-md5: 06057fffc2ba14e4be80360a092a18b4
+Description-en: systemd container/nspawn tools
+ This package provides systemd's tools for nspawn and container/VM management:
+  * systemd-nspawn
+  * systemd-machined and machinectl
+  * systemd-importd
+  * systemd-portabled and portablectl
+
+Package: systemd-sysv
+Description-md5: b0c2db4da8d807aa3f83a2977e491907
+Description-en: system and service manager - SysV links
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for starting
+ services, offers on-demand starting of daemons, keeps track of processes using
+ Linux control groups, maintains mount and automount points and implements an
+ elaborate transactional dependency-based service control logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ This package provides the manual pages and links needed for systemd
+ to replace sysvinit. Installing systemd-sysv will overwrite /sbin/init with a
+ link to systemd.
+
+Package: systemd-timesyncd
+Description-md5: cc67d85c248836d96a6310e58a659de0
+Description-en: minimalistic service to synchronize local time with NTP servers
+ The package contains the systemd-timesyncd system service that may be used to
+ synchronize the local system clock with a remote Network Time Protocol server.
 
 Package: thunderbird
 Description-md5: 68ed1001b79d708ad48956a0c129114d
@@ -5792,6 +5982,12 @@ Description-en: time zone and daylight-saving time data
  globe. It is updated periodically to reflect changes made by
  political bodies to time zone boundaries, UTC offsets, and
  daylight-saving rules.
+
+Package: udev
+Description-md5: e875ddb09f46f1f7672af537f0c875ca
+Description-en: /dev/ and hotplug management daemon
+ udev is a daemon which dynamically creates and removes device nodes from
+ /dev/, handles hotplug events and loads drivers at boot time.
 
 Package: vim
 Description-md5: 59e8b8f7757db8b53566d5d119872de8

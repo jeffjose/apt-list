@@ -2595,6 +2595,14 @@ Description-en: Python binding for Caja components (common files)
  .
  This package contains the architecture independent files.
 
+Package: python-lxml-doc
+Description-md5: 86c3002728b00f49dc1d8a0e4e843699
+Description-en: pythonic binding for the libxml2 and libxslt libraries (documentation)
+ lxml is a new Python binding for libxml2 and libxslt, completely
+ independent from these existing Python bindings.
+ .
+ This package contains the html documentation.
+
 Package: python3-access2base
 Description-md5: 62049593c5d96b74959809148594af38
 Description-en: interface between Python and the LibreOffice Access2Base library

@@ -994,6 +994,36 @@ Description-en: Free Remote Desktop Protocol library (development files)
  .
  This package contains the FreeRDP development files.
 
+Package: ghostscript
+Description-md5: 3b69f5ec8191e8f0d88dd3e30e7b1b69
+Description-en: interpreter for the PostScript language and for PDF
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ Furthermore, it can render PostScript and PDF files as graphics to be
+ printed on non-PostScript printers. Supported printers include common
+ dot-matrix, inkjet and laser models.
+
+Package: ghostscript-doc
+Description-md5: 772951004a1a824bee59da206fba24e2
+Description-en: interpreter for the PostScript language and for PDF - Documentation
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package contains documentation for GPL Ghostscript, mainly
+ targeted developers and advanced users.
+
+Package: ghostscript-x
+Description-md5: 5f6f4265cecdf5f91c519e5f197328b3
+Description-en: interpreter for the PostScript language and for PDF - X11 support
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package contains the GPL Ghostscript output device for X11.
+
 Package: gir1.2-accountsservice-1.0
 Description-md5: 3e307108d5acfea1c79fd66a238baaf2
 Description-en: GObject introspection data for AccountService
@@ -1551,6 +1581,42 @@ Description-en: Free Remote Desktop Protocol library (core library)
  Desktop Protocol (RDP).
  .
  This package contains the shared library with all core functionality.
+
+Package: libgs-dev
+Description-md5: f4c1713297a6c688a87d0b2876caf1fa
+Description-en: interpreter for the PostScript language and for PDF - Development Files
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides the development files for the GPL Ghostscript
+ library which makes the facilities of GPL Ghostscript available to
+ applications.
+
+Package: libgs9
+Description-md5: 77d0d233cd004663a71b1ef44e87d3f1
+Description-en: interpreter for the PostScript language and for PDF - Library
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides the Ghostscript library which makes the
+ facilities of GPL Ghostscript available to applications.
+
+Package: libgs9-common
+Description-md5: f08f64f97de70ffa2ec3f07307565bf1
+Description-en: interpreter for the PostScript language and for PDF - common files
+ GPL Ghostscript is used for PostScript/PDF preview and printing.
+ Usually as a back-end to a program such as ghostview, it can display
+ PostScript and PDF documents in an X11 environment.
+ .
+ This package provides common architecture-independent files needed by
+ the GPL Ghostscript library.
+ .
+ By default, GPL Ghostscript uses a font from the fonts-droid package to
+ approximate glyphs in PDFs for which the requested CJK TrueType font
+ is missing.  If the fonts-droid package is not installed, these glyphs
+ will be rendered as bullets.
 
 Package: libipset-dev
 Description-md5: 56b64486a09f8c5918b00de0081f987f
@@ -8772,6 +8838,30 @@ Description-en: LDB Python 3 bindings - development files
  database.
  .
  This package contains the development files for the Python 3 bindings.
+
+Package: python3-lxml
+Description-md5: e8e2f787207511401ce91418255455e6
+Description-en: pythonic binding for the libxml2 and libxslt libraries
+ lxml is a new Python binding for libxml2 and libxslt, completely
+ independent from existing Python bindings. Its aim:
+ .
+   * Pythonic API.
+   * Documented.
+   * Use Python unicode strings in API.
+   * Safe (no segfaults).
+   * No manual memory management!
+ .
+ lxml aims to provide a Pythonic API by following as much as possible
+ the ElementTree API, trying to avoid inventing too many new APIs,
+ or the user's having to learn new things -- XML is complicated enough.
+
+Package: python3-lxml-dbg
+Description-md5: dc60d3e32c93635f03d6f9f774d9845a
+Description-en: pythonic binding for the libxml2 and libxslt libraries (debug extension)
+ lxml is a new Python binding for libxml2 and libxslt, completely
+ independent from existing Python bindings.
+ .
+ This package contains the extension built for the Python3 debug interpreter.
 
 Package: python3-problem-report
 Description-md5: 9c38d91ac205b1680832021377d9156d

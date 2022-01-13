@@ -958,7 +958,7 @@ SHA512: 509afa37f000e645503863f16b958a0ad3fcb478918719e01cf0a7a639483e653684e996
 Homepage: https://github.com/canonical/lightdm
 Description: Typelib file for liblightdm-1
 Description-md5: 15edc3a87b41d0dccba5699c5b28aa73
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: gir1.2-signon-2.0
 Architecture: amd64
@@ -1604,7 +1604,7 @@ Homepage: https://github.com/canonical/lightdm
 Description: LightDM GObject client library
 Task: xubuntu-core, xubuntu-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: 6c3bad2fb3c13c192ee2080b06f2b9b2
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: liblightdm-gobject-1-dev
 Architecture: amd64
@@ -1627,7 +1627,7 @@ SHA512: 7f43b911d4bfbf63b25fa4d8aa7bcb3567ad1f8ec90d793fc0be2417be20e17d38ad4f09
 Homepage: https://github.com/canonical/lightdm
 Description: LightDM GObject client library (development files)
 Description-md5: 7b47429d527a03b25da17dce04d74b8e
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: liblightdm-gobject-1-doc
 Architecture: all
@@ -1648,7 +1648,7 @@ SHA512: 41dfda85eb4c32dc5e3ebda9eb3391de63cb78ab717429a4bcdcc20132bf2c8906f41adb
 Homepage: https://github.com/canonical/lightdm
 Description: LightDM client library (documentation)
 Description-md5: ed7ca117d51a427f54238d598a2c843e
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: liblightdm-qt5-3-0
 Architecture: amd64
@@ -1673,7 +1673,7 @@ Homepage: https://github.com/canonical/lightdm
 Description: LightDM Qt 5 client library
 Task: ubuntukylin-desktop
 Description-md5: 14bad12e84d0c8c995dabc65095c9b02
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: liblightdm-qt5-3-dev
 Architecture: amd64
@@ -1696,7 +1696,7 @@ SHA512: d83b69b0a3d6a56fc9edd8a302f1e587c861e9b2aa8a9b6ab33c9f64afa668ab253183cc
 Homepage: https://github.com/canonical/lightdm
 Description: LightDM Qt 5 client library (development files)
 Description-md5: befe4f3f090b62ea12a3d96e66eeecbd
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: liblog4j1.2-java
 Architecture: all
@@ -4072,7 +4072,7 @@ Homepage: https://github.com/canonical/lightdm
 Description: Display Manager
 Task: xubuntu-core, xubuntu-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: a04ec89b09d7becf8ba288295841fad0
-Phased-Update-Percentage: 10
+Phased-Update-Percentage: 40
 
 Package: mariadb-backup
 Architecture: amd64
@@ -5638,7 +5638,7 @@ SHA256: 321479a17a55c8f9ff9716868a5203a3b4490903dd2dcc0f460b6e684e2330f1
 SHA512: 72ddc608a01a6ae330692296d4e9d1ea627cdab14817acc0188e9faddf888dce4a0bd81ed8c3dfbcb8ab117c9130e2ad7e806d724c93c04f877a541f5c3cc78f
 Description: Plasmoid for controlling NVIDIA Optimus graphics cards
 Description-md5: cb532660283ebe79ab08036e71a948c3
-Phased-Update-Percentage: 20
+Phased-Update-Percentage: 50
 
 Package: postgresql-server-dev-13
 Architecture: amd64
@@ -5820,6 +5820,29 @@ Homepage: http://www.mate-desktop.org/
 Description: Python binding for Caja components (common files)
 Task: ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: 186f661a5677212ba94f2c26184e65b2
+
+Package: python-lxml-doc
+Architecture: all
+Version: 4.6.3+dfsg-0.1ubuntu0.2
+Multi-Arch: foreign
+Priority: extra
+Section: universe/doc
+Source: lxml
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1697
+Recommends: python3-lxml
+Filename: pool/universe/l/lxml/python-lxml-doc_4.6.3+dfsg-0.1ubuntu0.2_all.deb
+Size: 267670
+MD5sum: 0bbdc096b06bc4caca16262806512901
+SHA1: 5c5dfd0608834480ce8d7235821b587eb5144beb
+SHA256: 74baa818f8abbd9fbe2d2adce7d39cafcce9d0793e0882d18ca02922cc35581b
+SHA512: 68e13baeaf38b63279a5b98dc5d6ec21e52f5d78700ddac2d08cd9ce0b930feef606c71fa91dbf366327d894c80248944a45a88e406a08ea361c4e9631644205
+Homepage: http://lxml.de/
+Description: pythonic binding for the libxml2 and libxslt libraries (documentation)
+Description-md5: 86c3002728b00f49dc1d8a0e4e843699
 
 Package: python3-access2base
 Architecture: all

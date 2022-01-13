@@ -87,6 +87,10 @@ name: firefox
 version: 95.0.1+build2-0ubuntu0.21.10.1
 commands: firefox,gnome-www-browser,x-www-browser
 
+name: ghostscript
+version: 9.54.0~dfsg1-0ubuntu2.1
+commands: dvipdf,eps2eps,ghostscript,gs,gsbj,gsdj,gsdj500,gslj,gslp,gsnd,pdf2dsc,pdf2ps,pf2afm,pfbtopfa,pphs,printafm,ps2ascii,ps2epsi,ps2pdf,ps2pdf12,ps2pdf13,ps2pdf14,ps2pdfwr,ps2ps,ps2ps2,ps2txt,update-gsfontmap
+
 name: ipset
 version: 7.10-1ubuntu0.21.10.1
 commands: ipset
