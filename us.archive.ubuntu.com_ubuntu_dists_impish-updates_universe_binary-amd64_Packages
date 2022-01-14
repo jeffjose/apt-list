@@ -644,40 +644,40 @@ Description-md5: 513f0ba596c268d92ac11f491c899024
 
 Package: firefox-geckodriver
 Architecture: amd64
-Version: 95.0.1+build2-0ubuntu0.21.10.1
+Version: 96.0+build2-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: firefox
 Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 3729
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), firefox (= 95.0.1+build2-0ubuntu0.21.10.1)
-Filename: pool/universe/f/firefox/firefox-geckodriver_95.0.1+build2-0ubuntu0.21.10.1_amd64.deb
-Size: 1214788
-MD5sum: 33ea8d71cd9d349343d9ad8670fd5ff7
-SHA1: 36ce0ddae1eb70cf26cb8fae3cb9e958bb950c83
-SHA256: 1ed0f95339bc5ec732b8383d54fb9a7f158f9649fae1daf18a0531cf5a2f14c8
-SHA512: 7ba04af1fdd95911efb0b6ae90720eb07f0766cddb7fe8ef72ae88718a2fff9efd70d401ba543ed212797850f118cdb97001a77075816811f58d5f0be389805a
+Installed-Size: 3733
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), firefox (= 96.0+build2-0ubuntu0.21.10.1)
+Filename: pool/universe/f/firefox/firefox-geckodriver_96.0+build2-0ubuntu0.21.10.1_amd64.deb
+Size: 1215670
+MD5sum: 6099d944db1fe6c09c8c1dc27f681c9e
+SHA1: c0ea69855e711cc387c587dd07f98409594b1282
+SHA256: 66f5018155ee6bbf0f24ce4bffd1c013fbfb4e74b974da62dd3edf22d6c55035
+SHA512: acd9e7e4781da704ad1ada8c3e97083abd3cf9a708edd158e585f00a2457da517c63f143621e927341407f6dc379c94e5cd05c6351886c56ac7eef64595748b9
 Description: Safe and easy web browser from Mozilla - geckodriver
 Description-md5: f720f625e9a0770cb777ddb0c62c22e3
 
 Package: firefox-mozsymbols
 Architecture: amd64
-Version: 95.0.1+build2-0ubuntu0.21.10.1
+Version: 96.0+build2-0ubuntu0.21.10.1
 Priority: extra
 Section: universe/debug
 Source: firefox
 Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 41232
-Filename: pool/universe/f/firefox/firefox-mozsymbols_95.0.1+build2-0ubuntu0.21.10.1_amd64.deb
-Size: 37456218
-MD5sum: abd59fbc69dd7eb78e62d0a07599c907
-SHA1: b51b5494ff963933a46a7553d786b7f46866cb26
-SHA256: 5abee927b976736843eedcf4f6f50c5a7a07f9f74d67f82ba38547e6d9519137
-SHA512: 5e6b8f609d3540fddc5bd839253a29dda00a08d776225cac277ea40488a70b0d08039e912af93e49facbbaa3c1031d2db9de37a040e455961675ee172045a0d0
+Installed-Size: 41784
+Filename: pool/universe/f/firefox/firefox-mozsymbols_96.0+build2-0ubuntu0.21.10.1_amd64.deb
+Size: 38121732
+MD5sum: 4420adf1d1a4a1e3768d09ca6192e610
+SHA1: 74209c0b745511c22836873d70f0e7dacb425dba
+SHA256: 717a5a3ee8bf98bbf3059646328824b2ecf5e3f8b49f5cfe6eb728b9b802f383
+SHA512: 80ef3f1f0373540f93c0937f69200a72d0aeb6ed84592894284983b32ffaaa0b2705ef67f58c17c218f0d3b4004a0367b21f85979761650c42917cb86441c61d
 Description: Safe and easy web browser from Mozilla - Breakpad symbols
 Description-md5: 1398643ad4fb0f820933502f6bba9816
 
@@ -958,7 +958,6 @@ SHA512: 509afa37f000e645503863f16b958a0ad3fcb478918719e01cf0a7a639483e653684e996
 Homepage: https://github.com/canonical/lightdm
 Description: Typelib file for liblightdm-1
 Description-md5: 15edc3a87b41d0dccba5699c5b28aa73
-Phased-Update-Percentage: 40
 
 Package: gir1.2-signon-2.0
 Architecture: amd64
@@ -1604,7 +1603,6 @@ Homepage: https://github.com/canonical/lightdm
 Description: LightDM GObject client library
 Task: xubuntu-core, xubuntu-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: 6c3bad2fb3c13c192ee2080b06f2b9b2
-Phased-Update-Percentage: 40
 
 Package: liblightdm-gobject-1-dev
 Architecture: amd64
@@ -1627,7 +1625,6 @@ SHA512: 7f43b911d4bfbf63b25fa4d8aa7bcb3567ad1f8ec90d793fc0be2417be20e17d38ad4f09
 Homepage: https://github.com/canonical/lightdm
 Description: LightDM GObject client library (development files)
 Description-md5: 7b47429d527a03b25da17dce04d74b8e
-Phased-Update-Percentage: 40
 
 Package: liblightdm-gobject-1-doc
 Architecture: all
@@ -1648,7 +1645,6 @@ SHA512: 41dfda85eb4c32dc5e3ebda9eb3391de63cb78ab717429a4bcdcc20132bf2c8906f41adb
 Homepage: https://github.com/canonical/lightdm
 Description: LightDM client library (documentation)
 Description-md5: ed7ca117d51a427f54238d598a2c843e
-Phased-Update-Percentage: 40
 
 Package: liblightdm-qt5-3-0
 Architecture: amd64
@@ -1673,7 +1669,6 @@ Homepage: https://github.com/canonical/lightdm
 Description: LightDM Qt 5 client library
 Task: ubuntukylin-desktop
 Description-md5: 14bad12e84d0c8c995dabc65095c9b02
-Phased-Update-Percentage: 40
 
 Package: liblightdm-qt5-3-dev
 Architecture: amd64
@@ -1696,7 +1691,6 @@ SHA512: d83b69b0a3d6a56fc9edd8a302f1e587c861e9b2aa8a9b6ab33c9f64afa668ab253183cc
 Homepage: https://github.com/canonical/lightdm
 Description: LightDM Qt 5 client library (development files)
 Description-md5: befe4f3f090b62ea12a3d96e66eeecbd
-Phased-Update-Percentage: 40
 
 Package: liblog4j1.2-java
 Architecture: all
@@ -1916,7 +1910,7 @@ Description-md5: 600b29d53c1dad3be832c6eca2a12669
 
 Package: libnss-myhostname
 Architecture: amd64
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: extra
 Section: universe/admin
@@ -1927,19 +1921,19 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 305
 Depends: libc6 (>= 2.34)
-Filename: pool/universe/s/systemd/libnss-myhostname_248.3-1ubuntu8.1_amd64.deb
-Size: 52844
-MD5sum: 429c0b2c5f375ae410212e2c208c61b8
-SHA1: fe8b1fd764b29db3add526335332cd4f40755729
-SHA256: a4e7b3523fd8504215a3a7183a2e3f50084108500c25900a563740248fedc02c
-SHA512: 57f26a38fe4bd84b0a60f35e6bb06eb957add9e5dfd52eea0079ab34cff804208804f7055f5242c76fef6c80cac96a0df69b1160830108a436cfa70e1c673153
+Filename: pool/universe/s/systemd/libnss-myhostname_248.3-1ubuntu8.2_amd64.deb
+Size: 52938
+MD5sum: 8c70a509ee0dbaff53340c32e9a80da0
+SHA1: 1b149f3bd2475853d4548a9ccf2ddc73a2e78f92
+SHA256: 8f585610e7690e845513c9f0259827d73a47744ab9cb2644d1e9f186fb9ab3db
+SHA512: d6a69a3d03320da5c6b9e732733dee04f1cee43d4e92bb589a3075e864dfeff67ec0d7d615bbef100b738392e42334c7a613f1c9bc2e515ff3f6816f44e33c3f
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: nss module providing fallback resolution for the current hostname
 Description-md5: 0bec93cc0b56ef90c11c1a7842dd8f8a
 
 Package: libnss-resolve
 Architecture: amd64
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: optional
 Section: universe/admin
@@ -1949,13 +1943,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 325
-Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.1)
-Filename: pool/universe/s/systemd/libnss-resolve_248.3-1ubuntu8.1_amd64.deb
-Size: 72258
-MD5sum: 70a123b7a4808c6fca55fb11f6e1f253
-SHA1: 30b563ca5d88af44eff7a186bfe9ae9a3b6a42c7
-SHA256: 36e80a0b244b318e7747a0d2b23e5f6f8ced6c9e0e3b6f883df92fba54120406
-SHA512: bf75790a1303942f22fe01fc00812eae15535354efe2d321b3678f6c0ae7249899a33f32a643bdf6f3d8158bc1eb1bce8cc746c9bee49bc5511f5d3037b27aa2
+Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.2)
+Filename: pool/universe/s/systemd/libnss-resolve_248.3-1ubuntu8.2_amd64.deb
+Size: 72256
+MD5sum: fc38969e14bf94321b2b8a670c6c4aa5
+SHA1: 7a22a756522594a3020ba365c14c05ee2d723cfb
+SHA256: 32f3d9cf69818dd58e5f852df59351352556e8cd965608cc85c146e3392f3a72
+SHA512: a023232209534eef701d0409f60fcae3928ded2549ddc895f2c7318bf79986b3e3a64ce4f1f81e44c0fde180f92c217d9648bd3bb2fad14d68d2ca8b6413554a
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: nss module to resolve names via systemd-resolved
 Description-md5: fa2bc74d218dfae9ad286df8f31fa19f
@@ -4072,7 +4066,6 @@ Homepage: https://github.com/canonical/lightdm
 Description: Display Manager
 Task: xubuntu-core, xubuntu-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: a04ec89b09d7becf8ba288295841fad0
-Phased-Update-Percentage: 40
 
 Package: mariadb-backup
 Architecture: amd64
@@ -5638,7 +5631,6 @@ SHA256: 321479a17a55c8f9ff9716868a5203a3b4490903dd2dcc0f460b6e684e2330f1
 SHA512: 72ddc608a01a6ae330692296d4e9d1ea627cdab14817acc0188e9faddf888dce4a0bd81ed8c3dfbcb8ab117c9130e2ad7e806d724c93c04f877a541f5c3cc78f
 Description: Plasmoid for controlling NVIDIA Optimus graphics cards
 Description-md5: cb532660283ebe79ab08036e71a948c3
-Phased-Update-Percentage: 50
 
 Package: postgresql-server-dev-13
 Architecture: amd64
@@ -6871,7 +6863,7 @@ Description-md5: de0084e5f09677837e67de8ea99b1377
 
 Package: systemd-coredump
 Architecture: amd64
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: optional
 Section: universe/admin
@@ -6882,22 +6874,22 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 317
 Provides: core-dump-handler
-Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libelf1 (>= 0.131), systemd (= 248.3-1ubuntu8.1), adduser
+Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libelf1 (>= 0.131), systemd (= 248.3-1ubuntu8.2), adduser
 Conflicts: core-dump-handler
 Replaces: core-dump-handler
-Filename: pool/universe/s/systemd/systemd-coredump_248.3-1ubuntu8.1_amd64.deb
-Size: 52918
-MD5sum: 78a842ff530b790fe3f63d7a44be3a30
-SHA1: b2c62daabbc8df3c8b1c7a686e1e5c2101c0451e
-SHA256: d70b470df90541f907471fe22722541a406ff1342006a607bc948372efa38640
-SHA512: 0e97488d26901864ed637c1f4c932617bca6a900581199d64b147c66cb2f5bfa16a9cce3bf7474e210d0f1cc4026211b0a483499c8007333ec2fe7c122628ff9
+Filename: pool/universe/s/systemd/systemd-coredump_248.3-1ubuntu8.2_amd64.deb
+Size: 52902
+MD5sum: ae7e0bc0601268e2e5aaf065321885cb
+SHA1: 044de992e2bd676716bdf47b70247ba284787f5d
+SHA256: d625881b7b80184a1ab113c44a4333308f2b68685663a478e4dc186cdc26f722
+SHA512: 9cfc9d0246bb7e37d6320a32fd7ec015adca7a15256898d6b523a01967645c3878f9b0c3f1721042f713bf34cb4ede81687568e0ebd92cd86015a08ebc6911a0
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: tools for storing and retrieving coredumps
 Description-md5: 149b22bdf2366b7d731957d1b710e54f
 
 Package: systemd-journal-remote
 Architecture: amd64
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: optional
 Section: universe/admin
@@ -6907,22 +6899,22 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 389
-Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libgnutls30 (>= 3.7.0), libmicrohttpd12 (>= 0.9.50), systemd (= 248.3-1ubuntu8.1), adduser
+Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libgnutls30 (>= 3.7.0), libmicrohttpd12 (>= 0.9.50), systemd (= 248.3-1ubuntu8.2), adduser
 Breaks: systemd (<< 239-6)
 Replaces: systemd (<< 239-6)
-Filename: pool/universe/s/systemd/systemd-journal-remote_248.3-1ubuntu8.1_amd64.deb
-Size: 67404
-MD5sum: d3ae26a34850c4f19090b3e0a9116bb3
-SHA1: a0a380a40085cbf6b0c106ec88dd5fd844730332
-SHA256: 5f1745c7cdb1e71ea9dde4a6d96a1017059fb12454bf9644e8a5b52fb046145f
-SHA512: f48da95ed43072c20f7c10d6da3b5888846d2c5b2df525e27484ca163a71ef2b5ce5dfbcffff6de2f25c20e1e4d990fd16c59f511ea714bc6865ed2b655d3f4b
+Filename: pool/universe/s/systemd/systemd-journal-remote_248.3-1ubuntu8.2_amd64.deb
+Size: 67400
+MD5sum: 58581f9761af9c8aac8a4b0402e56005
+SHA1: 64424b03badd819e12d80a7bf85fe4019719896a
+SHA256: e5880a85bba1ded514d3f82bbbded556a1a57e14bcd03c088608c73c947b7040
+SHA512: d6b72bbc59cec7eb5695aca36a8101f2ce51cc2222f5b9a77b7b4ee7dcca9e95c492a04180e16aed67a19aa200fcac8b5e5aa1ffa1b63077ca5834ab4f3574da
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: tools for sending and receiving remote journal logs
 Description-md5: 6bd80842a0c96acb169877c7a6a25ff6
 
 Package: systemd-tests
 Architecture: amd64
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Priority: optional
 Section: universe/admin
 Source: systemd
@@ -6931,13 +6923,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 36790
-Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libdbus-1-3 (>= 1.9.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.26.0), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libselinux1 (>= 3.1~), libsystemd0 (= 248.3-1ubuntu8.1), libudev1 (>= 247), libzstd1 (>= 1.4.0), systemd (= 248.3-1ubuntu8.1), zlib1g (>= 1:1.1.4), python3
-Filename: pool/universe/s/systemd/systemd-tests_248.3-1ubuntu8.1_amd64.deb
-Size: 6292924
-MD5sum: 02f6ce7c42f0dbdb48a8adf3daea0e6b
-SHA1: c5d707bfc7a7dd15ec9d3458766ba5e7debe20ad
-SHA256: 03c7597023d66422acb0fe493e41256bfe647d9bc9b58a5d62fb9d52392ded2b
-SHA512: 0cc47f8f84c1da0245d9a79ad834a4636fa2d659a8168138cd1c483ade0be02b269816657bd20c34768cb5182436480a4158ae279ad424ad2592f2f6bb939be2
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libdbus-1-3 (>= 1.9.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.26.0), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libselinux1 (>= 3.1~), libsystemd0 (= 248.3-1ubuntu8.2), libudev1 (>= 247), libzstd1 (>= 1.4.0), systemd (= 248.3-1ubuntu8.2), zlib1g (>= 1:1.1.4), python3
+Filename: pool/universe/s/systemd/systemd-tests_248.3-1ubuntu8.2_amd64.deb
+Size: 6294082
+MD5sum: 4b08b1122d9cd22d4699d7f19e6ec9b8
+SHA1: 6a9bd5183a97596335d28386545c72ce7dd633be
+SHA256: 5b276f12a4361341f0c54b05e1e6f0c362fa5e7ca43b400dfeca22fb76cad815
+SHA512: 78d6a39c5db497f37f11b6e00a679413f7ef07aca8bee99ba27b899de1c3ad65ed80faa64bd984a7ba20b88939e36d5cf85be22fd011ea33404a703adb045ce1
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: tests for systemd
 Description-md5: ece07db851f8a2e9731975ec11eedb8d
@@ -6983,26 +6975,27 @@ Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
 
 Package: ubuntu-advantage-pro
 Architecture: all
-Version: 27.4.2~21.10.1
+Version: 27.5~21.10.1
 Priority: optional
 Section: universe/misc
 Source: ubuntu-advantage-tools
 Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 31
+Installed-Size: 32
 Depends: ubuntu-advantage-tools (>= 20.2)
 Breaks: ubuntu-advantage-tools (<< 20.2)
 Replaces: ubuntu-advantage-tools (<< 20.2)
-Filename: pool/universe/u/ubuntu-advantage-tools/ubuntu-advantage-pro_27.4.2~21.10.1_all.deb
-Size: 2410
-MD5sum: 189307ba1cce2dcf6cf0e76a7eb7088c
-SHA1: 015479a4d48d7ce1a5f4a237b6393ee0c0ebf345
-SHA256: 4b07e6a200d2f18fa616c21ce3416e0d5ce30f58d2b8674d9f9196f6df92b6d2
-SHA512: 0695d6f505b04665c6ab55c3e33297f8e314ec2d3cf3194207722e0c6112e72189969c7199f996a3e334e8c6b08d3846546ad5a6c7d3c71b27930ef5328d6021
-Homepage: https://buy.ubuntu.com
+Filename: pool/universe/u/ubuntu-advantage-tools/ubuntu-advantage-pro_27.5~21.10.1_all.deb
+Size: 2402
+MD5sum: 43781effe1ad1894f97808821969d75d
+SHA1: d34167d70880b05446151e96a03c732d438987a5
+SHA256: 3d2e18e7da75aff6ebfd59db8655481beed0bdb653e989c03b1ac7e68235c8c7
+SHA512: c9028b928c3a2b649bb6df429323c9ac8c73a6d6238b25decbca7d3238a60b11af005c593639c4a67b84d89dc3830249724f2184994b6629c5ca0499ac742a54
+Homepage: https://ubuntu.com/advantage
 Description: utilities and services for Ubuntu Pro images
 Description-md5: 0955f8932fb5fd228c2859fd480ba115
+Phased-Update-Percentage: 40
 
 Package: udhcpc
 Architecture: amd64

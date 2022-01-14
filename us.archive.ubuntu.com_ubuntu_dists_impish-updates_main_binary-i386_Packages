@@ -1874,7 +1874,7 @@ Description-md5: 49de807663510f5f2afd3e71efe199f1
 
 Package: libnss-mymachines
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: extra
 Section: admin
@@ -1884,20 +1884,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 517
-Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), systemd-container (= 248.3-1ubuntu8.1)
-Filename: pool/main/s/systemd/libnss-mymachines_248.3-1ubuntu8.1_i386.deb
-Size: 155930
-MD5sum: ff9a8c552905f02e9a901f9a50ccb679
-SHA1: d1482d673a5b5b506b031368fad4aaecbd2269eb
-SHA256: aee53b84cce8b65ddfe9e614e7de8c6716833a0aee965f92015a1c503f662e6c
-SHA512: c160fb09409842224b171546b63bcae63a4eb064d65fce80f6fe241aa613658a782d327122c9f7e569e3caa430e9530b3df44e0d3e69e3fea1c82fc955bab497
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), systemd-container (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libnss-mymachines_248.3-1ubuntu8.2_i386.deb
+Size: 155918
+MD5sum: 5e81dd01c2a0b0ae85256c347b412e0b
+SHA1: d19274926ce7e85ea64bf0d6f005ea7619521996
+SHA256: a348224a80a5d42ab41809959154252b2a3a9a3dc2164ac77305fc9266a48efb
+SHA512: 9a6594bc708e96340527819d095af28254c233f8a950a27b5a7855c737f4fe99ce4d6d9e5050f044497f268a6f1adb2ddd887c2b0054f75b95f2ce8a260ad17f
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: nss module to resolve hostnames for local container instances
 Description-md5: 588342105e1fdd6ff74c093651cb80cc
 
 Package: libnss-systemd
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: important
 Section: admin
@@ -1907,13 +1907,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 464
-Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.1)
-Filename: pool/main/s/systemd/libnss-systemd_248.3-1ubuntu8.1_i386.deb
-Size: 128408
-MD5sum: 4718f93bab93a606330e66933c38cbec
-SHA1: 3aebe1ccd2115bdf8da71813d043c7d779c8a2ed
-SHA256: 1d27e1cf2f55abc1bb8b6c76b2bfeaad5ce7b53bb7a78151b47115b9f7d13fae
-SHA512: 3e0e44db9a06af582e8b73c0cb2727d2b2eefad695197929b4f71d39ccaaf92590ade9ad13b834fe3d770dda80f1a768d5f147fc910f1ac1294512beefa42e07
+Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libnss-systemd_248.3-1ubuntu8.2_i386.deb
+Size: 128406
+MD5sum: 84c4373cdbdbf253b039f1f454cc5696
+SHA1: addd11192c1430340e9160a173fce21889109206
+SHA256: 089bcfc967f269461db353d0c115f852f6cd189fd8660d2e7554c1d14d6f5d55
+SHA512: 3a368404e187e48f527941033cc951387bce496dbeb4edd615d9e3ddfcf17c78dea480e0da76661725fd09a516af094fa78929915cd01d7919a2ba865e558782
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: nss module providing dynamic user and group name resolution
 Task: minimal
@@ -1995,7 +1995,7 @@ Description-md5: 04c0a8f989d299406710231d2a99043d
 
 Package: libpam-systemd
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: important
 Section: admin
@@ -2005,14 +2005,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 639
-Provides: default-logind (= 248.3-1ubuntu8.1), logind (= 248.3-1ubuntu8.1)
-Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libpam0g (>= 0.99.7.1), systemd (= 248.3-1ubuntu8.1), libpam-runtime (>= 1.0.1-6), dbus, systemd-sysv
-Filename: pool/main/s/systemd/libpam-systemd_248.3-1ubuntu8.1_i386.deb
-Size: 209150
-MD5sum: 7975f6cc77012729aef43422894bad23
-SHA1: 5bd8cbb3dfb91adbe9c545bde47247de8071fe56
-SHA256: 2366a252f7ece19c817613ea551b39dedeb27e53ad4c78d9966753402021db40
-SHA512: 666d59b5a80c0ae0a458c7038576ec6cf9df6e24f60835e273c2ad8bbf54a4647cff061e681b64c3691b705430bca1af8152e156120861ffdc6736f9bff45696
+Provides: default-logind (= 248.3-1ubuntu8.2), logind (= 248.3-1ubuntu8.2)
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libpam0g (>= 0.99.7.1), systemd (= 248.3-1ubuntu8.2), libpam-runtime (>= 1.0.1-6), dbus, systemd-sysv
+Filename: pool/main/s/systemd/libpam-systemd_248.3-1ubuntu8.2_i386.deb
+Size: 209470
+MD5sum: 78b38190310ef8bc4d000d326b0f1b9c
+SHA1: 8063d8f2e57d48d9bfaf23d2303fea75ba6b8806
+SHA256: c27e57a85c7af1800c85ba4631008210116e880c58bcdd0eb3498e8949d3702e
+SHA512: 0d08552fafd77b1aa6054aebb76f301fbd74c85d6f52646c2fe3552a5dcdd648a00d1a7036a049cbf5646b41ae72579673df353c8d23a0fdb91cc1cd0fbad31b
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: system and service manager - PAM module
 Task: minimal
@@ -5982,7 +5982,7 @@ Description-md5: 88547c6206c7fbc4fcc7d09ce100d210
 
 Package: libsystemd-dev
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -5992,20 +5992,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1143
-Depends: libsystemd0 (= 248.3-1ubuntu8.1)
-Filename: pool/main/s/systemd/libsystemd-dev_248.3-1ubuntu8.1_i386.deb
-Size: 303356
-MD5sum: f7c1d880d84902c1e5cf23fa412a35a1
-SHA1: be2e5f688d0b4a212091edad892a2b8b8574b3e2
-SHA256: 0c79e1ca1fe31944b2bd0973feb1d985c70daf8d05234118500adac8a3456243
-SHA512: 382cd9667addc3b2fec723fb9996a8f6ab9507e278bdcbbe68bd158d03e2b3281343388f499089accf510b6ccc107da1e2cf08349ee2aa3968cd3549612e51f6
+Depends: libsystemd0 (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libsystemd-dev_248.3-1ubuntu8.2_i386.deb
+Size: 303394
+MD5sum: b52b4389a28dc807611c06d1ef4027bd
+SHA1: 8aa71fe60b4962591fb6423e871e1652800b370b
+SHA256: c753dd3dfd6aac2129cece37967c5319b6a5b4aaeabb844454de0f3fffc82098
+SHA512: db042b6562398c17d7baa41ea7e22db1ce3856d89d99190b3a2209744189d13fe98d97181412a886f4c4fcf3124da657bd633f12c4ec6a375af3eb9334d50013
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: systemd utility library - development files
 Description-md5: 7122bf9ab5ca8703093117a2cda0fe22
 
 Package: libsystemd0
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: required
 Section: libs
@@ -6016,12 +6016,12 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 983
 Pre-Depends: libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)
-Filename: pool/main/s/systemd/libsystemd0_248.3-1ubuntu8.1_i386.deb
-Size: 329828
-MD5sum: d99809da414392cb8ffb8a04f95f39e9
-SHA1: bf38f4e17dd5c8c2097a860ab36de6c42cd24a17
-SHA256: 102a7460e228ccc31f3abb33bb37cf17614b1b8d0277ee9c03991a1f000d20e5
-SHA512: dcf9e01337e02b20e8f21c0b85c35d37d01a6b020be08e55da90002c6f755ec95711b91a69e1dff01759079a876ae725b3d7c1085069dccdcdf603f2c82459ae
+Filename: pool/main/s/systemd/libsystemd0_248.3-1ubuntu8.2_i386.deb
+Size: 329918
+MD5sum: ab38d45554a5e5e2199d1b1d7ddeaa25
+SHA1: e23eb0c6778f2d5a4beb4ef1280f9fbbda51e141
+SHA256: 28acbbe5add1063e45355b3d0ecff5591857425bd5ae9034e939c91348b1f862
+SHA512: 23e1c8c58c5a6e9fa1af6f954a51a62889a229a9557b0c9363ecf9ded6ec6db24f5fc209357808c7959c675a1a12b02f637439e7a76d180ee3b36bbe95ef4815
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: systemd utility library
 Task: minimal, server-minimal
@@ -6029,7 +6029,7 @@ Description-md5: 92180a6b506aa0eff52136aeb8212dc6
 
 Package: libudev-dev
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: optional
 Section: admin
@@ -6039,20 +6039,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 254
-Depends: libudev1 (= 248.3-1ubuntu8.1)
-Filename: pool/main/s/systemd/libudev-dev_248.3-1ubuntu8.1_i386.deb
-Size: 20690
-MD5sum: 00f3a6453604a55ba28ce07c3b0a53f9
-SHA1: a2dfacc7e4efe5ca3ed70de85549dbc9e59c5644
-SHA256: 488bab5b30ec539441c9add15b34479b1368f2c2c1a4b33a4f715f0ce9cfc404
-SHA512: f0eec0cb4e24d08aec263750741cc09209720b4818d0590db2f7a49d90204b7feda7def36ba0eaf2d1ed83505817c87d4c693449c4dc1341d3f4d181d54f0d7f
+Depends: libudev1 (= 248.3-1ubuntu8.2)
+Filename: pool/main/s/systemd/libudev-dev_248.3-1ubuntu8.2_i386.deb
+Size: 20684
+MD5sum: 1c1745db8522672f2d25cb2442dc451e
+SHA1: 3924a8271ffb665aa354547a3e6f927e7f9d52a8
+SHA256: 4dc14f714a1b4cc3a09c8631d4513edc6f38304ac7685b1fd7907c77f04f121b
+SHA512: d3e35ffcbd4733ebe21bcdac0ceb5c2f3a3a743abec60397ec4fc68bbf8436d6fc21c869100073007eadba648aabfd62623013fb7179fb058659692ded42363a
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: libudev development files
 Description-md5: 4085049214953c1e2cf5d9aee1c32173
 
 Package: libudev1
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: same
 Priority: required
 Section: libs
@@ -6063,12 +6063,12 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 339
 Depends: libc6 (>= 2.34)
-Filename: pool/main/s/systemd/libudev1_248.3-1ubuntu8.1_i386.deb
-Size: 80036
-MD5sum: 87d81913a2dd1490f3ef7b710912f5cf
-SHA1: 9f82548b011437aca55aa8543dc686f171e33dd4
-SHA256: 3f45142dff0d40302df2fa985b7420c546e7ab65dd1d9a7239adc3132816092d
-SHA512: a423d621b7841b9975c0020b6c21d4a74d7c0da2f0f0db9debdd808b59405cab67ed668dc5b3f28d0574cd5bfec187bfa20f00c37a52b4ae86cd5723d520d05c
+Filename: pool/main/s/systemd/libudev1_248.3-1ubuntu8.2_i386.deb
+Size: 80126
+MD5sum: 41c75d56a5c224fbb54be0a3cb55cf55
+SHA1: e149d89524cf0cf0b2ebbecaf20f5ebf18836446
+SHA256: e887728160193b3cf871188c54d799a96858897b922227c9c10fe182fc062374
+SHA512: fd2bffdd1e0d368577fe6c7e4828ed4046dfb8d674e6ffca43e2296b06dd0a486495b18cf5ebef0820367f855faadfef6e123043720c882ca1e357807b170855
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: libudev shared library
 Task: minimal, server-minimal
@@ -8874,6 +8874,30 @@ Homepage: http://www.djangoproject.com/
 Description: High-level Python web development framework (documentation)
 Description-md5: 257e8ca2132ad054b44d0dd521e727f5
 
+Package: python-pil-doc
+Architecture: all
+Version: 8.1.2+dfsg-0.3ubuntu0.1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: pillow
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7543
+Depends: libjs-sphinxdoc (>= 2.4.3-5~), sphinx-rtd-theme-common (>= 0.5.1+dfsg)
+Suggests: python3-doc, python3-pil, python3-pil.imagetk
+Filename: pool/main/p/pillow/python-pil-doc_8.1.2+dfsg-0.3ubuntu0.1_all.deb
+Size: 589674
+MD5sum: 4c98278a70f330b2b393cd6c9f708bbf
+SHA1: fbff62417323be96dab1dcec276d22516bfe0835
+SHA256: c9f3ff46854656fa5b73ec56290a5022d2b5450e9ef2ebb4debeec0254b6d59a
+SHA512: b157da34d7954ed29895a1feeb85805ca30efefdc3b3fb69efb7c20aa65cea62239f9688dae17efa91dfc09885555e767cebb60246d91a9116f722257b45762f
+Homepage: http://python-pillow.github.io/
+Description: Examples for the Python Imaging Library
+Description-md5: 0cf86354863d856ed40290c421b7d497
+
 Package: python3-apport
 Architecture: all
 Version: 2.20.11-0ubuntu71
@@ -9437,7 +9461,7 @@ Description-md5: 60d8ad9f14179591b0cca394e94e3d4b
 
 Package: systemd
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: important
 Section: admin
@@ -9445,19 +9469,19 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 15612
+Installed-Size: 15624
 Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 3.1~), libzstd1 (>= 1.4.0)
-Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libcrypt1 (>= 1:4.4.0), libcryptsetup12 (>= 2:2.3), libgnutls30 (>= 3.7.0), libgpg-error0 (>= 1.14), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libsystemd0 (= 248.3-1ubuntu8.1), systemd-timesyncd | time-daemon, util-linux (>= 2.27.1), mount (>= 2.26), adduser
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libcrypt1 (>= 1:4.4.0), libcryptsetup12 (>= 2:2.3), libgnutls30 (>= 3.7.0), libgpg-error0 (>= 1.14), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libsystemd0 (= 248.3-1ubuntu8.2), systemd-timesyncd | time-daemon, util-linux (>= 2.27.1), mount (>= 2.26), adduser
 Recommends: dbus, networkd-dispatcher
 Suggests: systemd-container, policykit-1
 Conflicts: consolekit, libpam-ck-connector, systemd-shim, upstart
 Breaks: isc-dhcp-client (<< 4.4.1-2.1ubuntu7), python-dbusmock (<< 0.18), python3-dbusmock (<< 0.18), resolvconf (<< 1.83~), systemd-shim (<< 10-4~), udev (<< 247~)
-Filename: pool/main/s/systemd/systemd_248.3-1ubuntu8.1_i386.deb
-Size: 4478822
-MD5sum: 616aeec4bbcd8547879a38e755d70ac8
-SHA1: cb8033e5c0783fc8acc6e2014176a894d3b2cf43
-SHA256: d0144cb623f82c15cb31146623fc091428a6252717273e4296f3dfc9739d4f84
-SHA512: 84fc328149bb0d2e07293aca2b9ba95ed3e1f918f2efadfebf6bbe1da5fa1fb4ad3ca5313616176641a9c19f6ac20ffe92df1355a79309f9575e4a00ab2c2079
+Filename: pool/main/s/systemd/systemd_248.3-1ubuntu8.2_i386.deb
+Size: 4480144
+MD5sum: 3efdfef60a40b93ae0137e8ad79b07bb
+SHA1: 753f0677f4ba5a2641ab94fde1ed3667adc54c88
+SHA256: 16e809319b619349415706d03cd568c12f8e2bc114fdf54c761e2688526723f5
+SHA512: 3e44f7ce53c182cc2a66277d0ebde706669f548ca4034c46eb439a816cbfb1ebace32a165e5d20a03c035cf15dcc5b2532dc9aff79c4ce28b8664596702188d1
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: system and service manager
 Task: minimal, server-minimal
@@ -9465,7 +9489,7 @@ Description-md5: 19399579cbc0c47a303288bf15eadcd4
 
 Package: systemd-container
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: optional
 Section: admin
@@ -9475,21 +9499,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1286
-Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), systemd (= 248.3-1ubuntu8.1), zlib1g (>= 1:1.1.4), dbus
+Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), systemd (= 248.3-1ubuntu8.2), zlib1g (>= 1:1.1.4), dbus
 Recommends: libnss-mymachines
-Filename: pool/main/s/systemd/systemd-container_248.3-1ubuntu8.1_i386.deb
-Size: 371800
-MD5sum: 7abd1ecdf4867e680ce4dc18203fd272
-SHA1: 6e750a7cc23235bab892cfcab4ebeed378334b09
-SHA256: de9756e75e7514d56d97e5169b3b58c4d7b532bcecd5ace1331fb6301de88cb6
-SHA512: 4b86d5a14c7586458751ec12ca74dfce870c82ddb5f9a061db8d39083f7af7e46e8c338c5c72274e9c692025dc9d2d83654fa632d0904df3b14afed6e47cad99
+Filename: pool/main/s/systemd/systemd-container_248.3-1ubuntu8.2_i386.deb
+Size: 371816
+MD5sum: 474c87fc616ed76cdddfc495c4b9421d
+SHA1: 027130b090badc5a491df1728dfa05d41679a31c
+SHA256: 48e220a4a77508e5fff49431c0db1dae3cc9bd5df85b085113b9eb68fc7cdd3a
+SHA512: 613b74b389c16fb6e9267dbc65a5531c21015e6b4f088ca4d80d65156c29e111469ab5462cf8213d2bd83a0eb945bde51f58d79b76987714d4cd713ea8744fcb
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: systemd container/nspawn tools
 Description-md5: 06057fffc2ba14e4be80360a092a18b4
 
 Package: systemd-sysv
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: important
 Section: admin
@@ -9500,16 +9524,16 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 186
 Pre-Depends: systemd
-Depends: systemd (= 248.3-1ubuntu8.1)
+Depends: systemd (= 248.3-1ubuntu8.2)
 Recommends: libpam-systemd, libnss-systemd
 Conflicts: file-rc, systemd-shim, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
 Replaces: sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
-Filename: pool/main/s/systemd/systemd-sysv_248.3-1ubuntu8.1_i386.deb
-Size: 10486
-MD5sum: 80d3b0a027fe4925c03583b0c8a25594
-SHA1: fc198251cb0b279d8b5a4bdf12a067c436638442
-SHA256: b19910d654950a3032b7bcd8d8c4a2c304ea8e7553e4af088275a80d72a2c0fb
-SHA512: cd794762eff3151c14815206670f39488cbc784f512ba431bd0cf41738cfef386003ef61ef1034506ea2f071d9b5a6900c8411e7a02b64f384878dbf6907ba67
+Filename: pool/main/s/systemd/systemd-sysv_248.3-1ubuntu8.2_i386.deb
+Size: 10478
+MD5sum: 89fa226c3e60ed8d2d4f43d3f4ca4c9c
+SHA1: 99a4906240605903b444b74a9efeb0f98b749ada
+SHA256: 146684baffc69968d9934ec76aebd2baa97cb0824b2de204f1c01413f9981bbd
+SHA512: 65e85093830ca5286baad33366764b7e1774974c687413768a3d6398e2e826e998719e4ff8cb1ce095eb7cbe1ef3de2d55bc55c2f6738d4605265bc68dbb9473
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: system and service manager - SysV links
 Task: minimal, server-minimal
@@ -9517,7 +9541,7 @@ Description-md5: b0c2db4da8d807aa3f83a2977e491907
 
 Package: systemd-timesyncd
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: important
 Section: admin
@@ -9528,16 +9552,16 @@ Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.a
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 249
 Provides: time-daemon
-Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.1), adduser
+Depends: libc6 (>= 2.34), systemd (= 248.3-1ubuntu8.2), adduser
 Conflicts: time-daemon
 Breaks: systemd (<< 245.4-2~)
 Replaces: systemd (<< 245.4-2~), time-daemon
-Filename: pool/main/s/systemd/systemd-timesyncd_248.3-1ubuntu8.1_i386.deb
-Size: 31912
-MD5sum: 01a555b7c40309ff54477c39116c77f0
-SHA1: a17828a105dc205dc81acdc6ba0f62fdf8f0c49a
-SHA256: 8cead2d2d72d0eb0bf41c32f1484996fc2329cb18ba3fa8cf9193ef6870a01cb
-SHA512: 1e52bf096854cc53348dcc39ac16df05d9246bd8944bbf3b9039dec0620c57afb372b0fb317a9d460d54547524ef0e1245c7488f94432236b9f81f8753930be0
+Filename: pool/main/s/systemd/systemd-timesyncd_248.3-1ubuntu8.2_i386.deb
+Size: 31914
+MD5sum: 841fd83d998d1ed4b4a4c48b503c00a4
+SHA1: 11b21e62241d769b09d452d5515d572fb55e79e2
+SHA256: f61d068afe8c6543512dc14facb8b3170a479ac57ee8d6e0422b449dc218a199
+SHA512: 97ffc6377ec82ae6c8f3f0c6c7160558c2ee6880d77aa6cff0c8bfd1d3e58aae6ccbda4e80f4efc6e2f08225006329d81a8d9777aea16527b0356f682f466b0b
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: minimalistic service to synchronize local time with NTP servers
 Task: minimal, server-minimal
@@ -9897,7 +9921,7 @@ Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
 
 Package: udev
 Architecture: i386
-Version: 248.3-1ubuntu8.1
+Version: 248.3-1ubuntu8.2
 Multi-Arch: foreign
 Priority: important
 Section: admin
@@ -9907,16 +9931,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 9249
-Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libkmod2 (>= 5~), libselinux1 (>= 3.1~), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 248.3-1ubuntu8.1), util-linux (>= 2.27.1)
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.34), libcap2 (>= 1:2.24-9~), libkmod2 (>= 5~), libselinux1 (>= 3.1~), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 248.3-1ubuntu8.2), util-linux (>= 2.27.1)
 Conflicts: hal
-Breaks: systemd (<< 248.3-1ubuntu8.1)
+Breaks: systemd (<< 248.3-1ubuntu8.2)
 Replaces: systemd (<< 233-4)
-Filename: pool/main/s/systemd/udev_248.3-1ubuntu8.1_i386.deb
-Size: 1525722
-MD5sum: 0807b4a589e454bb952a393c07921d16
-SHA1: 65f89df73beb8baedb6f7481ab0d987a90e37799
-SHA256: 64bf6f0cf14b2a3e09f9ba592981aa20c2a1cc78d1d6453a7aaec5aa6706fea7
-SHA512: 7d5a762ec7838f00c9032e71572acdf4c3241ada7461b0efd5d1c17791ccf16c9d99c2e473faf9dafaafe78b1bba6069ef9b07f2cd215a487f2a43fbb437d47d
+Filename: pool/main/s/systemd/udev_248.3-1ubuntu8.2_i386.deb
+Size: 1525614
+MD5sum: ba112b922049700119843ea267f82e98
+SHA1: 3e10b8f8f369cbb86776aef073bc11de1c9cd22d
+SHA256: 32158a0a069bc3baf1101e69eaaa28d30a4b73dfabd519e7e6b04c123e90719c
+SHA512: e5c430187afd6462ea23236cedcdfd3765d9e92e7cc430be8c5935241694dc50026656638292628dc8d9d838648d55e15f3b09991b97f0e151f95d34ee34bd97
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 Description: /dev/ and hotplug management daemon
 Task: minimal, server-minimal

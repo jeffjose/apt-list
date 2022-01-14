@@ -84,7 +84,7 @@ version: 2.36.1-8ubuntu2
 commands: cfdisk,fdisk,sfdisk
 
 name: firefox
-version: 95.0.1+build2-0ubuntu0.21.10.1
+version: 96.0+build2-0ubuntu0.21.10.1
 commands: firefox,gnome-www-browser,x-www-browser
 
 name: ghostscript
@@ -320,15 +320,15 @@ version: 5.9.1-1ubuntu3.1
 commands: ipsec
 
 name: systemd
-version: 248.3-1ubuntu8.1
+version: 248.3-1ubuntu8.2
 commands: bootctl,busctl,hostnamectl,journalctl,kernel-install,localectl,loginctl,networkctl,resolvectl,systemctl,systemd,systemd-analyze,systemd-ask-password,systemd-cat,systemd-cgls,systemd-cgtop,systemd-cryptenroll,systemd-delta,systemd-detect-virt,systemd-escape,systemd-id128,systemd-inhibit,systemd-machine-id-setup,systemd-mount,systemd-notify,systemd-path,systemd-resolve,systemd-run,systemd-socket-activate,systemd-stdio-bridge,systemd-sysext,systemd-sysusers,systemd-tmpfiles,systemd-tty-ask-password-agent,systemd-umount,timedatectl
 
 name: systemd-container
-version: 248.3-1ubuntu8.1
+version: 248.3-1ubuntu8.2
 commands: machinectl,portablectl,systemd-dissect,systemd-nspawn
 
 name: systemd-sysv
-version: 248.3-1ubuntu8.1
+version: 248.3-1ubuntu8.2
 commands: halt,init,poweroff,reboot,runlevel,shutdown,telinit
 
 name: thunderbird
@@ -340,11 +340,11 @@ version: 2021e-0ubuntu0.21.10
 commands: tzconfig
 
 name: ubuntu-advantage-tools
-version: 27.4.2~21.10.1
+version: 27.5~21.10.1
 commands: ua,ubuntu-advantage
 
 name: udev
-version: 248.3-1ubuntu8.1
+version: 248.3-1ubuntu8.2
 commands: systemd-hwdb,udevadm
 
 name: ufw

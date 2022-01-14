@@ -5136,6 +5136,17 @@ Description-en: High-level Python web development framework (documentation)
  .
  This package contains the HTML documentation and example projects.
 
+Package: python-pil-doc
+Description-md5: 0cf86354863d856ed40290c421b7d497
+Description-en: Examples for the Python Imaging Library
+ The Python Imaging Library (PIL) adds an image object to your
+ Python interpreter. You can load image objects from a variety of file
+ formats, and apply a rich set of image operations to them.
+ .
+ This package contains PIL API documentation and some example scripts.
+ You may also want to look at the python-pil-doc-html or
+ python-pil-doc-pdf packages for the PIL handbook documentation.
+
 Package: python3-apport
 Description-md5: 90fc3702a69ad06599a95a46ceb5778a
 Description-en: Python 3 library for Apport crash report handling
@@ -5213,6 +5224,52 @@ Description-en: pythonic binding for the libxml2 and libxslt libraries (debug ex
  independent from existing Python bindings.
  .
  This package contains the extension built for the Python3 debug interpreter.
+
+Package: python3-pil
+Description-md5: 159039260b5a620ec3a8b13546dd140a
+Description-en: Python Imaging Library (Python3)
+ The Python Imaging Library (PIL) adds an image object to your Python
+ interpreter. You can load images from a variety of file formats, and
+ apply a rich set of image operations to them.
+ .
+ Image Objects:
+  o Bilevel, greyscale, palette, true colour (RGB), true colour with
+    transparency (RGBA).
+  o colour separation (CMYK).
+  o Copy, cut, paste operations.
+  o Flip, transpose, resize, rotate, and arbitrary affine transforms.
+  o Transparency operations.
+  o Channel and point operations.
+  o Colour transforms, including matrix operations.
+  o Image enhancement, including convolution filters.
+ .
+ File Formats:
+  o Full (Open/Load/Save): BMP, EPS (with ghostscript), GIF, IM, JPEG,
+    MSP, PDF, PNG, PPM, TIFF, XBM.
+  o Read only (Open/Load): ARG, CUR, DCX, FLI, FPX, GBR, GD, ICO, IMT, IPTC,
+    MCIDAS, MPEG, PhotoCD, PCX, PIXAR, PSD, TGA, SGI, SUN, TGA, WMF, XPM.
+  o Save only: PDF, EPS (without ghostscript).
+
+Package: python3-pil-dbg
+Description-md5: 5fc4836e54ac545a1fd0918d16f207b1
+Description-en: Python Imaging Library (Python3 debug extension)
+ The Python Imaging Library (PIL) adds an image object to your Python
+ interpreter. You can load images from a variety of file formats, and
+ apply a rich set of image operations to them.
+ .
+ This package contains the extension built for the Python debug interpreter.
+
+Package: python3-pil.imagetk
+Description-md5: ea3aa1a359c8f5a637ed1b909420a7d4
+Description-en: Python Imaging Library - ImageTk Module (Python3)
+ Tk dependent python-pil module.
+
+Package: python3-pil.imagetk-dbg
+Description-md5: afc8be0b437fa83e6cf612a22e898585
+Description-en: Python Imaging Library - ImageTk Module (Python3 debug extension)
+ Tk dependent python-pil module.
+ .
+ This package contains the extension built for the Python debug interpreter.
 
 Package: python3-problem-report
 Description-md5: 9c38d91ac205b1680832021377d9156d

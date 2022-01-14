@@ -3837,6 +3837,30 @@ Homepage: http://www.djangoproject.com/
 Description: High-level Python web development framework (documentation)
 Description-md5: 257e8ca2132ad054b44d0dd521e727f5
 
+Package: python-pil-doc
+Architecture: all
+Version: 8.1.2+dfsg-0.3ubuntu0.1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: pillow
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7543
+Depends: libjs-sphinxdoc (>= 2.4.3-5~), sphinx-rtd-theme-common (>= 0.5.1+dfsg)
+Suggests: python3-doc, python3-pil, python3-pil.imagetk
+Filename: pool/main/p/pillow/python-pil-doc_8.1.2+dfsg-0.3ubuntu0.1_all.deb
+Size: 589674
+MD5sum: 4c98278a70f330b2b393cd6c9f708bbf
+SHA1: fbff62417323be96dab1dcec276d22516bfe0835
+SHA256: c9f3ff46854656fa5b73ec56290a5022d2b5450e9ef2ebb4debeec0254b6d59a
+SHA512: b157da34d7954ed29895a1feeb85805ca30efefdc3b3fb69efb7c20aa65cea62239f9688dae17efa91dfc09885555e767cebb60246d91a9116f722257b45762f
+Homepage: http://python-pillow.github.io/
+Description: Examples for the Python Imaging Library
+Description-md5: 0cf86354863d856ed40290c421b7d497
+
 Package: python3-apport
 Architecture: all
 Version: 2.20.11-0ubuntu71

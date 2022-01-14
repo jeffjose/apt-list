@@ -56,7 +56,7 @@ version: 0.27.3-3ubuntu4.1
 commands: exiv2
 
 name: firefox-geckodriver
-version: 95.0.1+build2-0ubuntu0.21.10.1
+version: 96.0+build2-0ubuntu0.21.10.1
 commands: geckodriver
 
 name: flatpak
@@ -226,6 +226,10 @@ commands: pki
 name: strongswan-swanctl
 version: 5.9.1-1ubuntu3.1
 commands: swanctl
+
+name: systemd-coredump
+version: 248.3-1ubuntu8.2
+commands: coredumpctl
 
 name: udhcpc
 version: 1:1.30.1-6ubuntu3.1

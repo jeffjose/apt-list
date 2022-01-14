@@ -60,7 +60,7 @@ version: 0.27.3-3ubuntu4.1
 commands: exiv2
 
 name: firefox-geckodriver
-version: 95.0.1+build2-0ubuntu0.21.10.1
+version: 96.0+build2-0ubuntu0.21.10.1
 commands: geckodriver
 
 name: firejail
@@ -336,7 +336,7 @@ version: 2.2.8-0ubuntu0.21.10.1
 commands: autojack,autojack-start,convert-studio-controls,studio-controls,studio-system
 
 name: systemd-coredump
-version: 248.3-1ubuntu8.1
+version: 248.3-1ubuntu8.2
 commands: coredumpctl
 
 name: udhcpc
