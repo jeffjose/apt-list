@@ -22303,7 +22303,7 @@ Homepage: https://ubuntu.com/advantage
 Description: management tools for Ubuntu Advantage
 Task: minimal
 Description-md5: 2b8b4aff5fd6c4f911b6f1a69d492e11
-Phased-Update-Percentage: 40
+Phased-Update-Percentage: 60
 
 Package: udev
 Architecture: amd64
