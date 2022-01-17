@@ -4094,7 +4094,6 @@ SHA512: c9028b928c3a2b649bb6df429323c9ac8c73a6d6238b25decbca7d3238a60b11af005c59
 Homepage: https://ubuntu.com/advantage
 Description: utilities and services for Ubuntu Pro images
 Description-md5: 0955f8932fb5fd228c2859fd480ba115
-Phased-Update-Percentage: 60
 
 Package: udhcpc
 Architecture: i386
