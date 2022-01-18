@@ -826,6 +826,30 @@ Homepage: https://code.visualstudio.com/
 Package: code-exploration
 Priority: optional
 Section: devel
+Installed-Size: 381444
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: arm64
+Version: 1.64.0-1642490598
+Replaces: visual-studio-code-exploration
+Provides: visual-studio-code-exploration
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-exploration
+Filename: pool/main/c/code-exploration/code-exploration_1.64.0-1642490598_arm64.deb
+Size: 86794876
+MD5sum: 3c8a3a32c2c94a377ef301a431433e58
+SHA1: 60c9f7f6f62a1faf8badc2df592412a75c5e8be6
+SHA256: c8e861a0e37aacbe5e2900227df4c46d0ec3e3e63e4e498a13025b49c2d23b14
+SHA512: 833fdc1ff820de0d58fa260a727a483e3249a576ae8d41aafa8db32fac954bf3cb368fb4381b5a89e713b25987344eacb095ad7a12687654e2fe0ea4767a039d
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-exploration
+Priority: optional
+Section: devel
 Installed-Size: 381425
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Architecture: arm64
@@ -1337,6 +1361,54 @@ SHA256: 44d58f1a59333f9963628ac0564fc0051cac2343c6d350ce338bce5f3ba1022f
 SHA512: 3f97803bc9906a52e0133e85ef83c80eb56b6e572e8f4c5657207651812e2865f0a7738a0e022395859c845a158ab8bf21b354787435927d4fb93137cda1aa9f
 Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-insiders
+Priority: optional
+Section: devel
+Installed-Size: 297155
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: arm64
+Version: 1.64.0-1642499184
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Filename: pool/main/c/code-insiders/code-insiders_1.64.0-1642499184_arm64.deb
+Size: 72762218
+MD5sum: df82b975776629221313396e174ed867
+SHA1: 3eec2bb0fa14d0263a0f1fad178aef43c33803bb
+SHA256: 5d4ab2bb81431948898c01e4035bab6e9da51f8716b790d3c4c43a5ec409d563
+SHA512: 0c108d78a5965298190092ee6d562a4e2a7f9b3f5e65adcae958be6a77a04e866d90f2ee7e5f97d0a9fc4bdfa4977ea7117df677cf02c4a2f32c0683af809b59
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-insiders
+Priority: optional
+Section: devel
+Installed-Size: 297162
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: arm64
+Version: 1.64.0-1642483356
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Filename: pool/main/c/code-insiders/code-insiders_1.64.0-1642483356_arm64.deb
+Size: 72758008
+MD5sum: c80c9ec1f413886bd31e16c5fcfb77c9
+SHA1: 831afe35c9e0c841f01b5f6e9bdd8c619acb5b69
+SHA256: fc6310c6444297ee96b5d6be00785f1f02e60fb45171ac6a835d18227758450d
+SHA512: e7d94915209e9e9280747cb328f84793b1813a5607c77282df46da13ff64f081edb65a7395fa2808c6623242ca7f33c43236655afbb0c2693f38d30ea6fc5072
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
 Homepage: https://code.visualstudio.com/
 
 Package: code-insiders

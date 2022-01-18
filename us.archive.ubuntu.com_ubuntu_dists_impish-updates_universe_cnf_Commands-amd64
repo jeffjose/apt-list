@@ -39,6 +39,10 @@ name: charon-systemd
 version: 5.9.1-1ubuntu3.1
 commands: charon-systemd
 
+name: clamav-milter
+version: 0.103.5+dfsg-1~21.10.1
+commands: clamav-milter
+
 name: ctdb
 version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
 commands: ctdb,ctdb_diagnostics,ctdb_local_daemons,ctdbd,ctdbd_wrapper,ltdbtool,onnode,ping_pong

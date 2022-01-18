@@ -181,6 +181,35 @@ Description-en: strongSwan IPsec client, systemd support
  .
  This package contains the charon-systemd files.
 
+Package: clamav-milter
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Description-en: anti-virus utility for Unix - sendmail integration
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the ClamAV milter for use with sendmail. It can
+ be configured to be run either standalone, or using clamav-daemon.
+
+Package: clamav-testfiles
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Description-en: anti-virus utility for Unix - test files
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains files 'infected' with a test signature. The test
+ signature (ClamAV-Test-Signature) should be detectable by all
+ anti-virus programs.
+
 Package: ctdb
 Description-md5: 83dff66615250b53a0cd3df6fb3b9ea7
 Description-en: clustered database to store temporary data

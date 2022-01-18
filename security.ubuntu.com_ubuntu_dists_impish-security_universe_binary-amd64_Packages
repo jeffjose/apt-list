@@ -362,6 +362,52 @@ Homepage: http://www.strongswan.org
 Description: strongSwan IPsec client, systemd support
 Description-md5: aa65f07fc27272b7f25aed8a94e96770
 
+Package: clamav-milter
+Architecture: amd64
+Version: 0.103.5+dfsg-1~21.10.1
+Priority: extra
+Section: universe/utils
+Source: clamav
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 542
+Depends: adduser, clamav-base (>= 0.103.5+dfsg-1~21.10.1), clamav-freshclam (>= 0.103.5+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libclamav9 (>= 0.103.5), libmilter1.0.1
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Filename: pool/universe/c/clamav/clamav-milter_0.103.5+dfsg-1~21.10.1_amd64.deb
+Size: 117906
+MD5sum: e2693df102f7a4ff32de971abe7423f2
+SHA1: 9c82f8fdc8ee2008e3db02452c9eb98e42b3b854
+SHA256: ae943d0fb40b9828d94e9d83f4731e91a6947a7d0eb1b8ef9eb3a0399983ff48
+SHA512: 50a6bb2ae52754dc5db30438effcd6e38ebb716789951f59d4294b7cf44e10edb4c726aad8d7f251236fe46c0bc982e4b47cb5e29ea426137b692b7e809d0af8
+Homepage: https://www.clamav.net/
+Description: anti-virus utility for Unix - sendmail integration
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+
+Package: clamav-testfiles
+Architecture: all
+Version: 0.103.5+dfsg-1~21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/utils
+Source: clamav
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6542
+Filename: pool/universe/c/clamav/clamav-testfiles_0.103.5+dfsg-1~21.10.1_all.deb
+Size: 2887512
+MD5sum: a30bcd0da125426b93ddcc2e4f0d2e55
+SHA1: c6a54c6674037a2c1ff0e96d0705500269fdbe24
+SHA256: 93d411302b0b8f754459765c1e81e1895ea53374b48e46e6cb082fa4a326f0fe
+SHA512: e88b3688185716c94cf9cb22cf5f86cf8d4d9c2ffa3d24414f74d5e1ce7040cfa09e47ff6095da626f09e81a9e7e363e27f521d81e5b45bec36acf371c8f9b7a
+Homepage: https://www.clamav.net/
+Description: anti-virus utility for Unix - test files
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+
 Package: ctdb
 Architecture: amd64
 Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4

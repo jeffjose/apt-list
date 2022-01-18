@@ -1,20 +1,20 @@
 Package: nodejs
-Version: 17.3.1-deb-1nodesource1
+Version: 17.4.0-deb-1nodesource1
 Architecture: amd64
 Maintainer: Ivan Iguaran <ivan@nodesource.com>
-Installed-Size: 176065
+Installed-Size: 176270
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python3-minimal, ca-certificates
-Conflicts: nodejs-dev, nodejs-legacy, npm
+Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
-Provides: nodejs-dev, nodejs-legacy, npm
+Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Homepage: https://nodejs.org
 Priority: optional
 Section: web
-Filename: pool/main/n/nodejs/nodejs_17.3.1-deb-1nodesource1_amd64.deb
-Size: 26853746
-SHA256: 7fb1bf6d1518b8362eb5accb8beeedbd8a4b5a1f08827fc34df6d69072eba04e
-SHA1: 22a32eda48d8354fcaacdfebcd37fc5d6deeee40
-MD5sum: 34f2ac3a7195d266af53ffaaa434db49
+Filename: pool/main/n/nodejs/nodejs_17.4.0-deb-1nodesource1_amd64.deb
+Size: 26886878
+SHA256: 8719f6a822ea084adafbffe6577b71fcafe0b6b8f121b88a6e5f42d318d45b3e
+SHA1: 9e651148f038f107fcaf286f54922f9b1b3c997e
+MD5sum: de0e0ffca8d0f6088eb018d5d4bc3f2c
 Description: Node.js event-based server-side javascript engine
  Node.js is similar in design to and influenced by systems like
  Ruby's Event Machine or Python's Twisted.

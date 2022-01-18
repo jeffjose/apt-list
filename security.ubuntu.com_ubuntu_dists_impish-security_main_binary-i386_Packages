@@ -546,6 +546,51 @@ Description: Provides syslogd and klogd using busybox
 Task: standard
 Description-md5: 6d204aacbcadc9711030ab99f904ca3b
 
+Package: clamav-base
+Architecture: all
+Version: 0.103.5+dfsg-1~21.10.1
+Priority: optional
+Section: utils
+Source: clamav
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 177
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Filename: pool/main/c/clamav/clamav-base_0.103.5+dfsg-1~21.10.1_all.deb
+Size: 78178
+MD5sum: b3d01aa1970f76ccf7d00a1d3f3f71ee
+SHA1: c16fd24afc3629006cc01f04e82d1c1df77c94bc
+SHA256: 4a33f2772efaf57e11dbc83a5a6d500a6201035b3b7a5122b3a0c4319d8d97bd
+SHA512: 249c89a5a8aeee4def61b74d0bcd4ff982a6b8067c6648c6edf58e3fd8e3ce3242997b784d0b2fadc0a2aec966683a1de4d14d14607d6ffa525c3a38f516f3f1
+Homepage: https://www.clamav.net/
+Description: anti-virus utility for Unix - base package
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+
+Package: clamav-docs
+Architecture: all
+Version: 0.103.5+dfsg-1~21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: clamav
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8698
+Filename: pool/main/c/clamav/clamav-docs_0.103.5+dfsg-1~21.10.1_all.deb
+Size: 2289074
+MD5sum: a76141ae2fe5f9ff8f8b7682f5413180
+SHA1: 41bda8a242a67d7e9ab41c4eddda5e8c17d8fe60
+SHA256: 133435e01642a9b30a9548e55ad3bbb79d445077706719393b09b18800ae681e
+SHA512: 991aa079d11ebb30a4b35abc02cb28e322d8b69f1dc431ed2ee0cea12df0fd9dba776101538371a4c1b46a0e26c4422bf1fece3a973a681d41f76eaa2c70124c
+Homepage: https://www.clamav.net/
+Description: anti-virus utility for Unix - documentation
+Description-md5: af78818bbdf8851b6358c15693a31419
+
 Package: distro-info-data
 Architecture: all
 Version: 0.51ubuntu1.1
