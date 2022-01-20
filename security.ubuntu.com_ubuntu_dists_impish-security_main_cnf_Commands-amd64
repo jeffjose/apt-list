@@ -143,6 +143,18 @@ name: openjdk-11-jre-headless
 version: 11.0.13+8-0ubuntu1~21.10
 commands: java,jexec,jjs,keytool,pack200,rmid,rmiregistry,unpack200
 
+name: openvswitch-common
+version: 2.16.0-0ubuntu2.1
+commands: ovs-appctl,ovs-bugtool,ovs-docker,ovs-ofctl,ovs-parse-backtrace,ovs-pki,ovsdb-client,ovsdb-server,ovsdb-tool
+
+name: openvswitch-switch
+version: 2.16.0-0ubuntu2.1
+commands: ovs-dpctl,ovs-dpctl-top,ovs-pcap,ovs-tcpdump,ovs-tcpundump,ovs-vlan-test,ovs-vsctl,ovs-vswitchd
+
+name: openvswitch-switch-dpdk
+version: 2.16.0-0ubuntu2.1
+commands: ovs-vswitchd
+
 name: php8.0-cgi
 version: 8.0.8-1ubuntu0.1
 commands: php-cgi,php-cgi8.0
@@ -204,19 +216,19 @@ version: 248.3-1ubuntu8.2
 commands: systemd-hwdb,udevadm
 
 name: vim
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.basic,vimdiff
 
 name: vim-common
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: helpztags
 
 name: vim-runtime
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: vimtutor
 
 name: vim-tiny
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.tiny,vimdiff
 
 name: winbind
@@ -244,6 +256,6 @@ version: 2:21.1.2-0ubuntu1.1
 commands: Xwayland
 
 name: xxd
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: xxd
 

@@ -183,6 +183,18 @@ name: openjdk-8-jre-headless
 version: 8u312-b07-0ubuntu1~21.10
 commands: java,jexec,jjs,keytool,orbd,pack200,rmid,rmiregistry,servertool,tnameserv,unpack200
 
+name: openvswitch-test
+version: 2.16.0-0ubuntu2.1
+commands: ovs-l3ping,ovs-test
+
+name: openvswitch-testcontroller
+version: 2.16.0-0ubuntu2.1
+commands: ovs-testcontroller
+
+name: openvswitch-vtep
+version: 2.16.0-0ubuntu2.1
+commands: vtep-ctl
+
 name: php8.0-fpm
 version: 8.0.8-1ubuntu0.1
 commands: php-fpm8.0
@@ -244,19 +256,19 @@ version: 1:1.30.1-6ubuntu3.1
 commands: dumpleases,udhcpd
 
 name: vim-athena
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.athena,vimdiff
 
 name: vim-gtk3
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.gtk3,vimdiff
 
 name: vim-gui-common
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: gvimtutor
 
 name: vim-nox
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.nox,vimdiff
 
 name: webkit2gtk-driver

@@ -884,7 +884,7 @@ SHA512: 03bad077bc1e596a8a3dd61691db84e454d5202da88ed3e108df72f3b4156e61666f4874
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libjurt-java
 Architecture: all
@@ -907,7 +907,7 @@ SHA512: 31e28139bed76f39625886cfbc7aeb8bb24489e55b9a57014ef84a3c107f074ab01d03a2
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: liblightdm-gobject-1-doc
 Architecture: all
@@ -1618,7 +1618,7 @@ SHA512: 4051d399c2e38fe5c716cbb26271be4f0e0cafd68119a280a13fe5d640b1a951caf10e25
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice gtk2 backend
 Description-md5: 0b76cbf84e5ccbf23ddec807f4dcefbb
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-gtk2
 Architecture: all
@@ -1640,7 +1640,7 @@ SHA512: 26d9bca3bbc8ca25e2c5813a1657baefb615c7bbf46fa097717dbde1991a122ef4f563cf
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice gtk2 backend
 Description-md5: 16f95bd9c26683a4b4582a981ca1a3a2
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-kde
 Architecture: all
@@ -1663,7 +1663,7 @@ SHA512: dc96c34a2bb95526e12d8fe0a5cdd9e0f27f3e530e5a04f9f52858891ca39c1690c97b39
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice KDE integration
 Description-md5: 6cefe70d36c253e7351b5cddd7f0664e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-kde4
 Architecture: all
@@ -1685,7 +1685,7 @@ SHA512: f21044740e435c2e6f3ba378c7bc3e5a7a9cb122b452ce9e1f960925183a77c2da0607ee
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice KDE integration
 Description-md5: e4e138701097a40ac3baad803dbce01d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-librelogo
 Architecture: all
@@ -1708,7 +1708,7 @@ SHA512: 898c2641112fcdb81d03b5874fc9accdf49225908304e7c32368351fe447d6c51f1c8069
 Homepage: http://librelogo.org
 Description: Logo-like programming language for LibreOffice
 Description-md5: cdaef056eb365a457e28772fa2fd9de6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-report-builder
 Architecture: all
@@ -1735,7 +1735,7 @@ SHA512: fee16a757e8e4104feca7600dc0eef93a6f9c981481b2c4d71ac0fde2cc9af1b31488ad8
 Homepage: http://www.libreoffice.org
 Description: LibreOffice component for building database reports
 Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-bsh
 Architecture: all
@@ -1758,7 +1758,7 @@ SHA512: 7122a0c471b309507e9ffb3fdef80df0549b07b06dc4189fa73c02c2e1ada14531e2cc70
 Homepage: http://www.libreoffice.org
 Description: BeanShell script support provider for LibreOffice scripting framework
 Description-md5: 720bef09745ce9eb4902772fb5c437d8
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-js
 Architecture: all
@@ -1781,7 +1781,7 @@ SHA512: 7d2abe33b99a45ee4921a0c45d6271441495b6722e4ec4c1da2e028b017748f098711c94
 Homepage: http://www.libreoffice.org
 Description: JavaScript script support provider for LibreOffice scripting framework
 Description-md5: 41b18315e9be2aaa24a28415b907118e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-python
 Architecture: all
@@ -1804,7 +1804,7 @@ SHA512: 3b2c8adb29b8007aa5542486feb92321f4ecaa38b7180c668fca5e9c44f3c5b9f39eff36
 Homepage: http://www.libreoffice.org
 Description: Python script support provider for LibreOffice scripting framework
 Description-md5: 019117f2dc708fc6c1179714b81e2076
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-smoketest-data
 Architecture: all
@@ -1828,7 +1828,7 @@ SHA512: 4f80ab1c6e6f2fd25c026dded958f7865f16ce7da6f1b2d689f18d05ad7b124a50d6243a
 Homepage: http://www.libreoffice.org
 Description: data files for LibreOffices "smoketest"
 Description-md5: 7540f40cccbf63cb8381dca8979a0828
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-galaxy
 Architecture: all
@@ -1851,7 +1851,7 @@ SHA512: 68ddaa876f70af1f5455dd886c1109ae23cb982870413a231fd591fcef8ce58c42a33ce0
 Homepage: http://www.libreoffice.org
 Description: transitional package for Galaxy symbol style
 Description-md5: cbafee8b95c2851c166a1f1a2f92ac6c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-hicontrast
 Architecture: all
@@ -1874,7 +1874,7 @@ SHA512: 93b8d3077e5c98ef5f8f364332fdff580b5a2b729703d39bcba8f7f31b6c3c02c12f3732
 Homepage: http://www.libreoffice.org
 Description: transitional package for Hicontrast symbol style
 Description-md5: c975e10f61063cef8dfc736499943c67
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-human
 Architecture: all
@@ -1896,7 +1896,7 @@ SHA512: 2a11e388e88857c3d56c4bf3593ae9a1f169f141fd4a466e42dcd5e078eea4e407cb6c9b
 Homepage: http://www.libreoffice.org
 Description: transitional package for Human symbol style
 Description-md5: ed94ab0fc9991b77a2b9fda0a3089abb
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-karasa-jaga
 Architecture: all
@@ -1921,7 +1921,7 @@ SHA512: 70758616ac07cea7a16dbd4431e7dd3bb5fdfdcb9a36b9554a2f87d0b3002e3b8dea0b06
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Karasa Jaga symbol style
 Description-md5: 62dc98488a5247cbad91f4e0ec562bcf
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-oxygen
 Architecture: all
@@ -1944,7 +1944,7 @@ SHA512: 8555562ef5a3ae769a3d779e7345abaff5b0732f84940b80a57f5c4b07439322f3168fdb
 Homepage: http://www.libreoffice.org
 Description: transitional package for Oxygen symbol style
 Description-md5: 0eea86d70908d194875d1d231cf95716
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-sifr
 Architecture: all
@@ -1972,7 +1972,7 @@ SHA512: d679094775c1c01033d46a517dbe1b0b4cac9dc27e311aa65e11928cf915485d5bd93c82
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sifr symbol style
 Description-md5: 0fd5516a8dab8f6841c284edea8786d7
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-sukapura
 Architecture: all
@@ -1997,7 +1997,7 @@ SHA512: 96253086bf64ce380e46f72544ea1cc40787872a76c2fdbdfa5f2c43d71dbc99eb991193
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sukapura symbol style
 Description-md5: b9dbd94d0660dbc8a05ba918cb3fb897
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-subsequentcheckbase
 Architecture: all
@@ -2020,7 +2020,7 @@ SHA512: 67573f52708577ca115f25407c4d233fa620950c7fde44ec359f05b425eaeba208d503a2
 Homepage: http://www.libreoffice.org
 Description: LibreOffice java test libraries
 Description-md5: cda482c5487d616e1ae7a228fce1d955
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-systray
 Architecture: all
@@ -2042,7 +2042,7 @@ SHA512: b62916b71425f1652ef848eec6be94ff85d4a23989f7a6cc9f00da6501d9f526f322936b
 Homepage: http://www.libreoffice.org
 Description: transitional package for removed LibreOffice "Quickstarter"
 Description-md5: 7af566a55c39207b389151276dad569a
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-wiki-publisher
 Architecture: all
@@ -2067,7 +2067,7 @@ SHA512: 119f329973d9cfe047076565b734dabc0d2255c2cef32bd5da2a809573204b371328be00
 Homepage: http://www.libreoffice.org
 Description: LibreOffice extension for working with MediaWiki articles
 Description-md5: a66aaa282ae4941588a4d314d1ebbf79
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libridl-java
 Architecture: all
@@ -2090,7 +2090,7 @@ SHA512: 53c2f136387c530876a71960505de03334468043356237bf4b655be582e8b12b6a5009e5
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libstd-rust-1.53
 Architecture: i386
@@ -2159,7 +2159,7 @@ SHA512: 62db1fe9f5a1596d50c4fb64f49c0277ca6e60a789c21ef913664a19dca17b8933a4e009
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libvirt-daemon-system-sysv
 Architecture: all
@@ -2878,6 +2878,71 @@ Homepage: http://openjdk.java.net/
 Description: OpenJDK Development Kit (JDK) source files
 Description-md5: 328263bb6fbf81f04f5d459d67244ea0
 
+Package: openvswitch-pki
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: extra
+Section: universe/net
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 38
+Depends: openvswitch-common (<< 2.16.0-0ubuntu2.1.1~), openvswitch-common (>= 2.16.0-0ubuntu2.1)
+Filename: pool/universe/o/openvswitch/openvswitch-pki_2.16.0-0ubuntu2.1_all.deb
+Size: 2574
+MD5sum: 352ac6aeaf9f313565a559d6bdfef573
+SHA1: a70b4760402ee34250fef9e615357c6b2c896fc7
+SHA256: d12f852b14bf76b3c4a904534e3be47bb6bce049b826ea0b29991d59167c4bc1
+SHA512: af36ea3d60075ed9e402db50e74780bef420c9fe28151c1d0c53e12423ce9b663babda7eff2cc9c5944bf668b7197082dde148eeaf11dacfb1c47b2c955387ee
+Homepage: http://openvswitch.org/
+Description: Open vSwitch public key infrastructure dependency package
+Description-md5: 7bc9647531060a37f72077a192bd67e9
+
+Package: openvswitch-source
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: optional
+Section: universe/net
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7596
+Filename: pool/universe/o/openvswitch/openvswitch-source_2.16.0-0ubuntu2.1_all.deb
+Size: 7605622
+MD5sum: e908da27a4310137c1ce4d8cf979aa85
+SHA1: 839d75c5df7e12c59b787db56a33a61636fa16f1
+SHA256: 89258ecc9ea941728c7ce61935d531b96eb238c02c8807d417560c3f0ffac925
+SHA512: 8be1a6ec6b2cd1d9fe70fa22001e2353983cee4471f4c68a818e9413d18427e7f876ab4fd3bab3f11ab7b6f51d32679baadffde9341d45c9f7af8ef8c274d645
+Homepage: http://openvswitch.org/
+Description: Open vSwitch source code
+Description-md5: 9c0e76c547ece8b74742dcb3cd0aadc2
+
+Package: openvswitch-test
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: extra
+Section: universe/net
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 104
+Depends: python3-twisted, python3:any
+Filename: pool/universe/o/openvswitch/openvswitch-test_2.16.0-0ubuntu2.1_all.deb
+Size: 18194
+MD5sum: 8b5dca971759edeea3fe2e4fc0848c01
+SHA1: 5e6c77279f44af76999f9ddbd149b092670b2b17
+SHA256: c1817319bad95297d39283e09e883924678ef54fcede520907ce81e4ee3d45e4
+SHA512: 379761e4b895eae409ca98af9c4139d1d3800a5e334b0f52e4561eb6317885be369113cb902f2bd2882e4bd119de9cdd6d8d9f5c44571fd181362b312b30e5cb
+Homepage: http://openvswitch.org/
+Description: Open vSwitch test package
+Description-md5: 5e96c70d93748d31d15d453a8ccec079
+
 Package: php8.0-bcmath
 Architecture: i386
 Version: 8.0.8-1ubuntu0.1
@@ -3421,7 +3486,7 @@ SHA512: 80c7b949ce8e300fdbfeba416e8960e394ef3c60d225c09582c80e99209e8f7a4b93e67d
 Homepage: http://www.access2base.com/access2base.html
 Description: interface between Python and the LibreOffice Access2Base library
 Description-md5: 62049593c5d96b74959809148594af38
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: python3-django-postorius
 Architecture: all
@@ -4189,7 +4254,7 @@ Description-md5: c737b2b2b9534ba766d99f6de6c31668
 
 Package: vim-athena
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: extra
 Section: universe/editors
 Source: vim
@@ -4198,22 +4263,22 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 4401
-Provides: editor, gvim (= 2:8.2.2434-3ubuntu3.1), vim (= 2:8.2.2434-3ubuntu3.1), vim-lua (= 2:8.2.2434-3ubuntu3.1), vim-perl (= 2:8.2.2434-3ubuntu3.1), vim-python3 (= 2:8.2.2434-3ubuntu3.1), vim-ruby (= 2:8.2.2434-3ubuntu3.1), vim-tcl (= 2:8.2.2434-3ubuntu3.1)
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-gui-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libcanberra0 (>= 0.2), libgpm2 (>= 1.20.7), libice6 (>= 1:1.0.0), liblua5.2-0, libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libsm6, libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6), libx11-6, libxaw7, libxmu6, libxpm4, libxt6
+Provides: editor, gvim (= 2:8.2.2434-3ubuntu3.2), vim (= 2:8.2.2434-3ubuntu3.2), vim-lua (= 2:8.2.2434-3ubuntu3.2), vim-perl (= 2:8.2.2434-3ubuntu3.2), vim-python3 (= 2:8.2.2434-3ubuntu3.2), vim-ruby (= 2:8.2.2434-3ubuntu3.2), vim-tcl (= 2:8.2.2434-3ubuntu3.2)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), vim-gui-common (= 2:8.2.2434-3ubuntu3.2), vim-runtime (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libcanberra0 (>= 0.2), libgpm2 (>= 1.20.7), libice6 (>= 1:1.0.0), liblua5.2-0, libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libsm6, libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6), libx11-6, libxaw7, libxmu6, libxpm4, libxt6
 Suggests: cscope, vim-doc
-Filename: pool/universe/v/vim/vim-athena_8.2.2434-3ubuntu3.1_i386.deb
-Size: 1844420
-MD5sum: 44f994bd49c5f4546229b73ffa955d60
-SHA1: 8b6f2b49ac4680a3955ecdabb6f2fdd72ba304f5
-SHA256: aecbe1d01baccf15898b8b5e7151e2ccd87c661e0ead19d026f895f085e8d253
-SHA512: 9b0fc9971564dc3232aeddb71727c4d14cfc46024c12bcd543c817160709e8e01f98d63b01720d55b3d81d3bf6edeb7b74761aae4172c10f9699f18c24512f09
+Filename: pool/universe/v/vim/vim-athena_8.2.2434-3ubuntu3.2_i386.deb
+Size: 1844922
+MD5sum: d712ed8f8fd539291fafe80942c42421
+SHA1: c60c0f0c411e347a7ff677bc78aaef8fc4c2bdf2
+SHA256: f3a672b00c92a70a967190fa1bb067e05977d8ff82e3cd21f5b380343cad03f6
+SHA512: 8f6892e5b2f4d5f14072362a3ce4e00c19a740835fad1546e121db3478d5c7b8c2b050d36a8690274f7567a7e90b3ac0ae08f91ef105b777d04c2076a450186f
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - with Athena GUI
 Description-md5: 5e32df39fe43df51571314f93f38a67b
 
 Package: vim-gtk
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: extra
 Section: universe/editors
 Source: vim
@@ -4223,19 +4288,19 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 190
 Depends: vim-gtk3
-Filename: pool/universe/v/vim/vim-gtk_8.2.2434-3ubuntu3.1_all.deb
-Size: 9064
-MD5sum: cbd95230da97672c5f8884353e989bb8
-SHA1: 437052e2275136a708e355888abce1dbe540c4e0
-SHA256: dc2a356c952073ab5f166aee5f67632b1c384b934793e38f0f250f2d7a40d49f
-SHA512: a3040d52dc49227330132a1d806653cfae11486624c9562c80704226dc6c5af0d3387801450003d1a5a9fecb229ac6e659cab34023bf753b53f89cc305165975
+Filename: pool/universe/v/vim/vim-gtk_8.2.2434-3ubuntu3.2_all.deb
+Size: 9066
+MD5sum: 8e3f4f3f5210648d61fd1114b6f8f08b
+SHA1: 19dccf4fc352a683a6a249d58ef3182a6a51275b
+SHA256: 5c01f5cae3cd6fbe76f060cfd6704294ccce1ff164ee2f12c9f9ae5a569ab65b
+SHA512: 913d7bb00ebf36412e8b6a1ea0f76de67722702461ad95d9bcc38ea72664ed9428b3082099d73db29fcb8a41962b92ceb92de947c4efd5f3b86c153bba05fe25
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor (dummy package)
 Description-md5: 86dc6422648bf19178561819a13be252
 
 Package: vim-gtk3
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: extra
 Section: universe/editors
 Source: vim
@@ -4244,22 +4309,22 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 4438
-Provides: editor, gvim (= 2:8.2.2434-3ubuntu3.1), vim (= 2:8.2.2434-3ubuntu3.1), vim-lua (= 2:8.2.2434-3ubuntu3.1), vim-perl (= 2:8.2.2434-3ubuntu3.1), vim-python3 (= 2:8.2.2434-3ubuntu3.1), vim-ruby (= 2:8.2.2434-3ubuntu3.1), vim-tcl (= 2:8.2.2434-3ubuntu3.1)
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-gui-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libcairo2 (>= 1.4.10), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgpm2 (>= 1.20.7), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), liblua5.2-0, libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libsm6, libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6), libx11-6, libxt6
+Provides: editor, gvim (= 2:8.2.2434-3ubuntu3.2), vim (= 2:8.2.2434-3ubuntu3.2), vim-lua (= 2:8.2.2434-3ubuntu3.2), vim-perl (= 2:8.2.2434-3ubuntu3.2), vim-python3 (= 2:8.2.2434-3ubuntu3.2), vim-ruby (= 2:8.2.2434-3ubuntu3.2), vim-tcl (= 2:8.2.2434-3ubuntu3.2)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), vim-gui-common (= 2:8.2.2434-3ubuntu3.2), vim-runtime (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libcairo2 (>= 1.4.10), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgpm2 (>= 1.20.7), libgtk-3-0 (>= 3.21.5), libice6 (>= 1:1.0.0), liblua5.2-0, libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libsm6, libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6), libx11-6, libxt6
 Suggests: cscope, fonts-dejavu, gnome-icon-theme, vim-doc
-Filename: pool/universe/v/vim/vim-gtk3_8.2.2434-3ubuntu3.1_i386.deb
-Size: 1865002
-MD5sum: fb0bacddad9b176edcb2d9138e10f254
-SHA1: 8af3c43467145a7cc7ba6e54bba7a6d6d41e376e
-SHA256: 61bd1e7af33efa8cffb2d18df6f3a7bc6d87eff1f0d559a1ef8b21ec416814c2
-SHA512: 2d9f64622728b45e8d9c230bdc744264f5f920d2f83d034e6710d606000382ab19b86569a296d39831de4cb469162d867ce13df9a5ffd3bf022635646d2ccd1a
+Filename: pool/universe/v/vim/vim-gtk3_8.2.2434-3ubuntu3.2_i386.deb
+Size: 1865926
+MD5sum: 0d4f4fa6f9949e22dd09d564fd38a629
+SHA1: 53b1ee72898acf2c51045526d87c5c2534181554
+SHA256: a8e6ea97a5e34eb24058321e73fc8c5e34e261747f77593367eb4f19c5c48f26
+SHA512: a8cdeb536b94b4b1c028fcc6dbc31c663fec192409a08e12ed6b7bcae0a1145237963cf34d241ee2b0185a6ddb16a669b4d4379ec42c4c6e0537310ab3a5ed9b
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - with GTK3 GUI
 Description-md5: 55a9161bf3dec9e8a999586c8e73467a
 
 Package: vim-gui-common
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: optional
 Section: universe/editors
@@ -4270,19 +4335,19 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 333
 Recommends: vim-gtk3 | vim-athena
-Filename: pool/universe/v/vim/vim-gui-common_8.2.2434-3ubuntu3.1_all.deb
-Size: 86876
-MD5sum: 212136fb09058936f783b534fcaa15ec
-SHA1: aa98eda290403d7277048709eab21b85cec00015
-SHA256: c400203109f560e035f3ba35efadfb3247e571c4b8769949dc3fd74ee7c7cd20
-SHA512: 41c06076a1905857551f70f96fe58e7026f6e33c5c26a45588483848d4b73034aaeb57d26171f3f10404525b021302d0e01a42300366f5596f68a6faced2c3ae
+Filename: pool/universe/v/vim/vim-gui-common_8.2.2434-3ubuntu3.2_all.deb
+Size: 87282
+MD5sum: ce57b1540b4448530d57ff87ae32b25d
+SHA1: aadbfa93f72e807d2f711dd0f991b46e256efde7
+SHA256: 7519c45340b566acf7b15027afb6e4caedd88163ec7dafd95250d507097ed991
+SHA512: d1550bc52d8b98ec23270cc96258f7e9a744cf035e2ed007bcf4128a2be63e47a4efeb4c6ce817226c3c5d408f772df33633e9d1fd101b9ba90af0036ff0c53a
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Common GUI files
 Description-md5: f51060aa71b1aeaa83cfde145ca640c3
 
 Package: vim-nox
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: extra
 Section: universe/editors
 Source: vim
@@ -4291,15 +4356,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 4089
-Provides: editor, vim (= 2:8.2.2434-3ubuntu3.1), vim-lua (= 2:8.2.2434-3ubuntu3.1), vim-perl (= 2:8.2.2434-3ubuntu3.1), vim-python3 (= 2:8.2.2434-3ubuntu3.1), vim-ruby (= 2:8.2.2434-3ubuntu3.1), vim-tcl (= 2:8.2.2434-3ubuntu3.1)
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), liblua5.2-0, libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6)
+Provides: editor, vim (= 2:8.2.2434-3ubuntu3.2), vim-lua (= 2:8.2.2434-3ubuntu3.2), vim-perl (= 2:8.2.2434-3ubuntu3.2), vim-python3 (= 2:8.2.2434-3ubuntu3.2), vim-ruby (= 2:8.2.2434-3ubuntu3.2), vim-tcl (= 2:8.2.2434-3ubuntu3.2)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), vim-runtime (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), liblua5.2-0, libperl5.32 (>= 5.32.0~rc1), libpython3.9 (>= 3.9.1), libruby2.7 (>= 2.7.0~preview2), libselinux1 (>= 3.1~), libtcl8.6 (>= 8.6.0), libtinfo6 (>= 6)
 Suggests: cscope, vim-doc
-Filename: pool/universe/v/vim/vim-nox_8.2.2434-3ubuntu3.1_i386.deb
-Size: 1718786
-MD5sum: 04878abfec95391e97d62801c25f0716
-SHA1: ad8bbb543e80c8400d0730ff82844d078444c40c
-SHA256: 291c0b2d7d83c257406727f441737e04fa306a826e3397eea315232d3aba305a
-SHA512: 9e4e28fcd022d60c341124c41e528d73600cd944ec0bca5c7229ff020ae1d99db4299ac94db698089aafa3ecffd333c1d89ed92acd61b125bbb58ec7ec18fe86
+Filename: pool/universe/v/vim/vim-nox_8.2.2434-3ubuntu3.2_i386.deb
+Size: 1719220
+MD5sum: 11fe7d8cf31873b698a09a767ed7b492
+SHA1: f3619f4d9ebea3e11ea92b175e281b86f88c8903
+SHA256: 55208b820e42fcdd575f67cefa70b2a20c9924c2136571e7381f01b0f29f8113
+SHA512: 908a0d1dbf29661c3babe59f031d38aad8ea8e94e04a74b7dd56b61bf220bf2f8ad917582ba228b0ab553268bdf286fd521a6d9b26e3d5b8fa3eda3d0c43974c
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - with scripting languages support
 Description-md5: f840d0104436408f409898adc9a43d8c

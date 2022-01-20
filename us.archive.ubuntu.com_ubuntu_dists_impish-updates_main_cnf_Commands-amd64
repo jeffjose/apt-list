@@ -235,6 +235,18 @@ name: openssl
 version: 1.1.1l-1ubuntu1.1
 commands: c_rehash,openssl
 
+name: openvswitch-common
+version: 2.16.0-0ubuntu2.1
+commands: ovs-appctl,ovs-bugtool,ovs-docker,ovs-ofctl,ovs-parse-backtrace,ovs-pki,ovsdb-client,ovsdb-server,ovsdb-tool
+
+name: openvswitch-switch
+version: 2.16.0-0ubuntu2.1
+commands: ovs-dpctl,ovs-dpctl-top,ovs-pcap,ovs-tcpdump,ovs-tcpundump,ovs-vlan-test,ovs-vsctl,ovs-vswitchd
+
+name: openvswitch-switch-dpdk
+version: 2.16.0-0ubuntu2.1
+commands: ovs-vswitchd
+
 name: ovn-central
 version: 21.09.0-0ubuntu1
 commands: ovn-northd

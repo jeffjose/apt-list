@@ -1,3 +1,26 @@
+Package: aide-common
+Architecture: all
+Version: 0.17.3-4ubuntu0.1
+Priority: optional
+Section: admin
+Source: aide
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aide Maintainers <aide@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 396
+Depends: debconf (>= 0.5) | debconf-2.0, aide (>= 0.17) | aide-dynamic (>= 0.17), bsd-mailx | mailx, liblockfile1, ucf (>= 2.0020)
+Recommends: cron
+Filename: pool/main/a/aide/aide-common_0.17.3-4ubuntu0.1_all.deb
+Size: 70116
+MD5sum: f3836dad6b0fc98e9bcc5963d568e4f8
+SHA1: 9d3244cfe927cf6f751c199507f7508745824b60
+SHA256: 2d975e944ee1c2e9d1688ce8cd58b5914841cc20bb18cca0c37f467649cae69e
+SHA512: 6f2f13fac40137f2f79f4f9b9e9cade0ee0142575c5e4b1107d5a5876369153d520ce1b83c3e9ec47575a40edfed3f934dc975e0d15947302988ce80f294fc9a
+Homepage: https://aide.github.io
+Description: Advanced Intrusion Detection Environment - Common files
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+
 Package: apache2
 Architecture: i386
 Version: 2.4.48-3.1ubuntu3.2
@@ -3499,6 +3522,28 @@ Homepage: https://openjdk.java.net/
 Description: OpenJDK Development Kit (JDK) source files
 Description-md5: 5e4d8bbb398daa24b05478a4a3be42bf
 
+Package: openvswitch-doc
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: optional
+Section: doc
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5589
+Depends: libjs-sphinxdoc (>= 2.4.3-5~)
+Filename: pool/main/o/openvswitch/openvswitch-doc_2.16.0-0ubuntu2.1_all.deb
+Size: 1005854
+MD5sum: 097b654da129e4197b311f2717b54218
+SHA1: db8feb2af17b27d86cb55c43875e8fc60f55f737
+SHA256: 76c2d9c6e7cf0b19c6498b43ef2fdfd7bfea7e6f211cbe74291027b9da8af0fe
+SHA512: 0f45d95580af8c0c8095dc6c15192e7041eb9df5e1751bd91b319c3add1849a6ce2ab3312dbc2805e0b49d1d85b985a44fb4d327f2997ffacb2ec06cb6af83cc
+Homepage: http://openvswitch.org/
+Description: Open vSwitch documentation
+Description-md5: 34dbb9eb458b41810977ed67bd034a5b
+
 Package: php8.0
 Architecture: all
 Version: 8.0.8-1ubuntu0.1
@@ -4310,6 +4355,28 @@ Description: pythonic binding for the libxml2 and libxslt libraries (debug exten
 Build-Ids: 27747b8c78dd276eddcfc442cd07640ac083df7f 4600ed5d232eae4b69ff376595681895c59d29eb 5685f75dd08413286c8eee55f44b52f2847d6ebf 6a67c19316411d86d4a734e49daa07e34541d432 a63a7d50307ee015507b73699cf4669e5c69481a ad77feb6b8e0a1bd676329e26db2a00ea7648ff2 d0e12c1395f42e8c13824081e2fdeace2bfb6850
 Description-md5: dc60d3e32c93635f03d6f9f774d9845a
 
+Package: python3-openvswitch
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: extra
+Section: python
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 522
+Depends: python3-six, python3-sortedcontainers, python3:any
+Filename: pool/main/o/openvswitch/python3-openvswitch_2.16.0-0ubuntu2.1_all.deb
+Size: 88044
+MD5sum: 9c2ff9641af912aaab6101acda069b27
+SHA1: b13f22f64cee2d6d75d43907df84648841a4c807
+SHA256: f7d15622ad6397ee3a5f29b6994e51fac44b5134337af95debe4982107fd1b76
+SHA512: 211dec5e53365b7c26aeb6e4b8f4f1ca082cce1d5bd9810884daf980f5854e901bab18a1190efbedb8e01aef20eb9681734fed251953cdfdf667fe04e85dad5f
+Homepage: http://openvswitch.org/
+Description: Python 3 bindings for Open vSwitch
+Description-md5: b48125d32305301f27c5399b2d5f9139
+
 Package: python3-problem-report
 Architecture: all
 Version: 2.20.11-0ubuntu71
@@ -5114,7 +5181,7 @@ Description-md5: e875ddb09f46f1f7672af537f0c875ca
 
 Package: vim
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: optional
 Section: editors
 Origin: Ubuntu
@@ -5123,14 +5190,14 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 3780
 Provides: editor
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), libpython3.9 (>= 3.9.1), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), vim-runtime (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), libpython3.9 (>= 3.9.1), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: ctags, vim-doc, vim-scripts
-Filename: pool/main/v/vim/vim_8.2.2434-3ubuntu3.1_i386.deb
-Size: 1582794
-MD5sum: 6c7e6eb192fda0e17a4af1c046793cb6
-SHA1: 97f50ca10d095dc42d6311c28f9be7cd43c0e6ea
-SHA256: 9eab8dedcd7b2a53017aafc175d4c6f85f8e9587ae54dfe0883b9f3a99158f65
-SHA512: 12d319b22237bbbfc7f88c859bed9ca649bdd15237248f30da5eaa23a528b4b5f03bd881b26925506b22eb24512231b332af292970c2750d5ffab967f632224e
+Filename: pool/main/v/vim/vim_8.2.2434-3ubuntu3.2_i386.deb
+Size: 1583380
+MD5sum: 92681d32cbf481de6dd7c11ae5c01106
+SHA1: 7a7ac9540a1d0075dfffd3098f5f0cc517f5c4d1
+SHA256: a54c662f685c09ddd68c54f918532b13f5883e3dfd9b9988ee22e6db3c082af7
+SHA512: 421501fdb23a56b4b296b7da9fd8365ed13c15f32b4f971a31d9456d3111860de02f52b586017cca4d37fea443e049948ce6a2bbc2093b9792684a39700487ec
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor
 Task: server, ubuntu-server-raspi, lubuntu-desktop
@@ -5138,7 +5205,7 @@ Description-md5: 59e8b8f7757db8b53566d5d119872de8
 
 Package: vim-common
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: important
 Section: editors
@@ -5150,12 +5217,12 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 355
 Depends: xxd
 Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
-Filename: pool/main/v/vim/vim-common_8.2.2434-3ubuntu3.1_all.deb
+Filename: pool/main/v/vim/vim-common_8.2.2434-3ubuntu3.2_all.deb
 Size: 81292
-MD5sum: 7b224b40b799cdaabdabad23bd50cd8c
-SHA1: e2a980f563011eec255ad7c620d9a48610128b45
-SHA256: 83202eb3d9384aa74b8e5241d2b4843700725ce64197129382b2872af3658b8d
-SHA512: 815d7e6f499505d57e1330da05e334227e5d6897521f8b91e6b3dcb2a3db233a1ad77f6f31d8e865a78ec3d3d1c9582bb3b908ffaa9933f07071344c389ff972
+MD5sum: 2d099ba1a6fb6f719650c6dda8306253
+SHA1: 5d5b8e23d1ff704c0894d2437e21b2052ed8e5c8
+SHA256: d4d6fc56c5ec3b526447cb0a686049b5f26358df4dbf8afed75849b8fedfc28b
+SHA512: 3f33cdba039449c60dd5afa6b2c203d76b9c636cdf272281be4f55396e2c7cb87e76567e446b816e4c6bf5c4010b5a931ffc3576997a4beb51b88c8a1ba3d6a2
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Common files
 Task: minimal
@@ -5163,7 +5230,7 @@ Description-md5: 30b64c3dceccc4faef229eafc38d0069
 
 Package: vim-doc
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: optional
 Section: editors
@@ -5173,19 +5240,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 13364
-Filename: pool/main/v/vim/vim-doc_8.2.2434-3ubuntu3.1_all.deb
-Size: 2246752
-MD5sum: 0f6e7f776ea84f810ab449ff6b22db02
-SHA1: 8ec0276640c7467efddfdbe406f9dc12c6f79296
-SHA256: 5bf089462cf7171505a00486bb07247305eb79f7ef76274b99eae869ae720544
-SHA512: b90d840cf259b7497ebbca4276e8a6d9b62411e1064ded7c03bc6f17d165d86d66457b358d8d9f552f4fcd95436f5fa4ca6de2ef2bfa27642ed9ca634968374d
+Filename: pool/main/v/vim/vim-doc_8.2.2434-3ubuntu3.2_all.deb
+Size: 2247212
+MD5sum: 1f9ca06ba65c7e4a32a6d8bd1d71629f
+SHA1: 4d7199fa7dfc317333913576d62d593b5f741905
+SHA256: 438339ee638fcbafb52a615ef2593c9329bc6d3e351186beadb0b615580b0df1
+SHA512: eea111d201a46793aa00fa049948c0694d484e59e1d2df5de7e4b0fc6184e48bd40d7842db386838fa189438daf17b06cc88ae993424213a3bc2567e6ebaf25c
 Homepage: https://www.vim.org/
 Description: Vi IMproved - HTML documentation
 Description-md5: bba166bf0174232f296031de0b68b351
 
 Package: vim-runtime
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: optional
 Section: editors
@@ -5196,14 +5263,14 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 32147
 Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
-Breaks: vim-tiny (<< 2:8.2.2434-3ubuntu3.1)
+Breaks: vim-tiny (<< 2:8.2.2434-3ubuntu3.2)
 Enhances: vim-tiny
-Filename: pool/main/v/vim/vim-runtime_8.2.2434-3ubuntu3.1_all.deb
-Size: 6702632
-MD5sum: f1d2b3b89de1da17c7d6fee854f780c8
-SHA1: 705633b165c4f3ab07b50a33a11a7bc3f298339a
-SHA256: 339b2049dc814434116c714544233bccc60fdddc2d29193b6fcc80267d186e69
-SHA512: 54c0293b9e872018f5a811c72a47341d178b06d827a3a02f0fe6e1b7439662571c872cb186735753f02c152062a94a70bdd8889504bfa5caa421fc83a0c21e90
+Filename: pool/main/v/vim/vim-runtime_8.2.2434-3ubuntu3.2_all.deb
+Size: 6701168
+MD5sum: 7f4ccab8b2814f364f7f2bbfaf035a01
+SHA1: ce546cbad2fe672538354e0f87c985a882db231f
+SHA256: a64808ab9cdc3a851d7ad422dbabdfc061314849d6a0d7ca225a3077913330cb
+SHA512: 6675f2bf62c273fe12def618cde0d507bf85cb21477af9da91b217fd0820fa3f5a932cd7486bb0a11bc944054fdfbf32cc3feb5ef41b94300648ebe4c25030ec
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Runtime files
 Task: server, ubuntu-server-raspi, lubuntu-desktop
@@ -5211,7 +5278,7 @@ Description-md5: 97bb83c83cb35767c340c5066ce9be0c
 
 Package: vim-tiny
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: important
 Section: editors
 Source: vim
@@ -5221,14 +5288,14 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1700
 Provides: editor
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: indent
-Filename: pool/main/v/vim/vim-tiny_8.2.2434-3ubuntu3.1_i386.deb
-Size: 684472
-MD5sum: 7dc1041606fb7cec1bb33a7dbf43a331
-SHA1: 6301d0f35e3f9024e4596de0353c9a88ffab2e2a
-SHA256: 481249bb7cdd242537b5a90f1e7d337e51618660e6a830baaa684b53a4f56a64
-SHA512: a543f5a73cd576d2c57ffd23cf7efd69ddeb30e85aab5fc782e0783ffacad04e4fdb4e70b8f2ad6b426b0dc2ff45ba03d09d75e2d3b42e9476dfcbd2e0235d88
+Filename: pool/main/v/vim/vim-tiny_8.2.2434-3ubuntu3.2_i386.deb
+Size: 685198
+MD5sum: fb274d5826eff8dad4d7eebcbf111a57
+SHA1: 0c8e828ddc76a5229182238fcfb203787be5d94b
+SHA256: f68dba08bb0c6a245fb0d6049105700a03b8695cb9ab4e5273fe7d263328e15e
+SHA512: 45840236d9edec3d794a1d8d5e4270a8def769dfdd4f074ddd0f50622a5c273e72cbc2d4160f073fee837ab84b04ad5430e57340c3a05e6de02380ebc6d06ce8
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - compact version
 Task: minimal
@@ -5409,7 +5476,7 @@ Description-md5: a49fa8443df84effdf1fd36e26ad0f94
 
 Package: xxd
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: important
 Section: editors
@@ -5422,12 +5489,12 @@ Installed-Size: 252
 Depends: libc6 (>= 2.34)
 Breaks: vim-common (<< 2:7.4.2347-1~)
 Replaces: vim-common (<< 2:7.4.2347-1~)
-Filename: pool/main/v/vim/xxd_8.2.2434-3ubuntu3.1_i386.deb
-Size: 50870
-MD5sum: 900fd194b1b0bf2f4da474a72ba398e5
-SHA1: d598a1756fa8d369141e6bee53d85b9e74fce3a7
-SHA256: 0231676405c29084db3a732083118beaa97ffe71e2af4a40f19e85022d61afc1
-SHA512: 5b852a2451acfb5821ae81ad7de9eb109969f1218fa54900d16b44e0fe14d0885eecee117c172290fbc5e86ed2303480d2e6a934c0eee88ae141aa10cc662335
+Filename: pool/main/v/vim/xxd_8.2.2434-3ubuntu3.2_i386.deb
+Size: 51288
+MD5sum: 924db4faa6d9502fa0c2f5afeb92fbbd
+SHA1: d8d495e4f80f41d8bb8a4566ff403d0c16c80e6c
+SHA256: 8057960df2a99ab1a3b24fb489a0ea87029a0f69f39b5e7becf5b6462a4cdda0
+SHA512: 3fa0367a81c2f8284ee409fe555b86408823a4611a16dac22363e32d31eb218b58bd46c5d73d8785a6f84385f6daabfd1e91ada59693e3888ce3eb9f93cf7317
 Homepage: https://www.vim.org/
 Description: tool to make (or reverse) a hex dump
 Task: minimal, server-minimal

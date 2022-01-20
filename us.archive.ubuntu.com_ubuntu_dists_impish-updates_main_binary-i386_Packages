@@ -830,7 +830,7 @@ Homepage: http://www.libreoffice.org
 Description: OpenSymbol TrueType font
 Task: ubuntu-desktop-minimal, ubuntu-desktop, xubuntu-core, xubuntu-desktop, ubuntustudio-fonts, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: c976ef54f80faf44d726a46723d3fbd0
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: freerdp2-dev
 Architecture: i386
@@ -1823,7 +1823,7 @@ SHA512: 4f0137a112459694daad6716f630fa283f7c2f0418d006a81025971de658e1615daa98eb
 Homepage: http://www.libreoffice.org
 Description: LibreOffice UNO runtime environment -- Java library
 Description-md5: d71a0b67eeb476140ee5b28e32f1171a
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libmount-dev
 Architecture: i386
@@ -2353,7 +2353,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- arch-independent files
 Task: ubuntu-desktop, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-raspi, xubuntu-desktop, lubuntu-desktop, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: 304f06193ef91a740410572ff1db7174
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-dev-common
 Architecture: all
@@ -2378,7 +2378,7 @@ SHA512: 0e361ea2e248e486175d4d366572be41750d013a1a6c97593e445db0dcd349bd86809d09
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- SDK -- architecture-independent parts
 Description-md5: 8e2f47a3629807507c30bffdf52c61ba
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-dev-doc
 Architecture: all
@@ -2402,7 +2402,7 @@ SHA512: 5663a4bdd8b53e1f416d3d2135fde65a461abbc7d525ae54a7d28c0d09ee23b158f13088
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- SDK documentation
 Description-md5: b4ecfbc8a8e236404d92fb39cd9ea14f
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-ca
 Architecture: all
@@ -2428,7 +2428,7 @@ SHA512: 8c5ec4d885f3b191417e22e81b762fcdf64121e969f1fd912e22459f0a30043a065477b5
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Catalan help
 Description-md5: d6b57c84305eb2009f0f7cca49b022f1
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-common
 Architecture: all
@@ -2454,7 +2454,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- common files for LibreOffice help
 Task: ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, lubuntu-live, ubuntu-mate-live, ubuntu-budgie-live
 Description-md5: bb2508f2324a7b651c019aba6b2c24e9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-cs
 Architecture: all
@@ -2480,7 +2480,7 @@ SHA512: 13a2573a754ae2bc0ab28f84f8febce188a55ec793e698ec0b1b037086ef83d252f1bbc1
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Czech help
 Description-md5: ac7fea7c0a197c7b356a8223d94347ea
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-da
 Architecture: all
@@ -2506,7 +2506,7 @@ SHA512: b76eb5c2bd908de786399ce572d4427db8a45d4293a0c2ce4651583b7fea3b740d42c58e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Danish help
 Description-md5: 2eeb5c9d61409db9416d1bf688280d6e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-de
 Architecture: all
@@ -2533,7 +2533,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- German help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 446e337ad4cf957e780c2996c41e0163
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-dz
 Architecture: all
@@ -2559,7 +2559,7 @@ SHA512: defddc1aa316819290e8739ab0eeff856193b57681aa5f0e3be3ad89283a30faecd34e44
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dzongkha help
 Description-md5: 831cde2511d5df0e50fca4f9545adb3b
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-el
 Architecture: all
@@ -2585,7 +2585,7 @@ SHA512: ce76755b7141bc897c9467660acee5c8af4e4297b7d065197d0d241501a7bd6618f11940
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Greek help
 Description-md5: 27db60f82a9a1414b51ea5e553a7b9e8
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-en-gb
 Architecture: all
@@ -2612,7 +2612,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- English_british help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 6843fecfa30da7d8c3e384c4f92747ac
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-en-us
 Architecture: all
@@ -2639,7 +2639,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- English_american help
 Task: ubuntu-desktop-default-languages, lubuntu-live, ubuntu-mate-live, ubuntu-budgie-live
 Description-md5: 887d1c3089d4c0e44d0b26ed6ffd9193
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-es
 Architecture: all
@@ -2666,7 +2666,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Spanish help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 3b17681533c31b51304225ad41bc4cc9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-et
 Architecture: all
@@ -2692,7 +2692,7 @@ SHA512: efae3211cdd0f8ad950d3540c7547a14862eac36b7969b2ff7c8237b5909f673cf6ad3cd
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Estonian help
 Description-md5: ee9a1b4e728ba5dd900173bfee1a731c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-eu
 Architecture: all
@@ -2718,7 +2718,7 @@ SHA512: 04b558e79c913a92293089275c6ed74fd12655bb8ab61d27d4594c84499a6897e649e6ec
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Basque help
 Description-md5: 173b0972f7f0a78d8c52cb5f5045e57e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-fi
 Architecture: all
@@ -2744,7 +2744,7 @@ SHA512: 7c042cb39a1f9de5784142437cb8b73ea1baaaacab2471701242b1d3a215946b574e251d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Finnish help
 Description-md5: 07a9aa483488050f6541179d8987d975
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-fr
 Architecture: all
@@ -2771,7 +2771,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- French help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 3f39cd0f487b1234b3b028700174aea6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-gl
 Architecture: all
@@ -2797,7 +2797,7 @@ SHA512: dff909908bd79ef5dd79bd39f623234190bf49da3a1ca433f1ec4952985388adf14a7465
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Galician help
 Description-md5: 373bae22071a7f0286ed9ec163a95c9f
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-hi
 Architecture: all
@@ -2823,7 +2823,7 @@ SHA512: 4188c0f2c037ba49bf80fe418f14682d6994f751ecb9f9032a7e6228f676c075c189f571
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Hindi help
 Description-md5: 2086330d67240d859330eccd8a050d0d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-hu
 Architecture: all
@@ -2849,7 +2849,7 @@ SHA512: b53b25c79e7fb295382cdc4982829fe33e532b1cf10a154bd16f0b429f6fea4400d2bfbd
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Hungarian help
 Description-md5: 61ae09c1e4ead0c3a139c61b39f763a8
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-id
 Architecture: all
@@ -2875,7 +2875,7 @@ SHA512: e85135d288cba6664da5ddb905f38eb541794003ec78e1477047f0a2c791cc9e59b9735d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Indonesian help
 Description-md5: efd54faf7a13796ca988f291361d13f7
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-it
 Architecture: all
@@ -2902,7 +2902,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Italian help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 68017996bf772a95a5138d70db294b80
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-ja
 Architecture: all
@@ -2928,7 +2928,7 @@ SHA512: 75a436c5e1218d6f6900ef9fdf023e81c0f90f9e91135dcda8da989c293636b89ef82694
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Japanese help
 Description-md5: 202a13f334a5b4d912a0c725a68309d3
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-km
 Architecture: all
@@ -2954,7 +2954,7 @@ SHA512: 9b7323f9d9f1e21f2183bdc23c2a63a6ea78de9c3bf9e7f0a66bb8158179eca2239cfcbd
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Khmer help
 Description-md5: 85075447fb80af12955c4e01c4a316c5
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-ko
 Architecture: all
@@ -2980,7 +2980,7 @@ SHA512: fd6a266c8a828b945fc9339d65975f3774666c2018c201bf7b3d4b0d7e6027bbf165d6f6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Korean help
 Description-md5: d879d29f7f222fa7b6ad3b86112dcbec
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-nl
 Architecture: all
@@ -3006,7 +3006,7 @@ SHA512: 74a0041c896aef2268a4c4b0ef5045f1adfab713676017297f7bb2adbe17133c357d06df
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dutch help
 Description-md5: 39207c43a1ac830972c4637d2d15402a
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-om
 Architecture: all
@@ -3032,7 +3032,7 @@ SHA512: 33b7000ce0a03f6ab1841afd9b89ee1bde71f3045736682fcc8fa34c48cf0e39bd23964f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Oromo help
 Description-md5: 71d9bb0e518d702c88916fc4bcbd3fcb
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-pl
 Architecture: all
@@ -3058,7 +3058,7 @@ SHA512: d94c9679530b67164c67b7cefe7b97593852b09a5317e3505094f1942771e574f2804d55
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Polish help
 Description-md5: 1ecec6865a123ab7b50509708fbd986b
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-pt
 Architecture: all
@@ -3085,7 +3085,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Portuguese help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: a995efbac2b786bee5de0e56d3a97215
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-pt-br
 Architecture: all
@@ -3112,7 +3112,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Portuguese_brazilian help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: ef429612095b5aa3dc738547af704ccb
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-ru
 Architecture: all
@@ -3139,7 +3139,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Russian help
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 26ff97e5963f7a1cdb5ca84a587aad70
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-sk
 Architecture: all
@@ -3165,7 +3165,7 @@ SHA512: f85f6ca213d240f625d1d839500877f72cebf1591b2ae0ec46d9b634c67a67042e12ca94
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovak help
 Description-md5: d26e95b5d6c285b41315b083c88099d0
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-sl
 Architecture: all
@@ -3191,7 +3191,7 @@ SHA512: 3ac0db11741b25b984888c7c216e29ca05437d43dd03c2e168747518ceb25354c4e25bdb
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovenian help
 Description-md5: 0b685103983bbccf5f421b1c697576d2
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-sv
 Architecture: all
@@ -3217,7 +3217,7 @@ SHA512: a2c3cb3d3be5fa1d7d865ff7a54b001d59945530769aee822ca2276d73b76e22275c2852
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Swedish help
 Description-md5: 0f3bdd564c5f61573a0a4a42f4b54fbc
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-tr
 Architecture: all
@@ -3243,7 +3243,7 @@ SHA512: 23ab9e0993a633dfc2f36295949b0aafcf68072a79e0501aa800293fd595177724c92f80
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Turkish help
 Description-md5: 0e69dac1381ab919682ec9c47de5194e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-vi
 Architecture: all
@@ -3269,7 +3269,7 @@ SHA512: 746034f7b4c7bde86290c2b082e6826445d29a5f59b3a0153de4d2e7372a4e6f47a96e18
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Vietnamese help
 Description-md5: e38510b2855a269b0484915b84687e41
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-zh-cn
 Architecture: all
@@ -3296,7 +3296,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Chinese_simplified help
 Task: ubuntu-desktop-default-languages
 Description-md5: 2aa55f3147e53b54fe485b32ed13386f
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-help-zh-tw
 Architecture: all
@@ -3323,7 +3323,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Chinese_traditional help
 Task: ubuntu-desktop-default-languages
 Description-md5: ee9697d616e7c4173187caaaecafb1b2
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-java-common
 Architecture: all
@@ -3348,7 +3348,7 @@ SHA512: d7930573353e5d8aafc64c78b4c212d9d6c7d34343aa812f9460b9074f7bfae9bf4a791c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- arch-independent Java support files
 Description-md5: 9b905cfcc13278c04580172f90e74120
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-af
 Architecture: all
@@ -3374,7 +3374,7 @@ SHA512: 28b6fc9a607ba542fa50ad039ae2ad5ad6edce675aadca8b851fc64a548a27e6bc166ab6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Afrikaans language package
 Description-md5: 25408426f5cceacb5ad931a04f17c27e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-am
 Architecture: all
@@ -3400,7 +3400,7 @@ SHA512: 756061163a1a9862bad67afcbe5f57f19783108199bda9673d691893a29b82e7c77fcd3c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Amharic language package
 Description-md5: c82c66da2760f49995d4e8690d0f9536
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ar
 Architecture: all
@@ -3426,7 +3426,7 @@ SHA512: b6491d1e4854c36cd4387d61125e8ba51e615b79ba20cffda1bd958b9522feedb196350e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Arabic language package
 Description-md5: 587caaeee146ae2e8c3996cb98f27e14
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-as
 Architecture: all
@@ -3452,7 +3452,7 @@ SHA512: 94ef28d2f8a9edff810183f3e7b430edc967e633f0bf70a9fa6d95538672a03ae2887089
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Assamese language package
 Description-md5: 4ac2e69fa5a27abf0c1dea94b43a4a7a
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ast
 Architecture: all
@@ -3478,7 +3478,7 @@ SHA512: 95828f0042df710bb5a6f47795dc346a689352dba90d2d701be2d3b80b46f351f6bfcc2b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Asturian language package
 Description-md5: e881b8766739626fc2bfe3be78a504b6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-be
 Architecture: all
@@ -3504,7 +3504,7 @@ SHA512: 600aab9f6dd90609b3824c7974379807d95866558e28bd4805053d32acf6998c0b31f5e8
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Belarusian language package
 Description-md5: 4e120b250b345e0e6dc4ca4cf4767d2b
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-bg
 Architecture: all
@@ -3530,7 +3530,7 @@ SHA512: 96fe7487a1ff6df430bc87524a23cdbe2ca6a0d2434499e77cda3ff9b162694cf7d584d6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Bulgarian language package
 Description-md5: 1e2ff5cea5d0d31b2fadc412f6046e12
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-bn
 Architecture: all
@@ -3556,7 +3556,7 @@ SHA512: a7e9589db042475fc3a0cbc190a87b69bf08f67cffbedfbab50c459990fddc666af1004b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Bengali language package
 Description-md5: 00d1921e153b39622cb04e7f66795716
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-br
 Architecture: all
@@ -3582,7 +3582,7 @@ SHA512: 2dd40a2d2dcfb9e7c3c2b2017d90557658fcb6dbf308a576c134b12767996cfc9abd8897
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Breton language package
 Description-md5: d16cf29a1d2c4c4ed7016afa029144be
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-bs
 Architecture: all
@@ -3608,7 +3608,7 @@ SHA512: 1bf76b5acf75e274c6423bbc233a3531b4169f5059c86160bdc91557ea6a2fe8177450b4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Bosnian language package
 Description-md5: 7fc91db4c49442d4457804a807e892f1
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ca
 Architecture: all
@@ -3634,7 +3634,7 @@ SHA512: 31aac5757ea72074f97b580b7000507e8ad871feab0d6c6a080115c63d6763be091a163f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Catalan language package
 Description-md5: a91b06d5c0057582f16109658e9ac2f8
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-cs
 Architecture: all
@@ -3660,7 +3660,7 @@ SHA512: e3a532ee49f5a28409b1b518d0bd3aa1106c60b8a2b9bcd724d8b3496e6763622f97afdd
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Czech language package
 Description-md5: afead2a0313d84ddc897a8641a06a05e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-cy
 Architecture: all
@@ -3686,7 +3686,7 @@ SHA512: e0c608fd2dc3015ada7c45caa6ad0ed98265e3880a5e72323dee69ba90207be2b6544764
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Welsh language package
 Description-md5: 05accff0a8db25ee2b5bbfa42b627da5
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-da
 Architecture: all
@@ -3712,7 +3712,7 @@ SHA512: 96475d7b0984cf33342614fa40cef53e49de4b5715d7a20d61322f8f330ae38cfdcf64b1
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Danish language package
 Description-md5: 3baa4ced7ad5463e2aeedc011515df6f
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-de
 Architecture: all
@@ -3739,7 +3739,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- German language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 9100dc24d96f8d761ed9e9a72aaae56d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-dz
 Architecture: all
@@ -3765,7 +3765,7 @@ SHA512: 5480d09a8e41ecd72fb5440e667aade58d92df5d70551c411fab8f52d7cb56bdc81d2947
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dzongkha language package
 Description-md5: ea22c1cbc51379d92908e5e9e9fd316d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-el
 Architecture: all
@@ -3791,7 +3791,7 @@ SHA512: 43a0e1d39fd7e807d838bfaf69fb4780e15723a1c7e0c73a9d3b7566880fb3ed3b6b290e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Greek language package
 Description-md5: 4f78a8507785668c597339f89484e181
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-en-gb
 Architecture: all
@@ -3818,7 +3818,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- English_british language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 2175d49557a4317b25abdfef0508de34
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-en-za
 Architecture: all
@@ -3845,7 +3845,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- English_southafrican language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: c94234e62f754742485de331d5cce167
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-eo
 Architecture: all
@@ -3871,7 +3871,7 @@ SHA512: 427050c9709f2756f9f12ad72551655b205ade66ca1a18ee868caf7231b2863194f5a459
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Esperanto language package
 Description-md5: ceec53900ab8424d55b41ca9805f4477
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-es
 Architecture: all
@@ -3898,7 +3898,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Spanish language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 9ca224f2e6cdf51887ac42db8c56be1b
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-et
 Architecture: all
@@ -3924,7 +3924,7 @@ SHA512: f7e062c0e0dc803cbf0233466264c0b11595c1a43b392bfaa84b22d5558d5c870541345d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Estonian language package
 Description-md5: 48b61d8af6c926ad0fc569a88eff07f2
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-eu
 Architecture: all
@@ -3950,7 +3950,7 @@ SHA512: 7c7460aa32c0aa643cb38218ed81f561fc209a0a8f349e1e690b44131a7df0932f969c8d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Basque language package
 Description-md5: a9ce34217df35bf42f382c34b328939c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-fa
 Architecture: all
@@ -3976,7 +3976,7 @@ SHA512: 030396fb0b7b26aa8cb6554716739337cd960cebdba20073194e05963f0ef5201c535085
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Farsi language package
 Description-md5: 6fb22f6ccd00a52dcb073d05bdb131d9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-fi
 Architecture: all
@@ -4002,7 +4002,7 @@ SHA512: 699cd32718cbfc65c38cf52cce7a06fcadeefbfaba84023aa9e936bc94c42c8d16f88c57
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Finnish language package
 Description-md5: 3706653bf050d85e2b88029ab6b8043d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-fr
 Architecture: all
@@ -4029,7 +4029,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- French language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: be373ab6133f4822f55949baa3af6fb6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ga
 Architecture: all
@@ -4055,7 +4055,7 @@ SHA512: 15e6092da6330cef3379e6f6c29f035959e776b6d299384deddb4e515cebca2e861eb60d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Gaelic language package
 Description-md5: 45ee5e619b80d12047c3db358a95ece6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-gd
 Architecture: all
@@ -4081,7 +4081,7 @@ SHA512: 7c21da927fea6e01f9ddb5667722af4347fe088e93e0252628b9f7ac1fc59ddaec3275f4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Scottish_gaelic language package
 Description-md5: 18113968ce7e8c22cc31b05613ac922a
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-gl
 Architecture: all
@@ -4107,7 +4107,7 @@ SHA512: dffe856406dbf7187cc6bb5daeae21817483fab171325e4b507efc6a66135f56becf66fa
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Galician language package
 Description-md5: 91aaf32f09c1b953e8cf6a0878954eea
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-gu
 Architecture: all
@@ -4133,7 +4133,7 @@ SHA512: 0b26e360a4c60834648f7d83c65d9f2bc81e9f582b2ba59299ec623bf8dd57fc40ded6dc
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Gujarati language package
 Description-md5: d33d0bf909d9ce8566c829e9e8c7958d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-gug
 Architecture: all
@@ -4159,7 +4159,7 @@ SHA512: fce28a56d06b05b27d2125edc6007b1d02bd52c09d63d3021321d292bec3b8b6838a84e0
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Guarani language package
 Description-md5: 8a60db7a8c323661ed589467da797a53
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-he
 Architecture: all
@@ -4185,7 +4185,7 @@ SHA512: 2c85fe02f165cbe12475cccf2f26a5abb9a60ca731f3a5b74bef4247b2f49eaa6eb3b578
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Hebrew language package
 Description-md5: 162257c4fc07447259f3f6ba8311eab8
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-hi
 Architecture: all
@@ -4211,7 +4211,7 @@ SHA512: f8bce112e8a76241312daef4c1405c9ea147482386216765eddec9c967dba31f511ed791
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Hindi language package
 Description-md5: c0f9f00435657eaf48161db67ec8e03d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-hr
 Architecture: all
@@ -4237,7 +4237,7 @@ SHA512: 1d8755514eb937a516856b3cbc0a6c8549a6fc2680902800396288eb074b2fbddf8a5be2
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Croatian language package
 Description-md5: c1f7ed74f344f50c39b1b97d22d34b76
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-hu
 Architecture: all
@@ -4263,7 +4263,7 @@ SHA512: 12b166bb71853b5d283db1c9896a937943177f1ea2e61b3666741b035cf73b4efcf8c925
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Hungarian language package
 Description-md5: 03faefa7ee83b9dbc4ee7a082d63744e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-id
 Architecture: all
@@ -4289,7 +4289,7 @@ SHA512: 50d1c6eab4d27f8b7456cbeb79ff0368e5bc6a5bfc1908cdb4a57ed0d99da5343bc4adb0
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Indonesian language package
 Description-md5: 831b063ee510059ca4447efa18a337a8
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-in
 Architecture: all
@@ -4313,7 +4313,7 @@ SHA512: e220b888ace64c83f3b134e4bf7232c4e8fc3399d3a0813658c1e802a2a7e22911bcf3f4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Indic language packages
 Description-md5: 36e2a96a1e51778367a7324914492a84
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-is
 Architecture: all
@@ -4339,7 +4339,7 @@ SHA512: 5051e2c63b5dd987ad92dca2127d6d1aed834133287d8d8464ecf0f4d93055db7bea1159
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Icelandic language package
 Description-md5: 867a82757a25dc87440a74fb74e46369
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-it
 Architecture: all
@@ -4366,7 +4366,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Italian language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: e9939e05ca7fe3ecb840f7f3d6192e35
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ja
 Architecture: all
@@ -4392,7 +4392,7 @@ SHA512: 707c45488bc5cf45e8df5a7507ae484a1a0e3c90d0f6bcab9973afe30ac88beb304e1d39
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Japanese language package
 Description-md5: 711d02c365f10214733d3d63a55bf474
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ka
 Architecture: all
@@ -4418,7 +4418,7 @@ SHA512: d3a6e39798be89cae19f26cd1a59c33bfc625bc3979142ddd9679c1afd3e4f6332eefe0c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Georgian language package
 Description-md5: 1efb8e2732132342f73ee09022329760
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-kk
 Architecture: all
@@ -4444,7 +4444,7 @@ SHA512: cb57d72f5571abd5835881d389b961a5d601cbba8a04d2f9f7bdeb2008e8f73033295f5e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Kazakh language package
 Description-md5: 0f55a645c29d349c14ae394b15a44300
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-km
 Architecture: all
@@ -4470,7 +4470,7 @@ SHA512: b263472025788af84988ffca81ee68855ab9130e9790f8d8691cb72c6cdb47577c2b6f1d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Khmer language package
 Description-md5: 8bbe73d4befdfd439c3cbc8ee6b1fcb9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-kmr
 Architecture: all
@@ -4496,7 +4496,7 @@ SHA512: e03c04d967c0089a72edf824dccac1d203b1d82297b9320b40551503f7c6b8da4f147c8a
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Kurmanji language package
 Description-md5: b118604d13c95984ec63f0e9fea14884
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-kn
 Architecture: all
@@ -4522,7 +4522,7 @@ SHA512: 4172da0b0ed394c751ba4df2d6064a37bff1c61ebf61dbf265bce9abb329dea96b733da4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Kannada language package
 Description-md5: 5c250ecb97123c4ac162dfd656bbe62e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ko
 Architecture: all
@@ -4548,7 +4548,7 @@ SHA512: 136971633da522d114905952e763ba03e0bfd4811cb4431fc4487f70e3ab26aaaa392ab9
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Korean language package
 Description-md5: 959045aad72889d15ef474977f2b76c4
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-lt
 Architecture: all
@@ -4574,7 +4574,7 @@ SHA512: 2bd167fb9c028d5589cecdf597b34ac5915b16e9eddd8a39c7133a496ce4e4ee6b04b313
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Lithuanian language package
 Description-md5: 034b11c582987c822f6f0f155d0a2dca
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-lv
 Architecture: all
@@ -4600,7 +4600,7 @@ SHA512: 5e983177d041e369b5c4d292e5eabb4a1a994e31dc715b83cd82796d8cbc59acb6cfde7f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Latvian language package
 Description-md5: 5590d50c683679292cf935268a635351
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-mk
 Architecture: all
@@ -4626,7 +4626,7 @@ SHA512: e0f3495891e66e6ee381afc962480f044e4af8a37ddcd73891f003022e50cdfebbcc4f37
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Macedonian language package
 Description-md5: 14c69c972f6eb55814e005281db272c1
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ml
 Architecture: all
@@ -4652,7 +4652,7 @@ SHA512: 12ad14238d3119e66fe83437da40c8a4595f0af989c0a4c53fd014253ae0be969717891f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Malayalam language package
 Description-md5: 60f657487ccd35990900a2b5e69a0ece
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-mn
 Architecture: all
@@ -4678,7 +4678,7 @@ SHA512: d1101f59e9120c203c4b2ea9986a68d7e91fcd48c56a59a8a4326485f2f755376e5e2bef
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Mongolian language package
 Description-md5: 4025564fcb7aef1ac127f7d38a7d89a3
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-mr
 Architecture: all
@@ -4704,7 +4704,7 @@ SHA512: 90acda2f6fc1603bb3ceefd96f0284841e287c7e63624e0bf9c9f94ea4facb03ec9e754c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Marathi language package
 Description-md5: 8222f55840ec7b6dfe5f1d5507393b3c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-nb
 Architecture: all
@@ -4730,7 +4730,7 @@ SHA512: 369ac3af2c6852acc87d53b6d60a2333f0fa5602659f75afab1765e4d8826da79295d9dc
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Norwegian_bokmal language package
 Description-md5: 9ec98f81a0201acd8a280f74f7aea258
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ne
 Architecture: all
@@ -4756,7 +4756,7 @@ SHA512: b5c6d37d821afc439f3bb55519ee02a420c7566c57cb196e951abd722aaa17df60336cf4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Nepalese language package
 Description-md5: b943bce9f69b671bef2b0962294dd15e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-nl
 Architecture: all
@@ -4782,7 +4782,7 @@ SHA512: d790539e64681c85aec82b2f48041bfa0ab857a4dbed3037e916c46f9226a1454eb9f1a5
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Dutch language package
 Description-md5: 070320c4fffa196cb47074884ecf5d04
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-nn
 Architecture: all
@@ -4808,7 +4808,7 @@ SHA512: 868316891948254f280ee1a80269b32d6e79f2951748454567c913f27b3e58a88e6962d2
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Norwegian_nynorsk language package
 Description-md5: bbdb9d7bd3b045feb8b26450f0b1e84d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-nr
 Architecture: all
@@ -4834,7 +4834,7 @@ SHA512: 7060f187dd7978b1e504dafc5bf0a380cf2d735c634b422f61294ca4804d67b9ae4ae573
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Ndebele language package
 Description-md5: 43bc32c188cfe5924ea7f2995a36995d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-nso
 Architecture: all
@@ -4860,7 +4860,7 @@ SHA512: 31f093ab32015e36344b80bf837828ad5afd01af955018bd5014901340a6d3fa57847a6f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Northern_sotho language package
 Description-md5: 12301064896f2feae77bfb9b19df2b41
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-oc
 Architecture: all
@@ -4886,7 +4886,7 @@ SHA512: 1ef351352ab5b3401825f646ba0a31ecbc6a77029bb3ce28e1f40df56e9aba213361d010
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Occitan language package
 Description-md5: 33ddfe08a196f8f66e1a8e27f2d010cc
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-om
 Architecture: all
@@ -4912,7 +4912,7 @@ SHA512: ef868a89202ed9eb0d167478c840c1e0ed66df8b5d30a9e0a184224688781cd1bc57012d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Oromo language package
 Description-md5: b0d2c1a766f405e3832badc1c8a5b242
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-or
 Architecture: all
@@ -4938,7 +4938,7 @@ SHA512: a60a481a1db7d5b5c5d8abd1ab4ed69a0f4349bd99b953b96ae5b3e4c313fda0b9aaceb6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Odia language package
 Description-md5: aca394fbe45768c0d7262fd88c98ebd1
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-pa-in
 Architecture: all
@@ -4964,7 +4964,7 @@ SHA512: 89d1c78de62081016001bf584c9cd5433c32d1ffda43e3d0a4d2bfe47ace127df38358f5
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Punjabi language package
 Description-md5: 257cf2122f7b0d44fd1c044bf69204bb
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-pl
 Architecture: all
@@ -4990,7 +4990,7 @@ SHA512: 272270a258e2c86309bd46d77d8761d7d46aeb8bd3f4109b41b513bdd084ea4c05a5cf9f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Polish language package
 Description-md5: af3855564491f6adf7a5d23e57e3d07f
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-pt
 Architecture: all
@@ -5017,7 +5017,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Portuguese language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 3ebb2c295967229068d690bf4004b6e4
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-pt-br
 Architecture: all
@@ -5044,7 +5044,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Portuguese_brazilian language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: bca2f0a66f444a733b61ca3bb45846ca
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ro
 Architecture: all
@@ -5070,7 +5070,7 @@ SHA512: 3031ce482265cd34ccc9f4e910ccbd265215df9403094926a47257fb007248460ef12078
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Romanian language package
 Description-md5: e4018d28105361bb391246001caccf0c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ru
 Architecture: all
@@ -5097,7 +5097,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Russian language package
 Task: ubuntu-desktop-default-languages, ubuntu-mate-live
 Description-md5: 58787e12e170fc436c645c007bfdc3a3
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-rw
 Architecture: all
@@ -5123,7 +5123,7 @@ SHA512: cb4c6b97bb3c9644e1637db1959591e95c27f2caf4828dd6abfd67658dd34e8f0ac77c2f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Kinarwanda language package
 Description-md5: 567e17f0373585af19cb698b7c5680e9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-si
 Architecture: all
@@ -5149,7 +5149,7 @@ SHA512: ddbf52fbe3c7e3065fc6920a448815d164c6fc0fb17b171b92a160944d1c5f969d2fbf7e
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sinhala language package
 Description-md5: 1f61af11cbbfd06c45ff93fd66708f91
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-sk
 Architecture: all
@@ -5175,7 +5175,7 @@ SHA512: cd3aefc607be20e276a6e39250e49980fc909dbace3562d6f50a5b66e9e8f6e178b7c51b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovak language package
 Description-md5: 1769b72d83c3ab6d8bc16b3fda5f0a67
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-sl
 Architecture: all
@@ -5201,7 +5201,7 @@ SHA512: f31dc714db159995cc1550ae24e8399ffa89db34eb1b27a88615bffd3641e9f28990c8d1
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Slovenian language package
 Description-md5: cb73e143fff5a545b5d0d0878593a2f5
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-sr
 Architecture: all
@@ -5227,7 +5227,7 @@ SHA512: 26885d0dc6ac63a0894f6b13c7a96a8fee303307ef1f2e03f906892e3f2909dc3e082356
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Serbian language package
 Description-md5: a5246257fe1a7bc6da50c1903b447187
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ss
 Architecture: all
@@ -5253,7 +5253,7 @@ SHA512: 2bbb2ca0cfeab985c780a3661a4c8a78fec85efac6b1e5a23bcaf9a61321872cfa62cf30
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Swazi language package
 Description-md5: b3cd9971feec09abdc68c846c96340a6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-st
 Architecture: all
@@ -5279,7 +5279,7 @@ SHA512: 0fd4cde6302318927ce3c98eb2e35595fbb12c7cde9d1bca2d870287cf570e011f72685c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Southern_sotho language package
 Description-md5: 3eddf8b8a781fcc8d00658fd683751c6
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-sv
 Architecture: all
@@ -5305,7 +5305,7 @@ SHA512: 9c24876128d193885d006a37bfa91b07af66b41435936881803caef7915f3dc3e2b09532
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Swedish language package
 Description-md5: 94e08d9ebf4885b6a199a8604f8e4623
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-szl
 Architecture: all
@@ -5331,7 +5331,7 @@ SHA512: 3bbe16cc26aa260f065ec0a63ec701234c01c785a70fbe5668b492dea3281d811bb1cd1b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Upper_silesian language package
 Description-md5: 042319a52566380faa02b485ca055ca0
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ta
 Architecture: all
@@ -5357,7 +5357,7 @@ SHA512: 2b9f49f93aca857628ad5db29d4e36b3ad8edd3a71c9c9d7e750fc5212a02cab8c6ee800
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tamil language package
 Description-md5: f1a39c06a2dd67a9a2480ae41bbfcff0
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-te
 Architecture: all
@@ -5383,7 +5383,7 @@ SHA512: 88f485626981bc594074bbee02e4f8437bb627b8772863e9b824345fd073a756f1070d75
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Telugu language package
 Description-md5: 61e424cfb84420f8dc211c66f1b3a533
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-tg
 Architecture: all
@@ -5409,7 +5409,7 @@ SHA512: d0b6cf809854efc9a830542de7f231769aed79ea1e4272acd00ad865ce2488ce16a07e76
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tajik language package
 Description-md5: 20867b7b1d2eafbaca5ff6af5b2d57c9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-th
 Architecture: all
@@ -5435,7 +5435,7 @@ SHA512: 86468a3399f0118fab7601fa8626ddf77b526d47646ea01f556e911a29f57964f863025d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Thai language package
 Description-md5: 94a998c14aeff6049d9b90810598f1dd
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-tn
 Architecture: all
@@ -5461,7 +5461,7 @@ SHA512: e2974f4c7f59a589607c7167be63ac31a0c42dfa2bf9abd1ce6bc01c30b93a33e2df1687
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tswana language package
 Description-md5: 7da81d27f41218d11fbd8aabceec792c
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-tr
 Architecture: all
@@ -5487,7 +5487,7 @@ SHA512: 763a079c0b559236a71bc25cb4333a3adef25dd558c7a79a54f0ae81286e38e81283c6ca
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Turkish language package
 Description-md5: df7d8cde01531055398d2aa9010f77bc
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ts
 Architecture: all
@@ -5513,7 +5513,7 @@ SHA512: 7a3c675ed2552a9255483d7f69759d0980274fa647941603dce61632b48cb47c791eec36
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Tsonga language package
 Description-md5: 29ca3694d6ba2d256e546fdcdc5b65bb
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ug
 Architecture: all
@@ -5539,7 +5539,7 @@ SHA512: 19946a305008282cd25685857bb8119ca0e7b8a7b5ea2ce545d5a8a7acc126870b60418d
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Uighur language package
 Description-md5: ca1d8cb61ea8620dc7ff4ea41c7dfe12
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-uk
 Architecture: all
@@ -5565,7 +5565,7 @@ SHA512: 6393387b5682b8799f091ae1e9739b094ac16b4a8d93628594838ae389c05f102791c80b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Ukrainian language package
 Description-md5: 6f386a310674737ccb0fc8c3aaefc90e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-uz
 Architecture: all
@@ -5591,7 +5591,7 @@ SHA512: 837ac171b61e61c9bda32cded81d47e003d36b9fa090b07973dc42ee110ce34a7b009d52
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Uzbek language package
 Description-md5: a7da1f6ae1fcdfa64f696aed12dc759d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-ve
 Architecture: all
@@ -5617,7 +5617,7 @@ SHA512: ca617c2b55b69ec157b8127f6929f7a2ce59fa8a26ce8dad301a0ad01a8fb51390fd68d8
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Venda language package
 Description-md5: 7bb286307dfd6105c62d2c54772e83fd
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-vi
 Architecture: all
@@ -5643,7 +5643,7 @@ SHA512: 9774da7e7ba96993dcbc2ed6f258112789b9926cd6a6d1c95cdd3da4ce24cbc783d790d3
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Vietnamese language package
 Description-md5: baa160c324599bd2156dca97789a430a
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-xh
 Architecture: all
@@ -5669,7 +5669,7 @@ SHA512: f843d3a907b493e9918f25f12f117112d1e1eb6983e507f8e49444857c55c62e783baba5
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Xhosa language package
 Description-md5: 6124cc72bfc02b25a2a78aaa09e77b01
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-za
 Architecture: all
@@ -5692,7 +5692,7 @@ SHA512: 9e60cf1b31b353e482c31e5a473e1bef03b219bdbec97241dbd38ff2d0be905f4eaf302b
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- South African language packages
 Description-md5: 88b25d0aaf8864e6f6b3862a477db0fe
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-zh-cn
 Architecture: all
@@ -5719,7 +5719,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Chinese_simplified language package
 Task: ubuntu-desktop-default-languages, ubuntukylin-desktop
 Description-md5: b8e748f9a21ee8996147f93a46daa148
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-zh-tw
 Architecture: all
@@ -5746,7 +5746,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Chinese_traditional language package
 Task: ubuntu-desktop-default-languages
 Description-md5: 166e08e5f36a4b8b8968bda48d5eb24e
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-l10n-zu
 Architecture: all
@@ -5772,7 +5772,7 @@ SHA512: c8d78f14de3484db4a4b72f99e480e16bab3cb06ec72620e04b0ce795517ad5025ab28f4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Zulu language package
 Description-md5: 1826bfebd2ace6bb52d52081479ab115
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-nlpsolver
 Architecture: all
@@ -5795,7 +5795,7 @@ SHA512: 6e74d39fb3d184a507eeea0af8cb2b72b2de883616ab9dc7945bcca92acbd72ee93d4a0e
 Homepage: http://www.libreoffice.org
 Description: "Solver for Nonlinear Programming" extension for LibreOffice
 Description-md5: fae46d5df372eb372a1c97e3831f88bc
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-ogltrans
 Architecture: all
@@ -5819,7 +5819,7 @@ Homepage: http://www.libreoffice.org
 Description: transitional package for libreoffice-ogltrans
 Task: ubuntu-desktop, ubuntu-desktop-raspi, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: e0adf62d9e3c2e44012570545627fe8d
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-pdfimport
 Architecture: all
@@ -5843,7 +5843,7 @@ Homepage: http://www.libreoffice.org
 Description: transitional package for PDF Import component for LibreOffice
 Task: ubuntu-desktop, ubuntu-desktop-raspi, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: 7fece5c04e7014b850ca76b355ae3bd9
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-breeze
 Architecture: all
@@ -5871,7 +5871,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Breeze symbol style
 Task: ubuntu-desktop, ubuntu-desktop-raspi, lubuntu-desktop, ubuntukylin-desktop
 Description-md5: b3a725e09462ccaec72c3b8bb964827b
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-colibre
 Architecture: all
@@ -5897,7 +5897,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- colibre symbol style
 Task: ubuntu-desktop, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-default-languages, ubuntu-desktop-raspi, xubuntu-desktop, lubuntu-desktop, ubuntukylin-desktop, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: 32f69eb782a3e2c24c14038e98222fbe
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-elementary
 Architecture: all
@@ -5924,7 +5924,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Elementary symbol style
 Task: xubuntu-desktop
 Description-md5: d68f25478a11b022507c9a7afef86095
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-tango
 Architecture: all
@@ -5947,7 +5947,7 @@ SHA512: acc0ff432645d288b8e4d11f37f7e4eb7533b0a474d842bcc2c21772d75b559c77b642d1
 Homepage: http://www.libreoffice.org
 Description: transitional package for Tango symbol style
 Description-md5: aaf8968f6a7dfef93cd3c0082bbe8dbd
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreoffice-style-yaru
 Architecture: all
@@ -5973,7 +5973,7 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Yaru symbol style
 Task: ubuntu-mate-desktop
 Description-md5: 63dde2b46227a088ac3219b42f12b922
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libreofficekit-data
 Architecture: all
@@ -5996,7 +5996,7 @@ SHA512: c148e1155da997dcc585576bfc944942b2e6a8ec79fdb9603297ae489822b057f825a019
 Homepage: http://www.libreoffice.org
 Description: common data for LOKDocView
 Description-md5: fb01c7353a795aa18a541109824b6865
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libruby2.7
 Architecture: i386
@@ -6308,7 +6308,7 @@ SHA512: 7e73a09385a4b5ef9be689f9929678a8cb2880ba3db272b6f40369c086c532eeffd130b0
 Homepage: http://www.libreoffice.org
 Description: LibreOffice UNO runtime environment -- (Java) UNO loader
 Description-md5: 48adba4a429bf81f6a64bbbc29cb0006
-Phased-Update-Percentage: 60
+Phased-Update-Percentage: 80
 
 Package: libuuid1
 Architecture: i386
@@ -8583,6 +8583,28 @@ Description: Secure Sockets Layer toolkit - cryptographic utility
 Task: minimal, server-minimal
 Description-md5: 9b6de2bb6e1d9016aeb0f00bcf6617bd
 
+Package: openvswitch-doc
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: optional
+Section: doc
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5589
+Depends: libjs-sphinxdoc (>= 2.4.3-5~)
+Filename: pool/main/o/openvswitch/openvswitch-doc_2.16.0-0ubuntu2.1_all.deb
+Size: 1005854
+MD5sum: 097b654da129e4197b311f2717b54218
+SHA1: db8feb2af17b27d86cb55c43875e8fc60f55f737
+SHA256: 76c2d9c6e7cf0b19c6498b43ef2fdfd7bfea7e6f211cbe74291027b9da8af0fe
+SHA512: 0f45d95580af8c0c8095dc6c15192e7041eb9df5e1751bd91b319c3add1849a6ce2ab3312dbc2805e0b49d1d85b985a44fb4d327f2997ffacb2ec06cb6af83cc
+Homepage: http://openvswitch.org/
+Description: Open vSwitch documentation
+Description-md5: 34dbb9eb458b41810977ed67bd034a5b
+
 Package: ovn-doc
 Architecture: all
 Version: 21.09.0-0ubuntu1
@@ -9490,6 +9512,28 @@ Homepage: http://lxml.de/
 Description: pythonic binding for the libxml2 and libxslt libraries (debug extension)
 Build-Ids: 27747b8c78dd276eddcfc442cd07640ac083df7f 4600ed5d232eae4b69ff376595681895c59d29eb 5685f75dd08413286c8eee55f44b52f2847d6ebf 6a67c19316411d86d4a734e49daa07e34541d432 a63a7d50307ee015507b73699cf4669e5c69481a ad77feb6b8e0a1bd676329e26db2a00ea7648ff2 d0e12c1395f42e8c13824081e2fdeace2bfb6850
 Description-md5: dc60d3e32c93635f03d6f9f774d9845a
+
+Package: python3-openvswitch
+Architecture: all
+Version: 2.16.0-0ubuntu2.1
+Priority: extra
+Section: python
+Source: openvswitch
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 522
+Depends: python3-six, python3-sortedcontainers, python3:any
+Filename: pool/main/o/openvswitch/python3-openvswitch_2.16.0-0ubuntu2.1_all.deb
+Size: 88044
+MD5sum: 9c2ff9641af912aaab6101acda069b27
+SHA1: b13f22f64cee2d6d75d43907df84648841a4c807
+SHA256: f7d15622ad6397ee3a5f29b6994e51fac44b5134337af95debe4982107fd1b76
+SHA512: 211dec5e53365b7c26aeb6e4b8f4f1ca082cce1d5bd9810884daf980f5854e901bab18a1190efbedb8e01aef20eb9681734fed251953cdfdf667fe04e85dad5f
+Homepage: http://openvswitch.org/
+Description: Python 3 bindings for Open vSwitch
+Description-md5: b48125d32305301f27c5399b2d5f9139
 
 Package: python3-problem-report
 Architecture: all
@@ -10680,7 +10724,7 @@ Description-md5: c848721d4a6e6dbc698c36d06bf45ef9
 
 Package: vim
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: optional
 Section: editors
 Origin: Ubuntu
@@ -10689,14 +10733,14 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 3780
 Provides: editor
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), vim-runtime (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), libpython3.9 (>= 3.9.1), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), vim-runtime (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), libpython3.9 (>= 3.9.1), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: ctags, vim-doc, vim-scripts
-Filename: pool/main/v/vim/vim_8.2.2434-3ubuntu3.1_i386.deb
-Size: 1582794
-MD5sum: 6c7e6eb192fda0e17a4af1c046793cb6
-SHA1: 97f50ca10d095dc42d6311c28f9be7cd43c0e6ea
-SHA256: 9eab8dedcd7b2a53017aafc175d4c6f85f8e9587ae54dfe0883b9f3a99158f65
-SHA512: 12d319b22237bbbfc7f88c859bed9ca649bdd15237248f30da5eaa23a528b4b5f03bd881b26925506b22eb24512231b332af292970c2750d5ffab967f632224e
+Filename: pool/main/v/vim/vim_8.2.2434-3ubuntu3.2_i386.deb
+Size: 1583380
+MD5sum: 92681d32cbf481de6dd7c11ae5c01106
+SHA1: 7a7ac9540a1d0075dfffd3098f5f0cc517f5c4d1
+SHA256: a54c662f685c09ddd68c54f918532b13f5883e3dfd9b9988ee22e6db3c082af7
+SHA512: 421501fdb23a56b4b296b7da9fd8365ed13c15f32b4f971a31d9456d3111860de02f52b586017cca4d37fea443e049948ce6a2bbc2093b9792684a39700487ec
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor
 Task: server, ubuntu-server-raspi, lubuntu-desktop
@@ -10704,7 +10748,7 @@ Description-md5: 59e8b8f7757db8b53566d5d119872de8
 
 Package: vim-common
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: important
 Section: editors
@@ -10716,12 +10760,12 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 355
 Depends: xxd
 Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
-Filename: pool/main/v/vim/vim-common_8.2.2434-3ubuntu3.1_all.deb
+Filename: pool/main/v/vim/vim-common_8.2.2434-3ubuntu3.2_all.deb
 Size: 81292
-MD5sum: 7b224b40b799cdaabdabad23bd50cd8c
-SHA1: e2a980f563011eec255ad7c620d9a48610128b45
-SHA256: 83202eb3d9384aa74b8e5241d2b4843700725ce64197129382b2872af3658b8d
-SHA512: 815d7e6f499505d57e1330da05e334227e5d6897521f8b91e6b3dcb2a3db233a1ad77f6f31d8e865a78ec3d3d1c9582bb3b908ffaa9933f07071344c389ff972
+MD5sum: 2d099ba1a6fb6f719650c6dda8306253
+SHA1: 5d5b8e23d1ff704c0894d2437e21b2052ed8e5c8
+SHA256: d4d6fc56c5ec3b526447cb0a686049b5f26358df4dbf8afed75849b8fedfc28b
+SHA512: 3f33cdba039449c60dd5afa6b2c203d76b9c636cdf272281be4f55396e2c7cb87e76567e446b816e4c6bf5c4010b5a931ffc3576997a4beb51b88c8a1ba3d6a2
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Common files
 Task: minimal
@@ -10729,7 +10773,7 @@ Description-md5: 30b64c3dceccc4faef229eafc38d0069
 
 Package: vim-doc
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: optional
 Section: editors
@@ -10739,19 +10783,19 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 13364
-Filename: pool/main/v/vim/vim-doc_8.2.2434-3ubuntu3.1_all.deb
-Size: 2246752
-MD5sum: 0f6e7f776ea84f810ab449ff6b22db02
-SHA1: 8ec0276640c7467efddfdbe406f9dc12c6f79296
-SHA256: 5bf089462cf7171505a00486bb07247305eb79f7ef76274b99eae869ae720544
-SHA512: b90d840cf259b7497ebbca4276e8a6d9b62411e1064ded7c03bc6f17d165d86d66457b358d8d9f552f4fcd95436f5fa4ca6de2ef2bfa27642ed9ca634968374d
+Filename: pool/main/v/vim/vim-doc_8.2.2434-3ubuntu3.2_all.deb
+Size: 2247212
+MD5sum: 1f9ca06ba65c7e4a32a6d8bd1d71629f
+SHA1: 4d7199fa7dfc317333913576d62d593b5f741905
+SHA256: 438339ee638fcbafb52a615ef2593c9329bc6d3e351186beadb0b615580b0df1
+SHA512: eea111d201a46793aa00fa049948c0694d484e59e1d2df5de7e4b0fc6184e48bd40d7842db386838fa189438daf17b06cc88ae993424213a3bc2567e6ebaf25c
 Homepage: https://www.vim.org/
 Description: Vi IMproved - HTML documentation
 Description-md5: bba166bf0174232f296031de0b68b351
 
 Package: vim-runtime
 Architecture: all
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: optional
 Section: editors
@@ -10762,14 +10806,14 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 32147
 Recommends: vim | vim-gtk3 | vim-athena | vim-nox | vim-tiny
-Breaks: vim-tiny (<< 2:8.2.2434-3ubuntu3.1)
+Breaks: vim-tiny (<< 2:8.2.2434-3ubuntu3.2)
 Enhances: vim-tiny
-Filename: pool/main/v/vim/vim-runtime_8.2.2434-3ubuntu3.1_all.deb
-Size: 6702632
-MD5sum: f1d2b3b89de1da17c7d6fee854f780c8
-SHA1: 705633b165c4f3ab07b50a33a11a7bc3f298339a
-SHA256: 339b2049dc814434116c714544233bccc60fdddc2d29193b6fcc80267d186e69
-SHA512: 54c0293b9e872018f5a811c72a47341d178b06d827a3a02f0fe6e1b7439662571c872cb186735753f02c152062a94a70bdd8889504bfa5caa421fc83a0c21e90
+Filename: pool/main/v/vim/vim-runtime_8.2.2434-3ubuntu3.2_all.deb
+Size: 6701168
+MD5sum: 7f4ccab8b2814f364f7f2bbfaf035a01
+SHA1: ce546cbad2fe672538354e0f87c985a882db231f
+SHA256: a64808ab9cdc3a851d7ad422dbabdfc061314849d6a0d7ca225a3077913330cb
+SHA512: 6675f2bf62c273fe12def618cde0d507bf85cb21477af9da91b217fd0820fa3f5a932cd7486bb0a11bc944054fdfbf32cc3feb5ef41b94300648ebe4c25030ec
 Homepage: https://www.vim.org/
 Description: Vi IMproved - Runtime files
 Task: server, ubuntu-server-raspi, lubuntu-desktop
@@ -10777,7 +10821,7 @@ Description-md5: 97bb83c83cb35767c340c5066ce9be0c
 
 Package: vim-tiny
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Priority: important
 Section: editors
 Source: vim
@@ -10787,14 +10831,14 @@ Original-Maintainer: Debian Vim Maintainers <pkg-vim-maintainers@lists.alioth.de
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1700
 Provides: editor
-Depends: vim-common (= 2:8.2.2434-3ubuntu3.1), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
+Depends: vim-common (= 2:8.2.2434-3ubuntu3.2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libselinux1 (>= 3.1~), libtinfo6 (>= 6)
 Suggests: indent
-Filename: pool/main/v/vim/vim-tiny_8.2.2434-3ubuntu3.1_i386.deb
-Size: 684472
-MD5sum: 7dc1041606fb7cec1bb33a7dbf43a331
-SHA1: 6301d0f35e3f9024e4596de0353c9a88ffab2e2a
-SHA256: 481249bb7cdd242537b5a90f1e7d337e51618660e6a830baaa684b53a4f56a64
-SHA512: a543f5a73cd576d2c57ffd23cf7efd69ddeb30e85aab5fc782e0783ffacad04e4fdb4e70b8f2ad6b426b0dc2ff45ba03d09d75e2d3b42e9476dfcbd2e0235d88
+Filename: pool/main/v/vim/vim-tiny_8.2.2434-3ubuntu3.2_i386.deb
+Size: 685198
+MD5sum: fb274d5826eff8dad4d7eebcbf111a57
+SHA1: 0c8e828ddc76a5229182238fcfb203787be5d94b
+SHA256: f68dba08bb0c6a245fb0d6049105700a03b8695cb9ab4e5273fe7d263328e15e
+SHA512: 45840236d9edec3d794a1d8d5e4270a8def769dfdd4f074ddd0f50622a5c273e72cbc2d4160f073fee837ab84b04ad5430e57340c3a05e6de02380ebc6d06ce8
 Homepage: https://www.vim.org/
 Description: Vi IMproved - enhanced vi editor - compact version
 Task: minimal
@@ -10975,7 +11019,7 @@ Description-md5: a49fa8443df84effdf1fd36e26ad0f94
 
 Package: xxd
 Architecture: i386
-Version: 2:8.2.2434-3ubuntu3.1
+Version: 2:8.2.2434-3ubuntu3.2
 Multi-Arch: foreign
 Priority: important
 Section: editors
@@ -10988,12 +11032,12 @@ Installed-Size: 252
 Depends: libc6 (>= 2.34)
 Breaks: vim-common (<< 2:7.4.2347-1~)
 Replaces: vim-common (<< 2:7.4.2347-1~)
-Filename: pool/main/v/vim/xxd_8.2.2434-3ubuntu3.1_i386.deb
-Size: 50870
-MD5sum: 900fd194b1b0bf2f4da474a72ba398e5
-SHA1: d598a1756fa8d369141e6bee53d85b9e74fce3a7
-SHA256: 0231676405c29084db3a732083118beaa97ffe71e2af4a40f19e85022d61afc1
-SHA512: 5b852a2451acfb5821ae81ad7de9eb109969f1218fa54900d16b44e0fe14d0885eecee117c172290fbc5e86ed2303480d2e6a934c0eee88ae141aa10cc662335
+Filename: pool/main/v/vim/xxd_8.2.2434-3ubuntu3.2_i386.deb
+Size: 51288
+MD5sum: 924db4faa6d9502fa0c2f5afeb92fbbd
+SHA1: d8d495e4f80f41d8bb8a4566ff403d0c16c80e6c
+SHA256: 8057960df2a99ab1a3b24fb489a0ea87029a0f69f39b5e7becf5b6462a4cdda0
+SHA512: 3fa0367a81c2f8284ee409fe555b86408823a4611a16dac22363e32d31eb218b58bd46c5d73d8785a6f84385f6daabfd1e91ada59693e3888ce3eb9f93cf7317
 Homepage: https://www.vim.org/
 Description: tool to make (or reverse) a hex dump
 Task: minimal, server-minimal

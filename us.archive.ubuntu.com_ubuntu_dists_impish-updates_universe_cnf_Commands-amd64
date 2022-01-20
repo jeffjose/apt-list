@@ -235,6 +235,18 @@ name: openjdk-8-jre-headless
 version: 8u312-b07-0ubuntu1~21.10
 commands: java,jexec,jjs,keytool,orbd,pack200,rmid,rmiregistry,servertool,tnameserv,unpack200
 
+name: openvswitch-test
+version: 2.16.0-0ubuntu2.1
+commands: ovs-l3ping,ovs-test
+
+name: openvswitch-testcontroller
+version: 2.16.0-0ubuntu2.1
+commands: ovs-testcontroller
+
+name: openvswitch-vtep
+version: 2.16.0-0ubuntu2.1
+commands: vtep-ctl
+
 name: ovn-controller-vtep
 version: 21.09.0-0ubuntu1
 commands: ovn-controller-vtep
