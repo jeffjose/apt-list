@@ -1535,6 +1535,17 @@ Description-en: PostgreSQL C client library
  .
  PostgreSQL is an object-relational SQL database management system.
 
+Package: libruby2.7
+Description-md5: 30659f1432a2602b994287b347691e6a
+Description-en: Libraries necessary to run Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package includes the 'libruby-2.7' library, necessary to run Ruby 2.7.
+ (API version 2.7.0)
+
 Package: libslirp-dev
 Description-md5: 311cf1ae3a4fed1424ee0d58274e5945
 Description-en: General purpose TCP-IP emulator library (development files)
@@ -1813,6 +1824,13 @@ Description-en: Header files related to Linux kernel version 5.13.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-aws-headers-5.13.0-1009/debian.README.gz for details
 
+Package: linux-aws-headers-5.13.0-1011
+Description-md5: 1a4f534d745dfdf3fd8b23090c3fdb89
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-aws-headers-5.13.0-1011/debian.README.gz for details
+
 Package: linux-aws-tools-5.13.0-1006
 Description-md5: e7e322b92de473a6e7417332e3d1f1a1
 Description-en: Linux kernel version specific tools for version 5.13.0-1006
@@ -1848,6 +1866,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1009
  version 5.13.0-1009 on
  64 bit x86.
  You probably want to install linux-tools-5.13.0-1009-<flavour>.
+
+Package: linux-aws-tools-5.13.0-1011
+Description-md5: fdac122e28c86ce9ceac52224444e8c3
+Description-en: Linux kernel version specific tools for version 5.13.0-1011
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1011 on
+ 64 bit x86.
+ You probably want to install linux-tools-5.13.0-1011-<flavour>.
 
 Package: linux-azure
 Description-md5: 5d143c4091c2e7a303d314c0e24595f5
@@ -1887,6 +1914,14 @@ Description-en: Linux kernel version specific cloud tools for version 5.13.0-101
  64 bit x86.
  You probably want to install linux-cloud-tools-5.13.0-1010-<flavour>.
 
+Package: linux-azure-cloud-tools-5.13.0-1012
+Description-md5: e8bb2080551e624c3cbe286f973b5aba
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-1012
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 5.13.0-1012 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-5.13.0-1012-<flavour>.
+
 Package: linux-azure-headers-5.13.0-1007
 Description-md5: f0a014ad11dc105038746c05c8dfbfaf
 Description-en: Header files related to Linux kernel version 5.13.0
@@ -1914,6 +1949,13 @@ Description-en: Header files related to Linux kernel version 5.13.0
  This package provides kernel header files for version 5.13.0, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-azure-headers-5.13.0-1010/debian.README.gz for details
+
+Package: linux-azure-headers-5.13.0-1012
+Description-md5: abd52340370c9bebebb19990bf3b90c5
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-azure-headers-5.13.0-1012/debian.README.gz for details
 
 Package: linux-azure-tools-5.13.0-1007
 Description-md5: 74656a338369a8a412849e55d1325159
@@ -1950,6 +1992,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1010
  version 5.13.0-1010 on
  64 bit x86.
  You probably want to install linux-tools-5.13.0-1010-<flavour>.
+
+Package: linux-azure-tools-5.13.0-1012
+Description-md5: 0aeaaf5522e40db5bb8f2516dd455601
+Description-en: Linux kernel version specific tools for version 5.13.0-1012
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1012 on
+ 64 bit x86.
+ You probably want to install linux-tools-5.13.0-1012-<flavour>.
 
 Package: linux-buildinfo-5.13.0-1005-kvm
 Description-md5: e231d262080435ed3e1188cd00ce85c0
@@ -2087,7 +2138,23 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-1010-kvm
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-buildinfo-5.13.0-1010-oracle
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1011-aws
 Description-md5: e231d262080435ed3e1188cd00ce85c0
 Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
  This package contains the Linux kernel buildinfo for version 5.13.0 on
@@ -2103,7 +2170,31 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-1012-azure
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1012-gcp
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-buildinfo-5.13.0-1013-oracle
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1015-oracle
 Description-md5: e231d262080435ed3e1188cd00ce85c0
 Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
  This package contains the Linux kernel buildinfo for version 5.13.0 on
@@ -2175,6 +2266,22 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-27-generic
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-27-lowlatency
+Description-md5: e231d262080435ed3e1188cd00ce85c0
+Description-en: Linux kernel buildinfo for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-cloud-tools-5.13.0-1007-azure
 Description-md5: 4e489d1fa878ce557a5b33b063902234
 Description-en: Linux kernel version specific cloud tools for version 5.13.0-1007
@@ -2201,6 +2308,13 @@ Description-md5: a26da469249828a97e1585c58ffa3786
 Description-en: Linux kernel version specific cloud tools for version 5.13.0-1010
  This package provides the architecture dependant parts for kernel
  version locked tools for cloud for version 5.13.0-1010 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-5.13.0-1012-azure
+Description-md5: 4f72e6b8a53e452e4715eb1938475f5a
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-1012
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 5.13.0-1012 on
  64 bit x86.
 
 Package: linux-cloud-tools-5.13.0-21
@@ -2289,6 +2403,28 @@ Description-md5: 2514123ad9d1e513af70c802a4ded87c
 Description-en: Linux kernel version specific cloud tools for version 5.13.0-25
  This package provides the architecture dependant parts for kernel
  version locked tools for cloud for version 5.13.0-25 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-5.13.0-27
+Description-md5: 03c09c666a9d3b0945635edc3527eacb
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 5.13.0-27 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-5.13.0-27-<flavour>.
+
+Package: linux-cloud-tools-5.13.0-27-generic
+Description-md5: 9381ba38cec056a51aa17b338d2f192a
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 5.13.0-27 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-5.13.0-27-lowlatency
+Description-md5: 9381ba38cec056a51aa17b338d2f192a
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 5.13.0-27 on
  64 bit x86.
 
 Package: linux-cloud-tools-azure
@@ -2410,6 +2546,13 @@ Description-en: Header files related to Linux kernel version 5.13.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-gcp-headers-5.13.0-1010/debian.README.gz for details
 
+Package: linux-gcp-headers-5.13.0-1012
+Description-md5: 5fa53ca13c957d0bfccc2a91eafae9ee
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-gcp-headers-5.13.0-1012/debian.README.gz for details
+
 Package: linux-gcp-tools-5.13.0-1006
 Description-md5: e7e322b92de473a6e7417332e3d1f1a1
 Description-en: Linux kernel version specific tools for version 5.13.0-1006
@@ -2445,6 +2588,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1010
  version 5.13.0-1010 on
  64 bit x86.
  You probably want to install linux-tools-5.13.0-1010-<flavour>.
+
+Package: linux-gcp-tools-5.13.0-1012
+Description-md5: 0aeaaf5522e40db5bb8f2516dd455601
+Description-en: Linux kernel version specific tools for version 5.13.0-1012
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1012 on
+ 64 bit x86.
+ You probably want to install linux-tools-5.13.0-1012-<flavour>.
 
 Package: linux-generic
 Description-md5: 000d0a6187a93215f75bba542cc6df27
@@ -2623,6 +2775,15 @@ Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1010/debian.README.gz for details.
 
+Package: linux-headers-5.13.0-1010-kvm
+Description-md5: 732cfb2eb3345f261abd8e633607fa20
+Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1010/debian.README.gz for details.
+
 Package: linux-headers-5.13.0-1010-oracle
 Description-md5: 913f7cb85a6eb48bc8e64e1c568b811c
 Description-en: Oracle Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
@@ -2631,6 +2792,15 @@ Description-en: Oracle Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1010/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1011-aws
+Description-md5: 6fefbdcea1ee310fef33df8553960880
+Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1011/debian.README.gz for details.
 
 Package: linux-headers-5.13.0-1011-oracle
 Description-md5: f6ed02110d0995d83ebef6ed44df086c
@@ -2641,6 +2811,24 @@ Description-en: Oracle Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1011/debian.README.gz for details.
 
+Package: linux-headers-5.13.0-1012-azure
+Description-md5: 9e8331ed4d64f2ea97cf96f93bc140f8
+Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1012/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1012-gcp
+Description-md5: 9e8331ed4d64f2ea97cf96f93bc140f8
+Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1012/debian.README.gz for details.
+
 Package: linux-headers-5.13.0-1013-oracle
 Description-md5: fec7fbc87fb3ed48831be4ee37b8bd64
 Description-en: Oracle Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
@@ -2649,6 +2837,15 @@ Description-en: Oracle Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1013/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1015-oracle
+Description-md5: d1def16ed2f5b1a214d53f2919bb437d
+Description-en: Oracle Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1015/debian.README.gz for details.
 
 Package: linux-headers-5.13.0-21
 Description-md5: d1d24c611128ab307def47f787419453
@@ -2749,6 +2946,31 @@ Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-25/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27
+Description-md5: 3fcbae5a01fe260ee287b89b83468a1c
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details
+
+Package: linux-headers-5.13.0-27-generic
+Description-md5: a587ff4f0b524f7f7a444b3563f37152
+Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-lowlatency
+Description-md5: a587ff4f0b524f7f7a444b3563f37152
+Description-en: Linux kernel headers for version 5.13.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
 
 Package: linux-headers-aws
 Description-md5: 279f4ec9e0d306a0528bbd49b4805b6f
@@ -2976,11 +3198,31 @@ Description-en: Signed kernel image GCP
  A kernel image for GCP.  This version of it is signed with
  Canonical's UEFI/Opal signing key.
 
+Package: linux-image-5.13.0-1010-kvm
+Description-md5: 278b82cbd79b352b7a64d268b71a6ba5
+Description-en: Signed kernel image kvm
+ A kernel image for kvm.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
 Package: linux-image-5.13.0-1010-oracle
 Description-md5: dac56b784e93dabcafaf01236fed222d
 Description-en: Signed kernel image oracle
  A kernel image for Oracle.  This version of it is signed with
  Canonical's UEFI/Opal signing key.
+
+Package: linux-image-5.13.0-1011-aws
+Description-md5: 20731e3d889fabd9384b43d12bc596dd
+Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
 
 Package: linux-image-5.13.0-1011-oracle
 Description-md5: dac56b784e93dabcafaf01236fed222d
@@ -2988,7 +3230,25 @@ Description-en: Signed kernel image oracle
  A kernel image for Oracle.  This version of it is signed with
  Canonical's UEFI/Opal signing key.
 
+Package: linux-image-5.13.0-1012-azure
+Description-md5: 4f10ee54ba011a7f5b60c437e681a38d
+Description-en: Signed kernel image azure
+ A kernel image for azure.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-5.13.0-1012-gcp
+Description-md5: a844e08bb9bc7e5da00eb900399526fd
+Description-en: Signed kernel image GCP
+ A kernel image for GCP.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
 Package: linux-image-5.13.0-1013-oracle
+Description-md5: dac56b784e93dabcafaf01236fed222d
+Description-en: Signed kernel image oracle
+ A kernel image for Oracle.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-5.13.0-1015-oracle
 Description-md5: dac56b784e93dabcafaf01236fed222d
 Description-en: Signed kernel image oracle
  A kernel image for Oracle.  This version of it is signed with
@@ -3037,6 +3297,18 @@ Description-en: Signed kernel image generic
  Canonical's UEFI/Opal signing key.
 
 Package: linux-image-5.13.0-25-lowlatency
+Description-md5: d033c93139790e893a4e35936dd49bc8
+Description-en: Signed kernel image lowlatency
+ A kernel image for lowlatency.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-image-5.13.0-27-generic
+Description-md5: 54a18b1adebc179da3c9e59a5db5fe77
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-5.13.0-27-lowlatency
 Description-md5: d033c93139790e893a4e35936dd49bc8
 Description-en: Signed kernel image lowlatency
  A kernel image for lowlatency.  This version of it is signed with
@@ -3316,6 +3588,20 @@ Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
  the linux-gcp meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-unsigned-5.13.0-1010-kvm
+Description-md5: e6ed40109aab28c0e972b61499e35085
+Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward virtual systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-kvm meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-unsigned-5.13.0-1010-oracle
 Description-md5: 2ebf6799f5304b11fafbfe3e8168867f
 Description-en: Oracle Linux kernel image for version 5.13.0 on 64 bit x86 SMP
@@ -3344,7 +3630,49 @@ Description-en: Oracle Linux kernel image for version 5.13.0 on 64 bit x86 SMP
  the linux-oracle meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-unsigned-5.13.0-1012-azure
+Description-md5: 43ba59f76ade789e8b8f834bf907778a
+Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Azure processors.
+ .
+ Geared toward Azure systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-azure meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-1012-gcp
+Description-md5: aa764ba79c9710e2d0f96be2620c42d2
+Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward GCP/GKE systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-gcp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-unsigned-5.13.0-1013-oracle
+Description-md5: 2ebf6799f5304b11fafbfe3e8168867f
+Description-en: Oracle Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Oracle Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-1015-oracle
 Description-md5: 2ebf6799f5304b11fafbfe3e8168867f
 Description-en: Oracle Linux kernel image for version 5.13.0 on 64 bit x86 SMP
  This package contains the unsigned Oracle Linux kernel image for version 5.13.0 on
@@ -3470,6 +3798,34 @@ Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
  the linux-lowlatency meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-unsigned-5.13.0-27-generic
+Description-md5: 467b5f7a4ed1e24f7128afd6453df516
+Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-27-lowlatency
+Description-md5: f7c7ac8e2c95697b029c8c2e08234982
+Description-en: Linux kernel image for version 5.13.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-virtual
 Description-md5: 730c41972b2fe1e17a49895d30344c78
 Description-en: Virtual Linux kernel image
@@ -3522,6 +3878,13 @@ Description-en: Header files related to Linux kernel version 5.13.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-kvm-headers-5.13.0-1008/debian.README.gz for details
 
+Package: linux-kvm-headers-5.13.0-1010
+Description-md5: be6ad58d77f701f038b5a4eaf36522cf
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-kvm-headers-5.13.0-1010/debian.README.gz for details
+
 Package: linux-kvm-tools-5.13.0-1005
 Description-md5: 025a6f7735da734a7ef6c3d130ec06aa
 Description-en: Linux kernel version specific tools for version 5.13.0-1005
@@ -3557,6 +3920,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1008
  version 5.13.0-1008 on
  64 bit x86.
  You probably want to install linux-tools-5.13.0-1008-<flavour>.
+
+Package: linux-kvm-tools-5.13.0-1010
+Description-md5: d01a1e0921b9121973c645772b55e956
+Description-en: Linux kernel version specific tools for version 5.13.0-1010
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1010 on
+ 64 bit x86.
+ You probably want to install linux-tools-5.13.0-1010-<flavour>.
 
 Package: linux-libc-dev
 Description-md5: d5d143e6dffc891f04a85464446f9451
@@ -3839,6 +4211,21 @@ Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
  the linux-gcp meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-5.13.0-1010-kvm
+Description-md5: 36cdd9edbda99813b0fe3aeb041e0761
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward virtual systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-kvm meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-5.13.0-1010-oracle
 Description-md5: 1fc40dd129e8e09eedfeb295a365c865
 Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
@@ -3852,6 +4239,21 @@ Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x
  .
  You likely do not want to install this package directly. Instead, install
  the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1011-aws
+Description-md5: 2815c4a80626e204fb8b4d5e2806e43b
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-1011-oracle
@@ -3869,7 +4271,52 @@ Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x
  the linux-oracle meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-5.13.0-1012-azure
+Description-md5: ecededf33a92352147e0a920830ebd03
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Azure processors.
+ .
+ Geared toward Azure systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-azure meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1012-gcp
+Description-md5: 074a9b3d231e1f1cb3218b089a8672c2
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward GCP/GKE systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-gcp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-5.13.0-1013-oracle
+Description-md5: 1fc40dd129e8e09eedfeb295a365c865
+Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1015-oracle
 Description-md5: 1fc40dd129e8e09eedfeb295a365c865
 Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
  Contains the corresponding System.map file, the modules built by the
@@ -3990,6 +4437,36 @@ Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-25-lowlatency
+Description-md5: 4906aa7739996929671d91def4695b08
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-generic
+Description-md5: 77138c8c960c5fee1909db621b24791f
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-lowlatency
 Description-md5: 4906aa7739996929671d91def4695b08
 Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
  Contains the corresponding System.map file, the modules built by the
@@ -4240,6 +4717,20 @@ Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x
  the linux-oracle meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-1011-aws
+Description-md5: 4838a3f03e485dbd824305be1a9a872a
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-modules-extra-aws meta-package, which will ensure that upgrades
+ work correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-5.13.0-1011-oracle
 Description-md5: ddb59cdf84f015d8560096d82fd6915c
 Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
@@ -4258,7 +4749,61 @@ Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x
  the linux-oracle meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-1012-azure
+Description-md5: f8b8ff2707830e2ac4729f6465f3619e
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Azure processors.
+ .
+ Geared toward Azure systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-azure meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-5.13.0-1012-gcp
+Description-md5: 76a98dec5c15ed6293a4684bfbd2d6ed
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward GCP/GKE systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-gcp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-5.13.0-1013-oracle
+Description-md5: ddb59cdf84f015d8560096d82fd6915c
+Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Oracle Linux kernel extra modules for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-5.13.0-1015-oracle
 Description-md5: ddb59cdf84f015d8560096d82fd6915c
 Description-en: Oracle Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
  This package contains the Oracle Linux kernel extra modules for version 5.13.0 on
@@ -4348,6 +4893,24 @@ Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-27-generic
+Description-md5: 7243c50bcac6c93407fba2028d475b4d
+Description-en: Linux kernel extra modules for version 5.13.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-aws
 Description-md5: d63d87dde1b61e9837ce2bfb52eeaa46
 Description-en: Extra modules for Amazon Web Services (AWS) systems.
@@ -4411,6 +4974,13 @@ Description-en: Header files related to Oracle Linux kernel version 5.13.0
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-oracle-headers-5.13.0-1013/debian.README.gz for details
 
+Package: linux-oracle-headers-5.13.0-1015
+Description-md5: b8bcd29da3a2808e529ccf675dda5637
+Description-en: Header files related to Oracle Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-oracle-headers-5.13.0-1015/debian.README.gz for details
+
 Package: linux-oracle-tools-5.13.0-1009
 Description-md5: 91a9c8695de186c94b8bf43e0766ca31
 Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1009
@@ -4447,6 +5017,15 @@ Description-en: Oracle Linux kernel version specific tools for version 5.13.0-10
  64 bit x86.
  You probably want to install linux-tools-5.13.0-1013-<flavour>.
 
+Package: linux-oracle-tools-5.13.0-1015
+Description-md5: 230e867dffaad6501267b9405acb4220
+Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
+ 64 bit x86.
+ You probably want to install linux-tools-5.13.0-1015-<flavour>.
+
 Package: linux-riscv-headers-5.13.0-1005
 Description-md5: 65c2b14bac8fe2d5214e954fff1b97e4
 Description-en: Header files related to Linux kernel version 5.13.0
@@ -4474,6 +5053,13 @@ Description-en: Header files related to Linux kernel version 5.13.0
  This package provides kernel header files for version 5.13.0, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-riscv-headers-5.13.0-1008/debian.README.gz for details
+
+Package: linux-riscv-headers-5.13.0-1010
+Description-md5: 826ef2f6e4ec5c42e302db0a197f90e4
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-riscv-headers-5.13.0-1010/debian.README.gz for details
 
 Package: linux-source
 Description-md5: 1cac084d2ae18dfd06b96585b4be564d
@@ -4634,12 +5220,28 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1010
  version 5.13.0-1010 on
  64 bit x86.
 
+Package: linux-tools-5.13.0-1010-kvm
+Description-md5: 280ab91bfd8bacdae47c5b7c7a485090
+Description-en: Linux kernel version specific tools for version 5.13.0-1010
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1010 on
+ 64 bit x86.
+
 Package: linux-tools-5.13.0-1010-oracle
 Description-md5: 233e1e3c651cde7b996518795399aa28
 Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1010
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-1010 on
+ 64 bit x86.
+
+Package: linux-tools-5.13.0-1011-aws
+Description-md5: 972c2f09a15f399c86b865c81091e38e
+Description-en: Linux kernel version specific tools for version 5.13.0-1011
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1011 on
  64 bit x86.
 
 Package: linux-tools-5.13.0-1011-oracle
@@ -4650,12 +5252,36 @@ Description-en: Oracle Linux kernel version specific tools for version 5.13.0-10
  version 5.13.0-1011 on
  64 bit x86.
 
+Package: linux-tools-5.13.0-1012-azure
+Description-md5: fcd6817243bf6b20cca1dbff6ca4c687
+Description-en: Linux kernel version specific tools for version 5.13.0-1012
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1012 on
+ 64 bit x86.
+
+Package: linux-tools-5.13.0-1012-gcp
+Description-md5: fcd6817243bf6b20cca1dbff6ca4c687
+Description-en: Linux kernel version specific tools for version 5.13.0-1012
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1012 on
+ 64 bit x86.
+
 Package: linux-tools-5.13.0-1013-oracle
 Description-md5: 485ff2fc7769df489726f7a6493aa000
 Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1013
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-1013 on
+ 64 bit x86.
+
+Package: linux-tools-5.13.0-1015-oracle
+Description-md5: 966edc0a85f76a429f05217cb8f4d990
+Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
  64 bit x86.
 
 Package: linux-tools-5.13.0-21
@@ -4756,6 +5382,31 @@ Description-en: Linux kernel version specific tools for version 5.13.0-25
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-25 on
+ 64 bit x86.
+
+Package: linux-tools-5.13.0-27
+Description-md5: 924c5c25df234ab2046137c61d589eab
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ 64 bit x86.
+ You probably want to install linux-tools-5.13.0-27-<flavour>.
+
+Package: linux-tools-5.13.0-27-generic
+Description-md5: ba26ed3e31beac6e6513edd816377302
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ 64 bit x86.
+
+Package: linux-tools-5.13.0-27-lowlatency
+Description-md5: ba26ed3e31beac6e6513edd816377302
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
  64 bit x86.
 
 Package: linux-tools-aws
@@ -5425,6 +6076,39 @@ Description-en: Python 3 bindings for Samba
  or member server in both NT4-style and Active Directory domains.
  .
  This package contains Python 3 bindings for most Samba libraries.
+
+Package: ruby2.7
+Description-md5: acaf9860ea8a8843431ae8c96d9c2c19
+Description-en: Interpreter of object-oriented scripting language Ruby
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ In the name of this package, `2.7' indicates the Ruby library compatibility
+ version. This package currently provides the `2.7.x' branch of Ruby.
+
+Package: ruby2.7-dev
+Description-md5: c7609d60a5295902f91ebae527eba4f6
+Description-en: Header files for compiling extension modules for the Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the header files and the mkmf library, necessary
+ to make extension library for Ruby 2.7. It is also required to build
+ many gems.
+
+Package: ruby2.7-doc
+Description-md5: c6e2f27422c22dfb514d5e2bbfdba162
+Description-en: Documentation for Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the autogenerated documentation for Ruby 2.7.
 
 Package: samba
 Description-md5: 3dcec89b7baaa655b2536933cdaeab54
@@ -6365,6 +7049,14 @@ Description-en: Linux kernel version specific cloud tools for version 5.13.0-100
  ARMv8.
  You probably want to install linux-cloud-tools-5.13.0-1009-<flavour>.
 
+Package: linux-aws-cloud-tools-5.13.0-1011
+Description-md5: 4c7abfcd4e77ed0b030b2db552098a0e
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-1011
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 5.13.0-1011 on
+ ARMv8.
+ You probably want to install linux-cloud-tools-5.13.0-1011-<flavour>.
+
 Package: linux-aws-tools-5.13.0-1006
 Description-md5: 319808ca0bd01309a0efb55fcb212d32
 Description-en: Linux kernel version specific tools for version 5.13.0-1006
@@ -6400,6 +7092,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1009
  version 5.13.0-1009 on
  ARMv8.
  You probably want to install linux-tools-5.13.0-1009-<flavour>.
+
+Package: linux-aws-tools-5.13.0-1011
+Description-md5: 80322461eca9bf0d9b577557f4095232
+Description-en: Linux kernel version specific tools for version 5.13.0-1011
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1011 on
+ ARMv8.
+ You probably want to install linux-tools-5.13.0-1011-<flavour>.
 
 Package: linux-buildinfo-5.13.0-1006-aws
 Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
@@ -6457,6 +7158,14 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-1011-aws
+Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-buildinfo-5.13.0-1011-oracle
 Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
 Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
@@ -6490,6 +7199,22 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
  You likely do not want to install this package.
 
 Package: linux-buildinfo-5.13.0-1013-raspi
+Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1015-oracle
+Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1015-raspi
 Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
 Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
  This package contains the Linux kernel buildinfo for version 5.13.0 on
@@ -6561,6 +7286,22 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-27-generic
+Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-27-generic-64k
+Description-md5: 55a6314f26c6df01d6bb87d90cf4e9c2
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-cloud-tools-5.13.0-1006-aws
 Description-md5: 93d61c2d9f972ca409fe8d70aeaf9899
 Description-en: Linux kernel version specific cloud tools for version 5.13.0-1006
@@ -6587,6 +7328,13 @@ Description-md5: d21cae4a2cf615ef4c1990c8c443c2c9
 Description-en: Linux kernel version specific cloud tools for version 5.13.0-1009
  This package provides the architecture dependant parts for kernel
  version locked tools for cloud for version 5.13.0-1009 on
+ ARMv8.
+
+Package: linux-cloud-tools-5.13.0-1011-aws
+Description-md5: 48d82b4a7c0d3d876b95cf0bbc2b226b
+Description-en: Linux kernel version specific cloud tools for version 5.13.0-1011
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 5.13.0-1011 on
  ARMv8.
 
 Package: linux-generic-64k
@@ -6670,6 +7418,15 @@ Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1010/debian.README.gz for details.
 
+Package: linux-headers-5.13.0-1011-aws
+Description-md5: ec60b4b55da1c666188046c6baaf58e1
+Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1011/debian.README.gz for details.
+
 Package: linux-headers-5.13.0-1011-oracle
 Description-md5: 48097749dfbf2fd3cec9efd43eaa0f10
 Description-en: Oracle Linux kernel headers for version 5.13.0 on ARMv8 SMP
@@ -6714,6 +7471,24 @@ Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1013/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1015-oracle
+Description-md5: 6e1c0988d19dc28cbc983421081ab19f
+Description-en: Oracle Linux kernel headers for version 5.13.0 on ARMv8 SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1015/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1015-raspi
+Description-md5: 6e76885b1d32bb2066ea2f16dd3dc357
+Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1015/debian.README.gz for details.
 
 Package: linux-headers-5.13.0-21-generic
 Description-md5: a66fb6633a5d367640338cdde1c17cca
@@ -6786,6 +7561,24 @@ Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-25/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-generic
+Description-md5: 7d84296c81b74c9c9977fa35c10b2f79
+Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-generic-64k
+Description-md5: 7d84296c81b74c9c9977fa35c10b2f79
+Description-en: Linux kernel headers for version 5.13.0 on ARMv8 SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
 
 Package: linux-headers-generic-64k
 Description-md5: 7a578625be626f96075f6bacf4b9abc1
@@ -6881,6 +7674,20 @@ Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
  the linux-raspi meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-5.13.0-1011-aws
+Description-md5: 3877fced140f82463f83752fdd645f32
+Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-5.13.0-1011-raspi
 Description-md5: 6ca3d0f96a7662a96f25808024f94926
 Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
@@ -6923,6 +7730,20 @@ Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
  the linux-raspi meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-5.13.0-1015-raspi
+Description-md5: 6ca3d0f96a7662a96f25808024f94926
+Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports Raspberry Pi processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-5.13.0-21-generic-64k
 Description-md5: fbb25c23925cd317fc1ad393e17b4023
 Description-en: Signed kernel image generic-64k
@@ -6942,6 +7763,12 @@ Description-en: Signed kernel image generic-64k
  Canonical's UEFI/Opal signing key.
 
 Package: linux-image-5.13.0-25-generic-64k
+Description-md5: fbb25c23925cd317fc1ad393e17b4023
+Description-en: Signed kernel image generic-64k
+ A kernel image for generic-64k.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-5.13.0-27-generic-64k
 Description-md5: fbb25c23925cd317fc1ad393e17b4023
 Description-en: Signed kernel image generic-64k
  A kernel image for generic-64k.  This version of it is signed with
@@ -7014,6 +7841,20 @@ Description-en: Oracle Linux kernel image for version 5.13.0 on ARMv8 SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-unsigned-5.13.0-1013-oracle
+Description-md5: 4642cf6da959efb21bd47d8435d85c37
+Description-en: Oracle Linux kernel image for version 5.13.0 on ARMv8 SMP
+ This package contains the unsigned Oracle Linux kernel image for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-1015-oracle
 Description-md5: 4642cf6da959efb21bd47d8435d85c37
 Description-en: Oracle Linux kernel image for version 5.13.0 on ARMv8 SMP
  This package contains the unsigned Oracle Linux kernel image for version 5.13.0 on
@@ -7139,6 +7980,34 @@ Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
  the linux-generic-64k meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-unsigned-5.13.0-27-generic
+Description-md5: 9c540982a526ccba18b58f9ac4f7645a
+Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-27-generic-64k
+Description-md5: c4950eebacec5ba5a3857e0935198028
+Description-en: Linux kernel image for version 5.13.0 on ARMv8 SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports Generic 64K pages processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-64k meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-5.13.0-1006-aws
 Description-md5: b506299648ce78e59de35490899461df
 Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
@@ -7244,6 +8113,21 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
  the linux-raspi meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-5.13.0-1011-aws
+Description-md5: b506299648ce78e59de35490899461df
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-5.13.0-1011-oracle
 Description-md5: 86a2826b47c26a2a55efcbfb35d708c9
 Description-en: Oracle Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
@@ -7305,6 +8189,36 @@ Description-en: Oracle Linux kernel extra modules for version 5.13.0 on ARMv8 SM
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-1013-raspi
+Description-md5: 1cde3392165f39f90dcff807715f0b42
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Raspberry Pi processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1015-oracle
+Description-md5: 86a2826b47c26a2a55efcbfb35d708c9
+Description-en: Oracle Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1015-raspi
 Description-md5: 1cde3392165f39f90dcff807715f0b42
 Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
  Contains the corresponding System.map file, the modules built by the
@@ -7439,6 +8353,36 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
  the linux-generic-64k meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-5.13.0-27-generic
+Description-md5: a45069796d7349c8db936dea825adc9d
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-generic-64k
+Description-md5: 0ea1fff06c205371fae327317da31596
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic 64K pages processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-64k meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-5.13.0-1006-aws
 Description-md5: 61e4db3de177d6a3a8bf7c355fce1b2a
 Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
@@ -7545,6 +8489,20 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
  the linux-modules-extra-raspi meta-package, which will ensure that upgrades
  work correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-1011-aws
+Description-md5: 61e4db3de177d6a3a8bf7c355fce1b2a
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-modules-extra-aws meta-package, which will ensure that upgrades
+ work correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-5.13.0-1011-oracle
 Description-md5: 55ad2f97ffaabdf8f9228c6e5812b5da
 Description-en: Oracle Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
@@ -7610,6 +8568,38 @@ Description-en: Oracle Linux kernel extra modules for version 5.13.0 on ARMv8 SM
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-extra-5.13.0-1013-raspi
+Description-md5: e171cb593b7340375a3e5d5362028eaa
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Supports Raspberry Pi processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-modules-extra-raspi meta-package, which will ensure that upgrades
+ work correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-5.13.0-1015-oracle
+Description-md5: 55ad2f97ffaabdf8f9228c6e5812b5da
+Description-en: Oracle Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ This package contains the Oracle Linux kernel extra modules for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-5.13.0-1015-raspi
 Description-md5: e171cb593b7340375a3e5d5362028eaa
 Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
  This package contains the Linux kernel extra modules for version 5.13.0 on
@@ -7695,6 +8685,24 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-27-generic
+Description-md5: 8c549a2060262905fb2bd394df9383f4
+Description-en: Linux kernel extra modules for version 5.13.0 on ARMv8 SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-raspi
 Description-md5: 62d2059a3326980099090f6628c995b3
 Description-en: Raspberry Pi Linux kernel extra modules
@@ -7737,6 +8745,15 @@ Description-en: Oracle Linux kernel version specific tools for version 5.13.0-10
  ARMv8.
  You probably want to install linux-tools-5.13.0-1013-<flavour>.
 
+Package: linux-oracle-tools-5.13.0-1015
+Description-md5: bbf3e141c080868e72cc97391525ff05
+Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
+ ARMv8.
+ You probably want to install linux-tools-5.13.0-1015-<flavour>.
+
 Package: linux-raspi
 Description-md5: 1014763f32b756bcf58c98df74203796
 Description-en: Complete Raspberry Pi Linux kernel and headers
@@ -7770,6 +8787,13 @@ Description-en: Header files related to Linux kernel version 5.13.0
  This package provides kernel header files for version 5.13.0, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-raspi-headers-5.13.0-1013/debian.README.gz for details
+
+Package: linux-raspi-headers-5.13.0-1015
+Description-md5: b1f63f63f61bd89a0adbdc7c6c72e44d
+Description-en: Header files related to Linux kernel version 5.13.0
+ This package provides kernel header files for version 5.13.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-raspi-headers-5.13.0-1015/debian.README.gz for details
 
 Package: linux-raspi-tools-5.13.0-1010
 Description-md5: cc1e0ef42b58210b93e3f497ccac09b5
@@ -7806,6 +8830,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1013
  version 5.13.0-1013 on
  ARMv8.
  You probably want to install linux-tools-5.13.0-1013-<flavour>.
+
+Package: linux-raspi-tools-5.13.0-1015
+Description-md5: e531169de45401c73da206e385941175
+Description-en: Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
+ ARMv8.
+ You probably want to install linux-tools-5.13.0-1015-<flavour>.
 
 Package: linux-tools-5.13.0-1006-aws
 Description-md5: ddacc5f55cdea46fcce2ab5fc1e8d4f4
@@ -7863,6 +8896,14 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1010
  version 5.13.0-1010 on
  ARMv8.
 
+Package: linux-tools-5.13.0-1011-aws
+Description-md5: eb50076359f6858aa4ecd6ec14605b14
+Description-en: Linux kernel version specific tools for version 5.13.0-1011
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1011 on
+ ARMv8.
+
 Package: linux-tools-5.13.0-1011-oracle
 Description-md5: 76e59f57f251d91582bca8ecc603c769
 Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1011
@@ -7901,6 +8942,22 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1013
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-1013 on
+ ARMv8.
+
+Package: linux-tools-5.13.0-1015-oracle
+Description-md5: ae7e0b81402a9588970b3bfd0a78055c
+Description-en: Oracle Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
+ ARMv8.
+
+Package: linux-tools-5.13.0-1015-raspi
+Description-md5: 61d1013e5bcc0a94b3de9bfaba60035b
+Description-en: Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
  ARMv8.
 
 Package: linux-tools-5.13.0-21
@@ -8003,6 +9060,31 @@ Description-en: Linux kernel version specific tools for version 5.13.0-25
  version 5.13.0-25 on
  ARMv8.
 
+Package: linux-tools-5.13.0-27
+Description-md5: f47814e91b2720b37bcf635d1c9d2777
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ ARMv8.
+ You probably want to install linux-tools-5.13.0-27-<flavour>.
+
+Package: linux-tools-5.13.0-27-generic
+Description-md5: 284fd799a1d808cf4522ff126fe20987
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ ARMv8.
+
+Package: linux-tools-5.13.0-27-generic-64k
+Description-md5: 284fd799a1d808cf4522ff126fe20987
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ ARMv8.
+
 Package: linux-tools-generic-64k
 Description-md5: ba4f375a2a2b5ada997c4cffff881f11
 Description-en: Generic 64K Linux kernel tools
@@ -8091,6 +9173,22 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SM
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-1015-raspi
+Description-md5: df8556516f369aecd73f9bebe0b25ebb
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1015-raspi-nolpae
+Description-md5: df8556516f369aecd73f9bebe0b25ebb
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-buildinfo-5.13.0-21-generic
 Description-md5: df8556516f369aecd73f9bebe0b25ebb
 Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SMP
@@ -8148,6 +9246,22 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SM
  You likely do not want to install this package.
 
 Package: linux-buildinfo-5.13.0-25-generic-lpae
+Description-md5: df8556516f369aecd73f9bebe0b25ebb
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-27-generic
+Description-md5: df8556516f369aecd73f9bebe0b25ebb
+Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-27-generic-lpae
 Description-md5: df8556516f369aecd73f9bebe0b25ebb
 Description-en: Linux kernel buildinfo for version 5.13.0 on ARM (hard float) SMP
  This package contains the Linux kernel buildinfo for version 5.13.0 on
@@ -8245,6 +9359,24 @@ Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1013/debian.README.gz for details.
 
+Package: linux-headers-5.13.0-1015-raspi
+Description-md5: dcce94ab1e663b77e0ac427025afa3e7
+Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1015/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1015-raspi-nolpae
+Description-md5: dcce94ab1e663b77e0ac427025afa3e7
+Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1015/debian.README.gz for details.
+
 Package: linux-headers-5.13.0-21-generic
 Description-md5: 1d4478f4674794745221efff6ca222de
 Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
@@ -8316,6 +9448,24 @@ Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-25/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-generic
+Description-md5: dd8d4d237db4a72630d6a8e2fe7f657a
+Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-generic-lpae
+Description-md5: dd8d4d237db4a72630d6a8e2fe7f657a
+Description-en: Linux kernel headers for version 5.13.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
 
 Package: linux-headers-generic-lpae
 Description-md5: e736e620d7976258f618dadab1d651e9
@@ -8453,6 +9603,34 @@ Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
  the linux-raspi-nolpae meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-image-5.13.0-1015-raspi
+Description-md5: 3d5aa014852dbe378dc5fec9425df7be
+Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Raspberry Pi processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-5.13.0-1015-raspi-nolpae
+Description-md5: 3037c6379c62b9c31c94c27aad080ace
+Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Raspberry Pi no-LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi-nolpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-image-5.13.0-21-generic
 Description-md5: 5506fa7443d06eea503c0e51601cb9d2
 Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
@@ -8552,6 +9730,34 @@ Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-5.13.0-25-generic-lpae
+Description-md5: a991599d024b63c1903e6752c3abfbe9
+Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-5.13.0-27-generic
+Description-md5: 5506fa7443d06eea503c0e51601cb9d2
+Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-5.13.0-27-generic-lpae
 Description-md5: a991599d024b63c1903e6752c3abfbe9
 Description-en: Linux kernel image for version 5.13.0 on ARM (hard float) SMP
  This package contains the Linux kernel image for version 5.13.0 on
@@ -8709,6 +9915,36 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float
  the linux-raspi-nolpae meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-5.13.0-1015-raspi
+Description-md5: 6c3c4b37ec184735fbf959b51b248a2a
+Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Raspberry Pi processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1015-raspi-nolpae
+Description-md5: a959dbb18d92f2ee3af425d9e417745c
+Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Raspberry Pi no-LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi-nolpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-modules-5.13.0-21-generic
 Description-md5: 65f1e35f4581d1facc3b40f6018cf484
 Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
@@ -8815,6 +10051,36 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-25-generic-lpae
+Description-md5: b428cc8da862e8414cbf49dd2cbb46f6
+Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-generic
+Description-md5: 65f1e35f4581d1facc3b40f6018cf484
+Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-generic-lpae
 Description-md5: b428cc8da862e8414cbf49dd2cbb46f6
 Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
  Contains the corresponding System.map file, the modules built by the
@@ -8941,6 +10207,34 @@ Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float
  the linux-modules-extra-raspi-nolpae meta-package, which will ensure that upgrades
  work correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-1015-raspi
+Description-md5: c1167f95aa81c47376b91e0fe3a4dc91
+Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Raspberry Pi processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-modules-extra-raspi meta-package, which will ensure that upgrades
+ work correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-5.13.0-1015-raspi-nolpae
+Description-md5: 68f423bfcee5b06a1606b8e2143b058f
+Description-en: Linux kernel extra modules for version 5.13.0 on ARM (hard float) SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Raspberry Pi no-LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-modules-extra-raspi-nolpae meta-package, which will ensure that upgrades
+ work correctly, and that supporting packages are also installed.
+
 Package: linux-modules-extra-raspi-nolpae
 Description-md5: e4d246d005c2d9ca27c2ecd3612675f2
 Description-en: Raspberry Pi no-LPAE Linux kernel extra modules
@@ -8988,6 +10282,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1013
  version 5.13.0-1013 on
  ARM (hard float).
  You probably want to install linux-tools-5.13.0-1013-<flavour>.
+
+Package: linux-raspi-tools-5.13.0-1015
+Description-md5: 833d348841d7912b7d9dec62ec209a17
+Description-en: Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
+ ARM (hard float).
+ You probably want to install linux-tools-5.13.0-1015-<flavour>.
 
 Package: linux-tools-5.13.0-1010-raspi
 Description-md5: a213bee1433b9d592b14906d492ec291
@@ -9051,6 +10354,22 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1013
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-1013 on
+ ARM (hard float).
+
+Package: linux-tools-5.13.0-1015-raspi
+Description-md5: 0a5dd4c95ea6e337215023e23401c116
+Description-en: Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
+ ARM (hard float).
+
+Package: linux-tools-5.13.0-1015-raspi-nolpae
+Description-md5: 0a5dd4c95ea6e337215023e23401c116
+Description-en: Linux kernel version specific tools for version 5.13.0-1015
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1015 on
  ARM (hard float).
 
 Package: linux-tools-5.13.0-21
@@ -9153,6 +10472,31 @@ Description-en: Linux kernel version specific tools for version 5.13.0-25
  version 5.13.0-25 on
  ARM (hard float).
 
+Package: linux-tools-5.13.0-27
+Description-md5: 962ced12e716bde50e92ec984881a512
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ ARM (hard float).
+ You probably want to install linux-tools-5.13.0-27-<flavour>.
+
+Package: linux-tools-5.13.0-27-generic
+Description-md5: 508fd477fb8ceb2e84cd5776eb8514c3
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ ARM (hard float).
+
+Package: linux-tools-5.13.0-27-generic-lpae
+Description-md5: 508fd477fb8ceb2e84cd5776eb8514c3
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ ARM (hard float).
+
 Package: linux-tools-generic-lpae
 Description-md5: b0ac223b2b5f3fbb149daf32591111da
 Description-en: Generic LPAE Linux kernel tools
@@ -9209,6 +10553,14 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on PowerPC 64el SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-27-generic
+Description-md5: 7b13100e6bc1bd198c9d7955d13821ac
+Description-en: Linux kernel buildinfo for version 5.13.0 on PowerPC 64el SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ PowerPC 64el SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-headers-5.13.0-21-generic
 Description-md5: d8483ce0ec5c874aeffb8c4eb0f0d48f
 Description-en: Linux kernel headers for version 5.13.0 on PowerPC 64el SMP
@@ -9244,6 +10596,15 @@ Description-en: Linux kernel headers for version 5.13.0 on PowerPC 64el SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-25/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-generic
+Description-md5: 85b073c12cdcb072f68f19a49349448b
+Description-en: Linux kernel headers for version 5.13.0 on PowerPC 64el SMP
+ This package provides kernel header files for version 5.13.0 on
+ PowerPC 64el SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
 
 Package: linux-image-unsigned-5.13.0-21-generic
 Description-md5: f722fbc4ce9b9e1cc93a94f9d41c5003
@@ -9288,6 +10649,20 @@ Description-en: Linux kernel image for version 5.13.0 on PowerPC 64el SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-unsigned-5.13.0-25-generic
+Description-md5: f722fbc4ce9b9e1cc93a94f9d41c5003
+Description-en: Linux kernel image for version 5.13.0 on PowerPC 64el SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ PowerPC 64el SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-27-generic
 Description-md5: f722fbc4ce9b9e1cc93a94f9d41c5003
 Description-en: Linux kernel image for version 5.13.0 on PowerPC 64el SMP
  This package contains the unsigned Linux kernel image for version 5.13.0 on
@@ -9347,6 +10722,21 @@ Description-en: Linux kernel extra modules for version 5.13.0 on PowerPC 64el SM
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-25-generic
+Description-md5: b950c74d0a45dfe8066cd1466abfc20d
+Description-en: Linux kernel extra modules for version 5.13.0 on PowerPC 64el SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-generic
 Description-md5: b950c74d0a45dfe8066cd1466abfc20d
 Description-en: Linux kernel extra modules for version 5.13.0 on PowerPC 64el SMP
  Contains the corresponding System.map file, the modules built by the
@@ -9433,6 +10823,24 @@ Description-en: Linux kernel extra modules for version 5.13.0 on PowerPC 64el SM
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-27-generic
+Description-md5: 995f037addd84130e2fcfc85bfb080da
+Description-en: Linux kernel extra modules for version 5.13.0 on PowerPC 64el SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ PowerPC 64el SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-tools-5.13.0-21
 Description-md5: 4ae53f484761a05ceb5763f6da17ff6f
 Description-en: Linux kernel version specific tools for version 5.13.0-21
@@ -9501,6 +10909,23 @@ Description-en: Linux kernel version specific tools for version 5.13.0-25
  version 5.13.0-25 on
  PowerPC 64el.
 
+Package: linux-tools-5.13.0-27
+Description-md5: 16eb47568ee9d6c7aa7c5081943f63f7
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ PowerPC 64el.
+ You probably want to install linux-tools-5.13.0-27-<flavour>.
+
+Package: linux-tools-5.13.0-27-generic
+Description-md5: 25665fd9688b9b19233beb1acb94a774
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ PowerPC 64el.
+
 Package: linux-buildinfo-5.13.0-1005-generic
 Description-md5: a98fb7c96bde0062fc1511eb0e801f2c
 Description-en: Linux kernel buildinfo for version 5.13.0 on RISC-V SMP
@@ -9526,6 +10951,14 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on RISC-V SMP
  You likely do not want to install this package.
 
 Package: linux-buildinfo-5.13.0-1008-generic
+Description-md5: a98fb7c96bde0062fc1511eb0e801f2c
+Description-en: Linux kernel buildinfo for version 5.13.0 on RISC-V SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ RISC-V SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-5.13.0-1010-generic
 Description-md5: a98fb7c96bde0062fc1511eb0e801f2c
 Description-en: Linux kernel buildinfo for version 5.13.0 on RISC-V SMP
  This package contains the Linux kernel buildinfo for version 5.13.0 on
@@ -9568,6 +11001,15 @@ Description-en: Linux kernel headers for version 5.13.0 on RISC-V SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-1008/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-1010-generic
+Description-md5: 6c3e5b47ef5eed6bc760ffd49033fbd2
+Description-en: Linux kernel headers for version 5.13.0 on RISC-V SMP
+ This package provides kernel header files for version 5.13.0 on
+ RISC-V SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-1010/debian.README.gz for details.
 
 Package: linux-image-5.13.0-1005-generic
 Description-md5: fe85dc7be45f763ea78b316625a41202
@@ -9612,6 +11054,20 @@ Description-en: Linux kernel image for version 5.13.0 on RISC-V SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-5.13.0-1008-generic
+Description-md5: fe85dc7be45f763ea78b316625a41202
+Description-en: Linux kernel image for version 5.13.0 on RISC-V SMP
+ This package contains the Linux kernel image for version 5.13.0 on
+ RISC-V SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-5.13.0-1010-generic
 Description-md5: fe85dc7be45f763ea78b316625a41202
 Description-en: Linux kernel image for version 5.13.0 on RISC-V SMP
  This package contains the Linux kernel image for version 5.13.0 on
@@ -9671,6 +11127,21 @@ Description-en: Linux kernel extra modules for version 5.13.0 on RISC-V SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-1008-generic
+Description-md5: 8742c14af221ded165e52f287a15ef7e
+Description-en: Linux kernel extra modules for version 5.13.0 on RISC-V SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-1010-generic
 Description-md5: 8742c14af221ded165e52f287a15ef7e
 Description-en: Linux kernel extra modules for version 5.13.0 on RISC-V SMP
  Contains the corresponding System.map file, the modules built by the
@@ -9757,6 +11228,24 @@ Description-en: Linux kernel extra modules for version 5.13.0 on RISC-V SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-1010-generic
+Description-md5: 649a803ac0179984fc03608c3a4f7e2a
+Description-en: Linux kernel extra modules for version 5.13.0 on RISC-V SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ RISC-V SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-riscv-tools-5.13.0-1005
 Description-md5: 405212d0c843e3f3dd6babc205009106
 Description-en: Linux kernel version specific tools for version 5.13.0-1005
@@ -9793,6 +11282,15 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1008
  RISC-V.
  You probably want to install linux-tools-5.13.0-1008-<flavour>.
 
+Package: linux-riscv-tools-5.13.0-1010
+Description-md5: 5260b8444274f1f3ce65c269f6726deb
+Description-en: Linux kernel version specific tools for version 5.13.0-1010
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1010 on
+ RISC-V.
+ You probably want to install linux-tools-5.13.0-1010-<flavour>.
+
 Package: linux-tools-5.13.0-1005-generic
 Description-md5: cfe89b8dac73ba7e33eb5dfe4f9f3b95
 Description-en: Linux kernel version specific tools for version 5.13.0-1005
@@ -9823,6 +11321,14 @@ Description-en: Linux kernel version specific tools for version 5.13.0-1008
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-1008 on
+ RISC-V.
+
+Package: linux-tools-5.13.0-1010-generic
+Description-md5: dfcb912cb558a8fdf0ef6b80033769c1
+Description-en: Linux kernel version specific tools for version 5.13.0-1010
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-1010 on
  RISC-V.
 
 Package: openjdk-11-jre
@@ -9869,6 +11375,14 @@ Description-en: Linux kernel buildinfo for version 5.13.0 on System 390x SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-5.13.0-27-generic
+Description-md5: 8d532ce440097ea281ba15d819c24b1d
+Description-en: Linux kernel buildinfo for version 5.13.0 on System 390x SMP
+ This package contains the Linux kernel buildinfo for version 5.13.0 on
+ System 390x SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-headers-5.13.0-21-generic
 Description-md5: fc9bf6bce5ab5a4457364b0d282ac0f6
 Description-en: Linux kernel headers for version 5.13.0 on System 390x SMP
@@ -9904,6 +11418,15 @@ Description-en: Linux kernel headers for version 5.13.0 on System 390x SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-5.13.0-25/debian.README.gz for details.
+
+Package: linux-headers-5.13.0-27-generic
+Description-md5: 0f96f035a898812c847fedf7ff033321
+Description-en: Linux kernel headers for version 5.13.0 on System 390x SMP
+ This package provides kernel header files for version 5.13.0 on
+ System 390x SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-5.13.0-27/debian.README.gz for details.
 
 Package: linux-image-unsigned-5.13.0-21-generic
 Description-md5: f714a8e838bd5dc069890d4d0514c097
@@ -9948,6 +11471,20 @@ Description-en: Linux kernel image for version 5.13.0 on System 390x SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-image-unsigned-5.13.0-25-generic
+Description-md5: f714a8e838bd5dc069890d4d0514c097
+Description-en: Linux kernel image for version 5.13.0 on System 390x SMP
+ This package contains the unsigned Linux kernel image for version 5.13.0 on
+ System 390x SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-5.13.0-27-generic
 Description-md5: f714a8e838bd5dc069890d4d0514c097
 Description-en: Linux kernel image for version 5.13.0 on System 390x SMP
  This package contains the unsigned Linux kernel image for version 5.13.0 on
@@ -10007,6 +11544,21 @@ Description-en: Linux kernel extra modules for version 5.13.0 on System 390x SMP
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-5.13.0-25-generic
+Description-md5: 79335b911c220ad38381994fc9f2b848
+Description-en: Linux kernel extra modules for version 5.13.0 on System 390x SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-5.13.0-27-generic
 Description-md5: 79335b911c220ad38381994fc9f2b848
 Description-en: Linux kernel extra modules for version 5.13.0 on System 390x SMP
  Contains the corresponding System.map file, the modules built by the
@@ -10093,6 +11645,24 @@ Description-en: Linux kernel extra modules for version 5.13.0 on System 390x SMP
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-extra-5.13.0-27-generic
+Description-md5: 6c31a381b3b7eac7997a063489a7d9a9
+Description-en: Linux kernel extra modules for version 5.13.0 on System 390x SMP
+ This package contains the Linux kernel extra modules for version 5.13.0 on
+ System 390x SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
 Package: linux-tools-5.13.0-21
 Description-md5: 01d77cc95518e999cc240d9c1f85d742
 Description-en: Linux kernel version specific tools for version 5.13.0-21
@@ -10159,5 +11729,22 @@ Description-en: Linux kernel version specific tools for version 5.13.0-25
  This package provides the architecture dependant parts for kernel
  version locked tools (such as perf and x86_energy_perf_policy) for
  version 5.13.0-25 on
+ System 390x.
+
+Package: linux-tools-5.13.0-27
+Description-md5: be701156a0d9962412984d2dbe44b1c2
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
+ System 390x.
+ You probably want to install linux-tools-5.13.0-27-<flavour>.
+
+Package: linux-tools-5.13.0-27-generic
+Description-md5: 8a98298d7b62d5c7e2af9f2ad1f15c68
+Description-en: Linux kernel version specific tools for version 5.13.0-27
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 5.13.0-27 on
  System 390x.
 

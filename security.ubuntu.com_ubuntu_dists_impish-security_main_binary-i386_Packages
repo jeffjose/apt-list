@@ -1550,6 +1550,30 @@ Description: PostgreSQL C client library
 Task: postgresql-server
 Description-md5: 4109d08c168c8058d09c0cc8bf8b18b1
 
+Package: libruby2.7
+Architecture: i386
+Version: 2.7.4-1ubuntu3.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ruby2.7
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 17280
+Provides: ruby-benchmark (= 0.1.0), ruby-bigdecimal (= 2.0.0), ruby-cgi (= 0.1.0), ruby-csv (= 3.1.2), ruby-date (= 3.0.0), ruby-dbm (= 1.1.0), ruby-delegate (= 0.1.0), ruby-did-you-mean (= 1.4.0), ruby-etc (= 1.1.0), ruby-fcntl (= 1.0.0), ruby-fiddle (= 1.0.0), ruby-fileutils (= 1.4.1), ruby-forwardable (= 1.3.1), ruby-gdbm (= 2.1.0), ruby-getoptlong (= 0.1.0), ruby-io-console (= 0.5.6), ruby-ipaddr (= 1.2.2), ruby-irb (= 1.2.6), ruby-json (= 2.3.0), ruby-logger (= 1.4.2), ruby-matrix (= 0.2.0), ruby-mutex-m (= 0.1.0), ruby-net-pop (= 0.1.0), ruby-net-smtp (= 0.1.0), ruby-observer (= 0.1.0), ruby-open3 (= 0.1.0), ruby-openssl (= 2.1.2), ruby-ostruct (= 0.2.0), ruby-prime (= 0.1.1), ruby-pstore (= 0.1.0), ruby-psych (= 3.1.0), ruby-racc (= 1.4.16), ruby-rdoc (= 6.2.1.1), ruby-readline (= 0.0.2), ruby-readline-ext (= 0.1.0), ruby-reline (= 0.1.5), ruby-rexml (= 3.2.3.1), ruby-rss (= 0.2.8), ruby-sdbm (= 1.0.0), ruby-singleton (= 0.1.0), ruby-stringio (= 0.1.0), ruby-strscan (= 1.0.3), ruby-timeout (= 0.1.0), ruby-tracer (= 0.1.0), ruby-uri (= 0.10.0), ruby-webrick (= 1.6.1), ruby-yaml (= 0.1.0), ruby-zlib (= 1.1.0)
+Depends: rake (>= 10.4.2), ruby-minitest (>= 5.4), ruby-net-telnet (>= 0.1.1), ruby-test-unit (>= 3.0.8~), ruby-xmlrpc (>= 0.3.0~), libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libedit2 (>= 3.1-20130611-0), libffi8 (>= 3.4), libgdbm-compat4 (>= 1.16), libgdbm6 (>= 1.16), libgmp10, libssl1.1 (>= 1.1.1), libyaml-0-2, zlib1g (>= 1:1.2.3.3)
+Filename: pool/main/r/ruby2.7/libruby2.7_2.7.4-1ubuntu3.1_i386.deb
+Size: 4091890
+MD5sum: 4a23123f3644564aa1cb230e6aad2f20
+SHA1: 58c3f66da591946552c71de4d7bdbc7945ad8547
+SHA256: 6fd28ceab113b91f9fe7fedc3449e86eda3a445320bc7423124a6cd2108f7361
+SHA512: 1991611b6be203182b3ddd8076ced003fc339dcafcb441c8041b72c9310d49611b78b236fbd7d40e9170f86cfd042279eb93e5f7678364df9825325f361b090e
+Homepage: https://www.ruby-lang.org/
+Description: Libraries necessary to run Ruby 2.7
+Description-md5: 30659f1432a2602b994287b347691e6a
+
 Package: libsmbclient
 Architecture: i386
 Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
@@ -2028,6 +2052,28 @@ SHA512: ea65924054f310bbd8de42f1421e22b3ccd351f9d81a31713918483ed484e59e55fe14ef
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: 3f689bc2fba35acd3ed742f3de05dee0
 
+Package: linux-aws-headers-5.13.0-1011
+Architecture: all
+Version: 5.13.0-1011.12
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-aws
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76229
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/main/l/linux-aws/linux-aws-headers-5.13.0-1011_5.13.0-1011.12_all.deb
+Size: 12137234
+MD5sum: e9694b5099cf738d7b82e34d510ec769
+SHA1: 1867923501d8d939eb05632cc82fba79e9a185fc
+SHA256: 56aa68d62e44ad8593d599618e1b85ba867e2bedc92a9d3bbce4d4040e6d7e7d
+SHA512: f9663a36b7c7d7cd0d1aca2b2b5abf842d854d4c27333e803d70e97ad30f49cfa7ea600182ca6e95efcd2b985df2ee07100e3e0f403590507b3ca747f13b64a3
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: 1a4f534d745dfdf3fd8b23090c3fdb89
+
 Package: linux-azure-headers-5.13.0-1007
 Architecture: all
 Version: 5.13.0-1007.8
@@ -2111,6 +2157,27 @@ SHA256: ab2855762d1799dd5c5017aa0ab1b802820694b1a72011ac06836425a9e97ac9
 SHA512: 3908a136e282a335b676d613ea3a6da34ce100173e7538464990d7a8890f7b7a403771744a74b0410284639cdd6335b7768e5a8d46c5ad391281bfd612c0b429
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: 5debb972f19457b5260e1f7bac7f47f0
+
+Package: linux-azure-headers-5.13.0-1012
+Architecture: all
+Version: 5.13.0-1012.14
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-azure
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74948
+Depends: coreutils
+Filename: pool/main/l/linux-azure/linux-azure-headers-5.13.0-1012_5.13.0-1012.14_all.deb
+Size: 12080528
+MD5sum: 40ba5a8a63640f1e90b3a6f68debb497
+SHA1: 1da656961b77d06d9a5e5d2a7224092d76fbe707
+SHA256: 2044e175b2bb1fe3ecbabdbe29735993c714284da9bc64e99de1d7c368126c7a
+SHA512: 67ba4cc41fde788b1698bc38e46f64d729f8b9a8ea27ab3f86bc6cdf605f238581ec6ded570b5668bc1121b0fdf4ab7002544422d23bcddfcb9c09fb816d6789
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: abd52340370c9bebebb19990bf3b90c5
 
 Package: linux-cloud-tools-common
 Architecture: all
@@ -2196,6 +2263,27 @@ SHA512: 76248756e7f2d5ee6f18333dae84e532369841d34d443a2ad541ecdbfa352935cd716af4
 Description: Linux kernel version specific cloud tools for version 5.13.0
 Description-md5: e83193b69b068241e625432207a52738
 
+Package: linux-cloud-tools-common
+Architecture: all
+Version: 5.13.0-27.29
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 320
+Depends: init-system-helpers (>= 1.51)
+Filename: pool/main/l/linux/linux-cloud-tools-common_5.13.0-27.29_all.deb
+Size: 58100
+MD5sum: a075cf2ed44291115324e544450d88e8
+SHA1: 552ae35c0f554f600fc4f838db8cb095cb7b6654
+SHA256: 5238832adac2b9c7f8f73a411752f6f7b602667bd2ddc935c5398eea8d2af4d3
+SHA512: 6338e7fe5b19f03f03e94d4633b0b19a02da69ef3ba6ff954cb254ac65617d9c5c7efc1e4f03b604b657ccf81c2987c5c0a3776b5f6923b85aac946f62f651e4
+Description: Linux kernel version specific cloud tools for version 5.13.0
+Description-md5: e83193b69b068241e625432207a52738
+
 Package: linux-doc
 Architecture: all
 Version: 5.13.0-21.21
@@ -2269,6 +2357,25 @@ MD5sum: 55b1bc1bc5f4375d1dbb654e546a016c
 SHA1: ff5c4685724e50361ce0bb40b141b13761ac5387
 SHA256: fbfe06a16750012981f90367325e60d1eb95a10ca15e295f30ee9ea3827e5f54
 SHA512: 97695d40461bf569b1f1368a2dd0d5e81a24a6be5f01c2a66797c780b9a9165211d2d6b62913beaec5c9cf34b66abcf6556b434ed667fe54c024af5714deff07
+Description: Linux kernel specific documentation for version 5.13.0
+Description-md5: 047fb196e57eb81d02bc3c867b5d8174
+
+Package: linux-doc
+Architecture: all
+Version: 5.13.0-27.29
+Priority: optional
+Section: doc
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 23124
+Filename: pool/main/l/linux/linux-doc_5.13.0-27.29_all.deb
+Size: 10285810
+MD5sum: c6e7da51d82b3e8f267cc0360b46752e
+SHA1: 536da91bced7cea9e62449565bcfc1cbd5764ac4
+SHA256: 319533c39d0e0699e1e79cd96f9573d8c930d497257974d5b54b4b6e69e5ed5f
+SHA512: dd271e64c7d35f94dc825aeb1cbe64f3c929d5753f730e8f9929815d39dd16d93a564a41274a2a82bf756694be2aa97d7536e9d5294acc7277812396ea819ae5
 Description: Linux kernel specific documentation for version 5.13.0
 Description-md5: 047fb196e57eb81d02bc3c867b5d8174
 
@@ -2356,6 +2463,27 @@ SHA512: dd868961fba2e2f33a5e7d837fd769c561c45730b7b65c273dc0968840b6fccf82ef7a0f
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: d5cc7e913162eac799378d01bf8ac5a9
 
+Package: linux-headers-5.13.0-27
+Architecture: all
+Version: 5.13.0-27.29
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74150
+Depends: coreutils
+Filename: pool/main/l/linux/linux-headers-5.13.0-27_5.13.0-27.29_all.deb
+Size: 12078158
+MD5sum: a34a66f15fb7c35763da9bca1f784518
+SHA1: 758dc41e59af52d7468ecf835b879eca71721100
+SHA256: 4019db4ea207c7517af522d8188119b76d5a5241aa7e754195add48ece3a8265
+SHA512: 90afb4f66cf62e34a1c061b7f76ddb0840ed5f4b42d32923354e2993ba6f489c3ebf6f9e51febf8f57fafa51dce771f2023324b84c1f6f604aaa4a231952b6e7
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: 3fcbae5a01fe260ee287b89b83468a1c
+
 Package: linux-kvm-headers-5.13.0-1005
 Architecture: all
 Version: 5.13.0-1005.5
@@ -2440,9 +2568,30 @@ SHA512: 30d06f4d9c874e1cfa3e043f01a8a7a59301a59aafe8c5815424f908cb4efc3a28fb157e
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: 5acdf96b9d33bc06e890b9edbf1d2479
 
+Package: linux-kvm-headers-5.13.0-1010
+Architecture: all
+Version: 5.13.0-1010.11
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-kvm
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76167
+Depends: coreutils
+Filename: pool/main/l/linux-kvm/linux-kvm-headers-5.13.0-1010_5.13.0-1010.11_all.deb
+Size: 12138022
+MD5sum: 9a3743e2d0f4a18087460435252b89d2
+SHA1: 1d07cde3a3e554385b9cc2c0ead9eaa87cf9e335
+SHA256: 94cc550bbbf1e2ddb0a0c502ebff65caf54d7e84c6a81bb19eedd7c58302094b
+SHA512: 8282f609fa32bbafcb602761d163e3dd268c63c1bfca5a37ccf0b2242afc14874947065f3019e0796164000215fb0af9d06e7d4aa84c6f34b619132161eaf2bb
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: be6ad58d77f701f038b5a4eaf36522cf
+
 Package: linux-libc-dev
 Architecture: i386
-Version: 5.13.0-25.26
+Version: 5.13.0-27.29
 Multi-Arch: same
 Priority: optional
 Section: devel
@@ -2450,16 +2599,16 @@ Source: linux
 Origin: Ubuntu
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 6314
+Installed-Size: 6315
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
 Replaces: linux-kernel-headers
-Filename: pool/main/l/linux/linux-libc-dev_5.13.0-25.26_i386.deb
-Size: 1320308
-MD5sum: c815c5acc4497d68113fea5233fea80d
-SHA1: 77339184254d605d749e7f9f534258d080d2a9eb
-SHA256: 813e182e09bc2d3d932fc13b3b8d194fb7250dc40a65c5afb20e975b4f06d7db
-SHA512: e05e9378369b7b2b3e3b49907950fd89010b700952347af54b5a70be16df4bfc2770a1e8bee43b49af862760bcafd32dd5501775bb7f063cfefdee27152b6567
+Filename: pool/main/l/linux/linux-libc-dev_5.13.0-27.29_i386.deb
+Size: 1263832
+MD5sum: d72495a0a816a20680d3f664f5cd94e5
+SHA1: ce039bfbbb67df23f1146a2f0e9290ee020f2717
+SHA256: 4bd6e6c7be9e348a48b01a118d791af5f7c0b02dcbc1038a3ac0500d4dd57623
+SHA512: fdc8f2d913bdd6273017afbdb43a232fbecd49790175a9c0ea4d878f926fda8e0acd98688fd7a1b078e65c1ebc049dc18e2704bdf484ae4406aaff7448b3f69a
 Description: Linux Kernel Headers for development
 Task: ubuntustudio-video, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: d5d143e6dffc891f04a85464446f9451
@@ -2549,6 +2698,27 @@ SHA512: 42cc92f601c0611e2991c317c1f9fb1d72d0518b7be1a8c33750bdf748df898cf025f608
 Description: Header files related to Oracle Linux kernel version 5.13.0
 Description-md5: 5f501b0d5253efdd239b110c5637a163
 
+Package: linux-oracle-headers-5.13.0-1015
+Architecture: all
+Version: 5.13.0-1015.19
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-oracle
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76433
+Depends: coreutils
+Filename: pool/main/l/linux-oracle/linux-oracle-headers-5.13.0-1015_5.13.0-1015.19_all.deb
+Size: 12081396
+MD5sum: 2bc942bb7a44f99ce6f74abe1e033cca
+SHA1: df9793dacf2ab105bd1b441aa81141ea1883e4e8
+SHA256: bbbbc5c641a8d0bf3e8d26785baf2041f17f8baa2bc190847f54d3b747c743f1
+SHA512: 0b158a09d28d8600658fc6185cf9e7ac65515e8c299376c683ba851eac9abaa846da524497d52912f3740586718481646e0af13dcdc4637f04bd417bcc2e629c
+Description: Header files related to Oracle Linux kernel version 5.13.0
+Description-md5: b8bcd29da3a2808e529ccf675dda5637
+
 Package: linux-riscv-headers-5.13.0-1005
 Architecture: all
 Version: 5.13.0-1005.5
@@ -2633,9 +2803,30 @@ SHA512: 6b53f0bbd155c17a1cfd8c1aeeb194e051514760158957b07bc427dec8083cc1504ddcd8
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: cde632492fb8271b2e42c60ee3aa24ed
 
+Package: linux-riscv-headers-5.13.0-1010
+Architecture: all
+Version: 5.13.0-1010.11
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-riscv
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74151
+Depends: coreutils
+Filename: pool/main/l/linux-riscv/linux-riscv-headers-5.13.0-1010_5.13.0-1010.11_all.deb
+Size: 12139098
+MD5sum: 533c010d0e58cf847ad649b498c5b44c
+SHA1: 33735ae7bda38d1d3fea07a3dfb6428b2c147ec2
+SHA256: be835e318da763c5ab57ca524b0c6d964377b08c6c5f06549a80e3e6f24ccca3
+SHA512: a33bc806afa80bc3b213ecd5b80e9b1f8804ac9af676e593c4af7df39187018875fe4b0f08191d2bd1b0274c9963579fc49f3cd33f2777ef9a14761af1b825a5
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: 826ef2f6e4ec5c42e302db0a197f90e4
+
 Package: linux-source
 Architecture: all
-Version: 5.13.0.25.36
+Version: 5.13.0.27.37
 Priority: optional
 Section: devel
 Source: linux-meta
@@ -2644,12 +2835,12 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 19
 Depends: linux-source-5.13.0
-Filename: pool/main/l/linux-meta/linux-source_5.13.0.25.36_all.deb
-Size: 2314
-MD5sum: 6b5e3fe7de0a462ff0ea44cb227d7080
-SHA1: ed245c275f1ca9cc0409bf157893e5a06f1b9e68
-SHA256: b25b42fc6d07d135e195c699fa3a8d680d8ef2d1c7001c9bd748272c383480fd
-SHA512: cab2d8ba28d08907587ae7d440bad5790ff62e4ef89be7d45574c1da29667be541bfbbcc87cc3331019542bdb6cb21ca6fe3ea485f54d7a0721e980ce6ce809b
+Filename: pool/main/l/linux-meta/linux-source_5.13.0.27.37_all.deb
+Size: 2344
+MD5sum: fa4ddc390d4c9b4f3a4555614ba207c4
+SHA1: 31603d2e7322798e0580171801204272e0f55286
+SHA256: b138a74c0837bb453f9d97eebfbe2d87d05bc6011e58cdb61849e65745111a24
+SHA512: d89c6f44c5553befb8fed8613860c058320d8832e02b76eaf55ac2656a30b45bb833a578520a662b1445caadbf086c559a3a8c39737818505356dd4c28b35619
 Description: Linux kernel source with Ubuntu patches
 Description-md5: 1cac084d2ae18dfd06b96585b4be564d
 
@@ -2745,6 +2936,29 @@ SHA512: c7727b9625c287cb5c5122798f1b925f7e158838f631c012b25c6e4b0e4cc3500c962479
 Description: Linux kernel source for version 5.13.0 with Ubuntu patches
 Description-md5: 83b977d1460b527f7005d32232eac454
 
+Package: linux-source-5.13.0
+Architecture: all
+Version: 5.13.0-27.29
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 162800
+Provides: linux-source
+Depends: binutils, bzip2, coreutils
+Recommends: libc-dev, gcc, make
+Suggests: libncurses-dev | ncurses-dev, kernel-package, libqt3-dev
+Filename: pool/main/l/linux/linux-source-5.13.0_5.13.0-27.29_all.deb
+Size: 149516048
+MD5sum: ef941274bd881d36aa2ff25ca221eb9c
+SHA1: 828e96ef04ccda43741bb497b83277c36f13ab3b
+SHA256: 6e8fabcdee681ae114c0e69ee62dcb3f1fc8fc48025fd58483408ff1260a7788
+SHA512: 66d96111ce53e77f62f4f670578c8c0996eea1a82792a3e1c72c8bb23ee102b5c29ba55d4a7c1d18e221c00b0c7e8e6b69efec5e8707c0486bae0dfde88ba10a
+Description: Linux kernel source for version 5.13.0 with Ubuntu patches
+Description-md5: 83b977d1460b527f7005d32232eac454
+
 Package: linux-tools-common
 Architecture: all
 Version: 5.13.0-21.21
@@ -2829,6 +3043,27 @@ SHA512: cd3aed21737d11af63fe2bd337426dc0af12f4d258af863a0c787e4f286ca91ca738394d
 Description: Linux kernel version specific tools for version 5.13.0
 Description-md5: c31acca9e38d074339516d0283ced036
 
+Package: linux-tools-common
+Architecture: all
+Version: 5.13.0-27.29
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 555
+Depends: lsb-release
+Filename: pool/main/l/linux/linux-tools-common_5.13.0-27.29_all.deb
+Size: 253432
+MD5sum: 2195fc52a72ce7b7528f13504886a952
+SHA1: bb468b62b1344bdb15bb7d2deb976cd17658eabf
+SHA256: 78cd03f0add0e46409486d22eb84dc3a7c08d3250d3febf4f2ac871ff57c722f
+SHA512: 11eb3743072af833e86e7aa29b7f67f535114305bd4b607fbdee5bca5172166f433afd864f487b2976dab148fcd38c32c073b5f7a55647691ec82963af3522e1
+Description: Linux kernel version specific tools for version 5.13.0
+Description-md5: c31acca9e38d074339516d0283ced036
+
 Package: linux-tools-host
 Architecture: all
 Version: 5.13.0-21.21
@@ -2910,6 +3145,27 @@ MD5sum: bfcc308aa546214c2f72b9f51e962ff9
 SHA1: 7d3c05f6c2ee7ab0cde1a0aad2a6e7182c10a9d4
 SHA256: c0e1bd2be89e638670e8a3d72bee2d14d61a175e592f29ea88e0ae643b7c2309
 SHA512: 284906220c3bde08532adaee6145a9f8f8727d1900fb9e5bfd150146ff8b1650ea91277a754093514c8157c9581f820d89a651a976633439280f5adfc950bdb3
+Description: Linux kernel VM host tools
+Description-md5: d29120b11150b79af4338241d0a5dc74
+
+Package: linux-tools-host
+Architecture: all
+Version: 5.13.0-27.29
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 340
+Depends: python3
+Filename: pool/main/l/linux/linux-tools-host_5.13.0-27.29_all.deb
+Size: 68124
+MD5sum: 2de15adcd6e0c10700d5b3edfd6abc8c
+SHA1: 85754bededce60571b9afd2ce9fa38b4dec08fb7
+SHA256: f128a2913c5cc686f4a3b33aedeadfae4f4081bd27ca92e00e91fbf7470251ad
+SHA512: ac602df7e8ee79cbc06813b8fe785fc85707f6c9a3b6048f3c4cbec5e836a8beaf1e2c414be6667ad02d4403464fa4e493ab1756040426bbe4913f500a2b57f0
 Description: Linux kernel VM host tools
 Description-md5: d29120b11150b79af4338241d0a5dc74
 
@@ -4100,6 +4356,75 @@ Homepage: http://www.samba.org
 Description: Python 3 bindings for Samba
 Task: samba-server, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: 34799c39f7b2b2823a0ca650262bf75d
+
+Package: ruby2.7
+Architecture: i386
+Version: 2.7.4-1ubuntu3.1
+Multi-Arch: allowed
+Priority: optional
+Section: ruby
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 199
+Depends: rubygems-integration (>= 1.17.1~), libc6 (>= 2.34), libruby2.7 (>= 2.7.0~preview1)
+Recommends: fonts-lato, libjs-jquery
+Filename: pool/main/r/ruby2.7/ruby2.7_2.7.4-1ubuntu3.1_i386.deb
+Size: 96134
+MD5sum: c8df240d8cf93cc5870e003073bc227d
+SHA1: 84c7d38a7449bb886a9d59f79268f8c00787b195
+SHA256: bae5af889f5546c3defe1a85afcc93eb0d660d5332410d0be06db8cdd36679ee
+SHA512: 1b189704480906ffc42fc8f3cdd2ad07d5919f6d6619ed9fd4175f689f4c35b867e0ac3e43d8e65d70e9ec67ddb68788a63aa2ccf24a636fc960daa82db87cd1
+Homepage: https://www.ruby-lang.org/
+Description: Interpreter of object-oriented scripting language Ruby
+Description-md5: acaf9860ea8a8843431ae8c96d9c2c19
+
+Package: ruby2.7-dev
+Architecture: i386
+Version: 2.7.4-1ubuntu3.1
+Multi-Arch: same
+Priority: optional
+Section: ruby
+Source: ruby2.7
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1413
+Depends: libgmp-dev, libruby2.7 (= 2.7.4-1ubuntu3.1)
+Recommends: ruby2.7-doc
+Filename: pool/main/r/ruby2.7/ruby2.7-dev_2.7.4-1ubuntu3.1_i386.deb
+Size: 188764
+MD5sum: cc07a1987fc7faff125097738af5a73c
+SHA1: 05cf2f7ddcf4f49c8df347148fed258895c001e1
+SHA256: 628a7137775f31fe120cc93f9b7cde86dcec270df66870a4077bc5c7fabe44ec
+SHA512: 97009bce78f557dc32d854475b61af49f8ef4063375277f7d5d1a40413b7c88ed24a63a81b862ff20e456bcc845901a17fe6595bd9e8278e70958a8bafa79f6a
+Homepage: https://www.ruby-lang.org/
+Description: Header files for compiling extension modules for the Ruby 2.7
+Description-md5: c7609d60a5295902f91ebae527eba4f6
+
+Package: ruby2.7-doc
+Architecture: all
+Version: 2.7.4-1ubuntu3.1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: ruby2.7
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 22421
+Filename: pool/main/r/ruby2.7/ruby2.7-doc_2.7.4-1ubuntu3.1_all.deb
+Size: 2215624
+MD5sum: 48db1f09ffd9079247b763ed0443339d
+SHA1: 660152c7d4492dc28e5724bd8a942528c58711ca
+SHA256: bc7c743be58ee9540d2643085b2a2743897fd36491cc7dbf3b40ec5ec5d9cc71
+SHA512: 732df8b0451946f1e77fc2c927ab21a1aa7d5cc7ea0acef24313be3d58bb20463649136d0c4ab194f325c3a34829274da7035130004d832fa63051b2e0811efc
+Homepage: https://www.ruby-lang.org/
+Description: Documentation for Ruby 2.7
+Description-md5: c6e2f27422c22dfb514d5e2bbfdba162
 
 Package: samba-common
 Architecture: all

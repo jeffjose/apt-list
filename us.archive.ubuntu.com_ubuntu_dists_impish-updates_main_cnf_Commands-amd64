@@ -140,27 +140,27 @@ version: 13.5-0ubuntu0.21.10.1
 commands: pg_config
 
 name: libreoffice-calc
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: localc
 
 name: libreoffice-common
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: libreoffice,loffice,lofromtemplate,soffice,unopkg
 
 name: libreoffice-draw
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: lodraw
 
 name: libreoffice-impress
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: loimpress
 
 name: libreoffice-math
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: lomath
 
 name: libreoffice-writer
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: loweb,lowriter
 
 name: libvirt-clients
@@ -180,15 +180,15 @@ version: 2.104.0ubuntu3.1
 commands: lintian,lintian-annotate-hints,lintian-explain-tags,lintian-info,spellintian
 
 name: linux-cloud-tools-common
-version: 5.13.0-25.26
+version: 5.13.0-27.29
 commands: hv_fcopy_daemon,hv_get_dhcp_info,hv_get_dns_info,hv_kvp_daemon,hv_set_ifconfig,hv_vss_daemon,lsvmbus
 
 name: linux-tools-common
-version: 5.13.0-25.26
+version: 5.13.0-27.29
 commands: acpidbg,bpftool,cpupower,perf,turbostat,usbip,usbipd,x86_energy_perf_policy
 
 name: linux-tools-host
-version: 5.13.0-25.26
+version: 5.13.0-27.29
 commands: kvm_stat
 
 name: mount
@@ -310,6 +310,10 @@ commands: qemu-img,qemu-io,qemu-make-debian-root,qemu-nbd
 name: rfkill
 version: 2.36.1-8ubuntu2
 commands: rfkill
+
+name: ruby2.7
+version: 2.7.4-1ubuntu3.1
+commands: bundle2.7,bundler2.7,erb2.7,gem2.7,irb2.7,racc2.7,racc2y2.7,rdoc2.7,ri2.7,ruby2.7,y2racc2.7
 
 name: samba
 version: 2:4.13.14+dfsg-0ubuntu0.21.10.4

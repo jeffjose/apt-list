@@ -140,7 +140,7 @@ version: 1.28.6-2ubuntu1
 commands: qmi-firmware-update,qmi-network,qmicli
 
 name: libreoffice-base
-version: 1:7.2.3-0ubuntu0.21.10.1
+version: 1:7.2.5-0ubuntu0.21.10.1
 commands: lobase
 
 name: libstrongswan-extra-plugins

@@ -1338,13 +1338,13 @@ Description-en: office productivity suite -- arch-dependent files (no GUI varian
  LibreOffice.
 
 Package: libreoffice-dev-gui
-Description-md5: e56c272ff443be204f8d19b23093d9f7
+Description-md5: c7381cdfc5446c44dd4085615626c61e
 Description-en: office productivity suite -- "GUI" development stuff
  LibreOffice is a full-featured office productivity suite that provides
  a near drop-in replacement for Microsoft(R) Office.
  .
- This package contains the gengal and ui-previewer utilities which were moved
- from libreoffice-dev.
+ This package contains the gengal utility which was moved from
+ libreoffice-dev.
 
 Package: libreoffice-draw-nogui
 Description-md5: c4d7d9707b31ef9344d70e006f7a27af

@@ -706,6 +706,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-390-5.13.0-1011-aws
+Description-md5: 9ff07685b3b4a6bfe52e0c2257bfe674
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-390-5.13.0-1011-oracle
 Description-md5: 082cb5acb1ef8d8d33657c94cb2d7e13
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -717,11 +728,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-390-5.13.0-1012-azure
+Description-md5: d9da521e04544fdb585f785f267564a5
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.13.0-1012-gcp
+Description-md5: 07094ea25875aeadbbbe7f025b707177
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-390-5.13.0-1013-oracle
 Description-md5: 07fff958c0082a08fb60bdfa51bbd378
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.13.0-1015-oracle
+Description-md5: 3faa4d9c0da21070bd99124727ddb786
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-390-oracle* meta-packages,
@@ -832,6 +876,28 @@ Description-md5: 75cc94780151fac3d69361a356d915b3
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.13.0-27-generic
+Description-md5: 27d2aba192d74b5421f70540240c6d52
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-390-5.13.0-27-lowlatency
+Description-md5: 070d50fcbdcef21a75a0f31bdc314571
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-390-lowlatency* meta-packages,
@@ -1042,6 +1108,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-418-server-5.13.0-1011-aws
+Description-md5: ea00cb0eb81be68c0db079ca517e5f77
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-418-server-5.13.0-1011-oracle
 Description-md5: 7b2d331c46fc7a886781c873bd9f63fb
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -1053,11 +1130,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-418-server-5.13.0-1012-azure
+Description-md5: 9d9aeb2746a9cd43da5478eae6acc859
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-418-server-5.13.0-1012-gcp
+Description-md5: 42fb56ae8ed59b0e64c93fd1fdab4379
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-418-server-5.13.0-1013-oracle
 Description-md5: be49a34b441123dfc2119c868427e764
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-418-server-5.13.0-1015-oracle
+Description-md5: 2c5e43a897fcc8e36c19f1692b4d7656
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-418-server-oracle* meta-packages,
@@ -1168,6 +1278,28 @@ Description-md5: a9c4ecb74b61270286f40d248d8751fa
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-418-server-5.13.0-27-generic
+Description-md5: b560844214a66227051f27cd634a5710
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-418-server-5.13.0-27-lowlatency
+Description-md5: c34c64ab4379fd9c313aca93e19437f3
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-418-server-lowlatency* meta-packages,
@@ -1538,6 +1670,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-450-server-5.13.0-1011-aws
+Description-md5: 6062ffb865ea2a2bb3fd7edd041dbd15
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-450-server-5.13.0-1011-oracle
 Description-md5: 7b7f7450cf4488294ddffa41c2c72136
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -1549,11 +1692,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-450-server-5.13.0-1012-azure
+Description-md5: 41cb9e3d0b670788adf10b176459cd73
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-450-server-5.13.0-1012-gcp
+Description-md5: d3e688eb35cb979afea283d91ac82303
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-450-server-5.13.0-1013-oracle
 Description-md5: facd1cfc9a9cd300762278c3078f4715
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-450-server-5.13.0-1015-oracle
+Description-md5: 01fc87775f2d1288ae38b447068952f3
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-450-server-oracle* meta-packages,
@@ -1664,6 +1840,28 @@ Description-md5: 71c9cc353009aa1a72805ebc4583c5a4
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-450-server-5.13.0-27-generic
+Description-md5: 6e08c70945d92644aeb1c028c9822a64
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-450-server-5.13.0-27-lowlatency
+Description-md5: 810f0b51ab5147a7ee5213fe8db566dc
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-450-server-lowlatency* meta-packages,
@@ -1974,6 +2172,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-460-server-5.13.0-1011-aws
+Description-md5: 6909d60ebe1aba48fd62fe1782dfff8e
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-460-server-5.13.0-1011-oracle
 Description-md5: a19f6c1096d0344911f45161f5ec325c
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -1985,11 +2194,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-460-server-5.13.0-1012-azure
+Description-md5: a3ed6b3d7b5d75c79187e2fe9d97aff8
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-460-server-5.13.0-1012-gcp
+Description-md5: ed53f90f727841c17724c8e781efa476
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-460-server-5.13.0-1013-oracle
 Description-md5: fb2bb25e924c7827b1e44cc473ea04af
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-460-server-5.13.0-1015-oracle
+Description-md5: 52cc95f25cc8c2de28e2ea399070eacf
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-460-server-oracle* meta-packages,
@@ -2100,6 +2342,28 @@ Description-md5: a0123c7f2c44a3a9c6e3ba70246b6ac0
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-460-server-5.13.0-27-generic
+Description-md5: 3935719c12a8ebd87f40d649f019f19b
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-460-server-5.13.0-27-lowlatency
+Description-md5: 3df9bc1001176741eb38ee378f5f779c
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-460-server-lowlatency* meta-packages,
@@ -2360,6 +2624,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-470-5.13.0-1011-aws
+Description-md5: 6e664b2c3c282ec581a425c90753b7bb
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-470-5.13.0-1011-oracle
 Description-md5: 459cced7d297f64ee496b19fa3d2bd43
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -2371,11 +2646,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-470-5.13.0-1012-azure
+Description-md5: 2e423147a43fb098ce8a1d98ace7961f
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-5.13.0-1012-gcp
+Description-md5: 60ec1ba0da265f3e772597ea7ed57c4e
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-470-5.13.0-1013-oracle
 Description-md5: 88b72128775cc0afae9353ba8d363e2a
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-5.13.0-1015-oracle
+Description-md5: 3563aa2909a8843bc9a59ad18c7965c2
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-oracle* meta-packages,
@@ -2486,6 +2794,28 @@ Description-md5: c40652e8b6242681113b5992ea1489b8
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-5.13.0-27-generic
+Description-md5: 68bd62e664ceb6c78388b3fdb33da496
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-5.13.0-27-lowlatency
+Description-md5: de95f3d42d15acf27e10ced2feac9d80
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-lowlatency* meta-packages,
@@ -2696,6 +3026,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-470-server-5.13.0-1011-aws
+Description-md5: 15240509f7345d12f80c35516709f4d2
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-470-server-5.13.0-1011-oracle
 Description-md5: 08c3105eb1a282f2e628553e4eaefbdd
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -2707,11 +3048,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-470-server-5.13.0-1012-azure
+Description-md5: 7e02c199b888965c5dbe24f447646f04
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-server-5.13.0-1012-gcp
+Description-md5: 79bca37308bcf498157cb1bdb64c2df1
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-470-server-5.13.0-1013-oracle
 Description-md5: 8081e6e5aace14dd3d052949e6290697
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-server-5.13.0-1015-oracle
+Description-md5: 22dd452fbb729ca20a965304aeafabb3
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-server-oracle* meta-packages,
@@ -2822,6 +3196,28 @@ Description-md5: b28d6b6d63b3407cbbfc4b30b26c4e98
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-server-5.13.0-27-generic
+Description-md5: a1edc38b3522e3d8be351e5329d4d0b6
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-470-server-5.13.0-27-lowlatency
+Description-md5: b37ae25e00d846a641b7102630359904
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-server-lowlatency* meta-packages,
@@ -3032,6 +3428,17 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-495-5.13.0-1011-aws
+Description-md5: ecd34f8d173c0039cc92b4c03dd06500
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1011 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-495-5.13.0-1011-oracle
 Description-md5: 2fc619dfbcffb128eb7c4fb50134753e
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011
@@ -3043,11 +3450,44 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-modules-nvidia-495-5.13.0-1012-azure
+Description-md5: 1d8965c1a84437ecd44d8fe3e6aaed54
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-495-5.13.0-1012-gcp
+Description-md5: 14f5827c9bc29997c76f04716682b742
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1012 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-modules-nvidia-495-5.13.0-1013-oracle
 Description-md5: c4d1752ebe52ed7d8640a7b3a3276c3d
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-1013 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-495-5.13.0-1015-oracle
+Description-md5: 2abb5166c4d1ab20b8443aa546a28070
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-1015 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-495-oracle* meta-packages,
@@ -3136,6 +3576,28 @@ Description-md5: 548a6d5d3d18cb3aabb6d9aaa05cb8d9
 Description-en: Linux kernel nvidia modules for version 5.13.0-25
  This package pulls together the Linux kernel nvidia modules for
  version 5.13.0-25 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-495-5.13.0-27-generic
+Description-md5: e9a33d0a66e4cf0f483166d0266c4ce2
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-modules-nvidia-495-5.13.0-27-lowlatency
+Description-md5: ea95fc1b3fb147a2a6ef17902431f469
+Description-en: Linux kernel nvidia modules for version 5.13.0-27
+ This package pulls together the Linux kernel nvidia modules for
+ version 5.13.0-27 with the appropriate signatures.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-495-lowlatency* meta-packages,
@@ -3332,6 +3794,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-390-5.13.0-1011-aws
+Description-md5: 2433cdc5eeb1ab7cd4ca69dd6686ae6a
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-390-5.13.0-1011-oracle
 Description-md5: 1a1781c22748b34d254c6d01dd2513e3
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -3342,10 +3814,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-390-5.13.0-1012-azure
+Description-md5: a6eae70c601bec2d558950b790b02b56
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-390-5.13.0-1012-gcp
+Description-md5: eacd7d8140cdaf152176429de7516e6b
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-390-5.13.0-1013-oracle
 Description-md5: 9b9c597ed78c3cdf1d876cc94aa7f70d
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-390-5.13.0-1015-oracle
+Description-md5: 145f96275b67594e69ee5c6b8f7c168f
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-390-oracle* meta-packages,
@@ -3446,6 +3948,26 @@ Package: linux-objects-nvidia-390-5.13.0-25-lowlatency
 Description-md5: c6d02fcb39c694bfa82c830c8f3501bc
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-390-5.13.0-27-generic
+Description-md5: bf2c39c95eb6d240160f0a029fe29b64
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-390-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-390-5.13.0-27-lowlatency
+Description-md5: ede9cbccc0968395edd6a9ba631e3afc
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-390-lowlatency* meta-packages,
@@ -3592,6 +4114,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-418-server-5.13.0-1011-aws
+Description-md5: d19d890658d0df1ef73e1464342e5283
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-418-server-5.13.0-1011-oracle
 Description-md5: aa13c2fd0197105e04f7acccd39337f3
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -3602,10 +4134,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-418-server-5.13.0-1012-azure
+Description-md5: fa8d9fa23dc875ddc07c47727158d071
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-418-server-5.13.0-1012-gcp
+Description-md5: 8711ed10e9a6e47ecf6b6b17ffb13f17
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-418-server-5.13.0-1013-oracle
 Description-md5: adec2b045a0422ba00f99942a285dcaf
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-418-server-5.13.0-1015-oracle
+Description-md5: 69e1eef27e05ca683d11ed653e05fd1f
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-418-server-oracle* meta-packages,
@@ -3706,6 +4268,26 @@ Package: linux-objects-nvidia-418-server-5.13.0-25-lowlatency
 Description-md5: ede0427f1339d836893387d20dedcdac
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-418-server-5.13.0-27-generic
+Description-md5: 78a7ac9be84561b76c9623b6f86fb599
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-418-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-418-server-5.13.0-27-lowlatency
+Description-md5: 154dc45ec5546091760dc6748fc60e8f
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-418-server-lowlatency* meta-packages,
@@ -3852,6 +4434,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-450-server-5.13.0-1011-aws
+Description-md5: c81b51e66d25f719225c5094a875f39f
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-450-server-5.13.0-1011-oracle
 Description-md5: dda66a013f5e7452c9af9e265fa82636
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -3862,10 +4454,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-450-server-5.13.0-1012-azure
+Description-md5: 03d89cf120b5e2f843ef25ccad895d14
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-450-server-5.13.0-1012-gcp
+Description-md5: 52508247cc7408c074a8cce3e0f5385e
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-450-server-5.13.0-1013-oracle
 Description-md5: 678a863f3ad1ff28fbf378111725f39d
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-450-server-5.13.0-1015-oracle
+Description-md5: d6626ae87b34ad9b8468ce1f392fa64a
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-450-server-oracle* meta-packages,
@@ -3966,6 +4588,26 @@ Package: linux-objects-nvidia-450-server-5.13.0-25-lowlatency
 Description-md5: a6ee071ab4d7d6a1769256c316f86f12
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-450-server-5.13.0-27-generic
+Description-md5: a27488e4c84665a29d6518de50896c2e
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-450-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-450-server-5.13.0-27-lowlatency
+Description-md5: 582e2be05ebe132e03e58321703b268b
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-450-server-lowlatency* meta-packages,
@@ -4112,6 +4754,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-460-server-5.13.0-1011-aws
+Description-md5: af37df6608f049e07b78e50525ea1152
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-460-server-5.13.0-1011-oracle
 Description-md5: 8f5a660fd9e45a3b55ef781a99333e27
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -4122,10 +4774,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-460-server-5.13.0-1012-azure
+Description-md5: 9c5e33b9691011e57155e7108dd15cfa
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-460-server-5.13.0-1012-gcp
+Description-md5: ee6a7f2d30efe80eba89f7c083ee6d14
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-460-server-5.13.0-1013-oracle
 Description-md5: 24a24ca6c3dbfa12d4bd5f0f6275d27f
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-460-server-5.13.0-1015-oracle
+Description-md5: 3e8b8ae614c24dca709d63798ef1465e
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-460-server-oracle* meta-packages,
@@ -4226,6 +4908,26 @@ Package: linux-objects-nvidia-460-server-5.13.0-25-lowlatency
 Description-md5: 7857e3adbfc0b812c857d0bffb1f8f79
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-460-server-5.13.0-27-generic
+Description-md5: 890b06ff4b296f21a89d649b3ebcc962
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-460-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-460-server-5.13.0-27-lowlatency
+Description-md5: 7bfae6bc5628fd5bf831f66e78eeafae
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-460-server-lowlatency* meta-packages,
@@ -4372,6 +5074,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-470-5.13.0-1011-aws
+Description-md5: ebd145ac0f7431ca7cce8838a39c1840
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-470-5.13.0-1011-oracle
 Description-md5: e51b5694909362c5bad6f0e252a50c49
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -4382,10 +5094,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-470-5.13.0-1012-azure
+Description-md5: 788ab5c0fbaa076e6373af2d0d9a797d
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-5.13.0-1012-gcp
+Description-md5: 0ec93d2ff0387d97c4a89199462c822b
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-470-5.13.0-1013-oracle
 Description-md5: 0ff6c45448a45c6819aac43ee7f9eb49
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-5.13.0-1015-oracle
+Description-md5: 3f47d2232e2ee2373d69bac443fdaa45
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-oracle* meta-packages,
@@ -4486,6 +5228,26 @@ Package: linux-objects-nvidia-470-5.13.0-25-lowlatency
 Description-md5: b9d0d261d2c8158c4f1ca6279fcb6c9f
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-5.13.0-27-generic
+Description-md5: 893f6934b96444dab4ddd4a3868a685a
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-5.13.0-27-lowlatency
+Description-md5: 783446bc991d7906787846e6d6a3e550
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-lowlatency* meta-packages,
@@ -4632,6 +5394,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-470-server-5.13.0-1011-aws
+Description-md5: 2140bcb114ca55ed7bf0196d99ab6510
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-470-server-5.13.0-1011-oracle
 Description-md5: dde36206cbef2c5294cd75e0e3510757
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -4642,10 +5414,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-470-server-5.13.0-1012-azure
+Description-md5: 7eb1bb3582347b94ae73a11b82a94129
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-server-5.13.0-1012-gcp
+Description-md5: 02ea66abab560f311486aa7f480809b5
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-470-server-5.13.0-1013-oracle
 Description-md5: 2b7fed7e287da199daf45d6f1f81bfc8
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-server-5.13.0-1015-oracle
+Description-md5: d1c5640d58bd48f1225c7444c0db1827
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-server-oracle* meta-packages,
@@ -4746,6 +5548,26 @@ Package: linux-objects-nvidia-470-server-5.13.0-25-lowlatency
 Description-md5: c0434eaa2c41262e2daa8110ad08ddbc
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-server-5.13.0-27-generic
+Description-md5: b2158989e42523f416d899c15c5fe1d7
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-470-server-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-470-server-5.13.0-27-lowlatency
+Description-md5: d17a36a764002dd601036ce8c259143e
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-470-server-lowlatency* meta-packages,
@@ -4892,6 +5714,16 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1010 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-495-5.13.0-1011-aws
+Description-md5: f1c6d711cb52aa0b5bebbb8aecd99b65
+Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1011.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-aws* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-495-5.13.0-1011-oracle
 Description-md5: 0fe2fdfd838e3919d0d6b91cf0460b53
 Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
@@ -4902,10 +5734,40 @@ Description-en: Linux kernel nvidia modules for version 5.13.0-1011 (objects)
  which will ensure that upgrades work correctly, and that supporting packages are
  also installed.
 
+Package: linux-objects-nvidia-495-5.13.0-1012-azure
+Description-md5: 68ae7da8a3883a9d2c670820db17f159
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-azure* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-495-5.13.0-1012-gcp
+Description-md5: a8bd31b74749e31d7c550e38f2464934
+Description-en: Linux kernel nvidia modules for version 5.13.0-1012 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1012.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-gcp* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
 Package: linux-objects-nvidia-495-5.13.0-1013-oracle
 Description-md5: aa3ccc131309a4c310e299dec1fa0ea3
 Description-en: Linux kernel nvidia modules for version 5.13.0-1013 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-1013.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-oracle* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-495-5.13.0-1015-oracle
+Description-md5: 0c3b1f0861c6f3a17703b21322f8046b
+Description-en: Linux kernel nvidia modules for version 5.13.0-1015 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-1015.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-495-oracle* meta-packages,
@@ -4986,6 +5848,26 @@ Package: linux-objects-nvidia-495-5.13.0-25-lowlatency
 Description-md5: 331721029c5e9e810ca2653d108afb2f
 Description-en: Linux kernel nvidia modules for version 5.13.0-25 (objects)
  This package contains the Linux kernel nvidia modules for version 5.13.0-25.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-lowlatency* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-495-5.13.0-27-generic
+Description-md5: d717967bd8aaf55b912b037d2cfab498
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
+ .
+ You likely do not want to install this package directly. Instead, install the
+ one of the linux-modules-nvidia-495-generic* meta-packages,
+ which will ensure that upgrades work correctly, and that supporting packages are
+ also installed.
+
+Package: linux-objects-nvidia-495-5.13.0-27-lowlatency
+Description-md5: eb7074a39fb5b22d7ee53f1600238468
+Description-en: Linux kernel nvidia modules for version 5.13.0-27 (objects)
+ This package contains the Linux kernel nvidia modules for version 5.13.0-27.
  .
  You likely do not want to install this package directly. Instead, install the
  one of the linux-modules-nvidia-495-lowlatency* meta-packages,
@@ -5104,6 +5986,14 @@ Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-10
  .
  You likely do not want to install this package directly.
 
+Package: linux-signatures-nvidia-5.13.0-1011-aws
+Description-md5: 60707ec9b60336a1a6b89e51c923eeed
+Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-1011-aws
+ This package contains the Linux kernel signatures nvidia modules for
+ version 5.13.0-1011-aws.
+ .
+ You likely do not want to install this package directly.
+
 Package: linux-signatures-nvidia-5.13.0-1011-oracle
 Description-md5: 6894fb9bc765dc6ccdb574c8ba0c3238
 Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-1011-oracle
@@ -5112,11 +6002,35 @@ Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-10
  .
  You likely do not want to install this package directly.
 
+Package: linux-signatures-nvidia-5.13.0-1012-azure
+Description-md5: 2e23e616fa9cb7b4c34b6b110fc4a2c3
+Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-1012-azure
+ This package contains the Linux kernel signatures nvidia modules for
+ version 5.13.0-1012-azure.
+ .
+ You likely do not want to install this package directly.
+
+Package: linux-signatures-nvidia-5.13.0-1012-gcp
+Description-md5: a64fc3201336cc5e16a3cc8446202ee9
+Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-1012-gcp
+ This package contains the Linux kernel signatures nvidia modules for
+ version 5.13.0-1012-gcp.
+ .
+ You likely do not want to install this package directly.
+
 Package: linux-signatures-nvidia-5.13.0-1013-oracle
 Description-md5: 49268258ef02a361ba111c300bed1fd3
 Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-1013-oracle
  This package contains the Linux kernel signatures nvidia modules for
  version 5.13.0-1013-oracle.
+ .
+ You likely do not want to install this package directly.
+
+Package: linux-signatures-nvidia-5.13.0-1015-oracle
+Description-md5: 0b65ea9add1aeaaa089638742405f63d
+Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-1015-oracle
+ This package contains the Linux kernel signatures nvidia modules for
+ version 5.13.0-1015-oracle.
  .
  You likely do not want to install this package directly.
 
@@ -5197,6 +6111,22 @@ Description-md5: ca58e79b94b1bde6c8d9a16669fac311
 Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-25-lowlatency
  This package contains the Linux kernel signatures nvidia modules for
  version 5.13.0-25-lowlatency.
+ .
+ You likely do not want to install this package directly.
+
+Package: linux-signatures-nvidia-5.13.0-27-generic
+Description-md5: 1cdf0423656a15d9cd1564f3fa2f6212
+Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-27-generic
+ This package contains the Linux kernel signatures nvidia modules for
+ version 5.13.0-27-generic.
+ .
+ You likely do not want to install this package directly.
+
+Package: linux-signatures-nvidia-5.13.0-27-lowlatency
+Description-md5: bc19993b52fbee64b0d43947b22842d9
+Description-en: Linux kernel signatures for nvidia modules for version 5.13.0-27-lowlatency
+ This package contains the Linux kernel signatures nvidia modules for
+ version 5.13.0-27-lowlatency.
  .
  You likely do not want to install this package directly.
 
