@@ -4218,7 +4218,7 @@ Description-md5: ece07db851f8a2e9731975ec11eedb8d
 
 Package: thunderbird-gnome-support-dbg
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/devel
 Source: thunderbird
@@ -4227,31 +4227,31 @@ Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
 Depends: thunderbird-gnome-support, thunderbird-dbg
-Filename: pool/universe/t/thunderbird/thunderbird-gnome-support-dbg_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
+Filename: pool/universe/t/thunderbird/thunderbird-gnome-support-dbg_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
 Size: 8318
-MD5sum: 6c0bb6e3e3aed898acacf20a25a3d92f
-SHA1: c813006dd5b111876d398e0006401b6d17d9f6a1
-SHA256: 12ffc8a203cef921c1cdc4433ca06434fa40df37513c69e836832ff9e320a2c3
-SHA512: ddc1685149287ccd9c21ed5c88fab4dec6ee0c2ac1f62d4467f44c2358fa2d3df69a704abf3ff1263226ddeec2c35653db7e5229aa4462e782670fbbd5c7c180
+MD5sum: 898167bb8a3aae9df25fd8ca017a9c55
+SHA1: aef783dc35e8b524c5dfc9008c6d687d5fcb37e7
+SHA256: 6482848ecf9015ee07a39fdc804ddd392e2340d22e1f448846f978a3846eaa04
+SHA512: db616194a2c416cf944c6d955241a9a5f60814ab2e468a574e26e9458ae82a8efb13aa9874e0a3d9a47e7f5ba37742ea2fb22e0d16233004fd005478e31f57c8
 Description: Email, RSS and newsgroup client - transitional package
 Description-md5: 8fa21aaf02af881ccc7c33f8559e6531
 
 Package: thunderbird-mozsymbols
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: extra
 Section: universe/debug
 Source: thunderbird
 Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 31172
-Filename: pool/universe/t/thunderbird/thunderbird-mozsymbols_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 31401990
-MD5sum: 7e93cb153b2b8085a8ef0e1c3a67abdf
-SHA1: 6db6d269cec7f5a3ee56611c2b10295e347b735d
-SHA256: e996616b32c3f991c5966e76a9a9b0422c9eec3b077d6f1175985ea9310f3d95
-SHA512: b9ecb903d070bfd3fb5b42528d2b8d11676cfe9539c3dc875583fe48144c916f41332a448e9d8dd69d6a47bbcf5c0cea6c2798435e68f9e4b6e0c53328a1cc93
+Installed-Size: 31189
+Filename: pool/universe/t/thunderbird/thunderbird-mozsymbols_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 31414894
+MD5sum: 8333becb5e8758014335bf80441a0891
+SHA1: 4b057547ec343914043a62b03a6f9ce5ee3c3fa4
+SHA256: 60066581ae5e1a11eb71c701cc64af5ed0a214f584ac44da8c04c0dbc98f723f
+SHA512: 4daabc3ac8a3c715bd387b9e34642eefe3174e18fd8ae405c11599bf21f82f9a355957ad63d6d87ad68d146f142ad4bddfd08cd32dc416c4d65e73ec2b651d3a
 Description: Email, RSS and newsgroup client - Breakpad symbols
 Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
 
@@ -4554,7 +4554,7 @@ Description-md5: 6be9dae6db2bfd4321ce1a5c689cbeb4
 
 Package: xul-ext-calendar-timezones
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: thunderbird
@@ -4562,18 +4562,18 @@ Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
-Filename: pool/universe/t/thunderbird/xul-ext-calendar-timezones_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 9456
-MD5sum: f54fd8948d37007aec20860ad54a1955
-SHA1: b9f3b64b641569be1e3039262beb113428364d69
-SHA256: cfd698c424ac35b615c4a08da4c80941babf6c77854c4c46b604560d12200bd1
-SHA512: 6675d2967cbb6c6cc59684709bfb7b884fa179713c4d06ad824efecbf47d2cbb785484f172c239964259f77143c8ebd81018b7bcba9d9d2079249156458923e3
+Filename: pool/universe/t/thunderbird/xul-ext-calendar-timezones_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 9254
+MD5sum: 07d933dc4a2a9f929af72b951fbbb4ca
+SHA1: 8a551d12017313bf36750db3739303d387482288
+SHA256: fbe7cb5b3e3ea2e5391b482b67786d104bbd0ef50bea61e79ec27cd003e352cb
+SHA512: 1d48373015e97ab4c48053a67c9208f9aec6275417e06964845c5c180a69646aafc86285f3b9d0ce52b63ff6885cf2754bc1551158c158399554e3672a8f27aa
 Description: Calendar Extension for Thunderbird (transitional package)
 Description-md5: aa51586667f70f4444de07214c475b6d
 
 Package: xul-ext-gdata-provider
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: thunderbird
@@ -4581,18 +4581,18 @@ Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
-Filename: pool/universe/t/thunderbird/xul-ext-gdata-provider_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 9450
-MD5sum: c499e7a990ae438826a05ee2e0689b72
-SHA1: 4fbb0a141035d30a64c742aebc15055f6d17c563
-SHA256: aad0c7ae2847e1e8c43ebeeb66e0bcb0ed84514f7e29f7b66af2c9052245a6e6
-SHA512: c6f10affd9a10afccf64fd018985849ee14dd24fdc80f66f5bdcb69bfe190376928fa48adfefaddc182e8e4ae53bea22564f012e75b4382071ae5c025ae5e040
+Filename: pool/universe/t/thunderbird/xul-ext-gdata-provider_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 9250
+MD5sum: 35627b6017c294cf261e3a6b84808505
+SHA1: 97ec5e05d01935f8c257e689653f06693bc7517d
+SHA256: c4b562fa770007a42a409fdb125579af741c8c6fef11bf10df8de28ce2d547e0
+SHA512: fcab813fc674efda6352b84340733afa95bcc6f443d52f1909a2499704d4f883f930202f14ae90accd30bfa84881cfabc6a37ab4636a5a291468a187ce71ca50
 Description: Calendar Extension for Thunderbird (transitional package)
 Description-md5: aa51586667f70f4444de07214c475b6d
 
 Package: xul-ext-lightning
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: thunderbird
@@ -4600,12 +4600,12 @@ Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
-Filename: pool/universe/t/thunderbird/xul-ext-lightning_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 9444
-MD5sum: 22060cabfef6e14d1de939288678de78
-SHA1: 1a297250354ed2b6ea73ddec0a2c989aa46fd64f
-SHA256: 1f0169a6e219f00c9076190c53e82c1aed840e7fb4a2ab7717f766be22fac9c0
-SHA512: 56dc6b7ac27efc5a0d4a8f7f9a4d15403e1f1f43016a3e00ddccb707fc2a70e4d9ea8e0a4b1f5285c5b1671458a63fcfe67d573343f2cf550fc3c8d33fad1ae0
+Filename: pool/universe/t/thunderbird/xul-ext-lightning_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 9228
+MD5sum: 4c28ba88bd07eb2590f4ff681d901a5e
+SHA1: 43b8188a0669a6feca62047fb56fcf3482ce6fd0
+SHA256: b83e2c110b16b589981cb350782e102e675bea3e2b76eab6facc7ea8c22b3c15
+SHA512: 3a121d517ba3c2187c5f0640e70a9912127dcea0dff646618c4be7891b4660a24cf8f91f760517210bc5c2755aee0b659459919bbc143f383d67e23453d2c214
 Description: Calendar Extension for Thunderbird (transitional package)
 Description-md5: aa51586667f70f4444de07214c475b6d
 

@@ -6,6 +6,40 @@ Description-en: query and manipulate user account information
  information and an implementation of these interfaces,
  based on the useradd, usermod and userdel commands.
 
+Package: aide
+Description-md5: 5cf26f0af8c95254f9ec7920c1214cbe
+Description-en: Advanced Intrusion Detection Environment - static binary
+ AIDE is an intrusion detection system that detects changes to files on
+ the local system. It creates a database from the regular expression rules
+ that it finds from the config file. Once this database is initialized
+ it can be used to verify the integrity of the files. It has several
+ message digest algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are
+ used to check the integrity of the file. More algorithms can be added
+ with relative ease. All of the usual file attributes can also be checked
+ for inconsistencies.
+ .
+ This package contains the statically linked binary for "normal"
+ systems.
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-en: Advanced Intrusion Detection Environment - Common files
+ AIDE is an intrusion detection system that detects changes to files on
+ the local system. It creates a database from the regular expression rules
+ that it finds from the config file. Once this database is initialized
+ it can be used to verify the integrity of the files. It has several
+ message digest algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are
+ used to check the integrity of the file. More algorithms can be added
+ with relative ease. All of the usual file attributes can also be checked
+ for inconsistencies.
+ .
+ This package contains base and configuration files that are needed to
+ run the actual binaries.
+ .
+ You will almost certainly want to tweak the configuration file in
+ /etc/aide/aide.conf or drop your own config snippets into
+ /etc/aide/aide.conf.d.
+
 Package: alsa-ucm-conf
 Description-md5: c57964a46d5e0c90f286d77124260cb7
 Description-en: ALSA Use Case Manager configuration files

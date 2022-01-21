@@ -3,6 +3,10 @@ component: universe
 arch: amd64
 
 
+name: aide-dynamic
+version: 0.17.3-4ubuntu0.1
+commands: aide
+
 name: apport-valgrind
 version: 2.20.11-0ubuntu71
 commands: apport-valgrind
@@ -364,19 +368,19 @@ version: 1:1.30.1-6ubuntu3.1
 commands: dumpleases,udhcpd
 
 name: vim-athena
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.athena,vimdiff
 
 name: vim-gtk3
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.gtk3,vimdiff
 
 name: vim-gui-common
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: gvimtutor
 
 name: vim-nox
-version: 2:8.2.2434-3ubuntu3.1
+version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.nox,vimdiff
 
 name: webkit2gtk-driver

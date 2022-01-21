@@ -1,3 +1,53 @@
+Package: aide-dynamic
+Architecture: amd64
+Version: 0.17.3-4ubuntu0.1
+Priority: optional
+Section: universe/admin
+Source: aide
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aide Maintainers <aide@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 231
+Provides: aide-binary
+Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libcap2 (>= 1:2.10), libext2fs2 (>= 1.37), libmhash2 (>= 0.9.9.9), libpcre3, libselinux1 (>= 3.1~), zlib1g (>= 1:1.1.4)
+Recommends: aide-common (= 0.17.3-4ubuntu0.1)
+Conflicts: aide, aide-xen
+Filename: pool/universe/a/aide/aide-dynamic_0.17.3-4ubuntu0.1_amd64.deb
+Size: 91322
+MD5sum: da85c2bc9c6d8219b541b98bc6d3443e
+SHA1: 0ee94fa0536ec40629f72002ee724b64c5d169cd
+SHA256: 161eaaaa5ab179ca62d26c5a626255d104ee9c61d9638694bd19dae155815041
+SHA512: 499f0131a7ad91e4e6451c052d565b7f3ccb326111e7c3f356cade9b5a9fb3feaa23fa5d48b5b603e191180d87a857597eafe47cbbf6a292bbe61e15fde93b0f
+Homepage: https://aide.github.io
+Description: Advanced Intrusion Detection Environment - dynamic binary
+Description-md5: 3c085f51d721d7dcb93bb05d2c714096
+
+Package: aide-xen
+Architecture: all
+Version: 0.17.3-4ubuntu0.1
+Built-Using: acl (= 2.2.53-10ubuntu2), attr (= 1:2.4.48-6build2), audit (= 1:3.0-2ubuntu2), e2fsprogs (= 1.46.3-1ubuntu3), glibc (= 2.34-0ubuntu3), libcap2 (= 1:2.44-1build1), libselinux (= 3.1-3build2), mhash (= 0.9.9.9-9build1), pcre3 (= 2:8.39-13build3), zlib (= 1:1.2.11.dfsg-2ubuntu7)
+Priority: optional
+Section: universe/admin
+Source: aide
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aide Maintainers <aide@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 46
+Depends: aide
+Recommends: aide-common (= 0.17.3-4ubuntu0.1)
+Conflicts: aide-dynamic
+Filename: pool/universe/a/aide/aide-xen_0.17.3-4ubuntu0.1_all.deb
+Size: 4290
+MD5sum: 7520373e2ad3aa0541035df221d4263c
+SHA1: 27e9cb7759e2970ba8d65a541e4d3b329f0e9cc7
+SHA256: 8a6ca1c49a5a273b90fcca8e6544594461d55d0b7b9acad331849d19ddf025f3
+SHA512: 968158ee2c05735046a196b02b04f3fa61acbaa465cb3ad3f9e94d833fc9877c62cf6fa2429a667a3dce6abb18b5328ba7d920d93c1ddb4b7cf416272e2125b5
+Homepage: https://aide.github.io
+Description: Advanced Intrusion Detection Environment - transitional package
+Description-md5: 7d4d1ecbbb69f19ef336769d547d87fc
+
 Package: apache2-suexec-custom
 Architecture: amd64
 Version: 2.4.48-3.1ubuntu3.2
@@ -1602,7 +1652,6 @@ SHA512: 03bad077bc1e596a8a3dd61691db84e454d5202da88ed3e108df72f3b4156e61666f4874
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: libjurt-java
 Architecture: all
@@ -1625,7 +1674,6 @@ SHA512: 31e28139bed76f39625886cfbc7aeb8bb24489e55b9a57014ef84a3c107f074ab01d03a2
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: liblightdm-gobject-1-0
 Architecture: amd64
@@ -2583,7 +2631,6 @@ SHA512: 141b479fd7d058a11e5fb06626717c7910e4d6b9cda6ff54cd6220f4ccbbb03057d11171
 Homepage: http://www.libreoffice.org
 Description: office productivity suite (metapackage)
 Description-md5: 9614e13c8592ae9a0c81c629137ef53e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-avmedia-backend-gstreamer
 Architecture: amd64
@@ -2606,7 +2653,6 @@ SHA512: c39d4fc5cc24fc5ac52cab19871e1188d748a399c8fcc32d2207dd3fd07fa06cb0884f85
 Homepage: http://www.libreoffice.org
 Description: transitional package for GStreamer backend for LibreOffice
 Description-md5: ec62ab16ee0666e01ee5915457261f88
-Phased-Update-Percentage: 80
 
 Package: libreoffice-base
 Architecture: amd64
@@ -2634,7 +2680,6 @@ SHA512: 9008dfd6d59258c599edad3f4637699c217ce5be3316debadca573cb533226045ba4226a
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- database
 Description-md5: 5529fff5c628ca6b70284749063daea4
-Phased-Update-Percentage: 80
 
 Package: libreoffice-base-drivers
 Architecture: amd64
@@ -2661,7 +2706,6 @@ SHA512: 5a355d39e5c3cda0778d84aa13b6fad61a152588b3a8e1e4ea7d57a4c1d3f89663032f76
 Homepage: http://www.libreoffice.org
 Description: Database connectivity drivers for LibreOffice
 Description-md5: 95a600bf1d7e583b757fe5b8ea210d10
-Phased-Update-Percentage: 80
 
 Package: libreoffice-base-nogui
 Architecture: amd64
@@ -2689,7 +2733,6 @@ SHA512: ba32f0d3a9d413cc354996528bfd573359934b2d9e8649060d480eccd6c2f20b52890f3f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- database (no GUI variant)
 Description-md5: e83dd6cdb7c67ccb13c0407fd6a32ebc
-Phased-Update-Percentage: 80
 
 Package: libreoffice-calc-nogui
 Architecture: amd64
@@ -2715,7 +2758,6 @@ SHA512: 6a5fe82153da573aa66ff92f2bac3ff1dfddb6dc942ad77060a2e531504e604610108ab4
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- spreadsheet (no GUI variant)
 Description-md5: ed9483b973f6b2dd25d568b6ef77d8c4
-Phased-Update-Percentage: 80
 
 Package: libreoffice-core-nogui
 Architecture: amd64
@@ -2743,7 +2785,6 @@ SHA512: 04a160903152494d5dd4df49a14da54ba358783807ab210286438a4b48d5090038ba02de
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- arch-dependent files (no GUI variant)
 Description-md5: d16e9871c20b5b5c8f38d6d74c8dfe8e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-dev-gui
 Architecture: amd64
@@ -2768,7 +2809,6 @@ SHA512: 35efebf7db3bc5a2a1951945c7b8cb453c49f59e819ef37d67db59b7f6198c3d1f121e8f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- "GUI" development stuff
 Description-md5: c7381cdfc5446c44dd4085615626c61e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-draw-nogui
 Architecture: amd64
@@ -2794,7 +2834,6 @@ SHA512: 4c63d07f58af209e0facd6d65ac9277fb229f9ce0515fd54c8b041911c71029ff9d56695
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- drawing (no GUI variant)
 Description-md5: c4d7d9707b31ef9344d70e006f7a27af
-Phased-Update-Percentage: 80
 
 Package: libreoffice-evolution
 Architecture: amd64
@@ -2818,7 +2857,6 @@ SHA512: 471723b6d547f0357d8ba63e7822091609ada418b2c8e8c57cd9fa54a6e75a4004da9a8c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Evolution addressbook support
 Description-md5: 7d9a6b62e74d5a806f263ecd0d4bed18
-Phased-Update-Percentage: 80
 
 Package: libreoffice-gtk
 Architecture: all
@@ -2841,7 +2879,6 @@ SHA512: 4051d399c2e38fe5c716cbb26271be4f0e0cafd68119a280a13fe5d640b1a951caf10e25
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice gtk2 backend
 Description-md5: 0b76cbf84e5ccbf23ddec807f4dcefbb
-Phased-Update-Percentage: 80
 
 Package: libreoffice-gtk2
 Architecture: all
@@ -2863,7 +2900,6 @@ SHA512: 26d9bca3bbc8ca25e2c5813a1657baefb615c7bbf46fa097717dbde1991a122ef4f563cf
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice gtk2 backend
 Description-md5: 16f95bd9c26683a4b4582a981ca1a3a2
-Phased-Update-Percentage: 80
 
 Package: libreoffice-impress-nogui
 Architecture: amd64
@@ -2890,7 +2926,6 @@ SHA512: 8e8dc05f2c3066393ccc93460349d7ff1615ed7d6ae20cd0b433196b2a59103c1127482c
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- presentation (no GUI variant)
 Description-md5: 10ce2c27d434135cd9308937c1bdb31c
-Phased-Update-Percentage: 80
 
 Package: libreoffice-kde
 Architecture: all
@@ -2913,7 +2948,6 @@ SHA512: dc96c34a2bb95526e12d8fe0a5cdd9e0f27f3e530e5a04f9f52858891ca39c1690c97b39
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice KDE integration
 Description-md5: 6cefe70d36c253e7351b5cddd7f0664e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-kde4
 Architecture: all
@@ -2935,7 +2969,6 @@ SHA512: f21044740e435c2e6f3ba378c7bc3e5a7a9cb122b452ce9e1f960925183a77c2da0607ee
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice KDE integration
 Description-md5: e4e138701097a40ac3baad803dbce01d
-Phased-Update-Percentage: 80
 
 Package: libreoffice-kde5
 Architecture: amd64
@@ -2958,7 +2991,6 @@ SHA512: 671833977326593b30f062bea108c463a97ff919d364e1e1ac764acec2ae0eec0c99c4c1
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice "KDE 5" integration
 Description-md5: 9ba37e0af16899bba520effef300bdf2
-Phased-Update-Percentage: 80
 
 Package: libreoffice-kf5
 Architecture: amd64
@@ -2985,7 +3017,6 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- KDE Frameworks 5 integration
 Task: kubuntu-desktop, kubuntu-full, ubuntustudio-desktop
 Description-md5: 60a27e47a640a57cbd044cc3528831f5
-Phased-Update-Percentage: 80
 
 Package: libreoffice-librelogo
 Architecture: all
@@ -3008,7 +3039,6 @@ SHA512: 898c2641112fcdb81d03b5874fc9accdf49225908304e7c32368351fe447d6c51f1c8069
 Homepage: http://librelogo.org
 Description: Logo-like programming language for LibreOffice
 Description-md5: cdaef056eb365a457e28772fa2fd9de6
-Phased-Update-Percentage: 80
 
 Package: libreoffice-math-nogui
 Architecture: amd64
@@ -3033,7 +3063,6 @@ SHA512: 9e8abc93ee33705b53274f3909dddce316bf77aa87aedc97db5892ddd8f621394b09af2f
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- equation editor (no GUI variant)
 Description-md5: e104f51d572d2ee302d3c3550e97e6ff
-Phased-Update-Percentage: 80
 
 Package: libreoffice-mysql-connector
 Architecture: amd64
@@ -3056,7 +3085,6 @@ SHA512: 1647520efe91dbed4fe8572283e949d731908eee4817bc14fe5cf34bc3180c3ba7cf8427
 Homepage: http://www.libreoffice.org
 Description: transitional package for MariaDB/MySQL Connector extension for LibreOffice
 Description-md5: f67e8b039d42be412b79ebf1381a0f85
-Phased-Update-Percentage: 80
 
 Package: libreoffice-nogui
 Architecture: amd64
@@ -3081,7 +3109,6 @@ SHA512: 3522b21ec20fabbd6415b9e4152bf444ffeeba10efb397cd77393db0d4ebcac95cde9eb6
 Homepage: http://www.libreoffice.org
 Description: office productivity suite (metapackage, no GUI)
 Description-md5: b2664061ba9641158b0a41d2c958aa3e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-plasma
 Architecture: amd64
@@ -3107,7 +3134,6 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- some Plasma integration
 Task: kubuntu-desktop, kubuntu-full, ubuntustudio-desktop
 Description-md5: 962e5fa862a2425941adbcdb81054cc7
-Phased-Update-Percentage: 80
 
 Package: libreoffice-qt5
 Architecture: amd64
@@ -3132,7 +3158,6 @@ Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Qt 5 integration
 Task: kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop
 Description-md5: 9e8b23524063dc9fd1d58b588d9f5c8e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-report-builder
 Architecture: all
@@ -3159,7 +3184,6 @@ SHA512: fee16a757e8e4104feca7600dc0eef93a6f9c981481b2c4d71ac0fde2cc9af1b31488ad8
 Homepage: http://www.libreoffice.org
 Description: LibreOffice component for building database reports
 Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
-Phased-Update-Percentage: 80
 
 Package: libreoffice-report-builder-bin
 Architecture: amd64
@@ -3182,7 +3206,6 @@ SHA512: da7a0062666d19748e5411854d003b679a7a4130df64377ec34ec4cec14feaa65d1e3420
 Homepage: http://www.libreoffice.org
 Description: LibreOffice component for building database reports -- libraries
 Description-md5: 4de9416ad29a7951be39b95f83055e84
-Phased-Update-Percentage: 80
 
 Package: libreoffice-report-builder-bin-nogui
 Architecture: amd64
@@ -3207,7 +3230,6 @@ SHA512: f771077a94eb5137401124f0d70777eb37c276fd82179024cb783f17dcc67f284e13ea66
 Homepage: http://www.libreoffice.org
 Description: LibreOffice component for building database reports -- libraries (no GUI variant)
 Description-md5: 6d5263ac65fb4d1c4c7caf8eb713944d
-Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-bsh
 Architecture: all
@@ -3230,7 +3252,6 @@ SHA512: 7122a0c471b309507e9ffb3fdef80df0549b07b06dc4189fa73c02c2e1ada14531e2cc70
 Homepage: http://www.libreoffice.org
 Description: BeanShell script support provider for LibreOffice scripting framework
 Description-md5: 720bef09745ce9eb4902772fb5c437d8
-Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-js
 Architecture: all
@@ -3253,7 +3274,6 @@ SHA512: 7d2abe33b99a45ee4921a0c45d6271441495b6722e4ec4c1da2e028b017748f098711c94
 Homepage: http://www.libreoffice.org
 Description: JavaScript script support provider for LibreOffice scripting framework
 Description-md5: 41b18315e9be2aaa24a28415b907118e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-python
 Architecture: all
@@ -3276,7 +3296,6 @@ SHA512: 3b2c8adb29b8007aa5542486feb92321f4ecaa38b7180c668fca5e9c44f3c5b9f39eff36
 Homepage: http://www.libreoffice.org
 Description: Python script support provider for LibreOffice scripting framework
 Description-md5: 019117f2dc708fc6c1179714b81e2076
-Phased-Update-Percentage: 80
 
 Package: libreoffice-sdbc-firebird
 Architecture: amd64
@@ -3300,7 +3319,6 @@ SHA512: 2c18f8f16376bb2ef507500eb8b222227835dfdec73137e1565125c81dba18a985004fe7
 Homepage: http://www.libreoffice.org
 Description: Firebird SDBC driver for LibreOffice
 Description-md5: 4ad372e2554b0f42b39c7e1325d5e6d0
-Phased-Update-Percentage: 80
 
 Package: libreoffice-sdbc-hsqldb
 Architecture: amd64
@@ -3324,7 +3342,6 @@ SHA512: bba04d222eb1f55cb4d234043ec43f9705c314d12fd46588f5db0e24f33a9d11a12a680f
 Homepage: http://www.libreoffice.org
 Description: HSQLDB SDBC driver for LibreOffice
 Description-md5: 54ed9715a25b1dae2ad2d3a9b6838a65
-Phased-Update-Percentage: 80
 
 Package: libreoffice-sdbc-mysql
 Architecture: amd64
@@ -3348,7 +3365,6 @@ SHA512: 4ade39eeb2bf8d9552535d9dba5e5aa2f4c2adcb099ae5cff5d0414ebf4abb155c31b7a0
 Homepage: http://www.libreoffice.org
 Description: MariaDB/MySQL SDBC driver for LibreOffice
 Description-md5: 1022a8fb85f50d65847256d96ae25e4f
-Phased-Update-Percentage: 80
 
 Package: libreoffice-sdbc-postgresql
 Architecture: amd64
@@ -3373,7 +3389,6 @@ SHA512: 8cc94b90c8cf3b68415c0b4388f0d68314c4f236bedddf90fbd76248a250458bdacb5a97
 Homepage: http://wiki.documentfoundation.org/PostgreSQL-SDBC
 Description: PostgreSQL SDBC driver for LibreOffice
 Description-md5: 06f71158aa78dbe7201679601bd1279b
-Phased-Update-Percentage: 80
 
 Package: libreoffice-smoketest-data
 Architecture: all
@@ -3397,7 +3412,6 @@ SHA512: 4f80ab1c6e6f2fd25c026dded958f7865f16ce7da6f1b2d689f18d05ad7b124a50d6243a
 Homepage: http://www.libreoffice.org
 Description: data files for LibreOffices "smoketest"
 Description-md5: 7540f40cccbf63cb8381dca8979a0828
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-galaxy
 Architecture: all
@@ -3420,7 +3434,6 @@ SHA512: 68ddaa876f70af1f5455dd886c1109ae23cb982870413a231fd591fcef8ce58c42a33ce0
 Homepage: http://www.libreoffice.org
 Description: transitional package for Galaxy symbol style
 Description-md5: cbafee8b95c2851c166a1f1a2f92ac6c
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-hicontrast
 Architecture: all
@@ -3443,7 +3456,6 @@ SHA512: 93b8d3077e5c98ef5f8f364332fdff580b5a2b729703d39bcba8f7f31b6c3c02c12f3732
 Homepage: http://www.libreoffice.org
 Description: transitional package for Hicontrast symbol style
 Description-md5: c975e10f61063cef8dfc736499943c67
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-human
 Architecture: all
@@ -3465,7 +3477,6 @@ SHA512: 2a11e388e88857c3d56c4bf3593ae9a1f169f141fd4a466e42dcd5e078eea4e407cb6c9b
 Homepage: http://www.libreoffice.org
 Description: transitional package for Human symbol style
 Description-md5: ed94ab0fc9991b77a2b9fda0a3089abb
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-karasa-jaga
 Architecture: all
@@ -3490,7 +3501,6 @@ SHA512: 70758616ac07cea7a16dbd4431e7dd3bb5fdfdcb9a36b9554a2f87d0b3002e3b8dea0b06
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Karasa Jaga symbol style
 Description-md5: 62dc98488a5247cbad91f4e0ec562bcf
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-oxygen
 Architecture: all
@@ -3513,7 +3523,6 @@ SHA512: 8555562ef5a3ae769a3d779e7345abaff5b0732f84940b80a57f5c4b07439322f3168fdb
 Homepage: http://www.libreoffice.org
 Description: transitional package for Oxygen symbol style
 Description-md5: 0eea86d70908d194875d1d231cf95716
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-sifr
 Architecture: all
@@ -3541,7 +3550,6 @@ SHA512: d679094775c1c01033d46a517dbe1b0b4cac9dc27e311aa65e11928cf915485d5bd93c82
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sifr symbol style
 Description-md5: 0fd5516a8dab8f6841c284edea8786d7
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-sukapura
 Architecture: all
@@ -3566,7 +3574,6 @@ SHA512: 96253086bf64ce380e46f72544ea1cc40787872a76c2fdbdfa5f2c43d71dbc99eb991193
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sukapura symbol style
 Description-md5: b9dbd94d0660dbc8a05ba918cb3fb897
-Phased-Update-Percentage: 80
 
 Package: libreoffice-subsequentcheckbase
 Architecture: all
@@ -3589,7 +3596,6 @@ SHA512: 67573f52708577ca115f25407c4d233fa620950c7fde44ec359f05b425eaeba208d503a2
 Homepage: http://www.libreoffice.org
 Description: LibreOffice java test libraries
 Description-md5: cda482c5487d616e1ae7a228fce1d955
-Phased-Update-Percentage: 80
 
 Package: libreoffice-systray
 Architecture: all
@@ -3611,7 +3617,6 @@ SHA512: b62916b71425f1652ef848eec6be94ff85d4a23989f7a6cc9f00da6501d9f526f322936b
 Homepage: http://www.libreoffice.org
 Description: transitional package for removed LibreOffice "Quickstarter"
 Description-md5: 7af566a55c39207b389151276dad569a
-Phased-Update-Percentage: 80
 
 Package: libreoffice-wiki-publisher
 Architecture: all
@@ -3636,7 +3641,6 @@ SHA512: 119f329973d9cfe047076565b734dabc0d2255c2cef32bd5da2a809573204b371328be00
 Homepage: http://www.libreoffice.org
 Description: LibreOffice extension for working with MediaWiki articles
 Description-md5: a66aaa282ae4941588a4d314d1ebbf79
-Phased-Update-Percentage: 80
 
 Package: libreoffice-writer-nogui
 Architecture: amd64
@@ -3664,7 +3668,6 @@ SHA512: 026ff513c8ae73f8157df2a7fb755e6e81c6eeab1dab57c11d64b3cf828a045f53460837
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- word processor (no GUI variant)
 Description-md5: 963dc225bb14f9e5974345a7995f16a7
-Phased-Update-Percentage: 80
 
 Package: libridl-java
 Architecture: all
@@ -3687,7 +3690,6 @@ SHA512: 53c2f136387c530876a71960505de03334468043356237bf4b655be582e8b12b6a5009e5
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: libsignon-glib-dev
 Architecture: amd64
@@ -3826,7 +3828,6 @@ SHA512: 62db1fe9f5a1596d50c4fb64f49c0277ca6e60a789c21ef913664a19dca17b8933a4e009
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: libvirt-daemon-driver-lxc
 Architecture: amd64
@@ -6084,7 +6085,6 @@ SHA512: 80c7b949ce8e300fdbfeba416e8960e394ef3c60d225c09582c80e99209e8f7a4b93e67d
 Homepage: http://www.access2base.com/access2base.html
 Description: interface between Python and the LibreOffice Access2Base library
 Description-md5: 62049593c5d96b74959809148594af38
-Phased-Update-Percentage: 80
 
 Package: python3-caja
 Architecture: amd64
@@ -7163,7 +7163,7 @@ Description-md5: ece07db851f8a2e9731975ec11eedb8d
 
 Package: thunderbird-gnome-support-dbg
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/devel
 Source: thunderbird
@@ -7172,31 +7172,31 @@ Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
 Depends: thunderbird-gnome-support, thunderbird-dbg
-Filename: pool/universe/t/thunderbird/thunderbird-gnome-support-dbg_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
+Filename: pool/universe/t/thunderbird/thunderbird-gnome-support-dbg_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
 Size: 8318
-MD5sum: 6c0bb6e3e3aed898acacf20a25a3d92f
-SHA1: c813006dd5b111876d398e0006401b6d17d9f6a1
-SHA256: 12ffc8a203cef921c1cdc4433ca06434fa40df37513c69e836832ff9e320a2c3
-SHA512: ddc1685149287ccd9c21ed5c88fab4dec6ee0c2ac1f62d4467f44c2358fa2d3df69a704abf3ff1263226ddeec2c35653db7e5229aa4462e782670fbbd5c7c180
+MD5sum: 898167bb8a3aae9df25fd8ca017a9c55
+SHA1: aef783dc35e8b524c5dfc9008c6d687d5fcb37e7
+SHA256: 6482848ecf9015ee07a39fdc804ddd392e2340d22e1f448846f978a3846eaa04
+SHA512: db616194a2c416cf944c6d955241a9a5f60814ab2e468a574e26e9458ae82a8efb13aa9874e0a3d9a47e7f5ba37742ea2fb22e0d16233004fd005478e31f57c8
 Description: Email, RSS and newsgroup client - transitional package
 Description-md5: 8fa21aaf02af881ccc7c33f8559e6531
 
 Package: thunderbird-mozsymbols
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: extra
 Section: universe/debug
 Source: thunderbird
 Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 31172
-Filename: pool/universe/t/thunderbird/thunderbird-mozsymbols_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 31401990
-MD5sum: 7e93cb153b2b8085a8ef0e1c3a67abdf
-SHA1: 6db6d269cec7f5a3ee56611c2b10295e347b735d
-SHA256: e996616b32c3f991c5966e76a9a9b0422c9eec3b077d6f1175985ea9310f3d95
-SHA512: b9ecb903d070bfd3fb5b42528d2b8d11676cfe9539c3dc875583fe48144c916f41332a448e9d8dd69d6a47bbcf5c0cea6c2798435e68f9e4b6e0c53328a1cc93
+Installed-Size: 31189
+Filename: pool/universe/t/thunderbird/thunderbird-mozsymbols_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 31414894
+MD5sum: 8333becb5e8758014335bf80441a0891
+SHA1: 4b057547ec343914043a62b03a6f9ce5ee3c3fa4
+SHA256: 60066581ae5e1a11eb71c701cc64af5ed0a214f584ac44da8c04c0dbc98f723f
+SHA512: 4daabc3ac8a3c715bd387b9e34642eefe3174e18fd8ae405c11599bf21f82f9a355957ad63d6d87ad68d146f142ad4bddfd08cd32dc416c4d65e73ec2b651d3a
 Description: Email, RSS and newsgroup client - Breakpad symbols
 Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
 
@@ -7546,7 +7546,7 @@ Description-md5: 6be9dae6db2bfd4321ce1a5c689cbeb4
 
 Package: xul-ext-calendar-timezones
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: thunderbird
@@ -7554,18 +7554,18 @@ Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
-Filename: pool/universe/t/thunderbird/xul-ext-calendar-timezones_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 9456
-MD5sum: f54fd8948d37007aec20860ad54a1955
-SHA1: b9f3b64b641569be1e3039262beb113428364d69
-SHA256: cfd698c424ac35b615c4a08da4c80941babf6c77854c4c46b604560d12200bd1
-SHA512: 6675d2967cbb6c6cc59684709bfb7b884fa179713c4d06ad824efecbf47d2cbb785484f172c239964259f77143c8ebd81018b7bcba9d9d2079249156458923e3
+Filename: pool/universe/t/thunderbird/xul-ext-calendar-timezones_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 9254
+MD5sum: 07d933dc4a2a9f929af72b951fbbb4ca
+SHA1: 8a551d12017313bf36750db3739303d387482288
+SHA256: fbe7cb5b3e3ea2e5391b482b67786d104bbd0ef50bea61e79ec27cd003e352cb
+SHA512: 1d48373015e97ab4c48053a67c9208f9aec6275417e06964845c5c180a69646aafc86285f3b9d0ce52b63ff6885cf2754bc1551158c158399554e3672a8f27aa
 Description: Calendar Extension for Thunderbird (transitional package)
 Description-md5: aa51586667f70f4444de07214c475b6d
 
 Package: xul-ext-gdata-provider
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: thunderbird
@@ -7573,18 +7573,18 @@ Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
-Filename: pool/universe/t/thunderbird/xul-ext-gdata-provider_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 9450
-MD5sum: c499e7a990ae438826a05ee2e0689b72
-SHA1: 4fbb0a141035d30a64c742aebc15055f6d17c563
-SHA256: aad0c7ae2847e1e8c43ebeeb66e0bcb0ed84514f7e29f7b66af2c9052245a6e6
-SHA512: c6f10affd9a10afccf64fd018985849ee14dd24fdc80f66f5bdcb69bfe190376928fa48adfefaddc182e8e4ae53bea22564f012e75b4382071ae5c025ae5e040
+Filename: pool/universe/t/thunderbird/xul-ext-gdata-provider_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 9250
+MD5sum: 35627b6017c294cf261e3a6b84808505
+SHA1: 97ec5e05d01935f8c257e689653f06693bc7517d
+SHA256: c4b562fa770007a42a409fdb125579af741c8c6fef11bf10df8de28ce2d547e0
+SHA512: fcab813fc674efda6352b84340733afa95bcc6f443d52f1909a2499704d4f883f930202f14ae90accd30bfa84881cfabc6a37ab4636a5a291468a187ce71ca50
 Description: Calendar Extension for Thunderbird (transitional package)
 Description-md5: aa51586667f70f4444de07214c475b6d
 
 Package: xul-ext-lightning
 Architecture: amd64
-Version: 1:91.3.1+build1-0ubuntu0.21.10.2
+Version: 1:91.5.0+build1-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: thunderbird
@@ -7592,12 +7592,12 @@ Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 124
-Filename: pool/universe/t/thunderbird/xul-ext-lightning_91.3.1+build1-0ubuntu0.21.10.2_amd64.deb
-Size: 9444
-MD5sum: 22060cabfef6e14d1de939288678de78
-SHA1: 1a297250354ed2b6ea73ddec0a2c989aa46fd64f
-SHA256: 1f0169a6e219f00c9076190c53e82c1aed840e7fb4a2ab7717f766be22fac9c0
-SHA512: 56dc6b7ac27efc5a0d4a8f7f9a4d15403e1f1f43016a3e00ddccb707fc2a70e4d9ea8e0a4b1f5285c5b1671458a63fcfe67d573343f2cf550fc3c8d33fad1ae0
+Filename: pool/universe/t/thunderbird/xul-ext-lightning_91.5.0+build1-0ubuntu0.21.10.1_amd64.deb
+Size: 9228
+MD5sum: 4c28ba88bd07eb2590f4ff681d901a5e
+SHA1: 43b8188a0669a6feca62047fb56fcf3482ce6fd0
+SHA256: b83e2c110b16b589981cb350782e102e675bea3e2b76eab6facc7ea8c22b3c15
+SHA512: 3a121d517ba3c2187c5f0640e70a9912127dcea0dff646618c4be7891b4660a24cf8f91f760517210bc5c2755aee0b659459919bbc143f383d67e23453d2c214
 Description: Calendar Extension for Thunderbird (transitional package)
 Description-md5: aa51586667f70f4444de07214c475b6d
 

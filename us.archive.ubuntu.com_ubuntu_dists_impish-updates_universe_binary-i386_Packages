@@ -1,3 +1,28 @@
+Package: aide-xen
+Architecture: all
+Version: 0.17.3-4ubuntu0.1
+Built-Using: acl (= 2.2.53-10ubuntu2), attr (= 1:2.4.48-6build2), audit (= 1:3.0-2ubuntu2), e2fsprogs (= 1.46.3-1ubuntu3), glibc (= 2.34-0ubuntu3), libcap2 (= 1:2.44-1build1), libselinux (= 3.1-3build2), mhash (= 0.9.9.9-9build1), pcre3 (= 2:8.39-13build3), zlib (= 1:1.2.11.dfsg-2ubuntu7)
+Priority: optional
+Section: universe/admin
+Source: aide
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Aide Maintainers <aide@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 46
+Depends: aide
+Recommends: aide-common (= 0.17.3-4ubuntu0.1)
+Conflicts: aide-dynamic
+Filename: pool/universe/a/aide/aide-xen_0.17.3-4ubuntu0.1_all.deb
+Size: 4290
+MD5sum: 7520373e2ad3aa0541035df221d4263c
+SHA1: 27e9cb7759e2970ba8d65a541e4d3b329f0e9cc7
+SHA256: 8a6ca1c49a5a273b90fcca8e6544594461d55d0b7b9acad331849d19ddf025f3
+SHA512: 968158ee2c05735046a196b02b04f3fa61acbaa465cb3ad3f9e94d833fc9877c62cf6fa2429a667a3dce6abb18b5328ba7d920d93c1ddb4b7cf416272e2125b5
+Homepage: https://aide.github.io
+Description: Advanced Intrusion Detection Environment - transitional package
+Description-md5: 7d4d1ecbbb69f19ef336769d547d87fc
+
 Package: apache2-suexec-custom
 Architecture: i386
 Version: 2.4.48-3.1ubuntu3.2
@@ -884,7 +909,6 @@ SHA512: 03bad077bc1e596a8a3dd61691db84e454d5202da88ed3e108df72f3b4156e61666f4874
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: libjurt-java
 Architecture: all
@@ -907,7 +931,6 @@ SHA512: 31e28139bed76f39625886cfbc7aeb8bb24489e55b9a57014ef84a3c107f074ab01d03a2
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: liblightdm-gobject-1-doc
 Architecture: all
@@ -1618,7 +1641,6 @@ SHA512: 4051d399c2e38fe5c716cbb26271be4f0e0cafd68119a280a13fe5d640b1a951caf10e25
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice gtk2 backend
 Description-md5: 0b76cbf84e5ccbf23ddec807f4dcefbb
-Phased-Update-Percentage: 80
 
 Package: libreoffice-gtk2
 Architecture: all
@@ -1640,7 +1662,6 @@ SHA512: 26d9bca3bbc8ca25e2c5813a1657baefb615c7bbf46fa097717dbde1991a122ef4f563cf
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice gtk2 backend
 Description-md5: 16f95bd9c26683a4b4582a981ca1a3a2
-Phased-Update-Percentage: 80
 
 Package: libreoffice-kde
 Architecture: all
@@ -1663,7 +1684,6 @@ SHA512: dc96c34a2bb95526e12d8fe0a5cdd9e0f27f3e530e5a04f9f52858891ca39c1690c97b39
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice KDE integration
 Description-md5: 6cefe70d36c253e7351b5cddd7f0664e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-kde4
 Architecture: all
@@ -1685,7 +1705,6 @@ SHA512: f21044740e435c2e6f3ba378c7bc3e5a7a9cb122b452ce9e1f960925183a77c2da0607ee
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice KDE integration
 Description-md5: e4e138701097a40ac3baad803dbce01d
-Phased-Update-Percentage: 80
 
 Package: libreoffice-librelogo
 Architecture: all
@@ -1708,7 +1727,6 @@ SHA512: 898c2641112fcdb81d03b5874fc9accdf49225908304e7c32368351fe447d6c51f1c8069
 Homepage: http://librelogo.org
 Description: Logo-like programming language for LibreOffice
 Description-md5: cdaef056eb365a457e28772fa2fd9de6
-Phased-Update-Percentage: 80
 
 Package: libreoffice-report-builder
 Architecture: all
@@ -1735,7 +1753,6 @@ SHA512: fee16a757e8e4104feca7600dc0eef93a6f9c981481b2c4d71ac0fde2cc9af1b31488ad8
 Homepage: http://www.libreoffice.org
 Description: LibreOffice component for building database reports
 Description-md5: 8239ceaa4ebaf25c2b15325d48eb907c
-Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-bsh
 Architecture: all
@@ -1758,7 +1775,6 @@ SHA512: 7122a0c471b309507e9ffb3fdef80df0549b07b06dc4189fa73c02c2e1ada14531e2cc70
 Homepage: http://www.libreoffice.org
 Description: BeanShell script support provider for LibreOffice scripting framework
 Description-md5: 720bef09745ce9eb4902772fb5c437d8
-Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-js
 Architecture: all
@@ -1781,7 +1797,6 @@ SHA512: 7d2abe33b99a45ee4921a0c45d6271441495b6722e4ec4c1da2e028b017748f098711c94
 Homepage: http://www.libreoffice.org
 Description: JavaScript script support provider for LibreOffice scripting framework
 Description-md5: 41b18315e9be2aaa24a28415b907118e
-Phased-Update-Percentage: 80
 
 Package: libreoffice-script-provider-python
 Architecture: all
@@ -1804,7 +1819,6 @@ SHA512: 3b2c8adb29b8007aa5542486feb92321f4ecaa38b7180c668fca5e9c44f3c5b9f39eff36
 Homepage: http://www.libreoffice.org
 Description: Python script support provider for LibreOffice scripting framework
 Description-md5: 019117f2dc708fc6c1179714b81e2076
-Phased-Update-Percentage: 80
 
 Package: libreoffice-smoketest-data
 Architecture: all
@@ -1828,7 +1842,6 @@ SHA512: 4f80ab1c6e6f2fd25c026dded958f7865f16ce7da6f1b2d689f18d05ad7b124a50d6243a
 Homepage: http://www.libreoffice.org
 Description: data files for LibreOffices "smoketest"
 Description-md5: 7540f40cccbf63cb8381dca8979a0828
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-galaxy
 Architecture: all
@@ -1851,7 +1864,6 @@ SHA512: 68ddaa876f70af1f5455dd886c1109ae23cb982870413a231fd591fcef8ce58c42a33ce0
 Homepage: http://www.libreoffice.org
 Description: transitional package for Galaxy symbol style
 Description-md5: cbafee8b95c2851c166a1f1a2f92ac6c
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-hicontrast
 Architecture: all
@@ -1874,7 +1886,6 @@ SHA512: 93b8d3077e5c98ef5f8f364332fdff580b5a2b729703d39bcba8f7f31b6c3c02c12f3732
 Homepage: http://www.libreoffice.org
 Description: transitional package for Hicontrast symbol style
 Description-md5: c975e10f61063cef8dfc736499943c67
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-human
 Architecture: all
@@ -1896,7 +1907,6 @@ SHA512: 2a11e388e88857c3d56c4bf3593ae9a1f169f141fd4a466e42dcd5e078eea4e407cb6c9b
 Homepage: http://www.libreoffice.org
 Description: transitional package for Human symbol style
 Description-md5: ed94ab0fc9991b77a2b9fda0a3089abb
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-karasa-jaga
 Architecture: all
@@ -1921,7 +1931,6 @@ SHA512: 70758616ac07cea7a16dbd4431e7dd3bb5fdfdcb9a36b9554a2f87d0b3002e3b8dea0b06
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Karasa Jaga symbol style
 Description-md5: 62dc98488a5247cbad91f4e0ec562bcf
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-oxygen
 Architecture: all
@@ -1944,7 +1953,6 @@ SHA512: 8555562ef5a3ae769a3d779e7345abaff5b0732f84940b80a57f5c4b07439322f3168fdb
 Homepage: http://www.libreoffice.org
 Description: transitional package for Oxygen symbol style
 Description-md5: 0eea86d70908d194875d1d231cf95716
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-sifr
 Architecture: all
@@ -1972,7 +1980,6 @@ SHA512: d679094775c1c01033d46a517dbe1b0b4cac9dc27e311aa65e11928cf915485d5bd93c82
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sifr symbol style
 Description-md5: 0fd5516a8dab8f6841c284edea8786d7
-Phased-Update-Percentage: 80
 
 Package: libreoffice-style-sukapura
 Architecture: all
@@ -1997,7 +2004,6 @@ SHA512: 96253086bf64ce380e46f72544ea1cc40787872a76c2fdbdfa5f2c43d71dbc99eb991193
 Homepage: http://www.libreoffice.org
 Description: office productivity suite -- Sukapura symbol style
 Description-md5: b9dbd94d0660dbc8a05ba918cb3fb897
-Phased-Update-Percentage: 80
 
 Package: libreoffice-subsequentcheckbase
 Architecture: all
@@ -2020,7 +2026,6 @@ SHA512: 67573f52708577ca115f25407c4d233fa620950c7fde44ec359f05b425eaeba208d503a2
 Homepage: http://www.libreoffice.org
 Description: LibreOffice java test libraries
 Description-md5: cda482c5487d616e1ae7a228fce1d955
-Phased-Update-Percentage: 80
 
 Package: libreoffice-systray
 Architecture: all
@@ -2042,7 +2047,6 @@ SHA512: b62916b71425f1652ef848eec6be94ff85d4a23989f7a6cc9f00da6501d9f526f322936b
 Homepage: http://www.libreoffice.org
 Description: transitional package for removed LibreOffice "Quickstarter"
 Description-md5: 7af566a55c39207b389151276dad569a
-Phased-Update-Percentage: 80
 
 Package: libreoffice-wiki-publisher
 Architecture: all
@@ -2067,7 +2071,6 @@ SHA512: 119f329973d9cfe047076565b734dabc0d2255c2cef32bd5da2a809573204b371328be00
 Homepage: http://www.libreoffice.org
 Description: LibreOffice extension for working with MediaWiki articles
 Description-md5: a66aaa282ae4941588a4d314d1ebbf79
-Phased-Update-Percentage: 80
 
 Package: libridl-java
 Architecture: all
@@ -2090,7 +2093,6 @@ SHA512: 53c2f136387c530876a71960505de03334468043356237bf4b655be582e8b12b6a5009e5
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: libstd-rust-1.53
 Architecture: i386
@@ -2159,7 +2161,6 @@ SHA512: 62db1fe9f5a1596d50c4fb64f49c0277ca6e60a789c21ef913664a19dca17b8933a4e009
 Homepage: http://www.libreoffice.org
 Description: transitional package for LibreOffice UNO runtime environment
 Description-md5: 9e017c19c2cbf8cab7b83a1ee17e6890
-Phased-Update-Percentage: 80
 
 Package: libvirt-daemon-system-sysv
 Architecture: all
@@ -3486,7 +3487,6 @@ SHA512: 80c7b949ce8e300fdbfeba416e8960e394ef3c60d225c09582c80e99209e8f7a4b93e67d
 Homepage: http://www.access2base.com/access2base.html
 Description: interface between Python and the LibreOffice Access2Base library
 Description-md5: 62049593c5d96b74959809148594af38
-Phased-Update-Percentage: 80
 
 Package: python3-django-postorius
 Architecture: all

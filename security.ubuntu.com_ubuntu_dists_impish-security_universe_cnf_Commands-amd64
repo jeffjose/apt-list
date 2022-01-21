@@ -3,6 +3,10 @@ component: universe
 arch: amd64
 
 
+name: aide-dynamic
+version: 0.17.3-4ubuntu0.1
+commands: aide
+
 name: apport-valgrind
 version: 2.20.11-0ubuntu71
 commands: apport-valgrind

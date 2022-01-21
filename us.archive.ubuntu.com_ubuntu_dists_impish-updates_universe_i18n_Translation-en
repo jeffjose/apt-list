@@ -1,3 +1,36 @@
+Package: aide-dynamic
+Description-md5: 3c085f51d721d7dcb93bb05d2c714096
+Description-en: Advanced Intrusion Detection Environment - dynamic binary
+ AIDE is an intrusion detection system that detects changes to files on
+ the local system. It creates a database from the regular expression rules
+ that it finds from the config file. Once this database is initialized
+ it can be used to verify the integrity of the files. It has several
+ message digest algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are
+ used to check the integrity of the file. More algorithms can be added
+ with relative ease. All of the usual file attributes can also be checked
+ for inconsistencies.
+ .
+ This package contains a dynamically linked binary and should only be
+ used in exeptional circumstances. To avoid exposure to trojaned
+ libraries, it is advised to use one of the statically linked binaries.
+
+Package: aide-xen
+Description-md5: 7d4d1ecbbb69f19ef336769d547d87fc
+Description-en: Advanced Intrusion Detection Environment - transitional package
+ AIDE is an intrusion detection system that detects changes to files on
+ the local system. It creates a database from the regular expression rules
+ that it finds from the config file. Once this database is initialized
+ it can be used to verify the integrity of the files. It has several
+ message digest algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are
+ used to check the integrity of the file. More algorithms can be added
+ with relative ease. All of the usual file attributes can also be checked
+ for inconsistencies.
+ .
+ This is a transitional package to allow the seamless replacement of the
+ aide-xen package with the normal aide package. The reason for aide-xen
+ does not seem to exist any more. If you have difficulties with running aide
+ on XEN-enabled systems in Dom0 or DomU, please file a bug.
+
 Package: apache2-suexec-custom
 Description-md5: 116f52596e88b0c7717e1f4973ada661
 Description-en: Apache HTTP Server configurable suexec program for mod_suexec

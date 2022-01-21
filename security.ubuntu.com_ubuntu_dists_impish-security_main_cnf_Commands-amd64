@@ -3,6 +3,14 @@ component: main
 arch: amd64
 
 
+name: aide
+version: 0.17.3-4ubuntu0.1
+commands: aide
+
+name: aide-common
+version: 0.17.3-4ubuntu0.1
+commands: aideinit
+
 name: apache2
 version: 2.4.48-3.1ubuntu3.2
 commands: a2disconf,a2dismod,a2dissite,a2enconf,a2enmod,a2ensite,a2query,apache2ctl,apachectl
@@ -204,7 +212,7 @@ version: 248.3-1ubuntu8.2
 commands: halt,init,poweroff,reboot,runlevel,shutdown,telinit
 
 name: thunderbird
-version: 1:91.3.1+build1-0ubuntu0.21.10.2
+version: 1:91.5.0+build1-0ubuntu0.21.10.1
 commands: thunderbird
 
 name: tzdata
