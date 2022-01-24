@@ -2030,6 +2030,15 @@ Description-en: Provides the busybox DHCP server implementation
  server in the system by providing the appropriate symbolic links and
  scripts.
 
+Package: usbview
+Description-md5: e9058450899367676ea4b094042f2754
+Description-en: USB device viewer
+ USBView is a small GTK+ application to show what the device tree of
+ the USB bus looks like. It shows a graphical representation of the
+ devices that are currently plugged in, showing the topology of the
+ USB bus. It also displays information on each individual device on
+ the bus.
+
 Package: vim-athena
 Description-md5: 5e32df39fe43df51571314f93f38a67b
 Description-en: Vi IMproved - enhanced vi editor - with Athena GUI

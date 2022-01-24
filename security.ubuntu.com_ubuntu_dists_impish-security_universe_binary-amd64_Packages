@@ -4300,6 +4300,28 @@ Homepage: http://www.busybox.net
 Description: Provides the busybox DHCP server implementation
 Description-md5: c737b2b2b9534ba766d99f6de6c31668
 
+Package: usbview
+Architecture: amd64
+Version: 2.0-21-g6fe2f4f-2ubuntu0.21.10.3
+Priority: optional
+Section: universe/x11
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mark Brown <broonie@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1197
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.0.0)
+Suggests: usbutils
+Filename: pool/universe/u/usbview/usbview_2.0-21-g6fe2f4f-2ubuntu0.21.10.3_amd64.deb
+Size: 341418
+MD5sum: 103a7fb761e8f4aceb3c59e4ae154d91
+SHA1: 444d2453b4763823874386482fb206aa2c57418d
+SHA256: d3926b571f5514306093cb72d0927e6e3c503546e79e1360682ab794deb16427
+SHA512: dfd982edaaf2b2706ebed3d3cdb7a6b96dade92d161fba589021c1be5ca9bf37daf72b0a566dc2db4b42be9461408ec36656046289646325d4a1fad051286b82
+Homepage: http://www.kroah.com/linux-usb/
+Description: USB device viewer
+Description-md5: e9058450899367676ea4b094042f2754
+
 Package: vim-athena
 Architecture: amd64
 Version: 2:8.2.2434-3ubuntu3.2

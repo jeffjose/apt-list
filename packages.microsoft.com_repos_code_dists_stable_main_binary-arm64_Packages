@@ -1414,6 +1414,54 @@ Homepage: https://code.visualstudio.com/
 Package: code-insiders
 Priority: optional
 Section: devel
+Installed-Size: 297318
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: arm64
+Version: 1.64.0-1642771491
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Filename: pool/main/c/code-insiders/code-insiders_1.64.0-1642771491_arm64.deb
+Size: 72781364
+MD5sum: b86823f564e3f3961fd1941e9f7a74c5
+SHA1: f8192b2e1209af405207ef18853ed2503b1f739c
+SHA256: 6f9c6a3b31d1abb04f2d3579686e0c057efa6badc98d91b5ac137ae9e5909a4e
+SHA512: c75c8886962f8050781bb2de9a0465d9921aa527a86835bd728217b35e299c4e367694d1292e0c9edd8c39c23a86e4220c22d57163bb9b8264781930a9dc9887
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-insiders
+Priority: optional
+Section: devel
+Installed-Size: 297311
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: arm64
+Version: 1.64.0-1642742714
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Filename: pool/main/c/code-insiders/code-insiders_1.64.0-1642742714_arm64.deb
+Size: 72757788
+MD5sum: 00162d9448ded8c40a5faffd8d86c6d3
+SHA1: 5e6f61047a6f623d330468b325daefbb2e977ba7
+SHA256: a4c203ed60ea7e8feeca623cbb2c60641bfcd5c0d1360d12f97d88a61e950dd0
+SHA512: a2547b560dcb9f8c6de2bacd140321af20841e3a51e75ddbbf73d57fafea636be93058c41b0f047d15119c84efc201e5a1f4251ed1241c021578a85f4455c25f
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-insiders
+Priority: optional
+Section: devel
 Installed-Size: 297196
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Architecture: arm64

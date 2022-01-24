@@ -37,21 +37,21 @@ Description: The web browser from Google
  Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
 
 Package: google-chrome-unstable
-Version: 99.0.4818.0-1
+Version: 99.0.4840.0-1
 Architecture: amd64
 Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
-Installed-Size: 258589
+Installed-Size: 258753
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Recommends: libu2f-udev, libvulkan1
 Provides: www-browser
 Priority: optional
 Section: web
-Filename: pool/main/g/google-chrome-unstable/google-chrome-unstable_99.0.4818.0-1_amd64.deb
-Size: 82237948
-SHA256: a63655f86e99ec2cccaba514a765e403d2b1f167cca7fba1b1235645d2aed8c9
-SHA1: 856719eb6e0728c23ee81566eacdc947ac5e8fdf
-MD5sum: 0041d31eae01ea1c7f9b40e4d48de5f1
+Filename: pool/main/g/google-chrome-unstable/google-chrome-unstable_99.0.4840.0-1_amd64.deb
+Size: 82352700
+SHA256: 4be6bd57b68f03b50ecfc2d4d5c38c50e663e2a359e9a100572a8d581b94b890
+SHA1: 85db448f37f5808fdc7ec4ffe75fb5437a5b9afb
+MD5sum: 2750fc6a443c19998f94ca6b0f381729
 Description: The web browser from Google
  Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
 
