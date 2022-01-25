@@ -36,11 +36,11 @@ version: 0.54.0-0ubuntu1~21.10.1
 commands: cargo
 
 name: charon-cmd
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: charon-cmd
 
 name: charon-systemd
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: charon-systemd
 
 name: clamav-milter
@@ -62,6 +62,10 @@ commands: docker,docker-init,docker-proxy,dockerd
 name: emacs-mozc-bin
 version: 2.26.4220.100+dfsg-4.1ubuntu0.1
 commands: mozc_emacs_helper
+
+name: evolution
+version: 3.40.4-1ubuntu2
+commands: evolution
 
 name: exiv2
 version: 0.27.3-3ubuntu4.1
@@ -112,7 +116,7 @@ version: 2:2.2.3-0ubuntu0.21.10.2
 commands: ldbadd,ldbdel,ldbedit,ldbmodify,ldbrename,ldbsearch
 
 name: libcharon-extra-plugins
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: pt-tls-client
 
 name: libflatpak-dev
@@ -148,7 +152,7 @@ version: 1:7.2.5-0ubuntu0.21.10.1
 commands: lobase
 
 name: libstrongswan-extra-plugins
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: tpm_extendpcr
 
 name: libvirt-login-shell
@@ -344,11 +348,11 @@ version: 0.13.04-1ubuntu1
 commands: stress-ng
 
 name: strongswan-pki
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: pki
 
 name: strongswan-swanctl
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: swanctl
 
 name: studio-controls

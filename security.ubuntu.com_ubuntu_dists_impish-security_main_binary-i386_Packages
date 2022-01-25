@@ -4673,21 +4673,21 @@ Description-md5: 476018eed30b7f1e76b02afe22aaf008
 
 Package: strongswan
 Architecture: all
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 181
+Installed-Size: 182
 Depends: strongswan-charon, strongswan-starter
-Filename: pool/main/s/strongswan/strongswan_5.9.1-1ubuntu3.1_all.deb
+Filename: pool/main/s/strongswan/strongswan_5.9.1-1ubuntu3.2_all.deb
 Size: 18702
-MD5sum: 4de04e78db7a06fe767b86fa969857d6
-SHA1: 21bea3df3dd8123cb263bcf159b3f68909419f0d
-SHA256: 2a5c6a7889464dc7644f663dc5ac41d66068c11d477f5298d635cee85d8db2de
-SHA512: f64f77b12f3c341cbcb61402285e0a8275c2b2638c815d23c2064db35fa838a44ee4d97bb7fcaaf7cb823490ce65b4e48416f2eb1fa8be5493036e4d39e1ae54
+MD5sum: 10d43d58e4f6f1ccc33602cff5c6f667
+SHA1: 21da02367c64cf234f9fecc64fa67993beb0c1b2
+SHA256: 62c3381f8338c56640c977716714d1f048e8798b4f5133396b98b8529dc1f8ed
+SHA512: c43b3299dfabcd21ddd8cd1568a033e0d8446591daa309fb2ddeb154f80d1ea26dbfacc45772afa933e79d4cccfd6a7cb6f22aab4fcc49180e71dd6107cc7daa
 Homepage: http://www.strongswan.org
 Description: IPsec VPN solution metapackage
 Description-md5: 60d8ad9f14179591b0cca394e94e3d4b

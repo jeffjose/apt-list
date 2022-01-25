@@ -395,7 +395,7 @@ Description-md5: f27438963e0fd905872c0e1656b9d40c
 
 Package: charon-cmd
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -403,21 +403,21 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 213
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34), strongswan-libcharon (>= 5.9.1)
-Filename: pool/universe/s/strongswan/charon-cmd_5.9.1-1ubuntu3.1_amd64.deb
-Size: 23178
-MD5sum: c5129f6595bd642bfd014abf362f1937
-SHA1: 8fcf8f759b8e715e589438264375a85be66df8ba
-SHA256: a26d5140f784659f62a6b88728bab60517730552d39e35a411d926ae2601c4df
-SHA512: 6cc7290eb7a24d9c72976882ace66b12a1d4dd364701601529450c1784ae29e88b4d092f6e738600c7a21f05841675c7eb5bd004a9f0f8a5c4559663ff82b937
+Installed-Size: 214
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34), strongswan-libcharon (>= 5.9.1)
+Filename: pool/universe/s/strongswan/charon-cmd_5.9.1-1ubuntu3.2_amd64.deb
+Size: 23188
+MD5sum: 14bfe71d50625719f891af9f576bb099
+SHA1: a63558f52813491356fa33bbcdb50eb1d411e795
+SHA256: add6fa64b222847b9700493b729c1c7caa365d7e5e1e53162d7105db321bb077
+SHA512: cadb1aaa5b5394fee6b94c86fe87528a4212fae2b850416b4bc82f60423e22a4d043c857890f66d0e81ad43a23f13b7a86a810d905862dd3a724c720a9fc4f17
 Homepage: http://www.strongswan.org
 Description: standalone IPsec client
 Description-md5: 80fd42eb6fb38dab592c2f0b87243623
 
 Package: charon-systemd
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -425,14 +425,14 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 223
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), strongswan-swanctl, libc6 (>= 2.34), libsystemd0, strongswan-libcharon (>= 5.9.1)
-Filename: pool/universe/s/strongswan/charon-systemd_5.9.1-1ubuntu3.1_amd64.deb
-Size: 19226
-MD5sum: f25270b956dcacb25d97bd5c24537e66
-SHA1: 2a4dd813088b4a824185aecef17655c15e9bfaa1
-SHA256: 8a3147ab7024bee148336f1823df51216c2b2800edf84ac1a39453a410913c00
-SHA512: 6879674f3e1c63de2e92afbc112f87e31cea8c85616677bfd736417c83aa2bad7ec3e5d8d863889c2cb4842931132b3e67ed58f4030a1588d2701b320959796e
+Installed-Size: 224
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), strongswan-swanctl, libc6 (>= 2.34), libsystemd0, strongswan-libcharon (>= 5.9.1)
+Filename: pool/universe/s/strongswan/charon-systemd_5.9.1-1ubuntu3.2_amd64.deb
+Size: 19216
+MD5sum: 3eb3d32e6b8512fb369e75e4e8cbbf26
+SHA1: 1f6ba99b0e99176a30d01b4c4ed04d4aca6a309a
+SHA256: fb5cb6abba57b2b1484745016c2da87d375a66f2f15564359f225ef6dc6ef908
+SHA512: 1b1a66bcf73daea6e1bd27a728d06ad1207bd5fe60d460c06095c87b656415822d57344ab0430dd1595a3af06c29c8443ce990a7cc3ecb635e6382741da13095
 Homepage: http://www.strongswan.org
 Description: strongSwan IPsec client, systemd support
 Description-md5: aa65f07fc27272b7f25aed8a94e96770
@@ -644,6 +644,230 @@ SHA512: 8174b9be10339d51c01a4d0668eb6c0b7c3f77f10e1b297e7e4707634cd2878435d30761
 Homepage: https://github.com/google/mozc.git
 Description: Helper module for emacs-mozc
 Description-md5: d0382006f98c09382d8522d3a438b943
+
+Package: evolution
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 455
+Provides: imap-client, mail-reader
+Depends: libc6 (>= 2.34), libcamel-1.2-62 (>= 3.40.4), libclutter-gtk-1.0-0 (>= 0.91.8), libecal-2.0-1 (>= 3.40.4), libedataserver-1.2-26 (>= 3.40.4), libevolution (>= 3.40.4), libevolution (<< 3.41), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), libical3 (>= 3.0.0), libnotify4 (>= 0.7.0), libsoup2.4-1 (>= 2.42), libxml2 (>= 2.7.4), evolution-common (= 3.40.4-1ubuntu2), evolution-data-server (>= 3.40.4), evolution-data-server (<< 3.41), dbus, psmisc
+Recommends: evolution-plugins, evolution-plugin-bogofilter | evolution-plugin-spamassassin, evolution-plugin-pstimport, yelp
+Suggests: evolution-ews, evolution-plugins-experimental, gnupg, network-manager
+Breaks: evolution-common (<< 3.20.4-1~)
+Replaces: evolution-common (<< 3.20.4-1~)
+Filename: pool/universe/e/evolution/evolution_3.40.4-1ubuntu2_amd64.deb
+Size: 291818
+MD5sum: 3740edc0670674956dd3400f655d8679
+SHA1: dfdd906a97ec80ef2652b002070a623bdb135c33
+SHA256: 3794c4fdbd45ee47fe586e2c7ba58fb71dccee5136e0eadfa46b4affb865bd1d
+SHA512: 73f575bf59a5e6fb567080db77e2762bb4ead436f3ce57831d127a10f050ff2a94b58aa05ce6b2f3ae23dd282d3ee1c58d5ddd12393ee1b522a9c7164bd6c98e
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: groupware suite with mail client and organizer
+Task: ubuntu-mate-desktop
+Description-md5: 714300f71a889c8a0e5d1c77a799651c
+Phased-Update-Percentage: 30
+
+Package: evolution-common
+Architecture: all
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19448
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: evolution
+Filename: pool/universe/e/evolution/evolution-common_3.40.4-1ubuntu2_all.deb
+Size: 759574
+MD5sum: 13dcceaee6055f23ffe25c45dd455ad6
+SHA1: 588aa86af32cebfc24c1639b170e84004c7c8d32
+SHA256: 7279a59ac2ade35ca5c2742689dad2428df8e32eae402c35a57457115da985bb
+SHA512: 179cf77bbfce0c8b6d672769d314f2fb65f737f98b346625d4dc2a1a56f24a9163ad938f3f5c9756cfc0c99cb7ee0ca55a6c0c3e081a7816b87664a3350de010
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: architecture independent files for Evolution
+Task: ubuntu-mate-desktop
+Description-md5: 63a9c80d6efb5e50b74aae7ebcc8bf5c
+Phased-Update-Percentage: 30
+
+Package: evolution-data-server-tests
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Priority: optional
+Section: universe/gnome
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3326
+Depends: libc6 (>= 2.34), libebackend-1.2-10 (= 3.40.4-1ubuntu1), libebook-1.2-20 (>= 3.17), libebook-contacts-1.2-3 (>= 3.16.2), libecal-2.0-1 (>= 3.39.3), libedata-book-1.2-26 (>= 3.33.4), libedata-cal-2.0-1 (>= 3.34.0), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libglib2.0-0 (>= 2.40), libical3 (>= 3.0.7), evolution-common, evolution-data-server
+Filename: pool/universe/e/evolution-data-server/evolution-data-server-tests_3.40.4-1ubuntu1_amd64.deb
+Size: 439656
+MD5sum: 714fe430792b213be94ab6c7e1025cf9
+SHA1: 19e103eb0c502f5e5cd767b09fc1a45f2ecdeaf0
+SHA256: 2817188da29d6b344101f1bc51350ba94e3d321e0c0957fd4fa5f8bfdf767781
+SHA512: 1adda31671e80e9f16271adc71de593585d9d16c23f941e1233bfd21906000f39c9ba83be81df7376b098e5714b165ed6d37d4bdd8827c6c30c28b451860be44
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Installed tests for the evolution database backend server
+Description-md5: f089152abdefc1f27359965309935277
+Phased-Update-Percentage: 30
+
+Package: evolution-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/devel
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9513
+Depends: libevolution (= 3.40.4-1ubuntu2), libenchant-2-dev (>= 2.2.0), libcamel1.2-dev, libebackend1.2-dev, libgtk-3-dev (>= 3.10), libgnome-desktop-3-dev, libwebkit2gtk-4.0-dev (>= 2.13.90), libedataserver1.2-dev, libedataserverui1.2-dev
+Filename: pool/universe/e/evolution/evolution-dev_3.40.4-1ubuntu2_amd64.deb
+Size: 569992
+MD5sum: 9c5d0c4f031705695b4f7ffb031772d9
+SHA1: 3e76fa7d5b856e90457c9078590de2ee306bc938
+SHA256: 0c7606148362774a5efb3a8466443f00f81f0dfec6908f11d6878b63e79e745d
+SHA512: 0f6c1969285a4d000061f3f0b71ad6127e8f44f0ea5afcf664ddb177784a13721d7fc4c1374836451f0949944034994a7414687b7a9d2c7b169a028f59110ea6
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: development library files for Evolution
+Description-md5: e8841388a6199690879d253b06445273
+Phased-Update-Percentage: 30
+
+Package: evolution-plugin-bogofilter
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 82
+Depends: libc6 (>= 2.4), libcamel-1.2-62 (>= 3.40.4), libedataserver-1.2-26 (>= 3.40.4), libevolution (>= 3.40.4), libevolution (<< 3.41), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), evolution (= 3.40.4-1ubuntu2), bogofilter
+Breaks: evolution-common (<< 3.25.91), libevolution (<< 3.25.91)
+Replaces: evolution-common (<< 3.25.91), libevolution (<< 3.25.91)
+Filename: pool/universe/e/evolution/evolution-plugin-bogofilter_3.40.4-1ubuntu2_amd64.deb
+Size: 13754
+MD5sum: 38b1977f3191fcfd685de9f2c3eb604f
+SHA1: f30c43d1674b8541a3137ee0ed1d6d3bea1f4509
+SHA256: b3ba956a75d0eaa464f102bc846422e94aae594d330fc6c253fbbf839325713e
+SHA512: a5269c221b526660c03151bff08bcb8ab65a740fb203c9201ffef5848b0df62c06aa6250c6380cd6d46a6c69fcf13f21822d7ff48565a1c33b5bc9a59d33e3c6
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: standard plugins for Evolution (bogofilter)
+Task: ubuntu-mate-desktop
+Description-md5: ea7228ccd6349df7257c61f0ee7152e5
+Phased-Update-Percentage: 30
+
+Package: evolution-plugin-pstimport
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 128
+Depends: libc6 (>= 2.33), libcamel-1.2-62 (>= 3.40.4), libebook-1.2-20 (>= 3.40.4), libebook-contacts-1.2-3 (>= 3.16.2), libecal-2.0-1 (>= 3.40.4), libedataserver-1.2-26 (>= 3.40.4), libevolution (>= 3.40.4), libevolution (<< 3.41), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), libical3 (>= 3.0.0), libpst4 (>= 0.6.54), evolution (= 3.40.4-1ubuntu2)
+Breaks: evolution-common (<< 3.25.91), evolution-plugins (<< 3.25.91)
+Replaces: evolution-common (<< 3.25.91), libevolution (<< 3.25.91)
+Filename: pool/universe/e/evolution/evolution-plugin-pstimport_3.40.4-1ubuntu2_amd64.deb
+Size: 27354
+MD5sum: 4db74836e6417f2c0c550b98881aa42b
+SHA1: cbbe97d624d34c4f4b5db5a1ad96f25ca8ffe896
+SHA256: 3e7344fcc7a402be59ff418622ca21ad8a0147f6b1fb9521d387753d0d7ca5c9
+SHA512: 7294f04c7b9c82a6d6d851fbb67f8e2cfc60c0cdd971768569c4624b232cf53587d3e53114ca3daa1511c2fb0e04fb9359462f92d767b61756eeb435d26daabc
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: standard plugins for Evolution (pstimport)
+Task: ubuntu-mate-desktop
+Description-md5: 235e34cceea2b696a02434f108471df1
+Phased-Update-Percentage: 30
+
+Package: evolution-plugin-spamassassin
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 86
+Depends: libc6 (>= 2.4), libcamel-1.2-62 (>= 3.40.4), libedataserver-1.2-26 (>= 3.40.4), libevolution (>= 3.40.4), libevolution (<< 3.41), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), evolution (= 3.40.4-1ubuntu2), spamassassin
+Breaks: evolution-common (<< 3.25.91), libevolution (<< 3.25.91)
+Replaces: evolution-common (<< 3.25.91), libevolution (<< 3.25.91)
+Filename: pool/universe/e/evolution/evolution-plugin-spamassassin_3.40.4-1ubuntu2_amd64.deb
+Size: 14270
+MD5sum: 885ee2e276d0ab626f3d532375cdab7c
+SHA1: 4d046592b10e75e1f885d68058b6b7652c79acb6
+SHA256: 2f7ae27891ac379074636efa4c554852516a8c5a7b4782760d863d63e37044e0
+SHA512: 310c9c29e7c226579e084f087cd00d15ba9c081a7e1f7e80ce66485fb718d183d932b17aa67cc2f0fe01b1d6249b1e8e69af409adbceb9c0e9a7bc4a40d0e07f
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: standard plugins for Evolution (spamassassin)
+Description-md5: 2f0f85442a14a2c0f09e25029136c49d
+Phased-Update-Percentage: 30
+
+Package: evolution-plugins
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 498
+Depends: libc6 (>= 2.33), libcamel-1.2-62 (>= 3.40.4), libcanberra0 (>= 0.2), libebook-1.2-20 (>= 3.40.4), libebook-contacts-1.2-3 (>= 3.16.2), libecal-2.0-1 (>= 3.40.4), libedataserver-1.2-26 (>= 3.40.4), libevolution (>= 3.40.4), libevolution (<< 3.41), libgdk-pixbuf-2.0-0 (>= 2.24.0), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.19.12), libical3 (>= 3.0.0), libnotify4 (>= 0.7.0), libunity9 (>= 3.4.6), libwebkit2gtk-4.0-37 (>= 2.28), libxml2 (>= 2.7.4), evolution (= 3.40.4-1ubuntu2)
+Recommends: notification-daemon
+Filename: pool/universe/e/evolution/evolution-plugins_3.40.4-1ubuntu2_amd64.deb
+Size: 89534
+MD5sum: 2e222ed50a090e441b86fe51c4b57695
+SHA1: 357311fbe565949af4b1a5b8a8489b4e8bcbf95c
+SHA256: 7f6a1be49464ab90972cbbe9beae141eb4e2aa6ab56f1e54615babad727ec1f6
+SHA512: d853c57769d203e6488069e0aed554365daf3f7caa688e16395e6bb82e5dc3aa4cc16aa06d2dba618a3c0e2af353541c6e28398116badca8dc77f6180895a89d
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: standard plugins for Evolution
+Task: ubuntu-mate-desktop
+Description-md5: fb67f1a5710947230f19a78f407e2ee7
+Phased-Update-Percentage: 30
+
+Package: evolution-plugins-experimental
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76
+Depends: libc6 (>= 2.4), libcamel-1.2-62 (>= 3.40.4), libevolution (>= 3.40.4), libevolution (<< 3.41), libglib2.0-0 (>= 2.56), libgtk-3-0 (>= 3.0.0), evolution (= 3.40.4-1ubuntu2)
+Filename: pool/universe/e/evolution/evolution-plugins-experimental_3.40.4-1ubuntu2_amd64.deb
+Size: 11952
+MD5sum: 132d87f27697ee9c854729a42a02331c
+SHA1: c4e5350b59bd7315b0f9f8a7dee95259d6664c35
+SHA256: 3a37446e6ee711ece3ac74974c0addf276cb3a272c58523515656e8e6f9067f4
+SHA512: 9e3f28bf7adc66a8b6cc6c63fe9f1bbb3ecf4b237eaac4b5c733f49feea2550ca805e55a5e47f656cdbdd6764c64f47c8d2de3c6ac95fa9d414d10cb491dab07
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: experimental plugins for Evolution
+Description-md5: d7002a313af115cfa4e69a3a6c08f948
+Phased-Update-Percentage: 30
 
 Package: exiv2
 Architecture: amd64
@@ -1332,7 +1556,7 @@ Description-md5: eed68b574deb445f792f234e83757969
 
 Package: libcharon-extra-plugins
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -1340,17 +1564,41 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 1064
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34), libpam0g (>= 0.99.7.1)
-Filename: pool/universe/s/strongswan/libcharon-extra-plugins_5.9.1-1ubuntu3.1_amd64.deb
-Size: 206578
-MD5sum: 95fba25b9a64706257dc1fedaceb5790
-SHA1: 49026944045afd89fca7c9e303a863b46cd2975d
-SHA256: 67b6ddbc52f975b87f0940adcf87035dcac3e20ffd27994d54eb3fd9bdc53a5b
-SHA512: ab1ebfbc3d04f8e0116ce218229b7d4da41dbb8d70045f625943ca94aef15b39b80d4916b30d51b25e3e1d57078894058db24331e39598e24f03dee96586e5f9
+Installed-Size: 1065
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34), libpam0g (>= 0.99.7.1)
+Filename: pool/universe/s/strongswan/libcharon-extra-plugins_5.9.1-1ubuntu3.2_amd64.deb
+Size: 206618
+MD5sum: cd1e76998d0dcd974f0950179578360d
+SHA1: dd9f5649071cbffa0c9c25780633b093a5d4b2e0
+SHA256: 4adc0ed203d107b852632ffaa65e10fe19a7eb02a0b02bfb70182a4df110541b
+SHA512: a7ebbc47d650c2a14b9c419051b1ad19af2639c3647a528cfd941237ff3962cfc63b1821e983c56424a324b35f7c52256b352ddb1fa573a0b418ec5b6d3ba96a
 Homepage: http://www.strongswan.org
 Description: strongSwan charon library (extra plugins)
 Description-md5: bccb4bd4f58c0758c840939e56665a2b
+
+Package: libevolution
+Architecture: amd64
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9606
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcamel-1.2-62 (>= 3.40.4), libcanberra0 (>= 0.2), libchamplain-0.12-0 (>= 0.11.0), libchamplain-gtk-0.12-0 (>= 0.11.0), libclutter-1.0-0 (>= 1.10.0), libebook-1.2-20 (>= 3.40.4), libebook-contacts-1.2-3 (>= 3.16.2), libecal-2.0-1 (>= 3.40.4), libedataserver-1.2-26 (>= 3.40.4), libedataserverui-1.2-3 (>= 3.40.4), libenchant-2-2 (>= 2.2.3), libgail-3-0 (>= 3.0.2), libgcr-base-3-1 (>= 3.8.0), libgcr-ui-3-1 (>= 3.8.0), libgdk-pixbuf-2.0-0 (>= 2.24.0), libgeocode-glib0 (>= 3.10), libglib2.0-0 (>= 2.56), libgnome-autoar-0-0 (>= 0.1.1), libgnome-autoar-gtk-0-0 (>= 0.1.1), libgnome-desktop-3-19 (>= 3.17.92), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.22.6), libgweather-3-16 (>= 40.0), libical3 (>= 3.0.0), libjavascriptcoregtk-4.0-18, libldap-2.5-0 (>= 2.5.4), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libpango-1.0-0 (>= 1.37.2), libpangocairo-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.42), libsqlite3-0 (>= 3.5.9), libwebkit2gtk-4.0-37 (>= 2.28), libxml2 (>= 2.7.4), libytnef0 (>= 0.0.0), evolution-common (= 3.40.4-1ubuntu2)
+Filename: pool/universe/e/evolution/libevolution_3.40.4-1ubuntu2_amd64.deb
+Size: 2748276
+MD5sum: a4087ae2cc2417cf875680ac1e84036d
+SHA1: d7a0927a34b30131f16b4f4691055fc81fe1e65a
+SHA256: 55d8917d20de7d773f2aee5766880f35cff9cb4aee8073167c8f83deb51b3fae
+SHA512: 9295abddad10a135d7e78b3f8d7d11087b44cdf7fa18566f30feffe0462a5a1bcefcfa82f482348d817ff075887cc72e0a86b7d443b57e212f2a3f45287f96bc
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: evolution libraries
+Task: ubuntu-mate-desktop
+Description-md5: dddb88bf2627f20726827c1d29351350
+Phased-Update-Percentage: 30
 
 Package: libflatpak-dev
 Architecture: amd64
@@ -3785,7 +4033,7 @@ Description-md5: d179f786c5d3afccd5d86929b4043021
 
 Package: libstrongswan-extra-plugins
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -3793,16 +4041,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 822
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libldap-2.5-0 (>= 2.5.4), libtss2-sys1 (>= 3.0.1)
+Installed-Size: 823
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libldap-2.5-0 (>= 2.5.4), libtss2-sys1 (>= 3.0.1)
 Breaks: libcharon-extra-plugins (<= 5.5.3-1)
 Replaces: libcharon-extra-plugins (<= 5.5.3-1)
-Filename: pool/universe/s/strongswan/libstrongswan-extra-plugins_5.9.1-1ubuntu3.1_amd64.deb
-Size: 219946
-MD5sum: dbaecf8c9d14e8f280a4b0712e663342
-SHA1: f987e62d7c1d6f75be41d7e91ca4b752d3b3087b
-SHA256: 1661ae567ff5f36300ecd0f519797136e58b257d9fa7e6c31c01254766166087
-SHA512: 52df5ae653e40240c1bac0e8e83e5cf79d637b72c6e7f681add13b20ab5e6dc0852b3ca8bc55956dc84e680ea102141a8ee7e111357556aae0edee761c2c8501
+Filename: pool/universe/s/strongswan/libstrongswan-extra-plugins_5.9.1-1ubuntu3.2_amd64.deb
+Size: 219958
+MD5sum: cdaed74aaafff98b5d55f2a629c4f4a3
+SHA1: dd04e6bd7c96cc7f457c6f96c5b49c67deb2bb47
+SHA256: 39e029470f4f63474d064854dc07a1c9e0fee8a4bdf94631ba611e3a4c8dc834
+SHA512: c67b11d674d8ad8eb65f2b76949e8376ede6ae0392cc40c7f227570ecf6057a6e8f6bd972547bb2143e6f0729f6ef7020167b7449162d3387a8b6b9a3f4717f0
 Homepage: http://www.strongswan.org
 Description: strongSwan utility and crypto library (extra plugins)
 Description-md5: aadcee3bdfdcf3b5bfb74ef3a8d7c233
@@ -6972,7 +7220,7 @@ Description-md5: e4b37767e71cce0d013c8e30c3be093b
 
 Package: strongswan-nm
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -6980,23 +7228,23 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 222
+Installed-Size: 223
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3), libnm0 (>= 1.1.90), libstrongswan (>= 5.9.1), strongswan-libcharon (>= 5.9.1)
 Recommends: network-manager-strongswan
 Replaces: network-manager-strongswan (<= 1.4.1-1~)
-Filename: pool/universe/s/strongswan/strongswan-nm_5.9.1-1ubuntu3.1_amd64.deb
-Size: 26494
-MD5sum: 3c0b6f471e264a8aa6cb0d346b7957df
-SHA1: 0c249473fa9efc9bafd2f0d47135baa641a603c6
-SHA256: 60d925418e89adce04ad74ca63b350ecc8ccff632e9e3d235b6dd629fb6385c5
-SHA512: adf499bd6e341e329b0f05a9d5e4652ddca69b92e5a7baf92978caa301fdc0513624b5dc76f375c10985b44d5591a086532fb9882f52c85f12d8ade5654e9d84
+Filename: pool/universe/s/strongswan/strongswan-nm_5.9.1-1ubuntu3.2_amd64.deb
+Size: 26496
+MD5sum: 7f60bc08f86e7dd173783b7fc0386394
+SHA1: f333307a8a72894bb15efa43d9c1ad3f8b5ad717
+SHA256: d70a4f39d570f794946eab27a79ef914b719ccfc40e3d51594db336be7cc3403
+SHA512: 6dd8a760052a91f622fc4ccb70306c1be163705c59f223c881d52813aeb3651147480bfdd31d726092d4c54b76aa66920e3a73c6457e20388b168d06f655a436
 Homepage: http://www.strongswan.org
 Description: strongSwan plugin to interact with NetworkManager
 Description-md5: fe4e82468fec86f66c41601086865ec7
 
 Package: strongswan-pki
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -7004,21 +7252,21 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 290
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34)
-Filename: pool/universe/s/strongswan/strongswan-pki_5.9.1-1ubuntu3.1_amd64.deb
-Size: 57870
-MD5sum: 0ad1b54a85f856c6d62527119533de32
-SHA1: dd742c22e05b38634e6727322e068011011e236b
-SHA256: 9930d1202f71a8aa173bbe475b98da4523f953f1e7ae7d34e5c611ec2959cc2e
-SHA512: 766d1328a90b6c0228a090a9f0fd8d3d2ab8c0cde2b92018d39073949f47e415bca2e8c62e426e063a35049e757089dd59aa21f767f213b322c77196e09f711e
+Installed-Size: 291
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34)
+Filename: pool/universe/s/strongswan/strongswan-pki_5.9.1-1ubuntu3.2_amd64.deb
+Size: 57880
+MD5sum: cefe1e295a136f9257acf8189e5a5bd2
+SHA1: e8f4d1066a88d319db4716a989373f0ee399f5be
+SHA256: eafeda7350e67102e3ed090503a66892602404e211ad215b1bbe31b01900a677
+SHA512: 22b3d4e8f21636a761f5a7b6122e6caa0aa07c593339cca12cf4deb665f888dddfa20b56b421117a41ff988703020bafa58ece35fd09078f089c3d6c310309e0
 Homepage: http://www.strongswan.org
 Description: strongSwan IPsec client, pki command
 Description-md5: e39ead8c35dce81cd768bc453bc29db7
 
 Package: strongswan-scepclient
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -7026,21 +7274,21 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 230
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34)
-Filename: pool/universe/s/strongswan/strongswan-scepclient_5.9.1-1ubuntu3.1_amd64.deb
-Size: 28846
-MD5sum: 10fb7e18ae6fb4abbf56a8b0bfa02dcc
-SHA1: 6ea0065d400ae24d8f0c876bb2a417a6af4ed76b
-SHA256: 40d4a66fffce0d7dca2f33ac5193f9403bc14f98f401cff09f54aa74bcbb2014
-SHA512: 0113c025c2b0994e9ebae03f55361447c29891fefe04e033e4f1d81841e5440a8b0988f39594aec9c669262cb94ea231d8536de763cd79fcd506c2f92bcca1e2
+Installed-Size: 231
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34)
+Filename: pool/universe/s/strongswan/strongswan-scepclient_5.9.1-1ubuntu3.2_amd64.deb
+Size: 28854
+MD5sum: d5522b8531abb00584e5a050a526b2c2
+SHA1: 558c12c669917ddd7fb0763211d1499debed364e
+SHA256: 413795342c513cb3acca4ca6909391d7d4c3c146e0ffe2c2aed9d2c2109faf78
+SHA512: d88625d72d74236d6cb6e425c5a9eeeaee7b4ee6230dfc3a80f63019c1c587e2c0a83454010fcf2059da0d9fc78ccfd466439c0b8c6cd3d3713d080d2358922e
 Homepage: http://www.strongswan.org
 Description: strongSwan IPsec client, SCEP client
 Description-md5: fbc3cadf8a28f7b05798f7dbda6309c2
 
 Package: strongswan-swanctl
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: universe/net
 Source: strongswan
@@ -7048,16 +7296,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 513
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34)
+Installed-Size: 514
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34)
 Breaks: strongswan-starter (<< 5.8.0-1)
 Replaces: strongswan-starter (<< 5.8.0-1)
-Filename: pool/universe/s/strongswan/strongswan-swanctl_5.9.1-1ubuntu3.1_amd64.deb
-Size: 118552
-MD5sum: 1238614c95ba180d97117c339423a693
-SHA1: 331c8a68de7e98db3c3e65e10fefaa1e021b6723
-SHA256: 766ec121c4d183164ee0e59a5846144fb167af9e65a2ef7449f39a46781b0abe
-SHA512: 8c8438675c20b7e30317a5c2715a8dacbf77b181b6f83320d50a8acfa7d9dfadbec48a998ef3a66e25ed19206111894761c419d2b64e6911d01cc8a32b93a8f3
+Filename: pool/universe/s/strongswan/strongswan-swanctl_5.9.1-1ubuntu3.2_amd64.deb
+Size: 118566
+MD5sum: fb273fab516285b20d479b54d0de9402
+SHA1: 919caaf1508e6033e2f14062477b9f566dca325a
+SHA256: 406e3ff3d9ddc2301d9849667759b521b647781586ee33bb7e5c085091605d66
+SHA512: 4ab91f6c3abeb24e16e7d00dfd33db1cbfdf07d04b0d8b3df30e44aafb99b873cabc3bb00d8075765480e38c6d7b707e4445b8aeb2db2f0669e39f3a1806fc70
 Homepage: http://www.strongswan.org
 Description: strongSwan IPsec client, swanctl command
 Description-md5: 0da8661efd13d913c22e863856990337

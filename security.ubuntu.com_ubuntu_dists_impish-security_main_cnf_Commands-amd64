@@ -196,7 +196,7 @@ version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
 commands: cifsdd,findsmb,mdsearch,rpcclient,smbcacls,smbclient,smbcquotas,smbget,smbspool,smbtar,smbtree
 
 name: strongswan-starter
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: ipsec
 
 name: systemd

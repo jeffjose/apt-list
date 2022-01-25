@@ -826,6 +826,30 @@ Homepage: https://code.visualstudio.com/
 Package: code-exploration
 Priority: optional
 Section: devel
+Installed-Size: 316447
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: armhf
+Version: 1.64.0-1643010466
+Replaces: visual-studio-code-exploration
+Provides: visual-studio-code-exploration
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-exploration
+Filename: pool/main/c/code-exploration/code-exploration_1.64.0-1643010466_armhf.deb
+Size: 84064264
+MD5sum: ab4a1c9b8595fd7a2b90c1585255b79b
+SHA1: 4956393b1dcca0f0781a75e3b660d9fa06000167
+SHA256: 493f92063a75df17e8979a1ee5335b28288a1ad1c5081b751fa8f0b9fca11172
+SHA512: 6e46d3b602cd1f53e18652d0572b00b238469df795404001f182d7aabcd137786fc06e18c6619eef0a4ad53f37d4c185f51156f3ddd988f9c5041466e22af897
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-exploration
+Priority: optional
+Section: devel
 Installed-Size: 316486
 Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
 Architecture: armhf
@@ -1409,6 +1433,30 @@ SHA256: 96c5df0d684a61c8dd490e771a8a0ef24d72c2a948e93f911c6dc2665b8021da
 SHA512: 10680c967d1d03d99d81d1669751beecea8bf03ca9c221176a371e83cdb948ddc51d56f8409f19ead0e2e8088eafd87451df80c24ffea86cc0da9ae7842291ad
 Description: Code editing. Redefined.
  Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+Homepage: https://code.visualstudio.com/
+
+Package: code-insiders
+Priority: optional
+Section: devel
+Installed-Size: 231596
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Architecture: armhf
+Version: 1.64.0-1643001797
+Replaces: visual-studio-code-insiders
+Provides: visual-studio-code-insiders
+Depends: libnss3 (>= 2:3.26), gnupg, apt, libxkbfile1, libsecret-1-0, libgtk-3-0 (>= 3.10.0), libxss1, libgbm1
+Conflicts: visual-studio-code-insiders
+Filename: pool/main/c/code-insiders/code-insiders_1.64.0-1643001797_armhf.deb
+Size: 67689800
+MD5sum: 670146c30a0cd9590b0d1796a9d66868
+SHA1: 8610877d7d7aa4d11a21bee7ef8e16bd0b8b6a80
+SHA256: 3c0b76de7527e86baac4e0d0f0e6a34b25e14240c766d89a166986d6670f43cd
+SHA512: c0012f890c01a95d3a1c45c9897d9bdb37c2ee32cb2855e39cc5f0b100e35bad17f045ccd765a39cb828ea0c4033b9797656eb27522e6087e5375576b1f9c278
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
 Homepage: https://code.visualstudio.com/
 
 Package: code-insiders

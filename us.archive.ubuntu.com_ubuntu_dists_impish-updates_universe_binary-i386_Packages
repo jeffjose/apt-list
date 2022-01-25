@@ -455,6 +455,30 @@ Homepage: https://www.docker.com/community-edition
 Description: Linux container runtime -- documentation
 Description-md5: 4f86326741c09d05fe80222b21fce476
 
+Package: evolution-common
+Architecture: all
+Version: 3.40.4-1ubuntu2
+Priority: optional
+Section: universe/gnome
+Source: evolution
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19448
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: evolution
+Filename: pool/universe/e/evolution/evolution-common_3.40.4-1ubuntu2_all.deb
+Size: 759574
+MD5sum: 13dcceaee6055f23ffe25c45dd455ad6
+SHA1: 588aa86af32cebfc24c1639b170e84004c7c8d32
+SHA256: 7279a59ac2ade35ca5c2742689dad2428df8e32eae402c35a57457115da985bb
+SHA512: 179cf77bbfce0c8b6d672769d314f2fb65f737f98b346625d4dc2a1a56f24a9163ad938f3f5c9756cfc0c99cb7ee0ca55a6c0c3e081a7816b87664a3350de010
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: architecture independent files for Evolution
+Description-md5: 63a9c80d6efb5e50b74aae7ebcc8bf5c
+Phased-Update-Percentage: 30
+
 Package: fcitx-mozc-data
 Architecture: all
 Version: 2.26.4220.100+dfsg-4.1ubuntu0.1

@@ -36,11 +36,11 @@ version: 0.54.0-0ubuntu1~21.10.1
 commands: cargo
 
 name: charon-cmd
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: charon-cmd
 
 name: charon-systemd
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: charon-systemd
 
 name: clamav-milter
@@ -88,7 +88,7 @@ version: 2:2.2.3-0ubuntu0.21.10.2
 commands: ldbadd,ldbdel,ldbedit,ldbmodify,ldbrename,ldbsearch
 
 name: libcharon-extra-plugins
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: pt-tls-client
 
 name: libflatpak-dev
@@ -116,7 +116,7 @@ version: 2:3.68-1ubuntu1.1
 commands: certutil,chktest,cmsutil,crlutil,derdump,httpserv,modutil,nss-addbuiltin,nss-dbtest,nss-pp,ocspclnt,p7content,p7env,p7sign,p7verify,pk12util,pk1sign,pwdecrypt,rsaperf,selfserv,shlibsign,signtool,signver,ssltap,strsclnt,symkeyutil,tstclnt,vfychain,vfyserv
 
 name: libstrongswan-extra-plugins
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: tpm_extendpcr
 
 name: libwin-hivex-perl
@@ -240,11 +240,11 @@ version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
 commands: gentest,locktest,masktest,ndrdump,smbtorture
 
 name: strongswan-pki
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: pki
 
 name: strongswan-swanctl
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: swanctl
 
 name: systemd-coredump

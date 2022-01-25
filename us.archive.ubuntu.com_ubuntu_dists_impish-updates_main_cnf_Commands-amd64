@@ -360,7 +360,7 @@ version: 4.2-1ubuntu0.21.10.1
 commands: sos,sos-collector,sosreport
 
 name: strongswan-starter
-version: 5.9.1-1ubuntu3.1
+version: 5.9.1-1ubuntu3.2
 commands: ipsec
 
 name: systemd

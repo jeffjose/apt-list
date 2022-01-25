@@ -971,6 +971,103 @@ Description: ejects CDs and operates CD-Changers under Linux
 Task: minimal
 Description-md5: 6a1f8e492b35e1b9dad2ebd6248c2167
 
+Package: evolution-data-server
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Priority: optional
+Section: gnome
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2958
+Depends: libc6 (>= 2.34), libcamel-1.2-62 (= 3.40.4-1ubuntu1), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdb5.3, libebackend-1.2-10 (= 3.40.4-1ubuntu1), libebook-1.2-20 (>= 3.17), libebook-contacts-1.2-3 (>= 3.25.90), libecal-2.0-1 (>= 3.39.2), libedata-book-1.2-26 (>= 3.33.91), libedata-cal-2.0-1 (>= 3.26.2), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libedataserverui-1.2-3 (= 3.40.4-1ubuntu1), libgcr-base-3-1 (>= 3.8.0), libgcr-ui-3-1 (>= 3.8.0), libgdata22 (>= 0.17.10), libglib2.0-0 (>= 2.45.6), libgoa-1.0-0b (>= 3.11.90), libgtk-3-0 (>= 3.10), libgweather-3-16 (>= 40.0), libical3 (>= 3.0.7), libldap-2.5-0 (>= 2.5.4), libpango-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.42), libxml2 (>= 2.9.0), evolution-data-server-common (>= 3.40.4-1ubuntu1), gnome-keyring
+Suggests: evolution
+Breaks: evolution (<< 3.29.90), libevolution (<< 3.29.90)
+Replaces: evolution (<< 3.29.90), libevolution (<< 3.29.90)
+Filename: pool/main/e/evolution-data-server/evolution-data-server_3.40.4-1ubuntu1_amd64.deb
+Size: 773220
+MD5sum: ca2912abc3201908788f4713a31bdb16
+SHA1: 7ca0db8dd2d8dd7d25d65116aae88f6bef2ec65c
+SHA256: 199334bd2ab20aec0984841fe74553c6cdf52060ee9bbdd723696ad81bcc21bd
+SHA512: bdd8571e4ed5082b3dcf84697ab797921cf9df0866612e0c4d3466c48b0df3d4f0b41ec12fe406a9792458afa55340da7f688cb550ee53cbaa071f67eed1cc27
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: evolution database backend server
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 00223d501d234f5cb46209c8c730f321
+Phased-Update-Percentage: 30
+
+Package: evolution-data-server-common
+Architecture: all
+Version: 3.40.4-1ubuntu1
+Multi-Arch: foreign
+Priority: optional
+Section: gnome
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 236
+Depends: dconf-gsettings-backend | gsettings-backend
+Filename: pool/main/e/evolution-data-server/evolution-data-server-common_3.40.4-1ubuntu1_all.deb
+Size: 19820
+MD5sum: 59137bc0c584483b4457413dfe871425
+SHA1: fc37b95e453bafe382b97445ec597b844a966f65
+SHA256: 8b8ec82f3a410aaaf80102f24db85b3a1cbd7dc02a02acf7d04f9457b8c3e217
+SHA512: 9e3a02fc036faf7e5edea2de1d1e99951a5a05c1e6e38a869bb683b996836b76b839f9b479b375710bff3bdf635e22dfd9139bd90327bf107ddd1675a5cfd2aa
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: architecture independent files for Evolution Data Server
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 5cc3d01ab453e709e471f91ff4d74d00
+Phased-Update-Percentage: 30
+
+Package: evolution-data-server-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Priority: optional
+Section: gnome
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 41
+Depends: libglib2.0-dev (>= 2.40), libnss3-dev, libnspr4-dev
+Filename: pool/main/e/evolution-data-server/evolution-data-server-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 5370
+MD5sum: b95f73c6b428aa7604b83e7023b1cd2f
+SHA1: c1a759be0ed8ff61749619ef1c753bded15341f9
+SHA256: 8ff675fd99d12564fbc25ffe488d0cbfa21b4769aa27a5c90d250a62c5752810
+SHA512: 2948ca42925e024a4bef250ba6de1a97b17069ac0375cd07e42f19187a96b6d96589b2a49bcd82cf8f4b840d9fb48a9cf877c44a75642173522915d3a2af489b
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Development files for evolution-data-server (metapackage)
+Description-md5: f80e85b29ef7b2fa18ebc57f7a903dcb
+Phased-Update-Percentage: 30
+
+Package: evolution-data-server-doc
+Architecture: all
+Version: 3.40.4-1ubuntu1
+Priority: optional
+Section: doc
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16207
+Suggests: devhelp
+Filename: pool/main/e/evolution-data-server/evolution-data-server-doc_3.40.4-1ubuntu1_all.deb
+Size: 726376
+MD5sum: bbd4628ab468d5f5d6fdcc5dc1942fd3
+SHA1: 05aad7d825237681a69dd59d52cc3c3ae976efab
+SHA256: 3591ea49f36fdd791445faf52e1220a5fa8ca2af2f558e2419855153ce85c6cb
+SHA512: bdd16909ca373abc19d0f497f6d9ba8a62560ebf338e212d0d8675eb22ec7e95017117e28461ddc52e59703b9d06e5f7072da9b3f016f503f4f5731b5bf2439a
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Documentation files for the Evolution Data Server libraries
+Description-md5: b241d0c600eee3a52e0b78eb3b6bbba5
+Phased-Update-Percentage: 30
+
 Package: fdisk
 Architecture: amd64
 Version: 2.36.1-8ubuntu2
@@ -3065,6 +3162,222 @@ Description: GObject introspection data for AccountService
 Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi
 Description-md5: 3e307108d5acfea1c79fd66a238baaf2
 
+Package: gir1.2-camel-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 273
+Depends: gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), libcamel-1.2-62 (>= 3.39.3)
+Filename: pool/main/e/evolution-data-server/gir1.2-camel-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 63134
+MD5sum: e9f67ffd422c2e984faa3e3b71f53c03
+SHA1: d442b60f8bedce896446abb3bde1f5f8d3e7fe96
+SHA256: 8b58f221c44f2628b1f2c1055fdbac3fceff3fb324fbd5102fc8509f7ef733b8
+SHA512: 5dd5e66aa86fce9a6cd5a877f4c63c48ae2e31e1dc892fc623d86e00d30e314164150a1da7cbc67a9e3c6b831ca035ffb03f5f1928b9ee48a60699083c8f2e3b
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the Camel library
+Description-md5: adacda275afbebb9c6fa5b1a157d13f5
+Phased-Update-Percentage: 30
+
+Package: gir1.2-ebackend-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 82
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), gir1.2-soup-2.4 (>= 2.42), libebackend-1.2-10 (= 3.40.4-1ubuntu1)
+Filename: pool/main/e/evolution-data-server/gir1.2-ebackend-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 15258
+MD5sum: d1d5fbbf1743813b3aadd0d4f1164904
+SHA1: 8bc14464aea47249e660a01ce378342e8342e1e8
+SHA256: f5d0afef37d690fbe5270bec9357123d0f33c81f1cd6d18ff2cb11a5f3ea1ad0
+SHA512: c7468eeb96c10e39e00ed12e0ecbf6a2d7f0cab54a1c21fc4da33284acfe30b092bdac2db9c055510189f8eddc30abf5df72d1ab7363356aa5e46483eba5c4eb
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EBackend library
+Description-md5: 8f196c33098a03e5cc658c86cdc53eb6
+Phased-Update-Percentage: 30
+
+Package: gir1.2-ebook-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 58
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-ebookcontacts-1.2 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), libebook-1.2-20 (>= 3.29.90)
+Filename: pool/main/e/evolution-data-server/gir1.2-ebook-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 8656
+MD5sum: 26c238cd528535450238fa8f60a0a02c
+SHA1: ececc99e1ddc1a518e27baed1bc6fd9e09f8eb34
+SHA256: ca9ad9c08cbad7eccde39976b9aa116602cf6723e4f68309270edd1781dd74b8
+SHA512: b5bcb5fc55fe9e291d2ce9e8a36da8ebee8352ffd52ac07dfcfaec58194892242558a910abc29c70e32e45f6b53de5d4e1173597ff717973b38b1e2df61d7c00
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EBook library
+Description-md5: eee3f328364fb5b2eb00182c350108b8
+Phased-Update-Percentage: 30
+
+Package: gir1.2-ebookcontacts-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 82
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), libebook-contacts-1.2-3 (>= 3.33.4)
+Filename: pool/main/e/evolution-data-server/gir1.2-ebookcontacts-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 16166
+MD5sum: cf668d862ed08c9e8e436cf8f22aee15
+SHA1: 90b78b579363241d859f069a28d6ac479a070c8b
+SHA256: e3c57b70222dff5d9219df2fb3ef1e57d8e3b5d336e4d3dd68ae8105432bd85d
+SHA512: 7b21695ee9790f5053d4a50a7ee609ea3e29b57bdbf7808314352b7a801da092880e0c4586f58677402cc3584b34d603d7e95b5437e33ac851b6a292e0b63a4d
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EBook Contacts library
+Description-md5: 5c91e1ab067d8ddd63b0ef031e231a4f
+Phased-Update-Percentage: 30
+
+Package: gir1.2-ecal-2.0
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 108
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), gir1.2-ical-3.0 (>= 3.0.7), gir1.2-soup-2.4 (>= 2.42), libecal-2.0-1 (>= 3.39.3)
+Filename: pool/main/e/evolution-data-server/gir1.2-ecal-2.0_3.40.4-1ubuntu1_amd64.deb
+Size: 20866
+MD5sum: c4db6f8f6803a8040d592556913eb3a8
+SHA1: 3354f047690088b7a4854f01ddec95ea2fd2af12
+SHA256: 2985302a2df9f6b700021244a94ac1ea04e053841521db413baf72237129a697
+SHA512: 37cf4d636993ae77b1401292e3325de020ab99cff0a94ef174c0da3e0cc1fc3af9cbf7e5fe5908ee803dda569fe6896215c0069024a097d44763f683234426e3
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the ECal library
+Description-md5: ca591f7842484a514f86713d2d7bc605
+Phased-Update-Percentage: 30
+
+Package: gir1.2-edatabook-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 90
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-ebackend-1.2 (= 3.40.4-1ubuntu1), gir1.2-ebookcontacts-1.2 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), libedata-book-1.2-26 (>= 3.33.91)
+Filename: pool/main/e/evolution-data-server/gir1.2-edatabook-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 19674
+MD5sum: 32a794375cbbf5f5a606c14354bc1972
+SHA1: 64593287cc58dadbf4a75557e0ea811e4d404a6e
+SHA256: 4167c589b8c1ec7a268fc826c09e0d5d4bded683fa76f239cdefdb82c5a0e08c
+SHA512: b8cebe0c7dd2d2d5b6e28f6c1a340d7d4f7b773a52f243ec10ba038ddfd78b7759d5d0b723e1ca2fa8f964879557bfdc87af61f67a4cee886371a3bd1bcfb1e5
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EBook library
+Description-md5: 788dfe16398f4b7870dce5cc8ef87e47
+Phased-Update-Percentage: 30
+
+Package: gir1.2-edatacal-2.0
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 81
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-ebackend-1.2 (= 3.40.4-1ubuntu1), gir1.2-ecal-2.0 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-glib-2.0 (>= 1.59.1), gir1.2-ical-3.0 (>= 3.0.7), gir1.2-soup-2.4 (>= 2.42), libedata-cal-2.0-1 (>= 3.34.0)
+Filename: pool/main/e/evolution-data-server/gir1.2-edatacal-2.0_3.40.4-1ubuntu1_amd64.deb
+Size: 13324
+MD5sum: ffc73a529365aac29716cee924e07d18
+SHA1: 2191de72e16b3a321c6738cccb008c998143c00c
+SHA256: d16ac441b6537fcdd61c2f4667e47fa6d643c03d7462bb2b7f79980d0efe87b2
+SHA512: 6f41c70544fe949742ef54c5c0297727e89fa3b2c61e0bd29453f16dd131550a192c66872947da9f5de3cfc05f64f625445fffa0ac067244c64f7632b008358e
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EDataCal library
+Description-md5: b409b4903f79863662d43cb8cd8b51ac
+Phased-Update-Percentage: 30
+
+Package: gir1.2-edataserver-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 183
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-freedesktop (>= 1.59.1), gir1.2-gdata-0.0 (>= 0.10), gir1.2-glib-2.0 (>= 1.59.1), gir1.2-soup-2.4 (>= 2.42), libedataserver-1.2-26 (= 3.40.4-1ubuntu1)
+Filename: pool/main/e/evolution-data-server/gir1.2-edataserver-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 38694
+MD5sum: 99c32f01f66ae1ded017e312644577c9
+SHA1: 29c559ef1dba7874de951318afb20e1eabb3e897
+SHA256: 3477da2aeb4027d392ea8edd0a73f9d8f135ee803f82835b252f8c17d3adf165
+SHA512: 80ecad4102e7fc7bcbcba48d446d54d4a6835ce884d08738fa1bf787041feb5664f528f0b8cfe8a615de06b60c2c002bb9877668a0fdb2923c5ec89f9ad238a2
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EDataServer library
+Description-md5: 2ec1ed52300f0467a0d5460ca0faa785
+Phased-Update-Percentage: 30
+
+Package: gir1.2-edataserverui-1.2
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 53
+Depends: gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), gir1.2-ecal-2.0 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), gir1.2-glib-2.0 (>= 1.59.1), gir1.2-gtk-3.0 (>= 3.10), gir1.2-soup-2.4 (>= 2.42), libedataserverui-1.2-3 (= 3.40.4-1ubuntu1)
+Filename: pool/main/e/evolution-data-server/gir1.2-edataserverui-1.2_3.40.4-1ubuntu1_amd64.deb
+Size: 7672
+MD5sum: 8b713f76c29dcb61322a28bbff208706
+SHA1: 267580578781816c3b83a25a682060b6cc162a5b
+SHA256: 5605baa319f3afdf365316ce3e0028b3b8dd4d462e805a24c5402709aefe0735
+SHA512: b93ad040f10382b9eaefbde6185a8c1fdef74a0bb95cb965360cf4e8bd401c48ce6b151b6af9de4b5b1e8b2b7ae33582c174d06d9ac51351143d35b3ef99e398
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: GObject introspection for the EDataServerUI library
+Description-md5: 3a390941ecfd433760515102f954f58d
+Phased-Update-Percentage: 30
+
 Package: gir1.2-fprint-2.0
 Architecture: amd64
 Version: 1:1.90.7+git20210222+tod1-0ubuntu4~21.10.2
@@ -3763,9 +4076,58 @@ Description: colour ASCII art library
 Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-server-raspi, ubuntu-desktop-raspi, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-budgie-desktop-raspi
 Description-md5: d4849604710d4ce2aca997ad664f17fe
 
+Package: libcamel-1.2-62
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1511
+Depends: libc6 (>= 2.33), libglib2.0-0 (>= 2.41.1), libgssapi-krb5-2 (>= 1.17), libicu67 (>= 67.1-1~), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.13.4-2~), libsqlite3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/e/evolution-data-server/libcamel-1.2-62_3.40.4-1ubuntu1_amd64.deb
+Size: 487100
+MD5sum: 9a175c08a157e554bf42be7d117f66c9
+SHA1: ccb5815a068724a1a4d9d0ba08030f096667d474
+SHA256: 98775da21e37aec8bd8298293c94ff28fb3c1634ab91bf3c55f3dd2f4783f310
+SHA512: 5b3886d98db6201da5576b5c9d65eec8b3e3f573146e533a48002c79dee253a68e9a66dbf38352193d3ace2c03fe27ba4a3608bd5e549deaaa96a11c652f6e32
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Evolution MIME message handling library
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 43ee52bbe1cd65f95cd1bd1abbdbcedd
+Phased-Update-Percentage: 30
+
+Package: libcamel1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3649
+Depends: libcamel-1.2-62 (= 3.40.4-1ubuntu1), gir1.2-camel-1.2 (= 3.40.4-1ubuntu1), libglib2.0-dev (>= 2.40), libsqlite3-dev (>= 3.5), libnss3-dev, libnspr4-dev
+Filename: pool/main/e/evolution-data-server/libcamel1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 238740
+MD5sum: 16ad968b77f71b718e25368c2745a2a3
+SHA1: 12d9d8ce608c42519b21b775e0b0d2560a69e2de
+SHA256: 90e93fc31f25f521d5e6519c97959d2a5f24e62ced3b16f57cde5c62bf5a360c
+SHA512: 44216db3c8d6d62a067bdc3d23f0338af2022dcfd025fee4c0a4d53c2b4f970c3a48fed9cbf7b75ad71b03fd41e6da2ed5e88e9917cbac257404ccc88868026c
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Development files for libcamel
+Description-md5: 24e22bc22b8cf416a7ef05c26c0d1807
+Phased-Update-Percentage: 30
+
 Package: libcharon-extauth-plugins
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Source: strongswan
@@ -3773,16 +4135,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 231
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.25)
+Installed-Size: 232
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.25)
 Breaks: libcharon-extra-plugins (<< 5.8.0-2~)
 Replaces: libcharon-extra-plugins (<< 5.8.0-2~)
-Filename: pool/main/s/strongswan/libcharon-extauth-plugins_5.9.1-1ubuntu3.1_amd64.deb
-Size: 24462
-MD5sum: 2f14acf0315fe9731149fa48ecb5d277
-SHA1: 4fa4f4caf436c5cf875fe246430882820669562f
-SHA256: 955a304a7aa04eea01bf0fe675ab9970cbd82050b66643b99a74e5ccc7e3f2e9
-SHA512: dd2c250972868d2c573d2fa9a92d3504fb41f638cbf72b9fe3ebe6c88695c8a937f961beaff00a54726ac4a43a6909344e50f9fda33231dc4048cc0ec3f60ca7
+Filename: pool/main/s/strongswan/libcharon-extauth-plugins_5.9.1-1ubuntu3.2_amd64.deb
+Size: 24450
+MD5sum: 7b6b0411b78d20f99b9273488e05f95c
+SHA1: 0278aece5a83169a11bd435eceb96e07ea145537
+SHA256: 17b2b97c6e25588f4062c6eff0064f90155249a39bc5a2c69c93b9890ae441c4
+SHA512: 762ce0dde389c06da3bae30651cc77956f99c064ade01f946ac74d45b9e0860a68585a82432a75cd93fa2d80ddb2007a1713824709df71905c038fae02129c90
 Homepage: http://www.strongswan.org
 Description: strongSwan charon library (extended authentication plugins)
 Description-md5: fc3eaf87c658452c4f81b8064e552e6c
@@ -3832,6 +4194,205 @@ SHA512: 076513bdeb189e32d12a352e2a6c5301283fd5d5572133da0d117bc8234af8c8811aa006
 Homepage: https://www.clamav.net/
 Description: anti-virus utility for Unix - library
 Description-md5: bf2e797d0e7e410776d9200761e01bd6
+
+Package: libebackend-1.2-10
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 403
+Depends: libc6 (>= 2.7), libcamel-1.2-62 (>= 3.19.92), libdb5.3, libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libglib2.0-0 (>= 2.40), libsoup2.4-1 (>= 2.42), libsqlite3-0 (>= 3.6.0)
+Filename: pool/main/e/evolution-data-server/libebackend-1.2-10_3.40.4-1ubuntu1_amd64.deb
+Size: 118432
+MD5sum: 47ffa21227c4bf13468abf75b9bfc072
+SHA1: 92b6f71e116e353978072dde45572d8fad53a18e
+SHA256: cb072d8721991f508b495b6002c5ac6453a31b120d2b5b9a19311741fb7843c3
+SHA512: f0606830e02bb013f53b14c074199fdbaf8404ff5659ef443e69aa49b16fa9cec25a693738ede5f27fe5a023353237e753c6c8fae728e44b7a08c564816757fe
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Utility library for evolution data servers
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: b3d133d6b14648a896d4e2d251b6dcae
+Phased-Update-Percentage: 30
+
+Package: libebackend1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 752
+Depends: libebackend-1.2-10 (= 3.40.4-1ubuntu1), gir1.2-ebackend-1.2 (= 3.40.4-1ubuntu1), libedataserver1.2-dev (= 3.40.4-1ubuntu1), libglib2.0-dev (>= 2.40)
+Filename: pool/main/e/evolution-data-server/libebackend1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 56140
+MD5sum: ebbe058309c0111ad364673a30cfa40d
+SHA1: 44dea1ee38ae9173e649600a83aa14b8f4b77050
+SHA256: 28bd795589fe2316e562ac264cb81e7608e88b1a81f36040895f1924548487d8
+SHA512: 348a0816606b032567c9a30d9ddfc96ce6cdc4190d165019f214a45013dfeb392d5f52f01b06832a14a05d09c09b05092fd61ce79771557d3d11d05b63216ace
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Utility library for evolution data servers (development files)
+Description-md5: a5d72b476981a785a5ae2459f4a20808
+Phased-Update-Percentage: 30
+
+Package: libebook-1.2-20
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 374
+Depends: libc6 (>= 2.4), libcamel-1.2-62 (>= 3.24.1), libebook-contacts-1.2-3 (>= 3.16.2), libedata-book-1.2-26 (>= 3.17), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libglib2.0-0 (>= 2.41.1), libxml2 (>= 2.7.4)
+Filename: pool/main/e/evolution-data-server/libebook-1.2-20_3.40.4-1ubuntu1_amd64.deb
+Size: 92224
+MD5sum: 1b1779824bccd0949303e4c7c4b3e173
+SHA1: ddd021cbd5bc5b3a0a7654221b5377c477e14485
+SHA256: 55783edb997c5dd86598a4d14fd73b17e26761754ec972c3263f9ec6eafc9128
+SHA512: c3c8ba402cb9fae9aaf1b3e504247a9304ae6b3d7c93c7c46b246db916e15648745b10d87636ff8989368521630564d82cac2a3a51b9985f59b2f0c350e3c164
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Client library for evolution address books
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: cb24488ae2ac69e00752272e7be5221f
+Phased-Update-Percentage: 30
+
+Package: libebook-contacts-1.2-3
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 216
+Depends: libc6 (>= 2.14), libcamel-1.2-62 (>= 3.19.92), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.40), libphonenumber8, libstdc++6 (>= 5.2)
+Filename: pool/main/e/evolution-data-server/libebook-contacts-1.2-3_3.40.4-1ubuntu1_amd64.deb
+Size: 60828
+MD5sum: 92fa37ba69cfaa2d6c17de29a60b5e91
+SHA1: 30a338362638ade1c9b42d9d70c613e60807ffef
+SHA256: 1ee7210bc0a783013b58a37ce30fc6770e10fa7e875be59e43c0f864038372de
+SHA512: 25c1c9319803bc5777dc35afee56bd37ab8936ccb4fc94639aaa73009b5a99b722b6f358e1be45a88ceca521a0ef8f58c1f9161878fd3e4eaab75ce377362ae3
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Client library for evolution contacts books
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: fd8f6220cee9a3b2df95847a5d20af2b
+Phased-Update-Percentage: 30
+
+Package: libebook-contacts1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 488
+Depends: libebook-contacts-1.2-3 (= 3.40.4-1ubuntu1), gir1.2-ebookcontacts-1.2 (= 3.40.4-1ubuntu1), libedataserver1.2-dev (= 3.40.4-1ubuntu1), libcamel1.2-dev (= 3.40.4-1ubuntu1)
+Filename: pool/main/e/evolution-data-server/libebook-contacts1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 43970
+MD5sum: 393d7658cae84f6ffe8d2db51e3fd378
+SHA1: fb6731ca708952359691cb9ce65d53383807e805
+SHA256: 6b81a7515ab157a9ec079e41b699d9e1a4febfa17b2552d2433d73d69523a12c
+SHA512: 04bdc76d40ba8a36728c9c519e98ffa0b154d26a61fcc14b50e4ef433be17f1fb030e39753c8e160652f2ed845ce8ace70c605722776bd605afdc3764887b6ff
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Client library for evolution contacts books (development files)
+Description-md5: db02360a3dd32c2d99c43b5ea29a380d
+Phased-Update-Percentage: 30
+
+Package: libebook1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 376
+Depends: libebook-1.2-20 (= 3.40.4-1ubuntu1), gir1.2-ebook-1.2 (= 3.40.4-1ubuntu1), libedataserver1.2-dev (= 3.40.4-1ubuntu1), libebook-contacts1.2-dev (= 3.40.4-1ubuntu1), libcamel1.2-dev (= 3.40.4-1ubuntu1), libedata-book1.2-dev (= 3.40.4-1ubuntu1), libglib2.0-dev (>= 2.40)
+Filename: pool/main/e/evolution-data-server/libebook1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 32876
+MD5sum: b12794c44cc2691bd2c0d5f2de644b55
+SHA1: 549229fc0fa8d91621ad7a548e9d9cc76ae05d4c
+SHA256: 0b5e206a938c4536eac688b6094829617fd664fdfd35f4f19d7a74b14aedebd9
+SHA512: e04ccf4e00b8be1e164262fe99446ed8dc45fbb0a3c4bd0296c1b3cb6e20def390bdf67595644294d3d3a5b7850cdd84dfcfcba4b52883be91ef5b3bf430983d
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Client library for evolution address books (development files)
+Description-md5: ef3ee2f270bec1dd37ca08ab22a90311
+Phased-Update-Percentage: 30
+
+Package: libecal-2.0-1
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 618
+Depends: libc6 (>= 2.33), libcamel-1.2-62 (>= 3.24.1), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libglib2.0-0 (>= 2.41.1), libical3 (>= 3.0.7)
+Conflicts: almanah (<< 0.11.1-1+b9), bijiben (<< 3.26.0-0.1+b1), evolution (<< 3.26.3), evolution-data-server (<< 3.26.3), evolution-data-server-tests (<< 3.26.3), evolution-ews (<< 3.26.3), evolution-plugin-pstimport (<< 3.26.3), evolution-plugins (<< 3.26.3), gnome-calendar (<< 3.26.2-3), gnome-panel (<< 3.26.0-1+b1), gnome-shell (<< 3.26.2-1+b1), gnome-todo (<< 3.26.2-2), libabiword-3.0 (<< 3.0.2-5), libedata-cal-2.0-1 (<< 3.26.3), libevolution (<< 3.26.3), libjana-ecal0 (<< 0.0.0+git20091215.9ec1da8a-4+b1), libjana-test (<< 0.0.0+git20091215.9ec1da8a-4+b1), syncevolution-libs-gnome (<< 1.5.2-2+b2)
+Filename: pool/main/e/evolution-data-server/libecal-2.0-1_3.40.4-1ubuntu1_amd64.deb
+Size: 171384
+MD5sum: bc5b461a6ebc8a9314ea498a396f3e64
+SHA1: 2d8cfb2fd445c5d2a5e09731ef12a807aa07a4db
+SHA256: 828d3d0c6b49b33604111e0ed1295dbb759bcc6656ec93c8851cdec4d4fedddb
+SHA512: a4f2983b43554ef53b6aad7d93b5701b76bc4f3e8f6a84fb2a75ce73383baa765bd14353e4375713c665b0079fb17740d9bcd6326384c222565712bd5b0bc070
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Client library for evolution calendars
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 04cb425637b47946ccd00f8590d52db8
+Phased-Update-Percentage: 30
+
+Package: libecal2.0-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1153
+Depends: libecal-2.0-1 (= 3.40.4-1ubuntu1), gir1.2-ecal-2.0 (= 3.40.4-1ubuntu1), libical-dev (>= 2.0), libedataserver1.2-dev (= 3.40.4-1ubuntu1), libglib2.0-dev (>= 2.40)
+Conflicts: libecal1.2-dev (<< 3.33.4)
+Replaces: libecal1.2-dev (<< 3.33.4)
+Filename: pool/main/e/evolution-data-server/libecal2.0-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 77046
+MD5sum: 78f9ff1ab0e6ffbae26a5f909b888a1a
+SHA1: 21b4c6626b805f15e2661448016d210ffd55ef0d
+SHA256: 3a3f1aa40ce14e83ab1e4947f915e8e241f26b29e4dc31e22f17d9b91954975d
+SHA512: eb6fb00de3d0223be8fee520b77b04c572737070a85a1f3a741c20e1cf1746b23b72fa1ff38f399349cad22e539d0a053cbbddc63ec7788b46006cd4c14a7a52
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Client library for evolution calendars (development files)
+Description-md5: 64e78a627bc19180d08e2006a3590372
+Phased-Update-Percentage: 30
 
 Package: libecpg-compat3
 Architecture: amd64
@@ -3900,6 +4461,205 @@ SHA512: ea31b16a0f06232322b021417c1d3364519fa4f0badf65e40d01dea21fe6e39a91b9bc00
 Homepage: http://www.postgresql.org/
 Description: run-time library for ECPG programs
 Description-md5: 51ed6df58b24baddae9952acb91903bd
+
+Package: libedata-book-1.2-26
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 815
+Depends: libc6 (>= 2.33), libebackend-1.2-10 (= 3.40.4-1ubuntu1), libebook-contacts-1.2-3 (>= 3.33.4), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libglib2.0-0 (>= 2.40), libsoup2.4-1 (>= 2.42), libsqlite3-0 (>= 3.5.9)
+Filename: pool/main/e/evolution-data-server/libedata-book-1.2-26_3.40.4-1ubuntu1_amd64.deb
+Size: 235646
+MD5sum: 41e07f081c802276562b962dd51aa441
+SHA1: aed02afdec4a20e8739549c40e012dea4ac9898f
+SHA256: 14dbc02a9f4a48aea23b06c8e965f8b2e564279cbb0e5673b4689c364d223722
+SHA512: 6530be40726b8c728178395832e3fd753e420233b62111522b4be35d961d93ce229595fa173953e4436d8416ac4a9ae4ef279e7732b30b7fdc685629135c80a9
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Backend library for evolution address books
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 2951cda855016cedfd37b2b06ff0940f
+Phased-Update-Percentage: 30
+
+Package: libedata-book1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 948
+Depends: libedata-book-1.2-26 (= 3.40.4-1ubuntu1), gir1.2-edatabook-1.2 (= 3.40.4-1ubuntu1), libebook-contacts1.2-dev (= 3.40.4-1ubuntu1), libebackend1.2-dev (= 3.40.4-1ubuntu1), libglib2.0-dev (>= 2.40)
+Filename: pool/main/e/evolution-data-server/libedata-book1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 67856
+MD5sum: d052a343a306ddc082bd8bf9274ab195
+SHA1: 119a5ef8248bb362af512b674613fd6ceb4ab5ea
+SHA256: 871d67d1d06592723adb70b1ecd27debb85ecc60bf58aa35f91338d1f7f90c7f
+SHA512: 2ce4f556d86c7a6fba39e88a19ecd735f75d52641b4cdf7c5f920d7207e013b3531399d3d8b3493a8c64f61727a275778da604c7bc10ea48a1210155b44e904b
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Backend library for evolution address books (development files)
+Description-md5: daf7a85467bbdfac33345b2709b9f36d
+Phased-Update-Percentage: 30
+
+Package: libedata-cal-2.0-1
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 533
+Depends: libc6 (>= 2.4), libcamel-1.2-62 (>= 3.19.92), libebackend-1.2-10 (= 3.40.4-1ubuntu1), libecal-2.0-1 (>= 3.39.3), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libglib2.0-0 (>= 2.40), libical3 (>= 3.0.7), libsoup2.4-1 (>= 2.42), libsqlite3-0 (>= 3.5.9)
+Conflicts: evolution-data-server (<< 3.26.3), evolution-data-server-tests (<< 3.26.3), evolution-ews (<< 3.26.3)
+Filename: pool/main/e/evolution-data-server/libedata-cal-2.0-1_3.40.4-1ubuntu1_amd64.deb
+Size: 145948
+MD5sum: 8820a88fd57f5234a77ab6415536892b
+SHA1: 84e5b5606bc1714ed236fd68e438010bf3e0ff13
+SHA256: 319c05ea7ce52f26f7c3c18b27d3ba808d98cde1b23f3c08b270bdc5577a25e4
+SHA512: 267c432db63664e6c2f854397e76d5925faa2bb00292593c45430a04681fb24deec990dd16dd759a2c53550ab8ddedf751dd849bf03f97c880f3b5416771bb5c
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Backend library for evolution calendars
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 6f9b6ccd1e5738678caa1d75cb84cf43
+Phased-Update-Percentage: 30
+
+Package: libedata-cal2.0-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 829
+Depends: libedata-cal-2.0-1 (= 3.40.4-1ubuntu1), gir1.2-edatacal-2.0 (= 3.40.4-1ubuntu1), libical-dev (>= 2.0), libecal2.0-dev (= 3.40.4-1ubuntu1), libebackend1.2-dev (= 3.40.4-1ubuntu1), libglib2.0-dev (>= 2.40)
+Conflicts: libedata-cal1.2-dev (<< 3.33.4)
+Replaces: libedata-cal1.2-dev (<< 3.33.4)
+Filename: pool/main/e/evolution-data-server/libedata-cal2.0-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 49124
+MD5sum: 8ef23ee7e5e560110d969146da612f35
+SHA1: ad8204a0024241ed18c44e7a684fc376467a0aeb
+SHA256: 8750d5d852ae32d77cf583a68f49e30efeed99eb113be74c631cdcf1dead2231
+SHA512: 129a2fee3f9f2cbd62ad8879815601dc76add2e252dec79c8e75ff4badf4e0de34b393bda8cb97a74dc5934967fe74932759bc60532b714bdabb689978b9100e
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Backend library for evolution calendars (development files)
+Description-md5: e696a09b21241ebcdcff5dd7e60f1c19
+Phased-Update-Percentage: 30
+
+Package: libedataserver-1.2-26
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 997
+Depends: libc6 (>= 2.14), libcamel-1.2-62 (>= 3.39.3), libgcc-s1 (>= 3.3.1), libgdata22 (>= 0.15.0), libglib2.0-0 (>= 2.45.6), libicu67 (>= 67.1-1~), libjson-glib-1.0-0 (>= 1.5.2), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.58.2), libstdc++6 (>= 5.2), libxml2 (>= 2.9.0), evolution-data-server-common (>= 3.40)
+Filename: pool/main/e/evolution-data-server/libedataserver-1.2-26_3.40.4-1ubuntu1_amd64.deb
+Size: 283454
+MD5sum: 6eac0165c0ad5ab81a395407fe7cc9e4
+SHA1: 50b9267d99d836ab0af44763d1015e4dd3e528ba
+SHA256: c6608662894ccf7b0ef8338b82d5b866c244785e884beb393d343792c9b619a6
+SHA512: cc0c1713c1688fb6486a4b807ecceceeb6670d58719f1b5fa2c29424ee2746c98c16e1e1f65ba4c0e5424766886aa3b6d9c94c01ab9a4005668cbb34196d8b80
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Utility library for evolution data servers
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: fda04a0fcd5d6e38514bd04afa3d3e7f
+Phased-Update-Percentage: 30
+
+Package: libedataserver1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2492
+Depends: libedataserver-1.2-26 (= 3.40.4-1ubuntu1), gir1.2-edataserver-1.2 (= 3.40.4-1ubuntu1), libcamel1.2-dev (= 3.40.4-1ubuntu1), libxml2-dev, libgdata-dev (>= 0.15.1), libglib2.0-dev (>= 2.40), libsoup2.4-dev, libsecret-1-dev
+Filename: pool/main/e/evolution-data-server/libedataserver1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 164432
+MD5sum: bff45330c08f6e2ccaa3f7357ce68300
+SHA1: 6caab4fd8dd91356dfc60ad94f3844bde45d2898
+SHA256: bd23872d43d86fad53de44b3cfdea9c207dff7832ed7352cb3d1f9021a8a7bc7
+SHA512: 2f496ead0c15898421740ffc818ca691f8da28440a2864bd30839c5182caa80452b01b1c43aac129972032525e24fcfbf47e61b259d5b987c5f46c336fab3d4a
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Utility library for evolution data servers (development files)
+Description-md5: f544598afd99e88bcd01bf63f94d1b5b
+Phased-Update-Percentage: 30
+
+Package: libedataserverui-1.2-3
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 241
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libcamel-1.2-62 (>= 3.19.92), libecal-2.0-1 (>= 3.33.4), libedataserver-1.2-26 (= 3.40.4-1ubuntu1), libgcr-base-3-1 (>= 3.8.0), libgcr-ui-3-1 (>= 3.8.0), libglib2.0-0 (>= 2.40), libgtk-3-0 (>= 3.16.2), libical3 (>= 3.0.7), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.42), libwebkit2gtk-4.0-37 (>= 2.25.1), evolution-data-server-common (>= 3.40)
+Filename: pool/main/e/evolution-data-server/libedataserverui-1.2-3_3.40.4-1ubuntu1_amd64.deb
+Size: 70010
+MD5sum: 3d46114ca07bebb90b7fa937442f9f20
+SHA1: 1ae7bb0498dc9711c2f71196c874e188ca8a6d7e
+SHA256: 3b4cd622cf044087b08400d6420181e9f1e57b7a9f186a0c91c6ae1a2b83b430
+SHA512: aa933e66cb6e1c3f486ab1eb2df13adebcb66c139441308cb9aaef3e19d07e1803a15f4059d8e1369f28b390dff913b313225d9a17780b2c8c6626b47aaf2111
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Utility library for evolution data servers
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 9029e4b9b34817b7416ca538ebbcce0f
+Phased-Update-Percentage: 30
+
+Package: libedataserverui1.2-dev
+Architecture: amd64
+Version: 3.40.4-1ubuntu1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: evolution-data-server
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 231
+Depends: libedataserverui-1.2-3 (= 3.40.4-1ubuntu1), gir1.2-edataserverui-1.2 (= 3.40.4-1ubuntu1), libedata-book1.2-dev, libcamel1.2-dev (= 3.40.4-1ubuntu1), libecal2.0-dev (= 3.40.4-1ubuntu1), libedataserver1.2-dev (= 3.40.4-1ubuntu1), libxml2-dev, libglib2.0-dev (>= 2.40), libgtk-3-dev, libsoup2.4-dev, libsecret-1-dev
+Filename: pool/main/e/evolution-data-server/libedataserverui1.2-dev_3.40.4-1ubuntu1_amd64.deb
+Size: 21648
+MD5sum: 85732cdb07480c77f417b263239b9cc8
+SHA1: ba6f85d5c7dc6cde6450e32cb7aa2ef52ad95654
+SHA256: 0464d04749d9f2e7d254c382fb5f1a796abf0a1c438164b122b271cba39dfec1
+SHA512: d79977000f5109e4a357e9d26cdf135b6a790ed63c6d480adf63ad36c28684014ea438d79b79994f64a119fc70319bd79c964d5a6b4c511ce4d04af2cce8ea96
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Description: Utility library for evolution data servers (development files)
+Description-md5: ae4ddfcad376c4c2a572e9be547c5f7e
+Phased-Update-Percentage: 30
 
 Package: libexiv2-27
 Architecture: amd64
@@ -9265,7 +10025,7 @@ Description-md5: 88547c6206c7fbc4fcc7d09ce100d210
 
 Package: libstrongswan
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Source: strongswan
@@ -9273,23 +10033,23 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 1452
+Installed-Size: 1453
 Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libgmp10, libsystemd0 (>= 227)
 Recommends: libstrongswan-standard-plugins
 Suggests: libstrongswan-extra-plugins
-Filename: pool/main/s/strongswan/libstrongswan_5.9.1-1ubuntu3.1_amd64.deb
-Size: 390584
-MD5sum: 795c9d7af579db7abfdc48e539579273
-SHA1: 87bb89cb703d29c9865145b0acaf80abfa8be9c0
-SHA256: 682f39900b40795b66618ee5c3f3b48278e597e277ca5435e188e6ff81f03af9
-SHA512: 338e5379cd4f8785a4c84b8f1cd77c47f14d8cd8139c2c26b55021828f6f0fabd7899fc0495a284ad7257364d5335da07c19e69e8050240852e666c4acf79cae
+Filename: pool/main/s/strongswan/libstrongswan_5.9.1-1ubuntu3.2_amd64.deb
+Size: 390712
+MD5sum: d4a8c2589984a5bbaf13e2b2e22aff8a
+SHA1: 6e7f83e67b7fae1236d2c58a2064450a56e583fd
+SHA256: 4ee2327690c005803a81891a4b2cffc4b9fbf33d85bf2b36ea5d5247a0d92852
+SHA512: 93463ea1c42f040f76135fdb74b40a385f18a249febbaa6b791314aad4e115683b19aa0c81b4caf1402b00d3d2e7cc68116174957cfb321fc89b8d8808c5edf1
 Homepage: http://www.strongswan.org
 Description: strongSwan utility and crypto library
 Description-md5: 397c7109a71b78fc4d9cd32308d472df
 
 Package: libstrongswan-standard-plugins
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Source: strongswan
@@ -9297,14 +10057,14 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 423
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.25), libip4tc2 (>= 1.8.3), libssl1.1 (>= 1.1.1)
-Filename: pool/main/s/strongswan/libstrongswan-standard-plugins_5.9.1-1ubuntu3.1_amd64.deb
-Size: 74436
-MD5sum: e8e4655b4e75f76510a73a2ec4b9f860
-SHA1: 0dfebc0cf2549f7aa9f53353ea4d52480e5e5eaa
-SHA256: 392efb2847aba69fd862d64acaf427fb74a55871521fa1c833df625e45eac4fc
-SHA512: a27f29f3a0408053da326ebff4488eaf2cf99c2a05e2e94a71a846b4ef71e3d98ba3ba54dc1a3e3c07263d7525f854c507c7b4d0579c3d6bc09473df9ac6d014
+Installed-Size: 424
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.25), libip4tc2 (>= 1.8.3), libssl1.1 (>= 1.1.1)
+Filename: pool/main/s/strongswan/libstrongswan-standard-plugins_5.9.1-1ubuntu3.2_amd64.deb
+Size: 74444
+MD5sum: 931ca6bc92c2ab0bb2c00a8f0bc6eba0
+SHA1: 85c9e5a88e0a245894534fc8fc7f5f0842a4344e
+SHA256: e7ee96a68949ca37f38c36cd0427dcf275a8ecf6959385aa3c0c35d3d5910a52
+SHA512: 6efb2df6307e4ce56fe3476e8ca7cad8d350fb1f1434dcdce3d00daf93e7574e1b6904bcbd9a0d9c47796b6f3933d696da1e7eb381d98d8a981940fe33ece7f9
 Homepage: http://www.strongswan.org
 Description: strongSwan utility and crypto library (standard plugins)
 Description-md5: 84424f5380a28b65d960aa52e6f242ea
@@ -22241,28 +23001,28 @@ Description-md5: b00e309365895c14a10af55945efb136
 
 Package: strongswan
 Architecture: all
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 181
+Installed-Size: 182
 Depends: strongswan-charon, strongswan-starter
-Filename: pool/main/s/strongswan/strongswan_5.9.1-1ubuntu3.1_all.deb
+Filename: pool/main/s/strongswan/strongswan_5.9.1-1ubuntu3.2_all.deb
 Size: 18702
-MD5sum: 4de04e78db7a06fe767b86fa969857d6
-SHA1: 21bea3df3dd8123cb263bcf159b3f68909419f0d
-SHA256: 2a5c6a7889464dc7644f663dc5ac41d66068c11d477f5298d635cee85d8db2de
-SHA512: f64f77b12f3c341cbcb61402285e0a8275c2b2638c815d23c2064db35fa838a44ee4d97bb7fcaaf7cb823490ce65b4e48416f2eb1fa8be5493036e4d39e1ae54
+MD5sum: 10d43d58e4f6f1ccc33602cff5c6f667
+SHA1: 21da02367c64cf234f9fecc64fa67993beb0c1b2
+SHA256: 62c3381f8338c56640c977716714d1f048e8798b4f5133396b98b8529dc1f8ed
+SHA512: c43b3299dfabcd21ddd8cd1568a033e0d8446591daa309fb2ddeb154f80d1ea26dbfacc45772afa933e79d4cccfd6a7cb6f22aab4fcc49180e71dd6107cc7daa
 Homepage: http://www.strongswan.org
 Description: IPsec VPN solution metapackage
 Description-md5: 60d8ad9f14179591b0cca394e94e3d4b
 
 Package: strongswan-charon
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Source: strongswan
@@ -22270,24 +23030,24 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 242
+Installed-Size: 243
 Provides: ike-server
 Pre-Depends: debconf | debconf-2.0
-Depends: iproute2 | iproute, libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34), strongswan-libcharon (>= 5.9.1)
+Depends: iproute2 | iproute, libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34), strongswan-libcharon (>= 5.9.1)
 Recommends: strongswan-starter
-Filename: pool/main/s/strongswan/strongswan-charon_5.9.1-1ubuntu3.1_amd64.deb
-Size: 23432
-MD5sum: f99e2d6c013c408e62a1748061fc4cb1
-SHA1: d8ede322a4fe63c60ee571330d499c8a3d6f6ef2
-SHA256: 72ef993df679ea68c12e8ec251594372599498b0b31581a0f4b176fa5675b549
-SHA512: 0fc87b03847150726b4cb04254d1dec2f3c49e3c83b4dbf9692cee16c584826f2f5815e5902aa6baf8936ad89208ce4cb3e0c657788968c2d1d57bcda521c3b9
+Filename: pool/main/s/strongswan/strongswan-charon_5.9.1-1ubuntu3.2_amd64.deb
+Size: 23430
+MD5sum: f4b17dab7619061e06710f0e11c05e6c
+SHA1: e2c82f69d2cba03787915e9b720f56bd11e2d964
+SHA256: f7707239fcdf60f86cb1c46f5623d88c5fcdfc6b262815e0f9e6196a8d2e2d83
+SHA512: 2cf5376b681c30179348072242c59f7bb53492758ad3bd9d480c668a453b2336bb79a65ac3db8b6ddd8cb1df0c20f93b5bb37875c804a7195bef334efd65683f
 Homepage: http://www.strongswan.org
 Description: strongSwan Internet Key Exchange daemon
 Description-md5: 3f55915d17f7e36d9b31e2c4da5c11d2
 
 Package: strongswan-libcharon
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Source: strongswan
@@ -22295,25 +23055,25 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 931
-Depends: libstrongswan (= 5.9.1-1ubuntu3.1), libc6 (>= 2.34)
+Installed-Size: 932
+Depends: libstrongswan (= 5.9.1-1ubuntu3.2), libc6 (>= 2.34)
 Recommends: libcharon-extauth-plugins
 Suggests: libcharon-extra-plugins
 Breaks: strongswan-starter (<= 5.6.1-2)
 Replaces: strongswan-starter (<= 5.6.1-2)
-Filename: pool/main/s/strongswan/strongswan-libcharon_5.9.1-1ubuntu3.1_amd64.deb
-Size: 263780
-MD5sum: 7a79bf854e439adf046e21c49daf4afd
-SHA1: d097cd724b99642e7845aa8b8a8eecf70dcf15b3
-SHA256: 5be336dbd60480eb04e842c466804ed73402a1ab3ec45874c468aaa63d96035d
-SHA512: fc67fec7cbcb17d42911377a3d742ee6c0f4812fb32398985d716dc6bb03070148bf80f0922a53be3a5de371c10ea69406cb06841646eb3f5e657cd74105080b
+Filename: pool/main/s/strongswan/strongswan-libcharon_5.9.1-1ubuntu3.2_amd64.deb
+Size: 263862
+MD5sum: 4ce8aa2d88175e66a967bcbfc35add34
+SHA1: 851b987d51256768b52deda28371a2457b7292a1
+SHA256: 458cad8fd628d35444cd6a25202162b258b7f84a9cae7fd60f10e3282d436e50
+SHA512: 9b565be6c1a9f94085d73a845d5d9c573fe242611b46be8480a88c95c8a37c713909ab4b98d72fa914a0b23dc51bda659cb42a799d0206f917c52de4c9dbb66c
 Homepage: http://www.strongswan.org
 Description: strongSwan charon library
 Description-md5: 7ee8a1dbaf495a152a7f4be5e054abca
 
 Package: strongswan-starter
 Architecture: amd64
-Version: 5.9.1-1ubuntu3.1
+Version: 5.9.1-1ubuntu3.2
 Priority: optional
 Section: net
 Source: strongswan
@@ -22321,16 +23081,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: strongSwan Maintainers <pkg-swan-devel@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 622
+Installed-Size: 623
 Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: adduser, libstrongswan (= 5.9.1-1ubuntu3.1), lsb-base (>= 3.0-6), strongswan-charon, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34)
+Depends: adduser, libstrongswan (= 5.9.1-1ubuntu3.2), lsb-base (>= 3.0-6), strongswan-charon, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34)
 Conflicts: openswan
-Filename: pool/main/s/strongswan/strongswan-starter_5.9.1-1ubuntu3.1_amd64.deb
-Size: 155698
-MD5sum: ce97d2c809d473b859bee324fa6284cb
-SHA1: 07e65f5a107c2d520bebd30af07fd820dcfd4ffc
-SHA256: 4ec97f8edadc9782a9231ee2072d09e5add4f209da9142819e62e1f713f4d27d
-SHA512: 13355709590acb513a84395e344d95eba57a62886c251d98b51cebee484def1a485aa80b68557f662dfb6bf9b4dfb3a2b4d61911657233bc20ee24af7d81e70a
+Filename: pool/main/s/strongswan/strongswan-starter_5.9.1-1ubuntu3.2_amd64.deb
+Size: 155686
+MD5sum: a35515e4e5b542acafd87eae3b0606fa
+SHA1: faf6f6e7046e8c6d2f11721612c990896b1f14a0
+SHA256: 233742915c9041f6176baa42fa008de2b442ee8c7e90d00fe6b4470a0a6b4e84
+SHA512: 8c3d90b685f179bac82652a503f4872ec78560eef802c02f0142c560b7c2e2a1cf5f7c144bc338d3bb34143e63fd205f86d4b2204532fa710190f90776a7dc59
 Homepage: http://www.strongswan.org
 Description: strongSwan daemon starter and configuration file parser
 Description-md5: b25b8defb52457fc021a93ec427b9da8
