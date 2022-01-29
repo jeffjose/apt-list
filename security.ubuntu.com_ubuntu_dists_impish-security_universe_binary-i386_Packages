@@ -640,7 +640,7 @@ Description-md5: c7d59a541c5d9998f886d74daf4ac8d6
 
 Package: libjavascriptcoregtk-4.0-bin
 Architecture: i386
-Version: 2.34.3-0ubuntu0.21.10.1
+Version: 2.34.4-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/interpreters
 Source: webkit2gtk
@@ -651,12 +651,12 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1158
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.65.1), libicu67 (>= 67.1-1~), libjavascriptcoregtk-4.0-18, libstdc++6 (>= 9), libsystemd0
 Conflicts: libjavascriptcoregtk-3.0-bin
-Filename: pool/universe/w/webkit2gtk/libjavascriptcoregtk-4.0-bin_2.34.3-0ubuntu0.21.10.1_i386.deb
-Size: 383402
-MD5sum: ae281e792680235335588bebb34796e0
-SHA1: 13b67fc695a837e9b9561da3a8a2143a6053125f
-SHA256: 9f14edc4852f78013bbe780d4fc357d2bcc26686712ed6a664c66e8925a50be8
-SHA512: 211ad5cfdad3c9a2aa2ff39d2cad314f036db1d735b90f212b4169ef5bbc0e919ccf5ed6de23d2b03086f25e3e50bd70e438288654e72667eb44935151dd7eab
+Filename: pool/universe/w/webkit2gtk/libjavascriptcoregtk-4.0-bin_2.34.4-0ubuntu0.21.10.1_i386.deb
+Size: 383396
+MD5sum: 711d6d56e40a0de12c5465ee42ab14c6
+SHA1: 469848f1e856d10684fb8098bb1361c01563afee
+SHA256: ad0bf347f9612e7d4f3f3aa0f3a21c9f6f6e39eb020aa6669b923a0255f2d8f3
+SHA512: d8cff38d9f886402a8d99d105f706af21b263b4f2dcd1255746275c3d8756b388a0c7fb658ae76f040209d21d7d9d6f5abb19696106ce8d7b50afb63191f9901
 Homepage: https://webkitgtk.org/
 Description: JavaScript engine library from WebKitGTK - command-line interpreter
 Description-md5: d63d3c5b674d87705002872786bc6cce
@@ -3167,7 +3167,7 @@ Description-md5: fcdf3cc569fec99526c4f1c044063f82
 
 Package: webkit2gtk-driver
 Architecture: i386
-Version: 2.34.3-0ubuntu0.21.10.1
+Version: 2.34.4-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: webkit2gtk
@@ -3176,13 +3176,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1261
-Depends: libwebkit2gtk-4.0-37 (= 2.34.3-0ubuntu0.21.10.1), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.65.1), libicu67 (>= 67.1-1~), libsoup2.4-1 (>= 2.54.0), libstdc++6 (>= 9), libsystemd0
-Filename: pool/universe/w/webkit2gtk/webkit2gtk-driver_2.34.3-0ubuntu0.21.10.1_i386.deb
-Size: 394438
-MD5sum: 86c51d3e2239f3e8aa216df8278b8306
-SHA1: 92584de35da70add4a3b0805943d07c9bdc15c7a
-SHA256: 4141484ba1b99110bac34be70a7717bddccf637ccf9db6061e498bab0f802a0b
-SHA512: 6225b1842a1375be53791c3440c5863f66cca571db8d0b852a18924c14de6dc249ada4b5fd36b39699c36c9dcfb0cb6f09a5bba8ce7cb68fd584c9cf2554028f
+Depends: libwebkit2gtk-4.0-37 (= 2.34.4-0ubuntu0.21.10.1), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.65.1), libicu67 (>= 67.1-1~), libsoup2.4-1 (>= 2.54.0), libstdc++6 (>= 9), libsystemd0
+Filename: pool/universe/w/webkit2gtk/webkit2gtk-driver_2.34.4-0ubuntu0.21.10.1_i386.deb
+Size: 394432
+MD5sum: 7a5c315d8a6773bbabe93030f39bcb22
+SHA1: 9bd5f3819562fc278611c3364cdfd94e2024d2d2
+SHA256: 6c9f031cfe7a041a7669bfe8c116d227c79fe2c5f84e75c9177c1526b7852379
+SHA512: bfac6b34911673224247b9f4533fcaa2a7403dea8fb21c72e598f1f6da0a2082217a423ecbcd9601d7777a50ae47346142af184f617217545e74cb6657aee676
 Homepage: https://webkitgtk.org/
 Description: WebKitGTK WebDriver support
 Description-md5: b1b90b3877648e44017be43c33ecc59b

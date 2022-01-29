@@ -1160,6 +1160,14 @@ Description-en: Free Remote Desktop Protocol library (development files)
  .
  This package contains the FreeRDP development files.
 
+Package: gce-compute-image-packages
+Description-md5: 80b63009609ad08d1fc3b6f017dd400f
+Description-en: transitional dummy package
+ This dummy package is provided for a smooth transition from the
+ previous old package name to google-compute-engine.
+ .
+ It may be safely removed after installation.
+
 Package: ghostscript
 Description-md5: 3b69f5ec8191e8f0d88dd3e30e7b1b69
 Description-en: interpreter for the PostScript language and for PDF
@@ -1351,6 +1359,17 @@ Description-en: GObject introspection data for Mutter
  This package contains the GObject introspection data which may be
  used to generate dynamic bindings.
 
+Package: gir1.2-polkit-1.0
+Description-md5: 4f1754998d1990ea4af7a70d3a9b9278
+Description-en: GObject introspection data for PolicyKit
+ PolicyKit is a toolkit for defining and handling the policy that
+ allows unprivileged processes to speak to privileged processes.
+ .
+ This package contains introspection data for PolicyKit.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: gir1.2-qmi-1.0
 Description-md5: d2359cce6cb7204cf8508ef20dcb4b5c
 Description-en: GObject introspection data for libqmi-glib
@@ -1374,6 +1393,12 @@ Description-en: Web content engine library for GTK - GObject introspection data
  .
  This package contains introspection data, which can be used by
  packages using the GIRepository format to generate dynamic bindings.
+
+Package: google-compute-engine
+Description-md5: 3d02273d24f60afb7027868edacd1b20
+Description-en: Google Compute Engine guest environment.
+ This package contains scripts and configuration files for
+ features specific to the Google Compute Engine cloud environment.
 
 Package: ibus-mozc
 Description-md5: 88b12aa5cdc5ae186ce940b50e7ee25b
@@ -2354,6 +2379,40 @@ Description-en: shared library libpgtypes for PostgreSQL 13
  (Embedded PostgreSQL for C).
  .
  PostgreSQL is an object-relational SQL database management system.
+
+Package: libpolkit-agent-1-0
+Description-md5: 9a6eb26d9cf44b4d9acb5e041f4ddf18
+Description-en: PolicyKit Authentication Agent API
+ PolicyKit is a toolkit for defining and handling the policy that
+ allows unprivileged processes to speak to privileged processes.
+ .
+ This package contains a library for accessing the authentication agent.
+
+Package: libpolkit-agent-1-dev
+Description-md5: 7e82da0ca3c53b982d17cc8ea9690d79
+Description-en: PolicyKit Authentication Agent API - development files
+ PolicyKit is a toolkit for defining and handling the policy that
+ allows unprivileged processes to speak to privileged processes.
+ .
+ This package contains the development files for the library found in
+ libpolkit-agent-1-0.
+
+Package: libpolkit-gobject-1-0
+Description-md5: c1a8724c66c4379fb4889482c08012fc
+Description-en: PolicyKit Authorization API
+ PolicyKit is a toolkit for defining and handling the policy that
+ allows unprivileged processes to speak to privileged processes.
+ .
+ This package contains a library for accessing PolicyKit.
+
+Package: libpolkit-gobject-1-dev
+Description-md5: 087c4a65220a0fe10af5d323da0bd877
+Description-en: PolicyKit Authorization API - development files
+ PolicyKit is a toolkit for defining and handling the policy that
+ allows unprivileged processes to speak to privileged processes.
+ .
+ This package contains the development files for the library found in
+ libpolkit-gobject-1-0.
 
 Package: libpq-dev
 Description-md5: 7f4362b106aae6b219ccc880faa1f04c
@@ -9821,6 +9880,24 @@ Description-en: DOM, SimpleXML, XML, and XSL module for PHP
  PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
  open source general-purpose scripting language that is especially suited
  for web development and can be embedded into HTML.
+
+Package: policykit-1
+Description-md5: 233f6ea057dc90084c0e92b57d21a7a8
+Description-en: framework for managing administrative policies and privileges
+ PolicyKit is an application-level toolkit for defining and handling the policy
+ that allows unprivileged processes to speak to privileged processes.
+ .
+ It is a framework for centralizing the decision making process with respect to
+ granting access to privileged operations for unprivileged (desktop)
+ applications.
+
+Package: policykit-1-doc
+Description-md5: 4f476c937cdfc4c2d7a4b81404d7a637
+Description-en: documentation for PolicyKit-1
+ PolicyKit is a toolkit for defining and handling the policy that
+ allows unprivileged processes to speak to privileged processes.
+ .
+ This package contains the API documentation of PolicyKit.
 
 Package: postgresql-13
 Description-md5: df9917fe1350be06d60c0b79c1c53e5a

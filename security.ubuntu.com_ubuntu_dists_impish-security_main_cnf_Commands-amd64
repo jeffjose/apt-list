@@ -175,6 +175,10 @@ name: php8.0-dev
 version: 8.0.8-1ubuntu0.1
 commands: php-config,php-config8.0,phpize,phpize8.0
 
+name: policykit-1
+version: 0.105-31ubuntu0.1
+commands: pkaction,pkcheck,pkexec,pkttyagent
+
 name: python3-django
 version: 2:2.2.24-1ubuntu1.2
 commands: django-admin

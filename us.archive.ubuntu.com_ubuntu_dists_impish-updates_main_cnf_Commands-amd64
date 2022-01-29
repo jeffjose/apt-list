@@ -115,6 +115,10 @@ name: ghostscript
 version: 9.54.0~dfsg1-0ubuntu2.1
 commands: dvipdf,eps2eps,ghostscript,gs,gsbj,gsdj,gsdj500,gslj,gslp,gsnd,pdf2dsc,pdf2ps,pf2afm,pfbtopfa,pphs,printafm,ps2ascii,ps2epsi,ps2pdf,ps2pdf12,ps2pdf13,ps2pdf14,ps2pdfwr,ps2ps,ps2ps2,ps2txt,update-gsfontmap
 
+name: google-compute-engine
+version: 20211028.00-0ubuntu1~21.10.0
+commands: google_optimize_local_ssd,google_set_hostname,google_set_multiqueue
+
 name: ipset
 version: 7.10-1ubuntu0.21.10.1
 commands: ipset
@@ -278,6 +282,10 @@ commands: phar,phar.phar,phar.phar8.0,phar8.0,phar8.0.phar,php,php8.0
 name: php8.0-dev
 version: 8.0.8-1ubuntu0.1
 commands: php-config,php-config8.0,phpize,phpize8.0
+
+name: policykit-1
+version: 0.105-31ubuntu0.1
+commands: pkaction,pkcheck,pkexec,pkttyagent
 
 name: pulseaudio
 version: 1:15.0+dfsg1-1ubuntu2.2
