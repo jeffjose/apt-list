@@ -4,7 +4,7 @@ arch: amd64
 
 
 name: cockpit-bridge
-version: 260-1~bpo21.10.1+1
+version: 261-1~bpo21.10.1
 commands: cockpit-bridge
 
 name: ubuntu-dev-tools
