@@ -12,15 +12,15 @@ version: 2.20.11-0ubuntu71
 commands: apport-valgrind
 
 name: bluez-hcidump
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: hcidump
 
 name: bluez-meshd
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: mesh-cfgclient,meshctl
 
 name: bluez-tests
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: b1ee,bnep-tester,btvirt,gap-tester,hci-tester,hfp,l2cap-tester,mgmt-tester,rfcomm-tester,sco-tester,smp-tester,userchan-tester
 
 name: busybox
@@ -32,7 +32,7 @@ version: 0.99.beta19-2.2ubuntu2.1
 commands: cacaclock,cacademo,cacafire,cacaplay,cacaserver,cacaview,img2txt
 
 name: cargo
-version: 0.54.0-0ubuntu1~21.10.1
+version: 0.58.0-0ubuntu1~21.10.1
 commands: cargo
 
 name: charon-cmd
@@ -48,7 +48,7 @@ version: 0.103.5+dfsg-1~21.10.1
 commands: clamav-milter
 
 name: ctdb
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: ctdb,ctdb_diagnostics,ctdb_local_daemons,ctdbd,ctdbd_wrapper,ltdbtool,onnode,ping_pong
 
 name: dh-apport
@@ -64,7 +64,7 @@ version: 0.27.3-3ubuntu4.1
 commands: exiv2
 
 name: firefox-geckodriver
-version: 96.0+build2-0ubuntu0.21.10.1
+version: 97.0+build2-0ubuntu0.21.10.1
 commands: geckodriver
 
 name: flatpak
@@ -86,6 +86,10 @@ commands: xfreerdp
 name: ldb-tools
 version: 2:2.2.3-0ubuntu0.21.10.2
 commands: ldbadd,ldbdel,ldbedit,ldbmodify,ldbrename,ldbsearch
+
+name: libarchive-tools
+version: 3.4.3-2ubuntu0.1
+commands: bsdcat,bsdcpio,bsdtar
 
 name: libcharon-extra-plugins
 version: 5.9.1-1ubuntu3.2
@@ -156,7 +160,7 @@ version: 1:10.5.13-0ubuntu0.21.10.1
 commands: mariadb-client-test,mariadb-client-test-embedded,mariadb-test,mariadb-test-embedded,mysql_client_test,mysql_client_test_embedded,mysqltest,mysqltest_embedded
 
 name: mysql-router
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: mysqlrouter,mysqlrouter_keyring,mysqlrouter_passwd,mysqlrouter_plugin_info
 
 name: openjdk-17-jdk
@@ -212,32 +216,36 @@ version: 5.15.2+dfsg-12ubuntu1.1
 commands: x86_64-linux-gnu-qmake
 
 name: registry-tools
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: regdiff,regpatch,regshell,regtree
 
 name: rust-clippy
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: cargo-clippy,clippy-driver
 
 name: rust-gdb
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: rust-gdb,rust-gdbgui
 
 name: rust-lldb
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: rust-lldb
 
 name: rustc
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: rust-clang,rust-lld,rust-llvm-dwp,rustc,rustdoc
 
 name: rustfmt
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: cargo-fmt,rustfmt
 
 name: samba-testsuite
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: gentest,locktest,masktest,ndrdump,smbtorture
+
+name: speex
+version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+commands: speexdec,speexenc
 
 name: strongswan-pki
 version: 5.9.1-1ubuntu3.2

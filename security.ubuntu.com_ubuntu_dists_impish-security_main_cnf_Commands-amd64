@@ -52,8 +52,16 @@ version: 1:9.16.15-1ubuntu1.1
 commands: dnssec-cds,dnssec-checkds,dnssec-coverage,dnssec-dsfromkey,dnssec-keyfromlabel,dnssec-keygen,dnssec-keymgr,dnssec-revoke,dnssec-settime,dnssec-signzone,dnssec-verify,named-checkconf,named-checkzone,named-compilezone,rndc,rndc-confgen
 
 name: bluez
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: avinfo,bluemoon,bluetoothctl,bluetoothd,btattach,btmgmt,btmon,ciptool,gatttool,hciattach,hciconfig,hcitool,hex2hcd,l2ping,l2test,obexctl,rctest,rfcomm,sdptool
+
+name: bsdextrautils
+version: 2.36.1-8ubuntu2.2
+commands: col,colcrt,colrm,column,hd,hexdump,look,ul,write,write.ul
+
+name: bsdutils
+version: 1:2.36.1-8ubuntu2.2
+commands: logger,renice,script,scriptlive,scriptreplay,wall
 
 name: busybox-static
 version: 1:1.30.1-6ubuntu3.1
@@ -79,8 +87,24 @@ name: clamdscan
 version: 0.103.5+dfsg-1~21.10.1
 commands: clamdscan
 
+name: cryptsetup
+version: 2:2.3.7-0ubuntu0.21.10.1
+commands: cryptdisks_start,cryptdisks_stop,luksformat
+
+name: cryptsetup-bin
+version: 2:2.3.7-0ubuntu0.21.10.1
+commands: cryptsetup,cryptsetup-reencrypt,integritysetup,veritysetup
+
+name: eject
+version: 2.36.1-8ubuntu2.2
+commands: eject
+
+name: fdisk
+version: 2.36.1-8ubuntu2.2
+commands: cfdisk,fdisk,sfdisk
+
 name: firefox
-version: 96.0+build2-0ubuntu0.21.10.1
+version: 97.0+build2-0ubuntu0.21.10.1
 commands: firefox,gnome-www-browser,x-www-browser
 
 name: ghostscript
@@ -104,7 +128,7 @@ version: 13.5-0ubuntu0.21.10.1
 commands: ecpg
 
 name: libmysqlclient-dev
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: mysql_config
 
 name: libnss3-dev
@@ -116,27 +140,31 @@ version: 13.5-0ubuntu0.21.10.1
 commands: pg_config
 
 name: linux-cloud-tools-common
-version: 5.13.0-27.29
+version: 5.13.0-28.31
 commands: hv_fcopy_daemon,hv_get_dhcp_info,hv_get_dns_info,hv_kvp_daemon,hv_set_ifconfig,hv_vss_daemon,lsvmbus
 
 name: linux-tools-common
-version: 5.13.0-27.29
+version: 5.13.0-28.31
 commands: acpidbg,bpftool,cpupower,perf,turbostat,usbip,usbipd,x86_energy_perf_policy
 
 name: linux-tools-host
-version: 5.13.0-27.29
+version: 5.13.0-28.31
 commands: kvm_stat
 
+name: mount
+version: 2.36.1-8ubuntu2.2
+commands: losetup,mount,swapoff,swapon,umount
+
 name: mysql-client-8.0
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: mysqlanalyze,mysqloptimize,mysqlrepair,mysqlreport
 
 name: mysql-client-core-8.0
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: myisam_ftdump,mysql,mysql_config_editor,mysqladmin,mysqlcheck,mysqldump,mysqldumpslow,mysqlimport,mysqlpump,mysqlshow,mysqlslap
 
 name: mysql-server-core-8.0
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: ibd2sdi,innochecksum,my_print_defaults,myisamchk,myisamlog,myisampack,mysql_migrate_keyring,mysql_secure_installation,mysql_ssl_rsa_setup,mysql_tzinfo_to_sql,mysql_upgrade,mysqlbinlog,mysqld,mysqld_multi,mysqld_safe,perror
 
 name: openjdk-11-jdk
@@ -180,24 +208,32 @@ version: 0.105-31ubuntu0.1
 commands: pkaction,pkcheck,pkexec,pkttyagent
 
 name: python3-django
-version: 2:2.2.24-1ubuntu1.2
+version: 2:2.2.24-1ubuntu1.3
 commands: django-admin
+
+name: rfkill
+version: 2.36.1-8ubuntu2.2
+commands: rfkill
 
 name: ruby2.7
 version: 2.7.4-1ubuntu3.1
 commands: bundle2.7,bundler2.7,erb2.7,gem2.7,irb2.7,racc2.7,racc2y2.7,rdoc2.7,ri2.7,ruby2.7,y2racc2.7
 
 name: samba
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: dumpmscat,eventlogadm,mksmbpasswd,mvxattr,nmbd,oLschema2ldif,pdbedit,profiles,samba,samba-gpupdate,samba_dnsupdate,samba_downgrade_db,samba_spnupdate,samba_upgradedns,sharesec,smbcontrol,smbd,smbstatus
 
 name: samba-common-bin
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: dbwrap_tool,net,nmblookup,samba-regedit,samba-tool,samba_kcc,smbpasswd,testparm
 
 name: smbclient
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: cifsdd,findsmb,mdsearch,rpcclient,smbcacls,smbclient,smbcquotas,smbget,smbspool,smbtar,smbtree
+
+name: snapd
+version: 2.54.3+21.10.1ubuntu0.1
+commands: snap,snapctl,snapfuse,ubuntu-core-launcher
 
 name: strongswan-starter
 version: 5.9.1-1ubuntu3.2
@@ -227,6 +263,14 @@ name: udev
 version: 248.3-1ubuntu8.2
 commands: systemd-hwdb,udevadm
 
+name: util-linux
+version: 2.36.1-8ubuntu2.2
+commands: addpart,agetty,blkdiscard,blkid,blkzone,blockdev,chcpu,chmem,choom,chrt,ctrlaltdel,delpart,dmesg,fallocate,fdformat,fincore,findfs,findmnt,flock,fsck,fsck.cramfs,fsck.minix,fsfreeze,fstrim,getopt,getty,hwclock,i386,ionice,ipcmk,ipcrm,ipcs,isosize,last,lastb,ldattach,linux32,linux64,lsblk,lscpu,lsipc,lslocks,lslogins,lsmem,lsns,mcookie,mesg,mkfs,mkfs.bfs,mkfs.cramfs,mkfs.minix,mkswap,more,mountpoint,namei,nsenter,pager,partx,pivot_root,prlimit,raw,readprofile,resizepart,rev,rtcwake,runuser,setarch,setpriv,setsid,setterm,su,sulogin,swaplabel,switch_root,taskset,unshare,utmpdump,wdctl,whereis,wipefs,x86_64,zramctl
+
+name: uuid-runtime
+version: 2.36.1-8ubuntu2.2
+commands: uuidd,uuidgen,uuidparse
+
 name: vim
 version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.basic,vimdiff
@@ -244,7 +288,7 @@ version: 2:8.2.2434-3ubuntu3.2
 commands: editor,eview,evim,ex,gview,gvim,gvimdiff,rgview,rgvim,rview,rvim,vi,view,vim,vim.tiny,vimdiff
 
 name: winbind
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: ntlm_auth,wbinfo,winbindd
 
 name: winpr-utils

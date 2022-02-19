@@ -1,6 +1,6 @@
 Package: cuda-drivers-fabricmanager-450
 Architecture: amd64
-Version: 450.156.00-0ubuntu0.21.10.1
+Version: 450.172.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
 Source: fabric-manager-450
@@ -9,44 +9,41 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 16
 Provides: cuda-drivers-fabricmanager
-Depends: nvidia-fabricmanager-450 (= 450.156.00-0ubuntu0.21.10.1)
+Depends: nvidia-fabricmanager-450 (= 450.172.01-0ubuntu0.21.10.1)
 Conflicts: cuda-drivers-fabricmanager
 Replaces: cuda-drivers-fabricmanager
-Filename: pool/multiverse/f/fabric-manager-450/cuda-drivers-fabricmanager-450_450.156.00-0ubuntu0.21.10.1_amd64.deb
-Size: 4408
-MD5sum: b41e92a040fe91a9d607b70a13be4609
-SHA1: c52272da5dfcf7d79b9481bd8d5750d308b29dd5
-SHA256: 471a261a4227f22b3ba0f7ddb095976213dce98669c5500e3e95913d77010dae
-SHA512: 32cdaaa762830addfd1acfd55b104e9a39736f7c00d1af470b606a3441a0d8c2d1d7073380770abbd2967b94c6f8548c0baaa4790d6bfacdb5198367f0ecebd8
+Filename: pool/multiverse/f/fabric-manager-450/cuda-drivers-fabricmanager-450_450.172.01-0ubuntu0.21.10.1_amd64.deb
+Size: 4412
+MD5sum: 55e191f2a13db05a2b793ac0cc21b9db
+SHA1: ba900991dc48723691a81e4d3af22f956737d2c5
+SHA256: d7cfb56028debd27ebc8949c1be377051c07e75d7cd8087c7b9b569a4999d43f
+SHA512: 7bcf90e280ed894abe0e631cdab30d8a0c03609fa32a837d528ddf0e60955225ad534da73b217e687dd8242bbaf5fab8193a7b9db171264354d01363147e29e2
 Description: Meta-package for FM and Driver
 Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
 
 Package: cuda-drivers-fabricmanager-460
 Architecture: amd64
-Version: 460.106.00-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
-Source: fabric-manager-460
+Source: fabric-manager-470
 Origin: Ubuntu
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 16
-Provides: cuda-drivers-fabricmanager
-Depends: nvidia-fabricmanager-460 (= 460.106.00-0ubuntu0.21.10.1)
-Conflicts: cuda-drivers-fabricmanager
-Replaces: cuda-drivers-fabricmanager
-Filename: pool/multiverse/f/fabric-manager-460/cuda-drivers-fabricmanager-460_460.106.00-0ubuntu0.21.10.1_amd64.deb
-Size: 4412
-MD5sum: 9854366fabc50f0b8960172831563b00
-SHA1: 00fdffa5991c0e9852df9bf2ac933b1157e98394
-SHA256: 3dc202e3d399c525e166b0f38692ec6450571883281ab3c31bbe0904b97e14d0
-SHA512: ea03fd0ce9e9557f6a89178517b0ba0984639878bb5b7d38a7a3bac2fafb417b7b8bec51276258e45af290f559ce55a0edc0a0bde57538edb6eb2153b5b97b65
-Description: Meta-package for FM and Driver
-Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Depends: cuda-drivers-fabricmanager-470
+Filename: pool/multiverse/f/fabric-manager-470/cuda-drivers-fabricmanager-460_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 4330
+MD5sum: 0cf0816b6d5e907e9eaeb8e5408b2423
+SHA1: 9970c443fcfc5c5767a32b422ee7abdf73b5412b
+SHA256: 28da4985393a050fefa2d68ea41ebbf9bf1e70d6a24ff61cf7438831bc16969e
+SHA512: 23c66965bd36482422ff2787bee6028502af4faf5575d5096801dedd58dae1bfb6d19ebd768cb2bdbb53ecddcaad85beb76796db9782dabe4eb7ab109a8402d6
+Description: Transitional package for cuda-drivers-fabricmanager-470
+Description-md5: c746aee8cee32a07762f629e3f8575a9
 
 Package: cuda-drivers-fabricmanager-470
 Architecture: amd64
-Version: 470.82.01-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/libs
 Source: fabric-manager-470
@@ -55,21 +52,21 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 16
 Provides: cuda-drivers-fabricmanager
-Depends: nvidia-fabricmanager-470 (= 470.82.01-0ubuntu0.21.10.1)
+Depends: nvidia-fabricmanager-470 (= 470.103.01-0ubuntu0.21.10.1)
 Conflicts: cuda-drivers-fabricmanager
 Replaces: cuda-drivers-fabricmanager
-Filename: pool/multiverse/f/fabric-manager-470/cuda-drivers-fabricmanager-470_470.82.01-0ubuntu0.21.10.1_amd64.deb
+Filename: pool/multiverse/f/fabric-manager-470/cuda-drivers-fabricmanager-470_470.103.01-0ubuntu0.21.10.1_amd64.deb
 Size: 4410
-MD5sum: f074534229a232738c04cb3be9ffaf15
-SHA1: 8b58804d786d42399e29fd9c23ba37638cbaa5ef
-SHA256: 3222be68264b16f709ae35a7f88b7d02a96ded718b14a16f5b6c864b11b7728e
-SHA512: ae011df12ab284b63a9ec57c642a8ff68bf099a2eaa8f6be20cb4b05910aef215a550b0ca83c76a00bc806212260031a8b448ffb52bb0edfe222408b23c99296
+MD5sum: 50bd75dd12e365d9edf21d31328d6a7f
+SHA1: d33fb5e3281e6b7d74c10a47401d2c5bd42c91a0
+SHA256: 2f724e7e39b9302faa28312f0d7a8b4dbf7bd9ed80c829e897d95521d90a6e04
+SHA512: 4f3e8eb54a3a19a28e053c1f7e0c854758f2a7f63490d873634e3661bb30e061721ae972328dfcacbb6d39ff34db752b2549d41bbb06d9b01f40419d08a9553c
 Description: Meta-package for FM and Driver
 Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
 
 Package: libnvidia-extra-440-server
 Architecture: amd64
-Version: 450.156.00-0ubuntu0.21.10.2
+Version: 450.172.01-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: multiverse/libs
@@ -79,19 +76,19 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 20
 Depends: libnvidia-extra-450-server
-Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-extra-440-server_450.156.00-0ubuntu0.21.10.2_amd64.deb
-Size: 6426
-MD5sum: 818db2a0d66b739fc6cef6af32e8a349
-SHA1: 75ee9d78899c0ace68e8a1a4664c9dcff70d01a2
-SHA256: 298d664129b43ace1320a23e439679a4a3cd167a7f91613e1f25a78f2da1f12f
-SHA512: ad298a482d75141b49ec49d9bd4c15fae4101e9de626b43fb36fb38a05a03702778ad52311264fc6ab6f830f7b2ccf6cad022b523c7e1236c71d8b9f0c927b65
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-extra-440-server_450.172.01-0ubuntu0.21.10.1_amd64.deb
+Size: 6394
+MD5sum: c1e9f80430f2f6a1273f84c47f62e214
+SHA1: a5b4e54b149a1c52694bf04a438c492e726def9e
+SHA256: 593afe14ea4e770cf74899d5160e81f256139ddb0cdda6e46961e560de0e563d
+SHA512: 4c12c57f4a780ac912d6b7d3cf83a9d9881a3bf95de03af1486c33714e52807ddee66579715bea2b09e31e3b6c425ef63c57843e8e85ab3886fb85f4a1ddcd9a
 Homepage: http://www.nvidia.com
 Description: Transitional package for libnvidia-extra-450-server
 Description-md5: 6ac988d902fba392b10a5278636a1d52
 
 Package: libnvidia-extra-460
 Architecture: amd64
-Version: 470.86-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: multiverse/libs
@@ -101,19 +98,19 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 20
 Depends: libnvidia-extra-470
-Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-460_470.86-0ubuntu0.21.10.1_amd64.deb
-Size: 7322
-MD5sum: 916581bc39d984526b04414eeff64d3d
-SHA1: 8ed1122cbf941c49c313b83522d366f105c0883f
-SHA256: e4e87d30dd0bb253ca1afd27e51e64c4b9560ed46ac43832d14e7b792b40e5f0
-SHA512: b20e8db6d76d54586409ac38627e24dbac1610adf1ebb3311cb8d8574b63ddbfccf682ce434c1ad116138a1e26af584b6740802ff40f7f8e9629435363a49258
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-460_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 7410
+MD5sum: c95809759edf5079728e0b8c9ec5035f
+SHA1: f0a009fabab61b01fd16988c9f9b67e5c2a49d68
+SHA256: 826e199ebbc1635c94ea083cb37363118fe0f0e9674e737f234fbf11cfa7891d
+SHA512: 5798d74df2aa68173c00f49a34063d4effea979a5721a88bd723d5c087e7e0abb328b1c737fef92a0ee6f0027e891f682490cbd291bbdea8fbc3f815ad77c68b
 Homepage: http://www.nvidia.com
 Description: Transitional package for libnvidia-extra-470
 Description-md5: b5bdf6ea212199feb2fcaa84e3791b69
 
 Package: libnvidia-extra-465
 Architecture: amd64
-Version: 470.86-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: multiverse/libs
@@ -123,19 +120,19 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 20
 Depends: libnvidia-extra-470
-Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-465_470.86-0ubuntu0.21.10.1_amd64.deb
-Size: 7324
-MD5sum: 552407a3da85cc8fe6083bbe37cd6fa0
-SHA1: 7a7b0363b6b55bde4ec4082de0890a4615cc2536
-SHA256: 7c552adfb822a4e4fdbae108d3407653da7bf319d68a8d61a49861928a1921aa
-SHA512: 3ff738033eb650c4ea7dc03550e89c33ea911cbd68334a06e6828852c1a28f2dfe8ad349724de1e0d8b291f18ac1ceb81c17a3f9a460df32414edaab38555a3c
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-465_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 7410
+MD5sum: 83a91c3b619a8e6d080378c4dc67e244
+SHA1: d7865756c0ad23e1c922ab3bd4dfd7e66a30cc07
+SHA256: 7d543a1faa15bfc330dfb694541178bffaad78c27db950285e2d09c836cc40a9
+SHA512: ce97c890cbc04123af69b5e979230789f3b2bd61d7bddce6ca7e19b06c20529a7136287d4574f7fa315ef19ff2965969a71905f953ddf1c1d0f9f41f4057bbab
 Homepage: http://www.nvidia.com
 Description: Transitional package for libnvidia-extra-470
 Description-md5: b5bdf6ea212199feb2fcaa84e3791b69
 
 Package: libnvidia-nscq-450
 Architecture: amd64
-Version: 450.156.00-0ubuntu0.21.10.1
+Version: 450.172.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
 Origin: Ubuntu
@@ -145,39 +142,38 @@ Installed-Size: 1065
 Provides: libnvidia-nscq, nscq-api, nscq1
 Conflicts: libnvidia-nscq
 Replaces: libnvidia-nscq
-Filename: pool/multiverse/libn/libnvidia-nscq-450/libnvidia-nscq-450_450.156.00-0ubuntu0.21.10.1_amd64.deb
-Size: 301170
-MD5sum: 639cf0c7d64e6b568fe39ee695fc1d67
-SHA1: 3a92f08f71de92175b99a4ca5a011159e631fe74
-SHA256: 309ab6a12515af771a566e1100776c83cb171d4f909e37e5032205bc9c63cada
-SHA512: 8205d7aedd31de58ad5c00bc43b2f62b17f039b46b41b86d4a7c72e68eb2c8523e74449674e5125c6ded0b16bebad4c63eae50aa2c86cb8651e2ab5cee339fd7
+Filename: pool/multiverse/libn/libnvidia-nscq-450/libnvidia-nscq-450_450.172.01-0ubuntu0.21.10.1_amd64.deb
+Size: 301200
+MD5sum: 0ba09a42734ff702186162693bf8615b
+SHA1: 1399d41ff3ea0e9cd59b480a1cbe21b10977e27c
+SHA256: 397587959711caf094f1dd75e4008f25c832ca20ed20e69ba282f448556a4b1c
+SHA512: a3feb294bd3283c2c52012cda1e64319d1ddd0052465247c311ba5212f6b27aa963efd0c67acfac4ae61dbb2db13d3ade8c9cb086c49e43e2dd090a2c1a1f1bc
 Description: NVSwitch Configuration and Query library
 Description-md5: 06d90fb68ae67655c00815a4db03a64e
 
 Package: libnvidia-nscq-460
 Architecture: amd64
-Version: 460.106.00-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
+Source: libnvidia-nscq-470
 Origin: Ubuntu
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 1097
-Provides: libnvidia-nscq, nscq-api, nscq1
-Conflicts: libnvidia-nscq
-Replaces: libnvidia-nscq
-Filename: pool/multiverse/libn/libnvidia-nscq-460/libnvidia-nscq-460_460.106.00-0ubuntu0.21.10.1_amd64.deb
-Size: 309620
-MD5sum: 008e993c23a7092c0cb06069c17bdb20
-SHA1: 538c8b652fd0ad19998c118fa0bb1c7481e721dc
-SHA256: dc2a86d91339fb491ff46491ad98f35c92181bbddd129c5ec6c01e84efaadc01
-SHA512: 89d0d39e80e50aa83754dee8622b7456a44f522f5cf399914d8c73c045e2a02e1858f3ad489e0afbb2d28d3ea49f6e7954879a5d58af03a31001729a52b9e061
-Description: NVSwitch Configuration and Query library
-Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Installed-Size: 16
+Depends: libnvidia-nscq-470
+Filename: pool/multiverse/libn/libnvidia-nscq-470/libnvidia-nscq-460_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 4310
+MD5sum: 09057da617b9c6110616162405855d2a
+SHA1: 2856a215f6e72260ce68fbfc12bf71a98f963f17
+SHA256: f41d807616b13f14f5046084481809dec466e5e335e15d5645768fdbe74dce98
+SHA512: 04b81933129b8bc4223e0325fd339ddcc613be3ec425280a8107c1f19c6a4368db2f62b167ae0e066cb1f37bc9e9aac1c3a8721423727beb77782c8bf2e89311
+Description: Transitional package for libnvidia-nscq-470
+Description-md5: 5c18da8fbc7182f2b6ef12bba5b490cb
 
 Package: libnvidia-nscq-470
 Architecture: amd64
-Version: 470.82.01-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/libs
 Origin: Ubuntu
@@ -187,84 +183,82 @@ Installed-Size: 1137
 Provides: libnvidia-nscq, nscq-api, nscq1
 Conflicts: libnvidia-nscq
 Replaces: libnvidia-nscq
-Filename: pool/multiverse/libn/libnvidia-nscq-470/libnvidia-nscq-470_470.82.01-0ubuntu0.21.10.1_amd64.deb
-Size: 316454
-MD5sum: 832b8ed1057a3f0964c43cf6524e2462
-SHA1: 24f08b9f4b84bd6bc40e0c89bb6e38672a4b0135
-SHA256: f1953f614eca8b4ad6fadb0ec889fd663a7c84908a105895358b6922d0da76d8
-SHA512: 62bea46ba16b8579dabf33fd72c0970346bd4af04d5c853c20b15ebde1f30bf860e9b44ee49451bcd4b15061f47730ce2c46515c5bd3ccf51782a7c6b7f94a55
+Filename: pool/multiverse/libn/libnvidia-nscq-470/libnvidia-nscq-470_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 319068
+MD5sum: 7abf51b117725d53624b180de599d936
+SHA1: adaa35d62b8bc8ec24892b2f6d83efecbac7d218
+SHA256: d2b6862e539c707d107f1fd0577038dd5d506636402c510853b6f1f0661c8fb7
+SHA512: bc56b5910676331a6f446496b8d6c941a7273266fc766f5cb7b20a2b7e7d68bb3015b87304c991aedc3aae1f1f28a914cb2e19a8230f03d8234aad687235a47e
 Description: NVSwitch Configuration and Query library
 Description-md5: 06d90fb68ae67655c00815a4db03a64e
 
 Package: nvidia-fabricmanager-450
 Architecture: amd64
-Version: 450.156.00-0ubuntu0.21.10.1
+Version: 450.172.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
 Source: fabric-manager-450
 Origin: Ubuntu
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 4923
+Installed-Size: 4927
 Provides: nvidia-fabricmanager
 Conflicts: nvidia-fabricmanager
 Replaces: nvidia-fabricmanager
-Filename: pool/multiverse/f/fabric-manager-450/nvidia-fabricmanager-450_450.156.00-0ubuntu0.21.10.1_amd64.deb
-Size: 1089772
-MD5sum: d00c7e5b1a0ee7dc52eb545827f5a04a
-SHA1: 04ebfbdefef09bf98adf1773aa3a69bf09b42595
-SHA256: 4f2cb8973193a5eab21c3e33d7d945eebcc1f4aa722315a313ca14413f0aceee
-SHA512: de8ac887d9ecceb630230668fbdd15515799735fc28728fafd1b5037017c88206107122db0ae4f7f54837c7ae7227672a78c2a2eb12d1fd0e272cfedbe46eeb4
+Filename: pool/multiverse/f/fabric-manager-450/nvidia-fabricmanager-450_450.172.01-0ubuntu0.21.10.1_amd64.deb
+Size: 1089442
+MD5sum: 2f014ded2b23ddbf25f981a9c41207ca
+SHA1: 28cd126357157f822032edd6bf5fb8c6ad71fd51
+SHA256: 7d4ea04ce335ad619afc4e006ef62a51a95cfe7f0be55ad7b81a405b9d310339
+SHA512: 258cb4fcf48edfa142aaa085857c44332d1c8d3ca81cf8385c80114f843885c07227ac199324fcb99d6edabcafb9f3ddea781b30974b64c58bdebf1315cf19e4
 Description: Fabric Manager for NVSwitch based systems.
 Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
 
 Package: nvidia-fabricmanager-460
 Architecture: amd64
-Version: 460.106.00-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
-Source: fabric-manager-460
+Source: fabric-manager-470
 Origin: Ubuntu
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 5070
-Provides: nvidia-fabricmanager
-Conflicts: nvidia-fabricmanager
-Replaces: nvidia-fabricmanager
-Filename: pool/multiverse/f/fabric-manager-460/nvidia-fabricmanager-460_460.106.00-0ubuntu0.21.10.1_amd64.deb
-Size: 1122932
-MD5sum: 611ef540307959ab5ce5e1fa75f9b804
-SHA1: 0906298ba322aa893cf206c163182311b04223ca
-SHA256: 5f62d0cd8dfc9fe3e0180966ca0584c0ce2d0389276b704c171a8f826ce27ca8
-SHA512: cb4f4648b737ebd7714cad11c98a38fd98c06a30fd5b594155a2f96c4b6dddd395566cc45f7c48f28dc3a92907f5cfa222296f00defd8e8f7c6d160f62ef38ec
-Description: Fabric Manager for NVSwitch based systems.
-Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Installed-Size: 16
+Depends: nvidia-fabricmanager-470
+Filename: pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-460_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 4338
+MD5sum: 634a301cb932695c26edec33fcff8042
+SHA1: e1bbc6c5e34da26c5ca5abdee1f6d1c87830171e
+SHA256: 31e19df499f1d90f479406ec3607794bd73e098012bd21656972d9ae043c8091
+SHA512: 00fa8d729d5cc05882138199956e1359cc9add5b8fe50dad40c143ea51cb52cb35b731f15be2d5966c9329fcfb648da77733a8daf075d273f24c09d7cb75159e
+Description: Transitional package for nvidia-fabricmanager-#FLAVOUR#
+Description-md5: 127ff08d88ec25e06d9075de2427bd02
 
 Package: nvidia-fabricmanager-470
 Architecture: amd64
-Version: 470.82.01-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/libs
 Source: fabric-manager-470
 Origin: Ubuntu
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 5283
+Installed-Size: 5285
 Provides: nvidia-fabricmanager
 Conflicts: nvidia-fabricmanager
 Replaces: nvidia-fabricmanager
-Filename: pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-470_470.82.01-0ubuntu0.21.10.1_amd64.deb
-Size: 1192146
-MD5sum: 93b3024a028c8eff0eb6c442d01ed58b
-SHA1: 18934e298f707bdf275ab0c064653cd1ba994c8a
-SHA256: 50b2182a040db0d8219b3d499746fdf083a4fede9b3b689704502b949db36fce
-SHA512: 0399448ea842639bf6d22e37071fdb46e0d6efacc25d3f6490c01395cdbad3035983c19ded8b27fa7b164919b61245ae890466daed8b6948b920b5e163977f72
+Filename: pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-470_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 1191818
+MD5sum: 4fe026e83e028f6a2607bd4d0b80b0aa
+SHA1: 3f237ed268fddfaa11b2e75b6fc17943e5983122
+SHA256: da75f6be93f127c2c6a366c7b81f542b44bae74b44db176e6e6ed89f70a272db
+SHA512: a3fec5364a09c2a7c7c285fd7997e448a939c957f6d8fe633e31e68f408e13a6c6ee20eab07a9639c63ef69bc1ee821b332c4e88ca9435850480aa95f228cd97
 Description: Fabric Manager for NVSwitch based systems.
 Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
 
 Package: nvidia-fabricmanager-dev-450
 Architecture: amd64
-Version: 450.156.00-0ubuntu0.21.10.1
+Version: 450.172.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
 Source: fabric-manager-450
@@ -275,40 +269,38 @@ Installed-Size: 1326
 Provides: nvidia-fabricmanager-dev
 Conflicts: nvidia-fabricmanager-dev
 Replaces: nvidia-fabricmanager-dev
-Filename: pool/multiverse/f/fabric-manager-450/nvidia-fabricmanager-dev-450_450.156.00-0ubuntu0.21.10.1_amd64.deb
-Size: 399652
-MD5sum: 7b39c91e86db9d9fe3a5565ebc7c2887
-SHA1: b23064a229592dce39765d35510a0fe0b0ebb6a2
-SHA256: cd9531786bb8b30058fcf397f0d7101abb9afad0f60152b30c02fb0545dab26d
-SHA512: 432635520885ff8b6f8bcda1cd8531ef930feba5d87f739f5da951ae75caa6addf49fb19d17bc7863bf75291b2f6692136ee41f2a3ba982d881414bdfdf130fd
+Filename: pool/multiverse/f/fabric-manager-450/nvidia-fabricmanager-dev-450_450.172.01-0ubuntu0.21.10.1_amd64.deb
+Size: 399914
+MD5sum: 63b46ac87eff7bdb21173154b0bb4ac8
+SHA1: d7738270bc8b12c1d90cbc1ac37c67974c5d512e
+SHA256: 33901ef4c056c9a3ac377da44b57f38d4bdac7d73f59dfd242fbecef4b07a883
+SHA512: c344ea8c677989eca325f4986a35280180bd3233cc47cfdd5986ba27d05aef2e63f5ca11ea4fa35c48af75812bd170aaa80b7123402da67559585089281261bd
 Description: Fabric Manager API headers and associated library
 Description-md5: 565605cc6a127d423c88c38e5c2f9a26
 
 Package: nvidia-fabricmanager-dev-460
 Architecture: amd64
-Version: 460.106.00-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/devel
-Source: fabric-manager-460
+Source: fabric-manager-470
 Origin: Ubuntu
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 1331
-Provides: nvidia-fabricmanager-dev
-Conflicts: nvidia-fabricmanager-dev
-Replaces: nvidia-fabricmanager-dev
-Filename: pool/multiverse/f/fabric-manager-460/nvidia-fabricmanager-dev-460_460.106.00-0ubuntu0.21.10.1_amd64.deb
-Size: 400704
-MD5sum: d45fa746617d53751d278f4711ec48ba
-SHA1: e369ce073ab575b090afd9248748918168676090
-SHA256: 1d0d10125ec1fb709233b6375b266b085ef112251550cf8c305b29a36b978e30
-SHA512: 810af2683934a4daf03462c9e7dc4a35babdb3ad6994f003d7692814a9563ad3be39bbe0b112c8d649481114cd276d3dabdc79950617e8bfa346bc42fa1d8baa
-Description: Fabric Manager API headers and associated library
-Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Installed-Size: 16
+Depends: nvidia-fabricmanager-dev-470
+Filename: pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-dev-460_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 4330
+MD5sum: 40ee663554e80427b2dc513dba65e141
+SHA1: 568449744da52fa85f16f22593fc25e261d55d74
+SHA256: 1308cda19490df66387f53abae22c372490e4e26149b4b63e00e764db8c29b7f
+SHA512: a6325ae2d0bfe413009eb5c18ff2fe34bea94307ced37fde9107e7cd134450e0545f76eba7ea96652a9952ea5522791919d330c982a6dca81235ae053d9f9f1d
+Description: Transitional package for nvidia-fabricmanager-dev-470
+Description-md5: 43b0b28c82f1d336e6909be154e74985
 
 Package: nvidia-fabricmanager-dev-470
 Architecture: amd64
-Version: 470.82.01-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Priority: optional
 Section: multiverse/libs
 Source: fabric-manager-470
@@ -319,12 +311,12 @@ Installed-Size: 1331
 Provides: nvidia-fabricmanager-dev
 Conflicts: nvidia-fabricmanager-dev
 Replaces: nvidia-fabricmanager-dev
-Filename: pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-dev-470_470.82.01-0ubuntu0.21.10.1_amd64.deb
-Size: 400356
-MD5sum: c58b7fdaf2c6e245bd49400dd77a0410
-SHA1: b242733796099590c7c2bd4605afa7d5437550d2
-SHA256: 3800d331eece703d62d45c2c43f890171cabb5ca3b6b5b8dd909d72e63f6c0ba
-SHA512: bdaf695698fbf740dfd58e5f0470c79c803df409c19891cd55202571bd0554f23a50dd31879c3cee7a098ff2c7389b3b6c97626a7919ac0b6ad219098a807901
+Filename: pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-dev-470_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 400456
+MD5sum: 72e0092f06e3a4319d2d189e9a2fcf78
+SHA1: 9636892cdcfd7110f66dd0aaa8b3aec1f2612409
+SHA256: 5a7fa42fd54fc3422ec9fd72e80ce328747e03fe367a264935f9e1cf5e87f66f
+SHA512: 302c7becd6b8aeca8cb7c34f9ac6b97e818753a31ba9244e473c12010340ce98c44b02299f9ec452ea6d26e31f3655dd00a272abc320c9e362e4545819f7fee1
 Description: Fabric Manager API headers and associated library
 Description-md5: 565605cc6a127d423c88c38e5c2f9a26
 

@@ -31,6 +31,25 @@ Description-en: Advanced Intrusion Detection Environment - transitional package
  does not seem to exist any more. If you have difficulties with running aide
  on XEN-enabled systems in Dom0 or DomU, please file a bug.
 
+Package: amphora-agent
+Description-md5: 69dc8ed981d458e6684a63e3ef5be102
+Description-en: OpenStack Load Balancer Service - Amphora agent
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package provides Octavia Amphora Agent.
+
 Package: apache2-suexec-custom
 Description-md5: 116f52596e88b0c7717e1f4973ada661
 Description-en: Apache HTTP Server configurable suexec program for mod_suexec
@@ -739,6 +758,16 @@ Description-en: Externally reusable Go packages included with Docker
  are reusable to projects outside Docker and only rely on each other or other
  external dependencies to be built.
 
+Package: golang-github-snapcore-snapd-dev
+Description-md5: a2d3a19f6630f9476511151dac13666a
+Description-en: snappy development go packages.
+ Use these to use the snappy API.
+
+Package: golang-github-ubuntu-core-snappy-dev
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
 Package: ipset-persistent
 Description-md5: 3e40046a4c991bbb4e8c6a46ddf0887f
 Description-en: boot-time loader for netfilter rules, ipset plugin
@@ -779,6 +808,25 @@ Description-en: transitional package
  This is a transitional package to apache2 for users of
  libapache2-mod-proxy-uwsgi.
  It can be safely removed after the installation is complete.
+
+Package: libarchive-tools
+Description-md5: 04bbebb441868f4c976e664833572c46
+Description-en: FreeBSD implementations of 'tar' and 'cpio' and other archive tools
+ This package contains several command-line tools based on the libarchive
+ library.
+ .
+ The bsdtar program is the default system 'tar' program used on FreeBSD. bsdtar
+ uses the libarchive library as a backend which does all of the work for reading
+ and writing archives in various formats.
+ .
+ The bsdcpio program is the default system 'cpio' program used on FreeBSD.
+ bsdcpio uses the libarchive library as a backend which does all of the work for
+ reading and writing archives in various formats.
+ .
+ The bsdcat program reads archived data from files or from its standard input
+ and uses the libarchive library to decompresses it to its standard output.
+ It may be used for viewing the contents of archives or for passing it to other
+ tools for further processing.
 
 Package: libasound2-plugin-smixer
 Description-md5: 690859b414c92870a8828f1886b0d9dd
@@ -831,6 +879,11 @@ Description-en: strongSwan charon library (extra plugins)
     requested/supported by the client (since 5.0.1))
   - eap-peap (EAP-PEAP protocol handler, wraps other EAP methods securely)
 
+Package: libegl1-mesa
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-en: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
 Package: libevolution
 Description-md5: dddb88bf2627f20726827c1d29351350
 Description-en: evolution libraries
@@ -862,6 +915,11 @@ Description-en: Application deployment framework for desktop apps (library)
  .
  This package contains the flatpak shared library, used by higher level
  package management tools like gnome-software.
+
+Package: libgles2-mesa
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-en: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
 
 Package: libgnome-panel-dev
 Description-md5: f78af28d8bb94a2aa3c6fae223e34bf5
@@ -1167,6 +1225,16 @@ Description-en: Network Security Service tools
     code.
   * ssltap: proxy requests for an SSL server and display the contents of
     the messages exchanged between the client and server.
+
+Package: libpam-zfs
+Description-md5: 22667c0f995168539097f168459e100b
+Description-en: PAM module for managing encryption keys for ZFS
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This provides a Pluggable Authentication Module (PAM) that automatically
+ unlocks encrypted ZFS datasets upon login.
 
 Package: libphp8.0-embed
 Description-md5: cc95dcfc74a76b1f62f51bb5910771f1
@@ -1869,6 +1937,24 @@ Description-en: Rust standard libraries
  This package contains the standard Rust libraries, built as dylibs,
  needed to run dynamically-linked Rust programs (-C prefer-dynamic).
 
+Package: libstd-rust-1.57
+Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
+Description-en: Rust standard libraries
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains the standard Rust libraries, built as dylibs,
+ needed to run dynamically-linked Rust programs (-C prefer-dynamic).
+
 Package: libstd-rust-dev
 Description-md5: d179f786c5d3afccd5d86929b4043021
 Description-en: Rust standard libraries - development files
@@ -2054,6 +2140,11 @@ Description-en: Wireshark dissector for the libvirt protocol
  supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
  .
  This package contains the wireshark dissector.
+
+Package: libwayland-egl1-mesa
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-en: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
 
 Package: libwin-hivex-perl
 Description-md5: 3e474899bbf5728b3679672f4e5830c6
@@ -2243,6 +2334,82 @@ Description-en: MariaDB database regression test suite - data files
  .
  This package has the architecture independent data files for the test suite.
 
+Package: mesa-opencl-icd
+Description-md5: 10fe1749fa432fa001ccca2f3b268b84
+Description-en: free implementation of the OpenCL API -- ICD runtime
+ This package contains the mesa implementation of the OpenCL (Open Compute
+ Language) library, which is intended for use with an ICD loader. OpenCL
+ provides a standardized interface for computational analysis on graphical
+ processing units.
+
+Package: mesa-va-drivers
+Description-md5: c89bbf6e4f80a47acafd5858be814f3c
+Description-en: Mesa VA-API video acceleration drivers
+ These libraries provide the Video Acceleration API (VA-API) for Unix.
+ They provide accelerated video playback (incl. H.264) and video
+ post-processing for the supported graphics cards.
+ .
+ This package enables support for VA-API for some gallium drivers.
+
+Package: monitoring-plugins
+Description-md5: b40d74d84d0014181bbf82cd9cb4e665
+Description-en: Plugins for nagios compatible monitoring systems (metapackage)
+ Plugins for nagios compatible monitoring systems like Naemon and Icinga.
+ .
+ This metapackage will install the entire suite of plugins for nagios
+ compatible monitoring systems.
+ If you are installing monitoring plugins on a remote "satellite" server
+ (using nagios-nrpe-server or nsca), you may be interested in the
+ monitoring-plugins-basic package.
+
+Package: monitoring-plugins-basic
+Description-md5: 0ebf82c1421b961a4c00adda72f8022b
+Description-en: Plugins for nagios compatible monitoring systems (basic)
+ Plugins for nagios compatible monitoring systems like Naemon and Icinga. It
+ contains the following plugins:
+ .
+  check_apt, check_by_ssh, check_clamd, check_cluster,
+  check_dhcp, check_disk, check_dummy, check_file_age,
+  check_ftp, check_host, check_http, check_icmp,
+  check_ide_smart, check_imap, check_ircd, check_jabber,
+  check_load, check_log, check_mrtg, check_mrtgtraf,
+  check_nagios, check_nntp, check_nntps, check_nt,
+  check_ntp, check_ntp_peer, check_ntp_time, check_nwstat,
+  check_overcr,  check_ping, check_pop, check_procs,
+  check_real, check_rta_multi, check_sensors, check_simap,
+  check_smtp, check_spop, check_ssh, check_ssmtp,
+  check_swap, check_tcp, check_time, check_udp,
+  check_ups, check_users
+ .
+ This package provides a basic set of plugins with minimal external
+ dependencies.  It is not likely to be useful by itself unless you are
+ using a remote "satellite" system (using nagios-nrpe-server, check_by_ssh or
+ nsca, for example).
+
+Package: monitoring-plugins-common
+Description-md5: 47e82c7672ca4e789fe190e2cfb690cd
+Description-en: Common files for plugins for nagios compatible monitoring
+ Common files for plugins for nagios compatible monitoring systems like Naemon
+ and Icinga.
+ .
+ This package contains common files which maybe needed for plugins.
+
+Package: monitoring-plugins-standard
+Description-md5: 4b9521fc857dec46e8aa902c6f4c791d
+Description-en: Plugins for nagios compatible monitoring systems (standard)
+ Plugins for nagios compatible monitoring systems like Naemon and Icinga. It
+ contains the following plugins:
+ .
+  check_breeze, check_dbi, check_dig, check_disk_smb, check_dns,
+  check_flexlm, check_fping, check_game, check_hpjd, check_ifoperstatus,
+  check_ifstatus, check_ldap, check_ldaps, check_mailq, check_mysql,
+  check_mysql_query, check_oracle, check_pgsql, check_radius, check_rpc,
+  check_snmp, check_wave
+ .
+ This package provides the suite of plugins that are most likely to be
+ useful on a central monitoring host. Some scripts need more packages installed
+ to work, which is implemented as recommends.
+
 Package: mozc-utils-gui
 Description-md5: 26ec796df53363feb223226aacb6085e
 Description-en: GUI utilities of the Mozc input method
@@ -2335,6 +2502,181 @@ Description-en: boot-time loader for netfilter configuration
  plugin-based architecture. It can load, flush and save a running
  configuration. Extending netfilter-persistent with plugins is trivial and can
  be done in any language.
+
+Package: neutron-macvtap-agent
+Description-md5: e60c41b51b193c7b7bd59c74ab9bbcd9
+Description-en: Neutron is a virtual network service for Openstack - Macvtap L2 Agent
+ Neutron is a virtual network service for Openstack, and a part of
+ Netstack. Just like OpenStack Nova provides an API to dynamically
+ request and configure virtual servers, Neutron provides an API to
+ dynamically request and configure virtual networks. These networks
+ connect "interfaces" from other OpenStack services (e.g., virtual NICs
+ from Nova VMs). The Neutron API supports extensions to provide
+ advanced network capabilities (e.g., QoS, ACLs, network monitoring,
+ etc.)
+ .
+ This package provides the Macvtap L2 Agent.
+
+Package: neutron-metering-agent
+Description-md5: 65dae36f4a24be77bcb88d08a02f05f3
+Description-en: Neutron is a virtual network service for Openstack - metering agent
+ Neutron is a virtual network service for Openstack, and a part of
+ Netstack. Just like OpenStack Nova provides an API to dynamically
+ request and configure virtual servers, Neutron provides an API to
+ dynamically request and configure virtual networks. These networks
+ connect "interfaces" from other OpenStack services (e.g., virtual NICs
+ from Nova VMs). The Neutron API supports extensions to provide
+ advanced network capabilities (e.g., QoS, ACLs, network monitoring,
+ etc.)
+ .
+ This package provides the metering agent.
+
+Package: neutron-sriov-agent
+Description-md5: 42989299f1b85c4fc6eccec9138ca534
+Description-en: Neutron is a virtual network service for Openstack - SR-IOV agent
+ Neutron is a virtual network service for Openstack, and a part of
+ Netstack. Just like OpenStack Nova provides an API to dynamically
+ request and configure virtual servers, Neutron provides an API to
+ dynamically request and configure virtual networks. These networks
+ connect "interfaces" from other OpenStack services (e.g., virtual NICs
+ from Nova VMs). The Neutron API supports extensions to provide
+ advanced network capabilities (e.g., QoS, ACLs, network monitoring,
+ etc.)
+ .
+ This package provides the Mellanox SR-IOV agent.
+
+Package: octavia-api
+Description-md5: 01e546b6b69faa22a522b17e196818f6
+Description-en: OpenStack Load Balancer as a Service - API frontend
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package provides the API frontend.
+
+Package: octavia-common
+Description-md5: 16d65a348f916d0e7de2076830e11066
+Description-en: OpenStack Load Balancer as a Service - Common files
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package contains elements that are needed by all parts of Octavia.
+
+Package: octavia-doc
+Description-md5: 886ebdf57771f9e775b31a309b0d4015
+Description-en: OpenStack Load Balancer Service - documentation
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package contains the documentation for Octavia.
+
+Package: octavia-driver-agent
+Description-md5: 94acc38dc4f7735c786db2a808e4265d
+Description-en: OpenStack Load Balancer Service - Driver Agent
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package provides Octavia Driver Agent.
+
+Package: octavia-health-manager
+Description-md5: d555b76bd67011fbc52c34079212f752
+Description-en: OpenStack Load Balancer Service - Health manager
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package provides Octavia Health Manager.
+
+Package: octavia-housekeeping
+Description-md5: aba98cdbcbff625c3a9dc8853e9ddbcd
+Description-en: OpenStack Load Balancer Service - Housekeeping manager
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package provides Octavia Housekeeping Manager.
+
+Package: octavia-worker
+Description-md5: 2df211da506b3c86b813b3fd27729eac
+Description-en: OpenStack Load Balancer Service - Worker
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package provides Octavia worker.
 
 Package: openjdk-11-demo
 Description-md5: 8c587e17f25fb354ef51e27e56507756
@@ -2903,6 +3245,25 @@ Description-en: Python 3 bindings for hivex
  Python 3 bindings for libhivex, a library for reading and writing
  Windows Registry "hive" binary files.
 
+Package: python3-octavia
+Description-md5: 54d77733b5a5e3d1070da1f11407c04a
+Description-en: OpenStack Load Balancer as a Service - Python libraries
+ Openstack Load Balancer as a Service, codenamed Octavia was borne
+ out of the Neutron LBaaS project. Its conception influenced
+ the transformation of the Neutron LBaaS project, as Neutron LBaaS
+ moved from version 1 to version 2. Starting with the Liberty
+ release of OpenStack, Octavia has become the reference implementation
+ for Neutron LBaaS version 2.
+ .
+ Octavia accomplishes its delivery of load balancing services by
+ managing a fleet of virtual machines, containers, or bare metal
+ servers—collectively known as amphorae— which it spins up on demand.
+ This on-demand, horizontal scaling feature differentiates Octavia from
+ other load balancing solutions, thereby making Octavia truly
+ suited “for the cloud.”.
+ .
+ This package contains the Python files and libraries.
+
 Package: qemu
 Description-md5: 44f7142780922102776874dd65554fb0
 Description-en: fast processor emulator, dummy package
@@ -3316,6 +3677,16 @@ Description-en: test suite from Samba
  This package contains programs for testing the reliability and speed
  of SMB servers, Samba in particular.
 
+Package: snap-confine
+Description-md5: 3223c275ff89224fda1b277eec5e7ffe
+Description-en: Transitional package for snapd
+ This is a transitional dummy package. It can safely be removed.
+
+Package: snapd-xdg-open
+Description-md5: ba6c49ad1a4e739a75a7e8d0fde06a77
+Description-en: Transitional package for snapd-xdg-open
+ This is a transitional dummy package. It can safely be removed.
+
 Package: software-properties-qt
 Description-md5: eb3becbd911332ae11d34cbea3577b25
 Description-en: manage the repositories that you install software from (Qt)
@@ -3324,6 +3695,49 @@ Description-en: manage the repositories that you install software from (Qt)
  vendor software sources.
  .
  This package contains a Qt-based graphical interface.
+
+Package: speex
+Description-md5: 30acf610b7bb12b7f7c8d43f2518349b
+Description-en: The Speex codec command line tools
+ Speex is an audio codec especially designed for compressing voice at low
+ bit-rates for applications such as voice over IP (VoIP). In some senses,
+ it is meant to be complementary to the Vorbis codec which places a greater
+ emphasis on high-quality music reproduction.
+ .
+ This package contains the encoder and decoder command-line applications.
+
+Package: spl
+Description-md5: b410e0ffa9fce7c3fe01d4e78150bb07
+Description-en: Solaris Porting Layer user-space utilities for Linux (dummy)
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This is a transitional dummy package. It can safely be removed.
+
+Package: spl-dkms
+Description-md5: 71853a88d424d6856a437f2a601d0de0
+Description-en: Solaris Porting Layer kernel modules for Linux (dummy)
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This is a transitional dummy package. It can safely be removed.
+ SPL dkms files had been merged into zfs-dkms as of ZFS 0.8.X series.
 
 Package: ssh-askpass-gnome
 Description-md5: e888e7e8e5a6ee7b30f000dc22ed083f
@@ -3438,6 +3852,26 @@ Description-md5: 0955f8932fb5fd228c2859fd480ba115
 Description-en: utilities and services for Ubuntu Pro images
  The Ubuntu Pro package delivers additional utilities for use on authorised
  Ubuntu Pro machines.
+
+Package: ubuntu-core-launcher
+Description-md5: 3223c275ff89224fda1b277eec5e7ffe
+Description-en: Transitional package for snapd
+ This is a transitional dummy package. It can safely be removed.
+
+Package: ubuntu-core-snapd-units
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: ubuntu-snappy
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: ubuntu-snappy-cli
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: udhcpc
 Description-md5: e2345d2807e5393b509c38303e4ee886
@@ -3654,6 +4088,37 @@ Description-en: Virtual Framebuffer 'fake' X server
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
+
+Package: zfs-dkms
+Description-md5: 39e75ed3c1d3a5bc9c23ff32d0b5bbe1
+Description-en: OpenZFS filesystem kernel modules for Linux
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This DKMS package includes the SPA, DMU, ZVOL, and ZPL components of
+ OpenZFS.
+
+Package: zfs-dracut
+Description-md5: 965d2232071aa7eaad3e0a3ca11764b0
+Description-en: OpenZFS root filesystem capabilities for Linux - dracut
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the dracut infrastructure.
+
+Package: zfs-test
+Description-md5: 626efba8698ac960b7fa793abb13e6d2
+Description-en: OpenZFS test infrastructure and support scripts
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This package provides the OpenZFS test infrastructure for destructively
+ testing and validating a system using OpenZFS. It is entirely optional
+ and should only be installed and used in test environments.
 
 Package: openjdk-17-jre
 Description-md5: 5bad8f597e182fdf0635f3b9fccbce1a

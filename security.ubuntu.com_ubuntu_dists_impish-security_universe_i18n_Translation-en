@@ -463,6 +463,16 @@ Description-en: Externally reusable Go packages included with Docker
  are reusable to projects outside Docker and only rely on each other or other
  external dependencies to be built.
 
+Package: golang-github-snapcore-snapd-dev
+Description-md5: a2d3a19f6630f9476511151dac13666a
+Description-en: snappy development go packages.
+ Use these to use the snappy API.
+
+Package: golang-github-ubuntu-core-snappy-dev
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
 Package: ldb-tools
 Description-md5: 27e8c15a8859e3368f9f6a0853f05226
 Description-en: LDAP-like embedded database - tools
@@ -487,6 +497,25 @@ Description-en: transitional package
  This is a transitional package to apache2 for users of
  libapache2-mod-proxy-uwsgi.
  It can be safely removed after the installation is complete.
+
+Package: libarchive-tools
+Description-md5: 04bbebb441868f4c976e664833572c46
+Description-en: FreeBSD implementations of 'tar' and 'cpio' and other archive tools
+ This package contains several command-line tools based on the libarchive
+ library.
+ .
+ The bsdtar program is the default system 'tar' program used on FreeBSD. bsdtar
+ uses the libarchive library as a backend which does all of the work for reading
+ and writing archives in various formats.
+ .
+ The bsdcpio program is the default system 'cpio' program used on FreeBSD.
+ bsdcpio uses the libarchive library as a backend which does all of the work for
+ reading and writing archives in various formats.
+ .
+ The bsdcat program reads archived data from files or from its standard input
+ and uses the libarchive library to decompresses it to its standard output.
+ It may be used for viewing the contents of archives or for passing it to other
+ tools for further processing.
 
 Package: libcharon-extra-plugins
 Description-md5: bccb4bd4f58c0758c840939e56665a2b
@@ -944,6 +973,24 @@ Description-en: Qt 5 XML module
  and C++ implementations of SAX and DOM.
 
 Package: libstd-rust-1.53
+Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
+Description-en: Rust standard libraries
+ Rust is a curly-brace, block-structured expression language.  It
+ visually resembles the C language family, but differs significantly
+ in syntactic and semantic details.  Its design is oriented toward
+ concerns of "programming in the large", that is, of creating and
+ maintaining boundaries - both abstract and operational - that
+ preserve large-system integrity, availability and concurrency.
+ .
+ It supports a mixture of imperative procedural, concurrent actor,
+ object-oriented and pure functional styles.  Rust also supports
+ generic programming and meta-programming, in both static and dynamic
+ styles.
+ .
+ This package contains the standard Rust libraries, built as dylibs,
+ needed to run dynamically-linked Rust programs (-C prefer-dynamic).
+
+Package: libstd-rust-1.57
 Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
 Description-en: Rust standard libraries
  Rust is a curly-brace, block-structured expression language.  It
@@ -1930,6 +1977,26 @@ Description-en: test suite from Samba
  This package contains programs for testing the reliability and speed
  of SMB servers, Samba in particular.
 
+Package: snap-confine
+Description-md5: 3223c275ff89224fda1b277eec5e7ffe
+Description-en: Transitional package for snapd
+ This is a transitional dummy package. It can safely be removed.
+
+Package: snapd-xdg-open
+Description-md5: ba6c49ad1a4e739a75a7e8d0fde06a77
+Description-en: Transitional package for snapd-xdg-open
+ This is a transitional dummy package. It can safely be removed.
+
+Package: speex
+Description-md5: 30acf610b7bb12b7f7c8d43f2518349b
+Description-en: The Speex codec command line tools
+ Speex is an audio codec especially designed for compressing voice at low
+ bit-rates for applications such as voice over IP (VoIP). In some senses,
+ it is meant to be complementary to the Vorbis codec which places a greater
+ emphasis on high-quality music reproduction.
+ .
+ This package contains the encoder and decoder command-line applications.
+
 Package: strongswan-nm
 Description-md5: fe4e82468fec86f66c41601086865ec7
 Description-en: strongSwan plugin to interact with NetworkManager
@@ -2009,6 +2076,26 @@ Description-en: Email, RSS and newsgroup client - Breakpad symbols
  This package contains the Firefox symbols in a format expected by Mozilla's
  Breakpad. Eventually this package should go away and the symbol upload be
  implemented in soyuz (or other builders that build this package)
+
+Package: ubuntu-core-launcher
+Description-md5: 3223c275ff89224fda1b277eec5e7ffe
+Description-en: Transitional package for snapd
+ This is a transitional dummy package. It can safely be removed.
+
+Package: ubuntu-core-snapd-units
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: ubuntu-snappy
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: ubuntu-snappy-cli
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+Description-en: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: udhcpc
 Description-md5: e2345d2807e5393b509c38303e4ee886

@@ -1,4 +1,34 @@
 Package: dart
+Version: 2.16.1-1
+Architecture: amd64
+Maintainer: William Hesse <whesse@google.com>
+Installed-Size: 535692
+Depends: libc6 (>= 2.17)
+Priority: optional
+Section: misc
+Filename: pool/main/d/dart/dart_2.16.1-1_amd64.deb
+Size: 133822738
+SHA256: c5b5c83110e67101f9198ee54c972881c47030d47ad1950fb4db61e45f194315
+SHA1: 764bc4a50ae46c241be6a22578c061c2fdef8e7c
+MD5sum: e7fa84028ece78a8ca19b6c6b1dcde00
+Description: Dart SDK
+
+Package: dart
+Version: 2.16.0-1
+Architecture: amd64
+Maintainer: William Hesse <whesse@google.com>
+Installed-Size: 535691
+Depends: libc6 (>= 2.17)
+Priority: optional
+Section: misc
+Filename: pool/main/d/dart/dart_2.16.0-1_amd64.deb
+Size: 133837334
+SHA256: fa2be21c0545cda45fa84dd52181a377de084789f741bf357eed9abe7ba85cd0
+SHA1: 69dbd0f176a2d7e5479aa050e7a2843af4eb647b
+MD5sum: f6b584661b327a85c1f948792e8effc3
+Description: Dart SDK
+
+Package: dart
 Version: 2.15.1-1
 Architecture: amd64
 Maintainer: William Hesse <whesse@google.com>

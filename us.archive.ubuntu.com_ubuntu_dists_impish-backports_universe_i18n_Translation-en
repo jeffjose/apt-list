@@ -72,6 +72,17 @@ Description-en: Cockpit Web Service
  Install sssd-dbus for supporting client certificate/smart card authentication
  via sssd/FreeIPA.
 
+Package: gramps
+Description-md5: 4b8460288fec6ae3a1337b9f64a45957
+Description-en: Genealogical research program
+ Gramps is an Open Source genealogy program written in Python, using
+ the GTK/GNOME interface. It is an extremely flexible program fitting
+ the needs for both the amateur genealogist and serious genealogical
+ researcher.
+ Gramps has the ability to import GEDCOM files exported from many
+ proprietary genealogy programs and can produce a large number of
+ reports in many popular formats.
+
 Package: python3-ubuntutools
 Description-md5: 7e13f84ccece24b357aee792b7904beb
 Description-en: useful APIs for Ubuntu developer tools — Python 3 library

@@ -1,6 +1,6 @@
 Package: libnvidia-extra-440-server
 Architecture: amd64
-Version: 450.156.00-0ubuntu0.21.10.2
+Version: 450.172.01-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: multiverse/libs
@@ -10,19 +10,19 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 20
 Depends: libnvidia-extra-450-server
-Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-extra-440-server_450.156.00-0ubuntu0.21.10.2_amd64.deb
-Size: 6426
-MD5sum: 818db2a0d66b739fc6cef6af32e8a349
-SHA1: 75ee9d78899c0ace68e8a1a4664c9dcff70d01a2
-SHA256: 298d664129b43ace1320a23e439679a4a3cd167a7f91613e1f25a78f2da1f12f
-SHA512: ad298a482d75141b49ec49d9bd4c15fae4101e9de626b43fb36fb38a05a03702778ad52311264fc6ab6f830f7b2ccf6cad022b523c7e1236c71d8b9f0c927b65
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-extra-440-server_450.172.01-0ubuntu0.21.10.1_amd64.deb
+Size: 6394
+MD5sum: c1e9f80430f2f6a1273f84c47f62e214
+SHA1: a5b4e54b149a1c52694bf04a438c492e726def9e
+SHA256: 593afe14ea4e770cf74899d5160e81f256139ddb0cdda6e46961e560de0e563d
+SHA512: 4c12c57f4a780ac912d6b7d3cf83a9d9881a3bf95de03af1486c33714e52807ddee66579715bea2b09e31e3b6c425ef63c57843e8e85ab3886fb85f4a1ddcd9a
 Homepage: http://www.nvidia.com
 Description: Transitional package for libnvidia-extra-450-server
 Description-md5: 6ac988d902fba392b10a5278636a1d52
 
 Package: libnvidia-extra-460
 Architecture: amd64
-Version: 470.86-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: multiverse/libs
@@ -32,19 +32,19 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 20
 Depends: libnvidia-extra-470
-Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-460_470.86-0ubuntu0.21.10.1_amd64.deb
-Size: 7322
-MD5sum: 916581bc39d984526b04414eeff64d3d
-SHA1: 8ed1122cbf941c49c313b83522d366f105c0883f
-SHA256: e4e87d30dd0bb253ca1afd27e51e64c4b9560ed46ac43832d14e7b792b40e5f0
-SHA512: b20e8db6d76d54586409ac38627e24dbac1610adf1ebb3311cb8d8574b63ddbfccf682ce434c1ad116138a1e26af584b6740802ff40f7f8e9629435363a49258
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-460_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 7410
+MD5sum: c95809759edf5079728e0b8c9ec5035f
+SHA1: f0a009fabab61b01fd16988c9f9b67e5c2a49d68
+SHA256: 826e199ebbc1635c94ea083cb37363118fe0f0e9674e737f234fbf11cfa7891d
+SHA512: 5798d74df2aa68173c00f49a34063d4effea979a5721a88bd723d5c087e7e0abb328b1c737fef92a0ee6f0027e891f682490cbd291bbdea8fbc3f815ad77c68b
 Homepage: http://www.nvidia.com
 Description: Transitional package for libnvidia-extra-470
 Description-md5: b5bdf6ea212199feb2fcaa84e3791b69
 
 Package: libnvidia-extra-465
 Architecture: amd64
-Version: 470.86-0ubuntu0.21.10.1
+Version: 470.103.01-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: multiverse/libs
@@ -54,12 +54,12 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 20
 Depends: libnvidia-extra-470
-Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-465_470.86-0ubuntu0.21.10.1_amd64.deb
-Size: 7324
-MD5sum: 552407a3da85cc8fe6083bbe37cd6fa0
-SHA1: 7a7b0363b6b55bde4ec4082de0890a4615cc2536
-SHA256: 7c552adfb822a4e4fdbae108d3407653da7bf319d68a8d61a49861928a1921aa
-SHA512: 3ff738033eb650c4ea7dc03550e89c33ea911cbd68334a06e6828852c1a28f2dfe8ad349724de1e0d8b291f18ac1ceb81c17a3f9a460df32414edaab38555a3c
+Filename: pool/multiverse/n/nvidia-graphics-drivers-470/libnvidia-extra-465_470.103.01-0ubuntu0.21.10.1_amd64.deb
+Size: 7410
+MD5sum: 83a91c3b619a8e6d080378c4dc67e244
+SHA1: d7865756c0ad23e1c922ab3bd4dfd7e66a30cc07
+SHA256: 7d543a1faa15bfc330dfb694541178bffaad78c27db950285e2d09c836cc40a9
+SHA512: ce97c890cbc04123af69b5e979230789f3b2bd61d7bddce6ca7e19b06c20529a7136287d4574f7fa315ef19ff2965969a71905f953ddf1c1d0f9f41f4057bbab
 Homepage: http://www.nvidia.com
 Description: Transitional package for libnvidia-extra-470
 Description-md5: b5bdf6ea212199feb2fcaa84e3791b69

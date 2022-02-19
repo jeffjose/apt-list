@@ -56,15 +56,15 @@ version: 1:9.16.15-1ubuntu1.1
 commands: dnssec-cds,dnssec-checkds,dnssec-coverage,dnssec-dsfromkey,dnssec-keyfromlabel,dnssec-keygen,dnssec-keymgr,dnssec-revoke,dnssec-settime,dnssec-signzone,dnssec-verify,named-checkconf,named-checkzone,named-compilezone,rndc,rndc-confgen
 
 name: bluez
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: avinfo,bluemoon,bluetoothctl,bluetoothd,btattach,btmgmt,btmon,ciptool,gatttool,hciattach,hciconfig,hcitool,hex2hcd,l2ping,l2test,obexctl,rctest,rfcomm,sdptool
 
 name: bsdextrautils
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: col,colcrt,colrm,column,hd,hexdump,look,ul,write,write.ul
 
 name: bsdutils
-version: 1:2.36.1-8ubuntu2
+version: 1:2.36.1-8ubuntu2.2
 commands: logger,renice,script,scriptlive,scriptreplay,wall
 
 name: busybox-static
@@ -95,20 +95,28 @@ name: cloud-init
 version: 21.4-0ubuntu1~21.10.1
 commands: cloud-id,cloud-init,cloud-init-per
 
+name: cryptsetup
+version: 2:2.3.7-0ubuntu0.21.10.1
+commands: cryptdisks_start,cryptdisks_stop,luksformat
+
+name: cryptsetup-bin
+version: 2:2.3.7-0ubuntu0.21.10.1
+commands: cryptsetup,cryptsetup-reencrypt,integritysetup,veritysetup
+
 name: debootstrap
 version: 1.0.124ubuntu0.1
 commands: debootstrap
 
 name: eject
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: eject
 
 name: fdisk
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: cfdisk,fdisk,sfdisk
 
 name: firefox
-version: 96.0+build2-0ubuntu0.21.10.1
+version: 97.0+build2-0ubuntu0.21.10.1
 commands: firefox,gnome-www-browser,x-www-browser
 
 name: ghostscript
@@ -118,6 +126,14 @@ commands: dvipdf,eps2eps,ghostscript,gs,gsbj,gsdj,gsdj500,gslj,gslp,gsnd,pdf2dsc
 name: google-compute-engine
 version: 20211028.00-0ubuntu1~21.10.0
 commands: google_optimize_local_ssd,google_set_hostname,google_set_multiqueue
+
+name: initramfs-tools
+version: 0.140ubuntu6.1
+commands: update-initramfs
+
+name: initramfs-tools-core
+version: 0.140ubuntu6.1
+commands: lsinitramfs,mkinitramfs,unmkinitramfs
 
 name: ipset
 version: 7.10-1ubuntu0.21.10.1
@@ -140,7 +156,7 @@ version: 13.5-0ubuntu0.21.10.1
 commands: ecpg
 
 name: libmysqlclient-dev
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: mysql_config
 
 name: libnss3-dev
@@ -192,31 +208,35 @@ version: 2.104.0ubuntu3.1
 commands: lintian,lintian-annotate-hints,lintian-explain-tags,lintian-info,spellintian
 
 name: linux-cloud-tools-common
-version: 5.13.0-27.29
+version: 5.13.0-28.31
 commands: hv_fcopy_daemon,hv_get_dhcp_info,hv_get_dns_info,hv_kvp_daemon,hv_set_ifconfig,hv_vss_daemon,lsvmbus
 
 name: linux-tools-common
-version: 5.13.0-27.29
+version: 5.13.0-28.31
 commands: acpidbg,bpftool,cpupower,perf,turbostat,usbip,usbipd,x86_energy_perf_policy
 
 name: linux-tools-host
-version: 5.13.0-27.29
+version: 5.13.0-28.31
 commands: kvm_stat
 
+name: mesa-vulkan-drivers
+version: 21.2.6-0ubuntu0.1
+commands: mesa-overlay-control.py
+
 name: mount
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: losetup,mount,swapoff,swapon,umount
 
 name: mysql-client-8.0
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: mysqlanalyze,mysqloptimize,mysqlrepair,mysqlreport
 
 name: mysql-client-core-8.0
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: myisam_ftdump,mysql,mysql_config_editor,mysqladmin,mysqlcheck,mysqldump,mysqldumpslow,mysqlimport,mysqlpump,mysqlshow,mysqlslap
 
 name: mysql-server-core-8.0
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: ibd2sdi,innochecksum,my_print_defaults,myisamchk,myisamlog,myisampack,mysql_migrate_keyring,mysql_secure_installation,mysql_ssl_rsa_setup,mysql_tzinfo_to_sql,mysql_upgrade,mysqlbinlog,mysqld,mysqld_multi,mysqld_safe,perror
 
 name: netplan.io
@@ -296,8 +316,12 @@ version: 1:15.0+dfsg1-1ubuntu2.2
 commands: pa-info,pacat,pacmd,pactl,padsp,pamon,paplay,parec,parecord,pasuspender,pax11publish
 
 name: python3-django
-version: 2:2.2.24-1ubuntu1.2
+version: 2:2.2.24-1ubuntu1.3
 commands: django-admin
+
+name: python3-neutron
+version: 2:19.1.0-0ubuntu2
+commands: ml2ovn-trace,neutron-api,neutron-db-manage,neutron-debug,neutron-dhcp-agent,neutron-ipset-cleanup,neutron-keepalived-state-change,neutron-l3-agent,neutron-linuxbridge-agent,neutron-linuxbridge-cleanup,neutron-macvtap-agent,neutron-metadata-agent,neutron-metering-agent,neutron-netns-cleanup,neutron-openvswitch-agent,neutron-ovn-db-sync-util,neutron-ovn-metadata-agent,neutron-ovn-migration-mtu,neutron-ovs-cleanup,neutron-pd-notify,neutron-rootwrap,neutron-rootwrap-daemon,neutron-rpc-server,neutron-sanitize-port-mac-addresses,neutron-sanity-check,neutron-server,neutron-sriov-nic-agent,neutron-status,neutron-usage-audit,ovn_migration.sh
 
 name: qemu-system-arm
 version: 1:6.0+dfsg-2expubuntu1.1
@@ -336,7 +360,7 @@ version: 1:6.0+dfsg-2expubuntu1.1
 commands: qemu-img,qemu-io,qemu-make-debian-root,qemu-nbd
 
 name: rfkill
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: rfkill
 
 name: ruby2.7
@@ -344,16 +368,20 @@ version: 2.7.4-1ubuntu3.1
 commands: bundle2.7,bundler2.7,erb2.7,gem2.7,irb2.7,racc2.7,racc2y2.7,rdoc2.7,ri2.7,ruby2.7,y2racc2.7
 
 name: samba
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: dumpmscat,eventlogadm,mksmbpasswd,mvxattr,nmbd,oLschema2ldif,pdbedit,profiles,samba,samba-gpupdate,samba_dnsupdate,samba_downgrade_db,samba_spnupdate,samba_upgradedns,sharesec,smbcontrol,smbd,smbstatus
 
 name: samba-common-bin
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: dbwrap_tool,net,nmblookup,samba-regedit,samba-tool,samba_kcc,smbpasswd,testparm
 
 name: smbclient
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: cifsdd,findsmb,mdsearch,rpcclient,smbcacls,smbclient,smbcquotas,smbget,smbspool,smbtar,smbtree
+
+name: snapd
+version: 2.54.3+21.10.1ubuntu0.1
+commands: snap,snapctl,snapfuse,ubuntu-core-launcher
 
 name: software-properties-common
 version: 0.99.13.1
@@ -392,7 +420,7 @@ version: 2021e-0ubuntu0.21.10
 commands: tzconfig
 
 name: ubuntu-advantage-tools
-version: 27.5~21.10.1
+version: 27.6~21.10.1
 commands: ua,ubuntu-advantage
 
 name: udev
@@ -416,11 +444,11 @@ version: 3.192.45.1
 commands: update-notifier
 
 name: util-linux
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: addpart,agetty,blkdiscard,blkid,blkzone,blockdev,chcpu,chmem,choom,chrt,ctrlaltdel,delpart,dmesg,fallocate,fdformat,fincore,findfs,findmnt,flock,fsck,fsck.cramfs,fsck.minix,fsfreeze,fstrim,getopt,getty,hwclock,i386,ionice,ipcmk,ipcrm,ipcs,isosize,last,lastb,ldattach,linux32,linux64,lsblk,lscpu,lsipc,lslocks,lslogins,lsmem,lsns,mcookie,mesg,mkfs,mkfs.bfs,mkfs.cramfs,mkfs.minix,mkswap,more,mountpoint,namei,nsenter,pager,partx,pivot_root,prlimit,raw,readprofile,resizepart,rev,rtcwake,runuser,setarch,setpriv,setsid,setterm,su,sulogin,swaplabel,switch_root,taskset,unshare,utmpdump,wdctl,whereis,wipefs,x86_64,zramctl
 
 name: uuid-runtime
-version: 2.36.1-8ubuntu2
+version: 2.36.1-8ubuntu2.2
 commands: uuidd,uuidgen,uuidparse
 
 name: vim
@@ -444,7 +472,7 @@ version: 2.2.46-0ubuntu3.1
 commands: ephemeral-disk-warning,waagent,waagent2.0
 
 name: winbind
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: ntlm_auth,wbinfo,winbindd
 
 name: winpr-utils
@@ -470,4 +498,12 @@ commands: Xwayland
 name: xxd
 version: 2:8.2.2434-3ubuntu3.2
 commands: xxd
+
+name: zfs-zed
+version: 2.0.6-1ubuntu2.1
+commands: zed
+
+name: zfsutils-linux
+version: 2.0.6-1ubuntu2.1
+commands: arc_summary,arcstat,dbufstat,fsck.zfs,mount.zfs,zdb,zfs,zfs_ids_to_path,zgenhostid,zhack,zpool,zstream,zstreamdump,zvol_wait
 

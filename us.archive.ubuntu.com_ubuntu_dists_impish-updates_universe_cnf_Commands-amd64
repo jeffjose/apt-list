@@ -12,15 +12,15 @@ version: 2.20.11-0ubuntu71
 commands: apport-valgrind
 
 name: bluez-hcidump
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: hcidump
 
 name: bluez-meshd
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: mesh-cfgclient,meshctl
 
 name: bluez-tests
-version: 5.60-0ubuntu2.1
+version: 5.60-0ubuntu2.2
 commands: b1ee,bnep-tester,btvirt,gap-tester,hci-tester,hfp,l2cap-tester,mgmt-tester,rfcomm-tester,sco-tester,smp-tester,userchan-tester
 
 name: busybox
@@ -32,7 +32,7 @@ version: 0.99.beta19-2.2ubuntu2.1
 commands: cacaclock,cacademo,cacafire,cacaplay,cacaserver,cacaview,img2txt
 
 name: cargo
-version: 0.54.0-0ubuntu1~21.10.1
+version: 0.58.0-0ubuntu1~21.10.1
 commands: cargo
 
 name: charon-cmd
@@ -48,7 +48,7 @@ version: 0.103.5+dfsg-1~21.10.1
 commands: clamav-milter
 
 name: ctdb
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: ctdb,ctdb_diagnostics,ctdb_local_daemons,ctdbd,ctdbd_wrapper,ltdbtool,onnode,ping_pong
 
 name: dh-apport
@@ -72,7 +72,7 @@ version: 0.27.3-3ubuntu4.1
 commands: exiv2
 
 name: firefox-geckodriver
-version: 96.0+build2-0ubuntu0.21.10.1
+version: 97.0+build2-0ubuntu0.21.10.1
 commands: geckodriver
 
 name: firejail
@@ -114,6 +114,10 @@ commands: gnome-panel
 name: ldb-tools
 version: 2:2.2.3-0ubuntu0.21.10.2
 commands: ldbadd,ldbdel,ldbedit,ldbmodify,ldbrename,ldbsearch
+
+name: libarchive-tools
+version: 3.4.3-2ubuntu0.1
+commands: bsdcat,bsdcpio,bsdtar
 
 name: libcharon-extra-plugins
 version: 5.9.1-1ubuntu3.2
@@ -208,7 +212,7 @@ version: 40.5-1ubuntu3~21.10.1
 commands: mutter,x-window-manager
 
 name: mysql-router
-version: 8.0.27-0ubuntu0.21.10.1
+version: 8.0.28-0ubuntu0.21.10.3
 commands: mysqlrouter,mysqlrouter_keyring,mysqlrouter_passwd,mysqlrouter_plugin_info
 
 name: netfilter-persistent
@@ -287,6 +291,10 @@ name: pulseaudio-equalizer
 version: 1:15.0+dfsg1-1ubuntu2.2
 commands: qpaeq
 
+name: python3-octavia
+version: 1:9.0.1-0ubuntu1
+commands: amphora-agent,amphora-health-checker,amphora-interface,haproxy-vrrp-check,octavia-api,octavia-db-manage,octavia-driver-agent,octavia-health-manager,octavia-housekeeping,octavia-status,octavia-worker,octavia-wsgi
+
 name: qemu-guest-agent
 version: 1:6.0+dfsg-2expubuntu1.1
 commands: qemu-ga
@@ -308,36 +316,40 @@ version: 5.15.2+dfsg-12ubuntu1.1
 commands: x86_64-linux-gnu-qmake
 
 name: registry-tools
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: regdiff,regpatch,regshell,regtree
 
 name: rust-clippy
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: cargo-clippy,clippy-driver
 
 name: rust-gdb
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: rust-gdb,rust-gdbgui
 
 name: rust-lldb
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: rust-lldb
 
 name: rustc
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: rust-clang,rust-lld,rust-llvm-dwp,rustc,rustdoc
 
 name: rustfmt
-version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 commands: cargo-fmt,rustfmt
 
 name: samba-testsuite
-version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 commands: gentest,locktest,masktest,ndrdump,smbtorture
 
 name: software-properties-qt
 version: 0.99.13.1
 commands: software-properties-qt
+
+name: speex
+version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+commands: speexdec,speexenc
 
 name: ssh-askpass-gnome
 version: 1:8.4p1-6ubuntu2.1
@@ -410,4 +422,8 @@ commands: Xnest
 name: xvfb
 version: 2:1.20.13-1ubuntu1.1
 commands: Xvfb,xvfb-run
+
+name: zfs-test
+version: 2.0.6-1ubuntu2.1
+commands: raidz_test,zinject,ztest
 

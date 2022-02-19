@@ -445,7 +445,7 @@ Description-md5: c30ede916daac07ed6c19887e9f7d3f2
 
 Package: bluez
 Architecture: i386
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Multi-Arch: foreign
 Priority: optional
 Section: admin
@@ -459,12 +459,12 @@ Suggests: pulseaudio-module-bluetooth
 Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
 Breaks: udev (<< 170-1)
 Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
-Filename: pool/main/b/bluez/bluez_5.60-0ubuntu2.1_i386.deb
-Size: 1276630
-MD5sum: 5869f3eb03200e95603179bf5358ff5b
-SHA1: 0a4883a3ba970336c441655ab93f6865a3cfacec
-SHA256: 80ea0f1a790c53201f36d8fa1f868397bde72f05e0c9ad8a35b064a1f933cad4
-SHA512: 968843e4d70af9ba55aaaa6d02b51c746cb89c2b90106c2900a7cbfa51f34354dd0f153ae8326722a75514ee36417ee614246030829ac8f9106a1ef7fb8add33
+Filename: pool/main/b/bluez/bluez_5.60-0ubuntu2.2_i386.deb
+Size: 1276804
+MD5sum: 8cdb96712758b4ef3a154571dd6e49ae
+SHA1: d33837aee8f9ff1c91a8848f3aa44195844684fe
+SHA256: bf55cee21facc456920a1dfe69fb27476118dd326f5699563f3be678ef9bd222
+SHA512: 61ac407109bd6420d46110ccc270a0b153a52e1a5da8e7899b641d1cd56380c67efa344773aa36e578c79a617090272832b182c40d66e6b17fec4460e11f71fb
 Homepage: http://www.bluez.org
 Description: Bluetooth tools and daemons
 Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
@@ -472,7 +472,7 @@ Description-md5: ef25d6a9f4a57e78f32faa7b58ef4e59
 
 Package: bluez-obexd
 Architecture: i386
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Priority: optional
 Section: admin
 Source: bluez
@@ -485,15 +485,67 @@ Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.35.9), lib
 Recommends: dbus-user-session
 Conflicts: obexd-client, obexd-server
 Replaces: obexd-client, obexd-server
-Filename: pool/main/b/bluez/bluez-obexd_5.60-0ubuntu2.1_i386.deb
-Size: 223768
-MD5sum: 0a96f4296e39bcb94b5b70af961794db
-SHA1: 874797d670d1dd80662af16b57b9835098aa8fa8
-SHA256: 48ab8bb385fc6aa05638f10be09e7e32915f1d491c8c6631a37ddfd27bf36610
-SHA512: 9314a980fa98157dc0ec275b718c6451264d90c676481365fd662c7f2e9fb2d2849f85edd14df30bc438841b8cd6daee158935d297eba3f66a068347ae7e0ceb
+Filename: pool/main/b/bluez/bluez-obexd_5.60-0ubuntu2.2_i386.deb
+Size: 223216
+MD5sum: 71814d5796f70e0648edc23705cb7451
+SHA1: 49df5bc55559ba9bbc389ae1636eda0186257b22
+SHA256: 85edc90b54975972cc96b300a086f4edfe6c1587fb87f913d067d6ef734e901b
+SHA512: 47b3fa226a3b8e7f714eac7aa2bb3712d1af805f6ad234253e1bc9c16831b60e94181b2e0e5cc10f5334238f95b2949756228a1caea652e1f07427e1b6622b2d
 Homepage: http://www.bluez.org
 Description: bluez obex daemon
 Description-md5: d1b91faa837143659c30c276d90596da
+
+Package: bsdextrautils
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: standard
+Section: utils
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 379
+Pre-Depends: libc6 (>= 2.34), libsmartcols1 (>= 2.31.1), libtinfo6 (>= 6)
+Breaks: bsdmainutils (<< 12.1.3)
+Replaces: bsdmainutils (<< 12.1.3)
+Filename: pool/main/u/util-linux/bsdextrautils_2.36.1-8ubuntu2.2_i386.deb
+Size: 90664
+MD5sum: faf01c173cadf1c82d0f24dd947bb64b
+SHA1: b2e503aa52a2221550dca38396d2f3a1b18c4fdc
+SHA256: eaf43fb9706984a9c40ae51ed765139a90193515c7384576f0f342cf8b6239ff
+SHA512: 42ae8bf802a8f71dbaf822e4774832bd01a0936c87da2f80e613d64ce6569507ea4779d327a6952345b7c30711ea295cc0b0c1acbef341964ec80a2fc664f820
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: extra utilities from 4.4BSD-Lite
+Task: standard
+Description-md5: 24a57388a4e2da47906426f4028c7290
+
+Package: bsdutils
+Architecture: i386
+Version: 1:2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: utils
+Source: util-linux (2.36.1-8ubuntu2.2)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 415
+Pre-Depends: libc6 (>= 2.34), libsystemd0
+Recommends: bsdextrautils
+Filename: pool/main/u/util-linux/bsdutils_2.36.1-8ubuntu2.2_i386.deb
+Size: 97224
+MD5sum: 615284757061707f15e33c40f48d9d17
+SHA1: 90a9df07f7d96eb4da35b52371716732dca9b13b
+SHA256: c294f2ce93a978ee401cffaa4649e05fbf8adf96e5302a3846ac12acb4338fda
+SHA512: a26cab917d7f3e41a60fc11d5bc164641eb00e4bdf71a0da60d234f3f6000cbf297f8cb00016b94c7bc5cf60eab17fc7e109e6c56b9930effc1595e5eb68b70e
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: basic utilities from 4.4BSD-Lite
+Task: minimal
+Description-md5: 07a52b485dd8e72c97ccec74c54564a0
 
 Package: busybox-initramfs
 Architecture: i386
@@ -614,6 +666,107 @@ Homepage: https://www.clamav.net/
 Description: anti-virus utility for Unix - documentation
 Description-md5: af78818bbdf8851b6358c15693a31419
 
+Package: cryptsetup
+Architecture: i386
+Version: 2:2.3.7-0ubuntu0.21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 426
+Depends: cryptsetup-bin (>= 2:1.6.0), dmsetup, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34)
+Recommends: cryptsetup-initramfs, cryptsetup-run
+Suggests: dosfstools, keyutils, liblocale-gettext-perl
+Breaks: cryptsetup-run (<< 2:2.1.0-6)
+Replaces: cryptsetup-run (<< 2:2.1.0-6)
+Filename: pool/main/c/cryptsetup/cryptsetup_2.3.7-0ubuntu0.21.10.1_i386.deb
+Size: 180480
+MD5sum: af31d8e31da74f113bb0b05ce687ad2d
+SHA1: f4aa0e1a84219ef5376c1ed49f2ef01385284226
+SHA256: 7f90ea493cb330e6c4c3e803189fe679cc07ec6373246a447f537c81cf5f961b
+SHA512: 4b14ed606ce497140f5b3682a502c27dc59200309df108bdd1134d2e5d6ebe08f2159546fd91ed70e6738341ad7ef85e827f01c6775f957e4569a907397c2598
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - startup scripts
+Task: server-minimal, server, ubuntu-server-raspi, kubuntu-desktop, kubuntu-full, lubuntu-live, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 8b31e9d1472acf1abfced8af08a00f11
+
+Package: cryptsetup-bin
+Architecture: i386
+Version: 2:2.3.7-0ubuntu0.21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: cryptsetup
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 572
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.34), libcryptsetup12 (>= 2:2.3), libpopt0 (>= 1.14), libuuid1 (>= 2.16)
+Filename: pool/main/c/cryptsetup/cryptsetup-bin_2.3.7-0ubuntu0.21.10.1_i386.deb
+Size: 135014
+MD5sum: 6e9f8d8aff786747ca84edcd7ece52e9
+SHA1: 2c1f485d86bdd7ac777f4a59b9df736fc3c43884
+SHA256: 2306527a9672cb7e1323727cee013449e77a61f582d550dc786b5274551e2d1f
+SHA512: cdcad23deae52c09a6a7c03d11ddb22da641384ab4065836eb9503e98bbc635b0bc5ab8310c098c490881e1c41ab4740484e032d2959bdaadbd2960aaa62bbe8
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - command line tools
+Task: server-minimal, server, ubuntu-server-raspi, kubuntu-desktop, kubuntu-full, lubuntu-live, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 5ba5cdc500067a042902eba3bbaab6db
+
+Package: cryptsetup-initramfs
+Architecture: all
+Version: 2:2.3.7-0ubuntu0.21.10.1
+Priority: optional
+Section: admin
+Source: cryptsetup
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 152
+Depends: busybox-initramfs, cryptsetup (>= 2:2.3.7-0ubuntu0.21.10.1), initramfs-tools (>= 0.129) | linux-initramfs-tool, debconf (>= 0.5) | debconf-2.0
+Recommends: console-setup, kbd, plymouth
+Breaks: cryptsetup (<< 2:2.0.3-1)
+Replaces: cryptsetup (<< 2:2.0.3-1)
+Filename: pool/main/c/cryptsetup/cryptsetup-initramfs_2.3.7-0ubuntu0.21.10.1_all.deb
+Size: 25452
+MD5sum: dd900aff9e608c03db78a8583e17f0b7
+SHA1: 0ff61e3a07ead1dea00ff88c1c8dd3fcbb8c27ea
+SHA256: 980c7216e9b161ab5cf70fa17d82e995f89e8b0a1e2d7ad0ae1e718fe9dfa2cf
+SHA512: c0586d6585b18fd7c03db4011c4b34698c993fc9b89328f1c028fb96797f9f5901805c38829693d326bc297769af38d60e2d0c91b80f47da5dd6e130f0665482
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - initramfs integration
+Task: server, ubuntu-server-raspi, kubuntu-desktop, kubuntu-full, lubuntu-live, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: cac39fb1e64bce69f201398c1e1e437a
+
+Package: cryptsetup-run
+Architecture: all
+Version: 2:2.3.7-0ubuntu0.21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Source: cryptsetup
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 79
+Depends: cryptsetup (>= 2:2.1.0-6)
+Filename: pool/main/c/cryptsetup/cryptsetup-run_2.3.7-0ubuntu0.21.10.1_all.deb
+Size: 6546
+MD5sum: 5b0f2d982380ca96614b443f966bb5e5
+SHA1: 898dae4c3ef953582030b8b6d43e89bf647de302
+SHA256: d8291b2c22c41fc8425b25487e3bd90e8ef689c7c2675bfb80597166440f5277
+SHA512: f64949fb5588f6a32f32fa06e10236617e823b96e63b489d240bd8bf279b3caae5d2aa2382f7b15d94770b26e490edec824c98de59d5d8ef306f15542f92f0f1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: transitional dummy package for cryptsetup
+Task: server, ubuntu-server-raspi, kubuntu-desktop, kubuntu-full, lubuntu-live, ubuntustudio-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: d044b2a2518818db3ce5a49c20e5e8d5
+
 Package: distro-info-data
 Architecture: all
 Version: 0.51ubuntu1.1
@@ -635,6 +788,56 @@ SHA512: fa4e2289d695882ef3f4da859ff745a8dd5873d7e8deb15661d610eabe43ed8c653deed8
 Description: information about the distributions' releases (data files)
 Task: minimal, server-minimal
 Description-md5: f7fe06a2e0396bbe8c1c7abad056bf48
+
+Package: eject
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: important
+Section: utils
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 193
+Depends: libc6 (>= 2.34), libmount1 (>= 2.24.2)
+Filename: pool/main/u/util-linux/eject_2.36.1-8ubuntu2.2_i386.deb
+Size: 45512
+MD5sum: 31233a523251060b25cfc29ca5da4cf1
+SHA1: 65fa01e876002a4d17dfd46441ec183a33a5f047
+SHA256: 9ac46acaff9041c61c800c7fd155cce1655db17f5f14a87a9f7e91f3a0413f0d
+SHA512: 27dc3961a67fc81a2323f1f07b20a73039880c9df55ad38a50d1fb5c546592234f9755dcbd9d36fdb6ba6efc9b4eed38b49093f206c66c2fbcfd3c924ba7f4e6
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: ejects CDs and operates CD-Changers under Linux
+Task: minimal
+Description-md5: 6a1f8e492b35e1b9dad2ebd6248c2167
+
+Package: fdisk
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 568
+Depends: libc6 (>= 2.34), libfdisk1 (>= 2.36), libmount1 (>= 2.24.2), libncursesw6 (>= 6), libsmartcols1 (>= 2.28~rc1), libtinfo6 (>= 6)
+Breaks: util-linux (<< 2.29.2-3~)
+Replaces: util-linux (<< 2.29.2-3~)
+Filename: pool/main/u/util-linux/fdisk_2.36.1-8ubuntu2.2_i386.deb
+Size: 151596
+MD5sum: 902e08bb4d1c8b1cd0c83e981d86c4aa
+SHA1: 3892bb05b21b9c41e8e8eb4c8b1e0a734c778fbd
+SHA256: 6a9989ce04986dac3c28b3bd5647531fa6273ba3383133f94de658b43e873e85
+SHA512: 10980753f215d4027bbb9a2a76f6576bcd1d71bf0c950b3bc69b4931c2d07cfab7ae71dfdf08b7a3d2cef16d16b509723fa750e93166395e6d6ebbbfaddaf4f6
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: collection of partitioning utilities
+Task: server-minimal, ubuntu-desktop-minimal, ubuntu-desktop, cloud-image, server, ubuntu-server-raspi, ubuntu-server-raspi, ubuntu-desktop-raspi, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-budgie-desktop-raspi
+Description-md5: 389774810aae3f2323ace16ab9ab19ae
 
 Package: freerdp2-dev
 Architecture: i386
@@ -851,9 +1054,104 @@ Description: server-side, HTML-embedded scripting language (Apache 2 module)
 Task: lamp-server
 Description-md5: 57ae373b2a8e4719810a4c745ba4a8df
 
+Package: libarchive-dev
+Architecture: i386
+Version: 3.4.3-2ubuntu0.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libarchive
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Pentchev <roam@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1652
+Depends: libarchive13 (= 3.4.3-2ubuntu0.1)
+Filename: pool/main/liba/libarchive/libarchive-dev_3.4.3-2ubuntu0.1_i386.deb
+Size: 590710
+MD5sum: aa029fd0ddc47f923db382c63050367c
+SHA1: b395cd844a9b81f0acc4b98bd6729b09265e7e03
+SHA256: eaf57a6cdfc321d8a4a1f11aa9b3a480f53ca8690c52ae8c5013657b7cd90341
+SHA512: 52fa1a9d4d3ad30d32b0b59af3ef7bbc3f1571992e1f4bb57addb51769710b8e10e30fc7a403dc82bab64ad0cd8890a4de8729c636fce03460b49c8d194475b9
+Homepage: https://www.libarchive.org/
+Description: Multi-format archive and compression library (development files)
+Description-md5: 68ad6870c167e8363f56ccdc0da60667
+
+Package: libarchive13
+Architecture: i386
+Version: 3.4.3-2ubuntu0.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libarchive
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Pentchev <roam@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 977
+Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.33), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.2.2), libnettle8, libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
+Suggests: lrzip
+Filename: pool/main/liba/libarchive/libarchive13_3.4.3-2ubuntu0.1_i386.deb
+Size: 408160
+MD5sum: 2897568b16058e6e2763da7599bd263f
+SHA1: 85dd2a4d9583d6fa7c05f4e19164876d8c56c41e
+SHA256: 3873594f96c91273fe5235c922265545bbda3c71c10555b195ca9c1506537e91
+SHA512: 609860f157f25ef9faa514cebf6b618f9c3c4930a9f1bc62ac8d329fdc9042271b81d9aa3cd768e1d927438ed918f69d890e69c70831813af56744dd34756098
+Homepage: https://www.libarchive.org/
+Description: Multi-format archive and compression library (shared library)
+Task: samba-server, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop
+Description-md5: 4bc5ca99af95264652d6d79af38b5271
+
+Package: libblkid-dev
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 792
+Depends: libblkid1 (= 2.36.1-8ubuntu2.2), libc6-dev | libc-dev, uuid-dev
+Filename: pool/main/u/util-linux/libblkid-dev_2.36.1-8ubuntu2.2_i386.deb
+Size: 199822
+MD5sum: bd26d5f5ce4d9ed30e2e8c303bf892a0
+SHA1: 34433059fd7bb287f5b99bf0481bdea4e3645359
+SHA256: 0226d19ae27da156f60946b5d94853c5776e1f332b27ba490371f905b41664d1
+SHA512: c8aee2e9c1b656163ed40f2dbeb73e779ce07795a2046cdc17844dc5fc9ff0a3f2d51d5350f43cc8a4f3d36f6650102f5d3e20782045e9c082702b4d06a6bd89
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: block device ID library - headers
+Description-md5: 7415f693bf9b8861c2b7f560fc52d6a4
+
+Package: libblkid1
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 467
+Depends: libc6 (>= 2.33)
+Filename: pool/main/u/util-linux/libblkid1_2.36.1-8ubuntu2.2_i386.deb
+Size: 159116
+MD5sum: 629c771cee7fe2f2a7d96916a6aa1cf9
+SHA1: 80fc4e2f3794066237c596adff5b9f3bce2ddc30
+SHA256: ad0608e26b75aafffd75046e2ec86bbc4f470f7aa6303da05e3f8306b365608e
+SHA512: caa2591bf382c1d146bca37e5f643c0a909d48ed181bd0e0000ee5401c61d49fa0e5741af35ab9a5a14bd5d83fb84b96042a90298e01145e212db0b0febee17c
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: block device ID library
+Task: minimal, server-minimal
+Description-md5: a511054d3223ae05280eebc8f3e2c80e
+
 Package: libbluetooth-dev
 Architecture: i386
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Multi-Arch: same
 Priority: extra
 Section: libdevel
@@ -864,23 +1162,23 @@ Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lis
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 659
 Provides: libbluetooth3-dev
-Depends: libbluetooth3 (= 5.60-0ubuntu2.1), libc6-dev | libc-dev
+Depends: libbluetooth3 (= 5.60-0ubuntu2.2), libc6-dev | libc-dev
 Suggests: pkg-config
 Conflicts: bluez-pan, libbluetooth-dev, libsdp2-dev (<= 1.5.2)
 Replaces: libsdp2-dev (<= 1.5.2)
-Filename: pool/main/b/bluez/libbluetooth-dev_5.60-0ubuntu2.1_i386.deb
-Size: 219906
-MD5sum: d94f3cf273601a912a41c6f813489947
-SHA1: 8aa38bb59c05b27e30195603a5404a575db1ff4b
-SHA256: c8134f35095392a6df2a0bb412aa154913bd54301f2ce151541d8fb9eb87f8fd
-SHA512: 33b7a6a176438d41f5df22a972bfdf49bd938c3ce7056e2abe73f5fc18b61a11f5937de594d7f3e97687b7d9f90de6d7a9fe3efbf1af0d17da6103e3da58807e
+Filename: pool/main/b/bluez/libbluetooth-dev_5.60-0ubuntu2.2_i386.deb
+Size: 219910
+MD5sum: e12fa5c0cd448a8f331f71dd66eb6c2d
+SHA1: 2011e4fc34bd465ec7cd91eebb1b5c04592d7295
+SHA256: ff2f70bcdfce57647df1dd65c09f2608992d39bdf07f10a5d6244cb36d7c5ac9
+SHA512: 60e98e1e25b75659de523bcb57cc4eca8014d7ef59ad3f0d3bd59de3e34c7c62e79a941dc94539c90ba33aa82d3078cd430a986cc87578fc095bfd061295ce95
 Homepage: http://www.bluez.org
 Description: Development files for using the BlueZ Linux Bluetooth library
 Description-md5: 81b829bf9a9f8d9c440031b39e2bebd3
 
 Package: libbluetooth3
 Architecture: i386
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -893,12 +1191,12 @@ Installed-Size: 253
 Depends: libc6 (>= 2.15), libudev1 (>= 183)
 Conflicts: libsdp2 (<= 1.5-2)
 Replaces: libsdp2 (<= 1.5-2)
-Filename: pool/main/b/bluez/libbluetooth3_5.60-0ubuntu2.1_i386.deb
-Size: 89926
-MD5sum: e7268ea77aae8a02da657069ad09e534
-SHA1: 885c9ab8b78eec2d79efcbc2415f57dff4928ca1
-SHA256: 1f1bc6eef6421f62549e773e5c749576bf4cb7515c00e741dd36e1636c8f7122
-SHA512: 836c63e5ffd40c0cea7713d5bac0363c8eb5a8c3c34d256b693a548cc301751ee7e51b5c9333638a46056911b56e15a3131694e831088ca731239b40efc520e3
+Filename: pool/main/b/bluez/libbluetooth3_5.60-0ubuntu2.2_i386.deb
+Size: 90060
+MD5sum: 931d11fa71426e230e2751de58bac37d
+SHA1: 1d40d102df6cb56f4b62fbe8e6c6c8010f987006
+SHA256: f24e9d201746d08a2b7e0cd89978c2fc266ff422ac80a05171b3ddbbc4f4e016
+SHA512: 280b4ee9be8a4b643407c71844f2978f3b3fe52d5c2d02cd1c2d987e01b725f4dfedbfacfdf85bd1b9f947e4a3efd6d71e6850f7a429bae08589c64e9ee7140c
 Homepage: http://www.bluez.org
 Description: Library to use the BlueZ Linux Bluetooth stack
 Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, kubuntu-full, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
@@ -949,6 +1247,53 @@ Homepage: http://caca.zoy.org/wiki/libcaca
 Description: colour ASCII art library
 Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
 Description-md5: d4849604710d4ce2aca997ad664f17fe
+
+Package: libcryptsetup-dev
+Architecture: i386
+Version: 2:2.3.7-0ubuntu0.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: cryptsetup
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 172
+Depends: libcryptsetup12 (= 2:2.3.7-0ubuntu0.21.10.1)
+Filename: pool/main/c/cryptsetup/libcryptsetup-dev_2.3.7-0ubuntu0.21.10.1_i386.deb
+Size: 21440
+MD5sum: cd3676f3cbb70a23808eb8d76ca9d8b0
+SHA1: 2e5d197b7b0cc565e5f0d54805870a2f67c6bdfa
+SHA256: 9603d523c7b9d079062195c9883142abc984c8da3837c924f31af3fce204ed25
+SHA512: d1c27abb92b85bf52d1d45f5bb4346493690d5fe407c69cc35f23088ca88bfa472783ad4bab794aed4adb876034f963555ddb719b930ac26848797aa1de37112
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - development files
+Description-md5: f9f5cbe91fe7a25a22798d2891748370
+
+Package: libcryptsetup12
+Architecture: i386
+Version: 2:2.3.7-0ubuntu0.21.10.1
+Multi-Arch: same
+Priority: important
+Section: libs
+Source: cryptsetup
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 691
+Depends: libargon2-1 (>= 0~20171227), libblkid1 (>= 2.24.2), libc6 (>= 2.33), libdevmapper1.02.1 (>= 2:1.02.97), libjson-c5 (>= 0.15), libssl1.1 (>= 1.1.0), libuuid1 (>= 2.16)
+Filename: pool/main/c/cryptsetup/libcryptsetup12_2.3.7-0ubuntu0.21.10.1_i386.deb
+Size: 243916
+MD5sum: 140557fe2e1f581cf9bacc984f376c25
+SHA1: b03bc85c7897ea43c493e5321cec6cad76547b87
+SHA256: 0dda3aa187cfa9602e5f288ab736148b04a088077951f8e9600621d82f519cb5
+SHA512: 874cc0d618f1f2390782171201f2b6379f608be73e6bfebde4c153e98c908a902524cc451a7ac414a722a603603adc8637914bd27a4dac34d3bf9abd9ec026bb
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Description: disk encryption support - shared library
+Task: minimal, server-minimal
+Description-md5: 4d51c661b0adee027561376db6e58853
 
 Package: libecpg-compat3
 Architecture: i386
@@ -1039,6 +1384,53 @@ SHA512: 6631d1452f49a308f863b0cee8dca74f3b0131fdf05b517074e0119c9a842b767ad77936
 Homepage: https://www.exiv2.org/
 Description: EXIF/IPTC/XMP metadata manipulation library - HTML documentation
 Description-md5: ceddcd5f9a8d366703af7c7d1539c4a6
+
+Package: libfdisk-dev
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 133
+Depends: libblkid-dev, libc6-dev | libc-dev, libfdisk1 (= 2.36.1-8ubuntu2.2), uuid-dev
+Filename: pool/main/u/util-linux/libfdisk-dev_2.36.1-8ubuntu2.2_i386.deb
+Size: 13700
+MD5sum: 88cc2aa4a58f2eca4d4cbe55f26dc294
+SHA1: abe50bf601940b0151eac0ddda44ee31e4dbcba2
+SHA256: 73d396aae339702f971b2aa5b4ca0547d0cf7bd8d90a10088c4c58976651c2c5
+SHA512: 1146fe1e13cc85361508416c5a19db62ad82bf800f55db31e397fc69f6b3fccb87f7cd2e7a6b9a97989864427f56576548d1140e5b05b0e5d582fd99d6c068bd
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: fdisk partitioning library - headers
+Description-md5: a2001aec023268fdcf5a0ff2b2688bd3
+
+Package: libfdisk1
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 619
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.33), libuuid1 (>= 2.16)
+Filename: pool/main/u/util-linux/libfdisk1_2.36.1-8ubuntu2.2_i386.deb
+Size: 207818
+MD5sum: 81e97ec82bd7c5d085204c87f682af00
+SHA1: f25300632a88effbd787cfcc155a5d2b58d3a87d
+SHA256: 2a81d0fc398bdd0d8e88b903c99c8149ad262eb7303a970935c52a708a1c4678
+SHA512: 9afe00d5bf24af52c3977ef8825e62bf75ebfbb199c9bbe77eb7d0fb488995f111e1137e716f0651a079f6a6227fd2d8667ee5153c969e506752c92ff6c2bdc5
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: fdisk partitioning library
+Task: server-minimal, ubuntu-desktop-minimal, ubuntu-desktop, cloud-image, server, ubuntu-server-raspi, ubuntu-server-raspi, ubuntu-desktop-raspi, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi, ubuntu-budgie-desktop-raspi
+Description-md5: 97986f600b6cd55d9613b5b8eac3b74a
 
 Package: libfreerdp-client2-2
 Architecture: i386
@@ -1334,9 +1726,56 @@ Description: LDAP-like embedded database - shared library
 Task: ubuntu-desktop-minimal, samba-server, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: afbf2b86552adbf8b69bb702e5773247
 
+Package: libmount-dev
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 138
+Depends: libblkid-dev, libc6-dev | libc-dev, libmount1 (= 2.36.1-8ubuntu2.2), libselinux1-dev
+Filename: pool/main/u/util-linux/libmount-dev_2.36.1-8ubuntu2.2_i386.deb
+Size: 14490
+MD5sum: 403ecdec9eb38173668878eaad0ed73b
+SHA1: 894962b71ccadcc7cbd0013a92573734d05bbb4d
+SHA256: dbd0fb4b21c0ad21ffd53af717b82e173c7eb43547b1a34a704a720f22ed55e8
+SHA512: 750a817866554f428af12856d876df5b628b14d6395b79771de4ad45c237d6c12a8492217d239d8d540f00e0f22284a1e2f000cd1acd2dce25197f88c02198ff
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: device mounting library - headers
+Description-md5: 07d7a2af1f3a709af925942f04219978
+
+Package: libmount1
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 535
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.33), libselinux1 (>= 3.1~)
+Filename: pool/main/u/util-linux/libmount1_2.36.1-8ubuntu2.2_i386.deb
+Size: 172692
+MD5sum: dd62ecc13a6830a536b269ef738db397
+SHA1: 9a2b6a9534053b1e5ac109a8d7e7777eadb9e88b
+SHA256: 54e5aa7cb44012e35f554e0cf38b4ae959838bbcbc34709accc1959143bc7ca0
+SHA512: 24e44536f88bfda7a33ad9b054f11518fba2fc7926a6b316aa470da9d334672aa0dc806f070e70e1bba0216f10563b54b4d4da5109b4260e59e2ce24e055cfeb
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: device mounting library
+Task: minimal, server-minimal
+Description-md5: 7e446c44302ff94779f1434f2e05d553
+
 Package: libmysqlclient-dev
 Architecture: i386
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: libdevel
 Source: mysql-8.0
@@ -1344,23 +1783,23 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 8013
-Depends: libmysqlclient21 (= 8.0.27-0ubuntu0.21.10.1), libssl-dev, libzstd-dev, zlib1g-dev
+Installed-Size: 8017
+Depends: libmysqlclient21 (= 8.0.28-0ubuntu0.21.10.3), libssl-dev, libzstd-dev, zlib1g-dev
 Breaks: libmysqld-dev (<< 8.0)
 Replaces: libmysqld-dev (<< 8.0)
-Filename: pool/main/m/mysql-8.0/libmysqlclient-dev_8.0.27-0ubuntu0.21.10.1_i386.deb
-Size: 1600334
-MD5sum: b2ca6f648731f94914a613127527d393
-SHA1: 18a0d666e3db6f957138a58bbc33b7ea9ca73e05
-SHA256: 3239612506887be814a89caa059bd06e5792a3e38a4e75b21139167522cf22d2
-SHA512: 0ec714e0d70ad397d5fa7ebfdb4e856daf3e034827ac9da4ba6517022bd95dca8a2ee440eee56917bbde91110453986c178873777ba43ef914025ce64b09f9f5
+Filename: pool/main/m/mysql-8.0/libmysqlclient-dev_8.0.28-0ubuntu0.21.10.3_i386.deb
+Size: 1605098
+MD5sum: 18e217eeaafb20caca84ab1e306bd2dc
+SHA1: fd75701f091659d98d441d3e2784951b684e8dba
+SHA256: 7f4e6bc2e0f9bff79a5f92151cc6106bfed804f2bad38f92d61dbd2b1b327345
+SHA512: baa579581a82e37380dc56836218ad3f6d750c31c37f737633ae883e463f5070d8b139c53f086312f8d6e173fa88b1d9ab0916fd421b3eb7507930babef4ad46
 Homepage: http://dev.mysql.com/
 Description: MySQL database development files
 Description-md5: 716f7a81dc4e3e8899c7eaa66b24736d
 
 Package: libmysqlclient21
 Architecture: i386
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -1371,12 +1810,12 @@ Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 6434
 Depends: mysql-common (>= 5.5), libc6 (>= 2.34), libgcc-s1 (>= 7), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
-Filename: pool/main/m/mysql-8.0/libmysqlclient21_8.0.27-0ubuntu0.21.10.1_i386.deb
-Size: 1305526
-MD5sum: 42e443f133910d01a9e156c31c57dcbc
-SHA1: e068e3bb231a2656d0fa08f9afed7b374f9e6f6d
-SHA256: cc73831cf3c811e1b21c761e2f19523e643d7b11d3a9f0447afdc6f7691ce0d1
-SHA512: d52643b84bab852f53a5af483aa649b6e6dfabb62c94800fe4930a436d96557ea80d0a9bc1ea0f3ad9a201ff238ee519f2fd82f847a1546500cfaa113a03a91b
+Filename: pool/main/m/mysql-8.0/libmysqlclient21_8.0.28-0ubuntu0.21.10.3_i386.deb
+Size: 1325582
+MD5sum: 86e957399d88d4d0380a977b68737418
+SHA1: 2c99fbcd0c077c05cb166ac4be975de72acb55a2
+SHA256: 9f5c41708cd42ce2db111f53fd1531662290d265ec70c48767fee9e71814dba3
+SHA512: 16c79c3c1148d091510572f99abccc98d78bfb7dfc2d67721c28c67385c61c66f4349f6b4e73d5bd6a1966de677f006863d089e7b348ed0075bbbc62c65a1d22
 Homepage: http://dev.mysql.com/
 Description: MySQL database client library
 Description-md5: 49de807663510f5f2afd3e71efe199f1
@@ -1430,7 +1869,7 @@ Description-md5: f5bdd7572f97a2162876ec5b0a11a2ca
 
 Package: libnss-winbind
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: net
@@ -1441,14 +1880,14 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 185
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: samba-common (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), winbind:any (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libbsd0 (>= 0.0), libc6 (>= 2.4), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: samba-common (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), winbind:any (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libbsd0 (>= 0.0), libc6 (>= 2.4), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Suggests: libpam-winbind
-Filename: pool/main/s/samba/libnss-winbind_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 14798
-MD5sum: 6af6cbc7d388101694106dcaccd2cb65
-SHA1: df1c716137f6d2e32dafb9020d723c7a93da8445
-SHA256: c36b44609349eb2ac44ccfe5f415e7706e45adb2de970025d1c3ca439ff6313e
-SHA512: a47d747262d54d61437be67ed9a38679a9bde8affa1ebdca8a9a378f81b9fd8d0170d424099757e0882eb38e70a54a6451604e46578e3a566ee2a1a08ad72bca
+Filename: pool/main/s/samba/libnss-winbind_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 14806
+MD5sum: 126c3cd01a674f201c47b747e1621080
+SHA1: 2110b1cfea98b1ad4f3789587d384299d4ab2396
+SHA256: 1ade0243c2fd563e98053a9eaf2184d1aa4c0561f4084aec9e39ccd3ea4b823b
+SHA512: be2ffdae1e9a9e59de9cc77f4619fe6529d4ea12d050c5579ecb5774e4f1d2e4743b09637bdba1283798612839719b7615ff9fa5d3d87a931de057d24ecb1739
 Homepage: http://www.samba.org
 Description: Samba nameservice integration plugins
 Task: samba-server
@@ -1713,9 +2152,56 @@ Homepage: https://www.ruby-lang.org/
 Description: Libraries necessary to run Ruby 2.7
 Description-md5: 30659f1432a2602b994287b347691e6a
 
+Package: libsmartcols-dev
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 118
+Depends: libc6-dev | libc-dev, libsmartcols1 (= 2.36.1-8ubuntu2.2)
+Filename: pool/main/u/util-linux/libsmartcols-dev_2.36.1-8ubuntu2.2_i386.deb
+Size: 10102
+MD5sum: ca94bee947f9dca40a4fb18402db0bd4
+SHA1: 55328f2491dafaa173dda8f38b85b35357ca4bf1
+SHA256: dc5733cfdf8bca8ddf70608e7d3e7ff648c5ba313abbebab85ce0f596ca07148
+SHA512: 6e33b4d01f70b3ff172c312834075346325749b9df4a565b72af659f8ce11aba247f0a20fe4ac397c93abb87a39cc98039acb1a0394e75338868179d86e66346
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: smart column output alignment library - headers
+Description-md5: a7578b54dbfd56c566b744ccaecec7c9
+
+Package: libsmartcols1
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 358
+Depends: libc6 (>= 2.33)
+Filename: pool/main/u/util-linux/libsmartcols1_2.36.1-8ubuntu2.2_i386.deb
+Size: 110844
+MD5sum: 9ac3710a68b383e797d1e5f14ad88273
+SHA1: f713e9a2c9686e865e542bbc503ecdf699584636
+SHA256: ba8420b3367062e5529c1ebac37dd339819578025197ae0e3880376759ad8283
+SHA512: f8675a5e676a9a23045faed19beaeb9bc3b1243423ef1a43121423b801567e4db40df58e94d7984ee5f97599b9b18763a92cca30209050214f1eb959e20944c5
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: smart column output alignment library
+Task: minimal, server-minimal
+Description-md5: d5382f0223188fc45ed69f879488c198
+
 Package: libsmbclient
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: extra
 Section: libs
@@ -1726,13 +2212,13 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 352
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libbsd0 (>= 0.0), libc6 (>= 2.8), libtalloc2 (>= 2.3.1~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
-Filename: pool/main/s/samba/libsmbclient_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 71500
-MD5sum: 01d44147bdcf0e984d9f63c117310fbb
-SHA1: 141b42e9eb5a66a5044bbb5deec26d047ae2224b
-SHA256: b98352becbf197e0634eae18aa3b9b0307b7fba1c3e28f9697c7ac2429713a32
-SHA512: 7b6706cc2cce1d18093a6e6aa5b2a72621faeb1180dfeb7d1846898d3b4871769fb345ac2d1652b46ece89f595c569c19532358cf4db1d32347cd4a0a371f364
+Depends: samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libbsd0 (>= 0.0), libc6 (>= 2.8), libtalloc2 (>= 2.3.1~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
+Filename: pool/main/s/samba/libsmbclient_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 71486
+MD5sum: 90fa4a223fce3de7f6a4b95a18dbb658
+SHA1: f6c65f575f3b9473a18c8bc4e46eadd31baa6142
+SHA256: 701e6545db3603725a7732cfc63f9b8a991d2c37cc75f5928ae521a1a8d3b901
+SHA512: b642543fb2a0e2bad125e551ccebca9950856e00a6061784f1e060a0f20ff63440e5a1f3b04555f006685009c7630362f9a0749bd5070ba3f7ea0eb79675c95a
 Homepage: http://www.samba.org
 Description: shared library for communication with SMB/CIFS servers
 Task: ubuntu-desktop-minimal, samba-server, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop
@@ -1740,7 +2226,7 @@ Description-md5: 483547748179a567c24665e99ab5439e
 
 Package: libsmbclient-dev
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: extra
 Section: libdevel
@@ -1751,16 +2237,136 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 368
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libsmbclient (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
-Filename: pool/main/s/samba/libsmbclient-dev_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 41080
-MD5sum: 147f72797a17daa993ccc9d3e1afa9d2
-SHA1: 5b7fe8a87278079e1dd7d5d3d2a69183caae21b9
-SHA256: c3fa2c1e6956508356aeca36ef75e5592051e1a4e67b856c064d8e38b9d41b67
-SHA512: a483958948b8d35a2158e19755bfe4672f78bfa1a963bda393c93fc13452574437b697337a95d91acb6d8ab5078ef3a24e50e89615812f50123ed2b5f6e3cad5
+Depends: libsmbclient (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
+Filename: pool/main/s/samba/libsmbclient-dev_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 41084
+MD5sum: 0726622b1ac2c36370712e8daf7235ac
+SHA1: 54acec01e8a04dc75984adf24f90ff856915c74f
+SHA256: a4d466759e639f1cc50d8e3a248b56f17e9db51e48c272cc81c557fb0fbd2315
+SHA512: 07376ebb1abb518dd8c4f82ee52afd8ab7759071817c92ea115ff7beb71e459d8950f729b274292fea92d76f964e0a944a528d7c9d95b4b8004a3934e0e237a4
 Homepage: http://www.samba.org
 Description: development files for libsmbclient
 Description-md5: d6338d0aed68408023b999dd547aaecf
+
+Package: libspeex-dbg
+Architecture: i386
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Priority: extra
+Section: debug
+Source: speex
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 991
+Depends: libspeex1 (= 1.2~rc1.2-1.1ubuntu1.21.10.1), libspeexdsp1 (= 1.2~rc1.2-1.1ubuntu1.21.10.1)
+Filename: pool/main/s/speex/libspeex-dbg_1.2~rc1.2-1.1ubuntu1.21.10.1_i386.deb
+Size: 369982
+MD5sum: 04362be348ce7b5825abf9a238cc08d5
+SHA1: 0739f39e00e39ab1ca293fcb0c25677bf7f64fab
+SHA256: 8ca21d6bd023f5d3d33667aa0b224aae10ac6c588fa835f86876ef83353cf6b8
+SHA512: 04ae296fdd9765e1792f3e4b454a8bb5cb915e4fd3317c7e70c9e58b50b29d540346bfc525e7ff99918ac5e16552008623e34b9cb96e4f77b9573790f91c5eea
+Homepage: http://www.speex.org/
+Description: debugging symbols for libspeex and libspeexdsp
+Description-md5: cc4ccd0e1dedf1c24e2ecff117d76238
+
+Package: libspeex-dev
+Architecture: i386
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: speex
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 217
+Depends: libspeex1 (= 1.2~rc1.2-1.1ubuntu1.21.10.1)
+Suggests: pkg-config
+Filename: pool/main/s/speex/libspeex-dev_1.2~rc1.2-1.1ubuntu1.21.10.1_i386.deb
+Size: 69994
+MD5sum: da5adf9420f6f53d1146bf132e9894a3
+SHA1: a00d64920c90ed724ed724fb3c0c09b21407a183
+SHA256: 9d74a01232bf19d830cc9510b9f6ef4c8a691193adce94c0fff9bfd2630c2bc2
+SHA512: 599718960a7af164bf5470c22551d9f558c65229ec85ae37b402c5f6f762e81df7b0114a4eb44260b413aba23f20ba6b622371fec9a935161a34ea780f4bda7d
+Homepage: http://www.speex.org/
+Description: The Speex codec library development files
+Description-md5: 062117b1b3154a3cf97900898baf7934
+
+Package: libspeex1
+Architecture: i386
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: speex
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 261
+Depends: libc6 (>= 2.29)
+Suggests: speex
+Conflicts: asterisk (<= 1:1.4.18.1~dfsg-1), libiaxclient1 (<= 2.0.2-1), libmediastreamer0 (<= 2.1.0-1), libopal-2.2 (<= 2.2.11~dfsg1-3), libopal-2.2-develop (<= 2.2.11~dfsg1-3), libopal-2.2-ptrace (<= 2.2.11~dfsg1-3), libopal-2.2.0
+Filename: pool/main/s/speex/libspeex1_1.2~rc1.2-1.1ubuntu1.21.10.1_i386.deb
+Size: 98432
+MD5sum: f63b6a2a2a1d0648d0e6cb24f15dbf1d
+SHA1: cf6fbfaffbd84302c73f5beb00a2847f99d8b88d
+SHA256: a75bb7808478e8a52cbec71bd8e0c7bf2fffc645d108c78111d1e16330f54c83
+SHA512: c9638839466b35eadf94e9aaa68ce69e6ac3228a4276c9fc5641fabc9c174499bba3385572e945adb8b4f8fc91be57ae9a19e33fc0f2cb94d55b6063b55874a4
+Homepage: http://www.speex.org/
+Description: The Speex codec runtime library
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: f9da73880f1174ecd33b8c03b963867b
+
+Package: libspeexdsp-dev
+Architecture: i386
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: speex
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 158
+Depends: libspeexdsp1 (= 1.2~rc1.2-1.1ubuntu1.21.10.1), libspeex-dev (= 1.2~rc1.2-1.1ubuntu1.21.10.1)
+Suggests: pkg-config
+Filename: pool/main/s/speex/libspeexdsp-dev_1.2~rc1.2-1.1ubuntu1.21.10.1_i386.deb
+Size: 50686
+MD5sum: 998c751d8817f1c106c39b8c6555c042
+SHA1: 09713e4d2d22cce0749177aae4e30b12778a2384
+SHA256: d5f3e786120c52fc98f0b29a340c3b622dcd5d5d137d87c2430c01d5aa0174ec
+SHA512: 07d1f66957109429439bdc71668e7918dc541ff5d794ab70082806be3967fbb6866f6bfd9829a4e38525af4d6b2633153587b63f9091adb1719001ccd9b4e4d0
+Homepage: http://www.speex.org/
+Description: The Speex extended library development files
+Description-md5: 2f940d6d7f0aec76a3ea6b9d7f54e7fd
+
+Package: libspeexdsp1
+Architecture: i386
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: speex
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 215
+Depends: libc6 (>= 2.29)
+Filename: pool/main/s/speex/libspeexdsp1_1.2~rc1.2-1.1ubuntu1.21.10.1_i386.deb
+Size: 82458
+MD5sum: 6dd0faff08dfbd24309855a1e6f1c90c
+SHA1: 92aa375349b794547209a5326fd653b69e153c7f
+SHA256: ad793bb49e1bdc366ea74f29ac5684b2508da796a1b65647160d06e54fd58813
+SHA512: 0a766adef75a8f102710a861522d9fcaa7f8f5f5a19d7c73ca7fcc6246750cfb8e778e074a226bed1d858ca12b89579832b4e2abf8634c9a1f900daabed8b577
+Homepage: http://www.speex.org/
+Description: The Speex extended runtime library
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: da1c671ebad8956544b864bd28b091c6
 
 Package: libsystemd-dev
 Architecture: i386
@@ -1856,6 +2462,31 @@ Description: libudev shared library
 Task: minimal, server-minimal
 Description-md5: ace5b83d7b48187416c90173a93255b6
 
+Package: libuuid1
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 135
+Depends: libc6 (>= 2.28)
+Recommends: uuid-runtime
+Filename: pool/main/u/util-linux/libuuid1_2.36.1-8ubuntu2.2_i386.deb
+Size: 25034
+MD5sum: cd615c4fe4fa243b0e4e981653b81932
+SHA1: fe3cd717b2c0741ef1f66d0b4e210ff4220b3195
+SHA256: 67674852fadb4ba7c69266911f5aa9aae2e2efe6b845fc762fce62ac0b728671
+SHA512: 47fbe55a4420987c87a848b1b0f5e5b63379d7b317ab2af7a856d63cbfcd3d8b39c25db0d64c91fa23493217fc874206026a9fc307becdb18b0e4b20da74274c
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: Universally Unique ID library
+Task: minimal, server-minimal
+Description-md5: f31dd3d34d42a99fedd60c9fb7d79469
+
 Package: libuwac0-0
 Architecture: i386
 Version: 2.3.0+dfsg1-2ubuntu0.1
@@ -1906,7 +2537,7 @@ Description-md5: 6374753f72cb91cde650a7be27a46a62
 
 Package: libwbclient-dev
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
@@ -1917,22 +2548,22 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 211
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Breaks: samba-dev (<< 2:4.11), samba-libs (<< 2:4.11.0+dfsg-1~)
 Replaces: samba-dev (<< 2:4.11)
-Filename: pool/main/s/samba/libwbclient-dev_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 16122
-MD5sum: f5f439b2383113dc05bddfe4e4e93d71
-SHA1: 64af9b6e68be8662e49f0e90bcfadd0921b2b338
-SHA256: 51d1521253586a65323dcf0b5b046d9f2912fa6d9fe9c928f5895cc1a5fccd01
-SHA512: e2a6dd775f416dfd18722135a88a171ee7eba8fe6779dc3ca6d9751f410d77f86f0eb6e664983fe22fda6edb95a1b0753e0c6501154a183e6892a70a62d6b1a7
+Filename: pool/main/s/samba/libwbclient-dev_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 16140
+MD5sum: 358b8cccf6325b6c981baf8689c4b49d
+SHA1: 93afbcd6d0f8c0f63585f63578b599ac2ec4c43a
+SHA256: 2b0cb978e0508843c228a515bcafcd01d525b597197034794426ae18ccd810bf
+SHA512: d81a24f95f680c4263697966d6fbba3c3c4aed771b35d04f86bac18ca2eef1b37f2394bb7c5b54441061b492490531eda0804f9a6029bedc52a11fce51444fd7
 Homepage: http://www.samba.org
 Description: Samba winbind client library - development files
 Description-md5: 2fd42f0ef62fe1cc8cfee6fb03d4b884
 
 Package: libwbclient0
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -1945,12 +2576,12 @@ Installed-Size: 871
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libbsd0 (>= 0.5.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libicu67 (>= 67.1-1~), libsystemd0, libtalloc2 (>= 2.3.1~), libtevent0 (>= 0.10.2~)
 Breaks: samba-libs (<< 2:4.11.0+dfsg-1~)
-Filename: pool/main/s/samba/libwbclient0_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 279196
-MD5sum: adccc01d779e40a64a41d2177ed41e37
-SHA1: 5d68ca8e5ea3f1a00012967f5acd205d489b4f2c
-SHA256: ff84bbde716f3d400ce8a1101f4f795cd3ced1c6478de1e5a629d89189f0ba1a
-SHA512: dc4d7c646dc1b5181979a47c4e31471802cb987e9615ef98dd8e24f989def38cb389e3ee117b7579e9e928c104be69cf7962c71233d8ece914fb3cc67c21c993
+Filename: pool/main/s/samba/libwbclient0_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 278936
+MD5sum: 4a318ad3094bb0d67c8e2139cd9d0d07
+SHA1: d75a65b0260fcc5f84d3787af8a902b6470d7548
+SHA256: a1939fcb8ac616df429fcd0135ba8466f6c39a6cb1bb0ba7e3f9f3b647d8920d
+SHA512: 87758c770c84607c0fc3f66af38a920b0f12a82c5823ab373fc9fcf0e7b7cfc512cd5889fe0cc9c081a45bb7a42bd8a06d30aa459ca973109249ea63b12f8d61
 Homepage: http://www.samba.org
 Description: Samba winbind client library
 Task: ubuntu-desktop-minimal, samba-server, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-live
@@ -2213,6 +2844,28 @@ SHA512: f9663a36b7c7d7cd0d1aca2b2b5abf842d854d4c27333e803d70e97ad30f49cfa7ea6001
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: 1a4f534d745dfdf3fd8b23090c3fdb89
 
+Package: linux-aws-headers-5.13.0-1012
+Architecture: all
+Version: 5.13.0-1012.13
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-aws
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76264
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/main/l/linux-aws/linux-aws-headers-5.13.0-1012_5.13.0-1012.13_all.deb
+Size: 12107166
+MD5sum: cf454f9ea595628cddfdf9b904de4099
+SHA1: d7bb29b4273e1d4339c934227bce2b0aa0327a73
+SHA256: e8df7303750c732ac5ae70f626096ea1cfc66916d6bdff21db794f98d9befa6a
+SHA512: f609c95b608a0e011dd7aab01a0de012ae1ac2462a5377e248f32a8abd21f62455f61fd5626a1868928268bea9fd673ac2c6f38c633d36565f85c89fc3f96815
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: cc7a1aac92ff9ee6aae6639f2d18d274
+
 Package: linux-azure-headers-5.13.0-1007
 Architecture: all
 Version: 5.13.0-1007.8
@@ -2423,6 +3076,27 @@ SHA512: 6338e7fe5b19f03f03e94d4633b0b19a02da69ef3ba6ff954cb254ac65617d9c5c7efc1e
 Description: Linux kernel version specific cloud tools for version 5.13.0
 Description-md5: e83193b69b068241e625432207a52738
 
+Package: linux-cloud-tools-common
+Architecture: all
+Version: 5.13.0-28.31
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 347
+Depends: init-system-helpers (>= 1.51)
+Filename: pool/main/l/linux/linux-cloud-tools-common_5.13.0-28.31_all.deb
+Size: 85992
+MD5sum: 188d2b3523dd4f59237ad4038e700937
+SHA1: b91922f75df313b1fa0eea06b2f35d1a8f6b92a2
+SHA256: ed8ae1c9daf28a880ee2b4fa8731de8213bb1a3b5f4fda36896ff9b1fbc4d15c
+SHA512: 07451085c777002cab679a7920432b6ab2f5e6dbb732583f109083fe35c4a4d3ea2eb3e04bf413689e959ef34381d9025ffff005cfe88ad9c56a2d99d02fa03f
+Description: Linux kernel version specific cloud tools for version 5.13.0
+Description-md5: e83193b69b068241e625432207a52738
+
 Package: linux-doc
 Architecture: all
 Version: 5.13.0-21.21
@@ -2515,6 +3189,25 @@ MD5sum: c6e7da51d82b3e8f267cc0360b46752e
 SHA1: 536da91bced7cea9e62449565bcfc1cbd5764ac4
 SHA256: 319533c39d0e0699e1e79cd96f9573d8c930d497257974d5b54b4b6e69e5ed5f
 SHA512: dd271e64c7d35f94dc825aeb1cbe64f3c929d5753f730e8f9929815d39dd16d93a564a41274a2a82bf756694be2aa97d7536e9d5294acc7277812396ea819ae5
+Description: Linux kernel specific documentation for version 5.13.0
+Description-md5: 047fb196e57eb81d02bc3c867b5d8174
+
+Package: linux-doc
+Architecture: all
+Version: 5.13.0-28.31
+Priority: optional
+Section: doc
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 23151
+Filename: pool/main/l/linux/linux-doc_5.13.0-28.31_all.deb
+Size: 10309682
+MD5sum: 8fdbab63ec0d0213e36154bbe5dbce68
+SHA1: 401c29ac4b61d4605b95eded08291a6341fb093c
+SHA256: e4002efa53a965b23de99a58cb5688bcead1cbee36dd815c7aa0b118ff959ebe
+SHA512: 005ab46305c0573dd00ab440d60ccd0e5842d6797f8d331868de9e625029bf37adc29853760e75b11022e949e4cbccc20e1c5c133a4ec738ac934c03411327ee
 Description: Linux kernel specific documentation for version 5.13.0
 Description-md5: 047fb196e57eb81d02bc3c867b5d8174
 
@@ -2623,6 +3316,27 @@ SHA512: 90afb4f66cf62e34a1c061b7f76ddb0840ed5f4b42d32923354e2993ba6f489c3ebf6f9e
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: 3fcbae5a01fe260ee287b89b83468a1c
 
+Package: linux-headers-5.13.0-28
+Architecture: all
+Version: 5.13.0-28.31
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74185
+Depends: coreutils
+Filename: pool/main/l/linux/linux-headers-5.13.0-28_5.13.0-28.31_all.deb
+Size: 12105740
+MD5sum: 8702d85d03cb486d60201ed5975f7db7
+SHA1: 2ab51cb945bf9d2e7453d0597db7499bf6dfd932
+SHA256: 9e907d2f36b84954538121e4611f827e1f010dc2e2073f0af94b889effc733f2
+SHA512: 3ea249db84c237dceff96ca3dd6c3b7be79f85c71c56f0faf1989d916dd97bd178809ae35d51c2fdfab9b7a1fe06e3558facae6ac06468b5bcba38437edfbbae
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: 7a3666255e57112b922e36a9ec63e0df
+
 Package: linux-kvm-headers-5.13.0-1005
 Architecture: all
 Version: 5.13.0-1005.5
@@ -2728,9 +3442,30 @@ SHA512: 8282f609fa32bbafcb602761d163e3dd268c63c1bfca5a37ccf0b2242afc14874947065f
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: be6ad58d77f701f038b5a4eaf36522cf
 
+Package: linux-kvm-headers-5.13.0-1011
+Architecture: all
+Version: 5.13.0-1011.12
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-kvm
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76202
+Depends: coreutils
+Filename: pool/main/l/linux-kvm/linux-kvm-headers-5.13.0-1011_5.13.0-1011.12_all.deb
+Size: 12170566
+MD5sum: bdbe5fb348bbc3330236c52c98fabe85
+SHA1: 8793180a000f92d55026cbac84b43fff7f50ebec
+SHA256: cb91aea2d29cae8385dceddb15bdf920c81d21124167d8f13e9dfd278271383f
+SHA512: 827369da80b60a9356b7356f454d632024e551e8eef4322a49765324bdcc408678288c218f45b3d74028d068f20905911e2659be28655ba1e5efc0be63fd3d75
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: a5e1b2ba9f5c818afe2fee2fc454ae90
+
 Package: linux-libc-dev
 Architecture: i386
-Version: 5.13.0-27.29
+Version: 5.13.0-28.31
 Multi-Arch: same
 Priority: optional
 Section: devel
@@ -2738,16 +3473,16 @@ Source: linux
 Origin: Ubuntu
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 6315
+Installed-Size: 6344
 Provides: aufs-dev, linux-kernel-headers
 Conflicts: linux-kernel-headers
 Replaces: linux-kernel-headers
-Filename: pool/main/l/linux/linux-libc-dev_5.13.0-27.29_i386.deb
-Size: 1263832
-MD5sum: d72495a0a816a20680d3f664f5cd94e5
-SHA1: ce039bfbbb67df23f1146a2f0e9290ee020f2717
-SHA256: 4bd6e6c7be9e348a48b01a118d791af5f7c0b02dcbc1038a3ac0500d4dd57623
-SHA512: fdc8f2d913bdd6273017afbdb43a232fbecd49790175a9c0ea4d878f926fda8e0acd98688fd7a1b078e65c1ebc049dc18e2704bdf484ae4406aaff7448b3f69a
+Filename: pool/main/l/linux/linux-libc-dev_5.13.0-28.31_i386.deb
+Size: 1292072
+MD5sum: cbdcf2c1eeb00d94c0fe6d637bcde543
+SHA1: 9fd9c891f7b611a4376a768909d311858e37ed43
+SHA256: 1df112a4d4fba1a8151b7123ead771178684eb8b432596d4746f16d985b3d7df
+SHA512: ecf9d913b0646908d1260597fa66d6ddaa766a90e09617aa0fa881748240e187d90c50c4b1c3f936e4e1f97c08aaa7dd84bbd168ea6f387288b903936b61fe2a
 Description: Linux Kernel Headers for development
 Task: ubuntustudio-video, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: d5d143e6dffc891f04a85464446f9451
@@ -2858,6 +3593,27 @@ SHA512: 0b158a09d28d8600658fc6185cf9e7ac65515e8c299376c683ba851eac9abaa846da5244
 Description: Header files related to Oracle Linux kernel version 5.13.0
 Description-md5: b8bcd29da3a2808e529ccf675dda5637
 
+Package: linux-oracle-headers-5.13.0-1016
+Architecture: all
+Version: 5.13.0-1016.20
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-oracle
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76469
+Depends: coreutils
+Filename: pool/main/l/linux-oracle/linux-oracle-headers-5.13.0-1016_5.13.0-1016.20_all.deb
+Size: 12109942
+MD5sum: 5f0e15c0fdd339d82f50d4a8b6b11d04
+SHA1: c8d3daca73f191cc67e711eff25f709ba059ab81
+SHA256: 85bfb3114e17748ec07bb8554faa9d4262fb7262e8675fb046a7675d80c76f18
+SHA512: e30019e8728941878fb3c4e685af9d27f840305581c7957c39111301282e976dd3a4cbac324db18dd809fd4f2568fc71bbc95912d15396a293e26b15b023f978
+Description: Header files related to Oracle Linux kernel version 5.13.0
+Description-md5: c265b0f970e22df86bd67bc84c6de9f2
+
 Package: linux-riscv-headers-5.13.0-1005
 Architecture: all
 Version: 5.13.0-1005.5
@@ -2963,9 +3719,30 @@ SHA512: a33bc806afa80bc3b213ecd5b80e9b1f8804ac9af676e593c4af7df39187018875fe4b0f
 Description: Header files related to Linux kernel version 5.13.0
 Description-md5: 826ef2f6e4ec5c42e302db0a197f90e4
 
+Package: linux-riscv-headers-5.13.0-1011
+Architecture: all
+Version: 5.13.0-1011.12
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-riscv
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74186
+Depends: coreutils
+Filename: pool/main/l/linux-riscv/linux-riscv-headers-5.13.0-1011_5.13.0-1011.12_all.deb
+Size: 12171608
+MD5sum: f325e3e9a16875f67c0964f96518dce2
+SHA1: 187b9fb05e1b7821d8cfbae80c9fd4703aaae74b
+SHA256: ea26653f2f3268c26e231caeebe482643df3a585f6276e0e045242e75df0d960
+SHA512: 321527b2ee719cd7dbbaf757a9dd0135d57d9f47e89c775a8bd47282c5dc03f5e771ec2adeae8e63f9bbd12f45ff332e97fc56d26490999483dfff31029327fb
+Description: Header files related to Linux kernel version 5.13.0
+Description-md5: 17e55266d0038960b43f7fb15255b4d9
+
 Package: linux-source
 Architecture: all
-Version: 5.13.0.27.37
+Version: 5.13.0.28.38
 Priority: optional
 Section: devel
 Source: linux-meta
@@ -2974,12 +3751,12 @@ Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 19
 Depends: linux-source-5.13.0
-Filename: pool/main/l/linux-meta/linux-source_5.13.0.27.37_all.deb
-Size: 2344
-MD5sum: fa4ddc390d4c9b4f3a4555614ba207c4
-SHA1: 31603d2e7322798e0580171801204272e0f55286
-SHA256: b138a74c0837bb453f9d97eebfbe2d87d05bc6011e58cdb61849e65745111a24
-SHA512: d89c6f44c5553befb8fed8613860c058320d8832e02b76eaf55ac2656a30b45bb833a578520a662b1445caadbf086c559a3a8c39737818505356dd4c28b35619
+Filename: pool/main/l/linux-meta/linux-source_5.13.0.28.38_all.deb
+Size: 2328
+MD5sum: beae798cfaf089f0937f4384008b3ead
+SHA1: aa4cffe23cfe42d6dba49e40a86df3af59677fc6
+SHA256: f6b019506b882d2144af58029bec89ec8237a96e538f16d24f465f3ede6744bc
+SHA512: 1fa6c5e5e8d7a4042aaf1dad2e995d2006fa17eacf061acca365f71af6e54f48f26d1cb2a4d08133f80d27102b7e8bf344da3099e976bf3a910cbda03d31d2c6
 Description: Linux kernel source with Ubuntu patches
 Description-md5: 1cac084d2ae18dfd06b96585b4be564d
 
@@ -3098,6 +3875,29 @@ SHA512: 66d96111ce53e77f62f4f670578c8c0996eea1a82792a3e1c72c8bb23ee102b5c29ba55d
 Description: Linux kernel source for version 5.13.0 with Ubuntu patches
 Description-md5: 83b977d1460b527f7005d32232eac454
 
+Package: linux-source-5.13.0
+Architecture: all
+Version: 5.13.0-28.31
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 163173
+Provides: linux-source
+Depends: binutils, bzip2, coreutils
+Recommends: libc-dev, gcc, make
+Suggests: libncurses-dev | ncurses-dev, kernel-package, libqt3-dev
+Filename: pool/main/l/linux/linux-source-5.13.0_5.13.0-28.31_all.deb
+Size: 149816040
+MD5sum: 198a211d2a86de9a1394b9f42d3b52be
+SHA1: 02c319c43d936a4ab13a874a49a4a104f1037ff0
+SHA256: fab4380d91b1786fea506cbc74703a817fffd5b2259504ed4bb71ff190ff37fe
+SHA512: 19bcb24ae61eae9fc3ba065ae54900f9afcfce84590f4072c0fa3f4043168abc636af3d7bd3f88496e2b8fc1ea15097e6f3c447a26bf0c5aa37f83b14332a4fd
+Description: Linux kernel source for version 5.13.0 with Ubuntu patches
+Description-md5: 83b977d1460b527f7005d32232eac454
+
 Package: linux-tools-common
 Architecture: all
 Version: 5.13.0-21.21
@@ -3200,6 +4000,27 @@ MD5sum: 2195fc52a72ce7b7528f13504886a952
 SHA1: bb468b62b1344bdb15bb7d2deb976cd17658eabf
 SHA256: 78cd03f0add0e46409486d22eb84dc3a7c08d3250d3febf4f2ac871ff57c722f
 SHA512: 11eb3743072af833e86e7aa29b7f67f535114305bd4b607fbdee5bca5172166f433afd864f487b2976dab148fcd38c32c073b5f7a55647691ec82963af3522e1
+Description: Linux kernel version specific tools for version 5.13.0
+Description-md5: c31acca9e38d074339516d0283ced036
+
+Package: linux-tools-common
+Architecture: all
+Version: 5.13.0-28.31
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 582
+Depends: lsb-release
+Filename: pool/main/l/linux/linux-tools-common_5.13.0-28.31_all.deb
+Size: 281388
+MD5sum: 5b3235ba91b1079fe4711d64799c791e
+SHA1: da1ead1e8f69700b62c21e36a08d1fddba21547c
+SHA256: 4ba1760f0b45965913fdcd180e312644f7fb7ea14b264dfe4fcc13f9803b4c3d
+SHA512: 6fe5de1f436d6e6af96e57e9dbafede09c83dc92a532a2d695b8d9e863fc8c962afcf02b70581fd55a27dcaa2276018f3a6408b16dd2e94c28e29e921a560c35
 Description: Linux kernel version specific tools for version 5.13.0
 Description-md5: c31acca9e38d074339516d0283ced036
 
@@ -3308,9 +4129,56 @@ SHA512: ac602df7e8ee79cbc06813b8fe785fc85707f6c9a3b6048f3c4cbec5e836a8beaf1e2c41
 Description: Linux kernel VM host tools
 Description-md5: d29120b11150b79af4338241d0a5dc74
 
+Package: linux-tools-host
+Architecture: all
+Version: 5.13.0-28.31
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 367
+Depends: python3
+Filename: pool/main/l/linux/linux-tools-host_5.13.0-28.31_all.deb
+Size: 96064
+MD5sum: 9faae3a1261b9b059e400c503fa0bc2f
+SHA1: 9aadd3efec3017728a4e410fbf1db438624b5286
+SHA256: 5ff812486a1c84521eeb4156a4e14094831eb2e7b5da50852a361ec33e39428d
+SHA512: 88023558dc8f15fc38445f02d7740b99f079b8fdbb4171261d3b01d9576f9cc3f8df13d8155cf8bdb9c614d09c63125c6d8c32116eef9d2758425d67133b01a7
+Description: Linux kernel VM host tools
+Description-md5: d29120b11150b79af4338241d0a5dc74
+
+Package: mount
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 452
+Pre-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.34), libmount1 (>= 2.35.1), libsmartcols1 (>= 2.33)
+Depends: util-linux (>= 2.29.2-3~)
+Suggests: nfs-common
+Filename: pool/main/u/util-linux/mount_2.36.1-8ubuntu2.2_i386.deb
+Size: 134440
+MD5sum: b0e45e98733a148b9bc83fc2aa555dbb
+SHA1: f92085dfbcd7f5856ebd27d12048438a47e0a9f4
+SHA256: 649334b45408df77fb5f8f3d50ecf03fa601c451490061d63bdf6d5d3a3a514e
+SHA512: 7d38e80e05d8989392b051b9263ebee7c1162ee258549240b828af0bd751d8af7729d5dd65801294a076448bf8d898514139368b1d81660db86769d8efb3e6d5
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: tools for mounting and manipulating filesystems
+Task: minimal, server-minimal
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+
 Package: mysql-client
 Architecture: all
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: database
 Source: mysql-8.0
@@ -3320,19 +4188,19 @@ Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 107
 Depends: mysql-client-8.0
-Filename: pool/main/m/mysql-8.0/mysql-client_8.0.27-0ubuntu0.21.10.1_all.deb
-Size: 9424
-MD5sum: 31f34b11fd1c080f1f1e948ae7ea4a60
-SHA1: 52ab93c6287f42703697590023f2cf0534fc54bd
-SHA256: de55b20a3ede074e4e9342614e4c7de484efc9a1aad14f94932826930e51b5e8
-SHA512: 033be10b0e35f33540eacdacabfbc9fbcccfb566e53dba52130cbf46facf10ce5d16e3d88b6b68bbda9b5a7b9abab3e505750fa1e77d93a0489efbb5ce178ada
+Filename: pool/main/m/mysql-8.0/mysql-client_8.0.28-0ubuntu0.21.10.3_all.deb
+Size: 9428
+MD5sum: 9744fdd3a23657838c57a05176d9b819
+SHA1: c4a63f1b53241ee644406974062d5c727d7278a3
+SHA256: 4929783392610827816f1d2a1757bd820b27f2ccfe735e45cc7869205d82d211
+SHA512: bbfa8340946f4cbd9dadefda81c11bdd3064ce2c63473f101066a9c060824c08a1e9c37399e8018290c4ec070cc22a496a46ed5e228081288bffd40906aa8a4e
 Homepage: http://dev.mysql.com/
 Description: MySQL database client (metapackage depending on the latest version)
 Description-md5: 5d7fa8d3505d811b2b9e71e639c7e1dd
 
 Package: mysql-client-8.0
 Architecture: i386
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: database
 Source: mysql-8.0
@@ -3344,12 +4212,12 @@ Installed-Size: 163
 Provides: virtual-mysql-client
 Depends: debianutils (>= 1.6), mysql-client-core-8.0, mysql-common (>= 5.5)
 Conflicts: mariadb-client-10.1, mariadb-client-10.3, mysql-client-5.7, virtual-mysql-client
-Filename: pool/main/m/mysql-8.0/mysql-client-8.0_8.0.27-0ubuntu0.21.10.1_i386.deb
-Size: 22718
-MD5sum: 06a089b3086916b5c8ec8885adbac8d4
-SHA1: 96192751d550c1e7f7f3895009c6063c79f68b81
-SHA256: 514bf6c29d3b9cc4c5d29a3e584574358377661772253599452925586a0323db
-SHA512: 9c2ae238c57e9c7f782dcc918cc6758ff690945726e9ebab26311b1c5cf33bc24d8f365ae065d18c8ea2d7fdb1ab61938f8b0614bec2d61a6f4ba7e2a04d7e3e
+Filename: pool/main/m/mysql-8.0/mysql-client-8.0_8.0.28-0ubuntu0.21.10.3_i386.deb
+Size: 22716
+MD5sum: b2a60aeddca15480b66099ed41333131
+SHA1: 21ea8ddc7a151bfd5fbfae1195ad826b4f50480a
+SHA256: f7a51c172725e23d2906ceabaa6a4d7472fca4ed13dbe4251ba27f10695a03e5
+SHA512: 3c85039156444ec73e1e9bd2bb6c7f26335d0363bc2526aa54c426b11824de130a49b48bf20e0e3389582573d03c09b868d3cdc667728d7f13b15b22c18ca2cb
 Homepage: http://dev.mysql.com/
 Description: MySQL database client binaries
 Task: lamp-server
@@ -3357,7 +4225,7 @@ Description-md5: ffe884a5da09cb7b198d6de70b149317
 
 Package: mysql-client-core-8.0
 Architecture: i386
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: database
 Source: mysql-8.0
@@ -3365,16 +4233,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 63974
+Installed-Size: 63983
 Provides: virtual-mysql-client-core
 Depends: libc6 (>= 2.34), libedit2 (>= 2.11-20080614-0), libgcc-s1 (>= 7), liblz4-1 (>= 0.0~r127), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.11)
 Conflicts: mariadb-client-10.1, mariadb-client-10.3, mariadb-client-core-10.1, mariadb-client-core-10.3, mysql-client-5.7, mysql-client-core-5.7, virtual-mysql-client-core
-Filename: pool/main/m/mysql-8.0/mysql-client-core-8.0_8.0.27-0ubuntu0.21.10.1_i386.deb
-Size: 2591852
-MD5sum: 8509868627af95aef38f11057262f9ee
-SHA1: cd13516cf42204e545c5244b8a41aa984b6429c3
-SHA256: 794ccb9529402d594ab65154f16ead76ac5b72eca3d7b33d2244b8e3ad3c72f2
-SHA512: d9f23b778a76d75c3104f10317119839de31b3e0b61bc21c3cab03fb7456b5b540c069d8a9490b559425c7cfa5d5d9acb31035ea8f89d95c6630a7f6b1a8efa6
+Filename: pool/main/m/mysql-8.0/mysql-client-core-8.0_8.0.28-0ubuntu0.21.10.3_i386.deb
+Size: 2557194
+MD5sum: bea71aec1e989f4c47f530b645f3e797
+SHA1: 85d5ca117730bdb07c94e498a0ebfcb69b2a045b
+SHA256: 64ea7a08f2bdfea9202e98c261550de02cac7fd2d859a7b140c8068645fcff10
+SHA512: 297c84836bed6cd5ba02f76fab6d3bddb0bfaa47e31d8697a5bf1050f5f0f35e9a16bec94495e0c2a9cafc4f6b706c1f85e8b77586a938a34357b7d1f69293bd
 Homepage: http://dev.mysql.com/
 Description: MySQL database core client binaries
 Task: lamp-server
@@ -3382,7 +4250,7 @@ Description-md5: 94a7aede8ba9259b1382d4dfca4cdde0
 
 Package: mysql-server
 Architecture: all
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: database
 Source: mysql-8.0
@@ -3392,12 +4260,12 @@ Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 107
 Depends: mysql-server-8.0
-Filename: pool/main/m/mysql-8.0/mysql-server_8.0.27-0ubuntu0.21.10.1_all.deb
-Size: 9536
-MD5sum: 33fedb82c53458b6ae291d5c4e717a42
-SHA1: 2799d6eb1b96d0baa1b81ec18465e00979d11a96
-SHA256: 190da1942338a4304183d6c568fc3771856578b2864f6b03417097531cc8e76b
-SHA512: 99cfd3ab350d821b714aeb5ca7fc96dffaea504dcff874e6ebf67a689a55b896c9fb009c762d32b620508dcfa2623966cb57aa0019e031d91a3b2aae6ee7c70e
+Filename: pool/main/m/mysql-8.0/mysql-server_8.0.28-0ubuntu0.21.10.3_all.deb
+Size: 9534
+MD5sum: 1f1b14e303252b85f36bb75c9f8f66c5
+SHA1: 5ae4957d23edc50412e3ef1d6f085232c0f9008e
+SHA256: 70b60a9e5bf44d5039e1fc3d9e00f89158a26f1f8caf5c7bb6c2499c9f373d48
+SHA512: 98bd9464abf34e795fb608f5194eb1ad882825b644249a540305c9ecf8088f4dc1f199ec1a56b91cab427e1766dc4f32bb8b68daf6a16f4c4147b4f23e70bfc6
 Homepage: http://dev.mysql.com/
 Description: MySQL database server (metapackage depending on the latest version)
 Task: lamp-server
@@ -3405,7 +4273,7 @@ Description-md5: 743caadb7bcc9923a15d886cf7260d23
 
 Package: mysql-server-8.0
 Architecture: i386
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: database
 Source: mysql-8.0
@@ -3413,19 +4281,19 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 1558
+Installed-Size: 1562
 Provides: virtual-mysql-server
 Pre-Depends: adduser (>= 3.40), debconf, mysql-common (>= 5.5)
-Depends: lsb-base (>= 3.0-10), mysql-client-8.0 (>= 8.0.27-0ubuntu0.21.10.1), mysql-common (>= 5.8+1.0.4~), mysql-server-core-8.0 (= 8.0.27-0ubuntu0.21.10.1), passwd, perl:any (>= 5.6), psmisc, debconf (>= 0.5) | debconf-2.0
+Depends: lsb-base (>= 3.0-10), mysql-client-8.0 (>= 8.0.28-0ubuntu0.21.10.3), mysql-common (>= 5.8+1.0.4~), mysql-server-core-8.0 (= 8.0.28-0ubuntu0.21.10.3), passwd, perl:any (>= 5.6), psmisc, debconf (>= 0.5) | debconf-2.0
 Recommends: libhtml-template-perl, mecab-ipadic-utf8
 Suggests: mailx, tinyca
 Conflicts: mariadb-server-10.1, mariadb-server-10.3, mysql-server-5.7, virtual-mysql-server
-Filename: pool/main/m/mysql-8.0/mysql-server-8.0_8.0.27-0ubuntu0.21.10.1_i386.deb
-Size: 1390536
-MD5sum: fda41f6e34471ebd96c35192ddd3b39f
-SHA1: a992e621a69a874186dc724a9d1940db74461e37
-SHA256: 0aa67d72ef3abec485f8d57324d24ae5119f123b858080fe9b4431b6d39302d3
-SHA512: cd59585fc83b7ebbc28fb46fcaa6654c704b57a301b46d9279bf8c05dbdfbadc0cd79e5acc987a452dd877a73fb0542bdeb1efa3a30ccd5c82ad304f66fe2b7c
+Filename: pool/main/m/mysql-8.0/mysql-server-8.0_8.0.28-0ubuntu0.21.10.3_i386.deb
+Size: 1394802
+MD5sum: 8cc42308265547e64e6357af0a654d3b
+SHA1: 901990e877eb269a3f8d50ac6798392b29e242b9
+SHA256: 06e01d9f7fd9ad4128d3cb22b31b7eaf1ecf995cd78ad7e7f235feadfdba2ef4
+SHA512: 008e5d3df3a7ce2e4d747877eafa340e570bebf9b330a3e260e29d454a2c1955afb767e2040f5363b040d85b7bac6d292a8db543c8a0832bfe8fa70de2de37d8
 Homepage: http://dev.mysql.com/
 Description: MySQL database server binaries and system database setup
 Task: lamp-server
@@ -3433,7 +4301,7 @@ Description-md5: 3ae11e16f793b3ee84f73a5fa268ad9b
 
 Package: mysql-server-core-8.0
 Architecture: i386
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: database
 Source: mysql-8.0
@@ -3441,16 +4309,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 160064
+Installed-Size: 160362
 Provides: virtual-mysql-server-core
 Depends: libaio1 (>= 0.3.93), libc6 (>= 2.34), libevent-core-2.1-7 (>= 2.1.8-stable), libevent-pthreads-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 7), libicu67 (>= 67.1-1~), liblz4-1 (>= 0.0~r130), libmecab2 (>= 0.996), libnuma1 (>= 2.0.11), libprotobuf-lite23 (>= 3.12.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libtirpc3 (>= 1.0.2), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.11)
 Conflicts: mariadb-server-10.1, mariadb-server-10.3, mariadb-server-core-10.1, mariadb-server-core-10.3, mysql-server-5.7, mysql-server-core-5.7, virtual-mysql-server-core
-Filename: pool/main/m/mysql-8.0/mysql-server-core-8.0_8.0.27-0ubuntu0.21.10.1_i386.deb
-Size: 20840564
-MD5sum: 34717829bb6c5ff9f2078a1720156784
-SHA1: 424d3a2d23855184d08d0a26d06006a623a96448
-SHA256: 6edcdf1ccd7114e77f45a634470d843c626f6646280784a3b6112039610b2ab6
-SHA512: 0106dd93d8ab0d5648dad2e645f6b471bd21bea38c4b14c1c31e8f53c33dfaa640e24c40ae5ab24023e49df47a732dff5cbf3d9f2ea2fe63e0c96530ab51fc74
+Filename: pool/main/m/mysql-8.0/mysql-server-core-8.0_8.0.28-0ubuntu0.21.10.3_i386.deb
+Size: 21064036
+MD5sum: ce090f33ff3b75764c9036076a100ba8
+SHA1: b81d82519639aa6142f6629748e746138e7309e8
+SHA256: 6a19767d660ca9aced493b3aad83e07ef17c9f52546713b2543a14a9f79c81e0
+SHA512: f4e441a59064e6d8e36f12d4c308d62c65c298bec9023e7f5c14d81a4a731b48ac63fdabd4d553d4ddc4b76a1a48c1dd285ee654ea6a63cbfa8f4e0e8555a7b3
 Homepage: http://dev.mysql.com/
 Description: MySQL database server binaries
 Task: lamp-server
@@ -4323,7 +5191,7 @@ Description-md5: 6b5d5f3ead130d28794916adb75a98a8
 
 Package: python-django-doc
 Architecture: all
-Version: 2:2.2.24-1ubuntu1.2
+Version: 2:2.2.24-1ubuntu1.3
 Multi-Arch: foreign
 Priority: optional
 Section: doc
@@ -4334,12 +5202,12 @@ Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 28413
 Depends: libjs-sphinxdoc (>= 2.4.3-5~)
-Filename: pool/main/p/python-django/python-django-doc_2.2.24-1ubuntu1.2_all.deb
-Size: 3026962
-MD5sum: 36648a01259cd0b90840a743f6c8275f
-SHA1: eccf31990edabc4ac06711c6dfba53b892f46f01
-SHA256: 344add82073a8f4a864fac6df144a69ae7cc6625b2961ced1bb01b91a550237d
-SHA512: 8a56175a591ff950bc0350d3fc6b7295dd9c8ee2e6f8e12cab46629461c1265167ea997d6114bc0c21712f08df0efab2c3b3a44fcc05d1064cde66ab4dc0a281
+Filename: pool/main/p/python-django/python-django-doc_2.2.24-1ubuntu1.3_all.deb
+Size: 3026918
+MD5sum: f6e927c9475d0aef38506900e4c002dc
+SHA1: 24f739920a4eeed67e913ab6af1002fd571d8d84
+SHA256: c13f93a1a99129d6dc9aae5bd3785db8b1c5ef747da733e19245e52dd58a2cfe
+SHA512: 625a7d609f2a6324e99d8ab101da540172233a44999e0473a051dc438fd037e4e068096592e836cfe4dec6ad58c4fa2afc5f1e51cf49e483b94a7d13a6d4455c
 Homepage: http://www.djangoproject.com/
 Description: High-level Python web development framework (documentation)
 Description-md5: 257e8ca2132ad054b44d0dd521e727f5
@@ -4393,7 +5261,7 @@ Description-md5: 90fc3702a69ad06599a95a46ceb5778a
 
 Package: python3-django
 Architecture: all
-Version: 2:2.2.24-1ubuntu1.2
+Version: 2:2.2.24-1ubuntu1.3
 Priority: optional
 Section: python
 Source: python-django
@@ -4401,19 +5269,19 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 22828
+Installed-Size: 22829
 Provides: python-django-common
 Depends: python3-sqlparse, python3-tz, python3:any
 Recommends: libjs-jquery
 Suggests: bpython3, geoip-database-contrib, gettext, ipython3, libgdal20, libsqlite3-mod-spatialite, python-django-doc, python3-bcrypt, python3-flup, python3-memcache, python3-mysqldb, python3-pil, python3-psycopg2, python3-selenium, python3-sqlite, python3-yaml
 Breaks: python-django-common, python3-django-filters (<< 2.1.0), python3-mysqldb (<< 1.3.13)
 Replaces: python-django-common
-Filename: pool/main/p/python-django/python3-django_2.2.24-1ubuntu1.2_all.deb
-Size: 2848782
-MD5sum: ce858a3858ff74eae697e6379cd0512c
-SHA1: b582a59d1ad97abf87a5e02cb9d89d6b030a2b17
-SHA256: 23e54de41417b09fb07e257bc779d54ce19da38c10ca63167308e4dcf22f89bf
-SHA512: 1427deea8d4d1fc290baeefc5f353039d1d04c7e1a349fe0b542a49adb18c8a8800b811fb5a4cc89fe3a75ca0a04277bf9654112dbdfa8e6614978381887814d
+Filename: pool/main/p/python-django/python3-django_2.2.24-1ubuntu1.3_all.deb
+Size: 2848840
+MD5sum: 3b2b979140bb6b965260a5b9f891ac45
+SHA1: 823713d79a12df3e3451b78596bbde80eb435fa0
+SHA256: 9072687ae0787d992e2789fac3294a3e83134a4be56a063b3b2f451cc3727047
+SHA512: e5058284994d7910431a7b850ff494f10cbc1a1bf96aec75477f84b95c24418eec51e95ca399066298b7602250e6f6bda348dec796325f88edaecea8e1d51c7a
 Homepage: http://www.djangoproject.com/
 Description: High-level Python web development framework
 Description-md5: efe2f6ec2ae89851c710c280956fa785
@@ -4562,7 +5430,7 @@ Description-md5: 9c38d91ac205b1680832021377d9156d
 
 Package: python3-samba
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Priority: optional
 Section: python
 Source: samba
@@ -4570,20 +5438,46 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 21189
+Installed-Size: 21190
 Provides: python3.9-samba
-Depends: python3-ldb (>= 2:2.1.0), python3-tdb, samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldb2 (>= 2:2.2.3~), libpython3.9 (>= 3.9.1), libtalloc2 (>= 2.3.1~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), python3-talloc (>= 2.3.1~)
+Depends: python3-ldb (>= 2:2.1.0), python3-tdb, samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldb2 (>= 2:2.2.3~), libpython3.9 (>= 3.9.1), libtalloc2 (>= 2.3.1~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), python3-talloc (>= 2.3.1~)
 Recommends: python3-gpg
-Filename: pool/main/s/samba/python3-samba_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 2761552
-MD5sum: 5eec262177f7ffb462e215ef1434ca39
-SHA1: 85c8f551b8fde056fce5a8dc3aa29b91f4f5d19b
-SHA256: b31675ac5b6984f1c3cd8686df22ce958d669e917edb4a8adae18c8341c50987
-SHA512: 4575d1578c1a071a7a592aa6b49181fda208667067e620ef2218c515faae52547774febe59539c0a92caf2861564973f934c56594a4550a1e6f20c8df74cd10d
+Filename: pool/main/s/samba/python3-samba_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 2761262
+MD5sum: 1860cfb9e2bafb745504c2ba930eae2e
+SHA1: d954a76fdde20f262bfeece92375b44c01df7bcb
+SHA256: eadf878700b9743b3d489677e30181a1b63c68f580f5da71acf2933c37a2882f
+SHA512: 7f7b42b9d91dbd9304de646156a34861cf321004039c228e9fc91f875cf6e5891d094093dfe249b5b1e91ba947d7c5671e8031282db35f8580a18cccfd4073bb
 Homepage: http://www.samba.org
 Description: Python 3 bindings for Samba
 Task: samba-server, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: 34799c39f7b2b2823a0ca650262bf75d
+
+Package: rfkill
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 149
+Depends: libc6 (>= 2.34), libsmartcols1 (>= 2.33)
+Breaks: bash-completion (<< 1:2.8~)
+Replaces: bash-completion (<< 1:2.8~)
+Filename: pool/main/u/util-linux/rfkill_2.36.1-8ubuntu2.2_i386.deb
+Size: 28620
+MD5sum: 9137e7617d104f4a34898f183790dc66
+SHA1: ec68be390efcb984cd58e6afe7d9556531ead9b1
+SHA256: 8f376601aaff89464f16a2fb912878394711db63c232b0b6b504787d41b73565
+SHA512: e19ca5ed0c8319fcb40cd0210de581bfaf6b39e1aee1213838d3b399fb914831422a7ae9192cd60ae1d9d99bc6296b27e22d239cf829bfa341689714aca1c0eb
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: tool for enabling and disabling wireless devices
+Task: ubuntu-desktop-minimal, ubuntu-desktop, ubuntu-desktop-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 17939c81bd8d1bc5321ecc9fb8e5f507
 
 Package: ruby2.7
 Architecture: i386
@@ -4656,7 +5550,7 @@ Description-md5: c6e2f27422c22dfb514d5e2bbfdba162
 
 Package: samba-common
 Architecture: all
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: foreign
 Priority: optional
 Section: net
@@ -4665,16 +5559,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 310
+Installed-Size: 311
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ucf, debconf (>= 0.5) | debconf-2.0
 Recommends: samba-common-bin
-Filename: pool/main/s/samba/samba-common_4.13.14+dfsg-0ubuntu0.21.10.4_all.deb
-Size: 71444
-MD5sum: 76275e38666b93c656d5483e424f5066
-SHA1: 85dd39599067dd87b3ccd982ffa11d2ff9a9d389
-SHA256: 908e534332086eaac2cd97794b90d636bf40ea1b2a27d1425f42ba90d1092367
-SHA512: 643804b1d6982ca19e1fa5da7bbcef8f6668389847b5d64c3d86fde4d693afc9e579cbc035b4bd8b25705c939440b30e08cd5121b762fcab80a6a413281fcefc
+Filename: pool/main/s/samba/samba-common_4.13.17~dfsg-0ubuntu0.21.10.1_all.deb
+Size: 72710
+MD5sum: 75c40825309dc2e2da046819451811b1
+SHA1: d030a3a937dbc81c826fe049b7fa212a31aeec7b
+SHA256: f93944add6978f539a89cc02966540eb84ed4036311cc0466bdf01f914bd06bd
+SHA512: 2c2ede17ec82b4b949116a3bfaeb9df79227a134f0b06466cc086ca30759b61afae992af85aa9ec25cc4d4a83bb7f2cc58faf718242a0e60bd0be4161375f211
 Homepage: http://www.samba.org
 Description: common files used by both the Samba server and client
 Task: samba-server, ubuntu-mate-core, ubuntu-mate-desktop
@@ -4682,7 +5576,7 @@ Description-md5: a4083020b891e75d279ca48e7fd18d7b
 
 Package: samba-common-bin
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Priority: optional
 Section: net
 Source: samba
@@ -4691,15 +5585,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1847
-Depends: python3, python3-samba, samba-common (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldap-2.5-0 (>= 2.5.4), libncurses6 (>= 6), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtinfo6 (>= 6), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: python3, python3-samba, samba-common (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), python3:any, libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldap-2.5-0 (>= 2.5.4), libncurses6 (>= 6), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtinfo6 (>= 6), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Recommends: samba-dsdb-modules
 Suggests: heimdal-clients, python3-markdown, python3-dnspython
-Filename: pool/main/s/samba/samba-common-bin_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 644098
-MD5sum: 2a972df38eb700290a8dc5222d5f1760
-SHA1: 370738f5a1e434ba619960d88536aaeee21b3ef4
-SHA256: 95b98314991100a4279fb6dbb0f76b49c26accb8634091b2a84378e7fe35b932
-SHA512: d53ca37c124e5f2464caa540c62601961ab4848443393a97f993acf6b66d231f836cd4e4e6d84eb09ab376c035e03359e1030f9c5570b70dac6fd43332b2db7b
+Filename: pool/main/s/samba/samba-common-bin_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 644846
+MD5sum: 63c3c7978a8c86af06fe1509f158b179
+SHA1: 8b314bcf15244afe13b769db4216ed4fa7e3ed25
+SHA256: fb1b67fc8b22fba0227c7b25fff1796b571d93520190e9e4a676e7d772ec532c
+SHA512: 936aa465636d8d6d41d6af832efba24a42a57939ab4bd0af6f0130e65312d412f847be17e63d7c784da53b12dae25e7ffdb8afbe8b0fbc55b82a5035869ff0a9
 Homepage: http://www.samba.org
 Description: Samba common files used by both the server and the client
 Task: samba-server, ubuntu-mate-core, ubuntu-mate-desktop
@@ -4707,7 +5601,7 @@ Description-md5: 6b72087bfb045af08aa7c187e95870e1
 
 Package: samba-dev
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: devel
@@ -4717,20 +5611,20 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1886
-Depends: libc6-dev, libldb-dev (>= 2:2), libpopt-dev, libtalloc-dev, libtdb-dev, libtevent-dev, libwbclient-dev, samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
-Filename: pool/main/s/samba/samba-dev_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 235406
-MD5sum: 21d4802725796c4666e06931208003cd
-SHA1: e54987a8e91080ea04661c3e184571b7c9f1ed1e
-SHA256: 63e52d469ecb6a1fab2b0fef3873f8032a08262d544c8fdb663c2e2e720c8bcd
-SHA512: 4514c4d5019929aaaab84413fa580ac9e9179e4669cc459731596c54ca54ce406ada5f1d2b5606c4170155543ba2cf2d72d40dda868fa4c56e9a8bc03d2acdca
+Depends: libc6-dev, libldb-dev (>= 2:2), libpopt-dev, libtalloc-dev, libtdb-dev, libtevent-dev, libwbclient-dev, samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
+Filename: pool/main/s/samba/samba-dev_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 235394
+MD5sum: 653c06fac9eaa381558bcb4c1400a224
+SHA1: 3fcc90ac9fc95f71adc125fc023915caa9336615
+SHA256: 68aa0c93316355b471b5d61973362b10aabf63a38ae957c37274754255c53c6f
+SHA512: f599d8c4824d24dd940619597688277677f020afb2a3e4403cffbb8f881d9e290ac235836a7cfe2f0f00b9fdfd7fdba5a90b265dcca1865fd5df59e0101ab815
 Homepage: http://www.samba.org
 Description: tools for extending Samba
 Description-md5: 678af7403e4adfc0bf6dff29b8732ec0
 
 Package: samba-dsdb-modules
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -4740,14 +5634,14 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1657
-Depends: libgpgme11 (>= 1.2.0), samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libldb2 (<< 2:2.2.4~), libldb2 (>> 2:2.2.3~), libbsd0 (>= 0.0), libc6 (>= 2.33), libcrypt1 (>= 1:4.1.0), libgnutls30 (>= 3.7.0), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: libgpgme11 (>= 1.2.0), samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libldb2 (<< 2:2.2.4~), libldb2 (>> 2:2.2.3~), libbsd0 (>= 0.0), libc6 (>= 2.33), libcrypt1 (>= 1:4.1.0), libgnutls30 (>= 3.7.0), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Enhances: libldb2
-Filename: pool/main/s/samba/samba-dsdb-modules_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 339428
-MD5sum: 5379eea6a9c4670141c6234f6c05e5ef
-SHA1: 0516e19964a4ac5fe75afa26d5a9196729f8426c
-SHA256: e219aa238ea09632cb798583dbd1834ace2041c551b611020b8613efb3cd15d1
-SHA512: 37c82226036dd018c65a2b859bf290571c3ea83874bda81c1984eb8186e9a4f3059abfc22b82ef0a25843ea5b706045f2f1b9f054f78ebbf3c3853a859b6b0aa
+Filename: pool/main/s/samba/samba-dsdb-modules_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 339316
+MD5sum: 3a805fbe6f0ef209f96ffc4df3f1ff6b
+SHA1: 6342cf0c8e45d40c89f0f7153b538e50d23b0c37
+SHA256: 173f97fabcfc5aa235f3ede8a2f35b5663007de6400527798be5fb826dbce295
+SHA512: ec54c7f49df91d0fe3baf8accca2a7070b4e418e35e4584f25e80f252376237383b39e2741693cf8cc4564f6354c4446f05fe2de2bf5c2a0cfcedd86d81d99c3
 Homepage: http://www.samba.org
 Description: Samba Directory Services Database
 Task: samba-server, ubuntu-mate-core, ubuntu-mate-desktop
@@ -4755,7 +5649,7 @@ Description-md5: 1f2a5e5abc85752bd1d957eccf78a94e
 
 Package: samba-libs
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -4764,16 +5658,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 28708
-Depends: libacl1 (>= 2.2.23), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbsd0 (>= 0.5.0), libc6 (>= 2.34), libcap2 (>= 1:2.10), libcups2 (>= 1.7.0), libgnutls30 (>= 3.7.0), libjansson4 (>= 2.1), libldap-2.5-0 (>= 2.5.4), libldb2 (>= 2:2.2.3~), libnsl2 (>= 1.0), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libpython3.9 (>= 3.9.1), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtirpc3 (>= 1.0.2), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), python3-ldb (>= 2:2.1.0), python3-talloc (>= 2.3.1~), zlib1g (>= 1:1.1.4)
+Installed-Size: 27852
+Depends: libacl1 (>= 2.2.23), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libbsd0 (>= 0.5.0), libc6 (>= 2.34), libcap2 (>= 1:2.10), libcups2 (>= 1.7.0), libgnutls30 (>= 3.7.0), libjansson4 (>= 2.1), libldap-2.5-0 (>= 2.5.4), libldb2 (>= 2:2.2.3~), libnsl2 (>= 1.0), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libpython3.9 (>= 3.9.1), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtirpc3 (>= 1.0.2), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), python3-ldb (>= 2:2.1.0), python3-talloc (>= 2.3.1~), zlib1g (>= 1:1.1.4)
 Breaks: libndr-standard0 (<< 2:4.0.9), libsamba-credentials0 (<< 2:4.0.9), libsamba-hostconfig0 (<< 2:4.0.9), libsamba-util0 (<< 2:4.0.9), sssd-ad-common (<< 2.3.0)
 Replaces: libndr-standard0 (<< 2:4.0.9), libsamba-credentials0 (<< 2:4.0.9), libsamba-hostconfig0 (<< 2:4.0.9), libsamba-util0 (<< 2:4.0.9), samba (<< 2:4.3.3+dfsg-1)
-Filename: pool/main/s/samba/samba-libs_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 6873788
-MD5sum: 3cbf224b355091daa5b6dde3679bfac2
-SHA1: bf2fd5cdf335f9f554941dfc892c9ef7c9f7924f
-SHA256: 239df0ad1c2a264e60c77d5b46ede1f8e10cc31756824f10d55e4bbc1988a30f
-SHA512: e0894fb0d0d3671adc657991583f756768c914330b6537a41e6a615e9a6ef675e144839c2ced35bab5606d9addd9241d90f4534a1d88407d237645cbf054836f
+Filename: pool/main/s/samba/samba-libs_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 6688846
+MD5sum: 8e0f926b6eddf66cfe5e5239340a62ad
+SHA1: 294b5697585b3ed162fa74e9115b2538d69c5510
+SHA256: 739e5b19ef9acd0c4fc3240dc25654c159f4abcae59c2988575cb5f88323c01c
+SHA512: fd3682a47775efdba2bf979a98b239d91a177ab1f93f4bb08f90c10f5b668fcd3a6f1296047e3d24a83a566a6af958fa96ed11d3a903441a3fa054f48960e702
 Homepage: http://www.samba.org
 Description: Samba core libraries
 Task: ubuntu-desktop-minimal, samba-server, ubuntu-desktop, kubuntu-desktop, kubuntu-full, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop
@@ -4781,7 +5675,7 @@ Description-md5: f4a16aa3f22848793e72b3501c634170
 
 Package: samba-vfs-modules
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: same
 Priority: optional
 Section: net
@@ -4791,24 +5685,24 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 1738
-Depends: samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libbsd0 (>= 0.0), libc6 (>= 2.33), libgnutls30 (>= 3.7.0), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtirpc3 (>= 1.0.2), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libbsd0 (>= 0.0), libc6 (>= 2.33), libgnutls30 (>= 3.7.0), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtirpc3 (>= 1.0.2), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Recommends: libdbus-1-3 (>= 1.9.14)
 Breaks: samba (<< 2:4.3.2+dfsg-1), samba-libs (<< 2:4.3.2+dfsg-1)
 Replaces: samba (<< 2:4.3.2+dfsg-1), samba-libs (<< 2:4.3.2+dfsg-1)
 Enhances: samba
-Filename: pool/main/s/samba/samba-vfs-modules_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 404482
-MD5sum: 165dee577c7da279805adf7580f8851e
-SHA1: 90c8e1460813a4c58e2687324993d8c4c6a25422
-SHA256: b201b17797e1576966f79be6b1dc748c30219479cdfcd1d54dedc89c273d8a79
-SHA512: adc21bd194cd1a01f0e80d8ac3c23ef695c503e0bb0dcd65ef2e1e98909bafaaf7de6e58caadc37956b1cbf18827e2a7b811b14f9902b1f1a4e3181e923912fb
+Filename: pool/main/s/samba/samba-vfs-modules_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 405152
+MD5sum: 59c5f769dce05a1216e6da5f81063473
+SHA1: cbe51a82d6d90ee46879ba69ffb23d23f626eacd
+SHA256: 62d8800c3993eb63ebec24033ac7be0ac9a4bac8ff2eaa49f5c038c106eb38ac
+SHA512: 6803edfc77f471ddf36691dbd80a1ef0be4fa88a570f97f6480617679c055044cde946447ff2e6d922c81745509a70473ab9eae62b40eb8c2037751226d85804
 Homepage: http://www.samba.org
 Description: Samba Virtual FileSystem plugins
 Description-md5: e655c957b9d059c325c92cc80c4eb81a
 
 Package: smbclient
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Priority: optional
 Section: net
 Source: samba
@@ -4816,21 +5710,43 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 2759
+Installed-Size: 2331
 Provides: samba-client
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: samba-common (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libarchive13 (>= 3.0.4), libbsd0 (>= 0.4.0), libc6 (>= 2.34), libcap2 (>= 1:2.10), libgnutls30 (>= 3.7.0), libnsl2 (>= 1.0), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libsmbclient (>= 2:4.10.0+dfsg), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), zlib1g (>= 1:1.1.4)
+Depends: samba-common (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libarchive13 (>= 3.0.4), libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libsmbclient (>= 2:4.10.0+dfsg), libtalloc2 (>= 2.3.1~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Suggests: cifs-utils, heimdal-clients
-Filename: pool/main/s/samba/smbclient_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 643880
-MD5sum: 8ee19aa2081efef3c01c3131fc6277bb
-SHA1: 2e2c80629c64fea08d07b83cd9949e1669a5aa69
-SHA256: 58213019b92a7707eaa81bc1151691d460d8a34bd24e182b053d55da5358e832
-SHA512: 3cb94b51a4a541012ad369f696c60a5d6269598b510c6d554d8a1d37bd4845edc74ac1e49dc8df1ad6f8bfc8c1bb3cd829e0f7d66290977066bf4b5a99a4c6d5
+Filename: pool/main/s/samba/smbclient_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 498484
+MD5sum: 8f8bf322c133569fb2d8d0171a2e4844
+SHA1: 96d1b79541bb8b7e94228d8a0b5fc0fba67efe7c
+SHA256: 03a8e5a9384a8950c18aa5517c40a66d19dbe12f37b15c0cf5a0f1de3aa68b8d
+SHA512: cef3c52ad290c20ba1948d378d4fd3a1738c357f32bfcf2236d14271c50b019f7841b123501949563e3ec86f20fee935cbaf24ab83408f1ffc772b12816c9bef
 Homepage: http://www.samba.org
 Description: command-line SMB/CIFS clients for Unix
 Task: samba-server, ubuntu-mate-core, ubuntu-mate-desktop
 Description-md5: 476018eed30b7f1e76b02afe22aaf008
+
+Package: speex-doc
+Architecture: all
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Priority: optional
+Section: doc
+Source: speex
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1820
+Suggests: speex
+Filename: pool/main/s/speex/speex-doc_1.2~rc1.2-1.1ubuntu1.21.10.1_all.deb
+Size: 640548
+MD5sum: 17cd4aab234ede90bb21c086ba8d094b
+SHA1: 27315a4db47c5f171f07a8ef129365835755767f
+SHA256: 86bbe88e9ed25d6979bda93b53716bba78e7a43ae9af23884a867c4d23ffe8fb
+SHA512: 265ec75355118b7738d9fb3a40c2629af34ff9226c4901ad737594d6aabfc884a50d92b723c2c752f79da754c4ef3b5f3da06a54991d5cd0df96bb1171e2b626
+Homepage: http://www.speex.org/
+Description: Documentation for speex
+Description-md5: 781c28c25cd4fa72bbb3a3a126d089f3
 
 Package: strongswan
 Architecture: all
@@ -5340,6 +6256,105 @@ Description: /dev/ and hotplug management daemon
 Task: minimal, server-minimal
 Description-md5: e875ddb09f46f1f7672af537f0c875ca
 
+Package: util-linux
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4702
+Pre-Depends: libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.34), libcap-ng0 (>= 0.7.9), libcrypt1 (>= 1:4.1.0), libmount1 (>= 2.34), libpam0g (>= 0.99.7.1), libselinux1 (>= 3.1~), libsmartcols1 (>= 2.34), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Depends: login (>= 1:4.5-1.1~)
+Suggests: dosfstools, kbd, util-linux-locales
+Breaks: bash-completion (<< 1:2.8), grml-debootstrap (<< 0.68), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.4~)
+Replaces: bash-completion (<< 1:2.8), initscripts (<< 2.88dsf-59.2~), login (<< 1:4.5-1.1~), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.1~)
+Filename: pool/main/u/util-linux/util-linux_2.36.1-8ubuntu2.2_i386.deb
+Size: 1164372
+MD5sum: 6fb8aee5f5cd1fa7c538c4390a105b2a
+SHA1: 56fe57810e290c6130958d82be59fc8a068280d2
+SHA256: c2bc817e230567c528257bd9bac22ef9a40fec1ba349dd30a43deb9d2f699aa4
+SHA512: f17e00841cc2aa4380c3c73f655d83b2c13f4bb2f55ddd4df09df4270db7b87e30d90024686efc54e36f54c7c18eec10212d1118bc28c3b9c0ea8cf0459cccd7
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: miscellaneous system utilities
+Task: minimal, server-minimal
+Description-md5: 33d0291a69ffd307cfba295915df602a
+
+Package: util-linux-locales
+Architecture: all
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: extra
+Section: utils
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 124
+Depends: util-linux (>= 2.36.1)
+Filename: pool/main/u/util-linux/util-linux-locales_2.36.1-8ubuntu2.2_all.deb
+Size: 7294
+MD5sum: 604bbb78f3e02fe602d1353ea15402c9
+SHA1: 8c6ff4775da37ebe005719f5a07f0bcffb1f14d3
+SHA256: 152b4096a9a8173d4d9887b170a6c026784b0fb05af742b59aa36debb529d61b
+SHA512: 7f53b59a04c9a47756f57464287556a9e4afcb5f60419e79aa257a646655b22ca52ed11a427478d61cb7c6258cf2e306a8962491a6eb158f5a91f1627298c4cd
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: locales files for util-linux
+Description-md5: f95b3ab812286b8c8633178bd53a7587
+
+Package: uuid-dev
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 170
+Depends: libc6-dev | libc-dev, libuuid1 (= 2.36.1-8ubuntu2.2)
+Filename: pool/main/u/util-linux/uuid-dev_2.36.1-8ubuntu2.2_i386.deb
+Size: 37902
+MD5sum: bc1b11d7d9f0379b8fcd423ed77476d7
+SHA1: e2485758ebbd63a78c29d40947dfb46744ccaf06
+SHA256: a2cfe0d13124cae513aa7d75de457c11972701a2c7aa539db78050555f5335cf
+SHA512: 8e59dfe56253f1c812828e50aa4be232ac06e6391e7ede0fcdbb766d6863f393f534297c0039ab8877648178982f3429a5771d71631d33958164a248d59f720e
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: Universally Unique ID library - headers and static libraries
+Description-md5: daeeb422c8be25af61a5fe52deff08a8
+
+Package: uuid-runtime
+Architecture: i386
+Version: 2.36.1-8ubuntu2.2
+Multi-Arch: foreign
+Priority: standard
+Section: libs
+Source: util-linux
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 227
+Pre-Depends: libuuid1 (>= 2.25-5~), init-system-helpers (>= 1.54~)
+Depends: adduser, libc6 (>= 2.34), libsmartcols1 (>= 2.27~rc1), libsystemd0, libuuid1 (>= 2.31.1)
+Filename: pool/main/u/util-linux/uuid-runtime_2.36.1-8ubuntu2.2_i386.deb
+Size: 42150
+MD5sum: 89db2cc28fd44026748c8d3e4935cc94
+SHA1: 476c8ff064bd3efd81d6642c1d1306b6e1cf722f
+SHA256: 6b8ac6a1d907cd5bd37d32f526448f74e634137ef24cf37282b463ca879fe208
+SHA512: 3b923c893a16b12ba77dd9f3694ed315ce5b324407f9c37d58eba02ae70623ea517bec08e3780881c7112df7d8c23b6dd49741ac55fb9e5898b04841110f017e
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Description: runtime components for the Universally Unique ID library
+Task: standard
+Description-md5: c848721d4a6e6dbc698c36d06bf45ef9
+
 Package: vim
 Architecture: i386
 Version: 2:8.2.2434-3ubuntu3.2
@@ -5464,7 +6479,7 @@ Description-md5: 85f2dbef1339af3dcf83d9ee00fd5e22
 
 Package: winbind
 Architecture: i386
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: allowed
 Priority: optional
 Section: net
@@ -5475,15 +6490,15 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 2150
 Pre-Depends: init-system-helpers (>= 1.54~)
-Depends: lsb-base (>= 3.0-6), samba-common (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), samba-common-bin (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libbsd0 (>= 0.6.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldap-2.5-0 (>= 2.5.4), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: lsb-base (>= 3.0-6), samba-common (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), samba-common-bin (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libbsd0 (>= 0.6.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldap-2.5-0 (>= 2.5.4), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Suggests: libnss-winbind, libpam-winbind
 Enhances: libkrb5-26-heimdal
-Filename: pool/main/s/samba/winbind_4.13.14+dfsg-0ubuntu0.21.10.4_i386.deb
-Size: 561122
-MD5sum: 83b89db954da9ad428df06beadd4a0df
-SHA1: 2a4efefc90d80dc09e93e436d3069b8484e45354
-SHA256: 4e91dab7bdec253051f092c58563bee8330c72541394580b6cca655401154a76
-SHA512: 5610f2f70a71f31d547045d748eb93bba54b429cf69b3c5daac58557a2e51a5dc0872f9ac7a445c85cc83ba610dfb9f2778436e094e77bea856c28baff484a9f
+Filename: pool/main/s/samba/winbind_4.13.17~dfsg-0ubuntu0.21.10.1_i386.deb
+Size: 560448
+MD5sum: a17118d5b8e2caf41ffcd3d50f882767
+SHA1: 953cba6738f75bffcd0c86380804cb852b3f6b9e
+SHA256: 3e0d23340d25094313c64613ef043ddae3c479948a202f84b8bf9302b54cf956
+SHA512: 871c50736e762bb27b032b726734e93cb00582cee527a2e3f48acb3d293e887214c5aa01fa211ca05120dbe8e96c1dd3ac4ec8dfefbc9ca82c9d96892a74b8c1
 Homepage: http://www.samba.org
 Description: service to resolve user and group information from Windows NT servers
 Task: samba-server

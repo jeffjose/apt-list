@@ -1,8 +1,8 @@
 Package: nodejs
-Version: 17.4.0-deb-1nodesource1
+Version: 17.5.0-deb-1nodesource1
 Architecture: amd64
 Maintainer: Ivan Iguaran <ivan@nodesource.com>
-Installed-Size: 176270
+Installed-Size: 177369
 Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8), python3-minimal, ca-certificates
 Conflicts: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Replaces: nodejs-dev (<= 0.8.22), nodejs-legacy, npm (<= 1.2.14)
@@ -10,11 +10,11 @@ Provides: nodejs-dev, nodejs-doc, nodejs-legacy, npm
 Homepage: https://nodejs.org
 Priority: optional
 Section: web
-Filename: pool/main/n/nodejs/nodejs_17.4.0-deb-1nodesource1_amd64.deb
-Size: 26886878
-SHA256: 8719f6a822ea084adafbffe6577b71fcafe0b6b8f121b88a6e5f42d318d45b3e
-SHA1: 9e651148f038f107fcaf286f54922f9b1b3c997e
-MD5sum: de0e0ffca8d0f6088eb018d5d4bc3f2c
+Filename: pool/main/n/nodejs/nodejs_17.5.0-deb-1nodesource1_amd64.deb
+Size: 27123044
+SHA256: 72aecdc908b33c5857c15ef23bae76d7574ff548389951a0d1964731a6ab7e86
+SHA1: 60bc95bc60aadb01d345044fd093db1fa3c5e3e0
+MD5sum: bf41d7fbf17929757fff818703e23062
 Description: Node.js event-based server-side javascript engine
  Node.js is similar in design to and influenced by systems like
  Ruby's Event Machine or Python's Twisted.

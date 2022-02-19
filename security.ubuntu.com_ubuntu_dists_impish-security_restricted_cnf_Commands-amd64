@@ -3,20 +3,16 @@ component: restricted
 arch: amd64
 
 
-name: libnvidia-gl-460-server
-version: 460.106.00-0ubuntu0.21.10.2
-commands: nvidia-ngx-updater
-
 name: libnvidia-gl-470
-version: 470.86-0ubuntu0.21.10.1
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-ngx-updater
 
 name: libnvidia-gl-470-server
-version: 470.82.01-0ubuntu0.21.10.2
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-ngx-updater
 
-name: libnvidia-gl-495
-version: 495.46-0ubuntu0.21.10.1
+name: libnvidia-gl-510
+version: 510.47.03-0ubuntu0.21.10.1
 commands: nvidia-ngx-updater
 
 name: nvidia-compute-utils-418-server
@@ -24,23 +20,19 @@ version: 418.226.00-0ubuntu0.21.10.2
 commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
 
 name: nvidia-compute-utils-450-server
-version: 450.156.00-0ubuntu0.21.10.2
-commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
-
-name: nvidia-compute-utils-460-server
-version: 460.106.00-0ubuntu0.21.10.2
+version: 450.172.01-0ubuntu0.21.10.1
 commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
 
 name: nvidia-compute-utils-470
-version: 470.86-0ubuntu0.21.10.1
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
 
 name: nvidia-compute-utils-470-server
-version: 470.82.01-0ubuntu0.21.10.2
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
 
-name: nvidia-compute-utils-495
-version: 495.46-0ubuntu0.21.10.1
+name: nvidia-compute-utils-510
+version: 510.47.03-0ubuntu0.21.10.1
 commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
 
 name: nvidia-kernel-common-418-server
@@ -48,46 +40,38 @@ version: 418.226.00-0ubuntu0.21.10.2
 commands: ub-device-create
 
 name: nvidia-kernel-common-450-server
-version: 450.156.00-0ubuntu0.21.10.2
-commands: ub-device-create
-
-name: nvidia-kernel-common-460-server
-version: 460.106.00-0ubuntu0.21.10.2
+version: 450.172.01-0ubuntu0.21.10.1
 commands: ub-device-create
 
 name: nvidia-kernel-common-470
-version: 470.86-0ubuntu0.21.10.1
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-sleep.sh,ub-device-create
 
 name: nvidia-kernel-common-470-server
-version: 470.82.01-0ubuntu0.21.10.2
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-sleep.sh,ub-device-create
 
-name: nvidia-kernel-common-495
-version: 495.46-0ubuntu0.21.10.1
-commands: nvidia-sleep.sh,ub-device-create
+name: nvidia-kernel-common-510
+version: 510.47.03-0ubuntu0.21.10.1
+commands: nvidia-powerd,nvidia-sleep.sh,ub-device-create
 
 name: nvidia-utils-418-server
 version: 418.226.00-0ubuntu0.21.10.2
 commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
 
 name: nvidia-utils-450-server
-version: 450.156.00-0ubuntu0.21.10.2
-commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
-
-name: nvidia-utils-460-server
-version: 460.106.00-0ubuntu0.21.10.2
+version: 450.172.01-0ubuntu0.21.10.1
 commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
 
 name: nvidia-utils-470
-version: 470.86-0ubuntu0.21.10.1
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
 
 name: nvidia-utils-470-server
-version: 470.82.01-0ubuntu0.21.10.2
+version: 470.103.01-0ubuntu0.21.10.1
 commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
 
-name: nvidia-utils-495
-version: 495.46-0ubuntu0.21.10.1
+name: nvidia-utils-510
+version: 510.47.03-0ubuntu0.21.10.1
 commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
 

@@ -183,7 +183,7 @@ Description-md5: 8681b0dabeb2a3fde42fdbb1f21451d2
 
 Package: bluetooth
 Architecture: all
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Priority: optional
 Section: universe/admin
 Source: bluez
@@ -194,19 +194,19 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 36
 Depends: bluez
 Suggests: bluez-cups, bluez-obexd, bluez-meshd
-Filename: pool/universe/b/bluez/bluetooth_5.60-0ubuntu2.1_all.deb
+Filename: pool/universe/b/bluez/bluetooth_5.60-0ubuntu2.2_all.deb
 Size: 2994
-MD5sum: 08110a05060060aa79ad2a93ae6624cb
-SHA1: 91396314cbf4d981503cebb870fa893a2ee8f025
-SHA256: 73af341fe4f487be67ef5abfbc72019dd651ddc581a5b0ea91adda8d4967e0fd
-SHA512: 317600e52a6b9651e360600efe5ee533bdb98ffaf3bbff2ffcd56f68ea719c39380d38d993d0cf5d8285f121daf14772f67736d3e3db2261ebd82702c7eae925
+MD5sum: 4f7786f7c9fa0e9034c348ac797471ab
+SHA1: eb2bc7ef611b8bc918a9f5c24e19313c5f183e20
+SHA256: e82e5abfc4af896bd7a5dcf48556226807eb29e1dadb48e0599934af84a0a4d2
+SHA512: 76bf10bef5e9669159c5b56bc1ed106ac45f657cb7b0efd88254a6b5b335db9c4a84744e401973b2d69f1d9e3b4fbf437c34df494722a40e171fe0c3dd5f7bab
 Homepage: http://www.bluez.org
 Description: Bluetooth support (metapackage)
 Description-md5: 9e39e616b43759f27940df27b76d2e46
 
 Package: bluez-hcidump
 Architecture: amd64
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Priority: optional
 Section: universe/admin
 Source: bluez
@@ -216,19 +216,19 @@ Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lis
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 402
 Depends: libc6 (>= 2.34)
-Filename: pool/universe/b/bluez/bluez-hcidump_5.60-0ubuntu2.1_amd64.deb
-Size: 144216
-MD5sum: a57e8d076249cef2c450bd9c029912ab
-SHA1: d2b2d226865114db70bdea39a162b0c0c8c914ee
-SHA256: 22c5d03bd1c61895c9765de9e3301ada3aebf1dc8d279ab0364eb0070c5cb4fe
-SHA512: 8984221581a29222725ec15a3ad62b9c300ad8ce68ac8093e2b893b94d9696822abdaa2e199ff0d95f4ec979feb314c045bf15c6abe54751767ccef020f2268e
+Filename: pool/universe/b/bluez/bluez-hcidump_5.60-0ubuntu2.2_amd64.deb
+Size: 144342
+MD5sum: 607b7a251177f5730ec3ab07bbf9285e
+SHA1: fa049413d52716c478d6f7c4bed7479cf35da2ae
+SHA256: 541a7278dd3422403b36d0159fe4335275165705281c9667e4d6ad43aea1ec3a
+SHA512: 572434951ae559025c4c542135eaf2d2d2db6414e077487bdd41633ed5ce8e329cbb1a089e6f82c3f9c5d5d1ee1dcde01fdb4c05b79c49536fbd4f4211f02f47
 Homepage: http://www.bluez.org
 Description: Analyses Bluetooth HCI packets
 Description-md5: 4ebfd05a0b1b606a60e737cc590e2325
 
 Package: bluez-meshd
 Architecture: amd64
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Priority: optional
 Section: universe/admin
 Source: bluez
@@ -238,19 +238,19 @@ Original-Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lis
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 904
 Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0), libjson-c5 (>= 0.15), libreadline8 (>= 6.0)
-Filename: pool/universe/b/bluez/bluez-meshd_5.60-0ubuntu2.1_amd64.deb
-Size: 334378
-MD5sum: 085abbb05f557abf9764696b9997a7a7
-SHA1: 20614f78f967fb9a737526998b11e6efa61cb8d6
-SHA256: e201ecf837baaf0de5ba22337646a6e82e709f7b37c8fe39570949ab046bc84b
-SHA512: 16de40d35c116c6fcd6a1d8ce5a054f6cb362888b3cbed6c4223849159e1e03fd74b8e59508321eebc30297dbe31ba71f0c26eaea7f8d4024f75f8c6187ac658
+Filename: pool/universe/b/bluez/bluez-meshd_5.60-0ubuntu2.2_amd64.deb
+Size: 334508
+MD5sum: 9859e6438616f8437a08d788853e33e0
+SHA1: 1ea95a42902c9811159b8ca66d727a5b87991475
+SHA256: 3236c4521f2e5dbe0f38e982d78d76c09df1f524917f75cea85090a839ddca22
+SHA512: a1e0f892ce117350f8d910eb57fe4b1abffdd78df76b7b014a181e0fd53039d0a2855b48ebecdaccd323cb323cc2cddbe9315000155a08895cd90511df268eb6
 Homepage: http://www.bluez.org
 Description: bluetooth mesh daemon
 Description-md5: ca06bc66a9b979e71d30c46198c95ca7
 
 Package: bluez-tests
 Architecture: amd64
-Version: 5.60-0ubuntu2.1
+Version: 5.60-0ubuntu2.2
 Priority: optional
 Section: universe/admin
 Source: bluez
@@ -263,12 +263,12 @@ Provides: bluez-test-scripts
 Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0)
 Conflicts: bluez-test-scripts
 Replaces: bluez-test-scripts
-Filename: pool/universe/b/bluez/bluez-tests_5.60-0ubuntu2.1_amd64.deb
-Size: 322262
-MD5sum: 74ff262ee34c4100b97aa6dc8aa37147
-SHA1: 08d8376e008ab42f68d1e3fd10e8d165d81615dc
-SHA256: 1b312390466471ab1efc0af341ec9863a37050875a88ac85e5dc0eb6b7176799
-SHA512: 7e729496029771bf844a280be69c18f65283430f20fe5b0584c6f6bedbba7492f475497e7d6bc6fa9c771fd4c0430f4340f55fe7b7c44fef5394d22bf4a18f40
+Filename: pool/universe/b/bluez/bluez-tests_5.60-0ubuntu2.2_amd64.deb
+Size: 322390
+MD5sum: b5c524a81cecde209dc5ad524d74af7b
+SHA1: f4a2c7e6cc7eb397d072fdc041e6139b63342a1e
+SHA256: b4aed080d9eff1f73a7faded4af9c664a871abe565a98e86a4c37b1b2d635015
+SHA512: 3a47a2bd7d5cbbc1f299893df091dd94b7deecc411194fb6dafedb9ce36c724fbbaaa1813b7fc60deb7b37680ac77a74f17740f1e2dc4b857037dfe5ac9514ab
 Homepage: http://www.bluez.org
 Description: BlueZ test tools and scripts
 Description-md5: 70d0f4a675d48599e09b3248e2e1adfe
@@ -326,7 +326,7 @@ Description-md5: 44b5211535e8c3f0c83253e20bd8fb3e
 
 Package: cargo
 Architecture: amd64
-Version: 0.54.0-0ubuntu1~21.10.1
+Version: 0.58.0-0ubuntu1~21.10.1
 Multi-Arch: allowed
 Priority: extra
 Section: universe/devel
@@ -334,22 +334,22 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 11921
+Installed-Size: 12373
 Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.28.0), libgcc-s1 (>= 4.2), libssh2-1 (>= 1.7.0), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4), rustc (>= 1.24), binutils, gcc | clang | c-compiler
 Suggests: cargo-doc, python3
-Filename: pool/universe/c/cargo/cargo_0.54.0-0ubuntu1~21.10.1_amd64.deb
-Size: 3766294
-MD5sum: 417958d811ae3c717ea80ed8c000b444
-SHA1: 004c60d55f6eb06d57f014348b192b05098584ce
-SHA256: 4956eca7e91945dfe017b0035094e0f4eb33e2cfc68fb4fe69f4fa760f32dc23
-SHA512: a3849b514a8f1b01f12cd17c7530fa04474b91c8003285b0f95957067443243b3000efdad6a6555b54917c26b15cd841c6265477d261098dc00c4e35986c0caf
+Filename: pool/universe/c/cargo/cargo_0.58.0-0ubuntu1~21.10.1_amd64.deb
+Size: 3906346
+MD5sum: a248bc39abfd77e9ab249211659a8fad
+SHA1: 59b621ab96273f040ca7991274640d6e5efa204c
+SHA256: 695e445e8ecdc638ea27f714d182e5170be264b02ee9e292a4e1847d198db0a6
+SHA512: d753a8f98cef6476287c6b4a20eb7a15961952019dcdd8e1e74ec0b7646e0569be4ad9b403b24446ca0f77ceff8189969315e00933339de55af389f1172fb4ca
 Homepage: https://crates.io/
 Description: Rust package manager
 Description-md5: f894562a11fc2421647ac771e1f6c13a
 
 Package: cargo-doc
 Architecture: all
-Version: 0.54.0-0ubuntu1~21.10.1
+Version: 0.58.0-0ubuntu1~21.10.1
 Priority: extra
 Section: universe/doc
 Source: cargo
@@ -357,13 +357,13 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 17431
-Filename: pool/universe/c/cargo/cargo-doc_0.54.0-0ubuntu1~21.10.1_all.deb
-Size: 1568428
-MD5sum: a08a7fe9c650935a3519a8cfe92b9fb4
-SHA1: d3e2beffb9ddad77ab12bc9d5a0eb2d1810232dd
-SHA256: 335038fe8cf3a5f83ac043a942a209f314c9b3a60b65a6d70771d2f405f35932
-SHA512: e9c1fcad4221dd259880da75c56425607a7457e8979a6b305d8221c91376ee527cab3de8f2e8a732c3aa0a8b9a35286c981efab9850db52dafda42b71b2b4441
+Installed-Size: 18371
+Filename: pool/universe/c/cargo/cargo-doc_0.58.0-0ubuntu1~21.10.1_all.deb
+Size: 1936548
+MD5sum: 28b039c340456eb2d8e71a834d3bdd3c
+SHA1: 738c21066bc1003b5169fc611987ccaa07331afa
+SHA256: 060b5a49d75e7bcb62c7181b329256338cdbf74d8c67dc39fe9efd751b8bf1da
+SHA512: 0be021969b6357efd8e0df1ec7669e569f44c87825719e9d24bc9cf9af526c1037c429e05ec243704cb098adbb73bcb2c7c6932dd2c2a7747b2952a117a004c1
 Homepage: https://crates.io/
 Description: Rust package manager, documentation
 Description-md5: f27438963e0fd905872c0e1656b9d40c
@@ -460,7 +460,7 @@ Description-md5: 29437a0b8c82cc8179b64405688f062e
 
 Package: ctdb
 Architecture: amd64
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Multi-Arch: foreign
 Priority: extra
 Section: universe/net
@@ -470,15 +470,15 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 3600
-Depends: iproute2, lsb-base (>= 3.0-6), psmisc, samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), sudo, tdb-tools, time, libbsd0 (>= 0.0), libc6 (>= 2.34), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtirpc3 (>= 1.0.2), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: iproute2, lsb-base (>= 3.0-6), psmisc, samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), sudo, tdb-tools, time, libbsd0 (>= 0.0), libc6 (>= 2.34), libpopt0 (>= 1.14), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libtirpc3 (>= 1.0.2), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Recommends: ethtool, python3-etcd, librados2 (>= 0.72.2)
 Suggests: logrotate, lsof
-Filename: pool/universe/s/samba/ctdb_4.13.14+dfsg-0ubuntu0.21.10.4_amd64.deb
-Size: 745378
-MD5sum: 5e9cd8c1b10129613a8f807031ed6968
-SHA1: 1bc8f6e5a22b92d4a8cde7ec1c71333737e393c9
-SHA256: 01f48798322f236953583a111de27a4fe8c4dee492d6c73668724c935e89a199
-SHA512: d6f4ae0f15c8ee2a43240f9728d6ce579978b8e463d4ddb432c3c3fe49e914b42806fc4adbd89f4dcb2aeb6a62a6c76da9373a16700b01bfe882fbc4f4be4fed
+Filename: pool/universe/s/samba/ctdb_4.13.17~dfsg-0ubuntu0.21.10.1_amd64.deb
+Size: 742626
+MD5sum: 3a5f890d6ff9f045210bf641c6896e57
+SHA1: a284a9736c3dc79b07be07c87f22577464e8a38d
+SHA256: 3b4b594ff8439f18ea7faec97dbd774f822ddc26ce00d2b4a4ceb1049ca72f25
+SHA512: f1f31e8a70c41d3b72fc43968b00f768b2bfd85240e6242ed8c9be589b49dae525e917b69246f1235540861365fe1ae3fede6bad0689b49fbe2f297a7a62dff4
 Homepage: http://www.samba.org
 Description: clustered database to store temporary data
 Description-md5: 83dff66615250b53a0cd3df6fb3b9ea7
@@ -598,40 +598,40 @@ Description-md5: aeba4b7189f937a626d0f2ef05b13cbb
 
 Package: firefox-geckodriver
 Architecture: amd64
-Version: 96.0+build2-0ubuntu0.21.10.1
+Version: 97.0+build2-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/web
 Source: firefox
 Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 3733
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), firefox (= 96.0+build2-0ubuntu0.21.10.1)
-Filename: pool/universe/f/firefox/firefox-geckodriver_96.0+build2-0ubuntu0.21.10.1_amd64.deb
-Size: 1215670
-MD5sum: 6099d944db1fe6c09c8c1dc27f681c9e
-SHA1: c0ea69855e711cc387c587dd07f98409594b1282
-SHA256: 66f5018155ee6bbf0f24ce4bffd1c013fbfb4e74b974da62dd3edf22d6c55035
-SHA512: acd9e7e4781da704ad1ada8c3e97083abd3cf9a708edd158e585f00a2457da517c63f143621e927341407f6dc379c94e5cd05c6351886c56ac7eef64595748b9
+Installed-Size: 3773
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3), firefox (= 97.0+build2-0ubuntu0.21.10.1)
+Filename: pool/universe/f/firefox/firefox-geckodriver_97.0+build2-0ubuntu0.21.10.1_amd64.deb
+Size: 1248124
+MD5sum: 5e9c585ff3692c948f51f9126aa1ecb2
+SHA1: 2ff994b55d63fb847a6cad634a31f1995d2d60b3
+SHA256: fb0b529c69fa217ffac15b8045e55f49540465f5bf8010f39051cec450bc417b
+SHA512: 268dc8018af01c546539a618643364bb4f3ee6a585f16770b5cbc7b5d25a7869b063b953c3289d03efdaaff39d61f110566e321d53abe7b01c12344f6cf78792
 Description: Safe and easy web browser from Mozilla - geckodriver
 Description-md5: f720f625e9a0770cb777ddb0c62c22e3
 
 Package: firefox-mozsymbols
 Architecture: amd64
-Version: 96.0+build2-0ubuntu0.21.10.1
+Version: 97.0+build2-0ubuntu0.21.10.1
 Priority: extra
 Section: universe/debug
 Source: firefox
 Origin: Ubuntu
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 41784
-Filename: pool/universe/f/firefox/firefox-mozsymbols_96.0+build2-0ubuntu0.21.10.1_amd64.deb
-Size: 38121732
-MD5sum: 4420adf1d1a4a1e3768d09ca6192e610
-SHA1: 74209c0b745511c22836873d70f0e7dacb425dba
-SHA256: 717a5a3ee8bf98bbf3059646328824b2ecf5e3f8b49f5cfe6eb728b9b802f383
-SHA512: 80ef3f1f0373540f93c0937f69200a72d0aeb6ed84592894284983b32ffaaa0b2705ef67f58c17c218f0d3b4004a0367b21f85979761650c42917cb86441c61d
+Installed-Size: 41967
+Filename: pool/universe/f/firefox/firefox-mozsymbols_97.0+build2-0ubuntu0.21.10.1_amd64.deb
+Size: 38388020
+MD5sum: 05d778ece90f148bb57f27bbb82a1b7f
+SHA1: a8f831003330d103a035ea4d0daf9682068ec4b8
+SHA256: e2c33515d0247b8a08b489eb8a5a347acdb60f4b559970eb53b400e89eb581f2
+SHA512: da9331eaa428e455828fe736538bc7475fe82ce54d183a365c6c7cfdf28511b05cf14afc86ab3ba93f8f4032f613fa8e6b9a52547d5f7b200bea3091b0913a8d
 Description: Safe and easy web browser from Mozilla - Breakpad symbols
 Description-md5: 1398643ad4fb0f820933502f6bba9816
 
@@ -824,6 +824,49 @@ Homepage: https://www.docker.com/community-edition
 Description: Externally reusable Go packages included with Docker
 Description-md5: 6265ea5dccb7d86a2aa69e4e5d1c8598
 
+Package: golang-github-snapcore-snapd-dev
+Architecture: all
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/devel
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 30756
+Breaks: golang-github-ubuntu-core-snappy-dev (<< 2.0.6), golang-snappy-dev (<< 1.7.3+20160303ubuntu4)
+Replaces: golang-github-ubuntu-core-snappy-dev (<< 2.0.6), golang-snappy-dev (<< 1.7.3+20160303ubuntu4)
+Filename: pool/universe/s/snapd/golang-github-snapcore-snapd-dev_2.54.3+21.10.1ubuntu0.1_all.deb
+Size: 3536326
+MD5sum: 5d58b962c6554814ed5952676d61b303
+SHA1: fd6d1d62d77c83eebf8144bcbf35d1dd75837b1b
+SHA256: 24e4c530c5e054b7c6379c77ead349830a8cf15f74ca4efe0cff2a12c9b09d03
+SHA512: ff76423b37b9b0f95cd6cd61d797f6460e8da7dd7451939641391af6d2f79410a7b1b38265ae87c70410760119c4ab6b16e5b43a8b10d85e4471ae9ecf7de4c5
+Homepage: https://github.com/snapcore/snapd
+Description: snappy development go packages.
+Description-md5: a2d3a19f6630f9476511151dac13666a
+
+Package: golang-github-ubuntu-core-snappy-dev
+Architecture: all
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/devel
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 183
+Depends: golang-github-snapcore-snapd-dev
+Filename: pool/universe/s/snapd/golang-github-ubuntu-core-snappy-dev_2.54.3+21.10.1ubuntu0.1_all.deb
+Size: 1440
+MD5sum: ab227870b9a37bb2c90a9be5464ae9a2
+SHA1: 40d4ffc63df4cc4702d0791f75661649b9da37dc
+SHA256: 7d852ea9fabac08155d079e717f65567a03eaaf69cf3a052b08ef7723de76328
+SHA512: c8848e0b1aef151f811d9da4de1b9af97b044a7a983c43cd4d77117c63a68790312669f84dc598b6661a9cec5f0c67ed7094fe515a20a4758b703dc879ccc7e9
+Homepage: https://github.com/snapcore/snapd
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
 Package: ldb-tools
 Architecture: amd64
 Version: 2:2.2.3-0ubuntu0.21.10.2
@@ -890,6 +933,30 @@ SHA512: f4e5366f5a92a1405c0ab0d644c68680ff367907555d671e37df58688e268ae5e77060e4
 Homepage: https://httpd.apache.org/
 Description: transitional package
 Description-md5: d2fa4db85203c7bfc8bfdc64d863cf45
+
+Package: libarchive-tools
+Architecture: amd64
+Version: 3.4.3-2ubuntu0.1
+Priority: optional
+Section: universe/utils
+Source: libarchive
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Peter Pentchev <roam@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 203
+Depends: libarchive13 (= 3.4.3-2ubuntu0.1), libc6 (>= 2.34)
+Breaks: bsdcpio (<< 3.2.1-2~), bsdtar (<< 3.2.1-2~)
+Replaces: bsdcpio (<< 3.2.1-2~), bsdtar (<< 3.2.1-2~)
+Filename: pool/universe/liba/libarchive/libarchive-tools_3.4.3-2ubuntu0.1_amd64.deb
+Size: 60548
+MD5sum: 89777e1278d3155e5389b7f4f6553e88
+SHA1: 608ba542c18591fc3130c79838a77340896c759e
+SHA256: a041d09fad084bbf48985de9cf71607e3ac28bf08cddda9f7620db93089b05e7
+SHA512: 772394672dd9a335bd9f0f8a1030f859e7da5f8fe078064b9f35e08fc12938a4983b2baa35cba18e95c33e6e2402f2793f956080a91e36cdad9eb96a63b463d3
+Homepage: https://www.libarchive.org/
+Description: FreeBSD implementations of 'tar' and 'cpio' and other archive tools
+Description-md5: 04bbebb441868f4c976e664833572c46
 
 Package: libcharon-extra-plugins
 Architecture: amd64
@@ -1871,9 +1938,32 @@ Homepage: http://www.rust-lang.org/
 Description: Rust standard libraries
 Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
 
+Package: libstd-rust-1.57
+Architecture: amd64
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
+Multi-Arch: same
+Priority: optional
+Section: universe/libs
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 154950
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), zlib1g (>= 1:1.2.0)
+Filename: pool/universe/r/rustc/libstd-rust-1.57_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_amd64.deb
+Size: 42790662
+MD5sum: e357b01f7d26fb40dea73533a19f66be
+SHA1: 58ab0ac0d21dedc88b9278e1e330962c723befb0
+SHA256: 16f725505a660a5b9e0333181ddc9db99e067d7d1a54fe86e6fbff4f59bb6656
+SHA512: a47da66731bca497363396c9e84cb48e57a7cad7011e3e9405d00ec3dce51d32d9a1b279a33f3cea5d174d7969b642bfa24ff3bba5b5f590e9560d089bba5008
+Homepage: http://www.rust-lang.org/
+Description: Rust standard libraries
+Description-md5: 389c19dd2d0c1e29221148ed6870c4a9
+
 Package: libstd-rust-dev
 Architecture: amd64
-Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 Multi-Arch: same
 Priority: extra
 Section: universe/libdevel
@@ -1882,14 +1972,14 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 195977
-Depends: libstd-rust-1.53 (= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1)
-Filename: pool/universe/r/rustc/libstd-rust-dev_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_amd64.deb
-Size: 38498970
-MD5sum: da973f0d9aaff36c3fcba20487b1ed37
-SHA1: 83afc05d978e59a61806dc764988c97b351a6727
-SHA256: 25e96764d2ba21efe94a69159750e2d83713ddeb86d217e54bc272f22d850b7c
-SHA512: f4329b66aed4e0396bf69bb055cbc3370c602e6c6dde07e472e7f8daa15096feaa8cc168f808373d4b87fdd1422e30a7acf37bd4854414618d680f1555dfc8ea
+Installed-Size: 168492
+Depends: libstd-rust-1.57 (= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1)
+Filename: pool/universe/r/rustc/libstd-rust-dev_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_amd64.deb
+Size: 37024672
+MD5sum: 3eef49af78ab221b932de048d2eb94db
+SHA1: 23e62ea399473376c4f92709c7686f182a900fbc
+SHA256: e8a05e04cfce7f938f1c2a2dd49cdfb456540bd5f6221532192b312d3ce03559
+SHA512: bc83fc3ae7b57174093e8c5288468cb0ccfbc09bbe62bec080fa057f4f07b2e3c192c6bc5e3120d48c4558926b58dfba62aadc4bae774c8506cc4465fcf6e4b8
 Homepage: http://www.rust-lang.org/
 Description: Rust standard libraries - development files
 Description-md5: d179f786c5d3afccd5d86929b4043021
@@ -2408,7 +2498,7 @@ Description-md5: 4e2584329df41bfe2241de957d88c44a
 
 Package: mysql-router
 Architecture: amd64
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: universe/database
 Source: mysql-8.0
@@ -2416,21 +2506,21 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 24912
+Installed-Size: 24908
 Depends: libc6 (>= 2.34), libevent-core-2.1-7 (>= 2.1.8-stable), libevent-extra-2.1-7 (>= 2.1.8-stable), libevent-openssl-2.1-7 (>= 2.1.8-stable), libevent-pthreads-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 3.3.1), liblz4-1 (>= 0.0~r127), libprotobuf-lite23 (>= 3.12.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
-Filename: pool/universe/m/mysql-8.0/mysql-router_8.0.27-0ubuntu0.21.10.1_amd64.deb
-Size: 3712678
-MD5sum: e5db88d5c39bd9d7bb3e42d1eb0907a4
-SHA1: d7abd919d0b2dd7b03f41d878f0e8d53f28f2413
-SHA256: 2026c140cba15d887ec570cbe4bafd20554fda7cd1683afa989e12dadfe1d8aa
-SHA512: d8d50a8624e3ff9cea819478325582da9a69dd9116efd8faa94eb5870cdafe7252554e3b548afeeb7083eb85ed6cc8f8dd5946f774a390ebf403e436c4f80cb9
+Filename: pool/universe/m/mysql-8.0/mysql-router_8.0.28-0ubuntu0.21.10.3_amd64.deb
+Size: 3722092
+MD5sum: 0a78479d7f6bafec37848276ee8f2e3a
+SHA1: 939806c280d9b09e0301db489c862cf123b255d9
+SHA256: b025af032f09eb3a318c8c65fec7065ce7dbef5757dd74345adbd7d294218a6f
+SHA512: 0a3f667aa4f0fe653e99fdb7c4bcacec76aa577c3eba2553831fddfbb578ced23426265aa6bfe078bf6afd036e550c327905b353fe2576774c8c122ce8d8f8e3
 Homepage: https://dev.mysql.com/doc/mysql-router/8.0/en/
 Description: route connections from MySQL clients to MySQL servers
 Description-md5: 68df088e13493c106d4f76a2eb4efc60
 
 Package: mysql-source-8.0
 Architecture: amd64
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: universe/database
 Source: mysql-8.0
@@ -2438,20 +2528,20 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 290910
-Filename: pool/universe/m/mysql-8.0/mysql-source-8.0_8.0.27-0ubuntu0.21.10.1_amd64.deb
-Size: 293544348
-MD5sum: e028b116c5b132c35c40479b6ed169f6
-SHA1: 0dfd95da1007b5e47c44235a170b656b31a4da7e
-SHA256: 37fa1b53328be81d7a89cfe4b3dcaa8270e6da874b67bb4a57caa6ce4697c352
-SHA512: 04e87923fb57af6c57a5dd2ff86ef9d1d92e734dfb1bffea459d54a5f7360d3f1fde95b0f80ac1a834db486ce7e99181e6ae48f8646eedfca7aab66e1d416109
+Installed-Size: 296693
+Filename: pool/universe/m/mysql-8.0/mysql-source-8.0_8.0.28-0ubuntu0.21.10.3_amd64.deb
+Size: 299484968
+MD5sum: c1e1b27061ea5a621be48a1fd0d679a6
+SHA1: a16a679acfb42ea9ebc75aa46b09b8e464f2abe9
+SHA256: 8663525a2f1319d6207ea285f3ea83f24a469a3a391510a374d76e4f04e24ef1
+SHA512: aeeb43ca79fc65c0d644baeea60864b3ae0170ea1a0bcac640a3081127927c6c9a31ccdb2f54e01b489b75ed57dc0ab65f3e167f81a4b6534157929a2d16f0d2
 Homepage: http://dev.mysql.com/
 Description: MySQL source
 Description-md5: 88f58941059fab032315a68e3122ac60
 
 Package: mysql-testsuite
 Architecture: all
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: universe/database
 Source: mysql-8.0
@@ -2461,19 +2551,19 @@ Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debi
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 107
 Depends: mysql-testsuite-8.0
-Filename: pool/universe/m/mysql-8.0/mysql-testsuite_8.0.27-0ubuntu0.21.10.1_all.deb
-Size: 9394
-MD5sum: 8a24a873ee1cc8c5bd286788c1eff60f
-SHA1: edf8aed6d374497987f19b5d52797039d022f33f
-SHA256: 93cea3b287571fa8852dbfe56ca9dea5b77a8a06b8843ff8604e7ac893051964
-SHA512: 49fe961e4f3060c3cb29d76c29c27703c21ff5c6e1a25b6cf1016e2d06185f6364baf8114e14afca29d0100f30898568d43d112ebe0c4fe88abcd591a596267d
+Filename: pool/universe/m/mysql-8.0/mysql-testsuite_8.0.28-0ubuntu0.21.10.3_all.deb
+Size: 9396
+MD5sum: 7c2f3d7bff98f9d4e2b2f1a43b566f18
+SHA1: 43dc21e860765b389b498595fe8a7e47a87f6648
+SHA256: 890f4fe95602b129d1787d9ea6458507640d6fcf62ee8b93d7f57ca32c24e925
+SHA512: eff9e2b38e81e45a0a78a290dcefa820c8caf96d0d08ebf9368a36ae0c81358b87815e4cb964b1d029b667e9a9e026dad9f1ffe0d64133cb00f7099f56f3938c
 Homepage: http://dev.mysql.com/
 Description: MySQL regression tests
 Description-md5: a37f36627bd4d1ec3a167a2eae840534
 
 Package: mysql-testsuite-8.0
 Architecture: amd64
-Version: 8.0.27-0ubuntu0.21.10.1
+Version: 8.0.28-0ubuntu0.21.10.3
 Priority: optional
 Section: universe/database
 Source: mysql-8.0
@@ -2481,16 +2571,16 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 578966
+Installed-Size: 581659
 Provides: virtual-mysql-testsuite
-Depends: libjson-perl, lz4, mysql-client-8.0 (= 8.0.27-0ubuntu0.21.10.1), mysql-server-8.0 (= 8.0.27-0ubuntu0.21.10.1), unzip, libc6 (>= 2.34), libgcc-s1 (>= 3.4), liblz4-1 (>= 0.0~r127), libprotobuf23 (>= 3.12.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.11)
+Depends: libjson-perl, lz4, mysql-client-8.0 (= 8.0.28-0ubuntu0.21.10.3), mysql-server-8.0 (= 8.0.28-0ubuntu0.21.10.3), unzip, libc6 (>= 2.34), libgcc-s1 (>= 3.4), liblz4-1 (>= 0.0~r127), libprotobuf23 (>= 3.12.4), libssl1.1 (>= 1.1.1), libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.11)
 Conflicts: mariadb-testsuite-10.1, mariadb-testsuite-10.3, mysql-testsuite-5.7, virtual-mysql-testsuite
-Filename: pool/universe/m/mysql-8.0/mysql-testsuite-8.0_8.0.27-0ubuntu0.21.10.1_amd64.deb
-Size: 226617262
-MD5sum: 1d6eabe43b5799f6056281126f93448a
-SHA1: 72d9a6fa560c824ae315098f176484ba3298c1e4
-SHA256: 4fa41b53c41ea2afed5a9ceb6899261aebba35eefba7657998c741f70135c5ba
-SHA512: 1577f6b16b7b331c9f75ba2c93743bf6589a0b6a92bdd337b6ea367a71a13831030b0290a7c1af9854e9d1702f780de2df22c20001b68e1bb9e9217198bdbdeb
+Filename: pool/universe/m/mysql-8.0/mysql-testsuite-8.0_8.0.28-0ubuntu0.21.10.3_amd64.deb
+Size: 227073194
+MD5sum: a1f823f27f7ee656d61254582e8b4287
+SHA1: 54bd7a1d60ec7794d93495937198e085c2004811
+SHA256: 3a3564a37a9a5eb77bae963806f3e8118ae3d7b1bef2736ea15c5083f841bded
+SHA512: 8f767887a2564d124f60b144f497df5334df8c5c15dcd55066870955f9697058a37a81c5e85fb3054b12d222b1540e58ce3bb059e0a229da2a880903813d6ec7
 Homepage: http://dev.mysql.com/
 Description: MySQL 8.0 testsuite
 Description-md5: ccc32250aefb33a80993be5dab467ee4
@@ -3796,7 +3886,7 @@ Description-md5: b388fd86350adaeeb21580f32ba12fcc
 
 Package: registry-tools
 Architecture: amd64
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/net
 Source: samba
@@ -3805,13 +3895,13 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 294
-Depends: samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libc6 (>= 2.34), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libtalloc2 (>= 2.3.1~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
-Filename: pool/universe/s/samba/registry-tools_4.13.14+dfsg-0ubuntu0.21.10.4_amd64.deb
-Size: 35106
-MD5sum: 44b44e15ff02c069ccfdec0eabe96fbb
-SHA1: ba0f39117cf419a51ce856bec18396f4a20ba078
-SHA256: 9c4bdf3705c1ad596fb85c3031bdb5a7d40c2d8e3ba0a412efbca753c16b87e6
-SHA512: 948a48a53d918bd4936ba6d1bd4ddfe024ab603a6c9c7abd983ab827e705cf259daf7f82307f7bc0ea27715477b314d0363a31248a8dd8f2f9949813b1b9e771
+Depends: samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libc6 (>= 2.34), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libtalloc2 (>= 2.3.1~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
+Filename: pool/universe/s/samba/registry-tools_4.13.17~dfsg-0ubuntu0.21.10.1_amd64.deb
+Size: 35596
+MD5sum: 2873fa71bea53bb2024bb51f5633d19f
+SHA1: d30da3689d2b1f3e41454b594034d7ac548aebbf
+SHA256: 3e26e879ff3ddf1e1005c43b507a0a80104b7c0e72822c62766ac0a885532155
+SHA512: 5bf7e9588167a07005522553c59e9c52be77f6136a389935dbbfbe948849fd6db2573fab3d60a70e94c8ee485fe212459b7f995a2bbd7712f42478f16a79460a
 Homepage: http://www.samba.org
 Description: tools for viewing and manipulating the Windows registry
 Description-md5: 7266dad7d5ee9360537ffc04ec7157f3
@@ -3863,9 +3953,33 @@ Homepage: http://www.rust-lang.org/
 Description: Rust systems programming language - all developer tools
 Description-md5: 90140e39ec4bd9741a36b3f6d4c6d053
 
+Package: rust-all
+Architecture: all
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
+Priority: optional
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 253
+Depends: rustc (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), rustfmt (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), rust-clippy (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), rust-gdb (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1) | rust-lldb (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), cargo
+Recommends: cargo (>= 0.57.0~~), cargo (<< 0.58.0~~)
+Suggests: rust-doc (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), rust-src (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), libstd-rust-dev-wasm32 (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), libstd-rust-dev-windows (>= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1)
+Filename: pool/universe/r/rustc/rust-all_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_all.deb
+Size: 23058
+MD5sum: ad4bddb1502cc1df140f27370cf399be
+SHA1: 671a58c8b36826b82aa91ced1923d02410310e90
+SHA256: 026f132e907a0a6d19408a9f3a0fe07d387e1683c1ad2394d03b40b51315fed0
+SHA512: 4dd950748397820a8add5298fa3d051f31bd6d7413938ef284b710530616ebc25f8a0e6248d45dcdc6b8bdc62e18f247c86aa5adc1591ae5eb0fb4caf96924c9
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language - all developer tools
+Description-md5: 90140e39ec4bd9741a36b3f6d4c6d053
+
 Package: rust-clippy
 Architecture: amd64
-Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 Multi-Arch: allowed
 Priority: optional
 Section: universe/devel
@@ -3874,15 +3988,15 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 6924
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstd-rust-1.53 (= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1)
+Installed-Size: 7416
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstd-rust-1.57 (= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1)
 Recommends: cargo
-Filename: pool/universe/r/rustc/rust-clippy_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_amd64.deb
-Size: 1881630
-MD5sum: 845458726ea2220080298ddf9163fbc3
-SHA1: 4a8e945084b724347d3c0c5169b44bfd584894cd
-SHA256: a052a64ef2c47809ccf44b2189a41c24286613ec2a011576a5282b6fa1df5c14
-SHA512: cb129e8ef527339990a509ebf39bbd2acb3a6df1226d98e79d694ca08fa885772a36dda9465b06970f22d02f3cbf783c1e72a33ac1928ebacca45d0f61302acb
+Filename: pool/universe/r/rustc/rust-clippy_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_amd64.deb
+Size: 2009748
+MD5sum: 761cef753f57ddfd404d6890de523e72
+SHA1: 3ef3de8e45ae2d150e447a410ac7347792ebdf24
+SHA256: 91f17c24834c1411a75f1e22782c4f6409db387f6dd602a5cd7f753299ae25f0
+SHA512: b2b56a4b009422fd50b1e74645c88edae996649eecce3bd63bb71c8b775cc313297ff6cd8954c20ae35fa989264049b312367133e47bd72dd140182d84646108
 Homepage: http://www.rust-lang.org/
 Description: Rust linter
 Description-md5: bb70ecb7b097f53232194f2241ad606e
@@ -3906,6 +4020,29 @@ MD5sum: e7c089bad8c38c70102ac675cb4cefdd
 SHA1: 17646f0ce3133f6ba302c052e74e77ef524376cc
 SHA256: 828aea1b3c93cd6032f9c84410ca0aafd9b06479ef9989dbeaabc27fd0ce11ed
 SHA512: 35c28cd74f01246ef1a05f179b1e461cbea6476b5014d8bf72ee78ddecc7618b8fd9208c55b26aa8722cc0545e62f510e9c7b88f2188071bf5bc4f79e1103e6e
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language - Documentation
+Description-md5: c9fc696f11bdef73526bdf4340964294
+
+Package: rust-doc
+Architecture: all
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
+Priority: extra
+Section: universe/doc
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 439025
+Depends: libjs-jquery, libjs-highlight.js, libjs-mathjax, fonts-open-sans, fonts-font-awesome
+Recommends: cargo-doc
+Filename: pool/universe/r/rustc/rust-doc_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_all.deb
+Size: 15666466
+MD5sum: d4a71dae88ea6a40a0fd68c4ffd437bd
+SHA1: 6b5aef9db612f0d4c010044e87cfab4c5d167996
+SHA256: 48a9c42252642d2f4df985adf2c99063fc7b8909f308f349de3bd302e970f40d
+SHA512: 490d2546cbc0430ac641e1a5ab2dc9c0601ad99bfe0d47853923e0f54a5b7e6f10132e13ad467050680c35c51060735d708df5bf5125e47aa166af86670693f8
 Homepage: http://www.rust-lang.org/
 Description: Rust systems programming language - Documentation
 Description-md5: c9fc696f11bdef73526bdf4340964294
@@ -3934,6 +4071,30 @@ Homepage: http://www.rust-lang.org/
 Description: Rust debugger (gdb)
 Description-md5: 1afbf06d9ee3b7b85a98c81c15ed3109
 
+Package: rust-gdb
+Architecture: all
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
+Priority: extra
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 281
+Depends: gdb
+Suggests: gdb-doc
+Replaces: rustc (<< 1.1.0+dfsg1-1)
+Filename: pool/universe/r/rustc/rust-gdb_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_all.deb
+Size: 30884
+MD5sum: 5e6949cf9e976df1b52e526060c572e9
+SHA1: 35b969bc48b4848825ecafb31defc95f127b80c2
+SHA256: ba8811b7198dd7610501119b97bb8ea0bbe7dcd0f73ee4d392be6cfbd20bc8bb
+SHA512: b01b929957cace81094b73fc7953cdfe0eb621c07055382a988834d20c9bcc5754e28abb249189a0b4e8241d1a2cae1b37ade4b891f66a7a6780b6eac634a379
+Homepage: http://www.rust-lang.org/
+Description: Rust debugger (gdb)
+Description-md5: 1afbf06d9ee3b7b85a98c81c15ed3109
+
 Package: rust-lldb
 Architecture: all
 Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
@@ -3953,6 +4114,29 @@ MD5sum: 276b8473904145b20fa73624e6846e92
 SHA1: 0792f822b941cb4e0e16eb8b24a522fb0a495622
 SHA256: 68e54d292ea3438ee6df41871e989525d1f20bfa7f0b3444e8684e8dbf754fdd
 SHA512: dec3af6e984617c20618923eb37df7158f196bebb73536658095924fa6363e8100d1532b83af9896c2d8ab46d1d7f40d04ef21f05ea77e7409b410140839d4ce
+Homepage: http://www.rust-lang.org/
+Description: Rust debugger (lldb)
+Description-md5: 4da7dd4330a7b317624f536076fd1b69
+
+Package: rust-lldb
+Architecture: all
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
+Priority: extra
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 294
+Depends: lldb-13, python3-lldb-13
+Replaces: rustc (<< 1.1.0+dfsg1-1)
+Filename: pool/universe/r/rustc/rust-lldb_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_all.deb
+Size: 31834
+MD5sum: 71f951af83c03e718596021518be2c13
+SHA1: 5e68a3fc00a9bad08360c9d73712c8cd96f3b032
+SHA256: aec829ddb82dae1d09527f258c2575779eccb6b43175323fed7e3db2254d6232
+SHA512: f2547ba59c350536bbf4dbd2795ec6137880966071d7619a394a8ab39f3bf357244cc49f95ff5d843edc49e56988f41f3469021adc0451b983e753fc85bb59dc
 Homepage: http://www.rust-lang.org/
 Description: Rust debugger (lldb)
 Description-md5: 4da7dd4330a7b317624f536076fd1b69
@@ -3978,9 +4162,30 @@ Homepage: http://www.rust-lang.org/
 Description: Rust systems programming language - source code
 Description-md5: 7c8d03ba583d96a9cc7a0dc63f208a52
 
+Package: rust-src
+Architecture: all
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
+Priority: extra
+Section: universe/devel
+Source: rustc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 143295
+Filename: pool/universe/r/rustc/rust-src_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_all.deb
+Size: 16336518
+MD5sum: 8b3204eaa822a2134b7d4b498cdbe2c8
+SHA1: 8519dbd475f5767ab06dc89ab4552837fe3a7cca
+SHA256: 7109297784223b98281e1cc6cf0037edefb1374cf7b5857f904183503a5e0e0a
+SHA512: d90a990062b9676fe6c214fc79ab23b2f61d7ab9d49088a5deb09a1086244a5f1ad965a7ad233c5eed0fd12aa40886c25fe89040849e261a4b6df9d27dd84dc4
+Homepage: http://www.rust-lang.org/
+Description: Rust systems programming language - source code
+Description-md5: 7c8d03ba583d96a9cc7a0dc63f208a52
+
 Package: rustc
 Architecture: amd64
-Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 Multi-Arch: allowed
 Priority: extra
 Section: universe/devel
@@ -3988,25 +4193,25 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 7471
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstd-rust-dev (= 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1), gcc, libc-dev, binutils (>= 2.26)
-Recommends: cargo (>= 0.54.0~~), cargo (<< 0.55.0~~), llvm-12
-Suggests: lld-12, clang-12
+Installed-Size: 9197
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstd-rust-dev (= 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1), gcc, libc-dev, binutils (>= 2.26)
+Recommends: cargo (>= 0.57.0~~), cargo (<< 0.58.0~~), llvm-13
+Suggests: lld-13, clang-13
 Breaks: libstd-rust-dev (<< 1.26.2+dfsg1+llvm-0ubuntu1~~)
 Replaces: libstd-rust-dev (<< 1.26.2+dfsg1+llvm-0ubuntu1~~)
-Filename: pool/universe/r/rustc/rustc_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_amd64.deb
-Size: 2847870
-MD5sum: 7e2047bcd8f9d7e40f24143fd674fbe5
-SHA1: 8b54f4d12f1d499d7c2a3e842e666fb4827aabb2
-SHA256: 36fa31b354b8cd7a11a063c0f6f392fe3e361f3ac6d819001c223b7c13ad549f
-SHA512: 80cb69e6f9422e19bfa497a669fbd42648913c4b225896cc5f323659c1826c07dbeeb72fca1cfd330e902ce9864e47f34bd8c48da253fee398694cc2f560c2cc
+Filename: pool/universe/r/rustc/rustc_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_amd64.deb
+Size: 3607454
+MD5sum: 4c5b11dff64b7e02f09f8424726d23d2
+SHA1: 5420441808ba4ec28b316ae4a7470da90323830f
+SHA256: db833c7e1adacdd665610e02467b6a17c78d6cf6cf7a30edc56aed8e2bb85775
+SHA512: a1ea19efb76c3aa1ce30914013cd37a0c79fb8dca408ce9acfe87267624f0c55c47e7c1175c0651bc4a5c321a4208520b2f7014785d058661236538d00031355
 Homepage: http://www.rust-lang.org/
 Description: Rust systems programming language
 Description-md5: 67ca6080eea53dc7f3cdf73bc6b8521e
 
 Package: rustfmt
 Architecture: amd64
-Version: 1.53.0+dfsg1+llvm-4ubuntu1~21.10.1
+Version: 1.57.0+dfsg1+llvm-0ubuntu1~21.10.1
 Multi-Arch: allowed
 Priority: optional
 Section: universe/devel
@@ -4015,22 +4220,22 @@ Origin: Ubuntu
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-Installed-Size: 8820
+Installed-Size: 9208
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Recommends: cargo
-Filename: pool/universe/r/rustc/rustfmt_1.53.0+dfsg1+llvm-4ubuntu1~21.10.1_amd64.deb
-Size: 2454320
-MD5sum: c6490e316c77157c954a7b0524a440bb
-SHA1: 944354524c9bb493843656535857e11824c7f2ca
-SHA256: 32cf960663b8166ee3a20ac7aedac3a7b33ae3924b0a6929cc097537839f8eb6
-SHA512: 40ebba3ac23d1c9433639754b8e790ea13a33dc1a522fc856adee4f0fd96c4148737140f2366891f083b3de7147a1e51a12a6680d5fa85f75f244263348108fe
+Filename: pool/universe/r/rustc/rustfmt_1.57.0+dfsg1+llvm-0ubuntu1~21.10.1_amd64.deb
+Size: 2602666
+MD5sum: ce19a0fc40a722f1d19a4207afa3b7c7
+SHA1: 032f3fefa7379a383f61263b36ec293c8a7f6298
+SHA256: 4f6e9f13be2f417a4f199875f12d1f249f9fc310b37e1b826ab09c0d55679be7
+SHA512: b0c046a875bae72efba291f08ec3ac9f5d17bf6e90f68810ac344a1004dcc1fa4db54fd26a39705c7dfb2d9bd6ae54897e63763b8d29594142b0e1769f516dc1
 Homepage: http://www.rust-lang.org/
 Description: Rust formatting helper
 Description-md5: 3ad3031d946444f1737bc02666f33a91
 
 Package: samba-testsuite
 Architecture: amd64
-Version: 2:4.13.14+dfsg-0ubuntu0.21.10.4
+Version: 2:4.13.17~dfsg-0ubuntu0.21.10.1
 Priority: optional
 Section: universe/net
 Source: samba
@@ -4039,17 +4244,82 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 Installed-Size: 9060
-Depends: samba-common-bin, samba-libs (= 2:4.13.14+dfsg-0ubuntu0.21.10.4), libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldb2 (>= 2:2.2.3~), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libsmbclient (>= 2:4.12.0+dfsg), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.14+dfsg-0ubuntu0.21.10.4)
+Depends: samba-common-bin, samba-libs (= 2:4.13.17~dfsg-0ubuntu0.21.10.1), libbsd0 (>= 0.0), libc6 (>= 2.34), libgnutls30 (>= 3.7.0), libldb2 (>= 2:2.2.3~), libpopt0 (>= 1.14), libreadline8 (>= 6.0), libsmbclient (>= 2:4.12.0+dfsg), libtalloc2 (>= 2.3.1~), libtdb1 (>= 1.4.3~), libtevent0 (>= 0.10.2~), libwbclient0 (= 2:4.13.17~dfsg-0ubuntu0.21.10.1)
 Suggests: subunit
-Filename: pool/universe/s/samba/samba-testsuite_4.13.14+dfsg-0ubuntu0.21.10.4_amd64.deb
-Size: 2075948
-MD5sum: bf1ef993513135a17880da24c14caa53
-SHA1: 257a218c32eee498196bdb4842bb543b6df79236
-SHA256: e4be0ac5679be21ca66490c51e26bd1215413c9ad407ff8bfd3f31c4957a67f1
-SHA512: 483fa7d360b304724df166c70456490afd704ee7694db9e82d12ea52d6fe11488922f020d3e4cfec50473f6dc207542df7ed3368daaf3a71ebeeb3329e05fecd
+Filename: pool/universe/s/samba/samba-testsuite_4.13.17~dfsg-0ubuntu0.21.10.1_amd64.deb
+Size: 2076304
+MD5sum: a53170dc3e00ae1d2cf6ceb13e4960fe
+SHA1: e28f885d9dcd5399f69a17c2fa7af7a24b536ec4
+SHA256: 5944a6b45135641a79998783038bec9aa21bee796adca68083f093014b9e6086
+SHA512: 32e14d0e085c606d121b36845e8e2cb9a64bdc2367a5e70581148ea08c966ff48c51a601e3f89b92a5f84a95ea8d47c0b929efa26a894638f0dea7396786e708
 Homepage: http://www.samba.org
 Description: test suite from Samba
 Description-md5: 9909252a54b8d1689d0ad0af3791b792
+
+Package: snap-confine
+Architecture: amd64
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/utils
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 187
+Depends: snapd (= 2.54.3+21.10.1ubuntu0.1)
+Filename: pool/universe/s/snapd/snap-confine_2.54.3+21.10.1ubuntu0.1_amd64.deb
+Size: 1584
+MD5sum: 4fe4e1ddadb61b7740e9ef8b3403c3a1
+SHA1: 188345d5484b5b061d9cf476f5d6513165c857ab
+SHA256: 98775dde280dfb69b383eb8b7f5d2510007684baabf3923ca6136ad2cae75d40
+SHA512: 7e93cb23c36fc25974c9cedeb391325b064ed1b89a48a0e6596760ff7afdb073df3866f71523b5c2dd9e9eb468eb8292f7d6a0a5d50d95c8f65ff0935a6b9112
+Homepage: https://github.com/snapcore/snapd
+Description: Transitional package for snapd
+Description-md5: 3223c275ff89224fda1b277eec5e7ffe
+
+Package: snapd-xdg-open
+Architecture: amd64
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/utils
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 183
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: snapd (= 2.54.3+21.10.1ubuntu0.1)
+Filename: pool/universe/s/snapd/snapd-xdg-open_2.54.3+21.10.1ubuntu0.1_amd64.deb
+Size: 1428
+MD5sum: 53d86be96f974b56163a873df7bb7502
+SHA1: 4d0b7e88a2fdcca0b96aa69a7da34cb8138683db
+SHA256: 73665ca3447013f3902b0f30c8364ae8bd3164c2391a72384cff1d123277826f
+SHA512: 335ff79c16cb445400b4e07de8316b307701ca1a514d7c8d3e8a19b3d2b27a3f99d009b6c758be34461b39b5b250ef45a6b9c39f6c6283f172b8d3ccc90d99b2
+Homepage: https://github.com/snapcore/snapd
+Description: Transitional package for snapd-xdg-open
+Description-md5: ba6c49ad1a4e739a75a7e8d0fde06a77
+
+Package: speex
+Architecture: amd64
+Version: 1.2~rc1.2-1.1ubuntu1.21.10.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/sound
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 91
+Depends: libc6 (>= 2.34), libogg0 (>= 1.1.0), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1)
+Filename: pool/universe/s/speex/speex_1.2~rc1.2-1.1ubuntu1.21.10.1_amd64.deb
+Size: 22992
+MD5sum: 4a40885c934ba1f675f458a92e11f387
+SHA1: 32484686856c2fa62a78a98b395fb9dd08639881
+SHA256: bc746434a44a71b480b4aceef8b1534f86c0b73279904357aa2b3ae1f48a5f44
+SHA512: 759b5ae2b387e60d0a025fcb58ffc828a3fe6166f3a2ef8b0b587953a3e1ba0977f707e98bf370f2a95220fdcea13ee604ad94d238891ae21e06d4f8095a31ed
+Homepage: http://www.speex.org/
+Description: The Speex codec command line tools
+Description-md5: 30acf610b7bb12b7f7c8d43f2518349b
 
 Package: strongswan-nm
 Architecture: amd64
@@ -4254,6 +4524,91 @@ SHA256: 60066581ae5e1a11eb71c701cc64af5ed0a214f584ac44da8c04c0dbc98f723f
 SHA512: 4daabc3ac8a3c715bd387b9e34642eefe3174e18fd8ae405c11599bf21f82f9a355957ad63d6d87ad68d146f142ad4bddfd08cd32dc416c4d65e73ec2b651d3a
 Description: Email, RSS and newsgroup client - Breakpad symbols
 Description-md5: ac1a6a5ccd00092e19efbf6f6f9538a0
+
+Package: ubuntu-core-launcher
+Architecture: amd64
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/utils
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 183
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: snapd (= 2.54.3+21.10.1ubuntu0.1)
+Filename: pool/universe/s/snapd/ubuntu-core-launcher_2.54.3+21.10.1ubuntu0.1_amd64.deb
+Size: 1440
+MD5sum: 39f7b8b7f9cd25ae4b79980b8656ce83
+SHA1: 59db5c1443b23a41d2cce8daa5706e1b97d92b06
+SHA256: 3f4080084aaab2cbf577b44be50dc82e09087253c6e33a9df06994aea6c1ffc5
+SHA512: 477a573dbbcebc90f60caceb4dd8656fe4e7b09c744874f5ccb439e02d097f0dd45096ec3eae47e78ff4b5c7d2b4e05d9295806e720a9955b73c2cc744cdb538
+Homepage: https://github.com/snapcore/snapd
+Description: Transitional package for snapd
+Description-md5: 3223c275ff89224fda1b277eec5e7ffe
+
+Package: ubuntu-core-snapd-units
+Architecture: all
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/devel
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 183
+Depends: snapd
+Filename: pool/universe/s/snapd/ubuntu-core-snapd-units_2.54.3+21.10.1ubuntu0.1_all.deb
+Size: 1404
+MD5sum: 577468619bdace90e408b163f829a21a
+SHA1: 752c8929052d4c4d0a22b910889de3ff0d8645c1
+SHA256: ebad033275a0d370761308489eb08372a4c461d22927a5a408395facf50eb369
+SHA512: 77286d308efbc9225e9beccaedc56b56d85ec99ab74d84b7eee83d01f9273b5d4fa75aa3f0c307a5ebbb9da011f131bc6a7bc67e929115776eadfc86e51359f7
+Homepage: https://github.com/snapcore/snapd
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: ubuntu-snappy
+Architecture: all
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/devel
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 183
+Depends: snapd
+Filename: pool/universe/s/snapd/ubuntu-snappy_2.54.3+21.10.1ubuntu0.1_all.deb
+Size: 1382
+MD5sum: 3ac6b44821e68d7560da4bf47a1fd30f
+SHA1: f875f760903b224c0221d0d687a1d5f7fe2c0a60
+SHA256: 17b409f9786a61ad80a5cf807def1eb06a178ef061cebdefaa08fe97da4576da
+SHA512: 8c09b7da57875bfb00b973446e468f5dbd04c08af2975555a2435afa8272888b4e7ca2cb819682ddce40fe6a982f020ac0b6faecf874978c165ad03b97d542db
+Homepage: https://github.com/snapcore/snapd
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
+
+Package: ubuntu-snappy-cli
+Architecture: all
+Version: 2.54.3+21.10.1ubuntu0.1
+Priority: optional
+Section: universe/devel
+Source: snapd
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 189
+Depends: snapd
+Filename: pool/universe/s/snapd/ubuntu-snappy-cli_2.54.3+21.10.1ubuntu0.1_all.deb
+Size: 1454
+MD5sum: c1a85f0d1a64568f373de15dce327fe1
+SHA1: b97a1045e3064bec64dc689ff10118ddaebd9459
+SHA256: 9f7887190e641942aa432363108d343fbf84b316089cc81a612a54f4b9f62907
+SHA512: 27501cf588b6d8459364364c33d83de0ccc6b731fddc6436726e640245a2ee00b65488d198612a451eea8d24f6ea4644419f87605ecdd957dd51a35d689b524f
+Homepage: https://github.com/snapcore/snapd
+Description: transitional dummy package
+Description-md5: 1f317b04f78374dba7d1e14def0b7f80
 
 Package: udhcpc
 Architecture: amd64

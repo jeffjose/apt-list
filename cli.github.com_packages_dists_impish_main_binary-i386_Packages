@@ -1,16 +1,16 @@
 Package: gh
-Version: 2.4.0
+Version: 2.5.1
 Architecture: i386
 Maintainer: GitHub
-Installed-Size: 26605
+Installed-Size: 23974
 Depends: git
 Homepage: https://github.com/cli/cli
 Priority: optional
 Section: Development
-Filename: pool/main/g/gh/gh_2.4.0_i386.deb
-Size: 6721702
-SHA256: 15cada562b089e9931f81ad4d0975da68aa45ed594c2af9788ebaaffd2e8dd9d
-SHA1: 206c8ea9897898b4d9b7071ec207dcc490a00cc6
-MD5sum: ec7ddf446585db8cca0429b318a7ebc7
+Filename: pool/main/g/gh/gh_2.5.1_i386.deb
+Size: 6874988
+SHA256: dcfcb527a8e84fc987e0bc984c9349d6a11071d3226e59ab97501dd560d56067
+SHA1: bc463298c79bb070ca896d5a2d34548f76c6d745
+MD5sum: e6b6ceeb233602da632aa72bd0e436da
 Description: GitHub’s official command line tool.
 

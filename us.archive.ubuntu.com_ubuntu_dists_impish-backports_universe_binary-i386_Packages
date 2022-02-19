@@ -164,6 +164,31 @@ Homepage: https://cockpit-project.org/
 Description: Cockpit admin interface for a system
 Description-md5: 305239ce7fcb5c6043156a1e54c69f73
 
+Package: gramps
+Architecture: all
+Version: 5.1.4-1~bpo21.10.1
+Priority: optional
+Section: universe/gnome
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Ross Gammon <rossgammon@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 44074
+Depends: gir1.2-gtk-3.0 (>= 3.12.0), librsvg2-2, python3-gi (>= 3.12.0), python3-gi-cairo, python3-bsddb3, xdg-utils, python3:any
+Recommends: graphviz, gir1.2-gexiv2-0.10, gir1.2-osmgpsmap-1.0, python3-icu, gir1.2-geocodeglib-1.0
+Suggests: fonts-freefont-ttf, gir1.2-goocanvas-2.0, gir1.2-gtkspell3-3.0, python3-pil, rcs, python3-numpy
+Conflicts: python-gramps, python3-gramps
+Replaces: python-gramps, python3-gramps
+Filename: pool/universe/g/gramps/gramps_5.1.4-1~bpo21.10.1_all.deb
+Size: 7095560
+MD5sum: 864b01379111365bdcc9e71f69d70a95
+SHA1: 55cc3616a4a6ccc554221044316e2bd16d36c57c
+SHA256: 85482115743154e53a9df8a1dd9af5a8da1af751c459ac385c8ff9b79c8475a2
+SHA512: 786189d9323a45800acd5ec6e3aaf4dc250c919c6188d042401c778f81f81a06cf4e21895c5b3d3404b92bc6ce2f7bc61117683e76750b2199705fe83fc594f0
+Homepage: https://www.gramps-project.org/
+Description: Genealogical research program
+Description-md5: 4b8460288fec6ae3a1337b9f64a45957
+
 Package: python3-ubuntutools
 Architecture: all
 Version: 0.187~bpo21.10.1

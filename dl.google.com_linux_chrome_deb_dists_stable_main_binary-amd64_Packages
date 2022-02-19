@@ -1,57 +1,57 @@
 Package: google-chrome-beta
-Version: 98.0.4758.74-1
+Version: 99.0.4844.35-1
 Architecture: amd64
 Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
-Installed-Size: 283760
+Installed-Size: 261080
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Recommends: libu2f-udev, libvulkan1
 Provides: www-browser
 Priority: optional
 Section: web
-Filename: pool/main/g/google-chrome-beta/google-chrome-beta_98.0.4758.74-1_amd64.deb
-Size: 90847352
-SHA256: a1bc21a9a46e3f731c93391ff1aa5c98c7ccd7f25974f8c9607dd27aadfa055d
-SHA1: fed0937b23b8b3418c14eff6575fc785e5e7d33f
-MD5sum: e026c88c05351cd5ff2395d21abbcfdb
+Filename: pool/main/g/google-chrome-beta/google-chrome-beta_99.0.4844.35-1_amd64.deb
+Size: 82984276
+SHA256: c44a292358091b8a4fa414a175b3f345c26dfa4e8ccd2d7ab879ca0fdcd07ea2
+SHA1: 1ff059820704b300cfa5f8dbd6af1483c4f156b1
+MD5sum: 9b26444c062235aa7091293503bc74cb
 Description: The web browser from Google
  Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
 
 Package: google-chrome-stable
-Version: 97.0.4692.99-1
+Version: 98.0.4758.102-1
 Architecture: amd64
 Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
-Installed-Size: 282281
-Pre-Depends: dpkg (>= 1.14.0)
-Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
-Recommends: libu2f-udev, libvulkan1
-Provides: www-browser
-Priority: optional
-Section: web
-Filename: pool/main/g/google-chrome-stable/google-chrome-stable_97.0.4692.99-1_amd64.deb
-Size: 90862320
-SHA256: 48334071fa2462698301231e9d63b647f558eecc6e60a6d9cfc71805a1564ea1
-SHA1: 106ee68bb776691dd31602d3540a15632fdadf32
-MD5sum: e73a05cb0091ffddc3c026cff919397c
-Description: The web browser from Google
- Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
-
-Package: google-chrome-unstable
-Version: 99.0.4844.11-1
-Architecture: amd64
-Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
-Installed-Size: 261191
+Installed-Size: 283777
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Recommends: libu2f-udev, libvulkan1
 Provides: www-browser
 Priority: optional
 Section: web
-Filename: pool/main/g/google-chrome-unstable/google-chrome-unstable_99.0.4844.11-1_amd64.deb
-Size: 82996568
-SHA256: 70a40287f58fa3b4806f6d83f60ca5d8439008f668b728adcb3e4f39a03a7407
-SHA1: 0878a2198679974cfd7665bdcb2b0eaba7483383
-MD5sum: 5e0113f417ddad8ee32f7a34267642f7
+Filename: pool/main/g/google-chrome-stable/google-chrome-stable_98.0.4758.102-1_amd64.deb
+Size: 90840348
+SHA256: 864ffdeb9402ee82da2786e99c58547598762b281f34a14d8ad670ece654d95d
+SHA1: 5ee6e101bbb5ec80d05ff4ab569b21b750efbb0d
+MD5sum: 9d0f7d7eeb70761fcfcab209bc20bd98
+Description: The web browser from Google
+ Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+
+Package: google-chrome-unstable
+Version: 100.0.4892.0-1
+Architecture: amd64
+Maintainer: Chrome Linux Team <chromium-dev@chromium.org>
+Installed-Size: 263584
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.5.12), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.4.1), libxrandr2, wget, xdg-utils (>= 1.0.2)
+Recommends: libu2f-udev, libvulkan1
+Provides: www-browser
+Priority: optional
+Section: web
+Filename: pool/main/g/google-chrome-unstable/google-chrome-unstable_100.0.4892.0-1_amd64.deb
+Size: 83228972
+SHA256: 1c1b20a3c2bc77c1a3a9018a21334ab2a2af5382cb96faf62d5c0d1cc51a0300
+SHA1: 8ef098b559772ad738058ae83e1df8fbb8d8770c
+MD5sum: e75a0161a7d14a614ded7ee97da02003
 Description: The web browser from Google
  Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
 
